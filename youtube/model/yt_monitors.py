@@ -2,7 +2,8 @@ from utils import File
 
 
 class MonitorManager:
-    def __init__(self, monitors_file):
+    def __init__(self, monitors_file, api_worker):
+        self.api = api_worker
         self.db = monitors_file
         data = File.get_file_lines(self.db)
 
@@ -14,6 +15,10 @@ class MonitorManager:
 
     def __repr__(self):
         return "\n".join([self.header] + [repr(monitor) for monitor in self.monitors])
+
+    def test(self):
+        for m in self.monitors:
+            print(self.api.get_channel_id_from_name(m.name))
 
     def finish(self):
         updated_data = [self.header] + [repr(monitor) for monitor in self.monitors]

@@ -27,15 +27,15 @@ def main():
     youtube = googleapiclient.discovery.build(
         api_service_name, api_version, developerKey = DEVELOPER_KEY)
 
-    request = youtube.search().list(
-        part="snippet,id",
-        channelId="UC_x5XG1OV2P6uZZ5FSM9Ttw",
-        maxResults=3,
-        order="date"
-    )
-    response = request.execute()
-
-    print(response)
+    # request = youtube.search().list(
+    #     part="snippet,id",
+    #     channelId="UC_x5XG1OV2P6uZZ5FSM9Ttw",
+    #     maxResults=3,
+    #     order="date"
+    # )
+    # response = request.execute()
+    #
+    # print(response)
 
 
 if __name__ == "__main__":

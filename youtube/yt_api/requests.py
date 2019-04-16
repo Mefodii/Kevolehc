@@ -11,7 +11,7 @@ api_version = "v3"
 class YoutubeWorker():
     def __init__(self, dk_file):
 
-        self.dk = File.get_file_lines(dk_file)
+        self.dk = File.get_file_lines(dk_file)[0]
         self.youtube = googleapiclient.discovery.build(
             api_service_name, api_version, developerKey=self.dk)
 
