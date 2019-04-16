@@ -1,0 +1,2 @@
+Youtube_Channel_Username;Youtube_Channel_ID;Reference_Date;Last_Video_Number;Format
+Kurzgesagt;;;;V

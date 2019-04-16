@@ -7,6 +7,12 @@
 import os
 
 import googleapiclient.discovery
+from utils import File
+from youtube import paths
+
+
+def get_dk():
+    return File.get_file_lines('/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE]))[0]
 
 
 def main():
@@ -16,7 +22,7 @@ def main():
 
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = ""
+    DEVELOPER_KEY = get_dk()
 
     youtube = googleapiclient.discovery.build(
         api_service_name, api_version, developerKey = DEVELOPER_KEY)
