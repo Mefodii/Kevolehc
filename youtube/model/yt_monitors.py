@@ -1,31 +1,4 @@
-from utils import File
-
-
-class MonitorManager:
-    def __init__(self, monitors_file, api_worker):
-        self.api = api_worker
-        self.db = monitors_file
-        data = File.get_file_lines(self.db)
-
-        self.header = data[0]
-
-        self.monitors = []
-        for i in range(1, len(data)):
-            self.monitors.append(Monitor(data[i]))
-
-    def __repr__(self):
-        return "\n".join([self.header] + [repr(monitor) for monitor in self.monitors])
-
-    def test(self):
-        for m in self.monitors:
-            print(self.api.get_channel_id_from_name(m.name))
-
-    def finish(self):
-        updated_data = [self.header] + [repr(monitor) for monitor in self.monitors]
-        File.write_lines_to_file_utf8(self.db, updated_data)
-
-
-class Monitor:
+class YoutubeMonitor:
     def __init__(self, data_string):
         object_elements = data_string.split(";")
 

@@ -1,4 +1,7 @@
-PROJECT_PATH = "D:/Automatica/Python/PyCharmProjects/Kevolehc/Kevolehc/youtube"
+import os
+
+
+PROJECT_PATH = "\\".join(os.getcwd().split("\\")[0:-1])
 RESOURCES_PATH = PROJECT_PATH + "/resources"
 FILES_PATH = PROJECT_PATH + "/files"
 INPUT_FILES_PATH = FILES_PATH + "/input"

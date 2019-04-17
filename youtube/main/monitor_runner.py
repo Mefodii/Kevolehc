@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import os
 import time
 from youtube import paths
-from youtube.model.yt_monitors import MonitorManager
+from youtube.managers.yt_managers import MonitorManager
 from youtube.yt_api.requests import YoutubeWorker
 
 
@@ -15,7 +15,6 @@ def __main__():
 
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker)
-    manager.test()
 
     manager.finish()
 
