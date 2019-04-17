@@ -27,7 +27,8 @@ class YoutubeWorker():
             part="snippet,id",
             channelId=yt_id,
             maxResults=100,
-            order="date"
+            order="date",
+            publishedAfter=yt_date
         )
 
         return request.execute()
