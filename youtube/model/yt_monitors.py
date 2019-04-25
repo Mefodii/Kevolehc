@@ -11,14 +11,20 @@ class YoutubeMonitor:
         self.video_number = object_elements[3]
         self.format = object_elements[4]
 
+        self.validate()
+
     def validate(self):
-        pass
+        self.validate_name_and_id()
+        self.validate_reference_date()
+        self.validate_video_number()
+        self.validate_format()
 
     def validate_name_and_id(self):
         pass
 
     def validate_reference_date(self):
-        pass
+        if not self.reference_date:
+            self.reference_date = "1970-04-23T20:39:59.000Z"
 
     def validate_video_number(self):
         pass

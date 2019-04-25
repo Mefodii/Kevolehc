@@ -30,7 +30,10 @@ class MonitorManager:
 
     def check_for_updates(self):
         for monitor in self.monitors:
-            pass
+            response = self.api.get_channel_videos_from_date(monitor.id, monitor.reference_date)
+            for item in response['items']:
+                print(item)
+            # print(response['items'][0])
 
     def finish(self):
         updated_data = [self.header] + [repr(monitor) for monitor in self.monitors]

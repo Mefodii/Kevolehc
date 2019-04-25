@@ -15,6 +15,7 @@ def __main__():
 
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker)
+    manager.check_for_updates()
 
     manager.finish()
 

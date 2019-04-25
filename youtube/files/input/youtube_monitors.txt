@@ -1,2 +1,2 @@
 Youtube_Channel_Username;Youtube_Channel_ID;Reference_Date;Last_Video_Number;Format
-Kurzgesagt;UCsXVk37bltHxD1rDPwtNM8Q;;;V
+Kurzgesagt;UCsXVk37bltHxD1rDPwtNM8Q;2019-03-31T12:30:00.000Z;;V

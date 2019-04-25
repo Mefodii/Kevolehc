@@ -26,7 +26,7 @@ class YoutubeWorker():
         request = self.youtube.search().list(
             part="snippet,id",
             channelId=yt_id,
-            maxResults=100,
+            maxResults=3,
             order="date",
             publishedAfter=yt_date
         )
