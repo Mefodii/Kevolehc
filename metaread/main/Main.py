@@ -80,7 +80,7 @@ def list_titles(artist, path):
 # Main function
 #######################################################################################################################
 def __main__():
-    artist = "The Star Killers"
+    artist = "Мертвые Дельфины"
     current_directory = "D:/My Music/To Be Listened/" + artist
     list_titles(artist, current_directory)
 

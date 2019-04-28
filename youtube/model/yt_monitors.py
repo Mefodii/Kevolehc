@@ -1,3 +1,6 @@
+from youtube.utils import yt_datetime
+
+
 class YoutubeMonitor:
     def __init__(self, data_string):
         object_elements = data_string.split(";")
@@ -10,6 +13,9 @@ class YoutubeMonitor:
         self.reference_date = object_elements[2]
         self.video_number = object_elements[3]
         self.format = object_elements[4]
+
+        self.videos = []
+        self.check_date = None
 
         self.validate()
 
@@ -24,13 +30,17 @@ class YoutubeMonitor:
 
     def validate_reference_date(self):
         if not self.reference_date:
-            self.reference_date = "1970-04-23T20:39:59.000Z"
+            self.reference_date = yt_datetime.get_default_ytdate()
 
     def validate_video_number(self):
-        pass
+        if not self.video_number:
+            self.video_number = 1
 
     def validate_format(self):
         pass
+
+    def append_video(self, yt_video):
+        self.videos.append(yt_video)
 
     def __repr__(self):
         return ";".join([self.name, self.id, self.reference_date, self.video_number, self.format])

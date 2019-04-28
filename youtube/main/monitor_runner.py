@@ -14,7 +14,7 @@ def __main__():
     dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE])
 
     worker = YoutubeWorker(dk_file)
-    manager = MonitorManager(monitors_db, worker)
+    manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
     manager.check_for_updates()
 
     manager.finish()

@@ -25,3 +25,13 @@ def write_lines_to_file_utf8(file_name, file_text):
     for result_line in file_text:
         result_file.write(str(result_line) + "\n")
     result_file.close()
+
+
+def append_to_file(file_name, file_text):
+    result_file = open(file_name, 'a+')
+    if isinstance(file_text, list):
+        for result_line in file_text:
+            result_file.write(str(result_line) + "\n")
+    else:
+        result_file.write(str(file_text) + "\n")
+    result_file.close()
