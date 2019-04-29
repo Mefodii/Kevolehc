@@ -28,7 +28,7 @@ def write_lines_to_file_utf8(file_name, file_text):
 
 
 def append_to_file(file_name, file_text):
-    result_file = open(file_name, 'a+')
+    result_file = codecs.open(file_name, 'a+', "utf-8")
     if isinstance(file_text, list):
         for result_line in file_text:
             result_file.write(str(result_line) + "\n")

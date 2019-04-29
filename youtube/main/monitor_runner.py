@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import os
 import time
 from youtube import paths
-from youtube.managers.yt_managers import MonitorManager
+from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager
 from youtube.yt_api.requests import YoutubeWorker
 
 
@@ -16,6 +16,9 @@ def __main__():
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
     manager.check_for_updates()
+
+    queue_manager = YoutubeQueueManager()
+    queue_manager.process_monitor_manager(manager)
 
     manager.finish()
 

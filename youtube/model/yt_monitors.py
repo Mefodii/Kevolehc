@@ -35,6 +35,8 @@ class YoutubeMonitor:
     def validate_video_number(self):
         if not self.video_number:
             self.video_number = 1
+        else:
+            self.video_number = int(self.video_number)
 
     def validate_format(self):
         pass
@@ -43,4 +45,4 @@ class YoutubeMonitor:
         self.videos.append(yt_video)
 
     def __repr__(self):
-        return ";".join([self.name, self.id, self.reference_date, self.video_number, self.format])
+        return ";".join([self.name, self.id, self.reference_date, str(self.video_number), self.format])

@@ -24,9 +24,14 @@
 > pip freeze > requirements.txt
 
 -----
-<h4>Install requitements</h4>
+<h4>Install requirements</h4>
 
 > pip install -r requirements.txt
+
+-----
+<h4>Update package</h4>
+
+> pip install --upgrade PackageName
 
 
 # Admin

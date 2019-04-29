@@ -38,7 +38,7 @@ class YoutubeWorker():
 
         return request.execute()
 
-    def get_channel_videos_from_date(self, yt_id, yt_date):
+    def get_channel_uploads_from_date(self, yt_id, yt_date):
         items = []
         next_page = True
         token = ""
@@ -52,7 +52,6 @@ class YoutubeWorker():
                 pageToken=token
             )
             response = request.execute()
-            print(response)
             items += response.get('items')
             token = response.get('nextPageToken')
             if not response.get('items') or not token:
