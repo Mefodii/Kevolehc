@@ -123,7 +123,7 @@ class YoutubeDownloader:
         ydl_opts = {
             'format': 'bestaudio/best',
             'ffmpeg_location': paths.RESOURCES_PATH,
-            'outtmpl': queue.save_location + '/' + queue.file_name + '.%(ext)s',
+            'outtmpl': queue.save_location + '\\' + queue.file_name + '.%(ext)s',
             'logger': YoutubeDownloader.YoutubeDownloaderLogger(),
             'progress_hooks': [YoutubeDownloader.my_hook],
             'postprocessors': [{'key': 'FFmpegExtractAudio',
