@@ -26,7 +26,11 @@ def parse_workshop(name, url):
         one_line += line
     parser.feed(contents.decode("utf-8"))
 
-    print(parser.upgrades)
+    # for upgrade in parser.upgrades:
+    #     print(upgrade["title"])
+    #
+    # return result
+
     for upgrade in parser.upgrades:
         line = upgrade.copy()
         ing = extract_ingredients(ROOT_URL + upgrade["href"])
@@ -108,6 +112,14 @@ def __main__():
                  ]
     name = "Complete"
     result = []
+
+    data = []
+
+    for i in range(2,47):
+        data.append("=Workshops!Q" + str(i))
+
+    print("\t".join(data))
+    return 0
 
     for ws in workshops:
         result += parse_workshop(name, ROOT_URL + "/wiki/" + ws)
