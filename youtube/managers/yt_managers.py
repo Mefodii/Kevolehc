@@ -6,6 +6,7 @@ from youtube.model.yt_video import YoutubeVideo
 from youtube.model.yt_queue import YoutubeQueue
 from youtube.utils import yt_datetime
 from youtube import paths
+from .ffmpeg import FFMPEG
 
 import youtube_dl
 import os
@@ -105,6 +106,9 @@ class YoutubeDownloader:
 
         def error(self, msg):
             print(msg)
+
+    def __init__(self):
+        self.ffmpeg = FFMPEG()
 
     @staticmethod
     def my_hook(d):

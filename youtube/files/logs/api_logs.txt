@@ -102,3 +102,6 @@ Kurzgesagt - New videos from last check - 97
 2019-04-30T00:47:21.121Z - starting update process for monitors
 Kurzgesagt - New uploads from last check - 0
 Kurzgesagt - New videos from last check - 0
+2019-05-06T10:55:07.858Z - starting update process for monitors
+Kurzgesagt - New uploads from last check - 0
+Kurzgesagt - New videos from last check - 0
