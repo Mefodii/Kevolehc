@@ -1,4 +1,4 @@
-import codecs
+import codecs, os, glob
 
 
 def get_file_lines(file_name, utf=None):
@@ -35,3 +35,8 @@ def append_to_file(file_name, file_text):
     else:
         result_file.write(str(file_text) + "\n")
     result_file.close()
+
+
+def get_file_name_with_extension(path, name):
+    for infile in glob.glob(os.path.join(path, name + '.*')):
+        return infile

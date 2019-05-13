@@ -1,15 +1,15 @@
 from __future__ import unicode_literals
 
 from utils import File
-from youtube.model.yt_monitors import YoutubeMonitor
-from youtube.model.yt_video import YoutubeVideo
-from youtube.model.yt_queue import YoutubeQueue
-from youtube.utils import yt_datetime
-from youtube import paths
+from ..model.yt_monitors import YoutubeMonitor
+from ..model.yt_video import YoutubeVideo
+from ..model.yt_queue import YoutubeQueue
+from ..utils import yt_datetime, constants
+from .. import paths
+
+from .ffmpeg import Ffmpeg
 
 import youtube_dl
-import os
-import re
 
 
 class MonitorManager:
@@ -66,6 +66,33 @@ class MonitorManager:
                 monitor.video_number += 1
                 monitor.append_video(yt_video)
 
+    def append_tags(self):
+        for monitor in self.monitors:
+            for video in monitor.videos:
+                file_abs_path = File.get_file_name_with_extension(video.save_location, video.file_name)
+                file_extension = file_abs_path.split(".")[-1]
+
+                if file_extension == constants.MP3:
+                    tags = {
+                        "genre": video.channel_name,
+                        "title": video.title,
+                        "track": str(video.number),
+                        "copyright": video.channel_name,
+                        "disc": video.id,
+                        "comment": "by Mefodii"
+                    }
+                else:
+                    tags = {
+                        "author": video.channel_name,
+                        "title": video.title,
+                        "track": str(video.number),
+                        "copyright": video.channel_name,
+                        "episode_id": video.id,
+                        "comment": "by Mefodii"
+                    }
+
+                Ffmpeg.add_tags(file_abs_path, tags)
+
     def finish(self):
         updated_data = [self.header]
         for monitor in self.monitors:
@@ -83,10 +110,14 @@ class YoutubeQueueManager:
 
     def generate_queue_from_monitor(self, monitor):
         for video in monitor.videos:
-            file_name = str(video.number) + " - " + video.title
+            file_name = " - ".join([str(video.number), str(video.channel_name), str(video.title)])
             save_location = paths.MONITORS_FILES_PATH + "\\" + monitor.name
+
             queue = YoutubeQueue(video.id, file_name, save_location, monitor.format)
             print(repr(queue))
+
+            video.file_name = queue.file_name
+            video.save_location = queue.save_location
             self.add_queue(queue)
 
     def process_monitor_manager(self, monitor_manager):
@@ -136,8 +167,10 @@ class YoutubeDownloader:
 
     @staticmethod
     def download_video(queue):
-        audio_file = queue.save_location + "\\audio"
-        video_file = queue.save_location + "\\video"
+        default_audio_name = "audio"
+        default_video_name = "video"
+        audio_file = queue.save_location + "\\" + default_audio_name
+        video_file = queue.save_location + "\\" + default_video_name
 
         ydl_opts = {
             'format': 'bestaudio/best',
@@ -165,15 +198,8 @@ class YoutubeDownloader:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download([queue.link])
 
-        audio_file_full = audio_file + ".m4a"
-        video_file_full = video_file + ".mp4"
+        audio_file = default_audio_name + "." + constants.M4A
+        video_file = default_video_name + "." + constants.MP4
+        merged_file = queue.file_name + "." + constants.MERGED_FORMAT
 
-        char_list = ['<', '>', ':', '\"', '/', '\\', '?', '*']
-        merged_file = queue.save_location + '\\' + re.sub('[' + re.escape(''.join(char_list)) + ']', '#', queue.file_name) + ".mp4"
-        temp_merged_file = queue.save_location + "\\merged.mp4"
-
-        merge_command = "ffmpeg -i " + video_file_full + " -i " + audio_file_full + " -c:v copy -c:a copy " + temp_merged_file
-        os.system(merge_command)
-        os.remove(audio_file_full)
-        os.remove(video_file_full)
-        os.rename(temp_merged_file, merged_file)
+        Ffmpeg.merge_audio_and_video(queue.save_location, audio_file, video_file, merged_file)
