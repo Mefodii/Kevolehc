@@ -12,7 +12,7 @@ from youtube.yt_api.requests import YoutubeWorker
 # Main function
 #######################################################################################################################
 def __main__():
-    loc = "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Kurzgesagt"
+    loc = "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\TheBadComedian"
     sample_image = loc + '\\sample.png'
     sample_mkv = loc + "\\sample.mkv"
     out_mkv = loc + "\\s2.mkv"
@@ -24,7 +24,7 @@ def __main__():
 
     # print(get_file_name_with_extension(loc, "4 - The Gulf Stream Explained"))
 
-    Ffmpeg.merge_audio_and_video(loc, "audio.m4a", "video.mp4", "106 - Kurzgesagt – In a Nutshell - The Side Effects of Vaccines - How High is the Risk_.mkv")
+    Ffmpeg.merge_audio_and_video(loc, "audio.m4a", "video.webm", "sample.mkv")
 
 #######################################################################################################################
 # Process

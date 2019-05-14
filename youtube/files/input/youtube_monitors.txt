@@ -1,2 +1,6 @@
 Youtube_Channel_Username;Youtube_Channel_ID;Reference_Date;Last_Video_Number;Format
-Kurzgesagt;UCsXVk37bltHxD1rDPwtNM8Q;2019-05-13T08:02:01.415Z;99;V
+Kurzgesagt;UCsXVk37bltHxD1rDPwtNM8Q;2019-05-13T21:00:40.995Z;99;mkv
+ExtraCreditz;UCCODtTcd5M1JavPCOr_Uydg;2019-05-13T21:00:41.230Z;929;mp4
+BadNotDead;UClTcPNML8sNl6_wozKH44xw;2019-05-13T21:00:41.363Z;10;mkv
+TheBadComedian;UC6cqazSR6CnVMClY0bJI0Lg;2019-05-13T21:00:41.489Z;176;mkv
+SmarterEveryDay;UC6107grRI4m0o2-emgoDnAA;;;mkv

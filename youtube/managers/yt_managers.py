@@ -69,8 +69,8 @@ class MonitorManager:
     def append_tags(self):
         for monitor in self.monitors:
             for video in monitor.videos:
-                file_abs_path = File.get_file_name_with_extension(video.save_location, video.file_name)
-                file_extension = file_abs_path.split(".")[-1]
+                file_extension = monitor.format
+                file_abs_path = "\\".join([video.save_location, video.file_name]) + "." + file_extension
 
                 if file_extension == constants.MP3:
                     tags = {
@@ -144,9 +144,9 @@ class YoutubeDownloader:
 
     @staticmethod
     def download(queue):
-        if queue.save_format == "A":
+        if queue.save_format == constants.MP3:
             YoutubeDownloader.download_audio(queue)
-        if queue.save_format == "V":
+        if queue.save_format == constants.MKV or queue.save_format == constants.MP4:
             YoutubeDownloader.download_video(queue)
 
     @staticmethod
@@ -188,7 +188,7 @@ class YoutubeDownloader:
             ydl.download([queue.link])
 
         ydl_opts = {
-            'format': '137',
+            'format': 'bestvideo/best',
             'ffmpeg_location': paths.RESOURCES_PATH,
             'outtmpl': video_file + '.%(ext)s',
             'logger': YoutubeDownloader.YoutubeDownloaderLogger(),
@@ -199,7 +199,9 @@ class YoutubeDownloader:
             ydl.download([queue.link])
 
         audio_file = default_audio_name + "." + constants.M4A
-        video_file = default_video_name + "." + constants.MP4
-        merged_file = queue.file_name + "." + constants.MERGED_FORMAT
+
+        video_file_extension = File.get_file_name_with_extension(queue.save_location, default_video_name).split(".")[-1]
+        video_file = default_video_name + "." + video_file_extension
+        merged_file = queue.file_name + "." + queue.save_format
 
         Ffmpeg.merge_audio_and_video(queue.save_location, audio_file, video_file, merged_file)

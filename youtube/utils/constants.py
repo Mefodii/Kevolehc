@@ -1,5 +1,9 @@
-RESTRICTED_CHARS = ['<', '>', ':', '\"', '/', '\\', '?', '*']
+RESTRICTED_CHARS = ['<', '>', ':', '\"', '/', '\\', '?', '*', '|']
 DEFAULT_REPLACE_CHAR = "_"
+NON_PARSED_CHARS = [
+    ["&#39;", "'"],
+    ["&amp;", "&"]
+]
 
 MKV = "mkv"
 MP4 = "mp4"
