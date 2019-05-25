@@ -15,8 +15,7 @@ class YoutubeQueue:
 
 
 def normalize_file_name(video_title):
-    first_phase = replace_restricted_file_chars(video_title)
-    return replace_unicode_chars(first_phase)
+    return replace_restricted_file_chars(replace_unicode_chars(video_title))
 
 
 def replace_unicode_chars(video_title):

@@ -118,7 +118,9 @@ class YoutubeQueueManager:
 
             video.file_name = queue.file_name
             video.save_location = queue.save_location
-            self.add_queue(queue)
+
+            if not File.exists("\\".join([queue.save_location, queue.file_name]) + "." + monitor.format):
+                self.add_queue(queue)
 
     def process_monitor_manager(self, monitor_manager):
         [self.generate_queue_from_monitor(monitor) for monitor in monitor_manager.monitors]

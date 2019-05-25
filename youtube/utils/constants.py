@@ -2,6 +2,7 @@ RESTRICTED_CHARS = ['<', '>', ':', '\"', '/', '\\', '?', '*', '|']
 DEFAULT_REPLACE_CHAR = "_"
 NON_PARSED_CHARS = [
     ["&#39;", "'"],
+    ["&quot;", "'"],
     ["&amp;", "&"]
 ]
 

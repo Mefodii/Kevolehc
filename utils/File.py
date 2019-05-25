@@ -40,3 +40,11 @@ def append_to_file(file_name, file_text):
 def get_file_name_with_extension(path, name):
     for infile in glob.glob(os.path.join(path, name + '.*')):
         return infile
+
+
+def exists(file_path):
+    flag = os.path.isfile(file_path)
+    if flag:
+        return True
+    return False
+
