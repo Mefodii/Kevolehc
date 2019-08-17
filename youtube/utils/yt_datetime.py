@@ -2,7 +2,19 @@ from datetime import datetime
 
 
 def yt_to_py(yt_datetime):
-    pass
+    return datetime.strptime(yt_datetime, '%Y-%m-%dT%H:%M:%S.%fZ')
+
+
+def compare_yt_dates(d1, d2):
+    py_d1 = yt_to_py(d1)
+    py_d2 = yt_to_py(d2)
+
+    if py_d1 > py_d2:
+        return 1
+    if py_d1 < py_d2:
+        return -1
+
+    return 0
 
 
 def py_to_yt(py_datetime):

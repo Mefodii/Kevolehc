@@ -1,8 +1,8 @@
-cachetools==3.1.0
-google-api-python-client==1.7.8
+cachetools==3.1.1
+google-api-python-client==1.7.9
 google-auth==1.6.3
 google-auth-httplib2==0.0.3
-httplib2==0.12.3
+httplib2==0.13.0
 mutagen==1.42.0
 pyasn1==0.4.5
 pyasn1-modules==0.2.5
@@ -10,4 +10,4 @@ rsa==4.0
 six==1.12.0
 unicode==2.7
 uritemplate==3.0.0
-youtube-dl==2019.5.11
+youtube-dl==2019.8.2

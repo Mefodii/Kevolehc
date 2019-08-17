@@ -1,11 +1,13 @@
 from __future__ import unicode_literals
 
 from utils import File
+from ..utils.constants import DEFAULT_YOUTUBE_WATCH
 from ..model.yt_monitors import YoutubeMonitor
 from ..model.yt_video import YoutubeVideo
 from ..model.yt_queue import YoutubeQueue
 from ..utils import yt_datetime, constants
 from .. import paths
+from youtube_dl.utils import DownloadError
 
 from .ffmpeg import Ffmpeg
 
@@ -46,17 +48,15 @@ class MonitorManager:
             monitor.check_date = yt_datetime.get_current_ytdate()
             response = self.api.get_channel_uploads_from_date(monitor.id, monitor.reference_date)
 
-            # The search returns the video which is equals to reference date.
-            if response and response[-1].get("snippet").get("publishedAt") == monitor.reference_date:
-                response.pop()
-
             # Search results also contains playlist and channel.
             self.log(monitor.name + " - New uploads from last check - " + str(len(response)))
             videos = []
             for upload in response:
-                if upload.get("id").get("kind") == "youtube#video":
+                if upload.get("snippet").get("resourceId").get("kind") == "youtube#video":
                     videos.append(upload)
-            videos = videos[::-1]
+
+            # Response videos are not sorted by date. Need to do that.
+            videos = sorted(videos, key=lambda k: k['snippet']['publishedAt'])
 
             self.log(monitor.name + " - New videos from last check - " + str(len(videos)))
             for item in videos:
@@ -91,7 +91,21 @@ class MonitorManager:
                         "comment": "by Mefodii"
                     }
 
-                Ffmpeg.add_tags(file_abs_path, tags)
+                if File.exists(file_abs_path):
+                    Ffmpeg.add_tags(file_abs_path, tags)
+
+    def update_track_list_log(self):
+        for monitor in self.monitors:
+            if monitor.format == constants.MP3:
+                track_list = []
+                track_list_log_file = paths.MONITORS_FILES_PATH + "\\" + monitor.name + "\\" + monitor.name + ".txt"
+                for video in monitor.videos:
+                    file_abs_path = "\\".join([video.save_location, video.file_name]) + "." + monitor.format
+                    if File.exists(file_abs_path):
+                        track_mark = " [ ] " + video.title
+                        track_list.append(track_mark.ljust(100) + DEFAULT_YOUTUBE_WATCH + video.id)
+
+                File.append_to_file(track_list_log_file, track_list)
 
     def finish(self):
         updated_data = [self.header]
@@ -102,8 +116,13 @@ class MonitorManager:
 
 
 class YoutubeQueueManager:
-    def __init__(self):
+    def __init__(self, log_file):
         self.queue_list = []
+        self.log_file = log_file
+
+    def log(self, message):
+        File.append_to_file(self.log_file, message)
+        print(message)
 
     def add_queue(self, queue):
         self.queue_list.append(queue)
@@ -119,13 +138,27 @@ class YoutubeQueueManager:
             video.file_name = queue.file_name
             video.save_location = queue.save_location
 
-            if not File.exists("\\".join([queue.save_location, queue.file_name]) + "." + monitor.format):
-                self.add_queue(queue)
+            self.add_queue(queue)
 
     def process_monitor_manager(self, monitor_manager):
+        self.log("Generating download queue")
         [self.generate_queue_from_monitor(monitor) for monitor in monitor_manager.monitors]
+
+        q_len = str(len(self.queue_list))
+        i = 0
         for queue in self.queue_list:
-            YoutubeDownloader.download(queue)
+            i += 1
+            q_progress = str(i) + "/" + q_len
+
+            result_file = queue.save_location + "\\" + queue.file_name + "." + queue.save_format
+            if File.exists(result_file):
+                self.log("Queue ignored, file exist: " + q_progress)
+            else:
+                self.log("Process queue: " + q_progress + " - " + result_file)
+                try:
+                    YoutubeDownloader.download(queue)
+                except DownloadError:
+                    self.log("Unable to download - " + queue.link)
 
 
 class YoutubeDownloader:
@@ -141,8 +174,9 @@ class YoutubeDownloader:
 
     @staticmethod
     def my_hook(d):
-        if d['status'] == 'finished':
-            print('Done downloading, now converting ...')
+        pass
+        # if d['status'] == 'finished':
+        #     print('Done downloading, now converting ...')
 
     @staticmethod
     def download(queue):

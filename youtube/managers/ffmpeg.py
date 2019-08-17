@@ -33,7 +33,8 @@ class Ffmpeg:
 
         tags = []
         for key, value in tags_dict.items():
-            tag_str = "-metadata " + key + "=\"" + value + "\""
+            tag_value = value.replace("\"", "\"\"\"").replace("\'", "\"'\"")
+            tag_str = "-metadata " + key + "=\"" + tag_value + "\""
             tags.append(tag_str)
 
         tags_command = " ".join(tags)
