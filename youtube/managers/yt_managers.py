@@ -103,9 +103,10 @@ class MonitorManager:
                     file_abs_path = "\\".join([video.save_location, video.file_name]) + "." + monitor.format
                     if File.exists(file_abs_path):
                         track_mark = " [ ] " + video.title
-                        track_list.append(track_mark.ljust(100) + DEFAULT_YOUTUBE_WATCH + video.id)
+                        track_list.append(track_mark.ljust(115) + DEFAULT_YOUTUBE_WATCH + video.id.ljust(20) + str(video.number))
 
-                File.append_to_file(track_list_log_file, track_list)
+                if len(track_list) > 0:
+                    File.append_to_file(track_list_log_file, track_list)
 
     def finish(self):
         updated_data = [self.header]

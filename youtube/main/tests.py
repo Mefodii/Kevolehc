@@ -9,7 +9,9 @@ from youtube.model.yt_queue import YoutubeQueue
 from youtube.yt_api.requests import YoutubeWorker
 from youtube_dl.utils import DownloadError
 from youtube.utils.yt_datetime import yt_to_py
-
+from utils.File import append_to_file
+from unicodedata import normalize
+from sys import stdin
 
 def download():
     queue = YoutubeQueue("Sh0djQG5eEI", "test", paths.YOUTUBE_RESULT_PATH, "mp3")
@@ -55,11 +57,34 @@ def test_tags():
     Ffmpeg.add_tags(file_abs_path, tags)
 
 
+def test_compose_unicode(data):
+    result = []
+
+    for line in data:
+        print(normalize('NFC', line))
+
+
+def test_file():
+    append_to_file("D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\DLoaw\\DLoaw.txt",
+                   [])
+
+
+def get_input_data():
+    data = []
+
+    for line in stdin:
+        if "eof" in line:  # If empty string is read then stop the loop
+            break
+        data.append(line)
+
+    return data
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
-    test_tags()
+    test_compose_unicode(get_input_data())
 
 #######################################################################################################################
 # Process
