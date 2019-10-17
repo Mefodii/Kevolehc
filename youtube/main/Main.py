@@ -31,16 +31,13 @@ def __main__():
     for youtube_link in to_download:
         ydl_opts = {
             'format': 'bestaudio/best',
-            'add-metadata': True,
+            # 'add-metadata': True,
             'ffmpeg_location': paths.RESOURCES_PATH,
             # 'outtmpl': paths.YOUTUBE_RESULT_PATH + '/' + str(i) + ' - %(title)s''.%(ext)s',
             'outtmpl': paths.YOUTUBE_RESULT_PATH + '/%(title)s''.%(ext)s',
             'postprocessors': [{'key': 'FFmpegExtractAudio',
                                 'preferredcodec': 'mp3',
-                                'preferredquality': '192'},
-                                {'key': 'MetadataFromTitle',
-                                'titleformat': '(?P<artist>.+)\ \-\ (?P<title>.+)'},
-                                {'key': 'FFmpegMetadata'}],
+                                'preferredquality': '192'},],
             'logger': MyLogger(),
             'progress_hooks': [my_hook],
         }

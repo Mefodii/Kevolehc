@@ -1,4 +1,5 @@
 import codecs, os, glob
+import json
 
 
 def get_file_lines(file_name, utf=None):
@@ -11,6 +12,11 @@ def get_file_lines(file_name, utf=None):
     for input_line in input_file:
         data.append(input_line.replace("\n", ""))
     return data
+
+
+def get_json_data(file_path):
+    with open(file_path) as json_file:
+        return json.load(json_file)
 
 
 def write_lines_to_file(file_name, file_text):

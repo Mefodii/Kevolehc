@@ -20,6 +20,7 @@ class MonitorManager:
         self.api = api_worker
         self.db = monitors_file
         data = File.get_file_lines(self.db)
+        # data = File.get_json_data(self.db)
 
         self.header = data[0]
 
