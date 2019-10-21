@@ -19,14 +19,15 @@ class MonitorManager:
         self.log_file = log_file
         self.api = api_worker
         self.db = monitors_file
-        data = File.get_file_lines(self.db)
-        # data = File.get_json_data(self.db)
+        # data = File.get_file_lines(self.db)
+        data = File.get_json_data(self.db)
 
         self.header = data[0]
 
         self.monitors = []
-        for i in range(1, len(data)):
-            monitor = YoutubeMonitor(data[i])
+        for monitor_json in data:
+            YoutubeMonitor.validate_json(monitor_json)
+            monitor = YoutubeMonitor(monitor_json)
             monitor = self.validate_id(monitor)
             self.monitors.append(monitor)
 
@@ -110,10 +111,10 @@ class MonitorManager:
                     File.append_to_file(track_list_log_file, track_list)
 
     def finish(self):
-        updated_data = [self.header]
         for monitor in self.monitors:
             monitor.reference_date = monitor.check_date
-            updated_data.append(repr(monitor))
+
+        updated_data = ["[", ",\n".join([monitor.to_json() for monitor in self.monitors]), "]"]
         File.write_lines_to_file_utf8(self.db, updated_data)
 
 

@@ -1,114 +1,24 @@
 [
-  {
-    "Youtube_Channel_Username": "ExtraCreditz",
-    "Youtube_Channel_ID": "UCCODtTcd5M1JavPCOr_Uydg",
-    "Reference_Date": "2019-10-15T08:19:28.482Z",
-    "Last_Video_Number": 1006,
-    "Format": "mp4"
-  },
-  {
-    "Youtube_Channel_Username": "Kurzgesagt",
-    "Youtube_Channel_ID": "UCsXVk37bltHxD1rDPwtNM8Q",
-    "Reference_Date": "2019-10-15T08:19:37.051Z",
-    "Last_Video_Number": 108,
-    "Format": "mkv"
-  },
-  {
-    "Youtube_Channel_Username": "BadNotDead",
-    "Youtube_Channel_ID": "UClTcPNML8sNl6_wozKH44xw",
-    "Reference_Date": "2019-10-15T08:19:38.145Z",
-    "Last_Video_Number": 10,
-    "Format": "mkv"
-  },
-  {
-    "Youtube_Channel_Username": "TheBadComedian",
-    "Youtube_Channel_ID": "UC6cqazSR6CnVMClY0bJI0Lg",
-    "Reference_Date": "2019-10-15T08:19:38.386Z",
-    "Last_Video_Number": 182,
-    "Format": "mkv"
-  },
-  {
-    "Youtube_Channel_Username": "SmarterEveryDay",
-    "Youtube_Channel_ID": "UC6107grRI4m0o2-emgoDnAA",
-    "Reference_Date": "2019-10-15T08:19:39.724Z",
-    "Last_Video_Number": 312,
-    "Format": "mkv"
-  },
-  {
-    "Youtube_Channel_Username": "1veritasium",
-    "Youtube_Channel_ID": "UCHnyfMqiRRG1u-2MsSQLbXA",
-    "Reference_Date": "2019-10-15T08:19:41.976Z",
-    "Last_Video_Number": 282,
-    "Format": "mkv"
-  },
-  {
-    "Youtube_Channel_Username": "sciencium",
-    "Youtube_Channel_ID": "UCGRB1ZjIqAiaGwt-XLq9CnA",
-    "Reference_Date": "2019-10-15T08:19:44.066Z",
-    "Last_Video_Number": 7,
-    "Format": "mkv"
-  },
-  {
-    "Youtube_Channel_Username": "ThePrimeThanatos",
-    "Youtube_Channel_ID": "UCmYTgpKxd-QOJCPDrmaXuqQ",
-    "Reference_Date": "2019-10-15T08:19:44.297Z",
-    "Last_Video_Number": 756,
-    "Format": "mp3"
-  },
-  {
-    "Youtube_Channel_Username": "ThePrimeCronus",
-    "Youtube_Channel_ID": "UC4L4Vac0HBJ8-f3LBFllMsg",
-    "Reference_Date": "2019-10-15T08:19:48.888Z",
-    "Last_Video_Number": 3766,
-    "Format": "mp3"
-  },
-  {
-    "Youtube_Channel_Username": "DLoaw",
-    "Youtube_Channel_ID": "UCHJCZ2QUD-WAJTGikMs9B4Q",
-    "Reference_Date": "2019-10-15T08:20:24.497Z",
-    "Last_Video_Number": 929,
-    "Format": "mp3"
-  },
-  {
-    "Youtube_Channel_Username": "Konectt",
-    "Youtube_Channel_ID": "UCSYOYTKHAAGPfGQYQm8bakQ",
-    "Reference_Date": "2019-10-15T08:20:30.772Z",
-    "Last_Video_Number": 170,
-    "Format": "mp3"
-  },
-  {
-    "Youtube_Channel_Username": "ChilledCat",
-    "Youtube_Channel_ID": "UC8LUZtu2h_IUd0ruscclUpg",
-    "Reference_Date": "2019-10-15T08:20:31.850Z",
-    "Last_Video_Number": 317,
-    "Format": "mp3"
-  },
-  {
-    "Youtube_Channel_Username": "BootlegBoy",
-    "Youtube_Channel_ID": "UC0fiLCwTmAukotCXYnqfj0A",
-    "Reference_Date": "2019-10-15T08:20:34.563Z",
-    "Last_Video_Number": 590,
-    "Format": "mp3"
-  },
-  {
-    "Youtube_Channel_Username": "HHVibe",
-    "Youtube_Channel_ID": "UCN4BoFTD9YncU-NpJr8YyBw",
-    "Reference_Date": "2019-10-15T08:20:39.227Z",
-    "Last_Video_Number": 842,
-    "Format": "mp3"
-  },
-  {
-    "Youtube_Channel_Username": "Chillhopdotcom",
-    "Youtube_Channel_ID": "UCOxqgCwgOqC2lMqC5PYz_Dg",
-    "Reference_Date": "2019-10-15T08:20:44.767Z",
-    "Last_Video_Number": 468,
-    "Format": "mp3"
-  },
-  {
-    "Youtube_Channel_Username": "nyknullad",
-    "Youtube_Channel_ID": "UCaNd66xUJjX8VZT6AByVpiw",
-    "Reference_Date": "2019-10-15T08:20:48.238Z",
-    "Last_Video_Number": 935,
-    "Format": "mp3"
-  }
+ { "Youtube_Channel_Username": "ExtraCreditz", "Youtube_Channel_ID": "UCCODtTcd5M1JavPCOr_Uydg", "Reference_Date": "2019-10-21T22:00:21.567Z", "Last_Video_Number": 1009, "Format": "mp4" },
+ { "Youtube_Channel_Username": "Kurzgesagt", "Youtube_Channel_ID": "UCsXVk37bltHxD1rDPwtNM8Q", "Reference_Date": "2019-10-21T22:00:30.888Z", "Last_Video_Number": 108, "Format": "mkv" },
+ { "Youtube_Channel_Username": "BadNotDead", "Youtube_Channel_ID": "UClTcPNML8sNl6_wozKH44xw", "Reference_Date": "2019-10-21T22:00:32.059Z", "Last_Video_Number": 10, "Format": "mkv" },
+ { "Youtube_Channel_Username": "TheBadComedian", "Youtube_Channel_ID": "UC6cqazSR6CnVMClY0bJI0Lg", "Reference_Date": "2019-10-21T22:00:32.401Z", "Last_Video_Number": 182, "Format": "mkv" },
+ { "Youtube_Channel_Username": "SmarterEveryDay", "Youtube_Channel_ID": "UC6107grRI4m0o2-emgoDnAA", "Reference_Date": "2019-10-21T22:00:33.699Z", "Last_Video_Number": 312, "Format": "mkv" },
+ { "Youtube_Channel_Username": "1veritasium", "Youtube_Channel_ID": "UCHnyfMqiRRG1u-2MsSQLbXA", "Reference_Date": "2019-10-21T22:00:36.085Z", "Last_Video_Number": 282, "Format": "mkv" },
+ { "Youtube_Channel_Username": "sciencium", "Youtube_Channel_ID": "UCGRB1ZjIqAiaGwt-XLq9CnA", "Reference_Date": "2019-10-21T22:00:38.221Z", "Last_Video_Number": 7, "Format": "mkv" },
+ { "Youtube_Channel_Username": "LazySquare", "Youtube_Channel_ID": "UCZTc2bbF64cj_r0btHgaakw", "Reference_Date": "2019-10-21T22:00:38.438Z", "Last_Video_Number": 35, "Format": "mkv" },
+ { "Youtube_Channel_Username": "ThePrimeThanatos", "Youtube_Channel_ID": "UCmYTgpKxd-QOJCPDrmaXuqQ", "Reference_Date": "2019-10-21T22:00:38.765Z", "Last_Video_Number": 761, "Format": "mp3" },
+ { "Youtube_Channel_Username": "ThePrimeCronus", "Youtube_Channel_ID": "UC4L4Vac0HBJ8-f3LBFllMsg", "Reference_Date": "2019-10-21T22:00:43.332Z", "Last_Video_Number": 3773, "Format": "mp3" },
+ { "Youtube_Channel_Username": "DLoaw", "Youtube_Channel_ID": "UCHJCZ2QUD-WAJTGikMs9B4Q", "Reference_Date": "2019-10-21T22:01:16.914Z", "Last_Video_Number": 929, "Format": "mp3" },
+ { "Youtube_Channel_Username": "Konectt", "Youtube_Channel_ID": "UCSYOYTKHAAGPfGQYQm8bakQ", "Reference_Date": "2019-10-21T22:01:23.729Z", "Last_Video_Number": 170, "Format": "mp3" },
+ { "Youtube_Channel_Username": "ChilledCat", "Youtube_Channel_ID": "UC8LUZtu2h_IUd0ruscclUpg", "Reference_Date": "2019-10-21T22:01:24.958Z", "Last_Video_Number": 317, "Format": "mp3" },
+ { "Youtube_Channel_Username": "BootlegBoy", "Youtube_Channel_ID": "UC0fiLCwTmAukotCXYnqfj0A", "Reference_Date": "2019-10-21T22:01:27.691Z", "Last_Video_Number": 594, "Format": "mp3" },
+ { "Youtube_Channel_Username": "HHVibe", "Youtube_Channel_ID": "UCN4BoFTD9YncU-NpJr8YyBw", "Reference_Date": "2019-10-21T22:01:32.330Z", "Last_Video_Number": 842, "Format": "mp3" },
+ { "Youtube_Channel_Username": "Chillhopdotcom", "Youtube_Channel_ID": "UCOxqgCwgOqC2lMqC5PYz_Dg", "Reference_Date": "2019-10-21T22:01:38.491Z", "Last_Video_Number": 469, "Format": "mp3" },
+ { "Youtube_Channel_Username": "nyknullad", "Youtube_Channel_ID": "UCaNd66xUJjX8VZT6AByVpiw", "Reference_Date": "2019-10-21T22:01:41.961Z", "Last_Video_Number": 942, "Format": "mp3" },
+ { "Youtube_Channel_Username": "NewRetroWave", "Youtube_Channel_ID": "UCD-4g5w1h8xQpLaNS_ghU4g", "Reference_Date": "2019-10-21T22:01:50.559Z", "Last_Video_Number": 2045, "Format": "mp3" },
+ { "Youtube_Channel_Username": "June87Recordings", "Youtube_Channel_ID": "UC8bGDcK7SV64baQjeOQRUjQ", "Reference_Date": "2019-10-21T22:02:07.105Z", "Last_Video_Number": 46, "Format": "mp3" },
+ { "Youtube_Channel_Username": "AstralThrob", "Youtube_Channel_ID": "UCpbH_7H71IPKq4eH7CD5spg", "Reference_Date": "2019-10-21T22:02:07.630Z", "Last_Video_Number": 70, "Format": "mp3" },
+ { "Youtube_Channel_Username": "Bob42jh", "Youtube_Channel_ID": "UC0uEMc75boGUb-2CrNTO_5Q", "Reference_Date": "2019-10-21T22:02:08.271Z", "Last_Video_Number": 595, "Format": "mp3" },
+ { "Youtube_Channel_Username": "MineurDuSon", "Youtube_Channel_ID": "UCNTngyvySnbzUdV1n0Dr52Q", "Reference_Date": "2019-10-21T22:02:12.783Z", "Last_Video_Number": 1018, "Format": "mp3" }
 ]

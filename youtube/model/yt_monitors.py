@@ -1,23 +1,44 @@
 from youtube.utils import yt_datetime
 
+YOUTUBE_CHANNEL_USERNAME = "Youtube_Channel_Username"
+YOUTUBE_CHANNEL_ID = "Youtube_Channel_ID"
+REFERENCE_DATE = "Reference_Date"
+LAST_VIDEO_NUMBER = "Last_Video_Number"
+FORMAT = "Format"
+
+MANDATORY_FIELDS = [
+    REFERENCE_DATE,
+    LAST_VIDEO_NUMBER,
+    FORMAT
+]
+
 
 class YoutubeMonitor:
-    def __init__(self, data_string):
-        object_elements = data_string.split(";")
+    def __init__(self, json):
 
-        if len(object_elements) != 5:
-            print("Incorrect declaration of " + data_string)
-
-        self.name = object_elements[0]
-        self.id = object_elements[1]
-        self.reference_date = object_elements[2]
-        self.video_number = object_elements[3]
-        self.format = object_elements[4]
+        self.name = json.get(YOUTUBE_CHANNEL_USERNAME)
+        self.id = json.get(YOUTUBE_CHANNEL_ID)
+        self.reference_date = json.get(REFERENCE_DATE)
+        self.video_number = json.get(LAST_VIDEO_NUMBER)
+        self.format = json.get(FORMAT)
 
         self.videos = []
         self.check_date = None
 
         self.validate()
+
+    @staticmethod
+    def validate_json(json):
+
+        if len(json) != 5:
+            raise ValueError("5 arguments expected")
+
+        for field in MANDATORY_FIELDS:
+            if json.get(field, None) is None:
+                raise ValueError(field + " not found")
+
+        if (json.get(YOUTUBE_CHANNEL_ID, None) or json.get(YOUTUBE_CHANNEL_USERNAME, None)) is None:
+            raise ValueError(YOUTUBE_CHANNEL_ID + " either " + YOUTUBE_CHANNEL_USERNAME + " is expected")
 
     def validate(self):
         self.validate_name_and_id()
@@ -43,6 +64,15 @@ class YoutubeMonitor:
 
     def append_video(self, yt_video):
         self.videos.append(yt_video)
+
+    def to_json(self):
+        return f" {{ " \
+               f"\"{YOUTUBE_CHANNEL_USERNAME}\": \"{self.name}\", " \
+               f"\"{YOUTUBE_CHANNEL_ID}\": \"{self.id}\", " \
+               f"\"{REFERENCE_DATE}\": \"{self.reference_date}\", " \
+               f"\"{LAST_VIDEO_NUMBER}\": {self.video_number}, " \
+               f"\"{FORMAT}\": \"{self.format}\" " \
+               f"}}"
 
     def __repr__(self):
         return ";".join([self.name, self.id, self.reference_date, str(self.video_number), self.format])
