@@ -1,8 +1,11 @@
 from __future__ import unicode_literals
 import os
 import time
+import json
+from utils import File
+from youtube.utils import constants
 from youtube.managers.ffmpeg import Ffmpeg
-from utils.File import get_file_name_with_extension, write_lines_to_file_utf8, get_json_data
+from utils.File import get_file_name_with_extension, write_lines_to_file_utf8, get_json_data, list_files_sub
 from youtube import paths
 from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager, YoutubeDownloader
 from youtube.model.yt_queue import YoutubeQueue
@@ -103,14 +106,45 @@ def test_json(data):
     return ["[", ",\n".join([monitor.to_json() for monitor in monitors]), "]"]
 
 
+def add_to_db():
+    name = "ThePrimeThanatos"
+    check_path = "G:\\Music\\" + name
+    extension = constants.MP3
+    result_path = "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\_db"
+    dbfile = result_path + "\\" + name + ".txt"
+    files_list = list_files_sub(check_path)
+
+    result = {}
+    for element in files_list:
+        abs_path = element["path"] + "\\" + element["filename"]
+        if extension == constants.MP4 or extension == constants.MKV:
+            if abs_path.endswith(extension):
+                metadata = Ffmpeg.metadata_to_json(Ffmpeg.get_metadata(abs_path))
+                episode_id = metadata.get("EPISODE_ID", None)
+                if episode_id:
+                    title = metadata.get("TITLE")
+                    track = metadata.get("TRACK")
+                    result[episode_id] = {"TITLE": title, "STATUS": "DOWNLOADED", "NUMBER": track,
+                                          "CHANNEL_NAME": name, "FILE_NAME": element["filename"], "FORMAT": extension}
+
+        if extension == constants.MP3:
+            if abs_path.endswith(extension):
+                metadata = Ffmpeg.metadata_to_json(Ffmpeg.get_metadata(abs_path))
+                episode_id = metadata.get("DISC", None)
+                if episode_id:
+                    title = metadata.get("TITLE")
+                    track = metadata.get("TRACK")
+                    result[episode_id] = {"TITLE": title, "STATUS": "DOWNLOADED", "NUMBER": track,
+                                          "CHANNEL_NAME": name, "FILE_NAME": element["filename"], "FORMAT": extension}
+
+    File.write_json_data(dbfile, result)
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
-    json_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_FILE])
-    data = get_json_data(json_file)
-    result = test_json(data)
-    write_lines_to_file_utf8(json_file, result)
+    add_to_db()
 
 #######################################################################################################################
 # Process
