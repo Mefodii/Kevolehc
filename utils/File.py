@@ -30,7 +30,6 @@ def write_json_data(file_path, json_data):
         json.dump(json_data, outfile, sort_keys=True, indent=4)
 
 
-
 # Write to file
 def write_lines_to_file(file_name, file_text):
     result_file = open(file_name, 'w')
@@ -100,4 +99,3 @@ def list_files_sub(path):
         data += list_files_sub(directory)
 
     return data
-
