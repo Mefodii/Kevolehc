@@ -26,6 +26,7 @@ def __main__():
 
     manager.append_tags()
     manager.update_track_list_log()
+    manager.update_db_log()
 
     manager.finish()
 
