@@ -28,4 +28,4 @@ def get_default_ytdate():
 
 
 def get_current_ytdate():
-    return py_to_yt(datetime.now())
+    return py_to_yt(datetime.utcnow())
