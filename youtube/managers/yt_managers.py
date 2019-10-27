@@ -52,21 +52,34 @@ class MonitorManager:
 
             # Search results also contains playlist and channel.
             self.log(monitor.name + " - New uploads from last check - " + str(len(response)))
-            videos = []
-            for upload in response:
-                if upload.get("snippet").get("resourceId").get("kind") == "youtube#video":
-                    videos.append(upload)
+            videos = MonitorManager.filter_valid_videos(response)
 
             # Response videos are not sorted by date. Need to do that.
-            videos = sorted(videos, key=lambda k: k['snippet']['publishedAt'])
+            videos = MonitorManager.sort_by_date(videos)
 
             self.log(monitor.name + " - New videos from last check - " + str(len(videos)))
             for item in videos:
                 self.log("\t-\t" + str(item))
-                yt_video = YoutubeVideo(item, monitor.video_number)
+                yt_video_params = YoutubeVideo.parse_json_yt_response(item)
+                yt_video = YoutubeVideo(yt_video_params[YoutubeVideo.ID], yt_video_params[YoutubeVideo.TITLE],
+                                        yt_video_params[YoutubeVideo.PUBLISHED_AT],
+                                        yt_video_params[YoutubeVideo.CHANNEL_NAME], monitor.video_number)
 
                 monitor.video_number += 1
                 monitor.append_video(yt_video)
+
+    @staticmethod
+    def filter_valid_videos(response):
+        videos = []
+        for upload in response:
+            if upload.get("snippet").get("resourceId").get("kind") == "youtube#video":
+                videos.append(upload)
+
+        return videos
+
+    @staticmethod
+    def sort_by_date(videos):
+        return sorted(videos, key=lambda k: k['snippet']['publishedAt'])
 
     def append_tags(self):
         for monitor in self.monitors:
@@ -105,10 +118,30 @@ class MonitorManager:
                     file_abs_path = "\\".join([video.save_location, video.file_name]) + "." + monitor.format
                     if File.exists(file_abs_path):
                         track_mark = " [ ] " + video.title
-                        track_list.append(track_mark.ljust(115) + DEFAULT_YOUTUBE_WATCH + video.id.ljust(20) + str(video.number))
+                    else:
+                        track_mark = " [@] " + video.title
+                    track_list.append(track_mark.ljust(115) + DEFAULT_YOUTUBE_WATCH + video.id.ljust(20) + str(video.number))
 
                 if len(track_list) > 0:
                     File.append_to_file(track_list_log_file, track_list)
+
+    def update_db_log(self):
+        for monitor in self.monitors:
+            db_file = '\\'.join([paths.DB_LOG_PATH, monitor.name + ".txt"])
+            db_json = File.get_json_data(db_file)
+
+            for video in monitor.videos:
+                result_file = video.save_location + "\\" + video.file_name + "." + monitor.format
+                file_status = "UNABLE"
+                if File.exists(result_file):
+                    file_status = "DOWNLOADED"
+
+                db_json[video.id] = {"STATUS": file_status, "TITLE": video.title, "PUBLISHED_AT": video.publishedAt,
+                                     "FILE_NAME": video.file_name, "SAVE_LOCATION": video.save_location,
+                                     "NUMBER": video.number, "CHANNEL_NAME": video.channel_name,
+                                     "FORMAT": monitor.format}
+
+            File.write_json_data(db_file, db_json)
 
     def finish(self):
         for monitor in self.monitors:
