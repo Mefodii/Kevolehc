@@ -106,6 +106,7 @@ def test_json(data):
     return ["[", ",\n".join([monitor.to_json() for monitor in monitors]), "]"]
 
 
+# Create the DB file from already downloaded files
 def add_to_db():
     name = "ThePrimeThanatos"
     check_path = "G:\\Music\\" + name
@@ -140,11 +141,41 @@ def add_to_db():
     File.write_json_data(dbfile, result)
 
 
+# Special case: Update ExtraCreditz files metadata from db file
+#   Files with track number and without EPISODE_ID will be checked in DB with STATUS=UNABLE
+def update_extra_credits():
+    db_file = '\\'.join([paths.DB_LOG_PATH, "ExtraCreditz.txt"])
+    db_json = File.get_json_data(db_file)
+    check_path = "G:\\Filme\\ExtraCreditz"
+    files_list = list_files_sub(check_path)
+
+    for element in files_list:
+        abs_path = element["path"] + "\\" + element["filename"]
+        if abs_path.endswith(constants.MP4):
+            metadata = Ffmpeg.metadata_to_json(Ffmpeg.get_metadata(abs_path))
+            print(metadata)
+            track = int(metadata.get("TRACK", -1))
+            episode_id = metadata.get("EPISODE_ID", None)
+            if (track > 0) and (episode_id is None):
+                for key, value in db_json.items():
+                    if value["NUMBER"] == track and value["STATUS"] == "UNABLE":
+                        print(key, track)
+                        tags = {
+                            "episode_id": key
+                        }
+                        if File.exists(abs_path):
+                            Ffmpeg.add_tags(abs_path, tags)
+
+                        value["STATUS"] = "DOWNLOADED"
+
+    File.write_json_data(db_file, db_json)
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
-    add_to_db()
+    pass
 
 #######################################################################################################################
 # Process
