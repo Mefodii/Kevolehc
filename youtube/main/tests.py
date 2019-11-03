@@ -171,11 +171,40 @@ def update_extra_credits():
     File.write_json_data(db_file, db_json)
 
 
+#  Add to position 168 track number if does not exist
+def add_track_number_to_txt_list(data, db_json):
+    output_line = ""
+    for line2 in data:
+        line = line2[:-1]
+        if "[" in line[1:2]:
+            substring = line[115:119]
+            if "http" not in substring:
+                print("ERROR:", line)
+                exit()
+
+            yt_id = line[147:158]
+            db_rec = db_json.get(yt_id, None)
+            if not db_rec:
+                print("ERROR:", yt_id)
+                exit()
+
+            if len(line) < 168:
+                output_line = line.ljust(167) + str(db_rec["NUMBER"])
+            else:
+                output_line = line
+        else:
+            output_line = line
+
+        print(output_line)
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
-    pass
+    db_file = '\\'.join([paths.DB_LOG_PATH, "ThePrimeCronus.txt"])
+    db_json = File.get_json_data(db_file)
+    test_http_ident(get_input_data())
 
 #######################################################################################################################
 # Process
