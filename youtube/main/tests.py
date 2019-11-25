@@ -5,15 +5,15 @@ import json
 from utils import File
 from youtube.utils import constants
 from youtube.managers.ffmpeg import Ffmpeg
-from utils.File import get_file_name_with_extension, write_lines_to_file_utf8, get_json_data, list_files_sub
+from utils.File import get_file_name_with_extension, write_lines_to_file_utf8, get_json_data, list_files_sub, append_to_file
 from youtube import paths
 from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager, YoutubeDownloader
 from youtube.model.yt_queue import YoutubeQueue
 from youtube.model.yt_monitors import YoutubeMonitor
+from youtube.model.yt_video import YoutubeVideo
 from youtube.yt_api.requests import YoutubeWorker
 from youtube_dl.utils import DownloadError
 from youtube.utils.yt_datetime import yt_to_py
-from utils.File import append_to_file
 from unicodedata import normalize
 from sys import stdin
 
@@ -64,10 +64,14 @@ def test_tags():
 def test_compose_unicode(data):
     result = []
 
+    composed = False
     for line in data:
-        result.append(normalize('NFC', line))
-        # print(normalize('NFC', line))
+        normalized = normalize('NFC', line)
+        result.append(normalized[:-1])
+        if not normalized == line:
+            composed = True
 
+    print(composed)
     write_lines_to_file_utf8("C:\\Users\\Mefodii\\Downloads\\nfc.txt", result)
 
 
@@ -93,7 +97,7 @@ def test_http_ident(data):
         if "[" in line[1:2]:
             substring = line[115:119]
             if "http" not in substring:
-                print(i, line)
+                print(i, line[:-1])
         i += 1
 
 
@@ -198,13 +202,95 @@ def add_track_number_to_txt_list(data, db_json):
         print(output_line)
 
 
+def test_download_videos(links_json):
+    video_list = []
+    q_list = []
+    name = "CriticalRole"
+    format = constants.MKV
+    output_directory = paths.YOUTUBE_RESULT_PATH
+
+    data = {}
+    for item in links_json:
+        item_id = item["LINK"][32:]
+        item_nr = item["TRACK"]
+        data[item_id] = item_nr
+
+    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE])
+    worker = YoutubeWorker(dk_file)
+    videos = worker.get_videos(list(data.keys()))
+
+    for item in videos:
+        print(item)
+        yt_video_params = YoutubeVideo.parse_json_yt_response(item)
+        yt_video = YoutubeVideo(yt_video_params[YoutubeVideo.ID], yt_video_params[YoutubeVideo.TITLE],
+                                yt_video_params[YoutubeVideo.PUBLISHED_AT],
+                                yt_video_params[YoutubeVideo.CHANNEL_NAME], data.get(yt_video_params[YoutubeVideo.ID]))
+        video_list.append(yt_video)
+
+    for video in video_list:
+        file_name = " - ".join([str(video.number), name, str(video.title)])
+        save_location = output_directory
+
+        queue = YoutubeQueue(video.id, file_name, save_location, format)
+        print(repr(queue))
+
+        video.file_name = queue.file_name
+        video.save_location = queue.save_location
+
+        q_list.append(queue)
+
+    q_len = str(len(q_list))
+    i = 0
+    for queue in q_list:
+        i += 1
+        q_progress = str(i) + "/" + q_len
+
+        result_file = queue.save_location + "\\" + queue.file_name + "." + queue.save_format
+        if File.exists(result_file):
+            print("Queue ignored, file exist: " + q_progress)
+        else:
+            print("Process queue: " + q_progress + " - " + result_file)
+            try:
+                YoutubeDownloader.download(queue)
+            except DownloadError:
+                print("Unable to download - " + queue.link)
+
+    for video in video_list:
+        file_extension = format
+        file_abs_path = "\\".join([video.save_location, video.file_name]) + "." + file_extension
+
+        tags = {
+            "author": name,
+            "title": video.title,
+            "track": str(video.number),
+            "copyright": name,
+            "episode_id": video.id,
+            "comment": "by Mefodii"
+        }
+
+        if File.exists(file_abs_path):
+            Ffmpeg.add_tags(file_abs_path, tags)
+        else:
+            print("Not found: " + file_abs_path)
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
-    db_file = '\\'.join([paths.DB_LOG_PATH, "ThePrimeCronus.txt"])
-    db_json = File.get_json_data(db_file)
-    test_http_ident(get_input_data())
+    pass
+    # -------===========------
+    # db_file = '\\'.join([paths.DB_LOG_PATH, "ThePrimeCronus.txt"])
+    # db_json = File.get_json_data(db_file)
+    # -------===========------
+    # test_http_ident(get_input_data())
+    # -------===========------
+    # yt_input = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_JSON_FILE])
+    # to_download = File.get_json_data(yt_input)
+    # test_download_videos(to_download)
+    # -------===========------
+    test_compose_unicode(get_input_data())
+    # -------===========------
 
 #######################################################################################################################
 # Process

@@ -7,6 +7,8 @@ from youtube import paths
 from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager, YoutubeVideo, YoutubeQueue
 from youtube.yt_api.requests import YoutubeWorker
 from youtube.utils import yt_datetime
+from youtube.managers.ffmpeg import Ffmpeg
+from youtube.utils import constants
 
 
 def prepare_videos(manager, monitor, reference_date):
@@ -37,7 +39,7 @@ def prepare_videos(manager, monitor, reference_date):
 # Add missing videos with "MISSING" status and Number = 0.
 def check_db_integrity():
     monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_FILE2])
-    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE])
+    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE2])
 
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
@@ -49,18 +51,28 @@ def check_db_integrity():
         prepare_videos(manager, monitor, default_reference_date)
 
         for video in monitor.videos:
-            if db_json.get(video.id, None) is None:
+            db_video = db_json.get(video.id, None)
+            # Check if video exists in db
+            if db_video is None:
                 db_json[video.id] = {"STATUS": "MISSING", "TITLE": video.title, "PUBLISHED_AT": video.publishedAt,
                                      "FILE_NAME": video.file_name, "SAVE_LOCATION": video.save_location,
                                      "NUMBER": video.number, "CHANNEL_NAME": video.channel_name,
                                      "FORMAT": monitor.format}
+                print(db_json[video.id])
+            else:
+                # Add timestamp if missing
+                if db_video.get(YoutubeVideo.PUBLISHED_AT, None) is None:
+                    db_json[video.id][YoutubeVideo.PUBLISHED_AT] = video.publishedAt
+
+                # Check and update video title in db if changed
+                if not db_video.get(YoutubeVideo.TITLE) == video.title:
+                    db_json[video.id][YoutubeVideo.TITLE] = video.title
+                    print(db_video.get(YoutubeVideo.FILE_NAME))
 
         File.write_json_data(db_file, db_json)
 
 
-def shift_db_at_position():
-    monitor_name = "ExtraCreditz"
-    position = 1008
+def shift_db_at_position(monitor_name, position):
     db_file = '\\'.join([paths.DB_LOG_PATH, monitor_name + ".txt"])
     db_json = File.get_json_data(db_file)
 
@@ -74,9 +86,55 @@ def shift_db_at_position():
     File.write_json_data(db_file, db_json)
 
 
+def shift_playlist_at_position(monitor_name, position):
+    playlist_location = "E:\\Google Drive\\Mu\\plist\\"
+    playlist_file = '\\'.join([playlist_location, monitor_name + ".txt"])
+    data = File.get_file_lines(playlist_file, "8")
+
+    for i in range(len(data)):
+        line = data[i]
+        if "[" in line[1:2]:
+            track_nr = int(line[167:])
+            if track_nr >= position:
+                next_track_nr = track_nr + 1
+                data[i] = line[:167] + str(next_track_nr)
+
+    File.write_lines_to_file_utf8(playlist_file, data)
+
+
+def shift_files_lib_at_position(monitor_name, position, extension):
+    lib_path = "G:\\Music\\" + monitor_name
+    db_file = '\\'.join([paths.DB_LOG_PATH, monitor_name + ".txt"])
+    db_json = File.get_json_data(db_file)
+
+    # Get all files in the directory
+    files_list = File.list_files_sub(lib_path)
+
+    for element in files_list:
+        if element["filename"].endswith(extension):
+            abs_path = element["path"] + "\\" + element["filename"]
+            metadata = Ffmpeg.metadata_to_json(Ffmpeg.get_metadata(abs_path))
+            file_id = metadata.get("DISC", None)
+            if file_id is None:
+                raise ValueError("File has no ID: " + abs_path)
+
+            if int(metadata.get("TRACK")) >= position:
+                json_info = db_json.get(file_id, None)
+                if json_info is None:
+                    raise ValueError("File has no JSON: " + abs_path)
+
+                tags = {
+                    "track": str(json_info[YoutubeVideo.NUMBER])
+                }
+                Ffmpeg.add_tags(abs_path, tags)
+
+                new_name = element["path"] + "\\" + json_info[YoutubeVideo.FILE_NAME] + "." + extension
+                os.rename(abs_path, new_name)
+
+
 def download_db_missing():
     monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_FILE2])
-    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE])
+    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE2])
 
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
@@ -102,7 +160,18 @@ def download_db_missing():
 # Main function
 #######################################################################################################################
 def __main__():
-    shift_db_at_position()
+    pass
+    # -------===========------
+    # check_db_integrity()
+    # -------===========------
+    # shift_db_at_position("nyknullad", 904)
+    # -------===========------
+    # shift_playlist_at_position("nyknullad", 904)
+    # -------===========------
+    # shift_files_lib_at_position("nyknullad", 904, constants.MP3)
+    # -------===========------
+    # download_db_missing()
+    # -------===========------
 
 
 #######################################################################################################################

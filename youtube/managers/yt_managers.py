@@ -113,7 +113,10 @@ class MonitorManager:
         for monitor in self.monitors:
             if monitor.format == constants.MP3:
                 track_list = []
-                track_list_log_file = paths.MONITORS_FILES_PATH + "\\" + monitor.name + "\\" + monitor.name + ".txt"
+                track_list_log_file = monitor.track_log_file
+                if track_list_log_file is None:
+                    track_list_log_file = paths.MONITORS_FILES_PATH + "\\" + monitor.name + "\\" + monitor.name + ".txt"
+
                 for video in monitor.videos:
                     file_abs_path = "\\".join([video.save_location, video.file_name]) + "." + monitor.format
                     if File.exists(file_abs_path):
@@ -128,7 +131,9 @@ class MonitorManager:
     def update_db_log(self):
         for monitor in self.monitors:
             db_file = '\\'.join([paths.DB_LOG_PATH, monitor.name + ".txt"])
-            db_json = File.get_json_data(db_file)
+            db_json = {}
+            if File.exists(db_file):
+                db_json = File.get_json_data(db_file)
 
             for video in monitor.videos:
                 result_file = video.save_location + "\\" + video.file_name + "." + monitor.format

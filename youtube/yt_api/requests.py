@@ -85,3 +85,20 @@ class YoutubeWorker():
                 next_page = False
 
         return items
+
+    def get_videos(self, id_list):
+        items = []
+
+        chunks = [id_list[x:x + MAX_RESULTS] for x in range(0, len(id_list), MAX_RESULTS)]
+        for chunk in chunks:
+            comma_chunk = ",".join(chunk)
+            request = self.youtube.videos().list(
+                part="snippet",
+                id=comma_chunk
+            )
+            response = request.execute()
+
+            for item in response.get('items'):
+                items += [item]
+
+        return items

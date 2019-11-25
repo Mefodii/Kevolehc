@@ -5,6 +5,7 @@ YOUTUBE_CHANNEL_ID = "Youtube_Channel_ID"
 REFERENCE_DATE = "Reference_Date"
 LAST_VIDEO_NUMBER = "Last_Video_Number"
 FORMAT = "Format"
+TRACK_LOG_FILE = "Track_log_file"
 
 MANDATORY_FIELDS = [
     REFERENCE_DATE,
@@ -21,6 +22,7 @@ class YoutubeMonitor:
         self.reference_date = json.get(REFERENCE_DATE)
         self.video_number = json.get(LAST_VIDEO_NUMBER)
         self.format = json.get(FORMAT)
+        self.track_log_file = json.get(TRACK_LOG_FILE, None)
 
         self.videos = []
         self.check_date = None
@@ -30,8 +32,8 @@ class YoutubeMonitor:
     @staticmethod
     def validate_json(json):
 
-        if len(json) != 5:
-            raise ValueError("5 arguments expected")
+        if len(json) < 5:
+            raise ValueError("At least 5 arguments expected")
 
         for field in MANDATORY_FIELDS:
             if json.get(field, None) is None:
@@ -66,13 +68,18 @@ class YoutubeMonitor:
         self.videos.append(yt_video)
 
     def to_json(self):
-        return f" {{ " \
-               f"\"{YOUTUBE_CHANNEL_USERNAME}\": \"{self.name}\", " \
-               f"\"{YOUTUBE_CHANNEL_ID}\": \"{self.id}\", " \
-               f"\"{REFERENCE_DATE}\": \"{self.reference_date}\", " \
-               f"\"{LAST_VIDEO_NUMBER}\": {self.video_number}, " \
-               f"\"{FORMAT}\": \"{self.format}\" " \
-               f"}}"
+        json = ""
+        json += f" {{ "
+        json += f"\"{YOUTUBE_CHANNEL_USERNAME}\": \"{self.name}\", "
+        json += f"\"{YOUTUBE_CHANNEL_ID}\": \"{self.id}\", "
+        json += f"\"{REFERENCE_DATE}\": \"{self.reference_date}\", "
+        json += f"\"{LAST_VIDEO_NUMBER}\": {self.video_number}, "
+        json += f"\"{FORMAT}\": \"{self.format}\""
+        if self.track_log_file:
+            json += f", \"{TRACK_LOG_FILE}\": \"{self.track_log_file}\""
+        json += f" }}"
+
+        return json
 
     def __repr__(self):
         return ";".join([self.name, self.id, self.reference_date, str(self.video_number), self.format])

@@ -23,8 +23,15 @@ class YoutubeVideo:
 
     @staticmethod
     def parse_json_yt_response(json_data):
+        video_id = None
+        resource_id = json_data.get("snippet").get("resourceId", None)
+        if resource_id:
+            video_id = resource_id.get("videoId", None)
+        if not video_id:
+            video_id = json_data.get("id")
+
         params = {
-            YoutubeVideo.ID: json_data.get("snippet").get("resourceId").get("videoId"),
+            YoutubeVideo.ID: video_id,
             YoutubeVideo.TITLE: replace_unicode_chars(normalize('NFC', json_data.get("snippet").get("title"))),
             YoutubeVideo.PUBLISHED_AT: json_data.get("snippet").get("publishedAt"),
             YoutubeVideo.CHANNEL_NAME: json_data.get("snippet").get("channelTitle"),
