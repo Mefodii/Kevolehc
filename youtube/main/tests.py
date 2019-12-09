@@ -285,11 +285,11 @@ def __main__():
     # -------===========------
     # test_http_ident(get_input_data())
     # -------===========------
-    # yt_input = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_JSON_FILE])
-    # to_download = File.get_json_data(yt_input)
-    # test_download_videos(to_download)
+    yt_input = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_JSON_FILE])
+    to_download = File.get_json_data(yt_input)
+    test_download_videos(to_download)
     # -------===========------
-    test_compose_unicode(get_input_data())
+    # test_compose_unicode(get_input_data())
     # -------===========------
 
 #######################################################################################################################

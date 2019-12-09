@@ -170,7 +170,7 @@ def __main__():
     # -------===========------
     # shift_files_lib_at_position("nyknullad", 904, constants.MP3)
     # -------===========------
-    # download_db_missing()
+    download_db_missing()
     # -------===========------
 
 
