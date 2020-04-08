@@ -42,21 +42,33 @@ def test_yt_to_py():
 
 def test_tags():
     file_abs_path = "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\" \
-                    "files\\monitors\\ThePrimeThanatos" \
-                    "\\1.mp3"
+                    "files\\monitors\\ExtraCreditz" \
+                    "\\3.mp4"
+                    # "\\1053 - Extra Credits - ♫ Policing London - _Alleyways & Truncheons_ - Extra History Music.mp4"
                     # "\\677 - ThePrimeThanatos - 'Back To The 80's' _ Best of Synthwave And Retro Electro Music Mix _ Vol. 21.mp3"
 
-    tags = {
-        "genre": "ThePrimeThanatos",
-        "title": "'Back To The 80's | Best of Synthwave And Retro Electro Music Mix | Vol. 21",
-        "track": "677",
-        "copyright": "ThePrimeThanatos",
-        "disc": "1Ny7vnWdoLc",
-        "comment": "by Mefodii"
-    }
+    if file_abs_path.endswith(constants.MP3):
+        tags = {
+            "genre": "ThePrimeThanatos",
+            "title": "'Back To The 80's | Best of Synthwave And Retro Electro Music Mix | Vol. 21",
+            "track": "677",
+            "copyright": "ThePrimeThanatos",
+            "disc": "1Ny7vnWdoLc",
+            "comment": "by Mefodii"
+        }
+    else:
+        tags = {
+            "author": "ExtraCreditz",
+            "title": "♫ Policing London - \"Alleyways & Truncheons\" - Extra History Music",
+            "track": str(1053),
+            "copyright": "ExtraCreditz",
+            "episode_id": "EO_16t_Fe5s",
+            "comment": "by Mefodii"
+        }
 
     print(file_abs_path)
     print(tags)
+    print(File.exists(file_abs_path))
 
     Ffmpeg.add_tags(file_abs_path, tags)
 
@@ -274,6 +286,13 @@ def test_download_videos(links_json):
             print("Not found: " + file_abs_path)
 
 
+def datetime_tests():
+    tt = "2020-04-08T20:20:20Z"
+    if not "." in tt:
+        tt = tt[:-1] + ".0Z"
+    print(yt_to_py(tt))
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
@@ -285,11 +304,13 @@ def __main__():
     # -------===========------
     # test_http_ident(get_input_data())
     # -------===========------
-    yt_input = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_JSON_FILE])
-    to_download = File.get_json_data(yt_input)
-    test_download_videos(to_download)
+    # yt_input = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_JSON_FILE])
+    # to_download = File.get_json_data(yt_input)
+    # test_download_videos(to_download)
     # -------===========------
     # test_compose_unicode(get_input_data())
+    # -------===========------
+    # test_tags()
     # -------===========------
 
 #######################################################################################################################

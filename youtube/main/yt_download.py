@@ -19,7 +19,10 @@ def process_my_location():
         split_by = "\\"
 
     return "\\".join(abs_path.split(split_by)[0:-1])
+
+
 MY_LOCATION = process_my_location()
+
 
 class MyLogger(object):
     def debug(self, msg):

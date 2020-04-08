@@ -2,6 +2,8 @@ from datetime import datetime
 
 
 def yt_to_py(yt_datetime):
+    if "." not in yt_datetime:
+        yt_datetime = yt_datetime[:-1] + ".0Z"
     return datetime.strptime(yt_datetime, '%Y-%m-%dT%H:%M:%S.%fZ')
 
 

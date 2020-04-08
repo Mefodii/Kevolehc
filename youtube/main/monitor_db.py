@@ -67,26 +67,26 @@ def check_db_integrity():
                 # Check and update video title in db if changed
                 if not db_video.get(YoutubeVideo.TITLE) == video.title:
                     db_json[video.id][YoutubeVideo.TITLE] = video.title
-                    print(db_video.get(YoutubeVideo.FILE_NAME))
+                    print(db_video.get(YoutubeVideo.FILE_NAME) + " <-> " + video.title + " <-> " + YoutubeVideo.TITLE)
 
         File.write_json_data(db_file, db_json)
 
 
-def shift_db_at_position(monitor_name, position):
+def shift_db_at_position(monitor_name, position, step):
     db_file = '\\'.join([paths.DB_LOG_PATH, monitor_name + ".txt"])
     db_json = File.get_json_data(db_file)
 
     for key, value in db_json.items():
         if value["NUMBER"] >= position:
             number = value["NUMBER"]
-            next_number = number + 1
+            next_number = number + step
             value["FILE_NAME"] = value["FILE_NAME"].replace(str(number) + " - ", str(next_number) + " - ")
             value["NUMBER"] = next_number
 
     File.write_json_data(db_file, db_json)
 
 
-def shift_playlist_at_position(monitor_name, position):
+def shift_playlist_at_position(monitor_name, position, step):
     playlist_location = "E:\\Google Drive\\Mu\\plist\\"
     playlist_file = '\\'.join([playlist_location, monitor_name + ".txt"])
     data = File.get_file_lines(playlist_file, "8")
@@ -96,7 +96,7 @@ def shift_playlist_at_position(monitor_name, position):
         if "[" in line[1:2]:
             track_nr = int(line[167:])
             if track_nr >= position:
-                next_track_nr = track_nr + 1
+                next_track_nr = track_nr + step
                 data[i] = line[:167] + str(next_track_nr)
 
     File.write_lines_to_file_utf8(playlist_file, data)
@@ -144,6 +144,7 @@ def download_db_missing():
 
         for key, value in db_json.items():
             if value["STATUS"] == "MISSING":
+            # if value["STATUS"] == "UNABLE":
                 yt_video = YoutubeVideo(key, value[YoutubeVideo.TITLE], value[YoutubeVideo.PUBLISHED_AT],
                                         value[YoutubeVideo.CHANNEL_NAME], value[YoutubeVideo.NUMBER])
                 monitor.append_video(yt_video)
@@ -164,13 +165,15 @@ def __main__():
     # -------===========------
     # check_db_integrity()
     # -------===========------
-    # shift_db_at_position("nyknullad", 904)
+    # POSITION NUMBER IS INCLUSIVE!
+    # shift_db_at_position("ExtraCreditz", 1037, 1)
     # -------===========------
-    # shift_playlist_at_position("nyknullad", 904)
+    # shift_playlist_at_position("AmbientMusicalGenre", 2020, 1)
     # -------===========------
-    # shift_files_lib_at_position("nyknullad", 904, constants.MP3)
+    # Gets track number from the DB file
+    # shift_files_lib_at_position("AmbientMusicalGenre", 2020, constants.MP3)
     # -------===========------
-    download_db_missing()
+    # download_db_missing()
     # -------===========------
 
 
