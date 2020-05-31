@@ -86,8 +86,10 @@ def __main__(settings_file):
                                 'preferredquality': '192'},],
             'logger': MyLogger(),
             'progress_hooks': [my_hook],
+            'cachedir': False,
         }
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+            # ydl.cache.remove()
             ydl.download([youtube_link])
         i += 1
 

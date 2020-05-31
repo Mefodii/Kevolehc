@@ -237,6 +237,7 @@ class YoutubeDownloader:
             'postprocessors': [{'key': 'FFmpegExtractAudio',
                                 'preferredcodec': 'mp3',
                                 'preferredquality': '192'}],
+            'cachedir': False,
         }
 
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
@@ -259,6 +260,7 @@ class YoutubeDownloader:
                                 'preferredcodec': 'm4a',
                                 'preferredquality': '192'},
                                {'key': 'FFmpegMetadata'}],
+            'cachedir': False,
         }
 
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
@@ -269,7 +271,8 @@ class YoutubeDownloader:
             'ffmpeg_location': paths.RESOURCES_PATH,
             'outtmpl': video_file + '.%(ext)s',
             'logger': YoutubeDownloader.YoutubeDownloaderLogger(),
-            'progress_hooks': [YoutubeDownloader.my_hook]
+            'progress_hooks': [YoutubeDownloader.my_hook],
+            'no-cache-dir': True,
         }
 
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:

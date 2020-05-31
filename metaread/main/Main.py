@@ -63,6 +63,7 @@ def print_titles(output_filename, data):
     path = join(paths.TITLES_OUTPUT_PATH, output_filename)
     lines = []
     for element in data:
+        # print(element)
         lines.append(element["title"][0])
 
     lines = sorted(set(lines), key=lambda s: s.lower())
@@ -80,7 +81,7 @@ def list_titles(artist, path):
 # Main function
 #######################################################################################################################
 def __main__():
-    artist = "Мертвые Дельфины"
+    artist = "Fluidage"
     current_directory = "D:/My Music/To Be Listened/" + artist
     list_titles(artist, current_directory)
 

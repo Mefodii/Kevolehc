@@ -66,8 +66,9 @@ def check_db_integrity():
 
                 # Check and update video title in db if changed
                 if not db_video.get(YoutubeVideo.TITLE) == video.title:
+                    print(db_video.get(YoutubeVideo.NUMBER) + " <-> " + video.title + " <-> " +
+                          db_video.get(YoutubeVideo.TITLE))
                     db_json[video.id][YoutubeVideo.TITLE] = video.title
-                    print(db_video.get(YoutubeVideo.FILE_NAME) + " <-> " + video.title + " <-> " + YoutubeVideo.TITLE)
 
         File.write_json_data(db_file, db_json)
 
@@ -166,12 +167,12 @@ def __main__():
     # check_db_integrity()
     # -------===========------
     # POSITION NUMBER IS INCLUSIVE!
-    # shift_db_at_position("ExtraCreditz", 1037, 1)
+    # shift_db_at_position("ExtraCreditz", 1084, 1)
     # -------===========------
-    # shift_playlist_at_position("AmbientMusicalGenre", 2020, 1)
+    # shift_playlist_at_position("nyknullad", 1096, 1)
     # -------===========------
     # Gets track number from the DB file
-    # shift_files_lib_at_position("AmbientMusicalGenre", 2020, constants.MP3)
+    # shift_files_lib_at_position("nyknullad", 1096, constants.MP3)
     # -------===========------
     # download_db_missing()
     # -------===========------
