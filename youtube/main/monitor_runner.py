@@ -12,6 +12,7 @@ from youtube.yt_api.requests import YoutubeWorker
 #######################################################################################################################
 def __main__():
     monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_FILE])
+    # monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_PGM_FILE])
     dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE])
 
     worker = YoutubeWorker(dk_file)

@@ -6,7 +6,10 @@ import traceback
 import youtube_dl
 from youtube import paths
 from youtube.settings.settings import YTDownloadSettings
+from youtube.utils import constants
 from utils import File
+from youtube.managers.ffmpeg import Ffmpeg
+from youtube.utils.file_names import replace_restricted_file_chars
 
 DEFAULT_SETTINGS = "settings.json"
 
@@ -22,6 +25,76 @@ def process_my_location():
 
 
 MY_LOCATION = process_my_location()
+
+
+def download(link, ext):
+    if ext == constants.MP3:
+        download_audio(link)
+    if ext == constants.MKV or ext == constants.MP4:
+        download_video(link, ext)
+
+
+def download_audio(link):
+    ydl_opts = {
+        'format': 'bestaudio/best',
+        'ffmpeg_location': paths.RESOURCES_PATH,
+        'outtmpl': paths.YOUTUBE_RESULT_PATH + '/%(title)s''.%(ext)s',
+        'logger': MyLogger(),
+        'progress_hooks': [my_hook],
+        'postprocessors': [{'key': 'FFmpegExtractAudio',
+                            'preferredcodec': 'mp3',
+                            'preferredquality': '192'}],
+        'cachedir': False,
+    }
+
+    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([link])
+
+
+def download_video(link, ext):
+    default_audio_name = "audio"
+    default_video_name = "video"
+    audio_file = paths.YOUTUBE_RESULT_PATH + "\\" + default_audio_name
+    video_file = paths.YOUTUBE_RESULT_PATH + "\\" + default_video_name
+
+    ydl_opts = {
+        'format': 'bestaudio/best',
+        'ffmpeg_location': paths.RESOURCES_PATH,
+        'outtmpl': audio_file + '.%(ext)s',
+        'logger': MyLogger(),
+        'progress_hooks': [my_hook],
+        'postprocessors': [{'key': 'FFmpegExtractAudio',
+                            'preferredcodec': 'm4a',
+                            'preferredquality': '192'},
+                           {'key': 'FFmpegMetadata'}],
+        'cachedir': False,
+    }
+
+    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([link])
+
+    ydl_opts = {
+        'format': 'bestvideo/best',
+        'ffmpeg_location': paths.RESOURCES_PATH,
+        'outtmpl': video_file + '.%(ext)s',
+        'logger': MyLogger(),
+        'progress_hooks': [my_hook],
+        'no-cache-dir': True,
+    }
+
+    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+        ydl.download([link])
+        result = ydl.extract_info("{}".format(link))
+        ydl.prepare_filename(result)
+        title = replace_restricted_file_chars(result["title"])
+
+    audio_file = default_audio_name + "." + constants.M4A
+
+    video_file_extension = File.get_file_name_with_extension(paths.YOUTUBE_RESULT_PATH, default_video_name).split(".")[-1]
+    video_file = default_video_name + "." + video_file_extension
+    merged_file = title + "." + ext
+
+    Ffmpeg.merge_audio_and_video(paths.YOUTUBE_RESULT_PATH, audio_file, video_file, merged_file)
 
 
 class MyLogger(object):
@@ -72,25 +145,11 @@ def __main__(settings_file):
         output_directory = paths.YOUTUBE_RESULT_PATH
         resources_path = paths.RESOURCES_PATH
 
-    to_download = File.get_file_lines(input_file)
+    download_data = File.get_file_lines(input_file)
     i = 1
-    for youtube_link in to_download:
-        ydl_opts = {
-            'format': 'bestaudio/best',
-            # 'add-metadata': True,
-            'ffmpeg_location': resources_path,
-            # 'outtmpl': paths.YOUTUBE_RESULT_PATH + '/' + str(i) + ' - %(title)s''.%(ext)s',
-            'outtmpl': output_directory + '/%(title)s''.%(ext)s',
-            'postprocessors': [{'key': 'FFmpegExtractAudio',
-                                'preferredcodec': 'mp3',
-                                'preferredquality': '192'},],
-            'logger': MyLogger(),
-            'progress_hooks': [my_hook],
-            'cachedir': False,
-        }
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            # ydl.cache.remove()
-            ydl.download([youtube_link])
+    for data_line in download_data:
+        ext, link = data_line.split(";")
+        download(link, ext)
         i += 1
 
 
