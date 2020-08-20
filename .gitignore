@@ -1,0 +1,9 @@
+/youtube/files/monitors/*
+/youtube/files/_db/*
+/youtube/files/logs/*
+/youtube/files/input/*
+/metaread/files/titles/*
+.idea/*
+/build/*
+/dist/*
+yt_download.spec
