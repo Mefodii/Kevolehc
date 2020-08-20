@@ -5,6 +5,8 @@ import time
 from utils import File
 from youtube import paths
 from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager, YoutubeVideo, YoutubeQueue
+from youtube.paths import MONITORS_FILES_PATH
+from youtube.utils.yt_datetime import compare_yt_dates
 from youtube.yt_api.requests import YoutubeWorker
 from youtube.utils import yt_datetime
 from youtube.managers.ffmpeg import Ffmpeg
@@ -64,10 +66,16 @@ def check_db_integrity():
                 if db_video.get(YoutubeVideo.PUBLISHED_AT, None) is None:
                     db_json[video.id][YoutubeVideo.PUBLISHED_AT] = video.publishedAt
 
+                # Compare timestamp
+                if compare_yt_dates(db_video.get(YoutubeVideo.PUBLISHED_AT), video.publishedAt) != 0:
+                    print(str(db_video.get(YoutubeVideo.NUMBER)), "API: ", video.publishedAt, "DB: ",
+                          db_video.get(YoutubeVideo.PUBLISHED_AT), sep=" | ")
+                    db_json[video.id][YoutubeVideo.PUBLISHED_AT] = video.publishedAt
+
                 # Check and update video title in db if changed
                 if not db_video.get(YoutubeVideo.TITLE) == video.title:
-                    print(db_video.get(YoutubeVideo.NUMBER) + " <-> " + video.title + " <-> " +
-                          db_video.get(YoutubeVideo.TITLE))
+                    print(str(db_video.get(YoutubeVideo.NUMBER)), video.title, db_video.get(YoutubeVideo.TITLE),
+                          sep=" | ")
                     db_json[video.id][YoutubeVideo.TITLE] = video.title
 
         File.write_json_data(db_file, db_json)
@@ -88,7 +96,7 @@ def shift_db_at_position(monitor_name, position, step):
 
 
 def shift_playlist_at_position(monitor_name, position, step):
-    playlist_location = "E:\\Google Drive\\Mu\\plist\\"
+    playlist_location = "F:\\Google Drive\\Mu\\plist\\"
     playlist_file = '\\'.join([playlist_location, monitor_name + ".txt"])
     data = File.get_file_lines(playlist_file, "8")
 
@@ -103,8 +111,7 @@ def shift_playlist_at_position(monitor_name, position, step):
     File.write_lines_to_file_utf8(playlist_file, data)
 
 
-def shift_files_lib_at_position(monitor_name, position, extension):
-    lib_path = "G:\\Music\\" + monitor_name
+def sync_pos_files_lib_with_db(monitor_name, lib_path, extension):
     db_file = '\\'.join([paths.DB_LOG_PATH, monitor_name + ".txt"])
     db_json = File.get_json_data(db_file)
 
@@ -119,13 +126,14 @@ def shift_files_lib_at_position(monitor_name, position, extension):
             if file_id is None:
                 raise ValueError("File has no ID: " + abs_path)
 
-            if int(metadata.get("TRACK")) >= position:
-                json_info = db_json.get(file_id, None)
+            json_info = db_json.get(file_id, None)
+            position = json_info[YoutubeVideo.NUMBER]
+            if int(metadata.get("TRACK")) != position:
                 if json_info is None:
                     raise ValueError("File has no JSON: " + abs_path)
 
                 tags = {
-                    "track": str(json_info[YoutubeVideo.NUMBER])
+                    "track": str(position)
                 }
                 Ffmpeg.add_tags(abs_path, tags)
 
@@ -167,12 +175,17 @@ def __main__():
     # check_db_integrity()
     # -------===========------
     # POSITION NUMBER IS INCLUSIVE!
-    # shift_db_at_position("ExtraCreditz", 1084, 1)
+    position_number = 805
+    monitor_name = "BootlegBoy"
+    # shift_db_at_position(monitor_name, position_number, 1)
     # -------===========------
-    # shift_playlist_at_position("nyknullad", 1096, 1)
+    # shift_playlist_at_position(monitor_name, position_number, 1)
     # -------===========------
     # Gets track number from the DB file
-    # shift_files_lib_at_position("nyknullad", 1096, constants.MP3)
+    # lib_path = "E:\\Music\\YT_Monitors\\" + monitor_name
+    # sync_pos_files_lib_with_db(monitor_name, lib_path, constants.MP3)
+    # dl_lib_path = MONITORS_FILES_PATH + "\\" + monitor_name
+    # sync_pos_files_lib_with_db(monitor_name, dl_lib_path, constants.MP3)
     # -------===========------
     # download_db_missing()
     # -------===========------

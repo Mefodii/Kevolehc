@@ -51,15 +51,15 @@ class MonitorManager:
             response = self.api.get_channel_uploads_from_date(monitor.id, monitor.reference_date)
 
             # Search results also contains playlist and channel.
-            self.log(monitor.name + " - New uploads from last check - " + str(len(response)))
             videos = MonitorManager.filter_valid_videos(response)
 
             # Response videos are not sorted by date. Need to do that.
             videos = MonitorManager.sort_by_date(videos)
 
-            self.log(monitor.name + " - New videos from last check - " + str(len(videos)))
+            head = monitor.name.ljust(30) + " || New uploads - " + str(len(response))
+            self.log(head.ljust(70) + " || New videos - " + str(len(videos)))
             for item in videos:
-                self.log("\t-\t" + str(item))
+                self.log("\t" + str(item))
                 yt_video_params = YoutubeVideo.parse_json_yt_response(item)
                 yt_video = YoutubeVideo(yt_video_params[YoutubeVideo.ID], yt_video_params[YoutubeVideo.TITLE],
                                         yt_video_params[YoutubeVideo.PUBLISHED_AT],
@@ -79,7 +79,7 @@ class MonitorManager:
 
     @staticmethod
     def sort_by_date(videos):
-        return sorted(videos, key=lambda k: k['snippet']['publishedAt'])
+        return sorted(videos, key=lambda k: k['contentDetails']['videoPublishedAt'])
 
     def append_tags(self):
         for monitor in self.monitors:

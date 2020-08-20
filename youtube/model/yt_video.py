@@ -33,7 +33,7 @@ class YoutubeVideo:
         params = {
             YoutubeVideo.ID: video_id,
             YoutubeVideo.TITLE: replace_unicode_chars(normalize('NFC', json_data.get("snippet").get("title"))),
-            YoutubeVideo.PUBLISHED_AT: json_data.get("snippet").get("publishedAt"),
+            YoutubeVideo.PUBLISHED_AT: json_data.get("contentDetails").get("videoPublishedAt"),
             YoutubeVideo.CHANNEL_NAME: json_data.get("snippet").get("channelTitle"),
         }
         return params

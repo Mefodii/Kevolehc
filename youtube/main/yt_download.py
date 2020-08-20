@@ -148,8 +148,24 @@ def __main__(settings_file):
     download_data = File.get_file_lines(input_file)
     i = 1
     for data_line in download_data:
-        ext, link = data_line.split(";")
-        download(link, ext)
+        # ext, link = data_line.split(";")
+        ydl_opts = {
+            'format': 'bestaudio/best',
+            # 'add-metadata': True,
+            'ffmpeg_location': resources_path,
+            # 'outtmpl': paths.YOUTUBE_RESULT_PATH + '/' + str(i) + ' - %(title)s''.%(ext)s',
+            'outtmpl': output_directory + '/%(title)s''.%(ext)s',
+            'postprocessors': [{'key': 'FFmpegExtractAudio',
+                                'preferredcodec': 'mp3',
+                                'preferredquality': '192'},],
+            'logger': MyLogger(),
+            'progress_hooks': [my_hook],
+            'cachedir': False,
+        }
+        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+            # ydl.cache.remove()
+            ydl.download([data_line])
+        # download(link, ext)
         i += 1
 
 

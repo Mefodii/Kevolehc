@@ -68,7 +68,7 @@ class YoutubeWorker():
         token = ""
         while next_page:
             request = self.youtube.playlistItems().list(
-                part="snippet",
+                part="snippet,contentDetails",
                 playlistId=uploads_id,
                 maxResults=MAX_RESULTS,
                 pageToken=token
@@ -76,7 +76,7 @@ class YoutubeWorker():
             response = request.execute()
 
             for item in response.get('items'):
-                published_at = item.get("snippet").get("publishedAt")
+                published_at = item.get("contentDetails").get("videoPublishedAt")
                 if compare_yt_dates(published_at, yt_date) == 1:
                     items += [item]
 
