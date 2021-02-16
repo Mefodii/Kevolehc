@@ -3,7 +3,7 @@ import os
 import time
 import sys
 import traceback
-import youtube_dl
+import youtube_dlc as youtube_dl
 from youtube import paths
 from youtube.settings.settings import YTDownloadSettings
 from youtube.utils import constants

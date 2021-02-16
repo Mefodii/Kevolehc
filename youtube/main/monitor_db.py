@@ -40,8 +40,10 @@ def prepare_videos(manager, monitor, reference_date):
 # Read all monitors and cross-check with db files.
 # Add missing videos with "MISSING" status and Number = 0.
 def check_db_integrity():
-    monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_FILE2])
-    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE2])
+    monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_FILE])
+    monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_PGM_FILE])
+    # monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_SLEEP_FILE])
+    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE])
 
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
@@ -172,11 +174,11 @@ def download_db_missing():
 def __main__():
     pass
     # -------===========------
-    # check_db_integrity()
+    check_db_integrity()
     # -------===========------
     # POSITION NUMBER IS INCLUSIVE!
-    position_number = 805
-    monitor_name = "BootlegBoy"
+    position_number = 814
+    monitor_name = "BLUME"
     # shift_db_at_position(monitor_name, position_number, 1)
     # -------===========------
     # shift_playlist_at_position(monitor_name, position_number, 1)

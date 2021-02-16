@@ -77,8 +77,9 @@ class YoutubeWorker():
 
             for item in response.get('items'):
                 published_at = item.get("contentDetails").get("videoPublishedAt")
-                if compare_yt_dates(published_at, yt_date) == 1:
-                    items += [item]
+                if published_at is not None:
+                    if compare_yt_dates(published_at, yt_date) == 1:
+                        items += [item]
 
             token = response.get('nextPageToken')
             if not response.get('items') or not token:
