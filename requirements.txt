@@ -19,7 +19,7 @@ PyInstaller==3.6
 pytz==2020.1
 pywin32-ctypes==0.2.0
 requests==2.23.0
-rsa==4.0
+rsa==4.1
 six==1.15.0
 unicode==2.7
 uritemplate==3.0.1
