@@ -5,14 +5,12 @@ from ..utils.constants import DEFAULT_YOUTUBE_WATCH
 from ..model.yt_monitors import YoutubeMonitor
 from ..model.yt_video import YoutubeVideo
 from ..model.yt_queue import YoutubeQueue
+from ..model.downloader import YoutubeDownloader
 from ..utils import yt_datetime, constants
 from .. import paths
 from youtube_dl.utils import DownloadError
 
 from .ffmpeg import Ffmpeg
-
-# import youtube_dlc as youtube_dl
-import youtube_dl
 
 
 class MonitorManager:
@@ -20,10 +18,7 @@ class MonitorManager:
         self.log_file = log_file
         self.api = api_worker
         self.db = monitors_file
-        # data = File.get_file_lines(self.db)
         data = File.get_json_data(self.db)
-
-        self.header = data[0]
 
         self.monitors = []
         for monitor_json in data:
@@ -32,9 +27,7 @@ class MonitorManager:
             monitor = self.validate_id(monitor)
             self.monitors.append(monitor)
 
-    def __repr__(self):
-        return "\n".join([self.header] + [repr(monitor) for monitor in self.monitors])
-
+    # If monitor has no id: obtain id using monitor's name
     def validate_id(self, monitor):
         if not monitor.id:
             response = self.api.get_channel_id_from_name(monitor.name)
@@ -42,6 +35,7 @@ class MonitorManager:
 
         return monitor
 
+    # Add message to the log file
     def log(self, message):
         File.append_to_file(self.log_file, message)
 
@@ -201,88 +195,3 @@ class YoutubeQueueManager:
                     YoutubeDownloader.download(queue)
                 except DownloadError:
                     self.log("Unable to download - " + queue.link)
-
-
-class YoutubeDownloader:
-    class YoutubeDownloaderLogger(object):
-        def debug(self, msg):
-            pass
-
-        def warning(self, msg):
-            print(msg)
-
-        def error(self, msg):
-            print(msg)
-
-    @staticmethod
-    def my_hook(d):
-        pass
-        # if d['status'] == 'finished':
-        #     print('Done downloading, now converting ...')
-
-    @staticmethod
-    def download(queue):
-        if queue.save_format == constants.MP3:
-            YoutubeDownloader.download_audio(queue)
-        if queue.save_format == constants.MKV or queue.save_format == constants.MP4:
-            YoutubeDownloader.download_video(queue)
-
-    @staticmethod
-    def download_audio(queue):
-        ydl_opts = {
-            'format': 'bestaudio/best',
-            'ffmpeg_location': paths.RESOURCES_PATH,
-            'outtmpl': queue.save_location + '\\' + queue.file_name + '.%(ext)s',
-            'logger': YoutubeDownloader.YoutubeDownloaderLogger(),
-            'progress_hooks': [YoutubeDownloader.my_hook],
-            'postprocessors': [{'key': 'FFmpegExtractAudio',
-                                'preferredcodec': 'mp3',
-                                'preferredquality': '192'}],
-            'cachedir': False,
-        }
-
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([queue.link])
-
-    @staticmethod
-    def download_video(queue):
-        default_audio_name = "audio"
-        default_video_name = "video"
-        audio_file = queue.save_location + "\\" + default_audio_name
-        video_file = queue.save_location + "\\" + default_video_name
-
-        ydl_opts = {
-            'format': 'bestaudio/best',
-            'ffmpeg_location': paths.RESOURCES_PATH,
-            'outtmpl': audio_file + '.%(ext)s',
-            'logger': YoutubeDownloader.YoutubeDownloaderLogger(),
-            'progress_hooks': [YoutubeDownloader.my_hook],
-            'postprocessors': [{'key': 'FFmpegExtractAudio',
-                                'preferredcodec': 'm4a',
-                                'preferredquality': '192'},
-                               {'key': 'FFmpegMetadata'}],
-            'cachedir': False,
-        }
-
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([queue.link])
-
-        ydl_opts = {
-            'format': 'bestvideo/best',
-            'ffmpeg_location': paths.RESOURCES_PATH,
-            'outtmpl': video_file + '.%(ext)s',
-            'logger': YoutubeDownloader.YoutubeDownloaderLogger(),
-            'progress_hooks': [YoutubeDownloader.my_hook],
-            'no-cache-dir': True,
-        }
-
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([queue.link])
-
-        audio_file = default_audio_name + "." + constants.M4A
-
-        video_file_extension = File.get_file_name_with_extension(queue.save_location, default_video_name).split(".")[-1]
-        video_file = default_video_name + "." + video_file_extension
-        merged_file = queue.file_name + "." + queue.save_format
-
-        Ffmpeg.merge_audio_and_video(queue.save_location, audio_file, video_file, merged_file)

@@ -11,10 +11,10 @@ from youtube.yt_api.requests import YoutubeWorker
 # Main function
 #######################################################################################################################
 def __main__():
-    monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_FILE])
-    # monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_PGM_FILE])
-    # monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_SLEEP_FILE])
-    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE])
+    monitors_db = paths.MAIN_MONITORS_PATH
+    # monitors_db = paths.PGM_MONITORS_PATH
+    # monitors_db = paths.SECONDARY_MONITORS_PATH
+    dk_file = paths.API_KEY_PATH
 
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)

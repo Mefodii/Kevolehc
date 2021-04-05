@@ -13,7 +13,7 @@ api_version = "v3"
 MAX_RESULTS = 50
 
 
-class YoutubeWorker():
+class YoutubeWorker:
     def __init__(self, dk_file):
 
         self.dk = File.get_file_lines(dk_file)[0]

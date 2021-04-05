@@ -3,7 +3,7 @@ import os
 import time
 import sys
 import traceback
-import youtube_dlc as youtube_dl
+import youtube_dl
 from youtube import paths
 from youtube.settings.settings import YTDownloadSettings
 from youtube.utils import constants
@@ -148,12 +148,9 @@ def __main__(settings_file):
     download_data = File.get_file_lines(input_file)
     i = 1
     for data_line in download_data:
-        # ext, link = data_line.split(";")
         ydl_opts = {
             'format': 'bestaudio/best',
-            # 'add-metadata': True,
             'ffmpeg_location': resources_path,
-            # 'outtmpl': paths.YOUTUBE_RESULT_PATH + '/' + str(i) + ' - %(title)s''.%(ext)s',
             'outtmpl': output_directory + '/%(title)s''.%(ext)s',
             'postprocessors': [{'key': 'FFmpegExtractAudio',
                                 'preferredcodec': 'mp3',
@@ -163,9 +160,7 @@ def __main__(settings_file):
             'cachedir': False,
         }
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            # ydl.cache.remove()
             ydl.download([data_line])
-        # download(link, ext)
         i += 1
 
 

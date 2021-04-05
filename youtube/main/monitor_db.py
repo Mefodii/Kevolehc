@@ -40,10 +40,10 @@ def prepare_videos(manager, monitor, reference_date):
 # Read all monitors and cross-check with db files.
 # Add missing videos with "MISSING" status and Number = 0.
 def check_db_integrity():
-    monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_FILE])
-    monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_PGM_FILE])
-    # monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_SLEEP_FILE])
-    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE])
+    monitors_db = paths.MAIN_MONITORS_PATH
+    # monitors_db = paths.PGM_MONITORS_PATH
+    # monitors_db = paths.SECONDARY_MONITORS_PATH
+    dk_file = paths.API_KEY_PATH
 
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
@@ -144,8 +144,8 @@ def sync_pos_files_lib_with_db(monitor_name, lib_path, extension):
 
 
 def download_db_missing():
-    monitors_db = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_MONITOR_FILE2])
-    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE2])
+    monitors_db = paths.SIDE_MONITORS_PATH
+    dk_file = paths.API_RESERVE_KEY_PATH
 
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
@@ -174,11 +174,11 @@ def download_db_missing():
 def __main__():
     pass
     # -------===========------
-    check_db_integrity()
+    # check_db_integrity()
     # -------===========------
     # POSITION NUMBER IS INCLUSIVE!
-    position_number = 814
-    monitor_name = "BLUME"
+    position_number = 528
+    monitor_name = "Bob42jh"
     # shift_db_at_position(monitor_name, position_number, 1)
     # -------===========------
     # shift_playlist_at_position(monitor_name, position_number, 1)
@@ -189,7 +189,7 @@ def __main__():
     # dl_lib_path = MONITORS_FILES_PATH + "\\" + monitor_name
     # sync_pos_files_lib_with_db(monitor_name, dl_lib_path, constants.MP3)
     # -------===========------
-    # download_db_missing()
+    download_db_missing()
     # -------===========------
 
 
