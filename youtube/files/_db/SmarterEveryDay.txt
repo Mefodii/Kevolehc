@@ -1,0 +1,3140 @@
+{
+    "-53kaP6dZeI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "286 - SmarterEveryDay - STRAPPED INTO A SINKING HELICOPTER (with U.S. Marines) - Smarter Every Day 201",
+        "FORMAT": "mkv",
+        "NUMBER": 286,
+        "PUBLISHED_AT": "2018-10-21T15:39:20.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "STRAPPED INTO A SINKING HELICOPTER (with U.S. Marines) - Smarter Every Day 201"
+    },
+    "-FV4gBbS63A": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "31 - SmarterEveryDay - Teaching the Bible in Peru",
+        "FORMAT": "mkv",
+        "NUMBER": 31,
+        "PUBLISHED_AT": "2008-07-29T05:07:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Teaching the Bible in Peru"
+    },
+    "-GlJFVTzEsI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "280 - SmarterEveryDay - How Lawn Mower Blades Cut Grass (at 50,000 FRAMES PER SECOND) - Smarter Every Day 196",
+        "FORMAT": "mkv",
+        "NUMBER": 280,
+        "PUBLISHED_AT": "2018-07-01T07:11:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Lawn Mower Blades Cut Grass (at 50,000 FRAMES PER SECOND) - Smarter Every Day 196"
+    },
+    "-NLBtZKx2cA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "164 - SmarterEveryDay - Woman Struck by Meteorite _ Smarter Every Day 84",
+        "FORMAT": "mkv",
+        "NUMBER": 164,
+        "PUBLISHED_AT": "2013-02-16T16:05:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Woman Struck by Meteorite | Smarter Every Day 84"
+    },
+    "-XNDM4eAn1U": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "96 - SmarterEveryDay - Poop Splash Elimination - Smarter Every Day 22",
+        "FORMAT": "mkv",
+        "NUMBER": 96,
+        "PUBLISHED_AT": "2011-09-08T16:42:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Poop Splash Elimination - Smarter Every Day 22"
+    },
+    "-ZZzcw9ifDQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "172 - SmarterEveryDay - How to get Ants to carry a sign - Smarter Every Day 92",
+        "FORMAT": "mkv",
+        "NUMBER": 172,
+        "PUBLISHED_AT": "2013-05-26T15:20:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to get Ants to carry a sign - Smarter Every Day 92"
+    },
+    "05oOst9kZXQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "232 - SmarterEveryDay - Burning Astronaut Pee - Smarter Every Day 149",
+        "FORMAT": "mkv",
+        "NUMBER": 232,
+        "PUBLISHED_AT": "2016-01-01T05:57:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Burning Astronaut Pee - Smarter Every Day 149"
+    },
+    "0K8zs-KSitc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "217 - SmarterEveryDay - Acoustic Levitation in ULTRA SLOW MOTION - Smarter Every Day 134",
+        "FORMAT": "mkv",
+        "NUMBER": 217,
+        "PUBLISHED_AT": "2015-04-29T23:41:21.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Acoustic Levitation in ULTRA SLOW MOTION - Smarter Every Day 134"
+    },
+    "0i5rycLJ3D8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "227 - SmarterEveryDay - How to Escape from a Car Window (SLOW MOTION) - Smarter Every Day 144",
+        "FORMAT": "mkv",
+        "NUMBER": 227,
+        "PUBLISHED_AT": "2015-11-09T21:42:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Escape from a Car Window (SLOW MOTION) - Smarter Every Day 144"
+    },
+    "0w8Va2joeFc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "35 - SmarterEveryDay - Brand New Key - Briley the One Girl Band",
+        "FORMAT": "mkv",
+        "NUMBER": 35,
+        "PUBLISHED_AT": "2009-01-27T14:53:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Brand New Key - Briley the One Girl Band"
+    },
+    "1OQ5a_BtEso": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "233 - SmarterEveryDay - Help me INTERVIEW THE PRESIDENT - Smarter Every Day 150",
+        "FORMAT": "mkv",
+        "NUMBER": 233,
+        "PUBLISHED_AT": "2016-01-11T16:22:52.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Help me INTERVIEW THE PRESIDENT - Smarter Every Day 150"
+    },
+    "1OfL1jke76E": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "179 - SmarterEveryDay - My Awesome Australia Adventure! - Smarter Every Day 99",
+        "FORMAT": "mkv",
+        "NUMBER": 179,
+        "PUBLISHED_AT": "2013-08-31T00:47:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "My Awesome Australia Adventure! - Smarter Every Day 99"
+    },
+    "1PGm8LslEb4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "298 - SmarterEveryDay - Manipulating the YouTube Algorithm - (Part 1_3) Smarter Every Day 213",
+        "FORMAT": "mkv",
+        "NUMBER": 298,
+        "PUBLISHED_AT": "2019-03-31T17:42:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Manipulating the YouTube Algorithm - (Part 1/3) Smarter Every Day 213"
+    },
+    "1VA8v1btKdQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "105 - SmarterEveryDay - Hummingbird Aerodynamics- High Speed Video - Smarter Every Day 27",
+        "FORMAT": "mkv",
+        "NUMBER": 105,
+        "PUBLISHED_AT": "2011-10-17T20:00:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hummingbird Aerodynamics- High Speed Video - Smarter Every Day 27"
+    },
+    "1v4TEX2erog": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "137 - SmarterEveryDay - The Physics of Slingshots 2 _ Smarter Every Day 57",
+        "FORMAT": "mkv",
+        "NUMBER": 137,
+        "PUBLISHED_AT": "2012-07-19T23:02:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Physics of Slingshots 2 | Smarter Every Day 57"
+    },
+    "24q80ReMyq0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "248 - SmarterEveryDay - Bullet vs Prince Rupert's Drop at 150,000 fps - Smarter Every Day 165",
+        "FORMAT": "mkv",
+        "NUMBER": 248,
+        "PUBLISHED_AT": "2016-12-29T20:31:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bullet vs Prince Rupert's Drop at 150,000 fps - Smarter Every Day 165"
+    },
+    "26Accs9CHhM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "3 - SmarterEveryDay - Sadie Hates Peaches",
+        "FORMAT": "mkv",
+        "NUMBER": 3,
+        "PUBLISHED_AT": "2007-07-01T07:16:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sadie Hates Peaches"
+    },
+    "2Dtu16Nct6c": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "182 - SmarterEveryDay - BULLET TIME FAIL (Slowmo) - Smarter Every Day 101",
+        "FORMAT": "mkv",
+        "NUMBER": 182,
+        "PUBLISHED_AT": "2013-09-26T14:53:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BULLET TIME FAIL (Slowmo) - Smarter Every Day 101"
+    },
+    "2vKhZfM8nbg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "66 - SmarterEveryDay - Men wrestle 8 point deer to save its life (buck)",
+        "FORMAT": "mkv",
+        "NUMBER": 66,
+        "PUBLISHED_AT": "2011-02-27T06:22:16.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Men wrestle 8 point deer to save its life (buck)"
+    },
+    "3S3onMg2B-c": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "99 - SmarterEveryDay - Water Balloon to the Face doesn't pop - Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 99,
+        "PUBLISHED_AT": "2011-09-23T20:05:53.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Water Balloon to the Face doesn't pop - Smarter Every Day"
+    },
+    "4I-p8vjQ95s": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "332 - SmarterEveryDay - Trying to Catch a 1,000 MPH Baseball - Smarter Every Day 247",
+        "FORMAT": "mkv",
+        "NUMBER": 332,
+        "PUBLISHED_AT": "2020-11-12T14:55:58Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Trying to Catch a 1,000 MPH Baseball - Smarter Every Day 247"
+    },
+    "4LWmRuB-uNU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "319 - SmarterEveryDay - How Flocking Birds Make Amazing Murmurations (Boids Algorithm) - Smarter Every Day 234",
+        "FORMAT": "mkv",
+        "NUMBER": 319,
+        "PUBLISHED_AT": "2020-04-27T13:26:36.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Modeling Murmuration - Smarter Every Day 234"
+    },
+    "4OvywNsWWd4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "70 - SmarterEveryDay - Detonation vs Deflagration - Smarter Every Day 1",
+        "FORMAT": "mkv",
+        "NUMBER": 70,
+        "PUBLISHED_AT": "2011-04-24T09:54:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Detonation vs Deflagration - Smarter Every Day 1"
+    },
+    "4aS45u_K_T8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "215 - SmarterEveryDay - WE HAD A BABY!! - Smarter Every Day 132",
+        "FORMAT": "mkv",
+        "NUMBER": 215,
+        "PUBLISHED_AT": "2015-04-01T06:59:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "WE HAD A BABY!! - Smarter Every Day 132"
+    },
+    "4gibcRfp4zA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "309 - SmarterEveryDay - Drawing with Sound (Oscilloscope Music) - Smarter Every Day 224",
+        "FORMAT": "mkv",
+        "NUMBER": 309,
+        "PUBLISHED_AT": "2019-09-01T02:47:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Oscilloscope Music - (Drawing with Sound) - Smarter Every Day 224"
+    },
+    "4jKokxPRtck": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "144 - SmarterEveryDay - How Bird Wings Work (Compared to Airplane Wings) - Smarter Every Day 62",
+        "FORMAT": "mkv",
+        "NUMBER": 144,
+        "PUBLISHED_AT": "2012-10-06T15:32:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Bird Wings Work (Compared to Airplane Wings) - Smarter Every Day 62"
+    },
+    "4kIKynSUbJw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "75 - SmarterEveryDay - Triggerfish - Smarter Every Day 4",
+        "FORMAT": "mkv",
+        "NUMBER": 75,
+        "PUBLISHED_AT": "2011-05-31T13:12:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Triggerfish - Smarter Every Day 4"
+    },
+    "4tbYPidp3do": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "11 - SmarterEveryDay - Godzilla doesn't play Jenga",
+        "FORMAT": "mkv",
+        "NUMBER": 11,
+        "PUBLISHED_AT": "2007-12-30T07:23:20.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Godzilla doesn't play Jenga"
+    },
+    "5C47i2fcpKM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "57 - SmarterEveryDay - Merry Christmas from Alabama! - Snowman Timelapse",
+        "FORMAT": "mkv",
+        "NUMBER": 57,
+        "PUBLISHED_AT": "2010-12-26T06:12:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Merry Christmas from Alabama! - Snowman Timelapse"
+    },
+    "5CtnrK3qx_Y": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "241 - SmarterEveryDay - How to Drive with One Arm (AND NO LEGS) - Smarter Every Day 158",
+        "FORMAT": "mkv",
+        "NUMBER": 241,
+        "PUBLISHED_AT": "2016-08-07T13:02:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Drive with One Arm (AND NO LEGS) - Smarter Every Day 158"
+    },
+    "5R1vFFCqoms": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "58 - SmarterEveryDay - Chicken Powered Steadicam vs Kid cam",
+        "FORMAT": "mkv",
+        "NUMBER": 58,
+        "PUBLISHED_AT": "2010-12-28T08:15:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chicken Powered Steadicam vs Kid cam"
+    },
+    "5adC3nc0MHI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "244 - SmarterEveryDay - Diving Between the Continents (Silfra, Iceland) - Smarter Every Day 161",
+        "FORMAT": "mkv",
+        "NUMBER": 244,
+        "PUBLISHED_AT": "2016-11-21T19:50:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Diving Between the Continents (Silfra, Iceland) - Smarter Every Day 161"
+    },
+    "5d6SEQQbwtU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "322 - SmarterEveryDay - How I Boarded a US NAVY NUCLEAR SUBMARINE in the Arctic (ICEX 2020) - Smarter Every Day 237",
+        "FORMAT": "mkv",
+        "NUMBER": 322,
+        "PUBLISHED_AT": "2020-06-14T15:04:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How I Boarded a US NAVY NUCLEAR SUBMARINE in the Arctic (ICEX 2020) - Smarter Every Day 237"
+    },
+    "5fZRRfai1bs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "324 - SmarterEveryDay - Why I Love Sea Turtles (Sea Turtles are AMAZING) - Smarter Every Day 239",
+        "FORMAT": "mkv",
+        "NUMBER": 324,
+        "PUBLISHED_AT": "2020-07-13T23:31:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Everything about Sea Turtles  - Smarter Every Day 239"
+    },
+    "5qlpKzfFHLU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "32 - SmarterEveryDay - Puppets in Peru",
+        "FORMAT": "mkv",
+        "NUMBER": 32,
+        "PUBLISHED_AT": "2008-07-29T05:39:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Puppets in Peru"
+    },
+    "6RbtnBh_0A8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "33 - SmarterEveryDay - Balloons on the River - (Decatur - Sufjan Stevens) Alabama Jubilee",
+        "FORMAT": "mkv",
+        "NUMBER": 33,
+        "PUBLISHED_AT": "2008-09-15T14:18:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Balloons on the River - (Decatur - Sufjan Stevens) Alabama Jubilee"
+    },
+    "6cXz5vVW8GE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "62 - SmarterEveryDay - Granny Kombat - Granny vs Snake w_ Fatality",
+        "FORMAT": "mkv",
+        "NUMBER": 62,
+        "PUBLISHED_AT": "2011-01-18T00:48:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Granny Kombat - Granny vs Snake w/ Fatality"
+    },
+    "6x_YXj0vWVM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "118 - SmarterEveryDay - High Speed video of Canon DSLR Shutter - Smarter Every Day 40",
+        "FORMAT": "mkv",
+        "NUMBER": 118,
+        "PUBLISHED_AT": "2012-01-24T06:30:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "High Speed video of Canon DSLR Shutter - Smarter Every Day 40"
+    },
+    "6zHegXvEwdI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "330 - SmarterEveryDay - Explosive Bat in Slow Motion Ft. Stuff Made Here - Smarter Every Day 245",
+        "FORMAT": "mkv",
+        "NUMBER": 330,
+        "PUBLISHED_AT": "2020-10-18T13:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Explosive Bat in Slow Motion Ft. Stuff Made Here - Smarter Every Day 245"
+    },
+    "79rYbkTi4fs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "242 - SmarterEveryDay - FEELING THE FORCES OF A FIGHTER JET - Smarter Every Day 159",
+        "FORMAT": "mkv",
+        "NUMBER": 242,
+        "PUBLISHED_AT": "2016-09-26T23:55:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FEELING THE FORCES OF A FIGHTER JET - Smarter Every Day 159"
+    },
+    "7AR4yntqLsQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "140 - SmarterEveryDay - Space Telescopes Maneuver like CATS -  Smarter Every Day 59",
+        "FORMAT": "mkv",
+        "NUMBER": 140,
+        "PUBLISHED_AT": "2012-08-25T20:20:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Space Telescopes Maneuver like CATS -  Smarter Every Day 59"
+    },
+    "7CUojMQgDpM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "192 - SmarterEveryDay - COLD HARD SCIENCE. The Controversial Physics of Curling - Smarter Every Day 111",
+        "FORMAT": "mkv",
+        "NUMBER": 192,
+        "PUBLISHED_AT": "2014-03-13T12:47:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "COLD HARD SCIENCE. The Controversial Physics of Curling - Smarter Every Day 111"
+    },
+    "7PRZ5IIT5Tg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "60 - SmarterEveryDay - Rotational Inertia Demonstration - which is faster_",
+        "FORMAT": "mkv",
+        "NUMBER": 60,
+        "PUBLISHED_AT": "2011-01-09T21:56:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rotational Inertia Demonstration - which is faster?"
+    },
+    "7WJCnC5ebf4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "201 - SmarterEveryDay - Jellyfish Stinging in MICROSCOPIC SLOW MOTION - Smarter Every Day 120",
+        "FORMAT": "mkv",
+        "NUMBER": 201,
+        "PUBLISHED_AT": "2014-08-17T23:22:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jellyfish Stinging in MICROSCOPIC SLOW MOTION - Smarter Every Day 120"
+    },
+    "7bsuXsxX950": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "312 - SmarterEveryDay - How to Plant 20 MILLION TREES - Smarter Every Day 227 #TeamTrees",
+        "FORMAT": "mkv",
+        "NUMBER": 312,
+        "PUBLISHED_AT": "2019-10-25T19:03:38.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Plant 20 MILLION TREES - Smarter Every Day 227 #TeamTrees"
+    },
+    "7pOXunRYJIw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "261 - SmarterEveryDay - See Through Suppressor in Super Slow Motion (110,000 fps)  - Smarter Every Day 177",
+        "FORMAT": "mkv",
+        "NUMBER": 261,
+        "PUBLISHED_AT": "2017-09-25T00:56:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "See Through Suppressor in Super Slow Motion (110,000 fps)  - Smarter Every Day 177"
+    },
+    "8CjeXP7BzW4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "16 - SmarterEveryDay - How to name a boat ........ How I named my kayak",
+        "FORMAT": "mkv",
+        "NUMBER": 16,
+        "PUBLISHED_AT": "2008-03-19T04:48:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to name a boat ........ How I named my kayak"
+    },
+    "8MtbfrCGRm8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "264 - SmarterEveryDay - How do Chameleon Tongues work_  (In Slow Motion) _ Smarter Every Day 180",
+        "FORMAT": "mkv",
+        "NUMBER": 264,
+        "PUBLISHED_AT": "2017-11-05T21:59:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How do Chameleon Tongues work?  (In Slow Motion) | Smarter Every Day 180"
+    },
+    "8NXclg93-V8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "26 - SmarterEveryDay - Bird Head Tracking",
+        "FORMAT": "mkv",
+        "NUMBER": 26,
+        "PUBLISHED_AT": "2008-06-18T02:37:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bird Head Tracking"
+    },
+    "8fxbUQhx0Hk": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "80 - SmarterEveryDay - Do pineapples grow on trees_ - Smarter Every Day 9",
+        "FORMAT": "mkv",
+        "NUMBER": 80,
+        "PUBLISHED_AT": "2011-06-20T02:35:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Do pineapples grow on trees? - Smarter Every Day 9"
+    },
+    "8rr_Ymg4XiY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "8 - SmarterEveryDay - THE JUMP BATTLE!!!",
+        "FORMAT": "mkv",
+        "NUMBER": 8,
+        "PUBLISHED_AT": "2007-10-14T03:09:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "THE JUMP BATTLE!!!"
+    },
+    "8s1hCM3IiFU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "77 - SmarterEveryDay - By Request_ Detailed setup video",
+        "FORMAT": "mkv",
+        "NUMBER": 77,
+        "PUBLISHED_AT": "2011-06-06T04:30:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "By Request: Detailed setup video"
+    },
+    "8vruck9OrrU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "17 - SmarterEveryDay - Firefighter Training Excercise - Time Lapse",
+        "FORMAT": "mkv",
+        "NUMBER": 17,
+        "PUBLISHED_AT": "2008-03-26T07:22:27.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Firefighter Training Excercise - Time Lapse"
+    },
+    "96LawfHPh6s": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "262 - SmarterEveryDay - 250,000 DOMINOES! - The American Domino Record - Smarter Every Day 178",
+        "FORMAT": "mkv",
+        "NUMBER": 262,
+        "PUBLISHED_AT": "2017-10-01T06:26:30.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "250,000 DOMINOES! - The American Domino Record - Smarter Every Day 178"
+    },
+    "9Cy3jiiDgoM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "41 - SmarterEveryDay - Biddi Bom - A Family Holiday Song",
+        "FORMAT": "mkv",
+        "NUMBER": 41,
+        "PUBLISHED_AT": "2009-12-06T04:46:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Biddi Bom - A Family Holiday Song"
+    },
+    "9S9InQQWuVA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "250 - SmarterEveryDay - ANNOUNCEMENT Smarter Every Day Podcast - _No Dumb Questions_",
+        "FORMAT": "mkv",
+        "NUMBER": 250,
+        "PUBLISHED_AT": "2017-02-11T02:46:27.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ANNOUNCEMENT Smarter Every Day Podcast - \"No Dumb Questions\""
+    },
+    "9T394GAQtqM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "87 - SmarterEveryDay - YouTube On the Rise Contest- Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 87,
+        "PUBLISHED_AT": "2011-07-15T17:02:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "YouTube On the Rise Contest- Smarter Every Day"
+    },
+    "9YtyOQzarAU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "127 - SmarterEveryDay - Helicopter Physics Series #6 - LASER HELICOPTER BLADES - Smarter Every Day 49",
+        "FORMAT": "mkv",
+        "NUMBER": 127,
+        "PUBLISHED_AT": "2012-04-18T12:54:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Helicopter Physics Series #6 - LASER HELICOPTER BLADES - Smarter Every Day 49"
+    },
+    "9hPIobthvHg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "266 - SmarterEveryDay - Dominoes - HARDCORE Mode - Smarter Every Day 182",
+        "FORMAT": "mkv",
+        "NUMBER": 266,
+        "PUBLISHED_AT": "2017-12-11T17:36:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dominoes - HARDCORE Mode - Smarter Every Day 182"
+    },
+    "9reizHjwuNY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "272 - SmarterEveryDay - WHAT IS THIS LINE_ (on my Super Blue Blood Moon Photo) - Smarter Every Day 188",
+        "FORMAT": "mkv",
+        "NUMBER": 272,
+        "PUBLISHED_AT": "2018-02-04T19:37:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "WHAT IS THIS LINE? (on my Super Blue Blood Moon Photo) - Smarter Every Day 188"
+    },
+    "9vhMY1u57fk": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "149 - SmarterEveryDay - YouTube Viewing Habits - Smarter Every Day 67",
+        "FORMAT": "mkv",
+        "NUMBER": 149,
+        "PUBLISHED_AT": "2012-11-20T00:30:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "YouTube Viewing Habits - Smarter Every Day 67"
+    },
+    "A-19SxqZ8Qs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "59 - SmarterEveryDay - Interesting example of Aliasing",
+        "FORMAT": "mkv",
+        "NUMBER": 59,
+        "PUBLISHED_AT": "2011-01-09T21:25:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Interesting example of Aliasing"
+    },
+    "ADD7QlQoFFI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "210 - SmarterEveryDay - Secret of Snapping Spaghetti in SLOW MOTION - Smarter Every Day 127",
+        "FORMAT": "mkv",
+        "NUMBER": 210,
+        "PUBLISHED_AT": "2014-12-27T17:43:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Secret of Snapping Spaghetti in SLOW MOTION - Smarter Every Day 127"
+    },
+    "Aan-kc-9E3A": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "145 - SmarterEveryDay - Underwater Explosions (Science with Alan Sailer!) - Smarter Every Day 63",
+        "FORMAT": "mkv",
+        "NUMBER": 145,
+        "PUBLISHED_AT": "2012-10-14T14:38:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Underwater Explosions (Science with Alan Sailer!) - Smarter Every Day 63"
+    },
+    "AnaASTBn_K4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "292 - SmarterEveryDay - How does a whip break the sound barrier_ (Slow Motion Shockwave formation) - Smarter Every Day 207",
+        "FORMAT": "mkv",
+        "NUMBER": 292,
+        "PUBLISHED_AT": "2018-12-28T18:31:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How does a whip break the sound barrier? (Slow Motion Shockwave formation) - Smarter Every Day 207"
+    },
+    "ApWAs9P0Sh8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "45 - SmarterEveryDay - Carnivorous Scavenger Butterflies Eat a Fish _Puddling_",
+        "FORMAT": "mkv",
+        "NUMBER": 45,
+        "PUBLISHED_AT": "2010-05-10T02:26:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Carnivorous Scavenger Butterflies Eat a Fish \"Puddling\""
+    },
+    "AqqaYs7LjlM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "334 - SmarterEveryDay - How Sonar Works (Submarine Shadow Zone) - Smarter Every Day 249",
+        "FORMAT": "mkv",
+        "NUMBER": 334,
+        "PUBLISHED_AT": "2020-12-26T16:03:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Sonar Works (Submarine Shadow Zone) - Smarter Every Day 249"
+    },
+    "BNHC_bOC30k": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "18 - SmarterEveryDay - House Burns Down - Time Lapse",
+        "FORMAT": "mkv",
+        "NUMBER": 18,
+        "PUBLISHED_AT": "2008-03-26T08:28:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "House Burns Down - Time Lapse"
+    },
+    "BPwdlEgLn5Q": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "288 - SmarterEveryDay - Shockwave Shadows in Ultra Slow Motion (Bullet Schlieren) - Smarter Every Day 203",
+        "FORMAT": "mkv",
+        "NUMBER": 288,
+        "PUBLISHED_AT": "2018-11-01T06:57:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Shockwave Shadows in Ultra Slow Motion (Bullet Schlieren) - Smarter Every Day 203"
+    },
+    "BTqu9iMiPIU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "237 - SmarterEveryDay - STRAPPED INTO A FALLING HELICOPTER - Smarter Every Day 154",
+        "FORMAT": "mkv",
+        "NUMBER": 237,
+        "PUBLISHED_AT": "2016-04-26T13:14:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "STRAPPED INTO A FALLING HELICOPTER - Smarter Every Day 154"
+    },
+    "BdsHq_v8EY8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "92 - SmarterEveryDay - Pistol Underwater - Part B",
+        "FORMAT": "mkv",
+        "NUMBER": 92,
+        "PUBLISHED_AT": "2011-08-11T06:33:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Pistol Underwater - Part B"
+    },
+    "BeXGheqJdyM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "47 - SmarterEveryDay - The Tongue is a Fire",
+        "FORMAT": "mkv",
+        "NUMBER": 47,
+        "PUBLISHED_AT": "2010-07-16T02:18:35.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Tongue is a Fire"
+    },
+    "C2jt-MSmzgw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "110 - SmarterEveryDay - Auburn Eagle Punches Alabama Fan",
+        "FORMAT": "mkv",
+        "NUMBER": 110,
+        "PUBLISHED_AT": "2011-11-25T16:43:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Auburn Eagle Punches Alabama Fan"
+    },
+    "CENMsbWJJjA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "15 - SmarterEveryDay - Godzilla Army Arrives at my door",
+        "FORMAT": "mkv",
+        "NUMBER": 15,
+        "PUBLISHED_AT": "2008-02-16T23:12:35.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Godzilla Army Arrives at my door"
+    },
+    "CXsiLoQL6NE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "120 - SmarterEveryDay - Why You Didn't Die at Birth - Smarter Every Day 42",
+        "FORMAT": "mkv",
+        "NUMBER": 120,
+        "PUBLISHED_AT": "2012-02-12T10:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why You Didn't Die at Birth - Smarter Every Day 42"
+    },
+    "ClFQQ0uzst4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "88 - SmarterEveryDay - Magnet making Current - Smarter Every Day 16",
+        "FORMAT": "mkv",
+        "NUMBER": 88,
+        "PUBLISHED_AT": "2011-07-17T11:19:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Magnet making Current - Smarter Every Day 16"
+    },
+    "CopEMZJBHtg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "6 - SmarterEveryDay - Stevo Cut His Own Hair",
+        "FORMAT": "mkv",
+        "NUMBER": 6,
+        "PUBLISHED_AT": "2007-09-10T06:45:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stevo Cut His Own Hair"
+    },
+    "D0B7F5UbTOQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "205 - SmarterEveryDay - How Laser Tattoo Removal Works - Smarter Every Day 123",
+        "FORMAT": "mkv",
+        "NUMBER": 205,
+        "PUBLISHED_AT": "2014-10-30T13:22:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Laser Tattoo Removal Works - Smarter Every Day 123"
+    },
+    "D9Z9zBmL-VM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "74 - SmarterEveryDay - DIY Macro Lens on the Cheap! - Smarter Every Day 3",
+        "FORMAT": "mkv",
+        "NUMBER": 74,
+        "PUBLISHED_AT": "2011-05-21T08:29:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DIY Macro Lens on the Cheap! - Smarter Every Day 3"
+    },
+    "DLoI_9Tcl9o": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "143 - SmarterEveryDay - Bird Flight - Deep Dive #2 - Smarter Every Day 61",
+        "FORMAT": "mkv",
+        "NUMBER": 143,
+        "PUBLISHED_AT": "2012-10-02T01:50:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bird Flight - Deep Dive #2 - Smarter Every Day 61"
+    },
+    "DQ8JqQuKW_o": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "270 - SmarterEveryDay - How to Install 150 Year Old Hand Hewn Beams __ DIY Project - Smarter Every Day 186",
+        "FORMAT": "mkv",
+        "NUMBER": 270,
+        "PUBLISHED_AT": "2018-01-19T15:44:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fake Beams - Smarter Every Day 186"
+    },
+    "Dy55X4QaAAU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "323 - SmarterEveryDay - Which Shape CUTS BEST_ (Weed Eater Line at 100,000 Frames Per Second) - Smarter Every Day 238",
+        "FORMAT": "mkv",
+        "NUMBER": 323,
+        "PUBLISHED_AT": "2020-06-28T15:43:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Which Shape CUTS BEST? (Weed Eater Line at 100,000 Frames Per Second) - Smarter Every Day 238"
+    },
+    "E-mBzo35uW0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "206 - SmarterEveryDay - Hummingbirds eating from my mouth (In Slow Motion) - Smarter Every Day 124",
+        "FORMAT": "mkv",
+        "NUMBER": 206,
+        "PUBLISHED_AT": "2014-11-26T14:55:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hummingbirds eating from my mouth (In Slow Motion) - Smarter Every Day 124"
+    },
+    "E3PfuKshnCc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "19 - SmarterEveryDay - The Sun sets on the Saturn V - Time Lapse",
+        "FORMAT": "mkv",
+        "NUMBER": 19,
+        "PUBLISHED_AT": "2008-04-12T01:46:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Sun sets on the Saturn V - Time Lapse"
+    },
+    "EVbdbVhzcM4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "279 - SmarterEveryDay - Two Vortex Rings Colliding in SLOW MOTION - Smarter Every Day 195",
+        "FORMAT": "mkv",
+        "NUMBER": 279,
+        "PUBLISHED_AT": "2018-06-20T16:40:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Two Vortex Rings Colliding in SLOW MOTION - Smarter Every Day 195"
+    },
+    "F3FkAUbetWU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "253 - SmarterEveryDay - .38 Special vs Prince Ruperts Drop at 170,000 FPS - Smarter Every Day 169",
+        "FORMAT": "mkv",
+        "NUMBER": 253,
+        "PUBLISHED_AT": "2017-04-26T13:16:30.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": ".38 Special vs Prince Ruperts Drop at 170,000 FPS - Smarter Every Day 169"
+    },
+    "FY_NtO7SIrY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "300 - SmarterEveryDay - Who is Manipulating Facebook_ - Smarter Every Day 215",
+        "FORMAT": "mkv",
+        "NUMBER": 300,
+        "PUBLISHED_AT": "2019-04-24T17:03:39.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Who is Manipulating Facebook? - Smarter Every Day 215"
+    },
+    "G6N5DZLDja8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "263 - SmarterEveryDay - $500 MILLION DOLLARS - Smarter Every Day 179",
+        "FORMAT": "mkv",
+        "NUMBER": 263,
+        "PUBLISHED_AT": "2017-10-27T13:27:20.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "$500 MILLION DOLLARS - Smarter Every Day 179"
+    },
+    "GpKcjLzBiGI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "159 - SmarterEveryDay - Butterfly Takeoff at 2,000 Frames per Second - Smarter Every Day 79",
+        "FORMAT": "mkv",
+        "NUMBER": 159,
+        "PUBLISHED_AT": "2013-01-23T12:51:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Butterfly Takeoff at 2,000 Frames per Second - Smarter Every Day 79"
+    },
+    "GpWQHFzrEqc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "234 - SmarterEveryDay - What I learned from President Obama - Smarter Every Day 151",
+        "FORMAT": "mkv",
+        "NUMBER": 234,
+        "PUBLISHED_AT": "2016-01-31T15:18:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What I learned from President Obama - Smarter Every Day 151"
+    },
+    "HIr1W601U7w": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "208 - SmarterEveryDay - WE SPENT $78,000 OF YOUR MONEY in Peru - Smarter Every Day 126",
+        "FORMAT": "mkv",
+        "NUMBER": 208,
+        "PUBLISHED_AT": "2014-12-12T23:12:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "WE SPENT $78,000 OF YOUR MONEY in Peru - Smarter Every Day 126"
+    },
+    "Hf273uCVHvE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "12 - SmarterEveryDay - I built a wall - Time Lapse",
+        "FORMAT": "mkv",
+        "NUMBER": 12,
+        "PUBLISHED_AT": "2008-01-01T05:15:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "I built a wall - Time Lapse"
+    },
+    "Hv8Ee3YlgMU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "51 - SmarterEveryDay - Intralase LASIK Procedure with Fear-o-meter and Pain-o-meter",
+        "FORMAT": "mkv",
+        "NUMBER": 51,
+        "PUBLISHED_AT": "2010-08-30T02:09:45.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Intralase LASIK Procedure with Fear-o-meter and Pain-o-meter"
+    },
+    "I8yJkIuvPvM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "198 - SmarterEveryDay - Milking the WORLD'S MOST VENOMOUS FISH! - Smarter Every Day 117",
+        "FORMAT": "mkv",
+        "NUMBER": 198,
+        "PUBLISHED_AT": "2014-06-26T15:18:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Milking the WORLD'S MOST VENOMOUS FISH! - Smarter Every Day 117"
+    },
+    "IANBoybVApQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "236 - SmarterEveryDay - Mind-Blowing Magic Magnets - Smarter Every Day 153",
+        "FORMAT": "mkv",
+        "NUMBER": 236,
+        "PUBLISHED_AT": "2016-03-20T15:46:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Mind-Blowing Magic Magnets - Smarter Every Day 153"
+    },
+    "IAR4yTYslkk": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "289 - SmarterEveryDay - Suppressor in Slow Motion - Smarter Every Day 204",
+        "FORMAT": "mkv",
+        "NUMBER": 289,
+        "PUBLISHED_AT": "2018-12-01T05:58:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Suppressor in Slow Motion - Smarter Every Day 204"
+    },
+    "IbkAXOmEHpY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "61 - SmarterEveryDay - Hell Freezes over - Auburn National Champions and 1ft snow in Alabama",
+        "FORMAT": "mkv",
+        "NUMBER": 61,
+        "PUBLISHED_AT": "2011-01-11T07:50:35.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hell Freezes over - Auburn National Champions and 1ft snow in Alabama"
+    },
+    "ImoQqNyRL8Y": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "273 - SmarterEveryDay - The Incredible Sounds of the Falcon Heavy Launch (BINAURAL AUDIO IMMERSION) - Smarter Every Day 189",
+        "FORMAT": "mkv",
+        "NUMBER": 273,
+        "PUBLISHED_AT": "2018-02-07T15:00:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Incredible Sounds of the Falcon Heavy Launch (BINAURAL AUDIO IMMERSION) - Smarter Every Day 189"
+    },
+    "IsCdywftyok": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "193 - SmarterEveryDay - COLD HARD SCIENCE_ SLAPSHOT Physics in Slow Motion - Smarter Every Day 112",
+        "FORMAT": "mkv",
+        "NUMBER": 193,
+        "PUBLISHED_AT": "2014-03-30T19:38:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "COLD HARD SCIENCE: SLAPSHOT Physics in Slow Motion - Smarter Every Day 112"
+    },
+    "J2eN6CKkg9w": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "116 - SmarterEveryDay - Slow Motion Raptor Strikes - Smarter Every Day 38",
+        "FORMAT": "mkv",
+        "NUMBER": 116,
+        "PUBLISHED_AT": "2012-01-05T23:58:35.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Slow Motion Raptor Strikes - Smarter Every Day 38"
+    },
+    "JN0VtHez9xI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "178 - SmarterEveryDay - Spider vs Penis (Priapism) - Smarter Every Day 98",
+        "FORMAT": "mkv",
+        "NUMBER": 178,
+        "PUBLISHED_AT": "2013-08-01T05:49:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Spider vs Penis (Priapism) - Smarter Every Day 98"
+    },
+    "JPX1OLGU5-s": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "265 - SmarterEveryDay - Marriage Advice  - Smarter Every Day 181",
+        "FORMAT": "mkv",
+        "NUMBER": 265,
+        "PUBLISHED_AT": "2017-11-19T15:27:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Marriage Advice  - Smarter Every Day 181"
+    },
+    "JT0wx27J9xs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "301 - SmarterEveryDay - How Hard Can You Hit a Golf Ball_ (at 100,000 FPS) - Smarter Every Day 216",
+        "FORMAT": "mkv",
+        "NUMBER": 301,
+        "PUBLISHED_AT": "2019-05-02T21:16:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Hard Can You Hit a Golf Ball? (at 100,000 FPS) - Smarter Every Day 216"
+    },
+    "Jsc-pQIMxt8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "229 - SmarterEveryDay - Turning Gravity Into Light - Smarter Every Day 146",
+        "FORMAT": "mkv",
+        "NUMBER": 229,
+        "PUBLISHED_AT": "2015-12-08T17:32:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Turning Gravity Into Light - Smarter Every Day 146"
+    },
+    "JvPhBJpCeGg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "56 - SmarterEveryDay - Backdriving a Chicken Powered Steadicam's control algorithm - Pennywhistle Productions",
+        "FORMAT": "mkv",
+        "NUMBER": 56,
+        "PUBLISHED_AT": "2010-12-11T19:17:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Backdriving a Chicken Powered Steadicam's control algorithm - Pennywhistle Productions"
+    },
+    "K9_b9X2EA3E": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "222 - SmarterEveryDay - Inside a Kangaroo Pouch - Smarter Every Day 139",
+        "FORMAT": "mkv",
+        "NUMBER": 222,
+        "PUBLISHED_AT": "2015-08-01T04:19:35.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Inside a Kangaroo Pouch - Smarter Every Day 139"
+    },
+    "KJDEsAy9RyM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "243 - SmarterEveryDay - The WALKING WATER Mystery (in SPACE and SLOW MOTION!) - Smarter Every Day 160",
+        "FORMAT": "mkv",
+        "NUMBER": 243,
+        "PUBLISHED_AT": "2016-11-03T22:18:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The WALKING WATER Mystery (in SPACE and SLOW MOTION!) - Smarter Every Day 160"
+    },
+    "KSzuiqVjJg4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "218 - SmarterEveryDay - 7 HOLES in the Space Station - Smarter Every Day 135",
+        "FORMAT": "mkv",
+        "NUMBER": 218,
+        "PUBLISHED_AT": "2015-05-08T21:42:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "7 HOLES in the Space Station - Smarter Every Day 135"
+    },
+    "L5cAnxNVWkw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "252 - SmarterEveryDay - TALKING BACKWARDS (Backwards Banter Brain Testing) - Smarter Every Day 168",
+        "FORMAT": "mkv",
+        "NUMBER": 252,
+        "PUBLISHED_AT": "2017-03-31T14:24:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TALKING BACKWARDS (Backwards Banter Brain Testing) - Smarter Every Day 168"
+    },
+    "L6A1Lt0kvMA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "211 - SmarterEveryDay - Facebook Freebooting - Smarter Every Day 128",
+        "FORMAT": "mkv",
+        "NUMBER": 211,
+        "PUBLISHED_AT": "2015-01-19T15:25:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Facebook Freebooting - Smarter Every Day 128"
+    },
+    "LE2v3sUzTH4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "186 - SmarterEveryDay - THIS IS A BUTTERFLY! (Scanning Electron Microscope) - Part 2 - Smarter Every Day 105",
+        "FORMAT": "mkv",
+        "NUMBER": 186,
+        "PUBLISHED_AT": "2013-11-29T22:49:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "THIS IS A BUTTERFLY! (Scanning Electron Microscope) - Part 2 - Smarter Every Day 105"
+    },
+    "LSRwbKp4qb4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "43 - SmarterEveryDay - Everybody wants to love  - Ingrid Michaelson cover",
+        "FORMAT": "mkv",
+        "NUMBER": 43,
+        "PUBLISHED_AT": "2010-03-23T05:10:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Everybody wants to love  - Ingrid Michaelson cover"
+    },
+    "LXrxCT0NpHo": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "203 - SmarterEveryDay - MANTIS MURDER SHRIMP (Slow Motion) - Smarter Every Day 121",
+        "FORMAT": "mkv",
+        "NUMBER": 203,
+        "PUBLISHED_AT": "2014-09-01T08:38:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "MANTIS MURDER SHRIMP (Slow Motion) - Smarter Every Day 121"
+    },
+    "Lh0x54GC1sw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "310 - SmarterEveryDay - The Gun Detector - Smarter Every Day 225",
+        "FORMAT": "mkv",
+        "NUMBER": 310,
+        "PUBLISHED_AT": "2019-09-29T13:13:27.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Gun Detector - Smarter Every Day 225"
+    },
+    "LwKcOCYr3D8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "7 - SmarterEveryDay - Gobble Monster  -  Toddler eating time lapse",
+        "FORMAT": "mkv",
+        "NUMBER": 7,
+        "PUBLISHED_AT": "2007-09-15T21:05:45.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gobble Monster  -  Toddler eating time lapse"
+    },
+    "LxzyAadoyzY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "167 - SmarterEveryDay - BAT Flight vs BIRDS, with SLOWMO, robots, swimming and treadmills - Smarter Every Day 87",
+        "FORMAT": "mkv",
+        "NUMBER": 167,
+        "PUBLISHED_AT": "2013-04-14T21:54:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BAT Flight vs BIRDS, with SLOWMO, robots, swimming and treadmills - Smarter Every Day 87"
+    },
+    "M-cfAcnnqUQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "101 - SmarterEveryDay - Water Balloon to the Face doesn't pop  - Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 101,
+        "PUBLISHED_AT": "2011-09-23T20:14:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Water Balloon to the Face doesn't pop  - Smarter Every Day"
+    },
+    "M2w3NZzPwOM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "313 - SmarterEveryDay - Why Snatch Blocks are AWESOME (How Pulleys Work)  - Smarter Every Day 228",
+        "FORMAT": "mkv",
+        "NUMBER": 313,
+        "PUBLISHED_AT": "2019-12-05T15:01:04.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Snatch Blocks are AWESOME (How Pulleys Work)  - Smarter Every Day 228"
+    },
+    "M4-L8UgPkOk": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "311 - SmarterEveryDay - Which Way Will the Water Go_ (ft. Steve Mould)- Smarter Every Day 226",
+        "FORMAT": "mkv",
+        "NUMBER": 311,
+        "PUBLISHED_AT": "2019-10-13T13:30:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Which Way Will the Water Go? (ft. Steve Mould)- Smarter Every Day 226"
+    },
+    "MFzDaBzBlL0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "216 - SmarterEveryDay - The Backwards Brain Bicycle - Smarter Every Day 133",
+        "FORMAT": "mkv",
+        "NUMBER": 216,
+        "PUBLISHED_AT": "2015-04-24T23:01:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Backwards Brain Bicycle - Smarter Every Day 133"
+    },
+    "MRA-Hr-sghg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "230 - SmarterEveryDay - Amazon River Monster Project - Smarter Every Day 147",
+        "FORMAT": "mkv",
+        "NUMBER": 230,
+        "PUBLISHED_AT": "2015-12-11T23:10:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Amazon River Monster Project - Smarter Every Day 147"
+    },
+    "MUaTOoVmg1Q": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "342 - SmarterEveryDay - Exploding Weed Seeds (28,546 fps Slow Motion)- Smarter Every Day 257",
+        "FORMAT": "mkv",
+        "NUMBER": 342,
+        "PUBLISHED_AT": "2021-05-30T14:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Exploding Weed Seeds (28,546 fps Slow Motion)- Smarter Every Day 257"
+    },
+    "MUiYglgGbos": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "297 - SmarterEveryDay - Why Your Newsfeed Sucks - Smarter Every Day 212",
+        "FORMAT": "mkv",
+        "NUMBER": 297,
+        "PUBLISHED_AT": "2019-03-17T15:41:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Your Newsfeed Sucks - Smarter Every Day 212"
+    },
+    "MaB4k1SgfUg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "124 - SmarterEveryDay - Helicopter Physics Series - #2 Chopper Control - Smarter Every Day 46",
+        "FORMAT": "mkv",
+        "NUMBER": 124,
+        "PUBLISHED_AT": "2012-03-21T18:03:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Helicopter Physics Series - #2 Chopper Control - Smarter Every Day 46"
+    },
+    "MfoZQ3qBoHw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "89 - SmarterEveryDay - Rube Goldberg WITH FIRE TORNADO! - Smarter Every Day 17",
+        "FORMAT": "mkv",
+        "NUMBER": 89,
+        "PUBLISHED_AT": "2011-07-28T00:39:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rube Goldberg WITH FIRE TORNADO! - Smarter Every Day 17"
+    },
+    "MgqIWDPMALk": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "284 - SmarterEveryDay - Cannon Shock Waves in Ultra Slow Motion - Smarter Every Day 200",
+        "FORMAT": "mkv",
+        "NUMBER": 284,
+        "PUBLISHED_AT": "2018-09-26T15:11:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Cannon Shock Waves in Ultra Slow Motion - Smarter Every Day 200"
+    },
+    "Ms65JBrevYU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "338 - SmarterEveryDay - The Mystery of Magnetic Worms - Smarter Every Day 253",
+        "FORMAT": "mkv",
+        "NUMBER": 338,
+        "PUBLISHED_AT": "2021-03-31T14:28:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Mystery of Magnetic Worms - Smarter Every Day 253"
+    },
+    "NOWENgLm4KY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "34 - SmarterEveryDay - Firelapse - A Fire Timelapse",
+        "FORMAT": "mkv",
+        "NUMBER": 34,
+        "PUBLISHED_AT": "2009-01-08T14:36:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Firelapse - A Fire Timelapse"
+    },
+    "NY43w15joPE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "104 - SmarterEveryDay - Eyeballs vs. Bullets in SlowMo - Smarter Every Day 26",
+        "FORMAT": "mkv",
+        "NUMBER": 104,
+        "PUBLISHED_AT": "2011-10-07T11:54:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Eyeballs vs. Bullets in SlowMo - Smarter Every Day 26"
+    },
+    "NYCd5BEREf8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "196 - SmarterEveryDay - Finding Nemo's Plot Mistake - Smarter Every Day 115",
+        "FORMAT": "mkv",
+        "NUMBER": 196,
+        "PUBLISHED_AT": "2014-05-31T17:32:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Finding Nemo's Plot Mistake - Smarter Every Day 115"
+    },
+    "Nk0MRxXqo9s": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "306 - SmarterEveryDay - Eclipse in Argentina -   Smarter Every Day 221",
+        "FORMAT": "mkv",
+        "NUMBER": 306,
+        "PUBLISHED_AT": "2019-07-25T23:06:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "South American Eclipse - Argentina - Smarter Every Day 221"
+    },
+    "NwR6xKkHOyM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "209 - SmarterEveryDay - Cuteness Overload _ Project for Awesome 2014",
+        "FORMAT": "mkv",
+        "NUMBER": 209,
+        "PUBLISHED_AT": "2014-12-14T01:10:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Cuteness Overload | Project for Awesome 2014"
+    },
+    "O-JVepPdZbY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "183 - SmarterEveryDay - Kinematics of Grasshopper Hops - Smarter Every Day 102",
+        "FORMAT": "mkv",
+        "NUMBER": 183,
+        "PUBLISHED_AT": "2013-10-01T04:56:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kinematics of Grasshopper Hops - Smarter Every Day 102"
+    },
+    "O7zewtuUM_0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "219 - SmarterEveryDay - The Archer's Paradox in SLOW MOTION - Smarter Every Day 136",
+        "FORMAT": "mkv",
+        "NUMBER": 219,
+        "PUBLISHED_AT": "2015-05-28T18:56:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Archer's Paradox in SLOW MOTION - Smarter Every Day 136"
+    },
+    "OK2y4Z5IkZ0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "274 - SmarterEveryDay - A Real Life Haptic Glove (Ready Player One Technology Today) - Smarter Every Day 190",
+        "FORMAT": "mkv",
+        "NUMBER": 274,
+        "PUBLISHED_AT": "2018-03-01T15:18:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "A Real Life Haptic Glove (Ready Player One Technology Today) - Smarter Every Day 190"
+    },
+    "Oai7HUqncAA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "257 - SmarterEveryDay - Shooting Down a Lost Drone and why Dogs Tilt their Heads - Smarter Every Day 173",
+        "FORMAT": "mkv",
+        "NUMBER": 257,
+        "PUBLISHED_AT": "2017-08-13T14:02:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Shooting Down a Lost Drone and why Dogs Tilt their Heads - Smarter Every Day 173"
+    },
+    "OdPoVi_h0r0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "283 - SmarterEveryDay - Delta IV Heavy Pad Tour, (with CEO Tory Bruno) - Smarter Every Day 199",
+        "FORMAT": "mkv",
+        "NUMBER": 283,
+        "PUBLISHED_AT": "2018-09-02T22:52:16.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Delta IV Heavy Pad Tour, (with CEO Tory Bruno) - Smarter Every Day 199"
+    },
+    "OdW7vhYYSdM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "294 - SmarterEveryDay - Circular Saw Kickback Killer (We used science to make tools safer) - Smarter Every Day 209",
+        "FORMAT": "mkv",
+        "NUMBER": 294,
+        "PUBLISHED_AT": "2019-02-17T16:42:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Circular Saw Kickback Killer (We used science to make tools safer) - Smarter Every Day 209"
+    },
+    "Oz4YBJ64kgA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "10 - SmarterEveryDay - Roll Tide - NASA style",
+        "FORMAT": "mkv",
+        "NUMBER": 10,
+        "PUBLISHED_AT": "2007-12-14T06:06:28.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Roll Tide - NASA style"
+    },
+    "PR0gwyZYZ_Q": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "76 - SmarterEveryDay - DIY High Speed Video Camera - Muybridge Style  - Smarter Every Day 5",
+        "FORMAT": "mkv",
+        "NUMBER": 76,
+        "PUBLISHED_AT": "2011-06-03T16:24:16.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DIY High Speed Video Camera - Muybridge Style  - Smarter Every Day 5"
+    },
+    "PTFOc5Ltd5A": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "9 - SmarterEveryDay - I caught Dad a chicken - The Chicken Wrangler",
+        "FORMAT": "mkv",
+        "NUMBER": 9,
+        "PUBLISHED_AT": "2007-12-07T21:37:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "I caught Dad a chicken - The Chicken Wrangler"
+    },
+    "PYNsp4N8eYg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "202 - SmarterEveryDay - Slow Motion Ice Bucket Challenge (Dog, Cat, Chicken, Kid)  - Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 202,
+        "PUBLISHED_AT": "2014-08-28T13:30:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Slow Motion Ice Bucket Challenge (Dog, Cat, Chicken, Kid)  - Smarter Every Day"
+    },
+    "PZtsX0gLrxo": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "295 - SmarterEveryDay - We made a Rocket Saw - Smarter Every Day 210",
+        "FORMAT": "mkv",
+        "NUMBER": 295,
+        "PUBLISHED_AT": "2019-02-28T02:02:53.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Will a ROCKET POWERED SAW cut wood? - Smarter Every Day 210"
+    },
+    "PbabP9ttrZc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "221 - SmarterEveryDay - SpaceX-PLOSIONS_ Why It Matters - Smarter Every Day 138",
+        "FORMAT": "mkv",
+        "NUMBER": 221,
+        "PUBLISHED_AT": "2015-07-01T04:54:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SpaceX-PLOSIONS: Why It Matters - Smarter Every Day 138"
+    },
+    "Q-1DoJMehQM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "156 - SmarterEveryDay - 12 Animals in The Amazing Amazon (with Slow Mo) - Smarter Every Day 76",
+        "FORMAT": "mkv",
+        "NUMBER": 156,
+        "PUBLISHED_AT": "2013-01-04T19:01:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "12 Animals in The Amazing Amazon (with Slow Mo) - Smarter Every Day 76"
+    },
+    "Q5QTEYwVVaw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "130 - SmarterEveryDay - DEEP DIVE #1 - Smarter Every Day 52",
+        "FORMAT": "mkv",
+        "NUMBER": 130,
+        "PUBLISHED_AT": "2012-05-23T06:22:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DEEP DIVE #1 - Smarter Every Day 52"
+    },
+    "Q8Yp9SjCU5E": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "213 - SmarterEveryDay - WORLD\u2019S MOST AMAZING ARCHER in Slow Motion - Smarter Every Day 130",
+        "FORMAT": "mkv",
+        "NUMBER": 213,
+        "PUBLISHED_AT": "2015-03-01T11:05:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "WORLD\u2019S MOST AMAZING ARCHER in Slow Motion - Smarter Every Day 130"
+    },
+    "QEFhEPDtizc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "117 - SmarterEveryDay - Operation Rocket - Smarter Every Day  39",
+        "FORMAT": "mkv",
+        "NUMBER": 117,
+        "PUBLISHED_AT": "2012-01-15T14:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Operation Rocket - Smarter Every Day  39"
+    },
+    "QH091zFHdQ0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "135 - SmarterEveryDay - High Speed Fun and a Fly Responding to a Blast Wave _ Smarter Every Day 55",
+        "FORMAT": "mkv",
+        "NUMBER": 135,
+        "PUBLISHED_AT": "2012-06-22T21:00:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "High Speed Fun and a Fly Responding to a Blast Wave | Smarter Every Day 55"
+    },
+    "QJ9lNRAjTQM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "189 - SmarterEveryDay - How Houdini DIED (in Slow Motion) - Smarter Every Day 108",
+        "FORMAT": "mkv",
+        "NUMBER": 189,
+        "PUBLISHED_AT": "2013-12-27T06:19:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Houdini DIED (in Slow Motion) - Smarter Every Day 108"
+    },
+    "QLuUZ-8EHdw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "98 - SmarterEveryDay - WATER BALLOONS in SLOW MOTION - Smarter Every Day 24",
+        "FORMAT": "mkv",
+        "NUMBER": 98,
+        "PUBLISHED_AT": "2011-09-23T20:01:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "WATER BALLOONS in SLOW MOTION - Smarter Every Day 24"
+    },
+    "Q_F9CxSmGOM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "315 - SmarterEveryDay - World's Longest Home Run (The _Mad Batter_ Machine) - Smarter Every Day 230",
+        "FORMAT": "mkv",
+        "NUMBER": 315,
+        "PUBLISHED_AT": "2020-01-01T05:58:06.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "World's Longest Home Run (The \"Mad Batter\" Machine) - Smarter Every Day 230"
+    },
+    "Qa2sc6-u59I": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "226 - SmarterEveryDay - The Drill we sent to Mars - Smarter Every Day 143",
+        "FORMAT": "mkv",
+        "NUMBER": 226,
+        "PUBLISHED_AT": "2015-10-23T00:57:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Drill we sent to Mars - Smarter Every Day 143"
+    },
+    "QhyyPPPgL_w": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "176 - SmarterEveryDay - Butterfly Farming IS AMAZING - (Full Life Cycle) - Smarter Every Day 96",
+        "FORMAT": "mkv",
+        "NUMBER": 176,
+        "PUBLISHED_AT": "2013-06-30T12:35:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Butterfly Farming IS AMAZING - (Full Life Cycle) - Smarter Every Day 96"
+    },
+    "QlTf5X0MKbg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "328 - SmarterEveryDay - Navy SEAL Astronauts - Smarter Every Day 243",
+        "FORMAT": "mkv",
+        "NUMBER": 328,
+        "PUBLISHED_AT": "2020-09-27T14:15:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Navy SEAL Astronauts - Smarter Every Day 243"
+    },
+    "QxZ_iPldGtI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "305 - SmarterEveryDay - Where does NASA keep the Moon Rocks_ - Smarter Every Day 220",
+        "FORMAT": "mkv",
+        "NUMBER": 305,
+        "PUBLISHED_AT": "2019-07-09T19:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Where does NASA keep the Moon Rocks? - Smarter Every Day 220"
+    },
+    "R7yzKJHSrRE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "115 - SmarterEveryDay - How to light a match inside a balloon - Smarter Every Day 36 LASER MONTH",
+        "FORMAT": "mkv",
+        "NUMBER": 115,
+        "PUBLISHED_AT": "2011-12-23T20:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to light a match inside a balloon - Smarter Every Day 36 LASER MONTH"
+    },
+    "RXXMJAU6vY8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "325 - SmarterEveryDay - Boarding a US NAVY NUCLEAR SUBMARINE in the Arctic - Smarter Every Day 240",
+        "FORMAT": "mkv",
+        "NUMBER": 325,
+        "PUBLISHED_AT": "2020-07-26T14:57:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Boarding a US NAVY NUCLEAR SUBMARINE in the Arctic - Smarter Every Day 240"
+    },
+    "RrWnZ7VySac": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "158 - SmarterEveryDay - FIRST VIDEO OF NEW SPIDER SPECIES! - Smarter Every Day 78",
+        "FORMAT": "mkv",
+        "NUMBER": 158,
+        "PUBLISHED_AT": "2013-01-16T14:12:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FIRST VIDEO OF NEW SPIDER SPECIES! - Smarter Every Day 78"
+    },
+    "RtWbpyjJqrU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "139 - SmarterEveryDay - Slow Motion Flipping Cat Physics _ Smarter Every Day 58",
+        "FORMAT": "mkv",
+        "NUMBER": 139,
+        "PUBLISHED_AT": "2012-08-08T23:38:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Slow Motion Flipping Cat Physics | Smarter Every Day 58"
+    },
+    "RyfagdQMnDY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "20 - SmarterEveryDay - Kayak Trip Time Lapse - Life from a Boat's Perspective",
+        "FORMAT": "mkv",
+        "NUMBER": 20,
+        "PUBLISHED_AT": "2008-04-13T18:21:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kayak Trip Time Lapse - Life from a Boat's Perspective"
+    },
+    "S0uGsAksBaY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "150 - SmarterEveryDay - 3D Audio Machu Picchu Hike (Wear Headphones) - Smarter Every Day 68A",
+        "FORMAT": "mkv",
+        "NUMBER": 150,
+        "PUBLISHED_AT": "2012-11-22T01:35:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "3D Audio Machu Picchu Hike (Wear Headphones) - Smarter Every Day 68A"
+    },
+    "S1opkMO1w4U": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "321 - SmarterEveryDay - How Weed Eaters Work (at 62,000 FRAMES PER SECOND) - Smarter Every Day 236",
+        "FORMAT": "mkv",
+        "NUMBER": 321,
+        "PUBLISHED_AT": "2020-05-31T15:34:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Weed Eaters Work (at 62,000 FRAMES PER SECOND) - Smarter Every Day 236"
+    },
+    "SMbtqR0dsH4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "161 - SmarterEveryDay - TONIGHT WE EAT LIKE KINGS! - Smarter Every Day 81",
+        "FORMAT": "mkv",
+        "NUMBER": 161,
+        "PUBLISHED_AT": "2013-02-07T02:06:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TONIGHT WE EAT LIKE KINGS! - Smarter Every Day 81"
+    },
+    "SYFuA3xnkUE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "341 - SmarterEveryDay - How to Poop on a US Navy NUCLEAR SUBMARINE - Smarter Every Day 256",
+        "FORMAT": "mkv",
+        "NUMBER": 341,
+        "PUBLISHED_AT": "2021-05-09T14:00:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Poop on a US Navy NUCLEAR SUBMARINE - Smarter Every Day 256"
+    },
+    "T-xMCFOwllE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "291 - SmarterEveryDay - How to Measure to a MILLIONTH of an Inch (The Dawn of Precision) - Smarter Every Day 206",
+        "FORMAT": "mkv",
+        "NUMBER": 291,
+        "PUBLISHED_AT": "2018-12-21T16:20:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Measure to a MILLIONTH of an Inch (The Dawn of Precision) - Smarter Every Day 206"
+    },
+    "TCZ8MSg9FrI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "36 - SmarterEveryDay - Animal Survival Technique - Smarter Every Day (T-5)",
+        "FORMAT": "mkv",
+        "NUMBER": 36,
+        "PUBLISHED_AT": "2009-05-10T23:50:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Animal Survival Technique - Smarter Every Day (T-5)"
+    },
+    "TCxoZlFqzwA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "343 - SmarterEveryDay - How Does Film ACTUALLY Work_ (It's MAGIC)  [Photos and Development] - Smarter Every Day 258",
+        "FORMAT": "mkv",
+        "NUMBER": 343,
+        "PUBLISHED_AT": "2021-06-13T21:14:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does Film ACTUALLY Work? (It's MAGIC)  [Photos and Development] - Smarter Every Day 258"
+    },
+    "TRESqj6onwA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "246 - SmarterEveryDay - Peru Orphanage Update - Smarter Every Day 163",
+        "FORMAT": "mkv",
+        "NUMBER": 246,
+        "PUBLISHED_AT": "2016-12-09T17:07:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Peru Orphanage Update - Smarter Every Day 163"
+    },
+    "TTnxH3qfmKk": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "40 - SmarterEveryDay - Rainwater Observatory",
+        "FORMAT": "mkv",
+        "NUMBER": 40,
+        "PUBLISHED_AT": "2009-10-28T04:53:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rainwater Observatory"
+    },
+    "U3EEmVfbKNs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "260 - SmarterEveryDay - DNA Testing and Privacy (Behind the scenes at the 23andMe Lab) - Smarter Every Day 176",
+        "FORMAT": "mkv",
+        "NUMBER": 260,
+        "PUBLISHED_AT": "2017-09-07T14:05:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DNA Testing and Privacy (Behind the scenes at the 23andMe Lab) - Smarter Every Day 176"
+    },
+    "UPbelB6Q1Ao": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "267 - SmarterEveryDay - Peru Orphanage Update 2017 - Smarter Every Day 183",
+        "FORMAT": "mkv",
+        "NUMBER": 267,
+        "PUBLISHED_AT": "2017-12-16T01:35:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Peru Orphanage Update 2017 - Smarter Every Day 183"
+    },
+    "UXq1VFWTQE0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "285 - SmarterEveryDay - Announcing ThinkerCon! - A Celebration of Online Educational Content",
+        "FORMAT": "mkv",
+        "NUMBER": 285,
+        "PUBLISHED_AT": "2018-10-08T23:56:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Announcing ThinkerCon! - A Celebration of Online Educational Content"
+    },
+    "UYEyhB0AGlw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "326 - SmarterEveryDay - Crawling Down A Torpedo Tube -US NAVY Nuclear Submarine - Smarter Every Day 241",
+        "FORMAT": "mkv",
+        "NUMBER": 326,
+        "PUBLISHED_AT": "2020-08-16T13:00:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Crawling Down A Torpedo Tube -US NAVY Nuclear Submarine - Smarter Every Day 241"
+    },
+    "UsE-X4Eqtx0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "85 - SmarterEveryDay - 4th of July Fireworks Chemistry - Smarter Every Day 14",
+        "FORMAT": "mkv",
+        "NUMBER": 85,
+        "PUBLISHED_AT": "2011-07-10T10:54:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "4th of July Fireworks Chemistry - Smarter Every Day 14"
+    },
+    "UytSNlHw8J8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "55 - SmarterEveryDay - Chicken Powered Steadicam - Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 55,
+        "PUBLISHED_AT": "2010-12-07T19:30:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chicken Powered Steadicam - Smarter Every Day"
+    },
+    "UzDtlShztpE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "37 - SmarterEveryDay - At the Beach!   (Great Clouds)",
+        "FORMAT": "mkv",
+        "NUMBER": 37,
+        "PUBLISHED_AT": "2009-07-27T03:26:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "At the Beach!   (Great Clouds)"
+    },
+    "V-1RhQ1uuQ4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "299 - SmarterEveryDay - Who is Manipulating Twitter_ - Smarter Every Day 214",
+        "FORMAT": "mkv",
+        "NUMBER": 299,
+        "PUBLISHED_AT": "2019-04-08T13:40:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Twitter Bot Battle (Who is Attacking Twitter?) - Smarter Every Day 214"
+    },
+    "V1Q1FFTga8k": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "190 - SmarterEveryDay - Beatboxing in Slow Motion - Smarter Every Day 109",
+        "FORMAT": "mkv",
+        "NUMBER": 190,
+        "PUBLISHED_AT": "2014-01-15T22:52:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Beatboxing in Slow Motion - Smarter Every Day 109"
+    },
+    "VJcno_XL4RU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "165 - SmarterEveryDay - SPACE CATS !!! - Smarter Every Day 85",
+        "FORMAT": "mkv",
+        "NUMBER": 165,
+        "PUBLISHED_AT": "2013-03-03T01:07:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SPACE CATS !!! - Smarter Every Day 85"
+    },
+    "VTVigNA3KCY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "142 - SmarterEveryDay - MACAWS in SlowMotion! Rainforest Research! Smarter Every Day 60",
+        "FORMAT": "mkv",
+        "NUMBER": 142,
+        "PUBLISHED_AT": "2012-09-19T11:22:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "MACAWS in SlowMotion! Rainforest Research! Smarter Every Day 60"
+    },
+    "V_2YJr02-f0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "73 - SmarterEveryDay - Art with Bullets",
+        "FORMAT": "mkv",
+        "NUMBER": 73,
+        "PUBLISHED_AT": "2011-05-12T16:19:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Art with Bullets"
+    },
+    "Vk7StnSNEJI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "38 - SmarterEveryDay - Share the Love! - My first attempt at paying for college.",
+        "FORMAT": "mkv",
+        "NUMBER": 38,
+        "PUBLISHED_AT": "2009-08-31T01:44:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Share the Love! - My first attempt at paying for college."
+    },
+    "VvVigAr4hZc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "231 - SmarterEveryDay - Q&A with Destin - Smarter Every Day 148",
+        "FORMAT": "mkv",
+        "NUMBER": 231,
+        "PUBLISHED_AT": "2015-12-25T16:57:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Q&A with Destin - Smarter Every Day 148"
+    },
+    "W5K6YymPe_M": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "175 - SmarterEveryDay - Slow Motion of an AK-47 Underwater (Part 1) - Smarter Every Day 95",
+        "FORMAT": "mkv",
+        "NUMBER": 175,
+        "PUBLISHED_AT": "2013-06-24T11:28:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Slow Motion of an AK-47 Underwater (Part 1) - Smarter Every Day 95"
+    },
+    "WdEWzqsfeHM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "123 - SmarterEveryDay - Helicopter Physics Series Intro - #1 Smarter Every Day 45",
+        "FORMAT": "mkv",
+        "NUMBER": 123,
+        "PUBLISHED_AT": "2012-03-09T18:57:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Helicopter Physics Series Intro - #1 Smarter Every Day 45"
+    },
+    "WhFyEzOnLWw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "181 - SmarterEveryDay - What we've learned in 100 Episodes - Smarter Every Day 100!!",
+        "FORMAT": "mkv",
+        "NUMBER": 181,
+        "PUBLISHED_AT": "2013-09-15T02:33:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What we've learned in 100 Episodes - Smarter Every Day 100!!"
+    },
+    "WiFbpJjCiig": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "100 - SmarterEveryDay - Double Water Balloon to the Face doesn't pop - Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 100,
+        "PUBLISHED_AT": "2011-09-23T20:06:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Double Water Balloon to the Face doesn't pop - Smarter Every Day"
+    },
+    "Wic2Ychvpdg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "146 - SmarterEveryDay - Behind the Scenes at YouTube - Smarter Every Day 64",
+        "FORMAT": "mkv",
+        "NUMBER": 146,
+        "PUBLISHED_AT": "2012-10-26T11:13:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Behind the Scenes at YouTube - Smarter Every Day 64"
+    },
+    "Wp9NUrNssv8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "188 - SmarterEveryDay - How I spent $50,000 in South America - Not Forgotten SED 107",
+        "FORMAT": "mkv",
+        "NUMBER": 188,
+        "PUBLISHED_AT": "2013-12-17T18:07:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How I spent $50,000 in South America - Not Forgotten SED 107"
+    },
+    "Wq48opvHsNI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "199 - SmarterEveryDay - How Fish Eat (in SLOW MOTION!) -  Smarter Every Day 118",
+        "FORMAT": "mkv",
+        "NUMBER": 199,
+        "PUBLISHED_AT": "2014-07-14T14:37:19.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Fish Eat (in SLOW MOTION!) -  Smarter Every Day 118"
+    },
+    "WwhCygmhbCg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "71 - SmarterEveryDay - 12 Gauge Dragon's Breath AT NIGHT!-  Smarter Every Day 2",
+        "FORMAT": "mkv",
+        "NUMBER": 71,
+        "PUBLISHED_AT": "2011-05-04T14:28:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "12 Gauge Dragon's Breath AT NIGHT!-  Smarter Every Day 2"
+    },
+    "X-sLxs6ovD0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "50 - SmarterEveryDay - Goldfish Catches Bullet",
+        "FORMAT": "mkv",
+        "NUMBER": 50,
+        "PUBLISHED_AT": "2010-08-24T18:32:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Goldfish Catches Bullet"
+    },
+    "X7bPX27hVZs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "44 - SmarterEveryDay - Love knows no language barrier....",
+        "FORMAT": "mkv",
+        "NUMBER": 44,
+        "PUBLISHED_AT": "2010-04-05T02:03:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Love knows no language barrier...."
+    },
+    "XFJnWp1tAdU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "345 - SmarterEveryDay - How to Surface a Submarine in the Arctic Ocean  - Smarter Every Day 260",
+        "FORMAT": "mkv",
+        "NUMBER": 345,
+        "PUBLISHED_AT": "2021-07-30T21:26:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Surface a Submarine in the Arctic Ocean  - Smarter Every Day 260"
+    },
+    "YyIjwH-b5nw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "180 - SmarterEveryDay - Lighting Cigarette with a Laser - LASER MONTH - Smarter Every Day 37",
+        "FORMAT": "mkv",
+        "NUMBER": 180,
+        "PUBLISHED_AT": "2013-09-14T06:51:59.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Lighting Cigarette with a Laser - LASER MONTH - Smarter Every Day 37"
+    },
+    "ZauGjgZ0rBQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "97 - SmarterEveryDay - Vortex Shedding - Smarter Every Day 23",
+        "FORMAT": "mkv",
+        "NUMBER": 97,
+        "PUBLISHED_AT": "2011-09-15T12:39:39.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Vortex Shedding - Smarter Every Day 23"
+    },
+    "ZmO_J-_N_8Q": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "271 - SmarterEveryDay - .50 Cal vs Ballistic Window HARDCORE Slow Mo  - Smarter Every Day 187",
+        "FORMAT": "mkv",
+        "NUMBER": 271,
+        "PUBLISHED_AT": "2018-01-24T00:37:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": ".50 Cal vs Ballistic Window HARDCORE Slow Mo  - Smarter Every Day 187"
+    },
+    "_6CDehwoBX4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "94 - SmarterEveryDay - WE ATE GOAT BRAINS - Smarter Every Day 20",
+        "FORMAT": "mkv",
+        "NUMBER": 94,
+        "PUBLISHED_AT": "2011-08-13T11:20:30.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "WE ATE GOAT BRAINS - Smarter Every Day 20"
+    },
+    "_9pPGIF-bqQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "79 - SmarterEveryDay - Tuscaloosa Tornado - Smarter Every Day 7",
+        "FORMAT": "mkv",
+        "NUMBER": 79,
+        "PUBLISHED_AT": "2011-06-12T11:40:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tuscaloosa Tornado - Smarter Every Day 7"
+    },
+    "_FlV6pgwlrk": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "225 - SmarterEveryDay - _YOU WON'T BELIEVE YOUR EYES!_ - Smarter Every Day 142",
+        "FORMAT": "mkv",
+        "NUMBER": 225,
+        "PUBLISHED_AT": "2015-10-01T04:59:28.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\"YOU WON'T BELIEVE YOUR EYES!\" - Smarter Every Day 142"
+    },
+    "_OXk4RKZhaY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "335 - SmarterEveryDay - HOW TO LAND ON THE MOON - Smarter Every Day 250",
+        "FORMAT": "mkv",
+        "NUMBER": 335,
+        "PUBLISHED_AT": "2021-01-30T19:52:44Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Neil Armstrong Trained to Land on the Moon  - Smarter Every Day 250"
+    },
+    "_TNSUIsjdpY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "239 - SmarterEveryDay - HOLDING AN EXPLOSION at 20,000 fps - Smarter Every Day 156",
+        "FORMAT": "mkv",
+        "NUMBER": 239,
+        "PUBLISHED_AT": "2016-06-22T14:22:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "HOLDING AN EXPLOSION at 20,000 fps - Smarter Every Day 156"
+    },
+    "_dPlkFPowCc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "25 - SmarterEveryDay - Chicken Head Tracking - Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 25,
+        "PUBLISHED_AT": "2008-06-15T20:21:13.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chicken Head Tracking - Smarter Every Day"
+    },
+    "_eUlpPY96Ok": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "91 - SmarterEveryDay - High Speed Video of Pistols Underwater - Smarter Every Day 19",
+        "FORMAT": "mkv",
+        "NUMBER": 91,
+        "PUBLISHED_AT": "2011-08-11T04:06:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "High Speed Video of Pistols Underwater - Smarter Every Day 19"
+    },
+    "_fTC_Ud_k3U": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "245 - SmarterEveryDay - Handheld TESLA COIL GUN at 28,000fps - Smarter Every Day 162",
+        "FORMAT": "mkv",
+        "NUMBER": 245,
+        "PUBLISHED_AT": "2016-12-01T07:55:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Handheld TESLA COIL GUN at 28,000fps - Smarter Every Day 162"
+    },
+    "_pbdwueqGp4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "129 - SmarterEveryDay - The Helicopter Speed Limit - Helicopter Physics Series - #7 - Smarter Every Day 51",
+        "FORMAT": "mkv",
+        "NUMBER": 129,
+        "PUBLISHED_AT": "2012-05-09T11:29:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Helicopter Speed Limit - Helicopter Physics Series - #7 - Smarter Every Day 51"
+    },
+    "a3P1qIqGtRw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "29 - SmarterEveryDay - Crafts in Peru",
+        "FORMAT": "mkv",
+        "NUMBER": 29,
+        "PUBLISHED_AT": "2008-07-29T04:27:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Crafts in Peru"
+    },
+    "aDorTBEhEtk": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "220 - SmarterEveryDay - The Truth About Toilet Swirl - Northern Hemisphere",
+        "FORMAT": "mkv",
+        "NUMBER": 220,
+        "PUBLISHED_AT": "2015-06-03T14:58:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Truth About Toilet Swirl - Northern Hemisphere"
+    },
+    "aK5AnViPkJ0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "333 - SmarterEveryDay - How to Harvest Pecans (In Slow Motion) - Smarter Every Day 248",
+        "FORMAT": "mkv",
+        "NUMBER": 333,
+        "PUBLISHED_AT": "2020-12-06T14:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Harvest Pecans (In Slow Motion) - Smarter Every Day 248"
+    },
+    "aO7yzmc3ykw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "268 - SmarterEveryDay - How to record Slow Motion Sounds (Exploding Tomato at 60,000fps) - Smarter Every Day 184",
+        "FORMAT": "mkv",
+        "NUMBER": 268,
+        "PUBLISHED_AT": "2017-12-26T15:45:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to record Slow Motion Sounds (Exploding Tomato at 60,000fps) - Smarter Every Day 184"
+    },
+    "aQaCY7wlQEc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "282 - SmarterEveryDay - The Parker Solar Probe - Smarter Every Day 198",
+        "FORMAT": "mkv",
+        "NUMBER": 282,
+        "PUBLISHED_AT": "2018-08-24T15:29:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Parker Solar Probe - Smarter Every Day 198"
+    },
+    "aTRVfKqG59M": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "114 - SmarterEveryDay - Laser Month! Week 2 - Laser vs Balloons - Smarter Every Day 35",
+        "FORMAT": "mkv",
+        "NUMBER": 114,
+        "PUBLISHED_AT": "2011-12-16T12:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Laser Month! Week 2 - Laser vs Balloons - Smarter Every Day 35"
+    },
+    "ajK1QMP7ZyI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "329 - SmarterEveryDay - How to Fight Fire or Flooding on a Nuclear Submarine - Smarter Every Day 244",
+        "FORMAT": "mkv",
+        "NUMBER": 329,
+        "PUBLISHED_AT": "2020-10-04T13:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Fight Fire or Flooding on a Nuclear Submarine - Smarter Every Day 244"
+    },
+    "aw8kRZEvh_s": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "337 - SmarterEveryDay - NASA's Robotic Lunar Lander - Smarter Every Day 252",
+        "FORMAT": "mkv",
+        "NUMBER": 337,
+        "PUBLISHED_AT": "2021-03-07T14:03:29Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does NASA Practice Landing on the Moon? - Smarter Every Day 252"
+    },
+    "awtMPTl7Cks": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "157 - SmarterEveryDay - The insanely scary _Tailless Whip Scorpion_ - Smarter Every Day 77",
+        "FORMAT": "mkv",
+        "NUMBER": 157,
+        "PUBLISHED_AT": "2013-01-10T12:39:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The insanely scary \"Tailless Whip Scorpion\" - Smarter Every Day 77"
+    },
+    "az1PTIehYKI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "195 - SmarterEveryDay - Can you find me_ (Streetview on the Great Barrier Reef) - Smarter Every Day 114",
+        "FORMAT": "mkv",
+        "NUMBER": 195,
+        "PUBLISHED_AT": "2014-05-23T15:40:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Can you find me? (Streetview on the Great Barrier Reef) - Smarter Every Day 114"
+    },
+    "bKpQquYRw5E": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "136 - SmarterEveryDay - New High Speed Camera, Road Trip & a Mousetrap Challenge _ Smarter Every Day 56",
+        "FORMAT": "mkv",
+        "NUMBER": 136,
+        "PUBLISHED_AT": "2012-07-06T20:52:44.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New High Speed Camera, Road Trip & a Mousetrap Challenge | Smarter Every Day 56"
+    },
+    "bPJUVKizh90": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "331 - SmarterEveryDay - How to Make Pizza on a Submarine - Smarter Every Day 246",
+        "FORMAT": "mkv",
+        "NUMBER": 331,
+        "PUBLISHED_AT": "2020-11-01T17:10:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Make Pizza on a Submarine - Smarter Every Day 246"
+    },
+    "bvaDOKdImMA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "1 - SmarterEveryDay - How to Light a Bonfire with Rockets",
+        "FORMAT": "mkv",
+        "NUMBER": 1,
+        "PUBLISHED_AT": "2007-01-06T19:17:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Light a Bonfire with Rockets"
+    },
+    "cJipa07DoHs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "78 - SmarterEveryDay - Best Spot in the Microwave_ - Smarter Every Day 6",
+        "FORMAT": "mkv",
+        "NUMBER": 78,
+        "PUBLISHED_AT": "2011-06-11T10:38:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Best Spot in the Microwave? - Smarter Every Day 6"
+    },
+    "cK2YzUONFVw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "251 - SmarterEveryDay - My Sister Got Malaria ....(And I Didn't) - Smarter Every Day 167",
+        "FORMAT": "mkv",
+        "NUMBER": 251,
+        "PUBLISHED_AT": "2017-02-14T16:46:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "My Sister Got Malaria ....(And I Didn't) - Smarter Every Day 167"
+    },
+    "c_RVjyFpqrI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "72 - SmarterEveryDay - Tornado Tree Mind Twister",
+        "FORMAT": "mkv",
+        "NUMBER": 72,
+        "PUBLISHED_AT": "2011-05-06T13:41:24.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tornado Tree Mind Twister"
+    },
+    "cp5gdUHFGIQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "177 - SmarterEveryDay - AK-47 Underwater at 27,450 frames per second (Part 2) - Smarter Every Day 97",
+        "FORMAT": "mkv",
+        "NUMBER": 177,
+        "PUBLISHED_AT": "2013-07-23T03:23:21.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "AK-47 Underwater at 27,450 frames per second (Part 2) - Smarter Every Day 97"
+    },
+    "cqidD7kVnxY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "327 - SmarterEveryDay - World's Fastest Pitch - Supersonic Baseball Cannon - Smarter Every Day 242",
+        "FORMAT": "mkv",
+        "NUMBER": 327,
+        "PUBLISHED_AT": "2020-09-06T15:38:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "World's Fastest Pitch - Supersonic Baseball Cannon - Smarter Every Day 242"
+    },
+    "d2mITQ53kr8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "125 - SmarterEveryDay - Helicopter Physics Series - #3 Upside Down Flying With High Speed Video - Smarter Every Day 47",
+        "FORMAT": "mkv",
+        "NUMBER": 125,
+        "PUBLISHED_AT": "2012-04-01T03:03:30.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Helicopter Physics Series - #3 Upside Down Flying With High Speed Video - Smarter Every Day 47"
+    },
+    "dI-JW2UIAG0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "308 - SmarterEveryDay - How did NASA Steer the Saturn V_- Smarter Every Day 223",
+        "FORMAT": "mkv",
+        "NUMBER": 308,
+        "PUBLISHED_AT": "2019-08-08T01:29:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How did NASA Steer the Saturn V?- Smarter Every Day 223"
+    },
+    "dNVtMmLlnoE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "256 - SmarterEveryDay - Rolling Shutter Explained (Why Do Cameras Do This_) - Smarter Every Day 172",
+        "FORMAT": "mkv",
+        "NUMBER": 256,
+        "PUBLISHED_AT": "2017-06-30T13:04:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rolling Shutter Explained (Why Do Cameras Do This?) - Smarter Every Day 172"
+    },
+    "ds0cmAV-Yek": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "290 - SmarterEveryDay - What is a Fourier Series_ (Explained by drawing circles) - Smarter Every Day 205",
+        "FORMAT": "mkv",
+        "NUMBER": 290,
+        "PUBLISHED_AT": "2018-12-10T19:20:19.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What is a Fourier Series? (Explained by drawing circles) - Smarter Every Day 205"
+    },
+    "dsRsap2_RAc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "152 - SmarterEveryDay - Why Astronauts left a reflector on the Moon! (ft. MinutePhysics) - Smarter Every Day 73",
+        "FORMAT": "mkv",
+        "NUMBER": 152,
+        "PUBLISHED_AT": "2012-12-13T21:55:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Astronauts left a reflector on the Moon! (ft. MinutePhysics) - Smarter Every Day 73"
+    },
+    "e0AJbu3QLiw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "207 - SmarterEveryDay - HOW TO PICK A COLOGNE - Scentual Science - Smarter Every Day 125",
+        "FORMAT": "mkv",
+        "NUMBER": 207,
+        "PUBLISHED_AT": "2014-12-02T04:03:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "HOW TO PICK A COLOGNE - Scentual Science - Smarter Every Day 125"
+    },
+    "eRvgGU8p8wE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "168 - SmarterEveryDay - Skipping Stones and Mailing Postcards- Smarter Every Day 88",
+        "FORMAT": "mkv",
+        "NUMBER": 168,
+        "PUBLISHED_AT": "2013-04-19T11:36:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Skipping Stones and Mailing Postcards- Smarter Every Day 88"
+    },
+    "eTjGTxSevHE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "126 - SmarterEveryDay - Helicopter Physics Series - #4 They're Gyroscopes - Smarter Every Day 48",
+        "FORMAT": "mkv",
+        "NUMBER": 126,
+        "PUBLISHED_AT": "2012-04-11T21:50:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Are Helicopters Gyroscopes? - Smarter Every Day 48"
+    },
+    "eXR1olg_I0w": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "228 - SmarterEveryDay - Hovering a Helicopter is Hilariously Hard - Smarter Every Day 145",
+        "FORMAT": "mkv",
+        "NUMBER": 228,
+        "PUBLISHED_AT": "2015-11-20T18:28:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hovering a Helicopter is Hilariously Hard - Smarter Every Day 145"
+    },
+    "el5wpM2Q-Hs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "22 - SmarterEveryDay - Principles of Science! - ENTROPY - Smarter Every Day (-2.5 years)",
+        "FORMAT": "mkv",
+        "NUMBER": 22,
+        "PUBLISHED_AT": "2008-05-16T15:12:52.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Principles of Science! - ENTROPY - Smarter Every Day (-2.5 years)"
+    },
+    "fGHxyBTycLY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "121 - SmarterEveryDay - Perfect Muzzle Flash Photos - Smarter Every Day 43",
+        "FORMAT": "mkv",
+        "NUMBER": 121,
+        "PUBLISHED_AT": "2012-02-20T17:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Perfect Muzzle Flash Photos - Smarter Every Day 43"
+    },
+    "flmkQZvN_g8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "340 - SmarterEveryDay - What happens when 2 Weedeaters Hit Each Other_ (28,000 fps SLOW MOTION)  - Smarter Every Day 255",
+        "FORMAT": "mkv",
+        "NUMBER": 340,
+        "PUBLISHED_AT": "2021-04-30T01:02:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What happens when 2 Weedeaters Hit Each Other? (28,000 fps SLOW MOTION)  - Smarter Every Day 255"
+    },
+    "fvu5FxKuqdQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "276 - SmarterEveryDay - The Infinadeck Omnidirectional Treadmill - Smarter Every Day 192 (VR Series)",
+        "FORMAT": "mkv",
+        "NUMBER": 276,
+        "PUBLISHED_AT": "2018-04-16T19:19:20.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Infinadeck Omnidirectional Treadmill - Smarter Every Day 192 (VR Series)"
+    },
+    "g224A2cMORI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "238 - SmarterEveryDay - Watermelon destroyed by Potato Gun - Smarter Every Day 155",
+        "FORMAT": "mkv",
+        "NUMBER": 238,
+        "PUBLISHED_AT": "2016-05-22T15:28:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Potato vs Watermelon - Smarter Every Day 155"
+    },
+    "g38kRk6YAA0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "278 - SmarterEveryDay - Splitting a Playing Card in ULTRA SLOW MOTION - Smarter Every Day 194",
+        "FORMAT": "mkv",
+        "NUMBER": 278,
+        "PUBLISHED_AT": "2018-05-25T12:29:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Splitting a Playing Card in ULTRA SLOW MOTION - Smarter Every Day 194"
+    },
+    "g3MrlZIHf0o": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "81 - SmarterEveryDay - Jungle Loom Operation - Smarter Every Day 10",
+        "FORMAT": "mkv",
+        "NUMBER": 81,
+        "PUBLISHED_AT": "2011-06-21T07:09:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jungle Loom Operation - Smarter Every Day 10"
+    },
+    "g3Ud6mHdhlQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "336 - SmarterEveryDay - How Do Nuclear Submarines Make Oxygen_- Smarter Every Day 251",
+        "FORMAT": "mkv",
+        "NUMBER": 336,
+        "PUBLISHED_AT": "2021-02-21T14:00:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Do Nuclear Submarines Make Oxygen?- Smarter Every Day 251"
+    },
+    "gnTpHQ5UJwo": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "2 - SmarterEveryDay - Stuff Sadie Can Do",
+        "FORMAT": "mkv",
+        "NUMBER": 2,
+        "PUBLISHED_AT": "2007-02-09T02:51:24.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stuff Sadie Can Do"
+    },
+    "goE5VmuNK7g": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "69 - SmarterEveryDay - Portable Sawmill Timelapse - Wood-Mizer",
+        "FORMAT": "mkv",
+        "NUMBER": 69,
+        "PUBLISHED_AT": "2011-04-12T07:58:38.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Portable Sawmill Timelapse - Wood-Mizer"
+    },
+    "hAAc7aqFZSo": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "27 - SmarterEveryDay - Where the heck is Sadie_ Sadie goes to Europe",
+        "FORMAT": "mkv",
+        "NUMBER": 27,
+        "PUBLISHED_AT": "2008-06-29T06:28:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Where the heck is Sadie? Sadie goes to Europe"
+    },
+    "hToKUbjiKbM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "93 - SmarterEveryDay - Part C - Revolver Underwater",
+        "FORMAT": "mkv",
+        "NUMBER": 93,
+        "PUBLISHED_AT": "2011-08-11T19:57:20.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Part C - Revolver Underwater"
+    },
+    "hnk07j1J5jk": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "54 - SmarterEveryDay - How to safely light a fire. - Merry Christmas",
+        "FORMAT": "mkv",
+        "NUMBER": 54,
+        "PUBLISHED_AT": "2010-12-06T00:31:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to safely light a fire. - Merry Christmas"
+    },
+    "hol33ga9G_E": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "223 - SmarterEveryDay - DEVIL FACIAL TUMOR DISEASE - Smarter Every Day 140",
+        "FORMAT": "mkv",
+        "NUMBER": 223,
+        "PUBLISHED_AT": "2015-09-01T05:10:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DEVIL FACIAL TUMOR DISEASE - Smarter Every Day 140"
+    },
+    "iVKdU_OmsaU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "281 - SmarterEveryDay - Bird Taking Off at 20,000 fps (213 milliseconds) - Smarter Every Day 197",
+        "FORMAT": "mkv",
+        "NUMBER": 281,
+        "PUBLISHED_AT": "2018-08-03T18:39:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bird Taking Off at 20,000 fps (213 milliseconds) - Smarter Every Day 197"
+    },
+    "ibwTDmxsXuI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "151 - SmarterEveryDay - Bullet Time with MinutePhysics - Smarter Every Day 69",
+        "FORMAT": "mkv",
+        "NUMBER": 151,
+        "PUBLISHED_AT": "2012-12-03T14:49:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bullet Time with MinutePhysics - Smarter Every Day 69"
+    },
+    "ipQkk7RxApg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "13 - SmarterEveryDay - DONT SEND ME TO AUBURN!!!!! (Roll Tide! Alabama 2009 & 2011 National Champions!)",
+        "FORMAT": "mkv",
+        "NUMBER": 13,
+        "PUBLISHED_AT": "2008-01-19T02:43:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DONT SEND ME TO AUBURN!!!!! (Roll Tide! Alabama 2009 & 2011 National Champions!)"
+    },
+    "j2_dJY_mIys": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "302 - SmarterEveryDay - Unmixing Color Machine (Ultra Laminar Reversible Flow) - Smarter Every Day 217",
+        "FORMAT": "mkv",
+        "NUMBER": 302,
+        "PUBLISHED_AT": "2019-05-22T23:10:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Unmixing Color Machine (Ultra Laminar Reversible Flow) - Smarter Every Day 217"
+    },
+    "jY0wL7uLiE8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "162 - SmarterEveryDay - My question for the orbiting astronauts - Smarter Every Day 82",
+        "FORMAT": "mkv",
+        "NUMBER": 162,
+        "PUBLISHED_AT": "2013-02-12T12:22:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "My question for the orbiting astronauts - Smarter Every Day 82"
+    },
+    "jfeFDNGkj2Y": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "95 - SmarterEveryDay - Darren's Great Big Camera - Smarter Every Day 21",
+        "FORMAT": "mkv",
+        "NUMBER": 95,
+        "PUBLISHED_AT": "2011-08-25T13:07:39.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Darren's Great Big Camera - Smarter Every Day 21"
+    },
+    "jweQNDCe218": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "287 - SmarterEveryDay - How to Build a 4K Editing Computer (More cores are not always better) - Smarter Every Day 202",
+        "FORMAT": "mkv",
+        "NUMBER": 287,
+        "PUBLISHED_AT": "2018-10-27T00:20:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Build a 4K Editing Computer (More cores are not always better) - Smarter Every Day 202"
+    },
+    "k5MORochIDw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "254 - SmarterEveryDay - AK-47 vs Prince Rupert's Drop (at 223,000 FPS) - Smarter Every Day 170",
+        "FORMAT": "mkv",
+        "NUMBER": 254,
+        "PUBLISHED_AT": "2017-04-30T20:56:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "AK-47 vs Prince Rupert's Drop (at 223,000 FPS) - Smarter Every Day 170"
+    },
+    "k7u8m0Qpn38": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "128 - SmarterEveryDay - Helicopter Physics Series - #5 Autorotation = NO PARACHUTE! -  Smarter Every Day 50",
+        "FORMAT": "mkv",
+        "NUMBER": 128,
+        "PUBLISHED_AT": "2012-04-27T04:09:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Helicopter Physics Series - #5 Autorotation = NO PARACHUTE! -  Smarter Every Day 50"
+    },
+    "kA6axtIEzs0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "119 - SmarterEveryDay - Light Painting (while pregnant) - Smarter Every Day 41",
+        "FORMAT": "mkv",
+        "NUMBER": 119,
+        "PUBLISHED_AT": "2012-02-03T07:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Light Painting (while pregnant) - Smarter Every Day 41"
+    },
+    "kI2pDzEKdzg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "14 - SmarterEveryDay - Firearm Safety - 9 year old sharpshooter",
+        "FORMAT": "mkv",
+        "NUMBER": 14,
+        "PUBLISHED_AT": "2008-02-09T03:22:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Firearm Safety - 9 year old sharpshooter"
+    },
+    "kNGR5OvhM1c": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "83 - SmarterEveryDay - Space Mountain Fears - Smarter Every Day 12",
+        "FORMAT": "mkv",
+        "NUMBER": 83,
+        "PUBLISHED_AT": "2011-06-26T05:35:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Space Mountain Fears - Smarter Every Day 12"
+    },
+    "kOLpSPEA72U": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "174 - SmarterEveryDay - Nature's 3D Printer_ MIND BLOWING Cocoon in Rainforest - Smarter Every Day 94",
+        "FORMAT": "mkv",
+        "NUMBER": 174,
+        "PUBLISHED_AT": "2013-06-09T17:03:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nature's 3D Printer: MIND BLOWING Cocoon in Rainforest - Smarter Every Day 94"
+    },
+    "kRlwI2iV7x8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "277 - SmarterEveryDay - Touching Plasma - Smarter Every Day 193",
+        "FORMAT": "mkv",
+        "NUMBER": 277,
+        "PUBLISHED_AT": "2018-05-03T13:47:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Touching Plasma - Smarter Every Day 193"
+    },
+    "kUfF2MTnqAw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "240 - SmarterEveryDay - Why You Should Put YOUR MASK On First (My Brain Without Oxygen) - Smarter Every Day 157",
+        "FORMAT": "mkv",
+        "NUMBER": 240,
+        "PUBLISHED_AT": "2016-07-22T14:29:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why You Should Put YOUR MASK On First (My Brain Without Oxygen) - Smarter Every Day 157"
+    },
+    "kbFMkXTMucA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "173 - SmarterEveryDay - STRANGE but GENIUS Caterpillar Speed Trick - Smarter Every Day 93",
+        "FORMAT": "mkv",
+        "NUMBER": 173,
+        "PUBLISHED_AT": "2013-06-01T12:08:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "STRANGE but GENIUS Caterpillar Speed Trick - Smarter Every Day 93"
+    },
+    "kfLH5_RWZH4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "148 - SmarterEveryDay - Highest Resolution Machu Picchu Picture  Ever Taken- Smarter Every Day 66",
+        "FORMAT": "mkv",
+        "NUMBER": 148,
+        "PUBLISHED_AT": "2012-11-13T01:38:20.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Highest Resolution Machu Picchu Picture  Ever Taken- Smarter Every Day 66"
+    },
+    "krYYw0PLcak": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "169 - SmarterEveryDay - How to Identify a Brown Recluse Spider - Smarter Every Day 89",
+        "FORMAT": "mkv",
+        "NUMBER": 169,
+        "PUBLISHED_AT": "2013-04-29T11:45:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Identify a Brown Recluse Spider - Smarter Every Day 89"
+    },
+    "kxLoycj4pJY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "204 - SmarterEveryDay - TATTOOING Close Up (in Slow Motion) - Smarter Every Day 122",
+        "FORMAT": "mkv",
+        "NUMBER": 204,
+        "PUBLISHED_AT": "2014-09-24T14:18:59.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TATTOOING Close Up (in Slow Motion) - Smarter Every Day 122"
+    },
+    "lQKKE755l1I": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "5 - SmarterEveryDay - The Great Pacifier Battle",
+        "FORMAT": "mkv",
+        "NUMBER": 5,
+        "PUBLISHED_AT": "2007-09-02T01:59:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Great Pacifier Battle"
+    },
+    "lW4Uq_2VPhE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "112 - SmarterEveryDay - How Lasers Work (in practice) - Smarter Every Day 33",
+        "FORMAT": "mkv",
+        "NUMBER": 112,
+        "PUBLISHED_AT": "2011-12-04T18:30:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Lasers Work (in practice) - Smarter Every Day 33"
+    },
+    "lcWSrIiR1tY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "307 - SmarterEveryDay - 160TB Server with Linus! (From Linus Tech Tips) - Smarter Every Day 222",
+        "FORMAT": "mkv",
+        "NUMBER": 307,
+        "PUBLISHED_AT": "2019-07-30T19:52:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "160TB Server with Linus! (From Linus Tech Tips) - Smarter Every Day 222"
+    },
+    "lepQoU4oek4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "259 - SmarterEveryDay - Space Station Transiting 2017 ECLIPSE,  My Brain Stopped Working - Smarter Every Day 175",
+        "FORMAT": "mkv",
+        "NUMBER": 259,
+        "PUBLISHED_AT": "2017-08-23T01:51:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Space Station Transiting 2017 ECLIPSE,  My Brain Stopped Working - Smarter Every Day 175"
+    },
+    "li5KyRlCzHY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "102 - SmarterEveryDay - SloMo Water Balloon doesn't pop - Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 102,
+        "PUBLISHED_AT": "2011-09-23T20:18:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SloMo Water Balloon doesn't pop - Smarter Every Day"
+    },
+    "mWVD9eWJ6Yw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "187 - SmarterEveryDay - Robot Butterflies FOR THE FUTURE - DEEP DIVE 3 - Smarter Every Day 106",
+        "FORMAT": "mkv",
+        "NUMBER": 187,
+        "PUBLISHED_AT": "2013-12-01T07:19:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Robot Butterflies FOR THE FUTURE - DEEP DIVE 3 - Smarter Every Day 106"
+    },
+    "mYlW5OTIWm0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "138 - SmarterEveryDay - Sneak Peek of Flipping Cat Math _ SED 58 Intro",
+        "FORMAT": "mkv",
+        "NUMBER": 138,
+        "PUBLISHED_AT": "2012-08-05T16:30:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sneak Peek of Flipping Cat Math | SED 58 Intro"
+    },
+    "mjpYHpVWNkc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "52 - SmarterEveryDay - The Gentle Art of Blowing up Bottles",
+        "FORMAT": "mkv",
+        "NUMBER": 52,
+        "PUBLISHED_AT": "2010-10-26T07:10:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Gentle Art of Blowing up Bottles"
+    },
+    "nFFljO1fzJw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "107 - SmarterEveryDay - Gainers & 3D Thinking - Cliff Jumps - Smarter Every Day 29",
+        "FORMAT": "mkv",
+        "NUMBER": 107,
+        "PUBLISHED_AT": "2011-10-31T05:03:19.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gainers & 3D Thinking - Cliff Jumps - Smarter Every Day 29"
+    },
+    "nMJaXNKtrIA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "64 - SmarterEveryDay - Baseball photography - with SCIENCE!",
+        "FORMAT": "mkv",
+        "NUMBER": 64,
+        "PUBLISHED_AT": "2011-02-06T07:58:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Baseball photography - with SCIENCE!"
+    },
+    "nNwC2da8fhA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "153 - SmarterEveryDay - OPERATION LEVERAGE - Not Forgotten - Smarter Every Day 74",
+        "FORMAT": "mkv",
+        "NUMBER": 153,
+        "PUBLISHED_AT": "2012-12-17T17:06:19.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Levers are AWESOME- Smarter Every Day 74"
+    },
+    "ns-lKaXx-BU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "122 - SmarterEveryDay - Where do cashews come from_ - Smarter Every Day 44",
+        "FORMAT": "mkv",
+        "NUMBER": 122,
+        "PUBLISHED_AT": "2012-02-29T13:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How do Cashews Grow?? - Smarter Every Day 44"
+    },
+    "o0fG_lnVhHw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "316 - SmarterEveryDay - HOW ROCKETS ARE MADE (Rocket Factory Tour - United Launch Alliance) - Smarter Every Day 231",
+        "FORMAT": "mkv",
+        "NUMBER": 316,
+        "PUBLISHED_AT": "2020-02-29T19:25:15.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "HOW ROCKETS ARE MADE (Rocket Factory Tour - United Launch Alliance) - Smarter Every Day 231"
+    },
+    "o2PMANmrF04": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "155 - SmarterEveryDay - Launching a German Glider - Smarter Every Day 75",
+        "FORMAT": "mkv",
+        "NUMBER": 155,
+        "PUBLISHED_AT": "2012-12-28T16:33:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Launching a German Glider - Smarter Every Day 75"
+    },
+    "o63Tz0UPwjQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "132 - SmarterEveryDay - You're watching Venus... Right_",
+        "FORMAT": "mkv",
+        "NUMBER": 132,
+        "PUBLISHED_AT": "2012-06-05T23:57:52.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "You're watching Venus... Right?"
+    },
+    "oGDvnKLtXvU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "63 - SmarterEveryDay - Awesome Clock - Congreve Rolling Ball Clock",
+        "FORMAT": "mkv",
+        "NUMBER": 63,
+        "PUBLISHED_AT": "2011-01-27T09:52:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Awesome Clock - Congreve Rolling Ball Clock"
+    },
+    "oRqOohdLrJE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "184 - SmarterEveryDay - Why are bugs attracted to light_ - Smarter Every Day 103",
+        "FORMAT": "mkv",
+        "NUMBER": 184,
+        "PUBLISHED_AT": "2013-10-17T14:59:28.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why are bugs attracted to light? - Smarter Every Day 103"
+    },
+    "oxrLYv0QXa4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "171 - SmarterEveryDay - Dragonfly Wings in Slow Motion - Smarter Every Day 91",
+        "FORMAT": "mkv",
+        "NUMBER": 171,
+        "PUBLISHED_AT": "2013-05-21T17:11:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dragonfly Wings in Slow Motion - Smarter Every Day 91"
+    },
+    "ozIKwGt38LQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "314 - SmarterEveryDay - Breaking Into a Smart Home With A Laser - Smarter Every Day 229",
+        "FORMAT": "mkv",
+        "NUMBER": 314,
+        "PUBLISHED_AT": "2019-12-26T16:02:12.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Breaking Into a Smart Home With A Laser - Smarter Every Day 229"
+    },
+    "p0RaRpKTxV0": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "48 - SmarterEveryDay - How to light multiple matches with a single bullet - Upping Mythbusters",
+        "FORMAT": "mkv",
+        "NUMBER": 48,
+        "PUBLISHED_AT": "2010-07-16T02:59:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to light multiple matches with a single bullet - Upping Mythbusters"
+    },
+    "p1PgNbgWSyY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "320 - SmarterEveryDay - Pulling 7 G's in an F-16 & GOING SUPERSONIC with U.S. Air Force Thunderbirds! -Smarter Every Day 235",
+        "FORMAT": "mkv",
+        "NUMBER": 320,
+        "PUBLISHED_AT": "2020-05-18T21:55:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "GOING SUPERSONIC with U.S. Air Force Thunderbirds! Pulling 7 G's in an F-16 -Smarter Every Day 235"
+    },
+    "p7EiT9tKiig": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "65 - SmarterEveryDay - Strange water phenomenon - Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 65,
+        "PUBLISHED_AT": "2011-02-22T06:37:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Strange water phenomenon - Smarter Every Day"
+    },
+    "p7SWgstujAg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "133 - SmarterEveryDay - Know the Law - Smarter Every Day 8",
+        "FORMAT": "mkv",
+        "NUMBER": 133,
+        "PUBLISHED_AT": "2012-06-06T08:04:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Know the Law - Smarter Every Day 8"
+    },
+    "pHXkX05EC5U": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "113 - SmarterEveryDay - WARNING_ GROSS - Turning a Goat into a Scholarship - Smarter Every Day 34",
+        "FORMAT": "mkv",
+        "NUMBER": 113,
+        "PUBLISHED_AT": "2011-12-11T14:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "WARNING: GROSS - Turning a Goat into a Scholarship - Smarter Every Day 34"
+    },
+    "pUwVZUOSTvk": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "304 - SmarterEveryDay - What Happens to Lasers Underwater_ - Smarter Every Day 219",
+        "FORMAT": "mkv",
+        "NUMBER": 304,
+        "PUBLISHED_AT": "2019-06-20T21:02:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Happens to Lasers Underwater? - Smarter Every Day 219"
+    },
+    "pVEo_mckBIc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "109 - SmarterEveryDay - The Physics of Slingshots, with Jo\u0308rg - Smarter Every Day 31",
+        "FORMAT": "mkv",
+        "NUMBER": 109,
+        "PUBLISHED_AT": "2011-11-19T01:23:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Physics of Slingshots, with J\u00f6rg - Smarter Every Day 31"
+    },
+    "qAYwMp7E6wQ": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "23 - SmarterEveryDay - I'm not good at Jenga (Time Lapse)",
+        "FORMAT": "mkv",
+        "NUMBER": 23,
+        "PUBLISHED_AT": "2008-05-20T00:26:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "I'm not good at Jenga (Time Lapse)"
+    },
+    "qFjw6Lc6J2g": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "214 - SmarterEveryDay - How to FLY A SPACESHIP to the SPACE STATION - Smarter Every Day 131",
+        "FORMAT": "mkv",
+        "NUMBER": 214,
+        "PUBLISHED_AT": "2015-03-24T12:23:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to FLY A SPACESHIP to the SPACE STATION - Smarter Every Day 131"
+    },
+    "qOTYgcdNrXE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "296 - SmarterEveryDay - The Future of War, and How It Affects YOU (Multi-Domain Operations) - Smarter Every Day 211",
+        "FORMAT": "mkv",
+        "NUMBER": 296,
+        "PUBLISHED_AT": "2019-03-03T15:06:13.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Future of War, and How It Affects YOU (Multi-Domain Operations) - Smarter Every Day 211"
+    },
+    "qTrL3eypfEU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "86 - SmarterEveryDay - Let's think about Lightning - Smarter Every Day 15",
+        "FORMAT": "mkv",
+        "NUMBER": 86,
+        "PUBLISHED_AT": "2011-07-13T14:27:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Let's think about Lightning - Smarter Every Day 15"
+    },
+    "qc7MfcKF1-s": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "255 - SmarterEveryDay - HOW TO WATCH THE ECLIPSE (AND SHADOW SNAKES) - Smarter Every Day 171",
+        "FORMAT": "mkv",
+        "NUMBER": 255,
+        "PUBLISHED_AT": "2017-06-08T15:44:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "HOW TO WATCH THE ECLIPSE (AND SHADOW SNAKES) - Smarter Every Day 171"
+    },
+    "qd4CVvItJlo": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "191 - SmarterEveryDay - COLD HARD SCIENCE.The Physics of Skating on Ice (With SlowMo) - Smarter Every Day 110",
+        "FORMAT": "mkv",
+        "NUMBER": 191,
+        "PUBLISHED_AT": "2014-02-21T17:48:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "COLD HARD SCIENCE.The Physics of Skating on Ice (With SlowMo) - Smarter Every Day 110"
+    },
+    "qnyIr28UKdA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "163 - SmarterEveryDay - Flipping Cat Maneuver on the Space Station_ #askAstro (30 sec) Smarter Every Day 83",
+        "FORMAT": "mkv",
+        "NUMBER": 163,
+        "PUBLISHED_AT": "2013-02-12T17:12:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Flipping Cat Maneuver on the Space Station? #askAstro (30 sec) Smarter Every Day 83"
+    },
+    "r3FdzKEcejM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "4 - SmarterEveryDay - Sadie Hates Broccoli",
+        "FORMAT": "mkv",
+        "NUMBER": 4,
+        "PUBLISHED_AT": "2007-08-17T17:57:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sadie Hates Broccoli"
+    },
+    "r69wUEyeCvw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "46 - SmarterEveryDay - 3 year old reports on oil spill conditions on Alabama's Gulf coast",
+        "FORMAT": "mkv",
+        "NUMBER": 46,
+        "PUBLISHED_AT": "2010-05-25T05:04:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "3 year old reports on oil spill conditions on Alabama's Gulf coast"
+    },
+    "r9_tbHEEWYo": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "154 - SmarterEveryDay - Clearly I messed something up...",
+        "FORMAT": "mkv",
+        "NUMBER": 154,
+        "PUBLISHED_AT": "2012-12-18T23:00:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Clearly I messed something up..."
+    },
+    "rOpU4iuzj4A": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "21 - SmarterEveryDay - Kayak Timelapse with original Music - Gator Beavers",
+        "FORMAT": "mkv",
+        "NUMBER": 21,
+        "PUBLISHED_AT": "2008-04-25T10:51:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kayak Timelapse with original Music - Gator Beavers"
+    },
+    "rXrcm7DgDbA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "212 - SmarterEveryDay - SMARTER EVERY DAY AND SPACE!!!! - 129",
+        "FORMAT": "mkv",
+        "NUMBER": 212,
+        "PUBLISHED_AT": "2015-02-19T14:40:59.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SMARTER EVERY DAY AND SPACE!!!! - 129"
+    },
+    "rfKQXaT2ACY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "269 - SmarterEveryDay - Exploding Banana  - Smarter Every Day 185",
+        "FORMAT": "mkv",
+        "NUMBER": 269,
+        "PUBLISHED_AT": "2017-12-31T14:44:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Slow Motion Sound Design (Part 2)  - Smarter Every Day 185"
+    },
+    "riwc3UgPaHw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "134 - SmarterEveryDay - Transit of Venus! US Space & Rocket Center - Smarter Every Day 54",
+        "FORMAT": "mkv",
+        "NUMBER": 134,
+        "PUBLISHED_AT": "2012-06-06T13:05:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Transit of Venus! US Space & Rocket Center - Smarter Every Day 54"
+    },
+    "s-HAsxt9pV4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "275 - SmarterEveryDay - How do you make a Virtual Reality Glove_ - Smarter Every Day 191",
+        "FORMAT": "mkv",
+        "NUMBER": 275,
+        "PUBLISHED_AT": "2018-03-19T16:46:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How do you make a Virtual Reality Glove? - Smarter Every Day 191"
+    },
+    "s3rSegBzJWU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "90 - SmarterEveryDay - Making a house out of mud bricks. (Real life minecraft) - Smarter Every Day 18",
+        "FORMAT": "mkv",
+        "NUMBER": 90,
+        "PUBLISHED_AT": "2011-08-04T15:45:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Making a house out of mud bricks. (Real life minecraft) - Smarter Every Day 18"
+    },
+    "sbEj7M3aZIg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "318 - SmarterEveryDay - How to Help Your Hospital (Fight COVID-19 Locally) - Smarter Every Day 233",
+        "FORMAT": "mkv",
+        "NUMBER": 318,
+        "PUBLISHED_AT": "2020-04-07T16:01:32.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Huntsville Fighting COVID - Smarter Every Day 233"
+    },
+    "soYkEqDp760": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "317 - SmarterEveryDay - How Trolls on Reddit Try to Manipulate You (Disinformation & How We Beat It) - Smarter Every Day 232",
+        "FORMAT": "mkv",
+        "NUMBER": 317,
+        "PUBLISHED_AT": "2020-03-25T17:03:58.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Disinformation on Reddit & How We Beat It Together - Smarter Every Day 232"
+    },
+    "t0DFevwfcPE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "84 - SmarterEveryDay - Downhill Rotation Race - Smarter Every Day 13",
+        "FORMAT": "mkv",
+        "NUMBER": 84,
+        "PUBLISHED_AT": "2011-07-01T10:11:39.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Downhill Rotation Race - Smarter Every Day 13"
+    },
+    "t5DNRdBDtX4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "67 - SmarterEveryDay - Man tries to save deer. Deer tries to kill man. Man breaks off deer antler.",
+        "FORMAT": "mkv",
+        "NUMBER": 67,
+        "PUBLISHED_AT": "2011-03-02T14:12:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Man tries to save deer. Deer tries to kill man. Man breaks off deer antler."
+    },
+    "tQL6nYzQR2E": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "170 - SmarterEveryDay - The Infinite Zoetrope - Smarter Every Day 90",
+        "FORMAT": "mkv",
+        "NUMBER": 170,
+        "PUBLISHED_AT": "2013-05-16T17:01:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Infinite Zoetrope - Smarter Every Day 90"
+    },
+    "tVjhndPJO-o": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "24 - SmarterEveryDay - Sadie REALLY likes bubbles",
+        "FORMAT": "mkv",
+        "NUMBER": 24,
+        "PUBLISHED_AT": "2008-06-01T04:24:39.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sadie REALLY likes bubbles"
+    },
+    "toVfvRhWbj8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "344 - SmarterEveryDay - How Does A Carburetor Work_ _ Transparent Carburetor at 28,546 fps Slow Mo - Smarter Every Day 259",
+        "FORMAT": "mkv",
+        "NUMBER": 344,
+        "PUBLISHED_AT": "2021-06-30T16:01:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does A Carburetor Work? | Transparent Carburetor at 28,546 fps Slow Mo - Smarter Every Day 259"
+    },
+    "twyoQ8LWatU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "197 - SmarterEveryDay - Witness to Steve Irwin's Death - Smarter Every Day116",
+        "FORMAT": "mkv",
+        "NUMBER": 197,
+        "PUBLISHED_AT": "2014-06-16T13:03:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Witness to Steve Irwin's Death - Smarter Every Day116"
+    },
+    "uP5AoggWe9w": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "28 - SmarterEveryDay - Beautiful scenery in Peru",
+        "FORMAT": "mkv",
+        "NUMBER": 28,
+        "PUBLISHED_AT": "2008-07-29T02:44:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Beautiful scenery in Peru"
+    },
+    "uY1jYYhpGJM": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "224 - SmarterEveryDay - International Space Station Tour on Earth (1g) - Smarter Every Day 141",
+        "FORMAT": "mkv",
+        "NUMBER": 224,
+        "PUBLISHED_AT": "2015-09-10T17:49:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "International Space Station Tour on Earth (1g) - Smarter Every Day 141"
+    },
+    "unIIn_1JOAE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "235 - SmarterEveryDay - Jungle Pilots are Superheroes - Smarter Every Day 152",
+        "FORMAT": "mkv",
+        "NUMBER": 235,
+        "PUBLISHED_AT": "2016-02-23T14:53:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jungle Pilots are Superheroes - Smarter Every Day 152"
+    },
+    "v7x4LPhYlbc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "160 - SmarterEveryDay - SLOW Motion Butterfly Puddling - Smarter Every Day 80",
+        "FORMAT": "mkv",
+        "NUMBER": 160,
+        "PUBLISHED_AT": "2013-02-02T18:56:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SLOW Motion Butterfly Puddling - Smarter Every Day 80"
+    },
+    "vD1EvxL4aiA": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "111 - SmarterEveryDay - Alabama fan visits Auburn Eagle Practice - Smarter Every Day 32",
+        "FORMAT": "mkv",
+        "NUMBER": 111,
+        "PUBLISHED_AT": "2011-11-25T17:48:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Alabama fan visits Auburn Eagle Practice - Smarter Every Day 32"
+    },
+    "vQvqESdCk7U": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "49 - SmarterEveryDay - High speed video of a bullet going through water - Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 49,
+        "PUBLISHED_AT": "2010-08-10T05:53:20.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "High speed video of a bullet going through water - Smarter Every Day"
+    },
+    "w-s3NTuw-To": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "147 - SmarterEveryDay - Rocket Bonfire Bullet Time Experiment - Smarter Every Day 65",
+        "FORMAT": "mkv",
+        "NUMBER": 147,
+        "PUBLISHED_AT": "2012-11-04T15:11:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rocket Bonfire Bullet Time Experiment - Smarter Every Day 65"
+    },
+    "wCu54XofcOs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "42 - SmarterEveryDay - Ingrown Toenail Surgery- WARNING GROSS with Pain-O-Meter",
+        "FORMAT": "mkv",
+        "NUMBER": 42,
+        "PUBLISHED_AT": "2010-01-04T00:24:21.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ingrown Toenail Surgery- WARNING GROSS with Pain-O-Meter"
+    },
+    "wcbwRjRFnT8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "39 - SmarterEveryDay - Night Flight - Light Trails _ Light Painting - Smarter Every Day",
+        "FORMAT": "mkv",
+        "NUMBER": 39,
+        "PUBLISHED_AT": "2009-09-29T21:00:52.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Night Flight - Light Trails / Light Painting - Smarter Every Day"
+    },
+    "wplX6t4S7p4": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "106 - SmarterEveryDay - Improvising in Africa.  Warning - GROSS - Smarter Every Day 28",
+        "FORMAT": "mkv",
+        "NUMBER": 106,
+        "PUBLISHED_AT": "2011-10-24T15:31:35.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Improvising in Africa.  Warning - GROSS - Smarter Every Day 28"
+    },
+    "x0sATDVCTME": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "53 - SmarterEveryDay - High Speed photography 101 - Restoring Awesomeness to Art",
+        "FORMAT": "mkv",
+        "NUMBER": 53,
+        "PUBLISHED_AT": "2010-11-28T22:57:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "High Speed photography 101 - Restoring Awesomeness to Art"
+    },
+    "xGzVjJrcM20": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "82 - SmarterEveryDay - Think Tank! - Smarter Every Day 11",
+        "FORMAT": "mkv",
+        "NUMBER": 82,
+        "PUBLISHED_AT": "2011-06-23T09:35:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Think Tank! - Smarter Every Day 11"
+    },
+    "xe-f4gokRBs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "166 - SmarterEveryDay - Mystery of Prince Rupert's Drop at 130,000 fps - Smarter Every Day 86",
+        "FORMAT": "mkv",
+        "NUMBER": 166,
+        "PUBLISHED_AT": "2013-03-23T01:53:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Mystery of Prince Rupert's Drop at 130,000 fps - Smarter Every Day 86"
+    },
+    "xflY5uS-nnw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "249 - SmarterEveryDay - How Engines Work - (See Through Engine in Slow Motion) - Smarter Every Day 166",
+        "FORMAT": "mkv",
+        "NUMBER": 249,
+        "PUBLISHED_AT": "2017-02-01T01:38:52.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Engines Work - (See Through Engine in Slow Motion) - Smarter Every Day 166"
+    },
+    "y7Hyc3MRKno": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "293 - SmarterEveryDay - Why Laminar Flow is AWESOME - Smarter Every Day 208",
+        "FORMAT": "mkv",
+        "NUMBER": 293,
+        "PUBLISHED_AT": "2019-01-27T10:31:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Laminar Flow is AWESOME - Smarter Every Day 208"
+    },
+    "y8mzDvpKzfY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "194 - SmarterEveryDay - A Baffling Balloon Behavior - Smarter Every Day 113",
+        "FORMAT": "mkv",
+        "NUMBER": 194,
+        "PUBLISHED_AT": "2014-04-19T13:24:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "A Baffling Balloon Behavior - Smarter Every Day 113"
+    },
+    "yLXyg-7gIPE": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "68 - SmarterEveryDay - Wagon Cam 3000 - Take the camera with you.",
+        "FORMAT": "mkv",
+        "NUMBER": 68,
+        "PUBLISHED_AT": "2011-03-11T18:48:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Wagon Cam 3000 - Take the camera with you."
+    },
+    "ycNgqRXM-fc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "30 - SmarterEveryDay - Sometimes you've just got to stand up to the asses",
+        "FORMAT": "mkv",
+        "NUMBER": 30,
+        "PUBLISHED_AT": "2008-07-29T04:52:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sometimes you've just got to stand up to the asses"
+    },
+    "yoMEbDcFK7U": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "258 - SmarterEveryDay - TOP 10 ECLIPSE DAY Things to know (please share) - Smarter Every Day 174",
+        "FORMAT": "mkv",
+        "NUMBER": 258,
+        "PUBLISHED_AT": "2017-08-18T13:01:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TOP 10 ECLIPSE DAY Things to know (please share) - Smarter Every Day 174"
+    },
+    "yuAxlbbZL4s": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "103 - SmarterEveryDay - Duck with 3 Feet! - Smarter Every Day 25",
+        "FORMAT": "mkv",
+        "NUMBER": 103,
+        "PUBLISHED_AT": "2011-09-30T13:40:28.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Duck with 3 Feet! - Smarter Every Day 25"
+    },
+    "yvAij2J8U4c": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "141 - SmarterEveryDay - I'm alive in the Rain Forest - Smarter Every Day 60",
+        "FORMAT": "mkv",
+        "NUMBER": 141,
+        "PUBLISHED_AT": "2012-09-04T02:59:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "I'm alive in the Rain Forest - Smarter Every Day 60"
+    },
+    "ywBV6M7VOFU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "303 - SmarterEveryDay - Everything About Grain Bins (Farmers are Geniuses) - Smarter Every Day 218",
+        "FORMAT": "mkv",
+        "NUMBER": 303,
+        "PUBLISHED_AT": "2019-06-13T19:56:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Everything About Grain Bins (Farmers are Geniuses) - Smarter Every Day 218"
+    },
+    "yx_Wrbl_5ks": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "200 - SmarterEveryDay - How Fish Eat Part 2 (SLOW MOTION UNDERWATER!) - Smarter Every Day 119",
+        "FORMAT": "mkv",
+        "NUMBER": 200,
+        "PUBLISHED_AT": "2014-07-24T15:01:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Fish Eat Part 2 (SLOW MOTION UNDERWATER!) - Smarter Every Day 119"
+    },
+    "zHecdSDz4uU": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "247 - SmarterEveryDay - How to MINE OPAL gems in the OUTBACK - Smarter Every Day 164",
+        "FORMAT": "mkv",
+        "NUMBER": 247,
+        "PUBLISHED_AT": "2016-12-20T18:14:21.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to MINE OPAL gems in the OUTBACK - Smarter Every Day 164"
+    },
+    "zJX_Oh4yVnc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "108 - SmarterEveryDay - The Physics of Motocross - Smarter Every Day 30",
+        "FORMAT": "mkv",
+        "NUMBER": 108,
+        "PUBLISHED_AT": "2011-11-07T06:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Physics of Motocross - Smarter Every Day 30"
+    },
+    "zKNlPrEQwPY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "339 - SmarterEveryDay - Chicken in an Egg - Smarter Every Day 254",
+        "FORMAT": "mkv",
+        "NUMBER": 339,
+        "PUBLISHED_AT": "2021-04-18T13:00:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chicken in an Egg - Smarter Every Day 254"
+    },
+    "zsjyWg-Lhek": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "185 - SmarterEveryDay - The Magic of Butterfly Scales - Part 1 - Smarter Every Day 104",
+        "FORMAT": "mkv",
+        "NUMBER": 185,
+        "PUBLISHED_AT": "2013-11-01T10:03:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Magic of Butterfly Scales - Part 1 - Smarter Every Day 104"
+    },
+    "zz5lGkDdk78": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "131 - SmarterEveryDay - Amazing Honey Coiling High Speed Video! - Smarter Every Day 53",
+        "FORMAT": "mkv",
+        "NUMBER": 131,
+        "PUBLISHED_AT": "2012-06-03T13:36:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Amazing Honey Coiling High Speed Video! - Smarter Every Day 53"
+    }
+}

@@ -1,0 +1,632 @@
+{
+    "1HIcO4J8BhE": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "30 - mMarukudeibu Playlists - a trip to japan - japanese indie playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 30,
+        "PUBLISHED_AT": "2020-10-24T15:15:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a trip to japan - japanese indie playlist"
+    },
+    "1qbT7nA4t1g": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "33 - mMarukudeibu Playlists - chill japanese songs when staring at nothing",
+        "FORMAT": "mp3",
+        "NUMBER": 33,
+        "PUBLISHED_AT": "2020-11-17T14:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "chill japanese songs when staring at nothing"
+    },
+    "3ri0onpYNIk": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "44 - mMarukudeibu Playlists - chill tokyo vibes \ud83c\udf38 - [pop, r&b, rap, indie, soul]",
+        "FORMAT": "mp3",
+        "NUMBER": 44,
+        "PUBLISHED_AT": "2021-02-13T14:00:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "chill tokyo vibes \ud83c\udf38 - [pop, r&b, rap, indie, soul]"
+    },
+    "6Vairl_WFAI": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "56 - mMarukudeibu Playlists - my last two brain cells listening to cute japanese songs [pop, kawaii edm_future bass]",
+        "FORMAT": "mp3",
+        "NUMBER": 56,
+        "PUBLISHED_AT": "2021-06-08T13:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "my last two brain cells listening to cute japanese songs [pop, kawaii edm/future bass]"
+    },
+    "7JovpgYDKkA": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "21 - mMarukudeibu Playlists - a playlist if you were a cool anime mc",
+        "FORMAT": "mp3",
+        "NUMBER": 21,
+        "PUBLISHED_AT": "2020-08-22T15:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a playlist if you were a cool anime mc"
+    },
+    "9FPD_yaZvK0": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "36 - mMarukudeibu Playlists - don't mind me, just vibing to japanese songs",
+        "FORMAT": "mp3",
+        "NUMBER": 36,
+        "PUBLISHED_AT": "2020-12-02T14:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "don't mind me, just vibing to japanese songs"
+    },
+    "CWHV3Kas8qo": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "18 - mMarukudeibu Playlists - japanese indie rock songs that make you want to escape",
+        "FORMAT": "mp3",
+        "NUMBER": 18,
+        "PUBLISHED_AT": "2020-07-29T15:00:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie rock songs that make you want to escape"
+    },
+    "EPSoPnKALP8": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "43 - mMarukudeibu Playlists - feel good japanese playlist\ud83c\udf3b - [pop, rock, alternative, indie, r&b]",
+        "FORMAT": "mp3",
+        "NUMBER": 43,
+        "PUBLISHED_AT": "2021-02-10T14:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "feel good japanese playlist\ud83c\udf3b - [pop, rock, alternative, indie, r&b]"
+    },
+    "EUAHfSy7TrI": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "9 - mMarukudeibu Playlists - pinoy alternative pop_rock songs that you can enjoy anytime _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 9,
+        "PUBLISHED_AT": "2020-06-03T14:47:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "pinoy alternative pop/rock songs that you can enjoy anytime | playlist"
+    },
+    "EgybsVWOrZo": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "15 - mMarukudeibu Playlists - japanese indie spotlight_ ank & LOCAL CONNECT",
+        "FORMAT": "mp3",
+        "NUMBER": 15,
+        "PUBLISHED_AT": "2020-07-16T14:00:25Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie spotlight: ank & LOCAL CONNECT"
+    },
+    "Ehy0ZQ6sN0k": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "14 - mMarukudeibu Playlists - japanese indie rock songs to listen after another tiring day #2 _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 14,
+        "PUBLISHED_AT": "2020-07-09T14:45:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie rock songs to listen after another tiring day #2 | playlist"
+    },
+    "G8WUNd2vmG8": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "42 - mMarukudeibu Playlists - a playlist if you were an anime villain",
+        "FORMAT": "mp3",
+        "NUMBER": 42,
+        "PUBLISHED_AT": "2021-01-27T13:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a playlist if you were an anime villain"
+    },
+    "HdaXVcnntSk": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "55 - mMarukudeibu Playlists - i'm so tired of life but these japanese songs do be giving me life [pop, rock, study playlist_]",
+        "FORMAT": "mp3",
+        "NUMBER": 55,
+        "PUBLISHED_AT": "2021-05-29T13:30:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "i'm so tired of life but these japanese songs do be giving me life [pop, rock, study playlist?]"
+    },
+    "Hh9pKpRo0Rk": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "22 - mMarukudeibu Playlists - a chill playlist to feel the tokyo vibes",
+        "FORMAT": "mp3",
+        "NUMBER": 22,
+        "PUBLISHED_AT": "2020-08-31T14:00:28Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a chill playlist to feel the tokyo vibes"
+    },
+    "IE7OYjjaRAY": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "6 - mMarukudeibu Playlists - japanese indie & alternative songs that deserves more love _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 6,
+        "PUBLISHED_AT": "2020-05-17T14:17:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie & alternative songs that deserves more love | playlist"
+    },
+    "KWAjCKKbOZc": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "3 - mMarukudeibu Playlists - asian songs to listen at night for somewhat chill vibes _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 3,
+        "PUBLISHED_AT": "2020-05-09T13:38:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "UNABLE",
+        "TITLE": "asian songs to listen at night for somewhat chill vibes | playlist"
+    },
+    "KfcuSB56EhM": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "41 - mMarukudeibu Playlists - a playlist if you were in a magical anime #2",
+        "FORMAT": "mp3",
+        "NUMBER": 41,
+        "PUBLISHED_AT": "2021-01-23T14:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a playlist if you were in a magical anime #2"
+    },
+    "LZv7DhX1aJU": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "60 - mMarukudeibu Playlists - Japan FEVER!! available on Spotify",
+        "FORMAT": "mp3",
+        "NUMBER": 60,
+        "PUBLISHED_AT": "2021-07-21T15:53:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Japan FEVER!! available on Spotify"
+    },
+    "Ljyc3IVC2y8": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "62 - mMarukudeibu Playlists - take some rest, here's a chill japanese playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 62,
+        "PUBLISHED_AT": "2021-07-26T07:06:51Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "take some rest, here's a chill japanese playlist"
+    },
+    "N0lwQ3NjcKQ": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "11 - mMarukudeibu Playlists - japanese pop_rock songs to cheer you up during quarantine _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 11,
+        "PUBLISHED_AT": "2020-06-18T15:15:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese pop/rock songs to cheer you up during quarantine | playlist"
+    },
+    "N2y6cZHpxdo": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "32 - mMarukudeibu Playlists - a playlist to save for your road trip in japan (or any place)",
+        "FORMAT": "mp3",
+        "NUMBER": 32,
+        "PUBLISHED_AT": "2020-11-11T13:30:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a playlist to save for your road trip in japan (or any place)"
+    },
+    "NAMy56vkdi8": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "12 - mMarukudeibu Playlists - female japanese indie & alternative rock songs to give more love _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 12,
+        "PUBLISHED_AT": "2020-06-25T15:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "female japanese indie & alternative rock songs to give more love | playlist"
+    },
+    "NNBv5JLqElo": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "4 - mMarukudeibu Playlists - japanese & korean songs to listen to start your day off right _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 4,
+        "PUBLISHED_AT": "2020-05-12T15:54:44Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese & korean songs to listen to start your day off right | playlist"
+    },
+    "OTtYCHsP6Ps": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "13 - mMarukudeibu Playlists - japanese indie songs to make your day better _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 13,
+        "PUBLISHED_AT": "2020-07-02T14:45:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie songs to make your day better | playlist"
+    },
+    "OxcX0YNb-b4": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "38 - mMarukudeibu Playlists - japanese pop_rock songs to say goodbye to 2020",
+        "FORMAT": "mp3",
+        "NUMBER": 38,
+        "PUBLISHED_AT": "2020-12-29T14:30:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese pop/rock songs to say goodbye to 2020"
+    },
+    "PPNT3qAFads": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "28 - mMarukudeibu Playlists - a chill korean r&b playlist _ Spotify Redesign",
+        "FORMAT": "mp3",
+        "NUMBER": 28,
+        "PUBLISHED_AT": "2020-10-06T02:30:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a chill korean r&b playlist | Spotify Redesign"
+    },
+    "Q0Wy6t7we48": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "2 - mMarukudeibu Playlists - Joji - Sanctuary (Anime Visualizer)",
+        "FORMAT": "mp3",
+        "NUMBER": 2,
+        "PUBLISHED_AT": "2019-08-12T09:41:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Joji - Sanctuary (Anime Visualizer)"
+    },
+    "U2GkGmnSyPc": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "51 - mMarukudeibu Playlists - a playlist if you were a cool anime mc #2",
+        "FORMAT": "mp3",
+        "NUMBER": 51,
+        "PUBLISHED_AT": "2021-04-16T14:00:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a playlist if you were a cool anime mc #2"
+    },
+    "U_bSs3d493M": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "45 - mMarukudeibu Playlists - calm japanese songs to forget all the chaos right now",
+        "FORMAT": "mp3",
+        "NUMBER": 45,
+        "PUBLISHED_AT": "2021-02-23T04:51:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "calm japanese songs to forget all the chaos right now"
+    },
+    "Ux5yrcAFhgc": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "10 - mMarukudeibu Playlists - japanese indie & alternative songs that deserves more love #2 _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 10,
+        "PUBLISHED_AT": "2020-06-11T15:44:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie & alternative songs that deserves more love #2 | playlist"
+    },
+    "Wid2iurOAgY": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "52 - mMarukudeibu Playlists - what a shuffled japanese playlist sounds like",
+        "FORMAT": "mp3",
+        "NUMBER": 52,
+        "PUBLISHED_AT": "2021-04-20T13:45:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "what a shuffled japanese playlist sounds like"
+    },
+    "ZOMrsB4nOKg": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "20 - mMarukudeibu Playlists - pinoy songs for an emotional roller coaster",
+        "FORMAT": "mp3",
+        "NUMBER": 20,
+        "PUBLISHED_AT": "2020-08-12T16:00:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "pinoy songs for an emotional roller coaster"
+    },
+    "ZmUkn7eg6Io": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "5 - mMarukudeibu Playlists - japanese rap songs i don't understand but i'm lowkey vibing to it _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 5,
+        "PUBLISHED_AT": "2020-05-13T08:37:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese rap songs i don't understand but i'm lowkey vibing to it | playlist"
+    },
+    "_M-g7_LzJ1I": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "53 - mMarukudeibu Playlists - japanese indie rock songs to listen after another tiring day #3 _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 53,
+        "PUBLISHED_AT": "2021-05-06T14:00:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie rock songs to listen after another tiring day #3 | playlist"
+    },
+    "aVbmOC-cLpQ": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "24 - mMarukudeibu Playlists - a playlist if you were in a magical anime",
+        "FORMAT": "mp3",
+        "NUMBER": 24,
+        "PUBLISHED_AT": "2020-09-14T01:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a playlist if you were in a magical anime"
+    },
+    "ay2DGfrNxk4": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "63 - mMarukudeibu Playlists - be your own ANIME MC _ japanese indie rock playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 63,
+        "PUBLISHED_AT": "2021-08-08T13:30:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "be your own ANIME MC | japanese indie rock playlist"
+    },
+    "cUWH6PRfJzI": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "23 - mMarukudeibu Playlists - Maru's J-Indie Picks (September 2020) _ Rotating Playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 23,
+        "PUBLISHED_AT": "2020-09-06T14:00:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Maru's J-Indie Picks (September 2020) | Rotating Playlist"
+    },
+    "ciClLQ5YvyI": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "49 - mMarukudeibu Playlists - japanese indie & alternative songs that deserves more love #2 [reupload]",
+        "FORMAT": "mp3",
+        "NUMBER": 49,
+        "PUBLISHED_AT": "2021-03-31T12:54:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie & alternative songs that deserves more love #2 [reupload]"
+    },
+    "d8Bp0ILy2X0": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "47 - mMarukudeibu Playlists - do you like some female japanese rock songs_",
+        "FORMAT": "mp3",
+        "NUMBER": 47,
+        "PUBLISHED_AT": "2021-03-20T14:00:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "do you like some female japanese rock songs?"
+    },
+    "e-xY_lMQTQ8": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "35 - mMarukudeibu Playlists - do you like some japanese jazz fusion_",
+        "FORMAT": "mp3",
+        "NUMBER": 35,
+        "PUBLISHED_AT": "2020-11-27T04:30:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "do you like some japanese jazz fusion?"
+    },
+    "e941JiCSTa8": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "46 - mMarukudeibu Playlists - do you like some more japanese jazz fusion_",
+        "FORMAT": "mp3",
+        "NUMBER": 46,
+        "PUBLISHED_AT": "2021-03-05T14:30:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "do you like some more japanese jazz fusion?"
+    },
+    "eJzNVyp5Thw": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "1 - mMarukudeibu Playlists - Better place - AMV",
+        "FORMAT": "mp3",
+        "NUMBER": 1,
+        "PUBLISHED_AT": "2018-05-09T20:00:39Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Better place - AMV"
+    },
+    "ePgMB3V3eT0": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "34 - mMarukudeibu Playlists - Maru's Pinoy Indie Picks _ Reese Lansangan, Clara Benin, Orange & Lemons and more",
+        "FORMAT": "mp3",
+        "NUMBER": 34,
+        "PUBLISHED_AT": "2020-11-24T14:45:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Maru's Pinoy Indie Picks | Reese Lansangan, Clara Benin, Orange & Lemons and more"
+    },
+    "fKHdTRo6NF4": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "7 - mMarukudeibu Playlists - japanese indie & alternative rock songs that brightens up my mood _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 7,
+        "PUBLISHED_AT": "2020-05-20T14:10:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie & alternative rock songs that brightens up my mood | playlist"
+    },
+    "fY9MCE3Hypc": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "58 - mMarukudeibu Playlists - calm japanese songs to forget all the chaos right now #2",
+        "FORMAT": "mp3",
+        "NUMBER": 58,
+        "PUBLISHED_AT": "2021-07-05T05:29:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "calm japanese songs to forget all the chaos right now #2"
+    },
+    "gAXQQqV_LG0": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "37 - mMarukudeibu Playlists - classic japanese jazz for a relaxing christmas vacation",
+        "FORMAT": "mp3",
+        "NUMBER": 37,
+        "PUBLISHED_AT": "2020-12-10T13:00:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "classic japanese jazz for a relaxing christmas vacation"
+    },
+    "i5Cr7iS6eL4": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "8 - mMarukudeibu Playlists - japanese indie rock songs to listen after another tiring day _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 8,
+        "PUBLISHED_AT": "2020-05-26T08:53:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie rock songs to listen after another tiring day | playlist"
+    },
+    "ifm95c1GZsY": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "26 - mMarukudeibu Playlists - a j-rock playlist to bust that roof open _ 20k special",
+        "FORMAT": "mp3",
+        "NUMBER": 26,
+        "PUBLISHED_AT": "2020-09-25T02:30:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a j-rock playlist to bust that roof open | 20k special"
+    },
+    "lDnggh2Ibzw": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "57 - mMarukudeibu Playlists - getting through this week with some loud japanese songs [rock, punk, emo, pop punk]",
+        "FORMAT": "mp3",
+        "NUMBER": 57,
+        "PUBLISHED_AT": "2021-06-21T13:00:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "getting through this week with some loud japanese songs [rock, punk, emo, pop punk]"
+    },
+    "miangXf2rXw": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "16 - mMarukudeibu Playlists - japanese indie spotlight_ FOMARE & THE BOYS&GIRLS",
+        "FORMAT": "mp3",
+        "NUMBER": 16,
+        "PUBLISHED_AT": "2020-07-22T14:30:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie spotlight: FOMARE & THE BOYS&GIRLS"
+    },
+    "nCyK6fJCnB0": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "59 - mMarukudeibu Playlists - i just want to forget all my problems and runaway from everything _ japanese playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 59,
+        "PUBLISHED_AT": "2021-07-13T08:19:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "i just want to forget all my problems and runaway from everything | japanese playlist"
+    },
+    "oCynv6LkrpA": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "61 - mMarukudeibu Playlists - Anime BLAST! available on Spotify _ Top Anime Songs",
+        "FORMAT": "mp3",
+        "NUMBER": 61,
+        "PUBLISHED_AT": "2021-07-22T07:36:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Anime BLAST! available on Spotify | Top Anime Songs"
+    },
+    "pbWnM8KHHf4": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "27 - mMarukudeibu Playlists - a playlist to feel the slice of life anime vibes",
+        "FORMAT": "mp3",
+        "NUMBER": 27,
+        "PUBLISHED_AT": "2020-10-01T02:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a playlist to feel the slice of life anime vibes"
+    },
+    "qMVaf9-v5ds": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "17 - mMarukudeibu Playlists - What is Ko-fi_",
+        "FORMAT": "mp3",
+        "NUMBER": 17,
+        "PUBLISHED_AT": "2020-07-28T12:01:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What is Ko-fi?"
+    },
+    "qRLtcGY6vsQ": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "19 - mMarukudeibu Playlists - Maru's J-Indie Picks (August 2020) _ Rotating Playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 19,
+        "PUBLISHED_AT": "2020-08-05T15:30:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Maru's J-Indie Picks (August 2020) | Rotating Playlist"
+    },
+    "s13_rBCOqxc": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "50 - mMarukudeibu Playlists - japanese indie songs to make your day better [reupload]",
+        "FORMAT": "mp3",
+        "NUMBER": 50,
+        "PUBLISHED_AT": "2021-03-31T12:55:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese indie songs to make your day better [reupload]"
+    },
+    "v-oYrO5ByyQ": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "39 - mMarukudeibu Playlists - japanese pop_rock songs to cheer you up during quarantine [update _ jan 2021]",
+        "FORMAT": "mp3",
+        "NUMBER": 39,
+        "PUBLISHED_AT": "2021-01-06T14:00:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese pop/rock songs to cheer you up during quarantine [update | jan 2021]"
+    },
+    "vCl4-gp5LO0": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "25 - mMarukudeibu Playlists - a playlist to feel the tokyo groove",
+        "FORMAT": "mp3",
+        "NUMBER": 25,
+        "PUBLISHED_AT": "2020-09-20T13:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a playlist to feel the tokyo groove"
+    },
+    "wWGosqYEiNo": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "29 - mMarukudeibu Playlists - a japanese playlist while procrastinating",
+        "FORMAT": "mp3",
+        "NUMBER": 29,
+        "PUBLISHED_AT": "2020-10-14T13:00:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "a japanese playlist while procrastinating"
+    },
+    "wZEa6IFTnyk": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "54 - mMarukudeibu Playlists - japanese pop_rock songs to cheer you up during quarantine #2 _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 54,
+        "PUBLISHED_AT": "2021-05-17T04:23:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese pop/rock songs to cheer you up during quarantine #2 | playlist"
+    },
+    "xAL7uf6PVRI": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "40 - mMarukudeibu Playlists - japanese songs to feel the nostalgia",
+        "FORMAT": "mp3",
+        "NUMBER": 40,
+        "PUBLISHED_AT": "2021-01-20T14:30:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese songs to feel the nostalgia"
+    },
+    "yABe4bfoExM": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "31 - mMarukudeibu Playlists - heartache for breakfast - pinoy playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 31,
+        "PUBLISHED_AT": "2020-10-27T13:30:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "heartache for breakfast - pinoy playlist"
+    },
+    "zpuKeyl8HmI": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "48 - mMarukudeibu Playlists - THANK YOU FOR 50,000 SUBSCRIBERS! _ UPDATE",
+        "FORMAT": "mp3",
+        "NUMBER": 48,
+        "PUBLISHED_AT": "2021-03-21T12:55:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "THANK YOU FOR 50,000 SUBSCRIBERS! | UPDATE"
+    }
+}

@@ -177,11 +177,11 @@ def __main__():
     # check_db_integrity()
     # -------===========------
     # POSITION NUMBER IS INCLUSIVE!
-    position_number = 528
-    monitor_name = "Bob42jh"
-    # shift_db_at_position(monitor_name, position_number, 1)
+    position_number = 590
+    monitor_name = "Chillhopdotcom"
+    # shift_db_at_position(monitor_name, position_number, -1)
     # -------===========------
-    # shift_playlist_at_position(monitor_name, position_number, 1)
+    # shift_playlist_at_position(monitor_name, position_number, -1)
     # -------===========------
     # Gets track number from the DB file
     # lib_path = "E:\\Music\\YT_Monitors\\" + monitor_name
@@ -189,7 +189,7 @@ def __main__():
     # dl_lib_path = MONITORS_FILES_PATH + "\\" + monitor_name
     # sync_pos_files_lib_with_db(monitor_name, dl_lib_path, constants.MP3)
     # -------===========------
-    download_db_missing()
+    # download_db_missing()
     # -------===========------
 
 

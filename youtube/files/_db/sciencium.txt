@@ -1,0 +1,56 @@
+{
+    "IbpiovW507M": {
+        "CHANNEL_NAME": "sciencium",
+        "FILE_NAME": "2 - Sciencium - Why is the Sun Slowing Down_",
+        "FORMAT": "mkv",
+        "NUMBER": 2,
+        "PUBLISHED_AT": "2017-02-16T16:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why is the Sun Slowing Down?"
+    },
+    "JkMvm_rsTvI": {
+        "CHANNEL_NAME": "sciencium",
+        "FILE_NAME": "6 - Sciencium - Could Netflix Fix Science_",
+        "FORMAT": "mkv",
+        "NUMBER": 6,
+        "PUBLISHED_AT": "2019-01-24T15:00:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Could Netflix Fix Science?"
+    },
+    "SkH2iX0rx8U": {
+        "CHANNEL_NAME": "sciencium",
+        "FILE_NAME": "1 - Sciencium - Does Hot Water Freeze Faster Than Cold Water_",
+        "FORMAT": "mkv",
+        "NUMBER": 1,
+        "PUBLISHED_AT": "2017-02-08T05:07:59.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Does Hot Water Freeze Faster Than Cold Water?"
+    },
+    "Xp9HEp4cYzM": {
+        "CHANNEL_NAME": "sciencium",
+        "FILE_NAME": "4 - Sciencium - 6-Letter DNA!",
+        "FORMAT": "mkv",
+        "NUMBER": 4,
+        "PUBLISHED_AT": "2017-03-01T22:04:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "6-Letter DNA!"
+    },
+    "cFWIrfzYVV0": {
+        "CHANNEL_NAME": "sciencium",
+        "FILE_NAME": "3 - Sciencium - The Secret to the Stickiness of Frog Spit",
+        "FORMAT": "mkv",
+        "NUMBER": 3,
+        "PUBLISHED_AT": "2017-02-21T16:59:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Secret to the Stickiness of Frog Spit"
+    },
+    "yOvTkCDT9Ks": {
+        "CHANNEL_NAME": "sciencium",
+        "FILE_NAME": "5 - Sciencium - A Billion Years of Moon Impacts Illuminates Earth's History",
+        "FORMAT": "mkv",
+        "NUMBER": 5,
+        "PUBLISHED_AT": "2019-01-17T19:36:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "A Billion Years of Moon Impacts Illuminates Earth's History"
+    }
+}

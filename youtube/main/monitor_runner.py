@@ -1,6 +1,4 @@
 from __future__ import unicode_literals
-import os
-import sys
 import time
 from youtube import paths
 from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager
@@ -12,16 +10,14 @@ from youtube.yt_api.requests import YoutubeWorker
 #######################################################################################################################
 def __main__():
     monitors_db = paths.MAIN_MONITORS_PATH
+    # monitors_db = paths.SIDE_MONITORS_PATH
     # monitors_db = paths.PGM_MONITORS_PATH
-    # monitors_db = paths.SECONDARY_MONITORS_PATH
+    monitors_db = paths.SECONDARY_MONITORS_PATH
     dk_file = paths.API_KEY_PATH
 
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
     manager.check_for_updates()
-
-    # print("force stop")
-    # sys.exit(0)
 
     queue_manager = YoutubeQueueManager(paths.YOUTUBE_API_LOG)
     queue_manager.process_monitor_manager(manager)

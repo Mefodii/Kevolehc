@@ -1,0 +1,22 @@
+{
+    "j3JbdzMzh2E": {
+        "CHANNEL_NAME": "\u041c\u0430\u043a\u0441\u0438\u043c \u0414\u044b\u043c\u043e\u0432",
+        "FILE_NAME": "1 - \u041c\u0430\u043a\u0441\u0438\u043c \u0414\u044b\u043c\u043e\u0432 - 1 Hour Russian Doomer Music",
+        "FORMAT": "mp3",
+        "NUMBER": 1,
+        "PUBLISHED_AT": "2020-03-27T20:17:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\MaksimDymov",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "1 Hour Russian Doomer Music"
+    },
+    "x38mdh4C1QU": {
+        "CHANNEL_NAME": "\u041c\u0430\u043a\u0441\u0438\u043c \u0414\u044b\u043c\u043e\u0432",
+        "FILE_NAME": "2 - \u041c\u0430\u043a\u0441\u0438\u043c \u0414\u044b\u043c\u043e\u0432 - 1 Hour Russian Doomer Music",
+        "FORMAT": "mp3",
+        "NUMBER": 2,
+        "PUBLISHED_AT": "2021-04-27T15:27:55Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\MaksimDymov",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "1 Hour Russian Doomer Music"
+    }
+}

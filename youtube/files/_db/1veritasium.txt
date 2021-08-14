@@ -1,0 +1,2910 @@
+{
+    "-OqrZG-EBaQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "186 - Veritasium - Should This Lake Exist_",
+        "FORMAT": "mkv",
+        "NUMBER": 186,
+        "PUBLISHED_AT": "2015-07-06T15:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Should This Lake Exist?"
+    },
+    "-PWMQR59M68": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "282 - Veritasium - Why Trees Are Out to Get You",
+        "FORMAT": "mkv",
+        "NUMBER": 282,
+        "PUBLISHED_AT": "2019-10-25T19:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Trees Are Out to Get You"
+    },
+    "-i0InwW0V9k": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "204 - Veritasium - Stringless Yo-Yo!",
+        "FORMAT": "mkv",
+        "NUMBER": 204,
+        "PUBLISHED_AT": "2016-06-28T14:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stringless Yo-Yo!"
+    },
+    "-vomqiURUgA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "8 - Veritasium - Scientific Notation - Example",
+        "FORMAT": "mkv",
+        "NUMBER": 8,
+        "PUBLISHED_AT": "2011-02-04T00:16:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Scientific Notation - Example"
+    },
+    "-zShHRkwSoI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "155 - Veritasium - Forest of Friendship, Baggage Carousel of Jerks",
+        "FORMAT": "mkv",
+        "NUMBER": 155,
+        "PUBLISHED_AT": "2014-04-02T15:00:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Forest of Friendship, Baggage Carousel of Jerks"
+    },
+    "058hRtaCWC0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "305 - Veritasium - Why Robots That Bend Are Better",
+        "FORMAT": "mkv",
+        "NUMBER": 305,
+        "PUBLISHED_AT": "2021-02-18T13:32:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Robots That Bend Are Better"
+    },
+    "094y1Z2wpJg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "318 - Veritasium - The Simplest Math Problem No One Can Solve",
+        "FORMAT": "mkv",
+        "NUMBER": 318,
+        "PUBLISHED_AT": "2021-07-30T14:16:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Simplest Math Problem No One Can Solve"
+    },
+    "0dqX3NjwaQs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "302 - Veritasium - Q&A + Giveaway for 10 Years on YouTube",
+        "FORMAT": "mkv",
+        "NUMBER": 302,
+        "PUBLISHED_AT": "2021-01-07T21:10:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Q&A + Giveaway for 10 Years on YouTube"
+    },
+    "1TKSfAkWWN0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "142 - Veritasium - How Special Relativity Makes Magnets Work",
+        "FORMAT": "mkv",
+        "NUMBER": 142,
+        "PUBLISHED_AT": "2013-09-23T13:51:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Special Relativity Makes Magnets Work"
+    },
+    "1VPfZ_XzisU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "280 - Veritasium - The Bizarre Behavior of Rotating Bodies, Explained",
+        "FORMAT": "mkv",
+        "NUMBER": 280,
+        "PUBLISHED_AT": "2019-09-19T15:50:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Bizarre Behavior of Rotating Bodies, Explained"
+    },
+    "1Xp_imnO6WE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "162 - Veritasium - 5 Fun Physics Phenomena",
+        "FORMAT": "mkv",
+        "NUMBER": 162,
+        "PUBLISHED_AT": "2014-08-06T06:46:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "5 Fun Physics Phenomena"
+    },
+    "1ZcOusmB4Ls": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "31 - Veritasium - Sound + Fire = Rubens' Tube",
+        "FORMAT": "mkv",
+        "NUMBER": 31,
+        "PUBLISHED_AT": "2011-04-12T11:30:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sound + Fire = Rubens' Tube"
+    },
+    "1erU-Cwcl2c": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "58 - Veritasium - Chain Drop Experiment",
+        "FORMAT": "mkv",
+        "NUMBER": 58,
+        "PUBLISHED_AT": "2011-08-30T01:28:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chain Drop Experiment"
+    },
+    "1iIv1SuS164": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "54 - Veritasium - Ice Cutting Experiment",
+        "FORMAT": "mkv",
+        "NUMBER": 54,
+        "PUBLISHED_AT": "2011-08-21T07:46:13.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ice Cutting Experiment"
+    },
+    "1tSqSMOyNFE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "145 - Veritasium - Regression to the Mean",
+        "FORMAT": "mkv",
+        "NUMBER": 145,
+        "PUBLISHED_AT": "2013-11-23T15:00:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How We\u2019re Fooled By Statistics"
+    },
+    "1tXPVTIisl0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "77 - Veritasium - Candle Trick",
+        "FORMAT": "mkv",
+        "NUMBER": 77,
+        "PUBLISHED_AT": "2011-12-31T05:53:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Candle Trick"
+    },
+    "23f1jvGUWJs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "73 - Veritasium - What Is The Magnus Force_",
+        "FORMAT": "mkv",
+        "NUMBER": 73,
+        "PUBLISHED_AT": "2011-11-25T03:19:28.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Is The Magnus Force?"
+    },
+    "2KZb2_vcNTg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "87 - Veritasium - Where Do Trees Get Their Mass_",
+        "FORMAT": "mkv",
+        "NUMBER": 87,
+        "PUBLISHED_AT": "2012-03-12T14:36:59.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Where Do Trees Get Their Mass?"
+    },
+    "2OSrvzNW9FE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "187 - Veritasium - Backspin Basketball Flies Off Dam",
+        "FORMAT": "mkv",
+        "NUMBER": 187,
+        "PUBLISHED_AT": "2015-07-15T15:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Backspin Basketball Flies Off Dam"
+    },
+    "2PP9lRSmmeo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "103 - Veritasium - Veritasium & Team Record Gold Invade London",
+        "FORMAT": "mkv",
+        "NUMBER": 103,
+        "PUBLISHED_AT": "2012-07-17T21:21:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Veritasium & Team Record Gold Invade London"
+    },
+    "2_OEsf-1qgY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "202 - Veritasium - Inside the Svalbard Seed Vault",
+        "FORMAT": "mkv",
+        "NUMBER": 202,
+        "PUBLISHED_AT": "2016-05-04T14:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Inside the Svalbard Seed Vault"
+    },
+    "2awbKQ2DLRE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "156 - Veritasium - Musical Fire Table!",
+        "FORMAT": "mkv",
+        "NUMBER": 156,
+        "PUBLISHED_AT": "2014-04-17T15:00:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Musical Fire Table!"
+    },
+    "2kOQaHTPFI8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "69 - Veritasium - YouTube SpaceLab Intro by Veritasium",
+        "FORMAT": "mkv",
+        "NUMBER": 69,
+        "PUBLISHED_AT": "2011-10-17T02:37:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "YouTube SpaceLab Intro by Veritasium"
+    },
+    "2xKZRpAsWL8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "5 - Veritasium - Cathode Rays Lead to Thomson's Model of the Atom",
+        "FORMAT": "mkv",
+        "NUMBER": 5,
+        "PUBLISHED_AT": "2011-02-02T06:10:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Cathode Rays Lead to Thomson's Model of the Atom"
+    },
+    "357_DHp3Nys": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "72 - Veritasium - Atomic Rant",
+        "FORMAT": "mkv",
+        "NUMBER": 72,
+        "PUBLISHED_AT": "2011-11-11T02:54:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Atomic Rant"
+    },
+    "38gVZgE39K8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "239 - Veritasium - Why Are Mosquitoes Attracted To You_!",
+        "FORMAT": "mkv",
+        "NUMBER": 239,
+        "PUBLISHED_AT": "2018-02-07T15:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Mosquitoes Bite Some People More Than Others"
+    },
+    "3LopI4YeC4I": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "293 - Veritasium - Is Success Luck or Hard Work_",
+        "FORMAT": "mkv",
+        "NUMBER": 293,
+        "PUBLISHED_AT": "2020-08-28T15:14:45Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Is Success Luck or Hard Work?"
+    },
+    "3LyFap2aUN0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "208 - Veritasium - How the Quantum Vacuum Gave Rise to Galaxies",
+        "FORMAT": "mkv",
+        "NUMBER": 208,
+        "PUBLISHED_AT": "2016-10-03T14:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How the Quantum Vacuum Gave Rise to Galaxies"
+    },
+    "42QuXLucH3Q": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "206 - Veritasium - Is Most Published Research Wrong_",
+        "FORMAT": "mkv",
+        "NUMBER": 206,
+        "PUBLISHED_AT": "2016-08-11T14:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Is Most Published Research Wrong?"
+    },
+    "48sCx-wBs34": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "295 - Veritasium - The Infinite Pattern That Never Repeats",
+        "FORMAT": "mkv",
+        "NUMBER": 295,
+        "PUBLISHED_AT": "2020-09-30T22:18:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Infinite Pattern That Never Repeats"
+    },
+    "4Wrc4fHSCpw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "300 - Veritasium - Asteroids_ Earth's Biggest Threat",
+        "FORMAT": "mkv",
+        "NUMBER": 300,
+        "PUBLISHED_AT": "2020-11-30T15:17:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "These are the asteroids to worry about"
+    },
+    "4qe1Ueifekg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "46 - Veritasium - Fire Syringe",
+        "FORMAT": "mkv",
+        "NUMBER": 46,
+        "PUBLISHED_AT": "2011-07-10T15:26:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fire Syringe"
+    },
+    "4tgOyU34D44": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "230 - Veritasium - Seeing the Invisible_ SLOW MOTION Schlieren Imaging",
+        "FORMAT": "mkv",
+        "NUMBER": 230,
+        "PUBLISHED_AT": "2017-06-15T12:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How To See Air Currents"
+    },
+    "5JGSqG8OLjE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "134 - Veritasium - Do Aliens Exist_",
+        "FORMAT": "mkv",
+        "NUMBER": 134,
+        "PUBLISHED_AT": "2013-06-03T18:00:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Do Aliens Exist?"
+    },
+    "5NhIRwCq428": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "201 - Veritasium - The Northernmost Town on Earth (Svalbard in 4K)",
+        "FORMAT": "mkv",
+        "NUMBER": 201,
+        "PUBLISHED_AT": "2016-04-13T17:29:44.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Svalbard - The Northernmost Town on Earth"
+    },
+    "5O-wAYKBBSc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "99 - Veritasium - Northern Lights From 100,000 ft!",
+        "FORMAT": "mkv",
+        "NUMBER": 99,
+        "PUBLISHED_AT": "2012-06-19T06:42:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Northern Lights From 100,000 ft!"
+    },
+    "5RLQ9WMP2Es": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "182 - Veritasium - Ice Spikes Explained",
+        "FORMAT": "mkv",
+        "NUMBER": 182,
+        "PUBLISHED_AT": "2015-05-28T15:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ice Spikes Explained"
+    },
+    "5THOUSvpCKk": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "124 - Veritasium - Veritasium Trailer",
+        "FORMAT": "mkv",
+        "NUMBER": 124,
+        "PUBLISHED_AT": "2013-02-11T06:09:19.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Veritasium Trailer"
+    },
+    "5yFnO2O6XPM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "34 - Veritasium - How Old Is The Earth_",
+        "FORMAT": "mkv",
+        "NUMBER": 34,
+        "PUBLISHED_AT": "2011-05-08T23:48:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Old Is The Earth?"
+    },
+    "5zI9sG3pjVU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "289 - Veritasium - Turbulent Flow is MORE Awesome Than Laminar Flow",
+        "FORMAT": "mkv",
+        "NUMBER": 289,
+        "PUBLISHED_AT": "2020-06-11T14:00:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Turbulent Flow is MORE Awesome Than Laminar Flow"
+    },
+    "649iUqrOKuE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "114 - Veritasium - What Now For The Higgs Boson_",
+        "FORMAT": "mkv",
+        "NUMBER": 114,
+        "PUBLISHED_AT": "2012-10-17T14:00:30.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Now For The Higgs Boson?"
+    },
+    "6YOz9Pxnzho": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "174 - Veritasium - An Astronaut's View of Earth",
+        "FORMAT": "mkv",
+        "NUMBER": 174,
+        "PUBLISHED_AT": "2015-02-09T16:33:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "An Astronaut's View of Earth"
+    },
+    "6wr_Zw1uGY8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "118 - Veritasium - How To Clean Up Space Junk",
+        "FORMAT": "mkv",
+        "NUMBER": 118,
+        "PUBLISHED_AT": "2012-11-26T15:00:20.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How To Clean Up Space Junk"
+    },
+    "72DCj3BztG4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "222 - Veritasium - 4 Revolutionary Riddles Resolved!",
+        "FORMAT": "mkv",
+        "NUMBER": 222,
+        "PUBLISHED_AT": "2017-04-18T13:30:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "4 Revolutionary Riddles Resolved!"
+    },
+    "7LGi-Dlb8Vs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "10 - Veritasium - Egg Experiment to Demonstrate Inertia",
+        "FORMAT": "mkv",
+        "NUMBER": 10,
+        "PUBLISHED_AT": "2011-02-09T10:38:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Egg Experiment to Demonstrate Inertia"
+    },
+    "7pSqk-XV2QM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "294 - Veritasium - How Kodak Detected the Atomic Bomb",
+        "FORMAT": "mkv",
+        "NUMBER": 294,
+        "PUBLISHED_AT": "2020-09-16T18:17:48Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Kodak Exposed The Atomic Bomb"
+    },
+    "7rAiZR_zasg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "84 - Veritasium - Spinning Tube Trick Explained",
+        "FORMAT": "mkv",
+        "NUMBER": 84,
+        "PUBLISHED_AT": "2012-03-01T15:21:30.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Spinning Tube Trick Explained"
+    },
+    "8EGXqZRwbzw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "89 - Veritasium - Destination_ Alaska",
+        "FORMAT": "mkv",
+        "NUMBER": 89,
+        "PUBLISHED_AT": "2012-03-26T21:38:45.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Destination: Alaska"
+    },
+    "8bTdMmNZm2M": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "17 - Veritasium - Best Film on Newton's Third Law. Ever.",
+        "FORMAT": "mkv",
+        "NUMBER": 17,
+        "PUBLISHED_AT": "2011-02-25T10:57:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Best Film on Newton's Third Law. Ever."
+    },
+    "97t7Xj_iBv0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "261 - Veritasium - Why Machines That Bend Are Better",
+        "FORMAT": "mkv",
+        "NUMBER": 261,
+        "PUBLISHED_AT": "2019-03-12T18:33:16.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Machines That Bend Are Better"
+    },
+    "9DWnjcSo9J0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "185 - Veritasium - Chernobyl - What It's Like Today",
+        "FORMAT": "mkv",
+        "NUMBER": 185,
+        "PUBLISHED_AT": "2015-06-29T15:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chernobyl - What It's Like Today"
+    },
+    "9DrBQg_n2Uo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "298 - Veritasium - Do You Expand With The Universe_",
+        "FORMAT": "mkv",
+        "NUMBER": 298,
+        "PUBLISHED_AT": "2020-10-23T18:39:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Do You Expand With The Universe?"
+    },
+    "9zso7ChaQXQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "49 - Veritasium - How Does The Earth Spin_",
+        "FORMAT": "mkv",
+        "NUMBER": 49,
+        "PUBLISHED_AT": "2011-07-24T18:57:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does The Earth Spin?"
+    },
+    "ADJKsLEAOHo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "107 - Veritasium - How Does A Boomerang Work_",
+        "FORMAT": "mkv",
+        "NUMBER": 107,
+        "PUBLISHED_AT": "2012-08-17T10:46:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does A Boomerang Work?"
+    },
+    "AY6Bg4GzCGs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "245 - Veritasium - Can You Overdose on Vitamins_",
+        "FORMAT": "mkv",
+        "NUMBER": 245,
+        "PUBLISHED_AT": "2018-08-13T14:40:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Can You Overdose on Vitamins?"
+    },
+    "AcLh-aSUdx0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "175 - Veritasium - An Affordable 3D-Printed Arm",
+        "FORMAT": "mkv",
+        "NUMBER": 175,
+        "PUBLISHED_AT": "2015-02-26T16:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "An Affordable 3D-Printed Arm"
+    },
+    "AeJ9q45PfD0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "270 - Veritasium - World's Lightest Solid!",
+        "FORMAT": "mkv",
+        "NUMBER": 270,
+        "PUBLISHED_AT": "2019-05-31T16:40:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "World's Lightest Solid!"
+    },
+    "BD6h-wDj7bw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "159 - Veritasium - Why Women Are Stripey",
+        "FORMAT": "mkv",
+        "NUMBER": 159,
+        "PUBLISHED_AT": "2014-06-04T15:00:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Women Are Stripey"
+    },
+    "BLYoyLcdGPc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "141 - Veritasium - Bullet Block Explained!",
+        "FORMAT": "mkv",
+        "NUMBER": 141,
+        "PUBLISHED_AT": "2013-08-30T15:09:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bullet Block Explained!"
+    },
+    "BZbChKzedEk": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "271 - Veritasium - Can You Swim in Shade Balls_",
+        "FORMAT": "mkv",
+        "NUMBER": 271,
+        "PUBLISHED_AT": "2019-06-13T16:42:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Can You Swim in Shade Balls?"
+    },
+    "BickMFHAZR0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "115 - Veritasium - How Trees Bend the Laws of Physics",
+        "FORMAT": "mkv",
+        "NUMBER": 115,
+        "PUBLISHED_AT": "2012-10-30T13:00:52.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Trees Bend the Laws of Physics"
+    },
+    "BtCNBh0AsWM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "273 - Veritasium - How Cod Saved the Vikings",
+        "FORMAT": "mkv",
+        "NUMBER": 273,
+        "PUBLISHED_AT": "2019-07-07T16:09:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Cod Saved the Vikings"
+    },
+    "Bwf3msm7rqM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "85 - Veritasium - Spool Trick",
+        "FORMAT": "mkv",
+        "NUMBER": 85,
+        "PUBLISHED_AT": "2012-03-07T13:19:28.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Spool Trick"
+    },
+    "Bz9D6xba9Og": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "12 - Veritasium - How Far Away is the Moon_ (The Scale of the Universe)",
+        "FORMAT": "mkv",
+        "NUMBER": 12,
+        "PUBLISHED_AT": "2011-02-17T15:24:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Far Away is the Moon? (The Scale of the Universe)"
+    },
+    "CNQf9vZqv7k": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "198 - Veritasium - These Liquids Look Alive!",
+        "FORMAT": "mkv",
+        "NUMBER": 198,
+        "PUBLISHED_AT": "2016-03-15T14:30:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "These Liquids Look Alive!"
+    },
+    "CNodxp9Jy4A": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "248 - Veritasium - This Toy Can Open Any Garage",
+        "FORMAT": "mkv",
+        "NUMBER": 248,
+        "PUBLISHED_AT": "2018-09-19T14:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "This Toy Can Open Any Garage"
+    },
+    "CRSDxGtcsxE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "55 - Veritasium - What Is Chemistry_",
+        "FORMAT": "mkv",
+        "NUMBER": 55,
+        "PUBLISHED_AT": "2011-08-22T23:20:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Is Chemistry?"
+    },
+    "C_covjcIcZ4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "157 - Veritasium - Buoyancy Quiz",
+        "FORMAT": "mkv",
+        "NUMBER": 157,
+        "PUBLISHED_AT": "2014-05-05T14:30:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Buoyancy Quiz"
+    },
+    "Cf7Ar3nEUmw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "247 - Veritasium - How UV Causes Cancer and Aging",
+        "FORMAT": "mkv",
+        "NUMBER": 247,
+        "PUBLISHED_AT": "2018-09-04T14:00:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How UV Causes Cancer and Aging"
+    },
+    "DBjZz0iQrzI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "7 - Veritasium - I'm Atoms (Scientific Cover of Jason Mraz's I'm Yours)",
+        "FORMAT": "mkv",
+        "NUMBER": 7,
+        "PUBLISHED_AT": "2011-02-02T17:19:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "I'm Atoms (Scientific Cover of Jason Mraz's I'm Yours)"
+    },
+    "DL_mJeb6O04": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "237 - Veritasium - World's First Car!",
+        "FORMAT": "mkv",
+        "NUMBER": 237,
+        "PUBLISHED_AT": "2017-11-23T13:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "World's First Car!"
+    },
+    "DWkYRh6OXy8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "212 - Veritasium - Indestructible Coating_!",
+        "FORMAT": "mkv",
+        "NUMBER": 212,
+        "PUBLISHED_AT": "2016-12-05T14:38:19.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Indestructible Coating?!"
+    },
+    "E7uGvsT_nnM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "274 - Veritasium - Why Apollo Astronauts Trained at a Nuclear Test Site",
+        "FORMAT": "mkv",
+        "NUMBER": 274,
+        "PUBLISHED_AT": "2019-07-19T19:12:16.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Apollo Astronauts Trained in Nuclear Bomb Craters"
+    },
+    "E9WUaBGH7_I": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "86 - Veritasium - Spinning Tube Trick Answer",
+        "FORMAT": "mkv",
+        "NUMBER": 86,
+        "PUBLISHED_AT": "2012-03-07T13:39:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Spinning Tube Trick Answer"
+    },
+    "EAyk2OsKvtU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "235 - Veritasium - Neutron Star Merger Gravitational Waves and Gamma Rays",
+        "FORMAT": "mkv",
+        "NUMBER": 235,
+        "PUBLISHED_AT": "2017-10-16T15:32:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Neutron Star Merger Gravitational Waves and Gamma Rays"
+    },
+    "EJrmR-RGjUM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "56 - Veritasium - What Is Water Made Of_",
+        "FORMAT": "mkv",
+        "NUMBER": 56,
+        "PUBLISHED_AT": "2011-08-24T22:09:59.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Is Water Made Of?"
+    },
+    "EKR-HydGohQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "190 - Veritasium - Visiting Chernobyl Made Me Think Strange Thoughts...",
+        "FORMAT": "mkv",
+        "NUMBER": 190,
+        "PUBLISHED_AT": "2015-08-18T14:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Our Greatest Delusion"
+    },
+    "EPsG8td7C5k": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "148 - Veritasium - Will This Go Faster Than Light_",
+        "FORMAT": "mkv",
+        "NUMBER": 148,
+        "PUBLISHED_AT": "2014-01-23T15:30:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Will This Go Faster Than Light?"
+    },
+    "EyT3Yukdlu4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "39 - Veritasium - Option B - Acceleration of a Bungy Jump",
+        "FORMAT": "mkv",
+        "NUMBER": 39,
+        "PUBLISHED_AT": "2011-05-25T09:10:40.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Option B - Acceleration of a Bungy Jump"
+    },
+    "F69uqDIhr60": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "143 - Veritasium - 10 Facts About Great White Sharks",
+        "FORMAT": "mkv",
+        "NUMBER": 143,
+        "PUBLISHED_AT": "2013-10-17T16:00:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "10 Facts About Great White Sharks"
+    },
+    "FhmLBxyX8Dw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "37 - Veritasium - When Is A Bungee Jumper's Acceleration Max_",
+        "FORMAT": "mkv",
+        "NUMBER": 37,
+        "PUBLISHED_AT": "2011-05-25T09:07:13.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "When Is A Bungee Jumper's Acceleration Max?"
+    },
+    "G10m2ZZRH4U": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "233 - Veritasium - Total Solar Eclipse (2017)",
+        "FORMAT": "mkv",
+        "NUMBER": 233,
+        "PUBLISHED_AT": "2017-08-22T00:38:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Total Solar Eclipse (2017)"
+    },
+    "GATuMWAFBUA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "275 - Veritasium - Why the Future of Cars is Electric",
+        "FORMAT": "mkv",
+        "NUMBER": 275,
+        "PUBLISHED_AT": "2019-08-02T17:03:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why the Future of Cars is Electric"
+    },
+    "GEmuEWjHr5c": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "169 - Veritasium - This Will Revolutionize Education",
+        "FORMAT": "mkv",
+        "NUMBER": 169,
+        "PUBLISHED_AT": "2014-12-01T15:30:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "This Will Revolutionize Education"
+    },
+    "GcdB5bFwio4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "272 - Veritasium - I Waterproofed Myself With Aerogel!",
+        "FORMAT": "mkv",
+        "NUMBER": 272,
+        "PUBLISHED_AT": "2019-06-21T20:59:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "I Waterproofed Myself With Aerogel!"
+    },
+    "GeyDf4ooPdo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "152 - Veritasium - Anti-Gravity Wheel_",
+        "FORMAT": "mkv",
+        "NUMBER": 152,
+        "PUBLISHED_AT": "2014-03-17T13:30:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Anti-Gravity Wheel?"
+    },
+    "GhsZUZmJvaM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "276 - Veritasium - First Flight on Another Planet!",
+        "FORMAT": "mkv",
+        "NUMBER": 276,
+        "PUBLISHED_AT": "2019-08-10T16:12:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "This Helicopter Just Flew On Mars!"
+    },
+    "GmlMV7bA0TM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "13 - Veritasium - What is a Force_",
+        "FORMAT": "mkv",
+        "NUMBER": 13,
+        "PUBLISHED_AT": "2011-02-18T02:52:19.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What is a Force?"
+    },
+    "Grv1RJkdyqI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "304 - Veritasium - I Asked Bill Gates What's The Next Crisis_",
+        "FORMAT": "mkv",
+        "NUMBER": 304,
+        "PUBLISHED_AT": "2021-02-04T14:00:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "I Asked Bill Gates What's The Next Crisis?"
+    },
+    "GzbKb59my3U": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "127 - Veritasium - Single Photon Interference",
+        "FORMAT": "mkv",
+        "NUMBER": 127,
+        "PUBLISHED_AT": "2013-03-13T14:01:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Single Photon Interference"
+    },
+    "HD3k1hgbUXQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "241 - Veritasium - Why Einstein Thought Nuclear Weapons Impossible",
+        "FORMAT": "mkv",
+        "NUMBER": 241,
+        "PUBLISHED_AT": "2018-04-30T14:00:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Einstein Thought Nuclear Weapons Impossible"
+    },
+    "HUmZrtiXDik": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "81 - Veritasium - World's Longest Straw",
+        "FORMAT": "mkv",
+        "NUMBER": 81,
+        "PUBLISHED_AT": "2012-02-01T07:18:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "World's Longest Straw"
+    },
+    "He30D8M5fNc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "194 - Veritasium - Snatoms! The Magnetic Molecular Modeling Kit",
+        "FORMAT": "mkv",
+        "NUMBER": 194,
+        "PUBLISHED_AT": "2015-11-11T17:30:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Snatoms! The Magnetic Molecular Modeling Kit"
+    },
+    "HeQX2HjkcNo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "311 - Veritasium - This is Math's Fatal Flaw",
+        "FORMAT": "mkv",
+        "NUMBER": 311,
+        "PUBLISHED_AT": "2021-05-22T14:23:50Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "This is Math's Fatal Flaw"
+    },
+    "HgCXdNhVC1Q": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "221 - Veritasium - 4 Revolutionary Riddles",
+        "FORMAT": "mkv",
+        "NUMBER": 221,
+        "PUBLISHED_AT": "2017-04-12T14:00:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "4 Revolutionary Riddles"
+    },
+    "Hx9TwM4Pmhc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "130 - Veritasium - The Science of Jetpacks and Rockets!",
+        "FORMAT": "mkv",
+        "NUMBER": 130,
+        "PUBLISHED_AT": "2013-04-25T14:00:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Science of Jetpacks and Rockets!"
+    },
+    "IJ6GfBOYeLc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "181 - Veritasium - Extended_ Beaker Ball Balance Problem",
+        "FORMAT": "mkv",
+        "NUMBER": 181,
+        "PUBLISHED_AT": "2015-05-11T16:37:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Extended: Beaker Ball Balance Problem"
+    },
+    "I_rw-AJqpCM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "78 - Veritasium - What Is The Coastline Paradox_",
+        "FORMAT": "mkv",
+        "NUMBER": 78,
+        "PUBLISHED_AT": "2012-01-07T02:55:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Is The Coastline Paradox?"
+    },
+    "IcrBqCFLHIY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "137 - Veritasium - How Does a Transistor Work_",
+        "FORMAT": "mkv",
+        "NUMBER": 137,
+        "PUBLISHED_AT": "2013-07-09T20:13:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does a Transistor Work?"
+    },
+    "Iuv6hY6zsd0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "125 - Veritasium - The Original Double Slit Experiment",
+        "FORMAT": "mkv",
+        "NUMBER": 125,
+        "PUBLISHED_AT": "2013-02-19T17:07:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Original Double Slit Experiment"
+    },
+    "J3xLuZNKhlY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "131 - Veritasium - Empty Space is NOT Empty",
+        "FORMAT": "mkv",
+        "NUMBER": 131,
+        "PUBLISHED_AT": "2013-04-30T14:30:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Empty Space is NOT Empty"
+    },
+    "JUJPyQtoB5E": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "4 - Veritasium - Thomson's Plum Pudding Model of the Atom",
+        "FORMAT": "mkv",
+        "NUMBER": 4,
+        "PUBLISHED_AT": "2011-01-28T01:09:53.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Thomson's Plum Pudding Model of the Atom"
+    },
+    "Jeb3O87iXWI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "60 - Veritasium - What Colour Is Most Attractive_",
+        "FORMAT": "mkv",
+        "NUMBER": 60,
+        "PUBLISHED_AT": "2011-09-05T10:37:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Colour Is Most Attractive?"
+    },
+    "Jip3BbZBpsM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "75 - Veritasium - What Causes The Phases Of The Moon_",
+        "FORMAT": "mkv",
+        "NUMBER": 75,
+        "PUBLISHED_AT": "2011-12-12T18:33:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Causes The Phases Of The Moon?"
+    },
+    "JsytnJ_pSf8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "67 - Veritasium - Supersized Slow-Mo Slinky Drop",
+        "FORMAT": "mkv",
+        "NUMBER": 67,
+        "PUBLISHED_AT": "2011-10-10T15:58:44.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Supersized Slow-Mo Slinky Drop"
+    },
+    "K-Fc08X56R0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "283 - Veritasium - 3 Perplexing Physics Problems",
+        "FORMAT": "mkv",
+        "NUMBER": 283,
+        "PUBLISHED_AT": "2019-11-20T20:54:16.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "3 Perplexing Physics Problems"
+    },
+    "K4vyRvMASPU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "197 - Veritasium - What Exactly is the Present_",
+        "FORMAT": "mkv",
+        "NUMBER": 197,
+        "PUBLISHED_AT": "2016-02-23T16:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Exactly is the Present?"
+    },
+    "K7pQsR8WFSo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "234 - Veritasium - Schlieren Imaging in Color!",
+        "FORMAT": "mkv",
+        "NUMBER": 234,
+        "PUBLISHED_AT": "2017-10-01T03:53:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Schlieren Imaging in Color!"
+    },
+    "KCL8zqjXbME": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "62 - Veritasium - States of Matter",
+        "FORMAT": "mkv",
+        "NUMBER": 62,
+        "PUBLISHED_AT": "2011-09-15T18:22:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "States of Matter"
+    },
+    "KI5CUGQET5I": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "40 - Veritasium - Option C - Acceleration of a Bungy Jump",
+        "FORMAT": "mkv",
+        "NUMBER": 40,
+        "PUBLISHED_AT": "2011-05-25T09:14:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Option C - Acceleration of a Bungy Jump"
+    },
+    "Kp_kqamkYpw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "291 - Veritasium - Half the universe was missing... until now",
+        "FORMAT": "mkv",
+        "NUMBER": 291,
+        "PUBLISHED_AT": "2020-07-31T22:13:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Half the universe was missing... until now"
+    },
+    "KzOkuGQC3Rw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "57 - Veritasium - Impress Her With Nanodiamonds",
+        "FORMAT": "mkv",
+        "NUMBER": 57,
+        "PUBLISHED_AT": "2011-08-27T16:28:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Impress Her With Nanodiamonds"
+    },
+    "LKPwKFigF8U": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "249 - Veritasium - Why Boredom is Good For You",
+        "FORMAT": "mkv",
+        "NUMBER": 249,
+        "PUBLISHED_AT": "2018-09-29T14:00:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Boredom is Good For You"
+    },
+    "LgrXd0NM2y8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "211 - Veritasium - What the Fahrenheit_!",
+        "FORMAT": "mkv",
+        "NUMBER": 211,
+        "PUBLISHED_AT": "2016-11-28T15:32:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What the Fahrenheit?!"
+    },
+    "M2CMH57hXmY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "257 - Veritasium - The Inverse Leidenfrost Effect",
+        "FORMAT": "mkv",
+        "NUMBER": 257,
+        "PUBLISHED_AT": "2019-01-25T17:54:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Inverse Leidenfrost Effect"
+    },
+    "M4CQ4T_K8Hw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "105 - Veritasium - How Does A Sailboat Actually Work_",
+        "FORMAT": "mkv",
+        "NUMBER": 105,
+        "PUBLISHED_AT": "2012-08-06T03:05:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does A Sailboat Actually Work?"
+    },
+    "N7lXymxsdhw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "267 - Veritasium - Magnetic Micro-Robots",
+        "FORMAT": "mkv",
+        "NUMBER": 267,
+        "PUBLISHED_AT": "2019-04-25T14:32:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Magnetic Micro-Robots"
+    },
+    "N8HrMZB6_dU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "146 - Veritasium - Bullet Block Experiment Result",
+        "FORMAT": "mkv",
+        "NUMBER": 146,
+        "PUBLISHED_AT": "2013-11-29T04:08:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bullet Block Experiment Result"
+    },
+    "NVKO7UCIlgs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "228 - Veritasium - NEW Gravitational Wave Discovery!",
+        "FORMAT": "mkv",
+        "NUMBER": 228,
+        "PUBLISHED_AT": "2017-06-01T15:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NEW Gravitational Wave Discovery!"
+    },
+    "NqdOyxJZj0U": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "116 - Veritasium - World's First Electric Generator",
+        "FORMAT": "mkv",
+        "NUMBER": 116,
+        "PUBLISHED_AT": "2012-11-06T15:52:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "World's First Electric Generator"
+    },
+    "OWXoRSIxyIU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "165 - Veritasium - 13 Misconceptions About Global Warming",
+        "FORMAT": "mkv",
+        "NUMBER": 165,
+        "PUBLISHED_AT": "2014-09-22T17:36:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "13 Misconceptions About Global Warming"
+    },
+    "Oo0jm1PPRuo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "232 - Veritasium - How We're Redefining the kg",
+        "FORMAT": "mkv",
+        "NUMBER": 232,
+        "PUBLISHED_AT": "2017-07-12T15:19:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How We're Redefining the kg"
+    },
+    "OxGsU8oIWjY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "310 - Veritasium - How An Infinite Hotel Ran Out Of Room",
+        "FORMAT": "mkv",
+        "NUMBER": 310,
+        "PUBLISHED_AT": "2021-05-10T16:02:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How An Infinite Hotel Ran Out Of Room"
+    },
+    "PCxOEyyzmvQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "154 - Veritasium - Gravitational Wave Discovery! Evidence of Cosmic Inflation",
+        "FORMAT": "mkv",
+        "NUMBER": 154,
+        "PUBLISHED_AT": "2014-03-25T15:00:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gravitational Wave Discovery! Evidence of Cosmic Inflation"
+    },
+    "PifL8bAybyc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "76 - Veritasium - How To Make Graphene",
+        "FORMAT": "mkv",
+        "NUMBER": 76,
+        "PUBLISHED_AT": "2011-12-19T10:35:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How To Make Graphene"
+    },
+    "Pm9CQn07OjU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "286 - Veritasium - Why Most Resolutions Fail & How To Succeed",
+        "FORMAT": "mkv",
+        "NUMBER": 286,
+        "PUBLISHED_AT": "2019-12-28T18:07:19.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Most Resolutions Fail & How To Succeed"
+    },
+    "QD3hbVG1yxM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "178 - Veritasium - Beaker Ball Balance Problem",
+        "FORMAT": "mkv",
+        "NUMBER": 178,
+        "PUBLISHED_AT": "2015-04-13T14:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Beaker Ball Balance Problem"
+    },
+    "QRt7LjqJ45k": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "285 - Veritasium - How to Slow Aging (and even reverse it)",
+        "FORMAT": "mkv",
+        "NUMBER": 285,
+        "PUBLISHED_AT": "2019-12-14T15:00:05.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Slow Aging (and even reverse it)"
+    },
+    "R13BD8qKeTg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "220 - Veritasium - The Bayesian Trap",
+        "FORMAT": "mkv",
+        "NUMBER": 220,
+        "PUBLISHED_AT": "2017-04-05T14:00:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Bayesian Trap"
+    },
+    "RwTjsRt0Fzo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "66 - Veritasium - Make Plasma With Grapes In The Microwave!",
+        "FORMAT": "mkv",
+        "NUMBER": 66,
+        "PUBLISHED_AT": "2011-10-02T06:14:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Make Plasma With Grapes In The Microwave!"
+    },
+    "Rwa26CXG1fc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "166 - Veritasium - CapitolTV's DISTRICT VOICES - District 5_ Electric Sparks From Falling Water",
+        "FORMAT": "mkv",
+        "NUMBER": 166,
+        "PUBLISHED_AT": "2014-10-23T00:05:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "CapitolTV's DISTRICT VOICES - District 5: Electric Sparks From Falling Water"
+    },
+    "S1tFT4smd6E": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "242 - Veritasium - My Life Story",
+        "FORMAT": "mkv",
+        "NUMBER": 242,
+        "PUBLISHED_AT": "2018-06-18T14:00:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "My Life Story"
+    },
+    "S20-1_XqVPM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "200 - Veritasium - Science of Laser Hair Removal in SLOW MOTION",
+        "FORMAT": "mkv",
+        "NUMBER": 200,
+        "PUBLISHED_AT": "2016-03-30T14:30:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Science of Laser Hair Removal in SLOW MOTION"
+    },
+    "SAQ-iIJkLzA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "251 - Veritasium - Drinking in ZERO-G! (and other challenges of a trip to Mars)",
+        "FORMAT": "mkv",
+        "NUMBER": 251,
+        "PUBLISHED_AT": "2018-11-02T19:11:59.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Drinking in ZERO-G! (and other challenges of a trip to Mars)"
+    },
+    "SN1Q5ru2fI0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "18 - Veritasium - Calculating Gravitational Attraction",
+        "FORMAT": "mkv",
+        "NUMBER": 18,
+        "PUBLISHED_AT": "2011-02-28T07:15:53.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Calculating Gravitational Attraction"
+    },
+    "SQggDnScsvI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "176 - Veritasium - How Do Chameleons Change Color_",
+        "FORMAT": "mkv",
+        "NUMBER": 176,
+        "PUBLISHED_AT": "2015-03-11T14:30:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Do Chameleons Change Color?"
+    },
+    "S_GVbuddri8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "265 - Veritasium - First Image of a Black Hole!",
+        "FORMAT": "mkv",
+        "NUMBER": 265,
+        "PUBLISHED_AT": "2019-04-10T18:02:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "First Image of a Black Hole!"
+    },
+    "SeDaOigLBTU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "25 - Veritasium - What Are Atoms and Isotopes_",
+        "FORMAT": "mkv",
+        "NUMBER": 25,
+        "PUBLISHED_AT": "2011-03-22T12:39:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Are Atoms and Isotopes?"
+    },
+    "SmSJXC6_qQ8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "225 - Veritasium - Is America Actually Metric_",
+        "FORMAT": "mkv",
+        "NUMBER": 225,
+        "PUBLISHED_AT": "2017-05-10T14:00:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Is America Actually Metric?"
+    },
+    "SnrdqCQuwK8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "100 - Veritasium - The First Meeting of EDUtubers! ft. CGPGrey, Vsauce, Smarter Every Day, Numberphile +more",
+        "FORMAT": "mkv",
+        "NUMBER": 100,
+        "PUBLISHED_AT": "2012-06-28T17:42:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The First Meeting of EDUtubers! ft. CGPGrey, Vsauce, Smarter Every Day, Numberphile +more"
+    },
+    "Stx6kLd9dYI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "50 - Veritasium - Why Is Ice Slippery_",
+        "FORMAT": "mkv",
+        "NUMBER": 50,
+        "PUBLISHED_AT": "2011-08-05T05:42:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Is Ice Slippery?"
+    },
+    "TIe2oerd25c": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "250 - Veritasium - What Actually Causes Dandruff_",
+        "FORMAT": "mkv",
+        "NUMBER": 250,
+        "PUBLISHED_AT": "2018-10-24T14:00:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Actually Causes Dandruff?"
+    },
+    "TQxeutcYP6I": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "48 - Veritasium - Why Does The Earth Spin_",
+        "FORMAT": "mkv",
+        "NUMBER": 48,
+        "PUBLISHED_AT": "2011-07-21T16:15:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Does The Earth Spin?"
+    },
+    "TRL7o2kPqw0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "170 - Veritasium - The Most Radioactive Places on Earth",
+        "FORMAT": "mkv",
+        "NUMBER": 170,
+        "PUBLISHED_AT": "2014-12-17T16:49:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Most Radioactive Places on Earth"
+    },
+    "T_gCnf9-qW0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "177 - Veritasium - How YouTube is Like a Potato",
+        "FORMAT": "mkv",
+        "NUMBER": 177,
+        "PUBLISHED_AT": "2015-03-24T13:00:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How YouTube is Like a Potato"
+    },
+    "TcxZSmzPw8k": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "191 - Veritasium - The Science of Six Degrees of Separation",
+        "FORMAT": "mkv",
+        "NUMBER": 191,
+        "PUBLISHED_AT": "2015-08-26T00:39:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Science of Six Degrees of Separation"
+    },
+    "ThwuT3_AG6w": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "281 - Veritasium - Engineering with Origami",
+        "FORMAT": "mkv",
+        "NUMBER": 281,
+        "PUBLISHED_AT": "2019-10-04T21:18:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Engineering with Origami"
+    },
+    "U2g1H5wPmUE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "3 - Veritasium - Atomic Theory",
+        "FORMAT": "mkv",
+        "NUMBER": 3,
+        "PUBLISHED_AT": "2011-01-07T10:53:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Atomic Theory"
+    },
+    "UBVV8pch1dM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "218 - Veritasium - The Science of Thinking",
+        "FORMAT": "mkv",
+        "NUMBER": 218,
+        "PUBLISHED_AT": "2017-03-02T15:30:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Science of Thinking"
+    },
+    "UMnQWn1rkAA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "74 - Veritasium - A Human Being Is A Part Of The Whole",
+        "FORMAT": "mkv",
+        "NUMBER": 74,
+        "PUBLISHED_AT": "2011-12-03T15:38:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "A Human Being Is A Part Of The Whole"
+    },
+    "Ux33-5k8cjg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "91 - Veritasium - Where Does The Sun Get Its Energy_",
+        "FORMAT": "mkv",
+        "NUMBER": 91,
+        "PUBLISHED_AT": "2012-05-06T16:27:16.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Where Does The Sun Get Its Energy?"
+    },
+    "UxbeLdXnaGU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "29 - Veritasium - Galileo the Scientific Parrot",
+        "FORMAT": "mkv",
+        "NUMBER": 29,
+        "PUBLISHED_AT": "2011-03-31T02:21:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Galileo the Scientific Parrot"
+    },
+    "V9K6gjR07Po": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "244 - Veritasium - The World in UV",
+        "FORMAT": "mkv",
+        "NUMBER": 244,
+        "PUBLISHED_AT": "2018-07-21T13:00:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The World in UV"
+    },
+    "WBjY3QGNdAw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "215 - Veritasium - The Real Moral Dilemma of Self-Driving Cars",
+        "FORMAT": "mkv",
+        "NUMBER": 215,
+        "PUBLISHED_AT": "2017-01-19T17:05:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Real Moral Dilemma of Self-Driving Cars"
+    },
+    "WIyTZDHuarQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "210 - Veritasium - Is This What Quantum Mechanics Looks Like_",
+        "FORMAT": "mkv",
+        "NUMBER": 210,
+        "PUBLISHED_AT": "2016-11-02T15:00:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Is This What Quantum Mechanics Looks Like?"
+    },
+    "WMXhk_SATTc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "120 - Veritasium - What Could Survive An Atomic Bomb_",
+        "FORMAT": "mkv",
+        "NUMBER": 120,
+        "PUBLISHED_AT": "2012-12-17T12:30:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Could Survive An Atomic Bomb?"
+    },
+    "WwmJ5nMmigQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "6 - Veritasium - Scientific Notation - Explained!",
+        "FORMAT": "mkv",
+        "NUMBER": 6,
+        "PUBLISHED_AT": "2011-02-02T15:21:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Scientific Notation - Explained!"
+    },
+    "X-QFAB0gEtE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "59 - Veritasium - Chain Drop Answer 2",
+        "FORMAT": "mkv",
+        "NUMBER": 59,
+        "PUBLISHED_AT": "2011-08-30T03:12:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chain Drop Answer 2"
+    },
+    "XAgXwUwQoPA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "240 - Veritasium - The Threat of AI Weapons",
+        "FORMAT": "mkv",
+        "NUMBER": 240,
+        "PUBLISHED_AT": "2018-04-02T14:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Threat of AI Weapons"
+    },
+    "XBr4GkRnY04": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "158 - Veritasium - Misconceptions About the Universe",
+        "FORMAT": "mkv",
+        "NUMBER": 158,
+        "PUBLISHED_AT": "2014-05-27T15:00:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Misconceptions About the Universe"
+    },
+    "XBtBdNHBNSI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "106 - Veritasium - What's The Best High Jump Technique_",
+        "FORMAT": "mkv",
+        "NUMBER": 106,
+        "PUBLISHED_AT": "2012-08-09T03:17:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What's The Best High Jump Technique?"
+    },
+    "XRr1kaXKBsU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "296 - Veritasium - Why Gravity is NOT a Force",
+        "FORMAT": "mkv",
+        "NUMBER": 296,
+        "PUBLISHED_AT": "2020-10-09T17:02:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Gravity is NOT a Force"
+    },
+    "X_tYrnv_o6A": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "236 - Veritasium - Your Body's Molecular Machines",
+        "FORMAT": "mkv",
+        "NUMBER": 236,
+        "PUBLISHED_AT": "2017-11-20T15:00:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Your Body's Molecular Machines"
+    },
+    "Y2nQ8isf55s": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "209 - Veritasium - Welding in Space",
+        "FORMAT": "mkv",
+        "NUMBER": 209,
+        "PUBLISHED_AT": "2016-10-26T14:30:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Metals Spontaneously Fuse Together In Space"
+    },
+    "YHBvOOX3RJQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "70 - Veritasium - Physics Nobel Prize 2011 - Brian Schmidt",
+        "FORMAT": "mkv",
+        "NUMBER": 70,
+        "PUBLISHED_AT": "2011-10-23T18:28:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Physics Nobel Prize 2011 - Brian Schmidt"
+    },
+    "YJbKieEC49M": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "43 - Veritasium - Can You Perceive Acceleration_",
+        "FORMAT": "mkv",
+        "NUMBER": 43,
+        "PUBLISHED_AT": "2011-05-29T23:26:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Can You Perceive Acceleration?"
+    },
+    "YMDJA4UvXLA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "303 - Veritasium - These Pools Help Support Half The People On Earth",
+        "FORMAT": "mkv",
+        "NUMBER": 303,
+        "PUBLISHED_AT": "2021-01-27T14:00:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "These Pools Help Support Half The People On Earth"
+    },
+    "YMPzDiraNnA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "180 - Veritasium - What I Wish I Knew When I Was Younger",
+        "FORMAT": "mkv",
+        "NUMBER": 180,
+        "PUBLISHED_AT": "2015-04-27T16:38:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What I Wish I Knew When I Was Younger"
+    },
+    "Yf0BN0kq7OU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "22 - Veritasium - Three Incorrect Laws of Motion",
+        "FORMAT": "mkv",
+        "NUMBER": 22,
+        "PUBLISHED_AT": "2011-03-10T22:47:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Three Incorrect Laws of Motion"
+    },
+    "Yl_K2Ata6XY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "246 - Veritasium - Is Our Food Becoming Less Nutritious_",
+        "FORMAT": "mkv",
+        "NUMBER": 246,
+        "PUBLISHED_AT": "2018-08-24T14:00:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Is Our Food Becoming Less Nutritious?"
+    },
+    "ZMByI4s-D-Y": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "128 - Veritasium - World's Roundest Object!",
+        "FORMAT": "mkv",
+        "NUMBER": 128,
+        "PUBLISHED_AT": "2013-03-25T13:01:15.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "World's Roundest Object!"
+    },
+    "ZQ--scjcAZ4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "258 - Veritasium - Are Negative Ions Good For You_",
+        "FORMAT": "mkv",
+        "NUMBER": 258,
+        "PUBLISHED_AT": "2019-02-06T19:45:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Do Salt Lamps Work?"
+    },
+    "Ztc6QPNUqls": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "132 - Veritasium - Your Mass is NOT From the Higgs Boson",
+        "FORMAT": "mkv",
+        "NUMBER": 132,
+        "PUBLISHED_AT": "2013-05-09T03:31:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Your Mass is NOT From the Higgs Boson"
+    },
+    "ZuvK-od647c": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "172 - Veritasium - Quantum Entanglement & Spooky Action at a Distance",
+        "FORMAT": "mkv",
+        "NUMBER": 172,
+        "PUBLISHED_AT": "2015-01-12T16:00:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Quantum Entanglement & Spooky Action at a Distance"
+    },
+    "_Z0X0yE8Ioc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "9 - Veritasium - The Difference Between Mass and Weight",
+        "FORMAT": "mkv",
+        "NUMBER": 9,
+        "PUBLISHED_AT": "2011-02-07T17:13:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Difference Between Mass and Weight"
+    },
+    "_dDqFB-PjWg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "195 - Veritasium - How Long Will You Live_",
+        "FORMAT": "mkv",
+        "NUMBER": 195,
+        "PUBLISHED_AT": "2015-11-25T15:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Long Will You Live?"
+    },
+    "_k9egfWvb7Y": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "227 - Veritasium - World's Heaviest Weight",
+        "FORMAT": "mkv",
+        "NUMBER": 227,
+        "PUBLISHED_AT": "2017-05-24T14:00:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "World's Heaviest Weight"
+    },
+    "_mCC-68LyZM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "20 - Veritasium - Misconceptions About Falling Objects",
+        "FORMAT": "mkv",
+        "NUMBER": 20,
+        "PUBLISHED_AT": "2011-03-03T15:17:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Misconceptions About Falling Objects"
+    },
+    "_xU3IRbCbyQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "144 - Veritasium - How a Shark Attack Survivor Invented Cage Diving",
+        "FORMAT": "mkv",
+        "NUMBER": 144,
+        "PUBLISHED_AT": "2013-11-06T20:31:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How a Shark Attack Survivor Invented Cage Diving"
+    },
+    "a7_8Gc_Llr8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "110 - Veritasium - What's In A Candle Flame_",
+        "FORMAT": "mkv",
+        "NUMBER": 110,
+        "PUBLISHED_AT": "2012-09-11T19:00:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What's In A Candle Flame?"
+    },
+    "a8FTr2qMutA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "121 - Veritasium - Heisenberg's Uncertainty Principle Explained",
+        "FORMAT": "mkv",
+        "NUMBER": 121,
+        "PUBLISHED_AT": "2013-01-14T13:00:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Heisenberg's Uncertainty Principle Explained"
+    },
+    "aFO4PBolwFg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "104 - Veritasium - How Does A Wing Actually Work_",
+        "FORMAT": "mkv",
+        "NUMBER": 104,
+        "PUBLISHED_AT": "2012-08-03T18:22:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does A Wing Actually Work?"
+    },
+    "aIx2N-viNwY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "196 - Veritasium - Why Life Seems to Speed Up as We Age",
+        "FORMAT": "mkv",
+        "NUMBER": 196,
+        "PUBLISHED_AT": "2016-02-10T15:03:52.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Life Seems to Speed Up as We Age"
+    },
+    "aJc4DEkSq4I": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "14 - Veritasium - What Forces Are Acting On You_",
+        "FORMAT": "mkv",
+        "NUMBER": 14,
+        "PUBLISHED_AT": "2011-02-18T21:47:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Forces Are Acting On You?"
+    },
+    "aKwJayXTZUs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "255 - Veritasium - The Best Test of General Relativity (by 2 Misplaced Satellites)",
+        "FORMAT": "mkv",
+        "NUMBER": 255,
+        "PUBLISHED_AT": "2018-12-23T15:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Best Test of General Relativity (by 2 Misplaced Satellites)"
+    },
+    "aRhkQTQxm4w": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "112 - Veritasium - Misconceptions About Falling Objects",
+        "FORMAT": "mkv",
+        "NUMBER": 112,
+        "PUBLISHED_AT": "2012-10-01T21:28:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Misconceptions About Falling Objects"
+    },
+    "akIBlq5xAec": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "147 - Veritasium - We Tagged a Great White Shark!",
+        "FORMAT": "mkv",
+        "NUMBER": 147,
+        "PUBLISHED_AT": "2013-12-21T00:33:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "We Tagged a Great White Shark!"
+    },
+    "b3TRUDKpoAs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "2 - Veritasium - What causes the seasons_",
+        "FORMAT": "mkv",
+        "NUMBER": 2,
+        "PUBLISHED_AT": "2010-08-16T14:31:44.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What causes the seasons?"
+    },
+    "bKldI-XGHIw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "136 - Veritasium - Can We Really Touch Anything_",
+        "FORMAT": "mkv",
+        "NUMBER": 136,
+        "PUBLISHED_AT": "2013-06-24T16:01:38.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Can We Really Touch Anything?"
+    },
+    "bcstc1ozczQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "47 - Veritasium - Persistence Of Vision",
+        "FORMAT": "mkv",
+        "NUMBER": 47,
+        "PUBLISHED_AT": "2011-07-17T00:18:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Persistence Of Vision"
+    },
+    "c6wuh0NRG1s": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "192 - Veritasium - Is Glass a Liquid_",
+        "FORMAT": "mkv",
+        "NUMBER": 192,
+        "PUBLISHED_AT": "2015-09-30T20:30:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Is Glass a Liquid?"
+    },
+    "cO57Zm-WNmg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "184 - Veritasium - Uranium_ Twisting the Dragon's Tail",
+        "FORMAT": "mkv",
+        "NUMBER": 184,
+        "PUBLISHED_AT": "2015-06-17T15:00:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Uranium: Twisting the Dragon's Tail"
+    },
+    "cU2dZz18P0c": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "1 - Veritasium - How long does it take for the earth to go around the sun_",
+        "FORMAT": "mkv",
+        "NUMBER": 1,
+        "PUBLISHED_AT": "2010-08-15T15:59:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How long does it take for the earth to go around the sun?"
+    },
+    "cY-kiddvAg0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "33 - Veritasium - What Is Electricity_ (Are You Gonna Be My Girl_)",
+        "FORMAT": "mkv",
+        "NUMBER": 33,
+        "PUBLISHED_AT": "2011-05-02T06:49:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Is Electricity? (Are You Gonna Be My Girl?)"
+    },
+    "cY_o4A1wzsg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "88 - Veritasium - Why Do You Make People Look Stupid_",
+        "FORMAT": "mkv",
+        "NUMBER": 88,
+        "PUBLISHED_AT": "2012-03-18T06:29:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Do You Make People Look Stupid?"
+    },
+    "c_e1wITe_ig": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "252 - Veritasium - The kg is dead, long live the kg",
+        "FORMAT": "mkv",
+        "NUMBER": 252,
+        "PUBLISHED_AT": "2018-11-15T18:23:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The kg is dead, long live the kg"
+    },
+    "cebFWOlx848": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "205 - Veritasium - The Illusion of Truth",
+        "FORMAT": "mkv",
+        "NUMBER": 205,
+        "PUBLISHED_AT": "2016-07-21T14:00:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Illusion of Truth"
+    },
+    "cztocbHiiqQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "126 - Veritasium - What Can Frogs See That We Can't_",
+        "FORMAT": "mkv",
+        "NUMBER": 126,
+        "PUBLISHED_AT": "2013-03-04T13:02:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Can Frogs See That We Can't?"
+    },
+    "d57C2drB_wc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "21 - Veritasium - Is There Gravity In Space_",
+        "FORMAT": "mkv",
+        "NUMBER": 21,
+        "PUBLISHED_AT": "2011-03-08T21:43:20.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Is There Gravity In Space?"
+    },
+    "dBap_Lp-0oc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "301 - Veritasium - The Illusion Only Some Can See",
+        "FORMAT": "mkv",
+        "NUMBER": 301,
+        "PUBLISHED_AT": "2020-12-31T14:29:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Illusion Only Some People Can See"
+    },
+    "dCXkaQa53QQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "277 - Veritasium - Making Liquid Nitrogen From Scratch!",
+        "FORMAT": "mkv",
+        "NUMBER": 277,
+        "PUBLISHED_AT": "2019-08-16T17:06:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Making Liquid Nitrogen From Scratch!"
+    },
+    "dHT5NZg7JXA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "52 - Veritasium - Australian Science Week 2011",
+        "FORMAT": "mkv",
+        "NUMBER": 52,
+        "PUBLISHED_AT": "2011-08-14T13:06:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Australian Science Week 2011"
+    },
+    "dMwr0VYuExE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "68 - Veritasium - Nobel Prize Winner Brian Schmidt - Physics 2011",
+        "FORMAT": "mkv",
+        "NUMBER": 68,
+        "PUBLISHED_AT": "2011-10-17T00:19:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nobel Prize Winner Brian Schmidt - Physics 2011"
+    },
+    "dg3pza4y2ws": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "262 - Veritasium - Can Humans Sense Magnetic Fields_",
+        "FORMAT": "mkv",
+        "NUMBER": 262,
+        "PUBLISHED_AT": "2019-03-18T18:07:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Can Humans Sense Magnetic Fields?"
+    },
+    "dvk2PQNcg8w": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "213 - Veritasium - Post-Truth_ Why Facts Don't Matter Anymore",
+        "FORMAT": "mkv",
+        "NUMBER": 213,
+        "PUBLISHED_AT": "2016-12-20T16:58:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Post-Truth: Why Facts Don't Matter Anymore"
+    },
+    "e69XZJ9DEj0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "223 - Veritasium - The Sun Sneeze Gene",
+        "FORMAT": "mkv",
+        "NUMBER": 223,
+        "PUBLISHED_AT": "2017-04-27T20:11:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Sun Sneeze Gene"
+    },
+    "eCMmmEEyOO0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "64 - Veritasium - Slinky Drop Answer",
+        "FORMAT": "mkv",
+        "NUMBER": 64,
+        "PUBLISHED_AT": "2011-09-22T05:29:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Slinky Drop Answer"
+    },
+    "eNx9tvCrvv8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "164 - Veritasium - Climate Change is Boring",
+        "FORMAT": "mkv",
+        "NUMBER": 164,
+        "PUBLISHED_AT": "2014-08-29T22:47:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Climate Change is Boring"
+    },
+    "eUzB0L0mSCI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "260 - Veritasium - Can You Recover Sound From Images_",
+        "FORMAT": "mkv",
+        "NUMBER": 260,
+        "PUBLISHED_AT": "2019-03-01T16:03:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Can You Recover Sound From Images?"
+    },
+    "eVtCO84MDj8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "24 - Veritasium - Khan Academy and the Effectiveness of Science Videos",
+        "FORMAT": "mkv",
+        "NUMBER": 24,
+        "PUBLISHED_AT": "2011-03-17T17:43:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Khan Academy and the Effectiveness of Science Videos"
+    },
+    "exG4aGlCmEE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "38 - Veritasium - Option A - Acceleration of a Bungy Jump",
+        "FORMAT": "mkv",
+        "NUMBER": 38,
+        "PUBLISHED_AT": "2011-05-25T09:09:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Option A - Acceleration of a Bungy Jump"
+    },
+    "fDek6cYijxI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "284 - Veritasium - The Science of the Butterfly Effect \ud83e\udd8b",
+        "FORMAT": "mkv",
+        "NUMBER": 284,
+        "PUBLISHED_AT": "2019-12-06T19:06:59.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chaos: The Science of the Butterfly Effect"
+    },
+    "fHsa9DqmId8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "269 - Veritasium - My Video Went Viral. Here's Why",
+        "FORMAT": "mkv",
+        "NUMBER": 269,
+        "PUBLISHED_AT": "2019-05-19T19:48:20.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "My Video Went Viral. Here's Why"
+    },
+    "fu3645D4ZlI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "256 - Veritasium - Spinning Black Holes",
+        "FORMAT": "mkv",
+        "NUMBER": 256,
+        "PUBLISHED_AT": "2019-01-11T21:07:28.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Spinning Black Holes"
+    },
+    "g20JZ2HNZaw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "207 - Veritasium - The Best and Worst Prediction in Science",
+        "FORMAT": "mkv",
+        "NUMBER": 207,
+        "PUBLISHED_AT": "2016-09-08T14:00:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Best and Worst Prediction in Science"
+    },
+    "gM3zP72-rJE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "51 - Veritasium - Does Pressure Melt Ice_",
+        "FORMAT": "mkv",
+        "NUMBER": 51,
+        "PUBLISHED_AT": "2011-08-14T02:49:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Does Pressure Melt Ice?"
+    },
+    "gMlf1ELvRzc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "306 - Veritasium - The Discovery That Transformed Pi",
+        "FORMAT": "mkv",
+        "NUMBER": 306,
+        "PUBLISHED_AT": "2021-03-16T13:00:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Discovery That Transformed Pi"
+    },
+    "g_IaVepNDT4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "135 - Veritasium - How Does a Quantum Computer Work_",
+        "FORMAT": "mkv",
+        "NUMBER": 135,
+        "PUBLISHED_AT": "2013-06-17T15:01:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does a Quantum Computer Work?"
+    },
+    "h0SZZTBQmEs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "93 - Veritasium - Spinning Disk Trick",
+        "FORMAT": "mkv",
+        "NUMBER": 93,
+        "PUBLISHED_AT": "2012-05-18T03:18:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Spinning Disk Trick"
+    },
+    "hNGJ0WHXMyE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "45 - Veritasium - Misconceptions About Heat",
+        "FORMAT": "mkv",
+        "NUMBER": 45,
+        "PUBLISHED_AT": "2011-06-29T08:09:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Misconceptions About Heat"
+    },
+    "hbXDLKFkjm0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "217 - Veritasium - Water on the Moon_",
+        "FORMAT": "mkv",
+        "NUMBER": 217,
+        "PUBLISHED_AT": "2017-02-08T14:30:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "3 Sources of Water on the Moon"
+    },
+    "iQOHRKKNNLQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "92 - Veritasium - Why Are Astronauts Weightless_",
+        "FORMAT": "mkv",
+        "NUMBER": 92,
+        "PUBLISHED_AT": "2012-05-13T04:04:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Are Astronauts Weightless?"
+    },
+    "iZCRFRgSgas": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "226 - Veritasium - Mars 2020_ The Next Mission to Mars",
+        "FORMAT": "mkv",
+        "NUMBER": 226,
+        "PUBLISHED_AT": "2017-05-18T14:00:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Mars 2020: Nasa's Next Mission To Mars"
+    },
+    "ihv4f7VMeJw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "183 - Veritasium - The Truth About Toilet Swirl - Southern Hemisphere",
+        "FORMAT": "mkv",
+        "NUMBER": 183,
+        "PUBLISHED_AT": "2015-06-03T15:00:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Truth About Toilet Swirl - Southern Hemisphere"
+    },
+    "iphcyNWFD10": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "214 - Veritasium - The Absurdity of Detecting Gravitational Waves",
+        "FORMAT": "mkv",
+        "NUMBER": 214,
+        "PUBLISHED_AT": "2017-01-05T15:00:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Absurdity of Detecting Gravitational Waves"
+    },
+    "j5v8D-alAKE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "307 - Veritasium - This is why we can't have nice things",
+        "FORMAT": "mkv",
+        "NUMBER": 307,
+        "PUBLISHED_AT": "2021-03-26T17:01:54Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "This is why we can't have nice things"
+    },
+    "jIMihpDmBpY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "163 - Veritasium - Explained_ 5 Fun Physics Phenomena",
+        "FORMAT": "mkv",
+        "NUMBER": 163,
+        "PUBLISHED_AT": "2014-08-13T14:30:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Explained: 5 Fun Physics Phenomena"
+    },
+    "jn5M48MVWyg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "292 - Veritasium - Is Dust Mostly Dead Skin_",
+        "FORMAT": "mkv",
+        "NUMBER": 292,
+        "PUBLISHED_AT": "2020-08-18T12:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Is Dust Mostly Dead Skin?"
+    },
+    "jyQwgBAaBag": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "312 - Veritasium - Risking My Life To Settle A Physics Debate",
+        "FORMAT": "mkv",
+        "NUMBER": 312,
+        "PUBLISHED_AT": "2021-05-29T16:14:37Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Risking My Life To Settle A Physics Debate"
+    },
+    "k5s1cMNTmGs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "316 - Veritasium - How a slinky falls in slow motion #shorts",
+        "FORMAT": "mkv",
+        "NUMBER": 316,
+        "PUBLISHED_AT": "2021-07-19T20:48:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How a slinky falls in slow motion #shorts"
+    },
+    "kTXTPe3wahc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "288 - Veritasium - Parallel Worlds Probably Exist. Here\u2019s Why",
+        "FORMAT": "mkv",
+        "NUMBER": 288,
+        "PUBLISHED_AT": "2020-03-06T17:40:33.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Parallel Worlds Probably Exist. Here\u2019s Why"
+    },
+    "knDIENvBTgw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "188 - Veritasium - How to Launch a Nuclear Missile",
+        "FORMAT": "mkv",
+        "NUMBER": 188,
+        "PUBLISHED_AT": "2015-07-27T15:00:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Launch a Nuclear Missile"
+    },
+    "knwiWm4DpvQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "90 - Veritasium - What Causes The Northern Lights_",
+        "FORMAT": "mkv",
+        "NUMBER": 90,
+        "PUBLISHED_AT": "2012-04-23T12:18:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Causes The Northern Lights?"
+    },
+    "kvARvzMErnk": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "229 - Veritasium - Sandwich Bag Fire Starter",
+        "FORMAT": "mkv",
+        "NUMBER": 229,
+        "PUBLISHED_AT": "2017-06-08T11:00:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sandwich Bag Fire Starter"
+    },
+    "kz165f1g8-E": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "319 - Veritasium - The Genius of 3D Printed Rockets",
+        "FORMAT": "mkv",
+        "NUMBER": 319,
+        "PUBLISHED_AT": "2021-08-12T15:23:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Genius of 3D Printed Rockets"
+    },
+    "lL2e0rWvjKI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "82 - Veritasium - Are You Lightest In The Morning_",
+        "FORMAT": "mkv",
+        "NUMBER": 82,
+        "PUBLISHED_AT": "2012-02-12T03:52:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Are You Lightest In The Morning?"
+    },
+    "lRbI_vPyOnc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "23 - Veritasium - Experiments A Cappella",
+        "FORMAT": "mkv",
+        "NUMBER": 23,
+        "PUBLISHED_AT": "2011-03-14T13:56:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Experiments A Cappella"
+    },
+    "lYc7kHXW0xg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "36 - Veritasium - Veritasium Bungee Jumps!",
+        "FORMAT": "mkv",
+        "NUMBER": 36,
+        "PUBLISHED_AT": "2011-05-19T05:42:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Veritasium Bungee Jumps!"
+    },
+    "liqF6EamiE4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "44 - Veritasium - Can You Solve This Shadow Illusion_",
+        "FORMAT": "mkv",
+        "NUMBER": 44,
+        "PUBLISHED_AT": "2011-06-13T22:30:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Can You Solve This Shadow Illusion?"
+    },
+    "ljoeOLuX6Z4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "297 - Veritasium - The Supernova That Measured The Universe",
+        "FORMAT": "mkv",
+        "NUMBER": 297,
+        "PUBLISHED_AT": "2020-10-20T19:29:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How One Supernova Measured The Universe"
+    },
+    "ljvX-RMv_lw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "102 - Veritasium - Atomic Bonding Song",
+        "FORMAT": "mkv",
+        "NUMBER": 102,
+        "PUBLISHED_AT": "2012-07-13T23:26:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Atomic Bonding Song"
+    },
+    "lotbZQ55SgU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "168 - Veritasium - How Were the Pyramids Built_",
+        "FORMAT": "mkv",
+        "NUMBER": 168,
+        "PUBLISHED_AT": "2014-11-05T15:00:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Were the Pyramids Built?"
+    },
+    "m85qDk849_o": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "290 - Veritasium - The Launch of Perseverance",
+        "FORMAT": "mkv",
+        "NUMBER": 290,
+        "PUBLISHED_AT": "2020-07-30T16:19:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Launch of Perseverance to Mars"
+    },
+    "m8IGMFr62-Q": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "79 - Veritasium - Koala Encounters",
+        "FORMAT": "mkv",
+        "NUMBER": 79,
+        "PUBLISHED_AT": "2012-01-15T03:55:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Koala Encounters"
+    },
+    "mAA613hqqZ0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "95 - Veritasium - How Does A Slinky Fall_",
+        "FORMAT": "mkv",
+        "NUMBER": 95,
+        "PUBLISHED_AT": "2012-05-27T13:50:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does A Slinky Fall?"
+    },
+    "mNHp8iyyIjo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "231 - Veritasium - Hydrodynamic Levitation!",
+        "FORMAT": "mkv",
+        "NUMBER": 231,
+        "PUBLISHED_AT": "2017-06-26T14:00:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hydrodynamic Levitation!"
+    },
+    "mUxt--mMjwA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "189 - Veritasium - Evolutionarily Stable Strategies ft. Richard Dawkins",
+        "FORMAT": "mkv",
+        "NUMBER": 189,
+        "PUBLISHED_AT": "2015-07-30T15:00:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Evolutionarily Stable Strategies ft. Richard Dawkins"
+    },
+    "mXVGIb3bzHI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "150 - Veritasium - Can Silence Actually Drive You Crazy_",
+        "FORMAT": "mkv",
+        "NUMBER": 150,
+        "PUBLISHED_AT": "2014-02-18T14:30:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Can Silence Actually Drive You Crazy?"
+    },
+    "mXaad0rsV38": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "219 - Veritasium - Does Water Swirl the Other Way in the Southern Hemisphere_",
+        "FORMAT": "mkv",
+        "NUMBER": 219,
+        "PUBLISHED_AT": "2017-03-20T12:30:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Does Water Swirl the Other Way in the Southern Hemisphere?"
+    },
+    "mezkHBPLZ4A": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "16 - Veritasium - What Is Gravity_",
+        "FORMAT": "mkv",
+        "NUMBER": 16,
+        "PUBLISHED_AT": "2011-02-22T14:02:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Is Gravity?"
+    },
+    "myh94hpFmJY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "123 - Veritasium - Why Do Venomous Animals Live In Warm Climates_",
+        "FORMAT": "mkv",
+        "NUMBER": 123,
+        "PUBLISHED_AT": "2013-02-06T13:30:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Do Venomous Animals Live In Warm Climates?"
+    },
+    "oBdalzRJR5g": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "19 - Veritasium - Which Hits The Ground First_",
+        "FORMAT": "mkv",
+        "NUMBER": 19,
+        "PUBLISHED_AT": "2011-03-01T17:05:21.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Which Hits The Ground First?"
+    },
+    "oKb2tCtpvNU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "63 - Veritasium - Slinky Drop Extended",
+        "FORMAT": "mkv",
+        "NUMBER": 63,
+        "PUBLISHED_AT": "2011-09-22T02:57:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Slinky Drop Extended"
+    },
+    "oLyfBhi3xj4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "101 - Veritasium - Free Higgs!",
+        "FORMAT": "mkv",
+        "NUMBER": 101,
+        "PUBLISHED_AT": "2012-07-05T11:33:24.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Free Higgs!"
+    },
+    "oPerfpxYJ1U": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "119 - Veritasium - Paralysed Rats Made To Walk Again",
+        "FORMAT": "mkv",
+        "NUMBER": 119,
+        "PUBLISHED_AT": "2012-12-04T13:30:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Paralysed Rats Made To Walk Again"
+    },
+    "oVfHeWTKjag": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "149 - Veritasium - Facebook Fraud",
+        "FORMAT": "mkv",
+        "NUMBER": 149,
+        "PUBLISHED_AT": "2014-02-10T14:30:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Facebook Fraud"
+    },
+    "og1CzUmnSlE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "97 - Veritasium - Transit of Venus! Sydney 2012 Contacts, Contracts and Parallax",
+        "FORMAT": "mkv",
+        "NUMBER": 97,
+        "PUBLISHED_AT": "2012-06-06T12:01:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Transit of Venus! Sydney 2012 Contacts, Contracts and Parallax"
+    },
+    "ovJcsL7vyrk": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "287 - Veritasium - This equation will change how you see the world",
+        "FORMAT": "mkv",
+        "NUMBER": 287,
+        "PUBLISHED_AT": "2020-01-29T19:35:46.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "This equation will change how you see the world (the logistic map)"
+    },
+    "p3b9pK-O6cE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "61 - Veritasium - Imploding Drum",
+        "FORMAT": "mkv",
+        "NUMBER": 61,
+        "PUBLISHED_AT": "2011-09-07T03:53:24.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Imploding Drum"
+    },
+    "pCON4zfMzjU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "216 - Veritasium - Electromagnetic Levitation Quadcopter",
+        "FORMAT": "mkv",
+        "NUMBER": 216,
+        "PUBLISHED_AT": "2017-01-30T16:00:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Electromagnetic Levitation Quadcopter"
+    },
+    "pTn6Ewhb27k": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "299 - Veritasium - Why no one has measured the speed of light",
+        "FORMAT": "mkv",
+        "NUMBER": 299,
+        "PUBLISHED_AT": "2020-10-31T12:00:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why No One Has Measured The Speed Of Light"
+    },
+    "pe83T9hISoY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "279 - Veritasium - Does Planet 9 Exist_",
+        "FORMAT": "mkv",
+        "NUMBER": 279,
+        "PUBLISHED_AT": "2019-09-13T14:07:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Does Planet 9 Exist?"
+    },
+    "ph8xusY3GTM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "26 - Veritasium - Supercooled Water - Explained!",
+        "FORMAT": "mkv",
+        "NUMBER": 26,
+        "PUBLISHED_AT": "2011-03-23T03:23:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Supercooled Water - Explained!"
+    },
+    "q3kSW633bsk": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "266 - Veritasium - $250,000 for a High School Science Student",
+        "FORMAT": "mkv",
+        "NUMBER": 266,
+        "PUBLISHED_AT": "2019-04-19T14:00:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Three Awesome High School Science Projects"
+    },
+    "qQCVnjGUv24": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "53 - Veritasium - Ice Cutting Experiment",
+        "FORMAT": "mkv",
+        "NUMBER": 53,
+        "PUBLISHED_AT": "2011-08-21T05:54:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ice Cutting Experiment"
+    },
+    "qQhUxd82Rr0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "254 - Veritasium - How Ultrasound Can Deactivate Parts of the Brain",
+        "FORMAT": "mkv",
+        "NUMBER": 254,
+        "PUBLISHED_AT": "2018-12-10T15:00:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Ultrasound Can Deactivate Parts of the Brain"
+    },
+    "qevIIQHrJZg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "309 - Veritasium - This Unstoppable Robot Could Save Your Life",
+        "FORMAT": "mkv",
+        "NUMBER": 309,
+        "PUBLISHED_AT": "2021-04-16T14:11:43Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "This Unstoppable Robot Could Save Your Life"
+    },
+    "qiiFMRYUEQM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "109 - Veritasium - How Can Trees Be Taller Than 10m_",
+        "FORMAT": "mkv",
+        "NUMBER": 109,
+        "PUBLISHED_AT": "2012-09-03T14:00:30.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Can Trees Be Taller Than 10m?"
+    },
+    "qnOoDE9rj6w": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "278 - Veritasium - Not-a-Flamethrower vs Aerogel",
+        "FORMAT": "mkv",
+        "NUMBER": 278,
+        "PUBLISHED_AT": "2019-08-31T15:00:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Flamethrower vs Aerogel"
+    },
+    "rAYW9n8i-C4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "243 - Veritasium - Spinning Sphere of Molten Sodium",
+        "FORMAT": "mkv",
+        "NUMBER": 243,
+        "PUBLISHED_AT": "2018-07-14T13:00:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Spinning Sphere of Molten Sodium"
+    },
+    "rM04U5BO3Ug": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "111 - Veritasium - Making SOLID Nitrogen!",
+        "FORMAT": "mkv",
+        "NUMBER": 111,
+        "PUBLISHED_AT": "2012-09-24T22:03:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Making SOLID Nitrogen!"
+    },
+    "rhgwIhB58PA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "315 - Veritasium - The Biggest Myth In Education",
+        "FORMAT": "mkv",
+        "NUMBER": 315,
+        "PUBLISHED_AT": "2021-07-09T14:27:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Biggest Myth In Education"
+    },
+    "rjDX5ItsOnQ": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "263 - Veritasium - How Was Video Invented_",
+        "FORMAT": "mkv",
+        "NUMBER": 263,
+        "PUBLISHED_AT": "2019-03-29T17:13:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Was Video Invented?"
+    },
+    "rjht4oAByCI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "203 - Veritasium - Celsius Didn't Invent Celsius",
+        "FORMAT": "mkv",
+        "NUMBER": 203,
+        "PUBLISHED_AT": "2016-06-14T14:00:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The First Celsius Thermometer"
+    },
+    "rmI_9Hty-Lw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "28 - Veritasium - What Powers Australia_",
+        "FORMAT": "mkv",
+        "NUMBER": 28,
+        "PUBLISHED_AT": "2011-03-28T06:09:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What Powers Australia?"
+    },
+    "ro2MmmdARrs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "133 - Veritasium - Why the Sky ISN'T Blue",
+        "FORMAT": "mkv",
+        "NUMBER": 133,
+        "PUBLISHED_AT": "2013-05-28T19:25:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why the Sky ISN'T Blue"
+    },
+    "rv4MjaF_wow": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "167 - Veritasium - Sparks from Falling Water_ Kelvin's Thunderstorm",
+        "FORMAT": "mkv",
+        "NUMBER": 167,
+        "PUBLISHED_AT": "2014-10-23T14:30:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sparks from Falling Water: Kelvin's Thunderstorm"
+    },
+    "s7MTM4BKZ_E": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "199 - Veritasium - Why Anecdotes Trump Data",
+        "FORMAT": "mkv",
+        "NUMBER": 199,
+        "PUBLISHED_AT": "2016-03-23T14:30:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Anecdotes Trump Data"
+    },
+    "sMb00lz-IfE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "161 - Veritasium - What is NOT Random_",
+        "FORMAT": "mkv",
+        "NUMBER": 161,
+        "PUBLISHED_AT": "2014-07-16T16:34:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What is NOT Random?"
+    },
+    "sWu9CyDwuFs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "139 - Veritasium - Slow-Mo Non-Newtonian Fluid on a Speaker",
+        "FORMAT": "mkv",
+        "NUMBER": 139,
+        "PUBLISHED_AT": "2013-08-06T06:16:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Slow-Mo Non-Newtonian Fluid on a Speaker"
+    },
+    "sehKAccM8p0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "30 - Veritasium - Radiation vs Radioactive Atoms",
+        "FORMAT": "mkv",
+        "NUMBER": 30,
+        "PUBLISHED_AT": "2011-04-09T14:18:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Radiation vs Radioactive Atoms"
+    },
+    "stRPiifxQnM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "179 - Veritasium - Explained_ Beaker Ball Balance Problem",
+        "FORMAT": "mkv",
+        "NUMBER": 179,
+        "PUBLISHED_AT": "2015-04-17T14:28:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Explained: Beaker Ball Balance Problem"
+    },
+    "t-3jnOIJg4k": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "80 - Veritasium - The Science of Curveballs",
+        "FORMAT": "mkv",
+        "NUMBER": 80,
+        "PUBLISHED_AT": "2012-01-25T02:21:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Science of Curveballs"
+    },
+    "t-_VPRCtiUg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "308 - Veritasium - The Secret of Synchronization",
+        "FORMAT": "mkv",
+        "NUMBER": 308,
+        "PUBLISHED_AT": "2021-03-31T13:29:46Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Secret of Synchronization"
+    },
+    "tDr26U49_VA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "96 - Veritasium - Spinning Disk Trick Solution",
+        "FORMAT": "mkv",
+        "NUMBER": 96,
+        "PUBLISHED_AT": "2012-06-05T06:28:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Spinning Disk Trick Solution"
+    },
+    "tLMpdBjA2SU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "153 - Veritasium - Anti-Gravity Wheel Explained",
+        "FORMAT": "mkv",
+        "NUMBER": 153,
+        "PUBLISHED_AT": "2014-03-19T19:53:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Anti-Gravity Wheel Explained"
+    },
+    "tYmMtSWPQEI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "32 - Veritasium - Types of Radiation",
+        "FORMAT": "mkv",
+        "NUMBER": 32,
+        "PUBLISHED_AT": "2011-04-29T11:54:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Types of Radiation"
+    },
+    "txmKr69jGBk": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "113 - Veritasium - Levitating Barbecue! Electromagnetic Induction",
+        "FORMAT": "mkv",
+        "NUMBER": 113,
+        "PUBLISHED_AT": "2012-10-09T15:57:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Levitating Barbecue! Electromagnetic Induction"
+    },
+    "ty9QSiVC2g0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "94 - Veritasium - Gyroscopic Precession",
+        "FORMAT": "mkv",
+        "NUMBER": 94,
+        "PUBLISHED_AT": "2012-05-23T06:15:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gyroscopic Precession"
+    },
+    "u3FB2SuKFfI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "253 - Veritasium - Five Firsts for Mars InSight",
+        "FORMAT": "mkv",
+        "NUMBER": 253,
+        "PUBLISHED_AT": "2018-11-26T08:48:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Five Firsts for Mars InSight"
+    },
+    "u7KpH9_I2Dw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "11 - Veritasium - Gravity (Scientific Version of John Mayer's Gravity)",
+        "FORMAT": "mkv",
+        "NUMBER": 11,
+        "PUBLISHED_AT": "2011-02-13T03:01:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gravity (Scientific Version of John Mayer's Gravity)"
+    },
+    "uWEp_4fHX4Y": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "117 - Veritasium - Corn Flour Fireball",
+        "FORMAT": "mkv",
+        "NUMBER": 117,
+        "PUBLISHED_AT": "2012-11-18T15:00:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Corn Flour Fireball"
+    },
+    "uiyMuHuCFo4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "98 - Veritasium - Does a Falling Slinky Defy Gravity_",
+        "FORMAT": "mkv",
+        "NUMBER": 98,
+        "PUBLISHED_AT": "2012-06-13T14:54:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Does a Falling Slinky Defy Gravity?"
+    },
+    "uxPdPpi5W4o": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "268 - Veritasium - Why Are 96,000,000 Black Balls on This Reservoir_",
+        "FORMAT": "mkv",
+        "NUMBER": 268,
+        "PUBLISHED_AT": "2019-05-10T19:59:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Are 96,000,000 Black Balls on This Reservoir?"
+    },
+    "vBX-KulgJ1o": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "171 - Veritasium - Would You Take This Bet_",
+        "FORMAT": "mkv",
+        "NUMBER": 171,
+        "PUBLISHED_AT": "2015-01-05T16:00:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Would You Take This Bet?"
+    },
+    "vKA4w2O61Xo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "151 - Veritasium - Can You Solve This_",
+        "FORMAT": "mkv",
+        "NUMBER": 151,
+        "PUBLISHED_AT": "2014-02-24T14:30:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Most Common Cognitive Bias"
+    },
+    "vKsof8ax_Ns": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "41 - Veritasium - Option D - Acceleration of a Bungy Jump",
+        "FORMAT": "mkv",
+        "NUMBER": 41,
+        "PUBLISHED_AT": "2011-05-25T09:19:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Option D - Acceleration of a Bungy Jump"
+    },
+    "vVKFBaaL4uM": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "71 - Veritasium - Can You Go the Speed of Light_",
+        "FORMAT": "mkv",
+        "NUMBER": 71,
+        "PUBLISHED_AT": "2011-11-01T20:05:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Can You Go the Speed of Light?"
+    },
+    "vWVZ6APXM4w": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "140 - Veritasium - Bullet Block Experiment",
+        "FORMAT": "mkv",
+        "NUMBER": 140,
+        "PUBLISHED_AT": "2013-08-20T13:00:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bullet Block Experiment"
+    },
+    "vqDbMEdLiCs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "108 - Veritasium - Misconceptions About Temperature",
+        "FORMAT": "mkv",
+        "NUMBER": 108,
+        "PUBLISHED_AT": "2012-08-24T11:38:39.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Misconceptions About Temperature"
+    },
+    "w4sLAQvEH-M": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "313 - Veritasium - The Longest-Running Evolution Experiment",
+        "FORMAT": "mkv",
+        "NUMBER": 313,
+        "PUBLISHED_AT": "2021-06-16T15:36:29Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Longest-Running Evolution Experiment"
+    },
+    "wCrtk-pyP0I": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "259 - Veritasium - How Microwaving Grapes Makes Plasma",
+        "FORMAT": "mkv",
+        "NUMBER": 259,
+        "PUBLISHED_AT": "2019-02-18T20:00:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Microwaving Grapes Makes Plasma"
+    },
+    "wGIZKETKKdw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "65 - Veritasium - Slinky Drop",
+        "FORMAT": "mkv",
+        "NUMBER": 65,
+        "PUBLISHED_AT": "2011-09-22T06:40:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Slinky Drop"
+    },
+    "wQTVcaA3PQw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "83 - Veritasium - Spinning Tube Trick",
+        "FORMAT": "mkv",
+        "NUMBER": 83,
+        "PUBLISHED_AT": "2012-02-23T00:02:27.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Spinning Tube Trick"
+    },
+    "wQmnztyXwVA": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "27 - Veritasium - How Damaging is Radiation_",
+        "FORMAT": "mkv",
+        "NUMBER": 27,
+        "PUBLISHED_AT": "2011-03-25T21:23:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Damaging is Radiation?"
+    },
+    "wU5XkhUGzBs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "173 - Veritasium - Do Cell Phones Cause Brain Tumors_",
+        "FORMAT": "mkv",
+        "NUMBER": 173,
+        "PUBLISHED_AT": "2015-02-03T16:53:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Do Cell Phones Cause Brain Tumors?"
+    },
+    "wzH_8TZ6oGI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "42 - Veritasium - Option E - Acceleration of a Bungy Jump",
+        "FORMAT": "mkv",
+        "NUMBER": 42,
+        "PUBLISHED_AT": "2011-05-25T09:21:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Option E - Acceleration of a Bungy Jump"
+    },
+    "x4I9mmd-2Rc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "122 - Veritasium - How To Make Colour With Holes",
+        "FORMAT": "mkv",
+        "NUMBER": 122,
+        "PUBLISHED_AT": "2013-01-21T21:14:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How To Make Colour With Holes"
+    },
+    "xdJwG_9kF8s": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "224 - Veritasium - Fire in ZERO-G!!",
+        "FORMAT": "mkv",
+        "NUMBER": 224,
+        "PUBLISHED_AT": "2017-05-03T15:00:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fire in ZERO-G!!"
+    },
+    "xmYss_hNF4Q": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "129 - Veritasium - Epic Slow-Mo Drum Implosions!",
+        "FORMAT": "mkv",
+        "NUMBER": 129,
+        "PUBLISHED_AT": "2013-04-11T14:00:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Epic Slow-Mo Drum Implosions!"
+    },
+    "y9c8oZ49pFc": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "193 - Veritasium - The Brightest Part of a Shadow is in the Middle",
+        "FORMAT": "mkv",
+        "NUMBER": 193,
+        "PUBLISHED_AT": "2015-10-14T19:00:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Brightest Part of a Shadow is in the Middle"
+    },
+    "yArprk0q9eE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "238 - Veritasium - This Particle Breaks Time Symmetry",
+        "FORMAT": "mkv",
+        "NUMBER": 238,
+        "PUBLISHED_AT": "2017-12-12T15:00:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "This Particle Breaks Time Symmetry"
+    },
+    "yCsgoLc_fzI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "314 - Veritasium - A Physics Prof Bet Me $10,000 I'm Wrong",
+        "FORMAT": "mkv",
+        "NUMBER": 314,
+        "PUBLISHED_AT": "2021-06-30T18:31:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "A Physics Prof Bet Me $10,000 I'm Wrong"
+    },
+    "yjztvddhZmI": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "317 - Veritasium - Why You Should Want Driverless Cars On Roads Now",
+        "FORMAT": "mkv",
+        "NUMBER": 317,
+        "PUBLISHED_AT": "2021-07-23T13:45:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why You Should Want Driverless Cars On Roads Now"
+    },
+    "zN6kCa6xi9k": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "15 - Veritasium - Why Does the Moon Orbit Earth_",
+        "FORMAT": "mkv",
+        "NUMBER": 15,
+        "PUBLISHED_AT": "2011-02-22T01:57:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Does the Moon Orbit Earth?"
+    },
+    "zNzzGgr2mhk": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "138 - Veritasium - How To Make a Quantum Bit",
+        "FORMAT": "mkv",
+        "NUMBER": 138,
+        "PUBLISHED_AT": "2013-07-23T15:16:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How To Make a Quantum Bit"
+    },
+    "zUDqI9PJpc8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "160 - Veritasium - How Much Information_",
+        "FORMAT": "mkv",
+        "NUMBER": 160,
+        "PUBLISHED_AT": "2014-07-03T14:30:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Much Information?"
+    },
+    "zUyH3XhpLTo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "264 - Veritasium - How to Understand the Black Hole Image",
+        "FORMAT": "mkv",
+        "NUMBER": 264,
+        "PUBLISHED_AT": "2019-04-09T13:00:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How to Understand the Black Hole Image"
+    },
+    "zuMjnP1YbPw": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "35 - Veritasium - Where Did The Earth Come From_",
+        "FORMAT": "mkv",
+        "NUMBER": 35,
+        "PUBLISHED_AT": "2011-05-12T23:10:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Where Did The Earth Come From?"
+    }
+}

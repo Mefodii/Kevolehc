@@ -1,0 +1,1534 @@
+{
+    "-IZOSiPzzbI": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "76 - Konectt - Glen Porter - Donna",
+        "FORMAT": "mp3",
+        "NUMBER": 76,
+        "PUBLISHED_AT": "2011-10-25T13:49:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Glen Porter - Donna"
+    },
+    "-KDCpsu5PF4": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "27 - Konectt - Bonobo - Noctuary",
+        "FORMAT": "mp3",
+        "NUMBER": 27,
+        "PUBLISHED_AT": "2011-07-10T15:03:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Noctuary"
+    },
+    "-O7KQhZcEBk": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "124 - Konectt - The Broken Orchestra - Shibui",
+        "FORMAT": "mp3",
+        "NUMBER": 124,
+        "PUBLISHED_AT": "2012-11-23T15:18:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Broken Orchestra - Shibui"
+    },
+    "-lReZpfIiV4": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "143 - Konectt - Artifakts - Growing",
+        "FORMAT": "mp3",
+        "NUMBER": 143,
+        "PUBLISHED_AT": "2014-01-16T19:15:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Artifakts - Growing"
+    },
+    "-tRJ5m-dYQo": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "24 - Konectt - Thievery Corporation - Until the Morning",
+        "FORMAT": "mp3",
+        "NUMBER": 24,
+        "PUBLISHED_AT": "2011-06-18T16:45:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Thievery Corporation - Until the Morning"
+    },
+    "0FqqZvZ9sFU": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "95 - Konectt - Bonobo - Recurring",
+        "FORMAT": "mp3",
+        "NUMBER": 95,
+        "PUBLISHED_AT": "2011-12-24T13:06:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Recurring"
+    },
+    "0HnhGiR6lts": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "16 - Konectt - R\u00f6yksopp - So Easy",
+        "FORMAT": "mp3",
+        "NUMBER": 16,
+        "PUBLISHED_AT": "2011-05-29T16:00:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "R\u00f6yksopp - So Easy"
+    },
+    "0bwlc6pNtDM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "42 - Konectt - Bonobo - Silver",
+        "FORMAT": "mp3",
+        "NUMBER": 42,
+        "PUBLISHED_AT": "2011-09-16T20:46:44.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Silver"
+    },
+    "0rPPqgWF30o": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "159 - Konectt - Feverkin - Dance With Knives",
+        "FORMAT": "mp3",
+        "NUMBER": 159,
+        "PUBLISHED_AT": "2016-04-28T11:56:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Feverkin - Dance With Knives"
+    },
+    "17hm_EXlooI": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "29 - Konectt - Caribou - Odessa",
+        "FORMAT": "mp3",
+        "NUMBER": 29,
+        "PUBLISHED_AT": "2011-07-24T11:49:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Caribou - Odessa"
+    },
+    "1AhWVqHwnVU": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "145 - Konectt - Aleos - Tranquil",
+        "FORMAT": "mp3",
+        "NUMBER": 145,
+        "PUBLISHED_AT": "2014-01-31T21:10:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Aleos - Tranquil"
+    },
+    "1HfO-wNVhKM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "68 - Konectt - Bonobo - Magicman",
+        "FORMAT": "mp3",
+        "NUMBER": 68,
+        "PUBLISHED_AT": "2011-10-19T21:06:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Magicman"
+    },
+    "1_GbPWf-Cus": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "77 - Konectt - Guts - Nightmare Of Paris",
+        "FORMAT": "mp3",
+        "NUMBER": 77,
+        "PUBLISHED_AT": "2011-10-26T21:26:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Guts - Nightmare Of Paris"
+    },
+    "1c-TA_aylM0": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "32 - Konectt - The Wiseguys - Too Easy",
+        "FORMAT": "mp3",
+        "NUMBER": 32,
+        "PUBLISHED_AT": "2011-08-13T18:27:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Wiseguys - Too Easy"
+    },
+    "1sXBtYOiZO4": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "26 - Konectt - Gorillaz - New Genious (Brother)",
+        "FORMAT": "mp3",
+        "NUMBER": 26,
+        "PUBLISHED_AT": "2011-07-02T13:08:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gorillaz - New Genious (Brother)"
+    },
+    "331CzgXzR3Q": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "162 - Konectt - Feverkin - Overthought",
+        "FORMAT": "mp3",
+        "NUMBER": 162,
+        "PUBLISHED_AT": "2016-06-02T16:16:03.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Feverkin - Overthought"
+    },
+    "5IklGaUlwkE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "105 - Konectt - Fred Yaddaden - Derniere Danse",
+        "FORMAT": "mp3",
+        "NUMBER": 105,
+        "PUBLISHED_AT": "2012-02-04T16:27:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fred Yaddaden - Derniere Danse"
+    },
+    "5SUDVNrsLvw": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "78 - Konectt - Berry Weight - Equations feat. Astrid Engberg",
+        "FORMAT": "mp3",
+        "NUMBER": 78,
+        "PUBLISHED_AT": "2011-10-27T14:29:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Berry Weight - Equations feat. Astrid Engberg"
+    },
+    "62TQG5m6gkE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "45 - Konectt - Nujabes - Horizon",
+        "FORMAT": "mp3",
+        "NUMBER": 45,
+        "PUBLISHED_AT": "2011-09-29T09:20:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nujabes - Horizon"
+    },
+    "64TAqRQSANc": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "0 - Konectt - Amon Tobin - Easy Muffin",
+        "FORMAT": "mp3",
+        "NUMBER": 0,
+        "PUBLISHED_AT": "2012-01-18T13:30:10.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "UNABLE",
+        "TITLE": "Amon Tobin - Easy Muffin"
+    },
+    "69QHeYl3YgE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "13 - Konectt - R\u00f6yksopp - Senior Living",
+        "FORMAT": "mp3",
+        "NUMBER": 13,
+        "PUBLISHED_AT": "2011-05-29T15:54:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "R\u00f6yksopp - Senior Living"
+    },
+    "6OVau3FNi7A": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "81 - Konectt - Aether - Makeshift Sanctuary",
+        "FORMAT": "mp3",
+        "NUMBER": 81,
+        "PUBLISHED_AT": "2011-11-03T15:44:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Aether - Makeshift Sanctuary"
+    },
+    "6SpI1EN-Lb8": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "72 - Konectt - Dday One - Heiwa",
+        "FORMAT": "mp3",
+        "NUMBER": 72,
+        "PUBLISHED_AT": "2011-10-21T14:45:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dday One - Heiwa"
+    },
+    "7cpg7hz66XQ": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "106 - Konectt - Fred Yaddaden - Golden Omen",
+        "FORMAT": "mp3",
+        "NUMBER": 106,
+        "PUBLISHED_AT": "2012-02-04T16:32:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fred Yaddaden - Golden Omen"
+    },
+    "7dKlmZlZB5Y": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "23 - Konectt - Gorillaz - On Melancholy Hill",
+        "FORMAT": "mp3",
+        "NUMBER": 23,
+        "PUBLISHED_AT": "2011-06-18T16:18:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gorillaz - On Melancholy Hill"
+    },
+    "7gCFCWknCO8": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "62 - Konectt - Mr. Cooper - Two",
+        "FORMAT": "mp3",
+        "NUMBER": 62,
+        "PUBLISHED_AT": "2011-10-17T17:31:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Mr. Cooper - Two"
+    },
+    "7iuflbAzuwM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "167 - Konectt - melomaneo - joalier",
+        "FORMAT": "mp3",
+        "NUMBER": 167,
+        "PUBLISHED_AT": "2018-08-26T16:11:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "melomaneo - joalier"
+    },
+    "7xZM4QqPgb8": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "132 - Konectt - Giyo - Parisian Girl",
+        "FORMAT": "mp3",
+        "NUMBER": 132,
+        "PUBLISHED_AT": "2013-08-30T16:36:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Giyo - Parisian Girl"
+    },
+    "8iPX-nt2ODA": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "51 - Konectt - Nujabes - Aruarian Dance",
+        "FORMAT": "mp3",
+        "NUMBER": 51,
+        "PUBLISHED_AT": "2011-10-02T21:12:48.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nujabes - Aruarian Dance"
+    },
+    "93VGTYqqRJw": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "115 - Konectt - Bonobo - All In Forms",
+        "FORMAT": "mp3",
+        "NUMBER": 115,
+        "PUBLISHED_AT": "2012-03-09T14:13:59.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - All In Forms"
+    },
+    "A-fKGQLZVwk": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "113 - Konectt - Frameworks - Midnight And Everything After",
+        "FORMAT": "mp3",
+        "NUMBER": 113,
+        "PUBLISHED_AT": "2012-03-05T15:14:52.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Frameworks - Midnight And Everything After"
+    },
+    "ARXj73hQ1TU": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "109 - Konectt - Quantic - Time Is The Enemy",
+        "FORMAT": "mp3",
+        "NUMBER": 109,
+        "PUBLISHED_AT": "2012-02-05T16:00:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Quantic - Time Is The Enemy"
+    },
+    "AYRkgmXetrg": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "43 - Konectt - Emancipator - All Through The Night",
+        "FORMAT": "mp3",
+        "NUMBER": 43,
+        "PUBLISHED_AT": "2011-09-16T20:56:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Emancipator - All Through The Night"
+    },
+    "AbRBnL8pPEA": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "0 - Konectt - Nightmares On Wax - Flip Ya Lid",
+        "FORMAT": "mp3",
+        "NUMBER": 0,
+        "PUBLISHED_AT": "2011-10-12T16:07:10.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "UNABLE",
+        "TITLE": "Nightmares On Wax - Flip Ya Lid"
+    },
+    "AqXUaBFIZ6s": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "80 - Konectt - Bonobo - Wayward Bob",
+        "FORMAT": "mp3",
+        "NUMBER": 80,
+        "PUBLISHED_AT": "2011-10-29T15:48:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Wayward Bob"
+    },
+    "AtWa0knNnlY": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "38 - Konectt - Ohmega Watts - Adaptacao (Instrumental)",
+        "FORMAT": "mp3",
+        "NUMBER": 38,
+        "PUBLISHED_AT": "2011-09-05T12:10:45.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ohmega Watts - Adaptacao (Instrumental)"
+    },
+    "B3dDHtq63Fk": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "127 - Konectt - Raycord - Beki",
+        "FORMAT": "mp3",
+        "NUMBER": 127,
+        "PUBLISHED_AT": "2013-03-10T19:18:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Raycord - Beki"
+    },
+    "BQ3j9jm12Qk": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "59 - Konectt - Aether - Beso",
+        "FORMAT": "mp3",
+        "NUMBER": 59,
+        "PUBLISHED_AT": "2011-10-15T13:54:59.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Aether - Beso"
+    },
+    "BVSfROwIRVI": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "0 - Konectt - Sly - Folsom Coffe Music (Chinese Man)",
+        "FORMAT": "mp3",
+        "NUMBER": 0,
+        "PUBLISHED_AT": "2011-10-24T21:40:55.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "UNABLE",
+        "TITLE": "Sly - Folsom Coffe Music (Chinese Man)"
+    },
+    "Bj2HqPAcoCs": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "33 - Konectt - Bonobo - The Plug",
+        "FORMAT": "mp3",
+        "NUMBER": 33,
+        "PUBLISHED_AT": "2011-08-13T19:21:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - The Plug"
+    },
+    "BlbAH8dMdic": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "149 - Konectt - Moderator - Words Remain",
+        "FORMAT": "mp3",
+        "NUMBER": 149,
+        "PUBLISHED_AT": "2014-11-05T19:54:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Moderator - Words Remain"
+    },
+    "BrOjhfTgb84": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "67 - Konectt - Amon Tobin - Untitled feat. Kid Koala",
+        "FORMAT": "mp3",
+        "NUMBER": 67,
+        "PUBLISHED_AT": "2011-10-18T13:57:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Amon Tobin - Untitled feat. Kid Koala"
+    },
+    "C2SiFpz7-7o": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "90 - Konectt - Massive Attack - Teardrop",
+        "FORMAT": "mp3",
+        "NUMBER": 90,
+        "PUBLISHED_AT": "2011-11-18T17:34:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Massive Attack - Teardrop"
+    },
+    "CJpk6uN1flQ": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "118 - Konectt - Sapient - Aged Branches",
+        "FORMAT": "mp3",
+        "NUMBER": 118,
+        "PUBLISHED_AT": "2012-03-20T21:55:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sapient - Aged Branches"
+    },
+    "CPOEGfRPR18": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "86 - Konectt - Amon Tobin - Slowly",
+        "FORMAT": "mp3",
+        "NUMBER": 86,
+        "PUBLISHED_AT": "2011-11-08T01:38:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Amon Tobin - Slowly"
+    },
+    "CQGdvRDkfIo": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "141 - Konectt - Fakear - Tilted Days feat Cat's Eyes",
+        "FORMAT": "mp3",
+        "NUMBER": 141,
+        "PUBLISHED_AT": "2013-10-22T16:35:52.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fakear - Tilted Days feat Cat's Eyes"
+    },
+    "D8foj5CUNOM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "41 - Konectt - Ocote Soul Sounds - Contigo Jamas",
+        "FORMAT": "mp3",
+        "NUMBER": 41,
+        "PUBLISHED_AT": "2011-09-16T20:25:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ocote Soul Sounds - Contigo Jamas"
+    },
+    "DL3g0Y2RlcA": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "160 - Konectt - Broke For Free - A Beautiful Life",
+        "FORMAT": "mp3",
+        "NUMBER": 160,
+        "PUBLISHED_AT": "2016-05-15T19:07:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Broke For Free - A Beautiful Life"
+    },
+    "D_Vp56MD_5M": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "150 - Konectt - Arms and Sleepers - Tiger Tempo",
+        "FORMAT": "mp3",
+        "NUMBER": 150,
+        "PUBLISHED_AT": "2015-04-09T18:08:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Arms and Sleepers - Tiger Tempo"
+    },
+    "Dz4aVM8fug0": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "55 - Konectt - Emancipator - Black Lake",
+        "FORMAT": "mp3",
+        "NUMBER": 55,
+        "PUBLISHED_AT": "2011-10-09T13:11:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Emancipator - Black Lake"
+    },
+    "EEViA0WSe9c": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "69 - Konectt - Guts - And The Living Is Easy",
+        "FORMAT": "mp3",
+        "NUMBER": 69,
+        "PUBLISHED_AT": "2011-10-20T15:06:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Guts - And The Living Is Easy"
+    },
+    "EFKB4jo2D68": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "83 - Konectt - Ruckus Roboticus - How to Handle Grown Ups",
+        "FORMAT": "mp3",
+        "NUMBER": 83,
+        "PUBLISHED_AT": "2011-11-06T12:24:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ruckus Roboticus - How to Handle Grown Ups"
+    },
+    "ExvR8P6ZSVs": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "40 - Konectt - Bonobo - Nothing Owed",
+        "FORMAT": "mp3",
+        "NUMBER": 40,
+        "PUBLISHED_AT": "2011-09-05T12:21:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Nothing Owed"
+    },
+    "FU3SsDSjkhA": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "84 - Konectt - Ruckus Roboticus - Everlasting Ghettoblasting Gobstopper",
+        "FORMAT": "mp3",
+        "NUMBER": 84,
+        "PUBLISHED_AT": "2011-11-06T12:26:27.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ruckus Roboticus - Everlasting Ghettoblasting Gobstopper"
+    },
+    "FjABos7ZHyw": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "46 - Konectt - Nujabes - Reflection Eternal",
+        "FORMAT": "mp3",
+        "NUMBER": 46,
+        "PUBLISHED_AT": "2011-09-29T09:20:44.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nujabes - Reflection Eternal"
+    },
+    "Fn23eQCLN6E": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "2 - Konectt - The Wiseguys - Casino _Sans Pareil_",
+        "FORMAT": "mp3",
+        "NUMBER": 2,
+        "PUBLISHED_AT": "2011-05-29T15:14:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Wiseguys - Casino \"Sans Pareil\""
+    },
+    "Fu47_pZz4cI": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "138 - Konectt - King Shi - Feeling Good",
+        "FORMAT": "mp3",
+        "NUMBER": 138,
+        "PUBLISHED_AT": "2013-10-15T21:04:16.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "King Shi - Feeling Good"
+    },
+    "G0fJmtNo_GY": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "169 - Konectt - Rohne - Cerulean",
+        "FORMAT": "mp3",
+        "NUMBER": 169,
+        "PUBLISHED_AT": "2019-05-27T09:27:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rohne - Cerulean"
+    },
+    "GSozAYYSd6A": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "93 - Konectt - Bonobo - On Your Marks",
+        "FORMAT": "mp3",
+        "NUMBER": 93,
+        "PUBLISHED_AT": "2011-12-15T15:45:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - On Your Marks"
+    },
+    "GpFaMVgIOso": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "70 - Konectt - Guts - Good Morning",
+        "FORMAT": "mp3",
+        "NUMBER": 70,
+        "PUBLISHED_AT": "2011-10-20T15:16:39.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Guts - Good Morning"
+    },
+    "H6HBDzSbb6s": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "31 - Konectt - RJD2 - Smoke & Mirrors",
+        "FORMAT": "mp3",
+        "NUMBER": 31,
+        "PUBLISHED_AT": "2011-07-24T12:54:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "RJD2 - Smoke & Mirrors"
+    },
+    "HUgVnn2YbnQ": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "34 - Konectt - Emancipator - Vines",
+        "FORMAT": "mp3",
+        "NUMBER": 34,
+        "PUBLISHED_AT": "2011-08-13T19:30:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Emancipator - Vines"
+    },
+    "Iv8Xj4wR_DE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "139 - Konectt - King Shi - Divine Image",
+        "FORMAT": "mp3",
+        "NUMBER": 139,
+        "PUBLISHED_AT": "2013-10-15T21:14:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "King Shi - Divine Image"
+    },
+    "K8bYQqWJxSg": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "88 - Konectt - Quantic - Westbound Train",
+        "FORMAT": "mp3",
+        "NUMBER": 88,
+        "PUBLISHED_AT": "2011-11-13T19:12:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Quantic - Westbound Train"
+    },
+    "KZBQc2RpaNc": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "165 - Konectt - Los Invasores - El Raton (Peter Edit)",
+        "FORMAT": "mp3",
+        "NUMBER": 165,
+        "PUBLISHED_AT": "2017-05-06T19:57:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Los Invasores - El Raton (Peter Edit)"
+    },
+    "KcMjANFxXwM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "130 - Konectt - Giyo - Dorothy",
+        "FORMAT": "mp3",
+        "NUMBER": 130,
+        "PUBLISHED_AT": "2013-08-30T16:32:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Giyo - Dorothy"
+    },
+    "KuAYyslMVIA": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "48 - Konectt - Bonobo - Sleepy Seven",
+        "FORMAT": "mp3",
+        "NUMBER": 48,
+        "PUBLISHED_AT": "2011-10-02T12:02:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Sleepy Seven"
+    },
+    "L2v0KG-YQ-I": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "15 - Konectt - R\u00f6yksopp - Eple",
+        "FORMAT": "mp3",
+        "NUMBER": 15,
+        "PUBLISHED_AT": "2011-05-29T15:57:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "R\u00f6yksopp - Eple"
+    },
+    "LVykfG0C9uM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "121 - Konectt - The Black Seeds - On the Sun (Part. 2)",
+        "FORMAT": "mp3",
+        "NUMBER": 121,
+        "PUBLISHED_AT": "2012-10-20T09:59:24.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Black Seeds - On the Sun (Part. 2)"
+    },
+    "Ldyt9aG5Y3c": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "19 - Konectt - Caribou - Sun",
+        "FORMAT": "mp3",
+        "NUMBER": 19,
+        "PUBLISHED_AT": "2011-05-30T11:02:21.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Caribou - Sun"
+    },
+    "Ln_buFhk3S0": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "157 - Konectt - Kyrstyn Pixton - Do You Remember (Instrumental)",
+        "FORMAT": "mp3",
+        "NUMBER": 157,
+        "PUBLISHED_AT": "2015-11-02T15:35:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kyrstyn Pixton - Do You Remember (Instrumental)"
+    },
+    "M6I3KQ6iNFY": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "14 - Konectt - R\u00f6yksopp - Forsaken Cowboy",
+        "FORMAT": "mp3",
+        "NUMBER": 14,
+        "PUBLISHED_AT": "2011-05-29T15:56:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "R\u00f6yksopp - Forsaken Cowboy"
+    },
+    "MAg0JmgnFug": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "163 - Konectt - Feverkin - Dream Journal",
+        "FORMAT": "mp3",
+        "NUMBER": 163,
+        "PUBLISHED_AT": "2016-06-02T16:20:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Feverkin - Dream Journal"
+    },
+    "MAr_Gz6hYK8": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "110 - Konectt - Bonobo - Ghost Ship (Version 2012)",
+        "FORMAT": "mp3",
+        "NUMBER": 110,
+        "PUBLISHED_AT": "2012-02-12T13:31:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Ghost Ship (Version 2012)"
+    },
+    "MMHrsunZ3Ak": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "63 - Konectt - TM Juke - Just For A Day (Sunday)",
+        "FORMAT": "mp3",
+        "NUMBER": 63,
+        "PUBLISHED_AT": "2011-10-17T17:33:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TM Juke - Just For A Day (Sunday)"
+    },
+    "N-0i25CNuwo": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "53 - Konectt - Trentem\u00f8ller - Miss You",
+        "FORMAT": "mp3",
+        "NUMBER": 53,
+        "PUBLISHED_AT": "2011-10-08T20:29:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Trentem\u00f8ller - Miss You"
+    },
+    "N5J49_zfytE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "12 - Konectt - Emancipator - Safe in the steep cliffs",
+        "FORMAT": "mp3",
+        "NUMBER": 12,
+        "PUBLISHED_AT": "2011-05-29T15:52:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Emancipator - Safe in the steep cliffs"
+    },
+    "OohB0nZdjaw": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "156 - Konectt - Nym - Sleep",
+        "FORMAT": "mp3",
+        "NUMBER": 156,
+        "PUBLISHED_AT": "2015-10-29T14:18:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nym - Sleep"
+    },
+    "OrdJiywydRQ": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "114 - Konectt - Bonobo - We Could Forever",
+        "FORMAT": "mp3",
+        "NUMBER": 114,
+        "PUBLISHED_AT": "2012-03-09T14:11:35.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - We Could Forever"
+    },
+    "OreYEO6LVr0": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "61 - Konectt - Bonobo - Ghost Ship",
+        "FORMAT": "mp3",
+        "NUMBER": 61,
+        "PUBLISHED_AT": "2011-10-15T15:14:06.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Ghost Ship"
+    },
+    "PDK-ptw4R-w": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "152 - Konectt - Pretty Lights X Nosaj Thing - Ethereal ( R.O remix )",
+        "FORMAT": "mp3",
+        "NUMBER": 152,
+        "PUBLISHED_AT": "2015-06-22T13:35:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Pretty Lights X Nosaj Thing - Ethereal ( R.O remix )"
+    },
+    "PiuWCJ6jALQ": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "36 - Konectt - Emancipator - Nevergreen",
+        "FORMAT": "mp3",
+        "NUMBER": 36,
+        "PUBLISHED_AT": "2011-08-30T11:59:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Emancipator - Nevergreen"
+    },
+    "Qn64d08Ryk8": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "28 - Konectt - The Wiseguys - Nil By Mouth",
+        "FORMAT": "mp3",
+        "NUMBER": 28,
+        "PUBLISHED_AT": "2011-07-23T13:22:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Wiseguys - Nil By Mouth"
+    },
+    "R3HDCfa-btQ": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "56 - Konectt - Bonobo - The Keeper (Instrumental)",
+        "FORMAT": "mp3",
+        "NUMBER": 56,
+        "PUBLISHED_AT": "2011-10-09T13:12:45.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - The Keeper (Instrumental)"
+    },
+    "RBg1dds5WBE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "0 - Konectt - Chinese Man - Jumpin in Havana",
+        "FORMAT": "mp3",
+        "NUMBER": 0,
+        "PUBLISHED_AT": "2011-05-29T15:18:50.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "UNABLE",
+        "TITLE": "Chinese Man - Jumpin in Havana"
+    },
+    "REtoCsZYiT4": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "97 - Konectt - Fingathing - You Fly Me",
+        "FORMAT": "mp3",
+        "NUMBER": 97,
+        "PUBLISHED_AT": "2012-01-07T19:57:21.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fingathing - You Fly Me"
+    },
+    "RSoFQ4B-GRQ": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "44 - Konectt - Nujabes - Counting Stars",
+        "FORMAT": "mp3",
+        "NUMBER": 44,
+        "PUBLISHED_AT": "2011-09-29T09:17:40.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nujabes - Counting Stars"
+    },
+    "RTgXeVJ5H6k": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "85 - Konectt - Bonobo - The Shark",
+        "FORMAT": "mp3",
+        "NUMBER": 85,
+        "PUBLISHED_AT": "2011-11-06T12:27:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - The Shark"
+    },
+    "SOJeQ4lOtjY": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "135 - Konectt - Nym - The Carpenter",
+        "FORMAT": "mp3",
+        "NUMBER": 135,
+        "PUBLISHED_AT": "2013-09-28T15:07:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nym - The Carpenter"
+    },
+    "SltSONdHf5k": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "73 - Konectt - Cujo - The Brazilianaire (aka Amon Tobin)",
+        "FORMAT": "mp3",
+        "NUMBER": 73,
+        "PUBLISHED_AT": "2011-10-23T14:21:57.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Cujo - The Brazilianaire (aka Amon Tobin)"
+    },
+    "SvX0WJbkNmI": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "25 - Konectt - Emancipator - Jet Stream",
+        "FORMAT": "mp3",
+        "NUMBER": 25,
+        "PUBLISHED_AT": "2011-06-18T17:25:05.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Emancipator - Jet Stream"
+    },
+    "TXgtSsfEr24": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "94 - Konectt - Yppah - It's Not The Same",
+        "FORMAT": "mp3",
+        "NUMBER": 94,
+        "PUBLISHED_AT": "2011-12-15T22:10:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Yppah - It's Not The Same"
+    },
+    "TfVcP6O1SCo": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "133 - Konectt - Dirty Art Club - Ghost Of The Night Tide",
+        "FORMAT": "mp3",
+        "NUMBER": 133,
+        "PUBLISHED_AT": "2013-09-19T19:38:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dirty Art Club - Ghost Of The Night Tide"
+    },
+    "UJn7k4lAoNY": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "54 - Konectt - Four Tet - She Just Likes To Fight",
+        "FORMAT": "mp3",
+        "NUMBER": 54,
+        "PUBLISHED_AT": "2011-10-08T21:35:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Four Tet - She Just Likes To Fight"
+    },
+    "UeCH9Xfn3Oo": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "148 - Konectt - Kidkanevil - Inakunaru feat. Phasma",
+        "FORMAT": "mp3",
+        "NUMBER": 148,
+        "PUBLISHED_AT": "2014-06-02T03:55:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kidkanevil - Inakunaru feat. Phasma"
+    },
+    "UhDztJ9UY-c": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "102 - Konectt - Blockhead - Insomniac Olympics",
+        "FORMAT": "mp3",
+        "NUMBER": 102,
+        "PUBLISHED_AT": "2012-01-28T15:40:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Blockhead - Insomniac Olympics"
+    },
+    "UujT61-3urA": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "116 - Konectt - Urbs & Cutex - Up & Down",
+        "FORMAT": "mp3",
+        "NUMBER": 116,
+        "PUBLISHED_AT": "2012-03-16T12:14:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Urbs & Cutex - Up & Down"
+    },
+    "VPLy42Yfgv4": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "5 - Konectt - Letherette - Blad",
+        "FORMAT": "mp3",
+        "NUMBER": 5,
+        "PUBLISHED_AT": "2011-05-29T15:17:24.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Letherette - Blad"
+    },
+    "VzvzHGCJ5dA": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "151 - Konectt - Superpoze - Unlive",
+        "FORMAT": "mp3",
+        "NUMBER": 151,
+        "PUBLISHED_AT": "2015-04-09T18:15:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Superpoze - Unlive"
+    },
+    "WQ01hNt_4pw": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "128 - Konectt - Bonobo - Sapphire",
+        "FORMAT": "mp3",
+        "NUMBER": 128,
+        "PUBLISHED_AT": "2013-04-20T16:47:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Sapphire"
+    },
+    "WS2SYCArLmE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "18 - Konectt - Trentem\u00f8ller - Sycamore Feeling (Trentemoller remix)",
+        "FORMAT": "mp3",
+        "NUMBER": 18,
+        "PUBLISHED_AT": "2011-05-29T16:03:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Trentem\u00f8ller - Sycamore Feeling (Trentemoller remix)"
+    },
+    "WX_k5fEND8w": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "35 - Konectt - Doctor Flake - A Last Dance With L\u00e9on",
+        "FORMAT": "mp3",
+        "NUMBER": 35,
+        "PUBLISHED_AT": "2011-08-30T11:22:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Doctor Flake - A Last Dance With L\u00e9on"
+    },
+    "Wmyg6PUgH6E": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "57 - Konectt - The Wiseguys - We Be The Crew...",
+        "FORMAT": "mp3",
+        "NUMBER": 57,
+        "PUBLISHED_AT": "2011-10-12T16:05:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Wiseguys - We Be The Crew..."
+    },
+    "Wy_aWrpB2G8": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "131 - Konectt - Giyo - Rainfall",
+        "FORMAT": "mp3",
+        "NUMBER": 131,
+        "PUBLISHED_AT": "2013-08-30T16:34:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Giyo - Rainfall"
+    },
+    "XiQASh9c87A": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "91 - Konectt - Palov & Mishkin - Et De Clarinete",
+        "FORMAT": "mp3",
+        "NUMBER": 91,
+        "PUBLISHED_AT": "2011-11-19T14:25:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Palov & Mishkin - Et De Clarinete"
+    },
+    "YBNFe_TNhWk": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "111 - Konectt - Frameworks - First Step",
+        "FORMAT": "mp3",
+        "NUMBER": 111,
+        "PUBLISHED_AT": "2012-02-13T15:15:09.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Frameworks - First Step"
+    },
+    "YoIZDZFlVPw": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "161 - Konectt - Broke For Free - Feel Good (Instrumental)",
+        "FORMAT": "mp3",
+        "NUMBER": 161,
+        "PUBLISHED_AT": "2016-05-15T19:11:40.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Broke For Free - Feel Good (Instrumental)"
+    },
+    "Z7usN6Rpd0M": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "122 - Konectt - Kabanjak - Rubicon",
+        "FORMAT": "mp3",
+        "NUMBER": 122,
+        "PUBLISHED_AT": "2012-11-09T14:55:40.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kabanjak - Rubicon"
+    },
+    "Z8adDZRDjJs": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "4 - Konectt - Nightmare On Wax - You Wish",
+        "FORMAT": "mp3",
+        "NUMBER": 4,
+        "PUBLISHED_AT": "2011-05-29T15:15:50.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nightmare On Wax - You Wish"
+    },
+    "ZNb4eoeIjjM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "155 - Konectt - Kuba - The One That Got Away",
+        "FORMAT": "mp3",
+        "NUMBER": 155,
+        "PUBLISHED_AT": "2015-08-28T10:39:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kuba - The One That Got Away"
+    },
+    "_DFsNOac-Ys": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "154 - Konectt - Turtle - Us",
+        "FORMAT": "mp3",
+        "NUMBER": 154,
+        "PUBLISHED_AT": "2015-08-14T14:26:12.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Turtle - Us"
+    },
+    "_koHxWn7K9Y": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "11 - Konectt - Massive Attack - Paradise Circus",
+        "FORMAT": "mp3",
+        "NUMBER": 11,
+        "PUBLISHED_AT": "2011-05-29T15:51:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Massive Attack - Paradise Circus"
+    },
+    "aJMIcU-LNK4": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "120 - Konectt - Hidden Orchestra - Vorka",
+        "FORMAT": "mp3",
+        "NUMBER": 120,
+        "PUBLISHED_AT": "2012-09-20T12:39:53.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hidden Orchestra - Vorka"
+    },
+    "ada2yi9E660": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "0 - Konectt - The Avalanches - Frontier Psychiatrist",
+        "FORMAT": "mp3",
+        "NUMBER": 0,
+        "PUBLISHED_AT": "2011-10-23T14:23:26.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "UNABLE",
+        "TITLE": "The Avalanches - Frontier Psychiatrist"
+    },
+    "avJBf9blzmk": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "158 - Konectt - PAVANE - La Danse de Daphnis",
+        "FORMAT": "mp3",
+        "NUMBER": 158,
+        "PUBLISHED_AT": "2016-03-12T17:11:48.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "PAVANE - La Danse de Daphnis"
+    },
+    "cqMyvkkZWP4": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "140 - Konectt - Bmbu - Waiting For Wasteland (Instrumental)",
+        "FORMAT": "mp3",
+        "NUMBER": 140,
+        "PUBLISHED_AT": "2013-10-15T21:16:49.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bmbu - Waiting For Wasteland (Instrumental)"
+    },
+    "cwKRsjKdaB0": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "64 - Konectt - Mr. Cooper - Seven",
+        "FORMAT": "mp3",
+        "NUMBER": 64,
+        "PUBLISHED_AT": "2011-10-17T17:34:32.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Mr. Cooper - Seven"
+    },
+    "d841OQ5ihqI": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "52 - Konectt - Four Tet - Unspoken",
+        "FORMAT": "mp3",
+        "NUMBER": 52,
+        "PUBLISHED_AT": "2011-10-02T21:34:37.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Four Tet - Unspoken"
+    },
+    "dYB2wKqy7YA": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "3 - Konectt - Pablo - Turn The Page",
+        "FORMAT": "mp3",
+        "NUMBER": 3,
+        "PUBLISHED_AT": "2011-05-29T15:14:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Pablo - Turn The Page"
+    },
+    "e6mx2qlzQng": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "98 - Konectt - Bonobo - Kong",
+        "FORMAT": "mp3",
+        "NUMBER": 98,
+        "PUBLISHED_AT": "2012-01-13T21:06:30.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Kong"
+    },
+    "eSt3LjDHZ5s": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "20 - Konectt - Archive - Lights",
+        "FORMAT": "mp3",
+        "NUMBER": 20,
+        "PUBLISHED_AT": "2011-05-30T12:44:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Archive - Lights"
+    },
+    "elo3GwQbB8U": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "117 - Konectt - Backini - Go Go Killer",
+        "FORMAT": "mp3",
+        "NUMBER": 117,
+        "PUBLISHED_AT": "2012-03-16T12:15:27.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Backini - Go Go Killer"
+    },
+    "fR48rbVrcJk": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "0 - Konectt - Amon Tobin - 4 Ton Mantis",
+        "FORMAT": "mp3",
+        "NUMBER": 0,
+        "PUBLISHED_AT": "2012-01-18T13:34:00.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "UNABLE",
+        "TITLE": "Amon Tobin - 4 Ton Mantis"
+    },
+    "gI7RydINw2E": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "65 - Konectt - TM Juke - Just For A Day (Bonobo Mix)",
+        "FORMAT": "mp3",
+        "NUMBER": 65,
+        "PUBLISHED_AT": "2011-10-17T17:37:24.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TM Juke - Just For A Day (Bonobo Mix)"
+    },
+    "gM28WU3b8sM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "168 - Konectt - Antimonos - In Utera",
+        "FORMAT": "mp3",
+        "NUMBER": 168,
+        "PUBLISHED_AT": "2019-03-19T17:47:56.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Antimonos - In Utera"
+    },
+    "gO6flLQ5ziQ": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "50 - Konectt - Bonobo - Nightlite (Demo Version)",
+        "FORMAT": "mp3",
+        "NUMBER": 50,
+        "PUBLISHED_AT": "2011-10-02T15:39:29.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Nightlite (Demo Version)"
+    },
+    "hyudnhpPfLE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "144 - Konectt - Nosaj Thing - Aquarium",
+        "FORMAT": "mp3",
+        "NUMBER": 144,
+        "PUBLISHED_AT": "2014-01-31T15:57:34.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nosaj Thing - Aquarium"
+    },
+    "ieweM89xee0": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "7 - Konectt - Barakas - Kes (aka Bonobo)",
+        "FORMAT": "mp3",
+        "NUMBER": 7,
+        "PUBLISHED_AT": "2011-05-29T15:30:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Barakas - Kes (aka Bonobo)"
+    },
+    "j6kB78-pk1A": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "142 - Konectt - Koloto - Fox Tales",
+        "FORMAT": "mp3",
+        "NUMBER": 142,
+        "PUBLISHED_AT": "2014-01-03T16:50:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Koloto - Fox Tales"
+    },
+    "jD4BTBdHwsc": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "1 - Konectt - RJD2 - Ghostwriter",
+        "FORMAT": "mp3",
+        "NUMBER": 1,
+        "PUBLISHED_AT": "2011-05-29T15:13:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "RJD2 - Ghostwriter"
+    },
+    "kJDlHKH5B4c": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "125 - Konectt - Tor - Paper Rain",
+        "FORMAT": "mp3",
+        "NUMBER": 125,
+        "PUBLISHED_AT": "2012-12-14T17:44:36.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tor - Paper Rain"
+    },
+    "lJTOkrGejgY": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "107 - Konectt - Fred Yaddaden - Golden Stones",
+        "FORMAT": "mp3",
+        "NUMBER": 107,
+        "PUBLISHED_AT": "2012-02-04T16:35:47.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fred Yaddaden - Golden Stones"
+    },
+    "lkYHnJ4CssM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "60 - Konectt - Aether - Variance",
+        "FORMAT": "mp3",
+        "NUMBER": 60,
+        "PUBLISHED_AT": "2011-10-15T13:59:27.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Aether - Variance"
+    },
+    "ll1SzT0VdZE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "71 - Konectt - AIM - Cold Water Music",
+        "FORMAT": "mp3",
+        "NUMBER": 71,
+        "PUBLISHED_AT": "2011-10-20T15:50:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "AIM - Cold Water Music"
+    },
+    "mgjvD9lKr4U": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "0 - Konectt - Nightmares On Wax - Passion",
+        "FORMAT": "mp3",
+        "NUMBER": 0,
+        "PUBLISHED_AT": "2011-09-05T12:12:44.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "UNABLE",
+        "TITLE": "Nightmares On Wax - Passion"
+    },
+    "n2kfBfYqTMo": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "112 - Konectt - Bonobo - Walk In The Sky feat. Bajka",
+        "FORMAT": "mp3",
+        "NUMBER": 112,
+        "PUBLISHED_AT": "2012-02-19T14:43:44.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Walk In The Sky feat. Bajka"
+    },
+    "o_4NK-MKfxE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "146 - Konectt - illo - V\u00e4r",
+        "FORMAT": "mp3",
+        "NUMBER": 146,
+        "PUBLISHED_AT": "2014-05-01T19:26:09.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "il:lo - V\u00e4r"
+    },
+    "pZqId00x1dE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "8 - Konectt - Bonobo - Scuba",
+        "FORMAT": "mp3",
+        "NUMBER": 8,
+        "PUBLISHED_AT": "2011-05-29T15:30:51.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Scuba"
+    },
+    "pguRzFGnACg": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "136 - Konectt - That Sky & Noise Beats - Remember",
+        "FORMAT": "mp3",
+        "NUMBER": 136,
+        "PUBLISHED_AT": "2013-09-28T15:13:13.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "That Sky & Noise Beats - Remember"
+    },
+    "r-elf8pyFzw": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "108 - Konectt - Quantic - Not So Blue",
+        "FORMAT": "mp3",
+        "NUMBER": 108,
+        "PUBLISHED_AT": "2012-02-05T15:59:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Quantic - Not So Blue"
+    },
+    "r9ZptPnN2kw": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "47 - Konectt - Emancipator - First Snow",
+        "FORMAT": "mp3",
+        "NUMBER": 47,
+        "PUBLISHED_AT": "2011-10-02T11:57:50.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Emancipator - First Snow"
+    },
+    "rEUetJC3rYo": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "66 - Konectt - TM Juke - Fast Asleep",
+        "FORMAT": "mp3",
+        "NUMBER": 66,
+        "PUBLISHED_AT": "2011-10-18T13:56:13.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TM Juke - Fast Asleep"
+    },
+    "rWo4UhzhiH8": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "49 - Konectt - Emancipator - With Rainy Eyes",
+        "FORMAT": "mp3",
+        "NUMBER": 49,
+        "PUBLISHED_AT": "2011-10-02T12:04:35.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Emancipator - With Rainy Eyes"
+    },
+    "rZtGKP5ExpQ": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "123 - Konectt - Ancient Astronauts - I Came Running",
+        "FORMAT": "mp3",
+        "NUMBER": 123,
+        "PUBLISHED_AT": "2012-11-10T15:34:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ancient Astronauts - I Came Running"
+    },
+    "ry1hTND4Ff8": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "30 - Konectt - The Wiseguys - The Bounce",
+        "FORMAT": "mp3",
+        "NUMBER": 30,
+        "PUBLISHED_AT": "2011-07-24T12:00:45.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Wiseguys - The Bounce"
+    },
+    "rzq0rgCV868": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "89 - Konectt - Bonobo - Black Sands",
+        "FORMAT": "mp3",
+        "NUMBER": 89,
+        "PUBLISHED_AT": "2011-11-13T19:53:01.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Black Sands"
+    },
+    "s2ZXFpdcPqM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "92 - Konectt - Hugo Maldoro - I Know A Little Cuban",
+        "FORMAT": "mp3",
+        "NUMBER": 92,
+        "PUBLISHED_AT": "2011-12-15T15:44:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hugo Maldoro - I Know A Little Cuban"
+    },
+    "sEXFTzlmaw0": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "129 - Konectt - Frameworks - Patience",
+        "FORMAT": "mp3",
+        "NUMBER": 129,
+        "PUBLISHED_AT": "2013-06-05T15:37:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Frameworks - Patience"
+    },
+    "sPAwy2NWanU": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "10 - Konectt - Koop - Koop Island blues",
+        "FORMAT": "mp3",
+        "NUMBER": 10,
+        "PUBLISHED_AT": "2011-05-29T15:48:18.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Konectt",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Koop - Koop Island blues"
+    },
+    "t2W9Eaw_hw0": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "17 - Konectt - Spiller - Cry Baby (Royksopp Malselves Memorablilia Mix)",
+        "FORMAT": "mp3",
+        "NUMBER": 17,
+        "PUBLISHED_AT": "2011-05-29T16:01:02.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Spiller - Cry Baby (Royksopp Malselves Memorablilia Mix)"
+    },
+    "tEqHOD7o7Ds": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "166 - Konectt - melomaneo - esiole",
+        "FORMAT": "mp3",
+        "NUMBER": 166,
+        "PUBLISHED_AT": "2018-08-26T16:09:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "melomaneo - esiole"
+    },
+    "tljy1gKrvLg": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "134 - Konectt - Jean du Voyage - ZAZEN",
+        "FORMAT": "mp3",
+        "NUMBER": 134,
+        "PUBLISHED_AT": "2013-09-19T19:40:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jean du Voyage - ZAZEN"
+    },
+    "u6hXgUJM5ck": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "9 - Konectt - Birdy Nam Nam - Abbesses",
+        "FORMAT": "mp3",
+        "NUMBER": 9,
+        "PUBLISHED_AT": "2011-05-29T15:46:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Birdy Nam Nam - Abbesses"
+    },
+    "uFV-FU29sTI": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "79 - Konectt - Cayetano - Glassleaves",
+        "FORMAT": "mp3",
+        "NUMBER": 79,
+        "PUBLISHED_AT": "2011-10-29T15:25:38.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Cayetano - Glassleaves"
+    },
+    "uG-kq3m07LI": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "22 - Konectt - Kleerup - Until We Bleed with Lykke Li",
+        "FORMAT": "mp3",
+        "NUMBER": 22,
+        "PUBLISHED_AT": "2011-06-05T18:57:22.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kleerup - Until We Bleed with Lykke Li"
+    },
+    "v_R_QOKDzq4": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "147 - Konectt - il_lo - Ara",
+        "FORMAT": "mp3",
+        "NUMBER": 147,
+        "PUBLISHED_AT": "2014-05-01T19:29:27.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "il:lo - Ara"
+    },
+    "vjiW2v90kFE": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "21 - Konectt - The Limp Twins - Sunday Driver",
+        "FORMAT": "mp3",
+        "NUMBER": 21,
+        "PUBLISHED_AT": "2011-06-04T13:03:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Limp Twins - Sunday Driver"
+    },
+    "wEOWEAsJwAg": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "37 - Konectt - Bonobo - Ketto",
+        "FORMAT": "mp3",
+        "NUMBER": 37,
+        "PUBLISHED_AT": "2011-08-30T12:46:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Ketto"
+    },
+    "wYsYj1CDd9c": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "164 - Konectt - Sam Cooke vs. Kalabrese - Lost & Lookin' (M.RUX EDIT)",
+        "FORMAT": "mp3",
+        "NUMBER": 164,
+        "PUBLISHED_AT": "2016-08-19T11:50:13.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sam Cooke vs. Kalabrese - Lost & Lookin' (M.RUX EDIT)"
+    },
+    "w_NVsSY7Cr8": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "119 - Konectt - Aphex Twin - Alberto Balsalm",
+        "FORMAT": "mp3",
+        "NUMBER": 119,
+        "PUBLISHED_AT": "2012-08-08T15:34:23.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Aphex Twin - Alberto Balsalm"
+    },
+    "wvU4Npj9owY": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "126 - Konectt - Kid Called Computer - Save Yourself (Instrumental)",
+        "FORMAT": "mp3",
+        "NUMBER": 126,
+        "PUBLISHED_AT": "2012-12-29T23:03:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kid Called Computer - Save Yourself (Instrumental)"
+    },
+    "x6aOGhujYbk": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "137 - Konectt - XXYYXX - DMT",
+        "FORMAT": "mp3",
+        "NUMBER": 137,
+        "PUBLISHED_AT": "2013-09-28T15:21:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "XXYYXX - DMT"
+    },
+    "xwr1UuxbVgw": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "103 - Konectt - Blockhead - Carnivores Unite",
+        "FORMAT": "mp3",
+        "NUMBER": 103,
+        "PUBLISHED_AT": "2012-01-28T15:42:26.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Blockhead - Carnivores Unite"
+    },
+    "y8YF-APapd8": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "104 - Konectt - 9 Lazy 9 - Black Jesus",
+        "FORMAT": "mp3",
+        "NUMBER": 104,
+        "PUBLISHED_AT": "2012-01-28T15:43:35.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "9 Lazy 9 - Black Jesus"
+    },
+    "y_TUzqOL3bI": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "101 - Konectt - 9 Lazy 9 - Tumbleweed",
+        "FORMAT": "mp3",
+        "NUMBER": 101,
+        "PUBLISHED_AT": "2012-01-21T15:37:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "9 Lazy 9 - Tumbleweed"
+    },
+    "z0JdyVaBN3A": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "87 - Konectt - Ruckus Roboticus - A Child's Introduction to Drums",
+        "FORMAT": "mp3",
+        "NUMBER": 87,
+        "PUBLISHED_AT": "2011-11-13T13:51:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ruckus Roboticus - A Child's Introduction to Drums"
+    },
+    "zg28h8n5iOc": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "153 - Konectt - Feverkin & Koresma - Golden (feat.  Cuff Malloy)",
+        "FORMAT": "mp3",
+        "NUMBER": 153,
+        "PUBLISHED_AT": "2015-07-15T11:03:18.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Feverkin & Koresma - Golden (feat.  Cuff Malloy)"
+    },
+    "zwPrq-5kn7Q": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "82 - Konectt - Bonobo - Change Down",
+        "FORMAT": "mp3",
+        "NUMBER": 82,
+        "PUBLISHED_AT": "2011-11-03T15:47:31.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bonobo - Change Down"
+    },
+    "zyL-jS5L4BM": {
+        "CHANNEL_NAME": "Konectt",
+        "FILE_NAME": "96 - Konectt - Photek - Modus Operandi",
+        "FORMAT": "mp3",
+        "NUMBER": 96,
+        "PUBLISHED_AT": "2012-01-06T18:33:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Photek - Modus Operandi"
+    }
+}

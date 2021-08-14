@@ -1,0 +1,409 @@
+{
+    "-E5hRkRA1ag": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "35 - Lazy Square - New Year Address__\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0435\u0435 \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435",
+        "FORMAT": "mkv",
+        "NUMBER": 35,
+        "PUBLISHED_AT": "2019-12-31T07:13:12.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Year Address//\u041d\u043e\u0432\u043e\u0433\u043e\u0434\u043d\u0435\u0435 \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u0435"
+    },
+    "3cn_8lh54Wg": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "38 - Lazy Square - PANDEMIC and 3 worlds__\u041f\u0410\u041d\u0414\u0415\u041c\u0418\u042f \u0438 3 \u043c\u0438\u0440\u0430 (1969)",
+        "FORMAT": "mkv",
+        "NUMBER": 38,
+        "PUBLISHED_AT": "2020-04-22T17:55:34.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "PANDEMIC and 3 worlds//\u041f\u0410\u041d\u0414\u0415\u041c\u0418\u042f \u0438 3 \u043c\u0438\u0440\u0430 (1969)"
+    },
+    "4EJORCwdZRA": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "14 - Lazy Square - SCARY CLOWN ADVERTISING PART 1.  SERIOUS ABOUT & LAZY SQUARE",
+        "FORMAT": "mkv",
+        "NUMBER": 14,
+        "PUBLISHED_AT": "2017-06-24T11:34:08.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SCARY CLOWN ADVERTISING PART 1.  SERIOUS ABOUT & LAZY SQUARE"
+    },
+    "9GPDrH7zyzU": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "0 - Lazy Square - Just Do It. Another advertising video for SA__ _\u041f\u0440\u043e\u0441\u0442\u043e \u043f\u043e\u0434\u0438 \u0438 \u0441\u0434\u0435\u043b\u0430\u0439_. \u0415\u0449\u0435 \u043e\u0434\u043d\u0430 \u0440\u0435\u043a\u043b\u0430\u043c\u0430 \u0434\u043b\u044f SA",
+        "FORMAT": "mkv",
+        "NUMBER": 0,
+        "PUBLISHED_AT": "2018-08-14T17:44:27.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "UNABLE",
+        "TITLE": "Just Do It. Another advertising video for SA// \"\u041f\u0440\u043e\u0441\u0442\u043e \u043f\u043e\u0434\u0438 \u0438 \u0441\u0434\u0435\u043b\u0430\u0439\". \u0415\u0449\u0435 \u043e\u0434\u043d\u0430 \u0440\u0435\u043a\u043b\u0430\u043c\u0430 \u0434\u043b\u044f SA"
+    },
+    "9iuEG6-9piU": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "37 - Lazy Square - AKADEMGO\u042fODOK. By Lazy Square. My own series idea for sale__\u0418\u0434\u0435\u044f \u043a\u043b\u044e\u043a\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0441\u0435\u0440\u0438\u0430\u043b\u0430 \u043d\u0430 \u043f\u0440\u043e\u0434\u0430\u0436\u0443",
+        "FORMAT": "mkv",
+        "NUMBER": 37,
+        "PUBLISHED_AT": "2020-04-11T10:26:37.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "AKADEMGO\u042fODOK. By Lazy Square. My own series idea for sale//\u0418\u0434\u0435\u044f \u043a\u043b\u044e\u043a\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0441\u0435\u0440\u0438\u0430\u043b\u0430 \u043d\u0430 \u043f\u0440\u043e\u0434\u0430\u0436\u0443"
+    },
+    "A_aopaxRzKk": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "6 - Lazy Square - Serious About Production Process Infographic Cartoon__ \u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u0438\u043d\u043e\u0432 Serious About",
+        "FORMAT": "mkv",
+        "NUMBER": 6,
+        "PUBLISHED_AT": "2016-12-25T12:53:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Serious About Production Process Infographic Cartoon// \u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u0438\u043d\u043e\u0432 Serious About"
+    },
+    "DCHQdhzremg": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "27 - Lazy Square - \u0411\u044b\u0441\u0442\u0440\u044b\u0439 \u0442\u0430\u043a\u043e\u0439 \u0445\u0430\u0439\u043f__just fast local news",
+        "FORMAT": "mkv",
+        "NUMBER": 27,
+        "PUBLISHED_AT": "2018-09-12T00:22:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u0411\u044b\u0441\u0442\u0440\u044b\u0439 \u0442\u0430\u043a\u043e\u0439 \u0445\u0430\u0439\u043f//just fast local news"
+    },
+    "DvM5-tGmtlY": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "33 - Lazy Square - Sisters Wachowski MATRIX 4 __ \u041c\u0430\u0442\u0440\u0438\u0446\u0430 4 \u0421\u0435\u0441\u0442\u0435\u0440 \u0412\u0430\u0447\u043e\u0432\u0441\u043a\u0438",
+        "FORMAT": "mkv",
+        "NUMBER": 33,
+        "PUBLISHED_AT": "2019-08-22T10:54:30.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sisters Wachowski MATRIX 4 // \u041c\u0430\u0442\u0440\u0438\u0446\u0430 4 \u0421\u0435\u0441\u0442\u0435\u0440 \u0412\u0430\u0447\u043e\u0432\u0441\u043a\u0438"
+    },
+    "EJKu8ZZyYVk": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "20 - Lazy Square - KIEHLS RUSSIA AND SERIOUS ABOUT COLLABORATION PROMO VIDEO",
+        "FORMAT": "mkv",
+        "NUMBER": 20,
+        "PUBLISHED_AT": "2017-10-28T17:14:54.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "KIEHLS RUSSIA AND SERIOUS ABOUT COLLABORATION PROMO VIDEO"
+    },
+    "H7fF7a4c98g": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "5 - Lazy Square - Unicorn metal pins advertising__ \u0420\u0435\u043a\u043b\u0430\u043c\u043a\u0430 \u0436\u0435\u043b\u0435\u0437\u043d\u044b\u0445 \u043f\u0438\u043d\u043e\u0432 \u0434\u043b\u044f Serious About",
+        "FORMAT": "mkv",
+        "NUMBER": 5,
+        "PUBLISHED_AT": "2016-12-25T12:50:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Unicorn metal pins advertising // \u0420\u0435\u043a\u043b\u0430\u043c\u043a\u0430 \u0436\u0435\u043b\u0435\u0437\u043d\u044b\u0445 \u043f\u0438\u043d\u043e\u0432 \u0434\u043b\u044f Serious About"
+    },
+    "HGwzFN2goMw": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "18 - Lazy Square - ENVY__\u0417\u0430\u0432\u0438\u0441\u0442\u044c",
+        "FORMAT": "mkv",
+        "NUMBER": 18,
+        "PUBLISHED_AT": "2017-08-22T13:53:19.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ENVY//\u0417\u0430\u0432\u0438\u0441\u0442\u044c"
+    },
+    "HYEzIosLJE0": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "7 - Lazy Square - The Office_NASA ad __ \u041e\u0444\u0438\u0441_\u0420\u0435\u043a\u043b\u0430\u043c\u0430 NASA",
+        "FORMAT": "mkv",
+        "NUMBER": 7,
+        "PUBLISHED_AT": "2016-12-25T13:03:14.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Office/NASA ad // \u041e\u0444\u0438\u0441/\u0420\u0435\u043a\u043b\u0430\u043c\u0430 NASA"
+    },
+    "Io0DW5rW0NY": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "3 - Lazy Square - My birthday__\u041c\u043e\u0439 \u0434\u0435\u043d\u044c \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f",
+        "FORMAT": "mkv",
+        "NUMBER": 3,
+        "PUBLISHED_AT": "2016-11-20T23:47:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "My birthday//\u041c\u043e\u0439 \u0434\u0435\u043d\u044c \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f"
+    },
+    "KmzfqGIlaVk": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "4 - Lazy Square - Superhero The Tomatoman in action__\u0421\u0443\u043f\u0435\u0440\u0433\u0435\u0440\u043e\u0439 \u0422\u043e\u043c\u0430\u0442\u043e\u043c\u044d\u043d \u0432 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0438",
+        "FORMAT": "mkv",
+        "NUMBER": 4,
+        "PUBLISHED_AT": "2016-11-21T22:59:33.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Superhero The Tomatoman in action // \u0421\u0443\u043f\u0435\u0440\u0433\u0435\u0440\u043e\u0439 \u0422\u043e\u043c\u0430\u0442\u043e\u043c\u044d\u043d \u0432 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0438"
+    },
+    "L2DeutcOPHA": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "29 - Lazy Square - \u0421\u0435\u0440\u044c\u0451\u0437\u043d\u044b\u0439 \u0440\u043e\u043b\u0438\u043a \u0434\u043b\u044f \u043a\u043e\u043b\u043b\u0430\u0431\u043e\u0440\u0430\u0446\u0438\u0438 Serious About x MATRIX__Serious About x Matrix Collab Ad",
+        "FORMAT": "mkv",
+        "NUMBER": 29,
+        "PUBLISHED_AT": "2018-12-05T21:39:16.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u0421\u0435\u0440\u044c\u0451\u0437\u043d\u044b\u0439 \u0440\u043e\u043b\u0438\u043a \u0434\u043b\u044f \u043a\u043e\u043b\u043b\u0430\u0431\u043e\u0440\u0430\u0446\u0438\u0438 Serious About x MATRIX//Serious About x Matrix Collab Ad"
+    },
+    "LcbNEOqAVNs": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "34 - Lazy Square - Ad Astra. Very Low-Budget Version [SPOILER!]__\u041a \u0417\u0432\u0451\u0437\u0434\u0430\u043c. \u041e\u0447\u0435\u043d\u044c \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f [\u0421\u041f\u041e\u0419\u041b\u0415\u0420!]",
+        "FORMAT": "mkv",
+        "NUMBER": 34,
+        "PUBLISHED_AT": "2019-09-28T12:38:52.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ad Astra. Very Low-Budget Version [SPOILER!]//\u041a \u0417\u0432\u0451\u0437\u0434\u0430\u043c. \u041e\u0447\u0435\u043d\u044c \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f [\u0421\u041f\u041e\u0419\u041b\u0415\u0420!]"
+    },
+    "MgDG_IEDc9A": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "44 - Lazy Square - \u0412\u044b\u0438\u0433\u0440\u044b\u0432\u0430\u0435\u0448\u044c, \u0441\u044b\u043d\u043e\u043a__Are Ya Winning, Son_ (Lazy Square & Tinkoff Collaboration II)",
+        "FORMAT": "mkv",
+        "NUMBER": 44,
+        "PUBLISHED_AT": "2021-06-16T09:56:57Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u0412\u044b\u0438\u0433\u0440\u044b\u0432\u0430\u0435\u0448\u044c, \u0441\u044b\u043d\u043e\u043a?/Are Ya Winning, Son? (Lazy Square & Tinkoff Collaboration II)"
+    },
+    "OYe6R5dNlik": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "30 - Lazy Square - \u041d\u0430\u0441\u0442\u043e\u044f\u0449\u0430\u044f \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u041b\u044e\u0431\u0432\u0438 (SA \u0440\u0435\u043a\u043b\u0430\u043c\u0430)__True Love Story (SA advertising)",
+        "FORMAT": "mkv",
+        "NUMBER": 30,
+        "PUBLISHED_AT": "2019-02-04T21:13:07.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u041d\u0430\u0441\u0442\u043e\u044f\u0449\u0430\u044f \u0418\u0441\u0442\u043e\u0440\u0438\u044f \u041b\u044e\u0431\u0432\u0438 (SA \u0440\u0435\u043a\u043b\u0430\u043c\u0430)//True Love Story (SA advertising)"
+    },
+    "QYyrgNgppPY": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "13 - Lazy Square - CHUCK BERRY JOHNNY B GOODE LAST TIME PLAY__ \u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439 \u0440\u0430\u0437 \u0427\u0430\u043a \u0411\u0435\u0440\u0440\u0438 \u0438\u0433\u0440\u0430\u0435\u0442 \u0414\u0436\u043e\u043d\u0438",
+        "FORMAT": "mkv",
+        "NUMBER": 13,
+        "PUBLISHED_AT": "2017-03-28T20:35:25.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "CHUCK BERRY JOHNNY B GOODE LAST TIME PLAY// \u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439 \u0440\u0430\u0437 \u0427\u0430\u043a \u0411\u0435\u0440\u0440\u0438 \u0438\u0433\u0440\u0430\u0435\u0442 \u0414\u0436\u043e\u043d\u0438"
+    },
+    "Q_IeDbI9x18": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "28 - Lazy Square - \u041c\u043e\u0438\u043c\u0438 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u043c\u0438 \u0441\u043b\u043e\u0432\u0430\u043c\u0438 \u0431\u0443\u0434\u0443\u0442...__My last words will be...",
+        "FORMAT": "mkv",
+        "NUMBER": 28,
+        "PUBLISHED_AT": "2018-09-25T21:34:30.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u041c\u043e\u0438\u043c\u0438 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u043c\u0438 \u0441\u043b\u043e\u0432\u0430\u043c\u0438 \u0431\u0443\u0434\u0443\u0442...//My last words will be..."
+    },
+    "Rhq1fEXKyos": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "31 - Lazy Square - \u0418\u043f\u043e\u0442\u0435\u043a\u0430 \u0432 \u0421\u0438\u043d\u0435\u0439 \u0414\u043e\u043b\u0438\u043d\u0435__Blue Valley Mortgage",
+        "FORMAT": "mkv",
+        "NUMBER": 31,
+        "PUBLISHED_AT": "2019-04-03T21:42:40.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u0418\u043f\u043e\u0442\u0435\u043a\u0430 \u0432 \u0421\u0438\u043d\u0435\u0439 \u0414\u043e\u043b\u0438\u043d\u0435//Blue Valley Mortgage"
+    },
+    "SGkjnwOzaWA": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "16 - Lazy Square - T-BAG FROM THE INSIGNIFICANCE LEAGUE__SUPERHERO CARTOON",
+        "FORMAT": "mkv",
+        "NUMBER": 16,
+        "PUBLISHED_AT": "2017-07-08T13:39:38.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "T-BAG FROM THE INSIGNIFICANCE LEAGUE//SUPERHERO CARTOON"
+    },
+    "SU4GLBcE6co": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "19 - Lazy Square - SOMETHING TO SHOW__SA ADVERTISING WITH GUEST STAR__ \u0415\u0421\u0422\u042c ,\u0427\u0422\u041e \u041f\u041e\u041a\u0410\u0417\u0410\u0422\u042c",
+        "FORMAT": "mkv",
+        "NUMBER": 19,
+        "PUBLISHED_AT": "2017-10-23T21:42:38.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SOMETHING TO SHOW//SA ADVERTISING WITH GUEST STAR// \u0415\u0421\u0422\u042c ,\u0427\u0422\u041e \u041f\u041e\u041a\u0410\u0417\u0410\u0422\u042c"
+    },
+    "Schy9aa2AqQ": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "17 - Lazy Square - INFORMATIVE CLOWN__ \u041d\u0430\u0433\u043b\u044f\u0434\u043d\u044b\u0439 \u043a\u043b\u043e\u0443\u043d. \u0415\u0449\u0435 \u043e\u0434\u043d\u0430 \u0440\u0435\u043a\u043b\u0430\u043c\u0430 \u0434\u043b\u044f SA",
+        "FORMAT": "mkv",
+        "NUMBER": 17,
+        "PUBLISHED_AT": "2017-08-22T13:49:17.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "INFORMATIVE CLOWN // \u041d\u0430\u0433\u043b\u044f\u0434\u043d\u044b\u0439 \u043a\u043b\u043e\u0443\u043d. \u0415\u0449\u0435 \u043e\u0434\u043d\u0430 \u0440\u0435\u043a\u043b\u0430\u043c\u0430 \u0434\u043b\u044f SA"
+    },
+    "Sj4UC-p3T8U": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "1 - Lazy Square - Serious About Helloween Advertising 2016",
+        "FORMAT": "mkv",
+        "NUMBER": 1,
+        "PUBLISHED_AT": "2016-11-13T12:40:38.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Serious About Helloween Advertising 2016"
+    },
+    "ZvneB-GwZfo": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "2 - Lazy Square - Pulp Fiction Pumpkin Ad",
+        "FORMAT": "mkv",
+        "NUMBER": 2,
+        "PUBLISHED_AT": "2016-11-13T12:47:41.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Pulp Fiction Pumpkin Ad"
+    },
+    "_xkXhEYIm4Q": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "12 - Lazy Square - 20 YEARS IN FEW SECONDS TIMELAPSE. BACK TO THE 90'S WITH SERIOUS ABOUT",
+        "FORMAT": "mkv",
+        "NUMBER": 12,
+        "PUBLISHED_AT": "2017-03-07T21:33:00.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "20 YEARS IN FEW SECONDS TIMELAPSE. BACK TO THE 90'S WITH SERIOUS ABOUT"
+    },
+    "bozXXICmpKc": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "23 - Lazy Square - BY YOUR SIDE. Part I. Serious About Promo once again",
+        "FORMAT": "mkv",
+        "NUMBER": 23,
+        "PUBLISHED_AT": "2018-04-02T21:32:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BY YOUR SIDE. Part I. Serious About Promo once again"
+    },
+    "ccTzuF6jVH8": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "25 - Lazy Square - Terminator 2 and a half __ \u0422\u0435\u0440\u043c\u0438\u043d\u0430\u0442\u043e\u0440 2 \u0441 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u043e\u0439",
+        "FORMAT": "mkv",
+        "NUMBER": 25,
+        "PUBLISHED_AT": "2018-06-26T21:34:11.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Terminator 2 and a half // \u0422\u0435\u0440\u043c\u0438\u043d\u0430\u0442\u043e\u0440 2 \u0441 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u043e\u0439"
+    },
+    "e-_PWIxkWxI": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "8 - Lazy Square - Outtake __ \u041d\u0435\u0443\u0434\u0430\u0447\u043d\u044b\u0439 \u0434\u0443\u0431\u043b\u044c",
+        "FORMAT": "mkv",
+        "NUMBER": 8,
+        "PUBLISHED_AT": "2016-12-25T13:14:10.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Outtake // \u041d\u0435\u0443\u0434\u0430\u0447\u043d\u044b\u0439 \u0434\u0443\u0431\u043b\u044c"
+    },
+    "eBu3pgKnGPA": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "43 - Lazy Square - \u0410\u043d\u043e\u043d\u0441 Lazy NFT \u0410\u0443\u043a\u0446\u0438\u043e\u043d\u0430__Lazy NFT Auction Teaser",
+        "FORMAT": "mkv",
+        "NUMBER": 43,
+        "PUBLISHED_AT": "2021-03-18T14:31:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u0410\u043d\u043e\u043d\u0441 Lazy NFT \u0410\u0443\u043a\u0446\u0438\u043e\u043d\u0430//Lazy NFT Auction Teaser"
+    },
+    "ftsGWKNjgDE": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "24 - Lazy Square - By your side Part III 'Twilight Zone' __\u0412\u0441\u0435\u0433\u0434\u0430 \u0441 \u0442\u043e\u0431\u043e\u0439. \u0427\u0430\u0441\u0442\u044c III '\u0421\u0443\u043c\u0435\u0440\u0435\u0447\u043d\u0430\u044f \u0417\u043e\u043d\u0430'",
+        "FORMAT": "mkv",
+        "NUMBER": 24,
+        "PUBLISHED_AT": "2018-05-14T22:27:42.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "By your side Part III 'Twilight Zone' //\u0412\u0441\u0435\u0433\u0434\u0430 \u0441 \u0442\u043e\u0431\u043e\u0439. \u0427\u0430\u0441\u0442\u044c III '\u0421\u0443\u043c\u0435\u0440\u0435\u0447\u043d\u0430\u044f \u0417\u043e\u043d\u0430'"
+    },
+    "kd1gIEp9Hro": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "10 - Lazy Square - OBAMA LIFE AFTER PRESIDENCY. FIRST FREE SATURDAY. PLAYING GTA5",
+        "FORMAT": "mkv",
+        "NUMBER": 10,
+        "PUBLISHED_AT": "2017-01-22T15:33:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "OBAMA LIFE AFTER PRESIDENCY. FIRST FREE SATURDAY. PLAYING GTA5"
+    },
+    "mDVc4zzQSMg": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "42 - Lazy Square - \u041c\u0430\u0448\u0438\u043d\u0430 \u041c\u0435\u0447\u0442\u044b__The Dream Car (Lazy Square & Tinkoff Collaboration)",
+        "FORMAT": "mkv",
+        "NUMBER": 42,
+        "PUBLISHED_AT": "2021-03-10T10:00:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u041c\u0430\u0448\u0438\u043d\u0430 \u041c\u0435\u0447\u0442\u044b//The Dream Car (Lazy Square & Tinkoff Collaboration)"
+    },
+    "mhO4jV9WCII": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "39 - Lazy Square - What will you become___\u041a\u0435\u043c \u0442\u044b \u0441\u0442\u0430\u043d\u0435\u0448\u044c_(1984)",
+        "FORMAT": "mkv",
+        "NUMBER": 39,
+        "PUBLISHED_AT": "2020-08-30T13:30:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What will you become?//\u041a\u0435\u043c \u0442\u044b \u0441\u0442\u0430\u043d\u0435\u0448\u044c?(1984)"
+    },
+    "mtJiW9npdpo": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "15 - Lazy Square - SCARY CLOWN PART II SERIOUS ABOUT ADVERTISING",
+        "FORMAT": "mkv",
+        "NUMBER": 15,
+        "PUBLISHED_AT": "2017-07-02T10:02:04.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SCARY CLOWN PART II SERIOUS ABOUT ADVERTISING"
+    },
+    "ogp3cn4lss8": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "9 - Lazy Square - CHRISTMAS STORY _ SANTA CLAUS WON'T GET ANYWHERE __ \u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u0435\u043d\u0441\u043a\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0421\u0430\u043d\u0442\u0430 \u041d\u0438\u043a\u0443\u0434\u0430 \u043d\u0435 \u043f\u043e\u043f\u0430\u0434\u0435\u0442",
+        "FORMAT": "mkv",
+        "NUMBER": 9,
+        "PUBLISHED_AT": "2016-12-25T13:21:46.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "CHRISTMAS STORY / SANTA CLAUS WON'T GET ANYWHERE // \u0420\u043e\u0436\u0434\u0435\u0441\u0442\u0432\u0435\u043d\u0441\u043a\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0421\u0430\u043d\u0442\u0430 \u041d\u0438\u043a\u0443\u0434\u0430 \u043d\u0435 \u043f\u043e\u043f\u0430\u0434\u0435\u0442"
+    },
+    "os_ekMNYjVE": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "22 - Lazy Square - SERIOUS ABOUT & KIEHL'S COLLABORATION PROMO",
+        "FORMAT": "mkv",
+        "NUMBER": 22,
+        "PUBLISHED_AT": "2018-04-02T21:26:58.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SERIOUS ABOUT & KIEHL'S COLLABORATION PROMO"
+    },
+    "ovOZt96du-M": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "36 - Lazy Square - \u0414\u0430\u0441 \u0440\u0435\u043a\u043b\u0430\u043c\u0430 \u0434\u043b\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 Braer__Das Advertising for Braer Company",
+        "FORMAT": "mkv",
+        "NUMBER": 36,
+        "PUBLISHED_AT": "2020-02-03T12:05:27.000Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u0414\u0430\u0441 \u0440\u0435\u043a\u043b\u0430\u043c\u0430 \u0434\u043b\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 Braer//Das Advertising for Braer Company"
+    },
+    "pOzb3l133e0": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "11 - Lazy Square - DOG RUNNING IN DREAM SOCIAL ISSUE ADVERTISING CARTOON PARODY. NIGHTMARE ON THE ELM STREET PARODY",
+        "FORMAT": "mkv",
+        "NUMBER": 11,
+        "PUBLISHED_AT": "2017-02-11T21:35:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DOG RUNNING IN DREAM SOCIAL ISSUE ADVERTISING CARTOON PARODY. NIGHTMARE ON THE ELM STREET PARODY"
+    },
+    "q1u7XZ9c8fI": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "32 - Lazy Square - THE SIMPSONS. Russian Art Film Version __ \u0421\u0438\u043c\u043f\u0441\u043e\u043d\u044b. \u0410\u0440\u0442\u0445\u0430\u0443\u0441\u043d\u0430\u044f \u0440\u0443\u0441\u0441\u043a\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f",
+        "FORMAT": "mkv",
+        "NUMBER": 32,
+        "PUBLISHED_AT": "2019-07-07T17:02:55.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "THE SIMPSONS. Russian Art Film Version // \u0421\u0438\u043c\u043f\u0441\u043e\u043d\u044b. \u0410\u0440\u0442\u0445\u0430\u0443\u0441\u043d\u0430\u044f \u0440\u0443\u0441\u0441\u043a\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f"
+    },
+    "sGBkneu30Aw": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "21 - Lazy Square - 30 years of my life in 30 seconds____ 30 \u043b\u0435\u0442 \u043c\u043e\u0435\u0439 \u0436\u0438\u0437\u043d\u0438 \u0437\u0430 30 \u0441\u0435\u043a\u0443\u043d\u0434",
+        "FORMAT": "mkv",
+        "NUMBER": 21,
+        "PUBLISHED_AT": "2017-12-20T23:54:43.000Z",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "30 years of my life in 30 seconds//// 30 \u043b\u0435\u0442 \u043c\u043e\u0435\u0439 \u0436\u0438\u0437\u043d\u0438 \u0437\u0430 30 \u0441\u0435\u043a\u0443\u043d\u0434"
+    },
+    "wUgflhd1aWE": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "40 - Lazy Square - JUST DO IT. Again__\u041f\u0440\u043e\u0441\u0442\u043e \u043f\u043e\u0439\u0434\u0438 \u0438 \u0441\u0434\u0435\u043b\u0430\u0439. \u0421\u043d\u043e\u0432\u0430",
+        "FORMAT": "mkv",
+        "NUMBER": 40,
+        "PUBLISHED_AT": "2020-09-14T12:09:25Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "JUST DO IT. Again//\u041f\u0440\u043e\u0441\u0442\u043e \u043f\u043e\u0439\u0434\u0438 \u0438 \u0441\u0434\u0435\u043b\u0430\u0439. \u0421\u043d\u043e\u0432\u0430"
+    },
+    "xvbk02r2rjc": {
+        "CHANNEL_NAME": "Lazy Square",
+        "FILE_NAME": "41 - Lazy Square - Watch Dogs_ Legion & Lazy Square (Alternative Trailer__\u0410\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0440\u0435\u0439\u043b\u0435\u0440)",
+        "FORMAT": "mkv",
+        "NUMBER": 41,
+        "PUBLISHED_AT": "2020-10-26T16:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\LazySquare",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Watch Dogs: Legion & Lazy Square (Alternative Trailer//\u0410\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0440\u0435\u0439\u043b\u0435\u0440)"
+    }
+}

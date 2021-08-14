@@ -1,0 +1,492 @@
+{
+    "-4J9jrcNGl8": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "26 - Quantum Dream - Miami Nights 1984 - Early Summer [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 26,
+        "PUBLISHED_AT": "2014-03-21T12:34:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Miami Nights 1984 - Early Summer [Full album]"
+    },
+    "-PqZoEkyAis": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "41 - Quantum Dream - Deux - Decadence [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 41,
+        "PUBLISHED_AT": "2017-10-08T15:13:36Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Deux - Decadence [Full album]"
+    },
+    "-SuFK4iE4x8": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "43 - Quantum Dream - Metro Decay - \u03a5\u03c0\u03ad\u03c1\u03b2\u03b1\u03c3\u03b7 [Vinyl rip]",
+        "FORMAT": "mp3",
+        "NUMBER": 43,
+        "PUBLISHED_AT": "2017-10-08T16:19:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Metro Decay - \u03a5\u03c0\u03ad\u03c1\u03b2\u03b1\u03c3\u03b7 [Vinyl rip]"
+    },
+    "-gXrS6eKfjk": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "22 - Quantum Dream - The Sound Defects - The Iron Horse [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 22,
+        "PUBLISHED_AT": "2013-05-23T16:16:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Sound Defects - The Iron Horse [Full album]"
+    },
+    "-yJu5-7EUSo": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "47 - Quantum Dream - Girls Names \u200e\u2013 Stains On Silence [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 47,
+        "PUBLISHED_AT": "2018-08-19T17:42:51Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Girls Names \u200e\u2013 Stains On Silence [Full album]"
+    },
+    "1gZhmknVREw": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "12 - Quantum Dream - \u03a0\u03b1\u03cd\u03bb\u03bf\u03c2 \u03a3\u03b9\u03b4\u03b7\u03c1\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2 - \u03a4\u03b1 \u03bc\u03c0\u03bb\u03bf\u03c5\u03b6 \u03c4\u03bf\u03c5 \u03c0\u03c1\u03af\u03b3\u03ba\u03b9\u03c0\u03b1 [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 12,
+        "PUBLISHED_AT": "2013-03-09T14:42:44Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u03a0\u03b1\u03cd\u03bb\u03bf\u03c2 \u03a3\u03b9\u03b4\u03b7\u03c1\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2 - \u03a4\u03b1 \u03bc\u03c0\u03bb\u03bf\u03c5\u03b6 \u03c4\u03bf\u03c5 \u03c0\u03c1\u03af\u03b3\u03ba\u03b9\u03c0\u03b1 [Full album]"
+    },
+    "1jVR1Z7qILM": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "7 - Quantum Dream - FF.C - \u0397 \u0391\u03c0\u03b5\u03b9\u03bb\u03ae [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 7,
+        "PUBLISHED_AT": "2013-03-03T17:20:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FF.C - \u0397 \u0391\u03c0\u03b5\u03b9\u03bb\u03ae [Full album]"
+    },
+    "2JGqsxoqWAE": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "30 - Quantum Dream - The Sound Defects - Volume 2 [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 30,
+        "PUBLISHED_AT": "2014-09-13T15:14:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "UNABLE",
+        "TITLE": "The Sound Defects - Volume 2 [Full album]"
+    },
+    "3q8nGnls1Ow": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "23 - Quantum Dream - Gasoline - A Journey Into Abstract Hip-Hop [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 23,
+        "PUBLISHED_AT": "2013-05-24T12:36:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gasoline - A Journey Into Abstract Hip-Hop [Full album]"
+    },
+    "4DlBHBZFm1U": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "9 - Quantum Dream - God is an astronaut - The end of the beginning [HD] [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 9,
+        "PUBLISHED_AT": "2013-03-04T14:42:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "God is an astronaut - The end of the beginning [HD] [Full album]"
+    },
+    "4cYx7R2jAeM": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "14 - Quantum Dream - Polygon Window - Quoth [HD]",
+        "FORMAT": "mp3",
+        "NUMBER": 14,
+        "PUBLISHED_AT": "2013-03-20T00:29:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Polygon Window - Quoth [HD]"
+    },
+    "4hrCmdcRskc": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "36 - Quantum Dream - Those Attractive Magnets - Electromagnetic Pulse [Full LP]",
+        "FORMAT": "mp3",
+        "NUMBER": 36,
+        "PUBLISHED_AT": "2015-11-28T15:28:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "UNABLE",
+        "TITLE": "Those Attractive Magnets - Electromagnetic Pulse [Full LP]"
+    },
+    "61OTJchIUzY": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "24 - Quantum Dream - Gridlock - Trace [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 24,
+        "PUBLISHED_AT": "2013-05-24T19:27:48Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gridlock - Trace [Full album]"
+    },
+    "6Y7BLt0HIi4": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "42 - Quantum Dream - Molly Nilsson - Imaginations [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 42,
+        "PUBLISHED_AT": "2017-10-08T15:55:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Molly Nilsson - Imaginations [Full album]"
+    },
+    "8admsKnuTsY": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "46 - Quantum Dream - Guyer's Connection - Portrait [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 46,
+        "PUBLISHED_AT": "2018-05-28T11:37:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Guyer's Connection - Portrait [Full album]"
+    },
+    "9-h-RDCm4dI": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "18 - Quantum Dream - Runaways UK - Progress [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 18,
+        "PUBLISHED_AT": "2013-05-13T10:30:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Runaways UK - Progress [Full album]"
+    },
+    "9JIZpnA26xA": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "11 - Quantum Dream - FF.C - 18 \u03a7\u03c1\u03cc\u03bd\u03b9\u03b1 \u039f\u03c7\u03c5\u03c1\u03c9\u03bc\u03ad\u03bd\u03bf\u03b9 [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 11,
+        "PUBLISHED_AT": "2013-03-08T22:06:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FF.C - 18 \u03a7\u03c1\u03cc\u03bd\u03b9\u03b1 \u039f\u03c7\u03c5\u03c1\u03c9\u03bc\u03ad\u03bd\u03bf\u03b9 [Full album]"
+    },
+    "AoTAvc2KvGs": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "38 - Quantum Dream - Morel - \u0392\u03bf\u03c5\u03b2\u03ac \u03a4\u03bf\u03c0\u03af\u03b1 _ Mute Landscapes [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 38,
+        "PUBLISHED_AT": "2017-04-23T12:55:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Morel - \u0392\u03bf\u03c5\u03b2\u03ac \u03a4\u03bf\u03c0\u03af\u03b1 / Mute Landscapes [Full album]"
+    },
+    "B2uZV-NX2JA": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "8 - Quantum Dream - Casino versus japan - Whole numbers play the basics [HD] [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 8,
+        "PUBLISHED_AT": "2013-03-03T22:08:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Casino versus japan - Whole numbers play the basics [HD] [Full album]"
+    },
+    "DLVSs9qG9Jo": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "32 - Quantum Dream - Beefcake \u200e\u2013 Polycontrale Contra Punkte [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 32,
+        "PUBLISHED_AT": "2014-12-21T22:18:44Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Beefcake \u200e\u2013 Polycontrale Contra Punkte [Full album]"
+    },
+    "EaGeHGw1iP8": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "39 - Quantum Dream - Equinoxious \u200e\u2013 Cosm\u00f3dromo [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 39,
+        "PUBLISHED_AT": "2017-04-23T14:09:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Equinoxious \u200e\u2013 Cosm\u00f3dromo [Full album]"
+    },
+    "Gw6guVqZqvA": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "28 - Quantum Dream - Access To Arasaka \u200e-- \u00c9crasez L'Inf\u00e2me [Full EP]",
+        "FORMAT": "mp3",
+        "NUMBER": 28,
+        "PUBLISHED_AT": "2014-03-28T22:11:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Access To Arasaka \u200e-- \u00c9crasez L'Inf\u00e2me [Full EP]"
+    },
+    "HQSojrzNmSM": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "45 - Quantum Dream - She Past Away \u200e\u2013 Narin Yaln\u0131zl\u0131k [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 45,
+        "PUBLISHED_AT": "2018-01-21T13:30:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "She Past Away \u200e\u2013 Narin Yaln\u0131zl\u0131k [Full album]"
+    },
+    "HUIhUreLmEw": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "15 - Quantum Dream - Dryft - Cell [HD] [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 15,
+        "PUBLISHED_AT": "2013-04-14T16:26:54Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dryft - Cell [HD] [Full album]"
+    },
+    "J52rN0aNfYI": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "25 - Quantum Dream - Miami Nights 1984 - Turbulence [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 25,
+        "PUBLISHED_AT": "2014-03-19T19:45:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Miami Nights 1984 - Turbulence [Full album]"
+    },
+    "KVuZ-a9kjKc": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "31 - Quantum Dream - Droid Bishop - Beyond The Blue [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 31,
+        "PUBLISHED_AT": "2014-10-25T14:15:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Droid Bishop - Beyond The Blue [Full album]"
+    },
+    "MEuDb5a0-Kg": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "40 - Quantum Dream - Regressverbot \u200e\u2013 Music For Ordinary Life Machines [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 40,
+        "PUBLISHED_AT": "2017-04-23T14:45:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Regressverbot \u200e\u2013 Music For Ordinary Life Machines [Full album]"
+    },
+    "OJwdhR0x8Qc": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "20 - Quantum Dream - Poldoore - Dreamworks [EP]",
+        "FORMAT": "mp3",
+        "NUMBER": 20,
+        "PUBLISHED_AT": "2013-05-23T14:02:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Poldoore - Dreamworks [EP]"
+    },
+    "OY04fTctl7A": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "3 - Quantum Dream - Access To Arasaka - Void [HD] [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 3,
+        "PUBLISHED_AT": "2013-03-01T17:24:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Access To Arasaka - Void [HD] [Full album]"
+    },
+    "PHSCX2_15Eo": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "13 - Quantum Dream - Gridlock - 5.25 [HD]",
+        "FORMAT": "mp3",
+        "NUMBER": 13,
+        "PUBLISHED_AT": "2013-03-16T14:03:55Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gridlock - 5.25 [HD]"
+    },
+    "S0LQpt653WA": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "27 - Quantum Dream - Mega Drive - Hardwired [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 27,
+        "PUBLISHED_AT": "2014-03-26T15:33:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Mega Drive - Hardwired [Full album]"
+    },
+    "T_Ne2Zs5754": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "17 - Quantum Dream - Smoke city - Flying away [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 17,
+        "PUBLISHED_AT": "2013-05-12T19:25:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "UNABLE",
+        "TITLE": "Smoke city - Flying away [Full album]"
+    },
+    "VEbN-524rJk": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "10 - Quantum Dream - FF.C - \u039f\u03c7\u03c5\u03c1\u03c9\u03bc\u03ad\u03bd\u03b7 \u03b1\u03bd\u03c4\u03af\u03bb\u03b7\u03c8\u03b7 [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 10,
+        "PUBLISHED_AT": "2013-03-04T21:39:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FF.C - \u039f\u03c7\u03c5\u03c1\u03c9\u03bc\u03ad\u03bd\u03b7 \u03b1\u03bd\u03c4\u03af\u03bb\u03b7\u03c8\u03b7 [Full album]"
+    },
+    "Y6XroQOC9r0": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "1 - Quantum Dream - Stellardrone - Sublime [HD] [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 1,
+        "PUBLISHED_AT": "2013-03-01T15:33:57Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stellardrone - Sublime [HD] [Full album]"
+    },
+    "YFLhE7VmJuw": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "5 - Quantum Dream - Gridlock - Formless [HD] [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 5,
+        "PUBLISHED_AT": "2013-03-02T20:48:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gridlock - Formless [HD] [Full album]"
+    },
+    "ZXrOcno-jP8": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "48 - Quantum Dream - Turquoise Days \u200e\u2013 Alternative Strategies [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 48,
+        "PUBLISHED_AT": "2018-08-20T18:43:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Turquoise Days \u200e\u2013 Alternative Strategies [Full album]"
+    },
+    "_398X4JxakA": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "2 - Quantum Dream - Stellardrone - Invent the universe [HD] [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 2,
+        "PUBLISHED_AT": "2013-03-01T16:23:44Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stellardrone - Invent the universe [HD] [Full album]"
+    },
+    "_Pt6Oqra8zk": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "49 - Quantum Dream - File Not Found -  Division By Zero [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 49,
+        "PUBLISHED_AT": "2018-11-30T15:50:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "File Not Found -  Division By Zero [Full album]"
+    },
+    "_w8X6X6UXbM": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "35 - Quantum Dream - Janitor Of Lunacy \u200e\u2013 Crimes On The Dancefloor [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 35,
+        "PUBLISHED_AT": "2015-09-25T11:29:45Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Janitor Of Lunacy \u200e\u2013 Crimes On The Dancefloor [Full album]"
+    },
+    "bK6y7jWwa4U": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "37 - Quantum Dream - \u00d8 \u200e\u2013 Oleva [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 37,
+        "PUBLISHED_AT": "2017-04-14T13:54:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u00d8 \u200e\u2013 Oleva [Full album]"
+    },
+    "eXXYz9-B3T4": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "4 - Quantum Dream - Noidz - The great escape [HD] [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 4,
+        "PUBLISHED_AT": "2013-03-02T00:19:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Noidz - The great escape [HD] [Full album]"
+    },
+    "guoDwDEm4TU": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "44 - Quantum Dream - Film Noir - Never Ending Dream [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 44,
+        "PUBLISHED_AT": "2017-10-08T16:42:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Film Noir - Never Ending Dream [Full album]"
+    },
+    "kEZuLSwclZg": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "33 - Quantum Dream - Stendeck \u200e\u2013 Scintilla [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 33,
+        "PUBLISHED_AT": "2014-12-22T17:10:54Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stendeck \u200e\u2013 Scintilla [Full album]"
+    },
+    "ll90vpeeA4c": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "6 - Quantum Dream - Monolake - Cinemascope [HD] [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 6,
+        "PUBLISHED_AT": "2013-03-03T00:47:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Monolake - Cinemascope [HD] [Full album]"
+    },
+    "m9FSztnMJVk": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "19 - Quantum Dream - FF.C \u200e- \u03a3\u03ba\u03bb\u03b7\u03c1\u03bf\u03af \u039a\u03b1\u03b9\u03c1\u03bf\u03af [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 19,
+        "PUBLISHED_AT": "2013-05-19T14:44:46Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FF.C \u200e- \u03a3\u03ba\u03bb\u03b7\u03c1\u03bf\u03af \u039a\u03b1\u03b9\u03c1\u03bf\u03af [Full album]"
+    },
+    "sJo0SdUecZQ": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "29 - Quantum Dream - Droid Bishop - The Irrelevance of Space & Time [Full EP]",
+        "FORMAT": "mp3",
+        "NUMBER": 29,
+        "PUBLISHED_AT": "2014-09-13T12:01:43Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Droid Bishop - The Irrelevance of Space & Time [Full EP]"
+    },
+    "tOnkcsJjUDw": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "21 - Quantum Dream - Quantic - The 5th Exotic [HD] [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 21,
+        "PUBLISHED_AT": "2013-05-23T14:28:50Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "UNABLE",
+        "TITLE": "Quantic - The 5th Exotic [HD] [Full album]"
+    },
+    "uwXvZkvVPwM": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "34 - Quantum Dream - Objekt - Flatland [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 34,
+        "PUBLISHED_AT": "2015-01-07T16:42:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Objekt - Flatland [Full album]"
+    },
+    "zZ7N5iqHPfY": {
+        "CHANNEL_NAME": "Quantum Dream",
+        "FILE_NAME": "16 - Quantum Dream - FF.C - \u03a5\u03c0' '\u039f\u03c8\u03b9\u03bd [Full album]",
+        "FORMAT": "mp3",
+        "NUMBER": 16,
+        "PUBLISHED_AT": "2013-04-28T14:52:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\QuantumDream",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FF.C - \u03a5\u03c0' '\u039f\u03c8\u03b9\u03bd [Full album]"
+    }
+}

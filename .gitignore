@@ -1,7 +1,6 @@
 /youtube/files/monitors/*
-/youtube/files/_db/*
-/youtube/files/logs/*
-/youtube/files/input/*
+/youtube/files/input/dk.txt
+/youtube/files/input/dk_reserve.txt
 /metaread/files/titles/*
 .idea/*
 /build/*
