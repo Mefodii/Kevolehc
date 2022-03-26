@@ -1129,6 +1129,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Adore - Familiar Stranger"
     },
+    "6bExRB3DtMA": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "999 - Synth Heaven - Driver 13 - Enter The Cyberdrive",
+        "FORMAT": "mp3",
+        "NUMBER": 999,
+        "PUBLISHED_AT": "2022-03-18T13:45:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Driver 13 - Enter The Cyberdrive"
+    },
     "6bVNJv-SElI": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "128 - Synth Heaven - Jeremiah Kane - Ghost Lanes",
@@ -1148,6 +1158,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ameet Sharma - Intruder"
+    },
+    "6jzun327rlw": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "1002 - Synth Heaven - Skye Wolff & Literally an Army of Catgirls - Gemini",
+        "FORMAT": "mp3",
+        "NUMBER": 1002,
+        "PUBLISHED_AT": "2022-03-21T13:57:43Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Skye Wolff & Literally an Army of Catgirls - Gemini"
     },
     "6udeg_kp_xY": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -1248,6 +1268,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Six Leaves Left - Parallel World (feat. Dimi Kaye)"
+    },
+    "7bT2R3BK9gk": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "991 - Synth Heaven - Star Vox - Baby I",
+        "FORMAT": "mp3",
+        "NUMBER": 991,
+        "PUBLISHED_AT": "2021-12-03T12:59:36Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Star Vox - Baby I"
     },
     "7gJRsuTufAA": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -1639,6 +1669,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Evernoire - Back in Time"
     },
+    "ACpun2B-Vxs": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "983 - Synth Heaven - Mikotron - 1984",
+        "FORMAT": "mp3",
+        "NUMBER": 983,
+        "PUBLISHED_AT": "2021-09-18T11:51:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Mikotron - 1984"
+    },
     "AIIJ7iBZ4Lg": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "734 - Synth Heaven - Bunny X and Driver86  - If You Say Goodbye (Diamond Field Remix)",
@@ -1749,6 +1789,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Wildfurz - IDNYM"
     },
+    "BHeLLjS5PP8": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "990 - Synth Heaven - Star Vox - My Starlight",
+        "FORMAT": "mp3",
+        "NUMBER": 990,
+        "PUBLISHED_AT": "2021-12-03T12:48:59Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Star Vox - My Starlight"
+    },
     "BJ_Zgd_0VZs": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "655 - Synth Heaven - Eightecs - Top Rider",
@@ -1789,6 +1839,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Powercyan - Powergrid (Turbo Knight Remix)"
     },
+    "Bop75jZqRiU": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "985 - Synth Heaven - Jake Kesey - Breath Of The Wraith",
+        "FORMAT": "mp3",
+        "NUMBER": 985,
+        "PUBLISHED_AT": "2021-09-28T13:57:57Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jake Kesey - Breath Of The Wraith"
+    },
     "BzirLnfdBoM": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "371 - Synth Heaven - Jupiter 8 - Night Lights",
@@ -1818,6 +1878,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "The Ghost Mall - After Hours"
+    },
+    "CAAZMftYmw8": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "987 - Synth Heaven - Slandr - Distraction",
+        "FORMAT": "mp3",
+        "NUMBER": 987,
+        "PUBLISHED_AT": "2021-10-28T15:28:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Slandr - Distraction"
     },
     "CCu5Tl8mQHU": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -2038,6 +2108,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Grand Blaster - Armies Of The Night"
+    },
+    "DLdXWfvwhRg": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "998 - Synth Heaven - Simon Sebastian - A Walk In The Park",
+        "FORMAT": "mp3",
+        "NUMBER": 998,
+        "PUBLISHED_AT": "2022-03-17T12:14:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Simon Sebastian - A Walk In The Park"
     },
     "DQ9UvwTafcI": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -2488,6 +2568,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "DENNY MELLEN - Delorean Delinquent (Music Video)"
+    },
+    "Fy4wXXuGMrs": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "975 - Synth Heaven - Electron Odyssey - Dream With Your Eyes Open",
+        "FORMAT": "mp3",
+        "NUMBER": 975,
+        "PUBLISHED_AT": "2021-08-16T11:15:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Electron Odyssey - Dream With Your Eyes Open"
     },
     "FzK-bsoQJ1Y": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -2949,6 +3039,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Splash 96 - Summers In Anniston"
     },
+    "J5KykXTAm30": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "986 - Synth Heaven - Iterations - 500",
+        "FORMAT": "mp3",
+        "NUMBER": 986,
+        "PUBLISHED_AT": "2021-10-15T11:39:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Iterations - 500"
+    },
     "JA1hQJ5yLDk": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "933 - Synth Heaven - RIPL3Y - Purple Reflections",
@@ -3138,6 +3238,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Knichael Might - Brave Memories"
+    },
+    "KQYCuGNtKK0": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "994 - Synth Heaven - Sonic Hz - Amber",
+        "FORMAT": "mp3",
+        "NUMBER": 994,
+        "PUBLISHED_AT": "2022-01-13T13:06:55Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sonic Hz - Amber"
     },
     "KT07u1htP1w": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -3419,6 +3529,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Chasing Andromeda - Galactic Taxi"
     },
+    "M7pNDuYAp7A": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "977 - Synth Heaven - Chris Keya - Apocalypse",
+        "FORMAT": "mp3",
+        "NUMBER": 977,
+        "PUBLISHED_AT": "2021-08-24T11:02:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chris Keya - Apocalypse"
+    },
     "MAu8BB1i8OE": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "305 - Synth Heaven - Den Turner - Wake Up Theme",
@@ -3458,6 +3578,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dimi Kaye - Synths Of Life"
+    },
+    "MJyGiDhfEcc": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "978 - Synth Heaven - Color Theory - The Next Thing",
+        "FORMAT": "mp3",
+        "NUMBER": 978,
+        "PUBLISHED_AT": "2021-08-26T13:48:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Color Theory - The Next Thing"
     },
     "MLmZhnqjMD0": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -4339,6 +4469,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Dandroid - Last Action Hero"
     },
+    "SLXiqHE0ess": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "993 - Synth Heaven - STRANGER! - Dark Matter",
+        "FORMAT": "mp3",
+        "NUMBER": 993,
+        "PUBLISHED_AT": "2021-12-16T13:14:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "STRANGER! - Dark Matter"
+    },
     "SSvpXR3Le3s": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "326 - Synth Heaven - Dr Digital - Dream Charger (Full Album)",
@@ -5049,6 +5189,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "KATOD - Haunted (Music Video) Synthwave"
     },
+    "XEJew4eRsYo": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "981 - Synth Heaven - Chris Keya & Noelle Chiodo - No Room For Love",
+        "FORMAT": "mp3",
+        "NUMBER": 981,
+        "PUBLISHED_AT": "2021-09-08T12:06:36Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chris Keya & Noelle Chiodo - No Room For Love"
+    },
+    "XKjxzOj1OtI": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "997 - Synth Heaven - J-Ra - Fading Souls",
+        "FORMAT": "mp3",
+        "NUMBER": 997,
+        "PUBLISHED_AT": "2022-02-23T19:57:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "J-Ra - Fading Souls"
+    },
     "XQfrhJgQraU": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "189 - Synth Heaven - Reapers - Andromeda",
@@ -5619,6 +5779,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Electric Dark Souls - Heroes"
     },
+    "a8ZpthvKW4g": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "1000 - Synth Heaven - Skye Wolff - Like Sythes Through The Grass (When Day Turns To Night)",
+        "FORMAT": "mp3",
+        "NUMBER": 1000,
+        "PUBLISHED_AT": "2022-03-21T13:09:28Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Skye Wolff - Like Sythes Through The Grass (When Day Turns To Night)"
+    },
     "a8j4ek6FVeI": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "115 - Synth Heaven - Jeremiah Kane - Love Me (feat. Nightrun87)",
@@ -5768,6 +5938,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Lights A.M - Shine Our Lights (Sunset Instrumental)"
+    },
+    "aocscqEDnHM": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "989 - Synth Heaven - Ion Star - Battle near Tannh\u00e4user Gate",
+        "FORMAT": "mp3",
+        "NUMBER": 989,
+        "PUBLISHED_AT": "2021-11-13T16:17:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ion Star - Battle near Tannh\u00e4user Gate"
     },
     "atcM8LjcuEw": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -6088,6 +6268,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Magnavolt - Noir"
+    },
+    "ckqWpQenMQc": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "976 - Synth Heaven - Infra Violet - Grow (Music Video)",
+        "FORMAT": "mp3",
+        "NUMBER": 976,
+        "PUBLISHED_AT": "2021-08-18T11:48:59Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Infra Violet - Grow (Music Video)"
     },
     "clkl_oSwGVs": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -6598,6 +6788,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ludus Di Marino - Racing Time"
+    },
+    "g22tBV0UIZE": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "996 - Synth Heaven - Woves - The Kill (Dying Planet)",
+        "FORMAT": "mp3",
+        "NUMBER": 996,
+        "PUBLISHED_AT": "2022-02-17T13:26:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Woves - The Kill (Dying Planet)"
     },
     "g3NcTxa-W60": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -7289,6 +7489,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Cantti - Fifth Gear"
     },
+    "k10zxiisLOs": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "980 - Synth Heaven - Vertical Summer - Driven by Dreams",
+        "FORMAT": "mp3",
+        "NUMBER": 980,
+        "PUBLISHED_AT": "2021-09-07T11:10:47Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Vertical Summer - Driven by Dreams"
+    },
     "k11_KxKcc0Q": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "656 - Synth Heaven - Maximus Prime - Last of the Cowboys",
@@ -7328,6 +7538,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Skye Wolff - Winter in a Seaside Town"
+    },
+    "kDQc7t3EbNI": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "982 - Synth Heaven - Orphan Zero - Stalker",
+        "FORMAT": "mp3",
+        "NUMBER": 982,
+        "PUBLISHED_AT": "2021-09-10T12:26:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Orphan Zero - Stalker"
     },
     "kGeLX1AtRDk": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -7729,6 +7949,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "King Stephen - The Witching Hour"
     },
+    "m_47ELlnX4c": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "988 - Synth Heaven - I Am_ Rogue VHS (Full Album)",
+        "FORMAT": "mp3",
+        "NUMBER": 988,
+        "PUBLISHED_AT": "2021-11-05T13:19:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "I Am: Rogue VHS (Full Album)"
+    },
     "mbrWdHXXThw": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "76 - Synth Heaven - Soldier Peril - Draco Protocol",
@@ -7999,6 +8229,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Omegagon - Nothing is Impossible"
     },
+    "oa61auf2468": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "979 - Synth Heaven - Suprematix \u2013 Algorithm (ft. Mega Bruiser)",
+        "FORMAT": "mp3",
+        "NUMBER": 979,
+        "PUBLISHED_AT": "2021-08-31T15:31:39Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Suprematix \u2013 Algorithm (ft. Mega Bruiser)"
+    },
     "ogOeCkFCZkw": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "639 - Synth Heaven - Martin Li Michael - Roller Italo Disco Wave",
@@ -8078,6 +8318,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Don Dellpiero - Swedish 80s"
+    },
+    "pCuvykQE3wA": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "1001 - Synth Heaven - Skye Wolff - Dead Planet",
+        "FORMAT": "mp3",
+        "NUMBER": 1001,
+        "PUBLISHED_AT": "2022-03-21T13:27:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Skye Wolff - Dead Planet"
     },
     "pDBuGP7zTnc": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -8178,6 +8428,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "Solar Cities - Vapor (Synthwave Music Video)"
+    },
+    "pwIrmM91lUw": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "992 - Synth Heaven - Sunset Miracula - Digital Dreams",
+        "FORMAT": "mp3",
+        "NUMBER": 992,
+        "PUBLISHED_AT": "2021-12-14T10:56:47Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sunset Miracula - Digital Dreams"
     },
     "q3hiOhhrli8": {
         "CHANNEL_NAME": "Synth Heaven",
@@ -8809,6 +9069,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "The Lost & Left - Digital Decay"
     },
+    "u_15kx0x2vs": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "995 - Synth Heaven - GeoVoc - Canvas of Life (feat. Sam Wimer)",
+        "FORMAT": "mp3",
+        "NUMBER": 995,
+        "PUBLISHED_AT": "2022-02-16T09:43:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "GeoVoc - Canvas of Life (feat. Sam Wimer)"
+    },
     "ua4urSiyDdQ": {
         "CHANNEL_NAME": "Synth Heaven",
         "FILE_NAME": "541 - Synth Heaven - Martin Dolman - Molten Core",
@@ -8888,6 +9158,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
         "STATUS": "DOWNLOADED",
         "TITLE": "ERRORIST - Departure From Varna"
+    },
+    "uwKvEGNj_q4": {
+        "CHANNEL_NAME": "Synth Heaven",
+        "FILE_NAME": "984 - Synth Heaven - IONSTAR - Ultimate Gate (feat. Terada)",
+        "FORMAT": "mp3",
+        "NUMBER": 984,
+        "PUBLISHED_AT": "2021-09-24T15:48:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SynthHeaven",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "IONSTAR - Ultimate Gate (feat. Terada)"
     },
     "v-8yHFzJkJc": {
         "CHANNEL_NAME": "Synth Heaven",

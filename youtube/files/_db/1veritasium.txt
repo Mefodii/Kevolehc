@@ -430,6 +430,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Spinning Tube Trick Explained"
     },
+    "7ziWrneMYss": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "333 - Veritasium - How Horses Save Humans From Snake Bites",
+        "FORMAT": "mkv",
+        "NUMBER": 333,
+        "PUBLISHED_AT": "2022-03-22T11:55:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Horses Save Humans From Snake Bites"
+    },
     "8EGXqZRwbzw": {
         "CHANNEL_NAME": "Veritasium",
         "FILE_NAME": "89 - Veritasium - Destination_ Alaska",
@@ -476,6 +486,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Do You Expand With The Universe?"
     },
+    "9cNmUNHSBac": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "329 - Veritasium - Most People Don't Know How Bikes Work",
+        "FORMAT": "mkv",
+        "NUMBER": 329,
+        "PUBLISHED_AT": "2021-11-28T15:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Most People Don't Know How Bikes Work"
+    },
     "9zso7ChaQXQ": {
         "CHANNEL_NAME": "Veritasium",
         "FILE_NAME": "49 - Veritasium - How Does The Earth Spin_",
@@ -502,6 +522,16 @@
         "PUBLISHED_AT": "2018-08-13T14:40:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Can You Overdose on Vitamins?"
+    },
+    "AaZ_RSt0KP8": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "321 - Veritasium - The Universe is Hostile to Computers",
+        "FORMAT": "mkv",
+        "NUMBER": 321,
+        "PUBLISHED_AT": "2021-08-31T16:51:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Universe is Hostile to Computers"
     },
     "AcLh-aSUdx0": {
         "CHANNEL_NAME": "Veritasium",
@@ -764,6 +794,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "This Will Revolutionize Education"
     },
+    "GVsUOuSjvcg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "332 - Veritasium - Future Computers Will Be Radically Different",
+        "FORMAT": "mkv",
+        "NUMBER": 332,
+        "PUBLISHED_AT": "2022-03-01T11:37:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Future Computers Will Be Radically Different"
+    },
     "GcdB5bFwio4": {
         "CHANNEL_NAME": "Veritasium",
         "FILE_NAME": "272 - Veritasium - I Waterproofed Myself With Aerogel!",
@@ -818,6 +858,16 @@
         "PUBLISHED_AT": "2013-03-13T14:01:06.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Single Photon Interference"
+    },
+    "H1_OpWiyijU": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "325 - Veritasium - This Robot Walks, Flies, Skateboards, Slacklines",
+        "FORMAT": "mkv",
+        "NUMBER": 325,
+        "PUBLISHED_AT": "2021-10-16T14:03:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "This Robot Walks, Flies, Skateboards, Slacklines"
     },
     "HD3k1hgbUXQ": {
         "CHANNEL_NAME": "Veritasium",
@@ -900,6 +950,16 @@
         "PUBLISHED_AT": "2013-07-09T20:13:12.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "How Does a Transistor Work?"
+    },
+    "IgF3OX8nT0w": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "331 - Veritasium - The Most Powerful Computers You've Never Heard Of",
+        "FORMAT": "mkv",
+        "NUMBER": 331,
+        "PUBLISHED_AT": "2021-12-21T19:32:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Most Powerful Computers You've Never Heard Of"
     },
     "Iuv6hY6zsd0": {
         "CHANNEL_NAME": "Veritasium",
@@ -1000,6 +1060,16 @@
         "PUBLISHED_AT": "2011-05-25T09:14:57.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Option C - Acceleration of a Bungy Jump"
+    },
+    "KT18KJouHWg": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "324 - Veritasium - Catching Criminals Using Their Relative's DNA",
+        "FORMAT": "mkv",
+        "NUMBER": 324,
+        "PUBLISHED_AT": "2021-09-30T16:20:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Catching Criminals Using Their Relative's DNA"
     },
     "Kp_kqamkYpw": {
         "CHANNEL_NAME": "Veritasium",
@@ -1211,6 +1281,16 @@
         "PUBLISHED_AT": "2016-03-30T14:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Science of Laser Hair Removal in SLOW MOTION"
+    },
+    "S2xHZPH5Sng": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "320 - Veritasium - Clickbait is Unreasonably Effective",
+        "FORMAT": "mkv",
+        "NUMBER": 320,
+        "PUBLISHED_AT": "2021-08-17T11:38:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Clickbait is Unreasonably Effective"
     },
     "SAQ-iIJkLzA": {
         "CHANNEL_NAME": "Veritasium",
@@ -1655,6 +1735,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "How Does A Wing Actually Work?"
     },
+    "aFPJf-wKTd0": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "323 - Veritasium - How Hidden Technology Transformed Bowling",
+        "FORMAT": "mkv",
+        "NUMBER": 323,
+        "PUBLISHED_AT": "2021-09-25T12:02:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Hidden Technology Transformed Bowling"
+    },
     "aIx2N-viNwY": {
         "CHANNEL_NAME": "Veritasium",
         "FILE_NAME": "196 - Veritasium - Why Life Seems to Speed Up as We Age",
@@ -1700,6 +1790,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "We Tagged a Great White Shark!"
     },
+    "ao2Jfm35XeE": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "330 - Veritasium - The Mystery of Snowflakes",
+        "FORMAT": "mkv",
+        "NUMBER": 330,
+        "PUBLISHED_AT": "2021-12-01T07:35:28Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Mystery of Snowflakes"
+    },
     "b3TRUDKpoAs": {
         "CHANNEL_NAME": "Veritasium",
         "FILE_NAME": "2 - Veritasium - What causes the seasons_",
@@ -1708,6 +1808,16 @@
         "PUBLISHED_AT": "2010-08-16T14:31:44.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "What causes the seasons?"
+    },
+    "bHIhgxav9LY": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "328 - Veritasium - The Big Misconception About Electricity",
+        "FORMAT": "mkv",
+        "NUMBER": 328,
+        "PUBLISHED_AT": "2021-11-19T18:26:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Big Misconception About Electricity"
     },
     "bKldI-XGHIw": {
         "CHANNEL_NAME": "Veritasium",
@@ -1753,6 +1863,16 @@
         "PUBLISHED_AT": "2010-08-15T15:59:08.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "How long does it take for the earth to go around the sun?"
+    },
+    "cUzklzVXJwo": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "327 - Veritasium - How Imaginary Numbers Were Invented",
+        "FORMAT": "mkv",
+        "NUMBER": 327,
+        "PUBLISHED_AT": "2021-11-01T06:54:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Imaginary Numbers Were Invented"
     },
     "cY-kiddvAg0": {
         "CHANNEL_NAME": "Veritasium",
@@ -1916,6 +2036,16 @@
         "PUBLISHED_AT": "2011-05-25T09:09:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Option A - Acceleration of a Bungy Jump"
+    },
+    "f-Nr2z5X7Rs": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "322 - Veritasium - Why Are Scorpions Fluorescent_",
+        "FORMAT": "mkv",
+        "NUMBER": 322,
+        "PUBLISHED_AT": "2021-09-03T15:11:48Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Are Scorpions Fluorescent?"
     },
     "fDek6cYijxI": {
         "CHANNEL_NAME": "Veritasium",
@@ -2396,6 +2526,16 @@
         "PUBLISHED_AT": "2011-03-23T03:23:41.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Supercooled Water - Explained!"
+    },
+    "q-_7y0WUnW4": {
+        "CHANNEL_NAME": "Veritasium",
+        "FILE_NAME": "326 - Veritasium - I Rented A Helicopter To Settle A Physics Debate",
+        "FORMAT": "mkv",
+        "NUMBER": 326,
+        "PUBLISHED_AT": "2021-10-27T14:00:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\1veritasium",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "I Rented A Helicopter To Settle A Physics Debate"
     },
     "q3kSW633bsk": {
         "CHANNEL_NAME": "Veritasium",

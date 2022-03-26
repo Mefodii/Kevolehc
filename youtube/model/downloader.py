@@ -1,47 +1,14 @@
-from ..utils import constants
-from .. import paths
+import copy
+import yt_dlp as youtube_dl
 
 from utils import File
+
+from .yt_queue import YoutubeQueue
+from ..utils import constants
 from ..managers.ffmpeg import Ffmpeg
 
-import youtube_dl
-
-
-def build_common_download_options(output_file_path):
-    return {
-            'ffmpeg_location': paths.RESOURCES_PATH,
-            'outtmpl': output_file_path,
-            'logger': YoutubeDownloaderLogger(),
-            'progress_hooks': [YoutubeDownloader.my_hook]
-            }
-
-
-def get_audio_download_options(output_file_path):
-    options = build_common_download_options(output_file_path)
-    options['format'] = 'bestaudio/best'
-    options['cachedir'] = False
-    options['postprocessors'] = [{'key': 'FFmpegExtractAudio',
-                                         'preferredcodec': 'mp3',
-                                         'preferredquality': '192'}]
-    return options
-
-
-def get_audio_fragment_download_options(output_file_path):
-    options = build_common_download_options(output_file_path)
-    options['format'] = 'bestaudio/best'
-    options['cachedir'] = False
-    options['postprocessors'] = [{'key': 'FFmpegExtractAudio',
-                                  'preferredcodec': 'm4a',
-                                  'preferredquality': '192'},
-                                 {'key': 'FFmpegMetadata'}]
-    return options
-
-
-def get_video_fragment_download_options(output_file_path):
-    options = build_common_download_options(output_file_path)
-    options['format'] = 'bestvideo/best'
-    options['no-cache-dir'] = True
-    return options
+DL_EXTENSION = "ext"
+DL_TITLE = "title"
 
 
 class YoutubeDownloaderLogger(object):
@@ -57,48 +24,94 @@ class YoutubeDownloaderLogger(object):
 
 class YoutubeDownloader:
 
-    @staticmethod
-    def my_hook(d):
-        pass
+    def __init__(self, ffmpeg_location):
+        self.ffmpeg_location = ffmpeg_location
+        # Stats received after download is finished, from the hook
+        self.download_stats = None
 
-    @staticmethod
-    def download(queue):
+    def my_hook(self, d):
+        if d['status'] == 'finished':
+            self.download_stats = d
+
+    def download(self, queue: YoutubeQueue):
         if queue.save_format == constants.MP3:
-            YoutubeDownloader.download_audio(queue)
-        if queue.save_format == constants.MKV or queue.save_format == constants.MP4:
-            YoutubeDownloader.download_video(queue)
+            self.download_audio(queue)
+        elif queue.save_format == constants.MKV or queue.save_format == constants.MP4:
+            self.download_video(queue)
+        else:
+            print("Handling not supported for extension " + queue.save_format)
 
-    @staticmethod
-    def download_audio(queue):
+    def download_audio(self, queue: YoutubeQueue):
         output_file_path = queue.save_location + '\\' + queue.file_name + '.%(ext)s'
-        ydl_opts = get_audio_download_options(output_file_path)
+        ydl_opts = self.build_audio_download_options(output_file_path)
 
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download([queue.link])
 
-    @staticmethod
-    def download_video(queue):
+            result = ydl.extract_info("{}".format(queue.link))
+            queue.audio_dl_stats = copy.deepcopy(self.download_stats)
+
+    def download_video(self, queue: YoutubeQueue):
+        # Download audio part
         default_audio_name = "audio"
-        default_video_name = "video"
         audio_file = queue.save_location + "\\" + default_audio_name
-        video_file = queue.save_location + "\\" + default_video_name
-
         output_file_path = audio_file + '.%(ext)s'
-        ydl_opts = get_audio_fragment_download_options(output_file_path)
-
+        ydl_opts = self.build_audio_fragment_download_options(output_file_path)
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download([queue.link])
+            result = ydl.extract_info("{}".format(queue.link))
+            queue.audio_dl_stats = copy.deepcopy(self.download_stats)
 
+        # Download video part (has no sound)
+        default_video_name = "video"
+        video_file = queue.save_location + "\\" + default_video_name
         output_file_path = video_file + '.%(ext)s'
-        ydl_opts = get_video_fragment_download_options(output_file_path)
-
+        ydl_opts = self.build_video_fragment_download_options(output_file_path)
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download([queue.link])
+            result = ydl.extract_info("{}".format(queue.link))
+            queue.video_dl_stats = copy.deepcopy(self.download_stats)
 
+        # Replace tags from file_name by its values from queue.video_dl_stats
+        queue.replace_file_name_tags()
+
+        # Merge audio and video parts to single file
         audio_file = default_audio_name + "." + constants.M4A
-
         video_file_extension = File.get_file_name_with_extension(queue.save_location, default_video_name).split(".")[-1]
         video_file = default_video_name + "." + video_file_extension
-        merged_file = queue.file_name + "." + queue.save_format
 
+        merged_file = queue.file_name + "." + queue.save_format
         Ffmpeg.merge_audio_and_video(queue.save_location, audio_file, video_file, merged_file)
+
+    def build_common_download_options(self, output_file_path):
+        return {
+                'ffmpeg_location': self.ffmpeg_location,
+                'outtmpl': output_file_path,
+                'logger': YoutubeDownloaderLogger(),
+                'progress_hooks': [self.my_hook]
+                }
+
+    def build_audio_download_options(self, output_file_path):
+        options = self.build_common_download_options(output_file_path)
+        options['format'] = 'bestaudio/best'
+        options['cachedir'] = False
+        options['postprocessors'] = [{'key': 'FFmpegExtractAudio',
+                                             'preferredcodec': 'mp3',
+                                             'preferredquality': '192'}]
+        return options
+
+    def build_audio_fragment_download_options(self, output_file_path):
+        options = self.build_common_download_options(output_file_path)
+        options['format'] = 'bestaudio/best'
+        options['cachedir'] = False
+        options['postprocessors'] = [{'key': 'FFmpegExtractAudio',
+                                      'preferredcodec': 'm4a',
+                                      'preferredquality': '192'},
+                                     {'key': 'FFmpegMetadata'}]
+        return options
+
+    def build_video_fragment_download_options(self, output_file_path):
+        options = self.build_common_download_options(output_file_path)
+        options['format'] = 'bestvideo/best'
+        options['no-cache-dir'] = True
+        return options

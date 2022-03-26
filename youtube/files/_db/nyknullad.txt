@@ -382,6 +382,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Tschaika 21/16 \u200e\u2013 Tante Crystal Uff Crack Am Reck (Full Album 2016)"
     },
+    "1OH4xpoMQ6Q": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1355 - Underrated Albums - 5 Hours of Delicious Doom",
+        "FORMAT": "mp3",
+        "NUMBER": 1355,
+        "PUBLISHED_AT": "2021-10-07T15:29:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "5 Hours of Delicious Doom"
+    },
     "1Pea7k_17lQ": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "430 - Underrated Albums - Death is A Businessman - Push Reset (Full Album 2018)",
@@ -400,6 +410,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "DJ Pasta - Batadoris (Full EP 2019)"
+    },
+    "1WPbGhZqXrc": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1386 - Underrated Albums - Death Hawks \u200e\u2013 Sun Future Moon (Full Album 2015)",
+        "FORMAT": "mp3",
+        "NUMBER": 1386,
+        "PUBLISHED_AT": "2021-12-28T20:41:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Death Hawks \u200e\u2013 Sun Future Moon (Full Album 2015)"
     },
     "1WhuyufPtms": {
         "CHANNEL_NAME": "nyknullad",
@@ -605,6 +625,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Sleeping Pandora - From Above (Full Album 2018)"
     },
+    "2_RbkPC1oq4": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1394 - Underrated Albums - Time Is a Mountain - Time Is a Mountain (Full Album 2013)",
+        "FORMAT": "mp3",
+        "NUMBER": 1394,
+        "PUBLISHED_AT": "2022-01-24T16:45:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Time Is a Mountain - Time Is a Mountain (Full Album 2013)"
+    },
+    "2c0V4p5c-Nw": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1335 - Underrated Albums - Janusz Jurga - IST (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1335,
+        "PUBLISHED_AT": "2021-08-22T12:26:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Janusz Jurga - IST (Full Album 2021)"
+    },
     "2ctwn1B94zw": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "421 - Underrated Albums - Revbjelde - Revbjelde (Full Album 2017)",
@@ -622,6 +662,16 @@
         "PUBLISHED_AT": "2019-10-09T19:30:51.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Goatess - Blood and Wine (Full Album 2019)"
+    },
+    "2h2QztgXqTg": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1415 - Underrated Albums - r.roo - nothing (Full Album 2014)",
+        "FORMAT": "mp3",
+        "NUMBER": 1415,
+        "PUBLISHED_AT": "2022-03-07T17:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "r.roo - nothing (Full Album 2014)"
     },
     "2jYGczq_BUk": {
         "CHANNEL_NAME": "nyknullad",
@@ -688,6 +738,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "VERDERAME - KILLED THIS (Full Album 2021)"
     },
+    "33s9AycpnRc": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1418 - Underrated Albums - Gamardah Fungus - Natural Storm (Full Album 2019)",
+        "FORMAT": "mp3",
+        "NUMBER": 1418,
+        "PUBLISHED_AT": "2022-03-10T17:00:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gamardah Fungus - Natural Storm (Full Album 2019)"
+    },
     "36bdMpO9coA": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "1184 - Underrated Albums - Silver Scrolls - Music for Walks (Full Album 2020)",
@@ -697,6 +757,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Silver Scrolls - Music for Walks (Full Album 2020)"
+    },
+    "37A8jNS3Cdo": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1378 - Underrated Albums - George Cessna - Lucky Rider (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1378,
+        "PUBLISHED_AT": "2021-12-07T15:12:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "George Cessna - Lucky Rider (Full Album 2021)"
     },
     "37GbbcyNS7M": {
         "CHANNEL_NAME": "nyknullad",
@@ -752,6 +822,16 @@
         "PUBLISHED_AT": "2018-03-08T18:39:15.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Darko Richards - Point of Departure (Full Album 2018)"
+    },
+    "3XdjpDy1K50": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1393 - Underrated Albums - SBONK - Les portes factices (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1393,
+        "PUBLISHED_AT": "2022-01-19T11:24:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SBONK - Les portes factices (Full Album 2021)"
     },
     "3b2ebMOces0": {
         "CHANNEL_NAME": "nyknullad",
@@ -952,6 +1032,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Night Sins - Dancing Chrome (Full Album 2017)"
     },
+    "49k4tpUsSwA": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1349 - Underrated Albums - Satori Minayia \u609f\u308a - Icaro (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1349,
+        "PUBLISHED_AT": "2021-09-21T17:27:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Satori Minayia \u609f\u308a - Icaro (Full Album 2021)"
+    },
     "4A9_vmmJVZA": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "160 - Underrated Albums - Black Bonzo - Sound Of The Apocalypse (Full Album 2007)",
@@ -1053,6 +1143,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Dalham - Alderson Loop (Full Album 2020)"
     },
+    "4YkxPAhybd4": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1391 - Underrated Albums - HYMN - Perish (Full Album 2017)",
+        "FORMAT": "mp3",
+        "NUMBER": 1391,
+        "PUBLISHED_AT": "2022-01-13T19:05:57Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "HYMN - Perish (Full Album 2017)"
+    },
+    "4ZpcCmdyWAw": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1428 - Underrated Albums - Perspective Shifts - Lovely Echoes (Full Album 2022)",
+        "FORMAT": "mp3",
+        "NUMBER": 1428,
+        "PUBLISHED_AT": "2022-03-25T18:55:52Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Perspective Shifts - Lovely Echoes (Full Album 2022)"
+    },
     "4aCqUZFt100": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "1093 - Underrated Albums - My Education - Sunrise (Full Album 2010)",
@@ -1071,6 +1181,16 @@
         "PUBLISHED_AT": "2018-03-31T19:21:56.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Jesse - Fluids (Full Album 2018)"
+    },
+    "4dgtzRilVn4": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1340 - Underrated Albums - Straytones - Magic Green River Swimmin\u2019 & Stunning Tarzanka Experience (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1340,
+        "PUBLISHED_AT": "2021-09-03T11:04:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Straytones - Magic Green River Swimmin\u2019 & Stunning Tarzanka Experience (Full Album 2021)"
     },
     "4hq5ndMSSmw": {
         "CHANNEL_NAME": "nyknullad",
@@ -1258,6 +1378,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Hawksmoor - Methods of Dreaming (Full Album 2020)"
     },
+    "5iSW3DxJOGs": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1337 - Underrated Albums - Tiny Tree - XI (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1337,
+        "PUBLISHED_AT": "2021-08-28T13:46:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tiny Tree - XI (Full Album 2021)"
+    },
     "5kubXnq16UA": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "1242 - Underrated Albums - 100k Subs!",
@@ -1286,6 +1416,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Music For Sleep (Andrea Porcu) - Pedra (Full Album 2020)"
+    },
+    "5uu28ZQXBhE": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1379 - Underrated Albums - Doctor Robot - Long Ago In The Future (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1379,
+        "PUBLISHED_AT": "2021-12-09T09:27:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Doctor Robot - Long Ago In The Future (Full Album 2021)"
     },
     "5yZkn82zMK8": {
         "CHANNEL_NAME": "nyknullad",
@@ -1400,6 +1540,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Empire Bathtub - Looney Moons (Full Album 2020)"
     },
+    "6UamJ1J6PuE": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1370 - Underrated Albums - Bend the Future - Without Notice (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1370,
+        "PUBLISHED_AT": "2021-11-13T12:55:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bend the Future - Without Notice (Full Album 2021)"
+    },
     "6Vucaqo2lic": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "829 - Underrated Albums - Hammerhands - Glaciers (Full Album 2013)",
@@ -1466,6 +1616,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Blood Island Raiders - Blood Island Raiders (Full Album 2007) + Bonus track"
     },
+    "74plj6pahH8": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1332 - Underrated Albums - 5 Hours of Delicious Doom",
+        "FORMAT": "mp3",
+        "NUMBER": 1332,
+        "PUBLISHED_AT": "2021-08-15T12:35:39Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "5 Hours of Delicious Doom"
+    },
     "787ztiR7I4A": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "938 - Underrated Albums - Halma - The Ground (Full Album 2019)",
@@ -1474,6 +1634,16 @@
         "PUBLISHED_AT": "2019-10-11T15:49:10.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Halma - The Ground (Full Album 2019)"
+    },
+    "7G8mUpQ4l_Y": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1396 - Underrated Albums - Skwar - Wandering Haze (Full Album 2022)",
+        "FORMAT": "mp3",
+        "NUMBER": 1396,
+        "PUBLISHED_AT": "2022-01-28T09:55:43Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Skwar - Wandering Haze (Full Album 2022)"
     },
     "7Gc0s0l3rJQ": {
         "CHANNEL_NAME": "nyknullad",
@@ -1501,6 +1671,16 @@
         "PUBLISHED_AT": "2019-10-15T19:05:31.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Hello Heartland - Ridges (Full EP 2019)"
+    },
+    "7QH4MnLNf4E": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1333 - Underrated Albums - Stingray Fever - Elevator to the Moon (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1333,
+        "PUBLISHED_AT": "2021-08-18T16:00:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stingray Fever - Elevator to the Moon (Full EP 2021)"
     },
     "7QSQIyCBU0I": {
         "CHANNEL_NAME": "nyknullad",
@@ -1606,6 +1786,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Energy 2000 - Go Apollo! (Full EP 2018)"
     },
+    "7vf-gLRvBG8": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1400 - Underrated Albums - Good Night Sleep - Summer Selection (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1400,
+        "PUBLISHED_AT": "2022-02-07T19:53:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Good Night Sleep - Summer Selection (Full EP 2021)"
+    },
     "7wQpYCpeRTE": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "105 - Underrated Albums - Electric Eye - Different Sun (Full Album 2016)",
@@ -1678,6 +1868,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Spills - Aura (Full Album 2018)"
     },
+    "8CKG-lEg7Xw": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1416 - Underrated Albums - The COW - SHVYDSHE NIJ TRIP (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1416,
+        "PUBLISHED_AT": "2022-03-08T05:00:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The COW - SHVYDSHE NIJ TRIP (Full Album 2021)"
+    },
     "8EPKjpAgXig": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "294 - Underrated Albums - Then Comes Silence - Then Comes Silence II (Full Album 2013)",
@@ -1723,6 +1923,36 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "REDNICUIDO - AWAY (Full EP 2021)"
+    },
+    "8Sq2cGRTg8M": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1353 - Underrated Albums - Bastien Keb - The Killing of Eugene Peeps (Full Album 2020)",
+        "FORMAT": "mp3",
+        "NUMBER": 1353,
+        "PUBLISHED_AT": "2021-10-03T15:26:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bastien Keb - The Killing of Eugene Peeps (Full Album 2020)"
+    },
+    "8WSkgOb5DRM": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1417 - Underrated Albums - \u041c\u0430\u044f\u043a - \u0420\u0435\u043a\u0430 (Full Album 2013)",
+        "FORMAT": "mp3",
+        "NUMBER": 1417,
+        "PUBLISHED_AT": "2022-03-09T17:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u041c\u0430\u044f\u043a - \u0420\u0435\u043a\u0430 (Full Album 2013)"
+    },
+    "8WijDS0A4Fs": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1374 - Underrated Albums - Al Lover - Soundtrack to the Eavesdropper Cafe (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1374,
+        "PUBLISHED_AT": "2021-11-23T19:21:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Al Lover - Soundtrack to the Eavesdropper Cafe (Full Album 2021)"
     },
     "8arTN_fX2rA": {
         "CHANNEL_NAME": "nyknullad",
@@ -1862,6 +2092,16 @@
         "PUBLISHED_AT": "2018-05-28T18:17:23.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dubmood - Lost Floppies Vol 2 (Full Album 2013)"
+    },
+    "9DBL44t_nSE": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1408 - Underrated Albums - Sonic Hz - Synesthesia (Full Album 2022)",
+        "FORMAT": "mp3",
+        "NUMBER": 1408,
+        "PUBLISHED_AT": "2022-02-22T20:53:59Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sonic Hz - Synesthesia (Full Album 2022)"
     },
     "9DX4n_vFBDU": {
         "CHANNEL_NAME": "nyknullad",
@@ -2075,6 +2315,16 @@
         "PUBLISHED_AT": "2019-01-13T09:29:59.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Khana Bierbood/\u0e04\u0e13\u0e30 \u0e40\u0e1a\u0e35\u0e22\u0e23\u0e4c\u0e1a\u0e39\u0e14 - Strangers from the Far East\u200b (Full Album 2019)"
+    },
+    "AJ9j9jxh1ws": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1371 - Underrated Albums - Watch Husky Burn - Garnet (Full Album 2013)",
+        "FORMAT": "mp3",
+        "NUMBER": 1371,
+        "PUBLISHED_AT": "2021-11-14T15:04:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Watch Husky Burn - Garnet (Full Album 2013)"
     },
     "AKr-7pL6cp0": {
         "CHANNEL_NAME": "Underrated Albums",
@@ -2438,6 +2688,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Chasing Bone - State of the Underdog (Full Album 2017)"
     },
+    "Br8Kgh_V2qQ": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1397 - Underrated Albums - Einseinseins - Zwei (Full Album 2022)",
+        "FORMAT": "mp3",
+        "NUMBER": 1397,
+        "PUBLISHED_AT": "2022-01-29T10:50:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Einseinseins - Zwei (Full Album 2022)"
+    },
     "Brtwj6co7gc": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "1001 - Underrated Albums - VYKS - lumi\u00e8re (Full Album 2019)",
@@ -2532,6 +2792,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "KattenmedHatten - Made On Earth (Full EP 2018)"
     },
+    "CZrsAooXHXY": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1403 - Underrated Albums - Nyctophiliac - Jazz It Up (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1403,
+        "PUBLISHED_AT": "2022-02-12T13:08:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nyctophiliac - Jazz It Up (Full Album 2021)"
+    },
     "CaiybCJALds": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "1043 - Underrated Albums - Tuvaband - I Entered The Void (2019)",
@@ -2606,6 +2876,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Dunes - Lo\u200b-\u200bfi Love (Full Album 2019)"
     },
+    "CsLfRa5AUvk": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1407 - Underrated Albums - Samurai Drive - Samurai Drive (Full Album 2020)",
+        "FORMAT": "mp3",
+        "NUMBER": 1407,
+        "PUBLISHED_AT": "2022-02-20T17:03:50Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Samurai Drive - Samurai Drive (Full Album 2020)"
+    },
     "D2Np4P3WNPM": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "325 - Underrated Albums - Kiyoko - The Horo Files (Full Album 2016)",
@@ -2679,6 +2959,16 @@
         "PUBLISHED_AT": "2017-03-22T08:41:37.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Kungens M\u00e4n - Tomhetens Furste (Full EP 2017)"
+    },
+    "DTj0h04Vjck": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1399 - Underrated Albums - Sundayman - Scene Missing (Full Album 2016)",
+        "FORMAT": "mp3",
+        "NUMBER": 1399,
+        "PUBLISHED_AT": "2022-02-04T22:11:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sundayman - Scene Missing (Full Album 2016)"
     },
     "DVpLd3n3aeQ": {
         "CHANNEL_NAME": "nyknullad",
@@ -2819,6 +3109,16 @@
         "PUBLISHED_AT": "2019-08-07T17:15:19.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Uur - Uur (Full Album 2019)"
+    },
+    "EHBAM0MOIOg": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1384 - Underrated Albums - Stereochrome - Monsoon (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1384,
+        "PUBLISHED_AT": "2021-12-23T21:55:37Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stereochrome - Monsoon (Full Album 2021)"
     },
     "ELnBzw75nlc": {
         "CHANNEL_NAME": "nyknullad",
@@ -3156,6 +3456,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Siamese Elephants - About Astronauts (Full EP 2019)"
     },
+    "Fd2XcdMbOeE": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1411 - Underrated Albums - Islands - ISLANDS (Full Album + Bonus Tracks 2012 & 2013)",
+        "FORMAT": "mp3",
+        "NUMBER": 1411,
+        "PUBLISHED_AT": "2022-03-03T11:14:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Islands - ISLANDS (Full Album + Bonus Tracks 2012 & 2013)"
+    },
     "Fd_xCb4xj90": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "1050 - Underrated Albums - Huge Molasses Tank Explodes - II (Full Album 2020)",
@@ -3230,6 +3540,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Meadow Argus - No : No : Winter (Full EP 2018)"
     },
+    "FwSPoBJOqt4": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1422 - Underrated Albums - Schakt - Ur Periferin (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1422,
+        "PUBLISHED_AT": "2022-03-15T19:44:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Schakt - Ur Periferin (Full EP 2021)"
+    },
     "G0Q3XaA7fCI": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "817 - Underrated Albums - Katu Kaiku - Luna (Full Album 2019)",
@@ -3238,6 +3558,16 @@
         "PUBLISHED_AT": "2019-05-19T10:03:40.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Katu Kaiku - Luna (Full Album 2019)"
+    },
+    "G1HeilMASVY": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1402 - Underrated Albums - Arcem - An Amalgamation of Loss, Defeat, and Renewal (Full Album 2022)",
+        "FORMAT": "mp3",
+        "NUMBER": 1402,
+        "PUBLISHED_AT": "2022-02-11T17:11:47Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Arcem - An Amalgamation of Loss, Defeat, and Renewal (Full Album 2022)"
     },
     "G4QkK4Atcvg": {
         "CHANNEL_NAME": "nyknullad",
@@ -3330,6 +3660,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Early Mammal - Horror at Pleasure  (Full Album 2013)"
     },
+    "GOFVmdiMUuk": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1377 - Underrated Albums - Valerio Di Maggio - The Last Pharaoh (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1377,
+        "PUBLISHED_AT": "2021-11-30T18:39:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Valerio Di Maggio - The Last Pharaoh (Full EP 2021)"
+    },
     "GPppTgypdM0": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "667 - Underrated Albums - Thomas Ragsdale \u200e\u2013 Self Zero (Full Album 2018)",
@@ -3356,6 +3696,16 @@
         "PUBLISHED_AT": "2019-03-14T19:30:56.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Elizabeth Colour Wheel - Nocebo (Full Album 2019)"
+    },
+    "GRl3UPSnmIg": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1426 - Underrated Albums - Family Gringo - Tales of Belioform (Full EP 2022)",
+        "FORMAT": "mp3",
+        "NUMBER": 1426,
+        "PUBLISHED_AT": "2022-03-22T17:36:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Family Gringo - Tales of Belioform (Full EP 2022)"
     },
     "GT6Kz1iqdQA": {
         "CHANNEL_NAME": "nyknullad",
@@ -3497,6 +3847,16 @@
         "PUBLISHED_AT": "2018-11-02T19:01:48.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "A-Sun Amissa - Ceremony in the Stillness (Full Album 2018)"
+    },
+    "H76z4JLjHzQ": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1404 - Underrated Albums - W. H. Lung - Vanities (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1404,
+        "PUBLISHED_AT": "2022-02-15T19:54:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "W. H. Lung - Vanities (Full Album 2021)"
     },
     "HEOx9o8pVUg": {
         "CHANNEL_NAME": "nyknullad",
@@ -3769,6 +4129,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Wukah - Fragments (Full EP 2018)"
     },
+    "Il7rMJA02KI": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1413 - Underrated Albums - The Cambodian Space Project - Electric Blue Boogaloo (Full Album 2015)",
+        "FORMAT": "mp3",
+        "NUMBER": 1413,
+        "PUBLISHED_AT": "2022-03-05T09:23:39Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Cambodian Space Project - Electric Blue Boogaloo (Full Album 2015)"
+    },
     "Il825I-ZvkA": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "308 - Underrated Albums - Agusa - Ho\u0308gtid (Full Album 2014)",
@@ -3777,6 +4147,16 @@
         "PUBLISHED_AT": "2017-10-01T19:15:12.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Agusa - H\u00f6gtid (Full Album 2014)"
+    },
+    "J0jZ3tuqIm8": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1367 - Underrated Albums - Your Inner God - Dead Inside (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1367,
+        "PUBLISHED_AT": "2021-11-07T19:24:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Your Inner God - Dead Inside (Full Album 2021)"
     },
     "J84BN3wezh0": {
         "CHANNEL_NAME": "Underrated Albums",
@@ -3939,6 +4319,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Sleeping Pandora - Blue Sphere (Full Album 2018)"
     },
+    "Jlio4Lvtb-g": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1406 - Underrated Albums - Sex in the Black Hole - Bright (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1406,
+        "PUBLISHED_AT": "2022-02-18T18:21:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sex in the Black Hole - Bright (Full Album 2021)"
+    },
     "JlrbUxY_3JU": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "738 - Underrated Albums - Beyond Dawn \u200e\u2013 Frysh (Full Album 2003)",
@@ -4059,6 +4449,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Wren - Auburn Rule (Full Album 2017)"
     },
+    "KKKZNMJNnh8": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1358 - Underrated Albums - Lady Owl - Acid Viking (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1358,
+        "PUBLISHED_AT": "2021-10-18T09:07:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Lady Owl - Acid Viking (Full Album 2021)"
+    },
+    "KOMrUORx93A": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1363 - Underrated Albums - Mass Hysteria Agency - The Run (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1363,
+        "PUBLISHED_AT": "2021-10-29T08:39:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Mass Hysteria Agency - The Run (Full EP 2021)"
+    },
     "KOQVqI62bY4": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "383 - Underrated Albums - Dan Sartain - Century Plaza (Full Album 2016)",
@@ -4170,6 +4580,26 @@
         "PUBLISHED_AT": "2017-06-07T12:03:59.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Black Space Riders - Black Space Riders (Full Album 2010)"
+    },
+    "L0oPXQ2SUmk": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1389 - Underrated Albums - Black Rings Under My Eyes - Unknown Phenomena (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1389,
+        "PUBLISHED_AT": "2022-01-10T19:57:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Black Rings Under My Eyes - Unknown Phenomena (Full Album 2021)"
+    },
+    "L587tEstPWw": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1409 - Underrated Albums - Strefa Niskich Ci\u015bnie\u0144 - Hyperborea (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1409,
+        "PUBLISHED_AT": "2022-02-24T16:29:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Strefa Niskich Ci\u015bnie\u0144 - Hyperborea (Full EP 2021)"
     },
     "L71LRZm79rY": {
         "CHANNEL_NAME": "nyknullad",
@@ -4402,6 +4832,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Voiron - Drill'n'Voiron (Full EP 2020)"
+    },
+    "MJD7EvGdVZI": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1343 - Underrated Albums - River Flows Reverse - When River Flows Reverse (Extra tracks on the D-side of the vinyl 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1343,
+        "PUBLISHED_AT": "2021-09-09T17:29:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "River Flows Reverse - When River Flows Reverse (Extra tracks on the D-side of the vinyl 2021)"
     },
     "MJW2teLyeFw": {
         "CHANNEL_NAME": "nyknullad",
@@ -4855,6 +5295,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Schizoid Stone - You Brought Me Back (Full Album 2018)"
     },
+    "OCEGNtmBIyQ": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1424 - Underrated Albums - Idealus Maximus - Loofbos (Full Album 2022)",
+        "FORMAT": "mp3",
+        "NUMBER": 1424,
+        "PUBLISHED_AT": "2022-03-17T12:39:51Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Idealus Maximus - Loofbos (Full Album 2022)"
+    },
     "OFDfwBYUII8": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "967 - Underrated Albums - Under Nihilo - Tropical_Mall.Exe (Full Album 2019)",
@@ -4997,6 +5447,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Pixel Logic - Threat (Full Album 2021)"
+    },
+    "Os4Te0pPWBo": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1338 - Underrated Albums - Carnation Blue - Cirkus Deville (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1338,
+        "PUBLISHED_AT": "2021-08-29T14:19:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Carnation Blue - Cirkus Deville (Full EP 2021)"
     },
     "OuFJ-zgRlmc": {
         "CHANNEL_NAME": "nyknullad",
@@ -5532,6 +5992,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Inkfields - You forgot the roots (Full EP 2016)"
     },
+    "S6GkHqO9wnk": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1341 - Underrated Albums - Paces Lift & Ben Bounce - Tropikoro (Full Album 2018)",
+        "FORMAT": "mp3",
+        "NUMBER": 1341,
+        "PUBLISHED_AT": "2021-09-05T15:19:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Paces Lift & Ben Bounce - Tropikoro (Full Album 2018)"
+    },
+    "S7fQ3nbC7Do": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1354 - Underrated Albums - Cory Kilduff - All Live & Well (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1354,
+        "PUBLISHED_AT": "2021-10-06T16:47:59Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Cory Kilduff - All Live & Well (Full Album 2021)"
+    },
     "S85tD7snO8E": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "189 - Underrated Albums - Montan\u0303as - Montan\u0303as (Full EP 2014)",
@@ -5717,6 +6197,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Wojciech Golczewski - Reality Check (Full Album 2016)"
     },
+    "T3Nn32M00T8": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1372 - Underrated Albums - fictioncity - Alice Her Highness (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1372,
+        "PUBLISHED_AT": "2021-11-19T16:34:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "fictioncity - Alice Her Highness (Full EP 2021)"
+    },
     "T3SI6VmPvEQ": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "741 - Underrated Albums - The OMY - Sgt\u200b.\u200bBadtrip (Full EP 2018)",
@@ -5726,6 +6216,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "The OMY - Sgt\u200b.\u200bBadtrip (Full EP 2018)"
+    },
+    "T4ma1fqMkjk": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1375 - Underrated Albums - New Today - Together at Last (Full Album 2020)",
+        "FORMAT": "mp3",
+        "NUMBER": 1375,
+        "PUBLISHED_AT": "2021-11-25T19:41:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Today - Together at Last (Full Album 2020)"
     },
     "T5Ma8iJZzIg": {
         "CHANNEL_NAME": "nyknullad",
@@ -5753,6 +6253,16 @@
         "PUBLISHED_AT": "2011-08-05T12:08:25.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Burning Saviours - Hillside Mansion 2007"
+    },
+    "TJYvg5w6pu4": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1392 - Underrated Albums - 5 Hours of Relaxing Psychedelic Space Rock - Quartum Spatium",
+        "FORMAT": "mp3",
+        "NUMBER": 1392,
+        "PUBLISHED_AT": "2022-01-15T13:18:54Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "5 Hours of Relaxing Psychedelic Space Rock - Quartum Spatium"
     },
     "TMG0m_kSlvY": {
         "CHANNEL_NAME": "nyknullad",
@@ -5875,6 +6385,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Far Away From All Of This - Far Away From All Of This (Full Album 2019)"
     },
+    "TkmIQ0YUohw": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1381 - Underrated Albums - Murderbait - Murderbait (Full Album 2019)",
+        "FORMAT": "mp3",
+        "NUMBER": 1381,
+        "PUBLISHED_AT": "2021-12-12T17:42:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Murderbait - Murderbait (Full Album 2019)"
+    },
     "TlZEQH3ZUJw": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "201 - Underrated Albums - Psychedelic Porn Crumpets - High Visceral {Part 1} (Full Album 2016)",
@@ -5950,6 +6470,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Loyds Trip - Loyds Trip (Full EP 2020)"
+    },
+    "U6tiB9xb7GU": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1345 - Underrated Albums - Alpha Mound - Displacement (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1345,
+        "PUBLISHED_AT": "2021-09-12T09:02:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Alpha Mound - Displacement (Full EP 2021)"
     },
     "U7bTXrIQcSg": {
         "CHANNEL_NAME": "nyknullad",
@@ -6183,6 +6713,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Glass Vaults - The New Happy (Full Album 2017)"
     },
+    "VVrdXxPK9wM": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1385 - Underrated Albums - Blue Sky Alive - Piercing the Beautiful Blue Halo (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1385,
+        "PUBLISHED_AT": "2021-12-27T21:44:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Blue Sky Alive - Piercing the Beautiful Blue Halo (Full Album 2021)"
+    },
     "VXICYmFVu9I": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "894 - Underrated Albums - Andreilien - Dimension (Full EP 2019)",
@@ -6300,6 +6840,16 @@
         "PUBLISHED_AT": "2017-01-31T09:28:57.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Purl - Stillpoint (Full Album 2015)"
+    },
+    "VyE5kUdRksc": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1423 - Underrated Albums - The Lost Noise Figure - Alive (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1423,
+        "PUBLISHED_AT": "2022-03-16T19:03:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Lost Noise Figure - Alive (Full Album 2021)"
     },
     "W16D2Fws2Z8": {
         "CHANNEL_NAME": "nyknullad",
@@ -6662,6 +7212,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "KYOTY - Remanufactured Realm of Ancient Annihilation (Full Album 2017)"
     },
+    "Y4BcbE_KX6E": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1350 - Underrated Albums - VILIFY - Illusion of Self (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1350,
+        "PUBLISHED_AT": "2021-09-23T19:19:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "VILIFY - Illusion of Self (Full Album 2021)"
+    },
     "Y69dj7sVmQ0": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "483 - Underrated Albums - Paco Sala - It's Been A Long Time Since I Cared & It Feels Good (Full Album 2018)",
@@ -6996,6 +7556,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Louise Marshall - Juvenile (Full EP 2017)"
     },
+    "ZbKUsAFPOos": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1414 - Underrated Albums - Ecstatic Vision - Sonic Praise (Full Album 2015)",
+        "FORMAT": "mp3",
+        "NUMBER": 1414,
+        "PUBLISHED_AT": "2022-03-06T14:08:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ecstatic Vision - Sonic Praise (Full Album 2015)"
+    },
     "Zcg1hk8avuU": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "330 - Underrated Albums - Francesco De Luca & Alessandro Forti - Crimes - Judicial Decisions (Full Album 2017)",
@@ -7060,6 +7630,36 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "The Broken Islands - Masquerade (Full Album 2020)"
+    },
+    "ZtzhIp8UV5k": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1390 - Underrated Albums - Quartum Spatium\u2060",
+        "FORMAT": "mp3",
+        "NUMBER": 1390,
+        "PUBLISHED_AT": "2022-01-11T17:48:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Quartum Spatium\u2060"
+    },
+    "_604hkX9shw": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1373 - Underrated Albums - Martin Dupont \u200e\u2013 Just Because... (Full Album 1984)",
+        "FORMAT": "mp3",
+        "NUMBER": 1373,
+        "PUBLISHED_AT": "2021-11-21T19:49:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Martin Dupont \u200e\u2013 Just Because... (Full Album 1984)"
+    },
+    "_6HNGbm9vk8": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1351 - Underrated Albums - Son of Ohm - Paradigma (Full Album 2019)",
+        "FORMAT": "mp3",
+        "NUMBER": 1351,
+        "PUBLISHED_AT": "2021-09-25T12:16:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Son of Ohm - Paradigma (Full Album 2019)"
     },
     "_A3N0bV6kac": {
         "CHANNEL_NAME": "nyknullad",
@@ -7272,6 +7872,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "The Setting Son - The Setting Son (Full Album 2007)"
     },
+    "_rjCjjnDM6E": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1376 - Underrated Albums - The Fur - Sonntag (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1376,
+        "PUBLISHED_AT": "2021-11-26T04:00:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Fur - Sonntag (Full Album 2021)"
+    },
     "_rtM1KMZzl8": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "633 - Underrated Albums - Bottenvikens Silverkyrka - Stadskyrkan (Full EP 2018)",
@@ -7412,6 +8022,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Meander - Carbon (Full Album 2012)"
     },
+    "aVkDOtpzMOE": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1421 - Underrated Albums - Reflector - Echo Colonnade (Full Album 2020)",
+        "FORMAT": "mp3",
+        "NUMBER": 1421,
+        "PUBLISHED_AT": "2022-03-13T17:00:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Reflector - Echo Colonnade (Full Album 2020)"
+    },
     "aZ31jsqza7s": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "479 - Underrated Albums - Stalker - M\u200b.D.\u200bK (Full Album 2018)",
@@ -7551,6 +8171,16 @@
         "PUBLISHED_AT": "2017-10-13T16:58:59.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "\u00c5 - \u00c5nyo (Full Album 2017)"
+    },
+    "bPu9XqfsEkI": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1347 - Underrated Albums - ATOMIC SIMAO - Levitation Loom Four (Full Album 2018)",
+        "FORMAT": "mp3",
+        "NUMBER": 1347,
+        "PUBLISHED_AT": "2021-09-16T16:05:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ATOMIC SIMAO - Levitation Loom Four (Full Album 2018)"
     },
     "b__0An2pHbo": {
         "CHANNEL_NAME": "nyknullad",
@@ -7714,6 +8344,16 @@
         "PUBLISHED_AT": "2019-01-26T00:55:44.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Jamie Paton - Disk Memories (Full EP 2019)"
+    },
+    "c8oStpOjpaw": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1412 - Underrated Albums - BALTHVS - Cause & Effect (Full Album 2022)",
+        "FORMAT": "mp3",
+        "NUMBER": 1412,
+        "PUBLISHED_AT": "2022-03-04T07:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BALTHVS - Cause & Effect (Full Album 2022)"
     },
     "cI3BnaFwSic": {
         "CHANNEL_NAME": "nyknullad",
@@ -8222,6 +8862,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Halma - Broad Peak (Full Album 2008)"
     },
+    "ecEdPZdkn-g": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1369 - Underrated Albums - Matador - The Surge (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1369,
+        "PUBLISHED_AT": "2021-11-12T16:36:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Matador - The Surge (Full EP 2021)"
+    },
     "egiC_u8e2k0": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "1263 - Underrated Albums - K A O U E N N - Mirages (Full Album 2021)",
@@ -8298,6 +8948,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "The Low Frequency in Stereo - The Low Frequency in Stereo (Full Album 2003)"
     },
+    "fJhVuZNMF4w": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1342 - Underrated Albums - Sleeping Pandora - Atmosphere (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1342,
+        "PUBLISHED_AT": "2021-09-06T18:11:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sleeping Pandora - Atmosphere (Full Album 2021)"
+    },
+    "fK1k6MtHCJw": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1401 - Underrated Albums - James Wilsey \u2013 El Dorado (Full Album 2008)",
+        "FORMAT": "mp3",
+        "NUMBER": 1401,
+        "PUBLISHED_AT": "2022-02-10T18:50:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "James Wilsey \u2013 El Dorado (Full Album 2008)"
+    },
     "fMV1LfGuqvI": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "916 - Underrated Albums - AFAR - music from afar (Full Album 2019)",
@@ -8306,6 +8976,16 @@
         "PUBLISHED_AT": "2019-09-13T19:11:13.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "AFAR - music from afar (Full Album 2019)"
+    },
+    "fP-NSs0Ko1k": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1395 - Underrated Albums - Lastryko - Sesje (Full Album 2022)",
+        "FORMAT": "mp3",
+        "NUMBER": 1395,
+        "PUBLISHED_AT": "2022-01-25T19:33:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Lastryko - Sesje (Full Album 2022)"
     },
     "fRCu3oeB0v8": {
         "CHANNEL_NAME": "Underrated Albums",
@@ -8466,6 +9146,16 @@
         "PUBLISHED_AT": "2019-06-12T22:04:25.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Man And Robot Society - Robosapien (Full Album 2019)"
+    },
+    "g2oMcCM2oTw": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1420 - Underrated Albums - ATOMIC SIMAO - N\u014ddo (Full Album 2013)",
+        "FORMAT": "mp3",
+        "NUMBER": 1420,
+        "PUBLISHED_AT": "2022-03-12T17:00:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ATOMIC SIMAO - N\u014ddo (Full Album 2013)"
     },
     "g3-tCUt9XaY": {
         "CHANNEL_NAME": "nyknullad",
@@ -8970,6 +9660,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Foxtrot Sierra & His Uniforms - Fender Hobo Lounge (Full Album 2015)"
     },
+    "i3_CoT3QK1U": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1359 - Underrated Albums - Black Willows - Shemurah (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1359,
+        "PUBLISHED_AT": "2021-10-21T05:28:57Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Black Willows - Shemurah (Full Album 2021)"
+    },
+    "i8QN_fNZ_bs": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1356 - Underrated Albums - Small Town Life - Common Grey (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1356,
+        "PUBLISHED_AT": "2021-10-13T17:37:29Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Small Town Life - Common Grey (Full Album 2021)"
+    },
     "i8b_Aydg6fE": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "305 - Underrated Albums - Pershagen - Silverarken (Full EP 2015)",
@@ -9036,6 +9746,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Moribund Mantras - Into Nothingness (Full Album 2017)"
     },
+    "iQFjIfTr024": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1334 - Underrated Albums - Pharaoh Overlord - 6 (Full Album 2020)",
+        "FORMAT": "mp3",
+        "NUMBER": 1334,
+        "PUBLISHED_AT": "2021-08-19T16:16:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Pharaoh Overlord - 6 (Full Album 2020)"
+    },
     "iScKhl_2DK0": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "783 - Underrated Albums - V E U S K E M I N I \u96c4 \u5fd7 - MiND S33D (Full Album 2019)",
@@ -9063,6 +9783,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Espectrostatic - Espectrostatic (Full Album 2013)"
+    },
+    "iUl8XXPaE2I": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1388 - Underrated Albums - Saimaa - Urheilu-Suomi (Full Album 2017)",
+        "FORMAT": "mp3",
+        "NUMBER": 1388,
+        "PUBLISHED_AT": "2022-01-06T12:54:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Saimaa - Urheilu-Suomi (Full Album 2017)"
     },
     "iXitHdune3Y": {
         "CHANNEL_NAME": "nyknullad",
@@ -9130,6 +9860,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "5 Hours of Relaxing Psychedelic Space Rock (I had to mute a few tracks)"
+    },
+    "iyLb6W0oi3I": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1383 - Underrated Albums - tunnelmental - t\u200b.\u200be\u200b.\u200ba. dance vol\u200b_\u200b1. (Full Album 2013)",
+        "FORMAT": "mp3",
+        "NUMBER": 1383,
+        "PUBLISHED_AT": "2021-12-17T19:37:43Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "tunnelmental - t\u200b.\u200be\u200b.\u200ba. dance vol\u200b:\u200b1. (Full Album 2013)"
     },
     "j-kApTBIaBU": {
         "CHANNEL_NAME": "Underrated Albums",
@@ -9277,6 +10017,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Josh Mack - The Giant Killer (Full Album 2019)"
+    },
+    "jtTqSURjpKA": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1348 - Underrated Albums - Million Hollers - Once upon a whiskey (Full EP 2015)",
+        "FORMAT": "mp3",
+        "NUMBER": 1348,
+        "PUBLISHED_AT": "2021-09-19T15:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Million Hollers - Once upon a whiskey (Full EP 2015)"
     },
     "juRjT-tRcqw": {
         "CHANNEL_NAME": "nyknullad",
@@ -9495,6 +10245,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Firtan - Niedergang (Full Album 2014)"
+    },
+    "lLIs1XKExiU": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1365 - Underrated Albums - John Str\u00f6mshed - Absint (Full Album 2016)",
+        "FORMAT": "mp3",
+        "NUMBER": 1365,
+        "PUBLISHED_AT": "2021-11-04T20:19:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "John Str\u00f6mshed - Absint (Full Album 2016)"
     },
     "lLK-IVBoxlA": {
         "CHANNEL_NAME": "nyknullad",
@@ -9902,6 +10662,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Picaporters - Elefantes (Full Album 2013, remastered 2018)"
     },
+    "n6E2Pl1rl-M": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1368 - Underrated Albums - R00 - Liminal (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1368,
+        "PUBLISHED_AT": "2021-11-11T17:35:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "R00 - Liminal (Full Album 2021)"
+    },
+    "n7yZQweiHmk": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1360 - Underrated Albums - Melody Fields - Melody Fields (Full Album 2018)",
+        "FORMAT": "mp3",
+        "NUMBER": 1360,
+        "PUBLISHED_AT": "2021-10-26T12:36:42Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Melody Fields - Melody Fields (Full Album 2018)"
+    },
     "nIR2Qdg8_hA": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "172 - Underrated Albums - Riddarna - Under Jorden (Full Album 2014)",
@@ -10021,6 +10801,16 @@
         "PUBLISHED_AT": "2011-01-15T14:17:47.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Pure Hell - I Feel Bad 1978"
+    },
+    "o165FFSKoTg": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1419 - Underrated Albums - \u041a\u0430\u0442 - \u042d\u0442\u043e \u0421\u043b\u0443\u0447\u0438\u0442\u0441\u044f \u0441 \u0422\u043e\u0431\u043e\u0439 (Full Album 2019)",
+        "FORMAT": "mp3",
+        "NUMBER": 1419,
+        "PUBLISHED_AT": "2022-03-11T17:00:37Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u041a\u0430\u0442 - \u042d\u0442\u043e \u0421\u043b\u0443\u0447\u0438\u0442\u0441\u044f \u0441 \u0422\u043e\u0431\u043e\u0439 (Full Album 2019)"
     },
     "o2DNn2iYPWM": {
         "CHANNEL_NAME": "Underrated Albums",
@@ -10145,6 +10935,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Steve Greene - Distant Transmissions- Kona, Hawaii (Full Album 2019)"
     },
+    "oghULZUzACQ": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1366 - Underrated Albums - Null-O Band - Ghost Armada, Chapter I (Full EP (2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1366,
+        "PUBLISHED_AT": "2021-11-06T12:36:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Null-O Band - Ghost Armada, Chapter I (Full EP (2021)"
+    },
     "omcuQKDNiwA": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "525 - Underrated Albums - Resinator - Heavy Machinery (Full Album 2018)",
@@ -10190,6 +10990,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "5 Hours of Relaxing Psychedelic Space Rock - Travel Dos"
+    },
+    "orur1cDNVVw": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1380 - Underrated Albums - Burgundy Grapes - Short Stories, Lasting Shadows (Full Album 2017)",
+        "FORMAT": "mp3",
+        "NUMBER": 1380,
+        "PUBLISHED_AT": "2021-12-10T14:22:52Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Burgundy Grapes - Short Stories, Lasting Shadows (Full Album 2017)"
     },
     "oxi_D5kK5wA": {
         "CHANNEL_NAME": "Underrated Albums",
@@ -10303,6 +11113,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Little Albert - Swamp King (Full Album 2020)"
+    },
+    "pUWztpEiKZo": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1382 - Underrated Albums - D\u00f6dens Dal - P\u00e5 natten, ovan molnen (Full Album 2016)",
+        "FORMAT": "mp3",
+        "NUMBER": 1382,
+        "PUBLISHED_AT": "2021-12-13T20:54:50Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "D\u00f6dens Dal - P\u00e5 natten, ovan molnen (Full Album 2016)"
     },
     "pUhHYUjOFHI": {
         "CHANNEL_NAME": "nyknullad",
@@ -10426,6 +11246,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Absolute Valentine - Omega (Full Album 2019)"
     },
+    "qTgq1rx9b44": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1425 - Underrated Albums - Madu - From the Elders\u2019 Yard (Full Album 2011)",
+        "FORMAT": "mp3",
+        "NUMBER": 1425,
+        "PUBLISHED_AT": "2022-03-20T09:45:50Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Madu - From the Elders\u2019 Yard (Full Album 2011)"
+    },
     "qVsqgdt4Aa8": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "1231 - Underrated Albums - Handspan - The Dark is Rising (Full Album 2019)",
@@ -10483,6 +11313,16 @@
         "PUBLISHED_AT": "2018-07-04T18:05:42.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Silo \u200e\u2013 Alloy (Full Album 2001)"
+    },
+    "qcJmE_g_Qmc": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1362 - Underrated Albums - El Supremo - Clarity Through Distortion (Full Album 2019)",
+        "FORMAT": "mp3",
+        "NUMBER": 1362,
+        "PUBLISHED_AT": "2021-10-28T10:23:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "El Supremo - Clarity Through Distortion (Full Album 2019)"
     },
     "qcpmtd-baKU": {
         "CHANNEL_NAME": "nyknullad",
@@ -10709,6 +11549,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Dub Mars - Wonder Is The Dearest Child Of Faith (Full Album 2018)"
     },
+    "rzRPgkDgshU": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1346 - Underrated Albums - Anoice - The Hidden Forest (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1346,
+        "PUBLISHED_AT": "2021-09-14T15:08:52Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Anoice - The Hidden Forest (Full Album 2021)"
+    },
     "s25QpEW8znc": {
         "CHANNEL_NAME": "Underrated Albums",
         "FILE_NAME": "1132 - Underrated Albums - Zero Cult - Usual Unusual (Full Album 2020)",
@@ -10823,6 +11673,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Symmetria -  Since 1959 (Full Album 2016)"
+    },
+    "seQV0jqKzR0": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1427 - Underrated Albums - Chicagojazzen - V\u00e4gra i sten (Full Album 2020)",
+        "FORMAT": "mp3",
+        "NUMBER": 1427,
+        "PUBLISHED_AT": "2022-03-24T13:24:36Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chicagojazzen - V\u00e4gra i sten (Full Album 2020)"
     },
     "seSAGtgMhUE": {
         "CHANNEL_NAME": "Underrated Albums",
@@ -10992,6 +11852,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "MantisMash - Inspectral (Full Album 2019)"
     },
+    "tJKzF5E5vFc": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1352 - Underrated Albums - Neu Sierra - Sulphur and Molasses (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1352,
+        "PUBLISHED_AT": "2021-09-30T16:20:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Neu Sierra - Sulphur and Molasses (Full EP 2021)"
+    },
     "tLGK9U040zo": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "454 - Underrated Albums - SOON.",
@@ -11000,6 +11870,16 @@
         "PUBLISHED_AT": "2018-03-22T16:48:57.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "SOON."
+    },
+    "tMzItmIJCAc": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1387 - Underrated Albums - Wudewuse - Northern Gothic (Full Album 2020)",
+        "FORMAT": "mp3",
+        "NUMBER": 1387,
+        "PUBLISHED_AT": "2021-12-31T11:03:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Wudewuse - Northern Gothic (Full Album 2020)"
     },
     "tNWrEHpxBLo": {
         "CHANNEL_NAME": "nyknullad",
@@ -11313,6 +12193,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Agusa - Agusa (Full Album 2017)"
     },
+    "up77Xq5_vIs": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1344 - Underrated Albums - Libertree - Catch You On The Flip Side (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1344,
+        "PUBLISHED_AT": "2021-09-11T10:37:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Libertree - Catch You On The Flip Side (Full Album 2021)"
+    },
     "uq4z5pwNWLI": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "882 - Underrated Albums - Worthless - All My Friends Are Stone (Full Album 2015)",
@@ -11460,6 +12350,16 @@
         "PUBLISHED_AT": "2019-02-22T21:07:08.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "PORQUES\u00cd - PORQUES\u00cd (Full Album 2013)"
+    },
+    "vHlZh-RIjxE": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1405 - Underrated Albums - Somma - Fall (Full Album 2010)",
+        "FORMAT": "mp3",
+        "NUMBER": 1405,
+        "PUBLISHED_AT": "2022-02-17T16:40:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Somma - Fall (Full Album 2010)"
     },
     "vIcRu3tfHA8": {
         "CHANNEL_NAME": "Underrated Albums",
@@ -11609,6 +12509,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Mallee Songs - Suburban Horse (Full Album 2018)"
     },
+    "wJ9kLFqnim8": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1357 - Underrated Albums - QOYA - Y\u014dkai (Full Album 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1357,
+        "PUBLISHED_AT": "2021-10-14T21:08:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "QOYA - Y\u014dkai (Full Album 2021)"
+    },
     "wLfmKD7RX_k": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "789 - Underrated Albums - Jakspin - Zodiax I (Full EP 2019 )",
@@ -11617,6 +12527,16 @@
         "PUBLISHED_AT": "2019-04-24T06:53:12.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Jakspin - Zodiax I (Full EP 2019 )"
+    },
+    "wM3JPVVkTPE": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1361 - Underrated Albums - IPANAZAR - Repressed Memory Foam (Full EP 2021)",
+        "FORMAT": "mp3",
+        "NUMBER": 1361,
+        "PUBLISHED_AT": "2021-10-27T10:40:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "IPANAZAR - Repressed Memory Foam (Full EP 2021)"
     },
     "wNok5dLVlSo": {
         "CHANNEL_NAME": "nyknullad",
@@ -11802,6 +12722,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Rangers - Session Man (Full Album 2014)"
     },
+    "xWdTO06aDWM": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1364 - Underrated Albums - elitefitrea - Lethe (Full Album 2019)",
+        "FORMAT": "mp3",
+        "NUMBER": 1364,
+        "PUBLISHED_AT": "2021-11-01T20:10:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "elitefitrea - Lethe (Full Album 2019)"
+    },
     "xWfgHp05Q2o": {
         "CHANNEL_NAME": "nyknullad",
         "FILE_NAME": "218 - Underrated Albums - SvartePan - Nattvandring (Full Album 2004)",
@@ -11875,6 +12805,16 @@
         "PUBLISHED_AT": "2019-03-02T13:00:04.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "SURGE - Tales from a Lost Universe - Part I (Full Album 2019)"
+    },
+    "xumy272ll8U": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1336 - Underrated Albums - Ancient Sky - Mosaic (Full Album 2015)",
+        "FORMAT": "mp3",
+        "NUMBER": 1336,
+        "PUBLISHED_AT": "2021-08-23T18:20:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ancient Sky - Mosaic (Full Album 2015)"
     },
     "xxw3DeCuojw": {
         "CHANNEL_NAME": "Underrated Albums",
@@ -11988,6 +12928,16 @@
         "PUBLISHED_AT": "2017-04-21T22:00:22.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Flowers Must Die - Second (Full Album 2011)"
+    },
+    "yIp_oPxanBs": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1410 - Underrated Albums - hoovaranas - Alvorada (Full Album 2022)",
+        "FORMAT": "mp3",
+        "NUMBER": 1410,
+        "PUBLISHED_AT": "2022-02-28T19:10:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "hoovaranas - Alvorada (Full Album 2022)"
     },
     "yPU2bmf5tco": {
         "CHANNEL_NAME": "nyknullad",
@@ -12137,6 +13087,16 @@
         "PUBLISHED_AT": "2019-10-14T14:30:38.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Scratches - Rundown (Full Album 2019)"
+    },
+    "ysghHC9KVog": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1398 - Underrated Albums - Skymningslandet - Skymningslandet (Full Album 2015)",
+        "FORMAT": "mp3",
+        "NUMBER": 1398,
+        "PUBLISHED_AT": "2022-01-31T17:07:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Skymningslandet - Skymningslandet (Full Album 2015)"
     },
     "ytdqmsnQPYw": {
         "CHANNEL_NAME": "nyknullad",
@@ -12315,6 +13275,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
         "STATUS": "DOWNLOADED",
         "TITLE": "Kungens M\u00e4n - Trappmusik (Full Album 2020)"
+    },
+    "z_cie6v3thU": {
+        "CHANNEL_NAME": "Underrated Albums",
+        "FILE_NAME": "1339 - Underrated Albums - Lips and Ribs - Battle in Nagoya (Full Album 2007)",
+        "FORMAT": "mp3",
+        "NUMBER": 1339,
+        "PUBLISHED_AT": "2021-09-02T14:39:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\nyknullad",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Lips and Ribs - Battle in Nagoya (Full Album 2007)"
     },
     "zdk6ya178Ac": {
         "CHANNEL_NAME": "nyknullad",

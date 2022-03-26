@@ -125,6 +125,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Hummingbird Aerodynamics- High Speed Video - Smarter Every Day 27"
     },
+    "1_hFKRDDP_o": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "346 - SmarterEveryDay - How Carburetors are Made (Basically Magic) - Holley Factory Tour _ Smarter Every Day 261",
+        "FORMAT": "mkv",
+        "NUMBER": 346,
+        "PUBLISHED_AT": "2021-08-21T04:33:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Carburetors are Made (Basically Magic) - Holley Factory Tour | Smarter Every Day 261"
+    },
     "1v4TEX2erog": {
         "CHANNEL_NAME": "SmarterEveryDay",
         "FILE_NAME": "137 - SmarterEveryDay - The Physics of Slingshots 2 _ Smarter Every Day 57",
@@ -207,6 +217,16 @@
         "PUBLISHED_AT": "2011-04-24T09:54:42.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Detonation vs Deflagration - Smarter Every Day 1"
+    },
+    "4P8fKd0IVOs": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "347 - SmarterEveryDay - How Does The James Webb Space Telescope Work_ - Smarter Every Day 262",
+        "FORMAT": "mkv",
+        "NUMBER": 347,
+        "PUBLISHED_AT": "2021-10-01T05:15:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does The James Webb Space Telescope Work? - Smarter Every Day 262"
     },
     "4aS45u_K_T8": {
         "CHANNEL_NAME": "SmarterEveryDay",
@@ -825,6 +845,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "WE SPENT $78,000 OF YOUR MONEY in Peru - Smarter Every Day 126"
     },
+    "HQKy1KJpSVc": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "356 - SmarterEveryDay - How Does Kodak Make Film_ (Kodak Factory Tour Part 1 of 3) - Smarter Every Day 271",
+        "FORMAT": "mkv",
+        "NUMBER": 356,
+        "PUBLISHED_AT": "2022-03-19T14:02:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "How Does Kodak Make Film? (Kodak Factory Tour Part 1 of 3) - Smarter Every Day 271"
+    },
     "Hf273uCVHvE": {
         "CHANNEL_NAME": "SmarterEveryDay",
         "FILE_NAME": "12 - SmarterEveryDay - I built a wall - Time Lapse",
@@ -969,6 +999,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "The WALKING WATER Mystery (in SPACE and SLOW MOTION!) - Smarter Every Day 160"
     },
+    "KMtrY6lbjcY": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "348 - SmarterEveryDay - Is Your Privacy An Illusion_ (Taking on Big Tech) - Smarter Every Day 263",
+        "FORMAT": "mkv",
+        "NUMBER": 348,
+        "PUBLISHED_AT": "2021-10-21T14:37:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Is Your Privacy An Illusion? (Taking on Big Tech) - Smarter Every Day 263"
+    },
     "KSzuiqVjJg4": {
         "CHANNEL_NAME": "SmarterEveryDay",
         "FILE_NAME": "218 - SmarterEveryDay - 7 HOLES in the Space Station - Smarter Every Day 135",
@@ -995,6 +1035,16 @@
         "PUBLISHED_AT": "2015-01-19T15:25:08.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Facebook Freebooting - Smarter Every Day 128"
+    },
+    "L9a-yhJO0Mw": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "354 - SmarterEveryDay - We built an orphanage (I'm including YOU in the _we_) - Smarter Every Day 269",
+        "FORMAT": "mkv",
+        "NUMBER": 354,
+        "PUBLISHED_AT": "2022-02-25T18:43:39Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "We built an orphanage (I'm including YOU in the \"we\") - Smarter Every Day 269"
     },
     "LE2v3sUzTH4": {
         "CHANNEL_NAME": "SmarterEveryDay",
@@ -1304,6 +1354,16 @@
         "PUBLISHED_AT": "2015-07-01T04:54:48.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "SpaceX-PLOSIONS: Why It Matters - Smarter Every Day 138"
+    },
+    "Pu97IiO_yDI": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "355 - SmarterEveryDay - Why Are there Holes in the James Webb Sunshield_ (Explained by My Dad) - Smarter Every Day 270",
+        "FORMAT": "mkv",
+        "NUMBER": 355,
+        "PUBLISHED_AT": "2022-03-01T05:28:36Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why Are there Holes in the James Webb Sunshield? (Explained by My Dad) - Smarter Every Day 270"
     },
     "Q-1DoJMehQM": {
         "CHANNEL_NAME": "SmarterEveryDay",
@@ -1781,6 +1841,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Lighting Cigarette with a Laser - LASER MONTH - Smarter Every Day 37"
     },
+    "ZVaUoyabjAg": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "351 - SmarterEveryDay - YouTube is Changing - Smarter Every Day 266",
+        "FORMAT": "mkv",
+        "NUMBER": 351,
+        "PUBLISHED_AT": "2021-12-01T14:00:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "YouTube is Changing - Smarter Every Day 266"
+    },
     "ZauGjgZ0rBQ": {
         "CHANNEL_NAME": "SmarterEveryDay",
         "FILE_NAME": "97 - SmarterEveryDay - Vortex Shedding - Smarter Every Day 23",
@@ -1945,6 +2015,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
         "STATUS": "DOWNLOADED",
         "TITLE": "How to Fight Fire or Flooding on a Nuclear Submarine - Smarter Every Day 244"
+    },
+    "aoXJfuPaFF8": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "353 - SmarterEveryDay - Why This Zig-Zag Coast Guard Search Pattern is Actually Genius - Smarter Every Day 268",
+        "FORMAT": "mkv",
+        "NUMBER": 353,
+        "PUBLISHED_AT": "2022-01-18T15:36:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Why This Zig-Zag Coast Guard Search Pattern is Actually Genius - Smarter Every Day 268"
+    },
+    "at-xZA5U1ps": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "352 - SmarterEveryDay - What does a Gong Sound Like when Hit with a 1189mph Baseball_ - Smarter Every Day 267",
+        "FORMAT": "mkv",
+        "NUMBER": 352,
+        "PUBLISHED_AT": "2021-12-07T15:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "What does a Gong Sound Like when Hit with a 1189mph Baseball? - Smarter Every Day 267"
     },
     "aw8kRZEvh_s": {
         "CHANNEL_NAME": "SmarterEveryDay",
@@ -2146,6 +2236,16 @@
         "PUBLISHED_AT": "2012-02-20T17:00:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Perfect Muzzle Flash Photos - Smarter Every Day 43"
+    },
+    "fU_pilTk624": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "350 - SmarterEveryDay - Inside The US COAST GUARD (Command Center) - Smarter Every Day 265",
+        "FORMAT": "mkv",
+        "NUMBER": 350,
+        "PUBLISHED_AT": "2021-11-16T02:46:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Inside The US COAST GUARD (Command Center) - Smarter Every Day 265"
     },
     "flmkQZvN_g8": {
         "CHANNEL_NAME": "SmarterEveryDay",
@@ -2637,6 +2737,16 @@
         "PUBLISHED_AT": "2012-06-06T08:04:33.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Know the Law - Smarter Every Day 8"
+    },
+    "pAOCiNhQW2Y": {
+        "CHANNEL_NAME": "SmarterEveryDay",
+        "FILE_NAME": "349 - SmarterEveryDay - 1,074 MPH BASEBALL vs. 1 Gallon of Mayonnaise - Smarter Every Day 264",
+        "FORMAT": "mkv",
+        "NUMBER": 349,
+        "PUBLISHED_AT": "2021-10-28T14:15:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\SmarterEveryDay",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "1,074 MPH BASEBALL vs. 1 Gallon of Mayonnaise - Smarter Every Day 264"
     },
     "pHXkX05EC5U": {
         "CHANNEL_NAME": "SmarterEveryDay",

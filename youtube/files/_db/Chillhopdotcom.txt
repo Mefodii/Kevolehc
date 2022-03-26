@@ -358,6 +358,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Melodiesinfonie - Meditation on God"
     },
+    "3oHhEx7voLs": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "600 - Chillhop Music - Chillhop Spotlight \u2022 Best of L\u2019ind\u00e9cis \u2600\ufe0f [jazz hiphop mix]",
+        "FORMAT": "mp3",
+        "NUMBER": 600,
+        "PUBLISHED_AT": "2021-09-06T16:01:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chillhop Spotlight \u2022 Best of L\u2019ind\u00e9cis \u2600\ufe0f [jazz hiphop mix]"
+    },
     "3vsWKdSETJE": {
         "CHANNEL_NAME": "Chillhop Music",
         "FILE_NAME": "174 - Chillhop Music - idealism - midnight, somewhere",
@@ -486,6 +496,16 @@
         "PUBLISHED_AT": "2014-11-03T15:29:55.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Monday Chill #1 [Chillhop \u02e3 L'ind\u00e9cis]"
+    },
+    "5GD3OZ-jBmU": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "617 - Chillhop Music - Chillhop x OlliOlli World \ud83c\udfae [songs to skate to _ gaming beats] \ud83d\udef9",
+        "FORMAT": "mp3",
+        "NUMBER": 617,
+        "PUBLISHED_AT": "2022-02-13T16:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chillhop x OlliOlli World \ud83c\udfae [songs to skate to / gaming beats] \ud83d\udef9"
     },
     "5ciUQmQc7T8": {
         "CHANNEL_NAME": "Chillhop Music",
@@ -700,6 +720,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
         "STATUS": "DOWNLOADED",
         "TITLE": "Misha x Jussi Halme - Bliss [chill lofi beats]"
+    },
+    "7esGjrm2WAI": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "602 - Chillhop Music - Delayde & anybodyy - Inside a Saltwater Room \ud83d\udc20 [chill hiphop beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 602,
+        "PUBLISHED_AT": "2021-09-22T15:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Delayde & anybodyy - Inside a Saltwater Room \ud83d\udc20 [chill hiphop beats]"
     },
     "7ouubw5lY00": {
         "CHANNEL_NAME": "Chillhop Music",
@@ -967,6 +997,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dontcry x Nokiaa - Stray [chill & lo-fi beats]"
+    },
+    "A2JmGBbRrQQ": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "610 - Chillhop Music - \u26c4\ufe0f Chillhop Essentials \u00b7 Winter 2021 [cozy beats & jazz hiphop]",
+        "FORMAT": "mp3",
+        "NUMBER": 610,
+        "PUBLISHED_AT": "2021-12-01T16:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u26c4\ufe0f Chillhop Essentials \u00b7 Winter 2021 [cozy beats & jazz hiphop]"
     },
     "A4K02FSYjsA": {
         "CHANNEL_NAME": "Chillhop Music",
@@ -1242,6 +1282,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "jinsang. - slumpin"
     },
+    "DMPh9U1CaYc": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "601 - Chillhop Music - \ud83c\udf42 Chillhop Essentials \u00b7 Fall 2021 [chill beats & jazz hiphop]",
+        "FORMAT": "mp3",
+        "NUMBER": 601,
+        "PUBLISHED_AT": "2021-09-15T15:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\ud83c\udf42 Chillhop Essentials \u00b7 Fall 2021 [chill beats & jazz hiphop]"
+    },
     "DPGGCPl16aM": {
         "CHANNEL_NAME": "Chillhop Music",
         "FILE_NAME": "160 - Chillhop Music - [Aftermovie] Chillhop City Nights_ Paris",
@@ -1466,6 +1516,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Harris Cole - Rain, Pt. 2"
     },
+    "Fd_LPjo15j4": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "618 - Chillhop Music - Field Studies Vol. 1 \ud83c\udf33 Chillhop x Friends of Friends [lofi beats _ folk _ vocal]",
+        "FORMAT": "mp3",
+        "NUMBER": 618,
+        "PUBLISHED_AT": "2022-02-16T20:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Field Studies Vol. 1 \ud83c\udf33 Chillhop x Friends of Friends [lofi beats / folk / vocal]"
+    },
     "FehsWQJTDJM": {
         "CHANNEL_NAME": "Chillhop Music",
         "FILE_NAME": "533 - Chillhop Music - \ud83c\udf41 Chillhop Essentials Fall 2020 - chill instrumental beats",
@@ -1622,6 +1682,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Psalm Trees x Guillaume Muschalle - Clocks Forward"
     },
+    "HGS5uDD-HOE": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "615 - Chillhop Music - It\u2019s happening.",
+        "FORMAT": "mp3",
+        "NUMBER": 615,
+        "PUBLISHED_AT": "2022-01-18T18:23:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "It\u2019s happening."
+    },
     "HIlHL1y8GZI": {
         "CHANNEL_NAME": "Chillhop Music",
         "FILE_NAME": "90 - Chillhop Music - Kreambeat - Moves [Chillhop Records]",
@@ -1639,6 +1709,16 @@
         "PUBLISHED_AT": "2018-03-21T15:34:55.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "\ud83c\udf38 Chillhop Essentials Spring 2018 \u2022 beats & lofi hiphop"
+    },
+    "HYnUUuQ9BTQ": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "606 - Chillhop Music - Sleepy Fish - Like the Sky, or Something Else \ud83d\udc1f [lofi hiphop beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 606,
+        "PUBLISHED_AT": "2021-10-20T15:21:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sleepy Fish - Like the Sky, or Something Else \ud83d\udc1f [lofi hiphop beats]"
     },
     "Hc3BirU4tcE": {
         "CHANNEL_NAME": "Chillhop Music",
@@ -1981,6 +2061,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Bonus Points - Shaken, Not Stirred [Chillhop Records]"
     },
+    "LMqi0yyXFAw": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "607 - Chillhop Music - Aviino - Cocoon \u2614\ufe0f [lofi hip hop _ cozy beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 607,
+        "PUBLISHED_AT": "2021-10-27T15:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Aviino - Cocoon \u2614\ufe0f [lofi hip hop / cozy beats]"
+    },
     "LWu0wtFXON4": {
         "CHANNEL_NAME": "Chillhop Music",
         "FILE_NAME": "228 - Chillhop Music - Ruck P - Destination",
@@ -2244,6 +2334,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Philanthrope x Sleepy Fish - Away With the Fairies"
     },
+    "O66Vsq7bdQg": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "619 - Chillhop Music - \ud83c\udf31  Chillhop Essentials \u00b7 Spring 2022 [lofi hiphop _ chill relaxing beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 619,
+        "PUBLISHED_AT": "2022-03-16T20:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\ud83c\udf31  Chillhop Essentials \u00b7 Spring 2022 [lofi hiphop / chill relaxing beats]"
+    },
     "O7cWSVzCEJo": {
         "CHANNEL_NAME": "Chillhop Music",
         "FILE_NAME": "525 - Chillhop Music - Sw\u00f8rn - Reflection [chill lofi instrumental beats]",
@@ -2298,6 +2398,26 @@
         "PUBLISHED_AT": "2016-12-09T16:59:39.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Harris Cole - Girls"
+    },
+    "Ot6d3l9r-Lk": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "609 - Chillhop Music - Endless Sunday 3 \u2615\ufe0f [lofi jazz beats _ instrumental hip hop]",
+        "FORMAT": "mp3",
+        "NUMBER": 609,
+        "PUBLISHED_AT": "2021-11-21T16:00:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Endless Sunday 3 \u2615\ufe0f [lofi jazz beats / instrumental hip hop]"
+    },
+    "OyyD0QKxTU4": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "612 - Chillhop Music - Chillhop Yearmix 2021 \ud83c\udf15 jazz beats & lofi hip hop",
+        "FORMAT": "mp3",
+        "NUMBER": 612,
+        "PUBLISHED_AT": "2021-12-26T16:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chillhop Yearmix 2021 \ud83c\udf15 jazz beats & lofi hip hop"
     },
     "P1xgeOJX-9U": {
         "CHANNEL_NAME": "Chillhop Music",
@@ -2778,6 +2898,16 @@
         "PUBLISHED_AT": "2019-08-07T16:28:14.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Beats to swim/tan to.. \u2600\ufe0f"
+    },
+    "W1dDwh35APU": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "611 - Chillhop Music - Parkbench Epiphany - Antimidas \u269c\ufe0f [chill instrumental beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 611,
+        "PUBLISHED_AT": "2021-12-15T16:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Parkbench Epiphany - Antimidas \u269c\ufe0f [chill instrumental beats]"
     },
     "WBYsMkyoS58": {
         "CHANNEL_NAME": "Chillhop Music",
@@ -3326,6 +3456,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "L'ind\u00e9cis - Yoru \u591c"
     },
+    "bHy2OtNMfvQ": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "616 - Chillhop Music - Seasons Change \u2744\ufe0f Essentials Warm-Up Mix [Cozy Lofi Beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 616,
+        "PUBLISHED_AT": "2022-01-24T16:00:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Seasons Change \u2744\ufe0f Essentials Warm-Up Mix [Cozy Lofi Beats]"
+    },
     "bQzIQa5YKvw": {
         "CHANNEL_NAME": "Chillhop Music",
         "FILE_NAME": "420 - Chillhop Music - Chill Study Beats 6  \u2022 instrumental hip hop mix [2019]",
@@ -3388,6 +3528,16 @@
         "PUBLISHED_AT": "2018-05-09T17:11:47.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Robot Orchestra - Thinking of You"
+    },
+    "bysv6nD0O90": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "598 - Chillhop Music - \ud83d\udcdd Middle School - Passing Notes [lofi hip hop_study beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 598,
+        "PUBLISHED_AT": "2021-08-18T15:00:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\ud83d\udcdd Middle School - Passing Notes [lofi hip hop/study beats]"
     },
     "c40i8KBos3o": {
         "CHANNEL_NAME": "Chillhop Music",
@@ -3500,6 +3650,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "L'ind\u00e9cis - Keep On [Chillhop Essentials Spring 2020]"
     },
+    "dTtSehdzSus": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "608 - Chillhop Music - Philanthrope & mommy - Invisible \ud83d\udd26 [Chillhop _ lofi hip hop]",
+        "FORMAT": "mp3",
+        "NUMBER": 608,
+        "PUBLISHED_AT": "2021-11-10T16:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Philanthrope & mommy - Invisible \ud83d\udd26 [Chillhop / lofi hip hop]"
+    },
     "dZxfkPh92KU": {
         "CHANNEL_NAME": "Chillhop Music",
         "FILE_NAME": "159 - Chillhop Music - Philanthrope - Clockwork (ft Tusken.)",
@@ -3518,6 +3678,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
         "STATUS": "DOWNLOADED",
         "TITLE": "xander. - Dreams [instrumental chill beats]"
+    },
+    "dwXqghGhUZw": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "613 - Chillhop Music - Chillhop Music - 2021 Art Reel \ud83c\udfac",
+        "FORMAT": "mp3",
+        "NUMBER": 613,
+        "PUBLISHED_AT": "2022-01-02T16:00:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chillhop Music - 2021 Art Reel \ud83c\udfac"
     },
     "e0u5RTyCr9w": {
         "CHANNEL_NAME": "Chillhop Music",
@@ -3980,6 +4150,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Chillhop raw cuts 2 \ud83c\udfa7 [jazzhop / lofi hip hop]"
     },
+    "jY1EUhRI__w": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "605 - Chillhop Music - Chillhop Spotlight \u2022 Best Of Philanthrope \u2615\ufe0f [instrumental hip hop beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 605,
+        "PUBLISHED_AT": "2021-10-13T15:00:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chillhop Spotlight \u2022 Best Of Philanthrope \u2615\ufe0f [instrumental hip hop beats]"
+    },
     "je9y8Kc_k0M": {
         "CHANNEL_NAME": "Chillhop Music",
         "FILE_NAME": "102 - Chillhop Music - Cooper Albert - Find A Way",
@@ -4414,6 +4594,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "mommy & santpoort - taipei rosebuds"
     },
+    "np6XJDnic34": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "614 - Chillhop Music - Chillhop Spotlight \u2022 Best Of Sleepy Fish \ud83d\udc1f [cozy lofi beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 614,
+        "PUBLISHED_AT": "2022-01-10T16:00:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chillhop Spotlight \u2022 Best Of Sleepy Fish \ud83d\udc1f [cozy lofi beats]"
+    },
     "nulc0O4wiHw": {
         "CHANNEL_NAME": "Chillhop Music",
         "FILE_NAME": "332 - Chillhop Music - santpoort - the great ocean road",
@@ -4459,6 +4649,16 @@
         "PUBLISHED_AT": "2016-05-10T13:01:50.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Flamingosis & Birocratic - Passing By"
+    },
+    "oN8hAqNDf8I": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "604 - Chillhop Music - Hanz - On The Other Side \ud83d\ude0c  [relaxing hip hop beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 604,
+        "PUBLISHED_AT": "2021-10-06T15:00:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hanz - On The Other Side \ud83d\ude0c  [relaxing hip hop beats]"
     },
     "ouiyRs_Ecis": {
         "CHANNEL_NAME": "Chillhop Music",
@@ -4569,6 +4769,16 @@
         "PUBLISHED_AT": "2018-01-29T17:33:52.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "fujitsu - steady"
+    },
+    "psmel3hsKmE": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "599 - Chillhop Music - fantompower - On a Walk  \ud83c\udfd9  [relaxing hiphop beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 599,
+        "PUBLISHED_AT": "2021-08-25T15:00:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "fantompower - On a Walk  \ud83c\udfd9  [relaxing hiphop beats]"
     },
     "q1qm_Ha2rGE": {
         "CHANNEL_NAME": "Chillhop Music",
@@ -5048,6 +5258,16 @@
         "PUBLISHED_AT": "2018-10-25T15:27:25.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "leavv - Meadow ft Philanthrope"
+    },
+    "wB8VpnfnNY8": {
+        "CHANNEL_NAME": "Chillhop Music",
+        "FILE_NAME": "603 - Chillhop Music - Smile High & Teddy Roxpin - Endless Beginnings \ud83c\udfb9  [instrumental hip hop]",
+        "FORMAT": "mp3",
+        "NUMBER": 603,
+        "PUBLISHED_AT": "2021-09-29T15:00:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Chillhopdotcom",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Smile High & Teddy Roxpin - Endless Beginnings \ud83c\udfb9  [instrumental hip hop]"
     },
     "wDvTzFAbpCY": {
         "CHANNEL_NAME": "Chillhop Music",

@@ -36,6 +36,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Thomas Reid - I'll Always Love You"
     },
+    "-FqxQZFwoHU": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1053 - the bootleg boy - heylog - i'm sorry",
+        "FORMAT": "mp3",
+        "NUMBER": 1053,
+        "PUBLISHED_AT": "2021-11-05T23:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "heylog - i'm sorry"
+    },
     "-GWcTFRiJQA": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "1002 - the bootleg boy - Ondi Vil & Kehard - Human",
@@ -45,6 +55,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ondi Vil & Kehard - Human"
+    },
+    "-Ks9yfz9YOU": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1042 - the bootleg boy - why do i love you",
+        "FORMAT": "mp3",
+        "NUMBER": 1042,
+        "PUBLISHED_AT": "2021-10-13T22:00:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "why do i love you"
     },
     "-aU-P5xcjSA": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -64,6 +84,16 @@
         "PUBLISHED_AT": "2018-10-03T22:00:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Koda - MEDITATION"
+    },
+    "-ctL9ISxwHo": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1017 - the bootleg boy - Rxseboy - I'm So Good at Lying (feat. Powfu & Thomas Reid)",
+        "FORMAT": "mp3",
+        "NUMBER": 1017,
+        "PUBLISHED_AT": "2021-08-25T22:00:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rxseboy - I'm So Good at Lying (feat. Powfu & Thomas Reid)"
     },
     "-kWwT31Ca3E": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -168,6 +198,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "\uff21\uff37\uff21\uff2b\uff25"
     },
+    "07Uqi7j9b6Q": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1027 - the bootleg boy - yaeow - always, and forever (Lyrics) w_ my little sister",
+        "FORMAT": "mp3",
+        "NUMBER": 1027,
+        "PUBLISHED_AT": "2021-09-17T22:00:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "yaeow - always, and forever (Lyrics) w/ my little sister"
+    },
     "0ASak5U8jrI": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "355 - the bootleg boy - nilo\u0308wh - under the sheets",
@@ -213,6 +253,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Aidan & Kaxi - i hate myself tbh"
+    },
+    "0JB2FDVrNNk": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1062 - the bootleg boy - JXN - Cotton Candy (Nuxe Remix)",
+        "FORMAT": "mp3",
+        "NUMBER": 1062,
+        "PUBLISHED_AT": "2021-11-23T23:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "JXN - Cotton Candy (Nuxe Remix)"
     },
     "0J_NsG3kR7s": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -329,6 +379,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "RAINING IN \uff2d\uff29\uff21\uff2d\uff29 (Lofi HipHop)"
     },
+    "1PQAFChL61I": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1011 - the bootleg boy - hinshi & teqkoi - cold",
+        "FORMAT": "mp3",
+        "NUMBER": 1011,
+        "PUBLISHED_AT": "2021-08-17T22:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "hinshi & teqkoi - cold"
+    },
     "1SO3dngo-ws": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "189 - the bootleg boy - Lil Peep - Gym Class (bard & TRA$H Remix)",
@@ -384,6 +444,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Sofflee - Sink Her (feat. DNAKM)"
+    },
+    "1oahTaVIQvk": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1109 - the bootleg boy - Floating City \ud83c\udf43 Chill Lofi Beats",
+        "FORMAT": "mp3",
+        "NUMBER": 1109,
+        "PUBLISHED_AT": "2022-03-06T23:00:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Floating City \ud83c\udf43 Chill Lofi Beats"
     },
     "1uRgbj3ntV0": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -726,6 +796,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "no.cape - lonely in the mountains (prod. trxxshed)"
     },
+    "3pPUrsBys-Y": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1041 - the bootleg boy - wlue sky & yaeow - Moonlight (Lyrics)",
+        "FORMAT": "mp3",
+        "NUMBER": 1041,
+        "PUBLISHED_AT": "2021-10-12T22:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "wlue sky & yaeow - Moonlight (Lyrics)"
+    },
     "3q9YWPirPvA": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "846 - the bootleg boy - yaeow - Behind The Clouds (wander all winter. Remix)",
@@ -783,6 +863,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Imfinenow & Kehard - Girl Can Get Sad"
+    },
+    "4Oo1eZLMp4w": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1039 - the bootleg boy - Ondi Vil & Chryssa Dom - To U",
+        "FORMAT": "mp3",
+        "NUMBER": 1039,
+        "PUBLISHED_AT": "2021-10-08T22:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ondi Vil & Chryssa Dom - To U"
     },
     "4VdjBAjRhXo": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -889,6 +979,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "nil\u00f6wh. - stay with me (feat. scott moon)"
     },
+    "4w3cRXOT2Sc": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1067 - the bootleg boy - chptrs - last chance (N\u00dc  Remix)",
+        "FORMAT": "mp3",
+        "NUMBER": 1067,
+        "PUBLISHED_AT": "2021-12-04T23:00:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "chptrs - last chance (N\u00dc  Remix)"
+    },
     "4w7_weFCKSY": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "651 - the bootleg boy - sad lofi for sleepless nights",
@@ -954,6 +1054,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "X."
     },
+    "5IlC0ApnaHs": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1106 - the bootleg boy - yaeow - not your fault",
+        "FORMAT": "mp3",
+        "NUMBER": 1106,
+        "PUBLISHED_AT": "2022-02-25T23:00:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "yaeow - not your fault"
+    },
     "5Itx68gb160": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "789 - the bootleg boy - S\u00f8lace & Julia Alexa - All I Ever Did",
@@ -1001,6 +1111,16 @@
         "PUBLISHED_AT": "2019-08-13T22:00:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "fudasca - Not Mine (ft. june b marsh)"
+    },
+    "5jnfAI2zcmw": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1088 - the bootleg boy - it'll be alright",
+        "FORMAT": "mp3",
+        "NUMBER": 1088,
+        "PUBLISHED_AT": "2022-01-19T23:00:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "it'll be alright"
     },
     "5l3q0CffQmM": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -1123,6 +1243,16 @@
         "PUBLISHED_AT": "2017-05-09T16:00:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "\uff32\uff25\uff2c\uff21\uff38"
+    },
+    "6IB8ouuJAcg": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1033 - the bootleg boy - sorry for being a mess",
+        "FORMAT": "mp3",
+        "NUMBER": 1033,
+        "PUBLISHED_AT": "2021-09-29T22:00:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "sorry for being a mess"
     },
     "6IgY48gZ9js": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -1255,6 +1385,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Imfinenow & \u00caMIA - Hurt By You"
     },
+    "74at3wnFLfU": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1020 - the bootleg boy - RAINING IN \uff2e\uff21\uff27\uff21\uff33\uff21\uff2b\uff29 (Lofi HipHop)",
+        "FORMAT": "mp3",
+        "NUMBER": 1020,
+        "PUBLISHED_AT": "2021-08-29T22:00:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "RAINING IN \uff2e\uff21\uff27\uff21\uff33\uff21\uff2b\uff29 (Lofi HipHop)"
+    },
     "79hzjmKAoQM": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "312 - the bootleg boy - sem0r - innocence",
@@ -1371,6 +1511,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "sad lofi for rainy nights"
     },
+    "7eIGrj7swtA": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1054 - the bootleg boy - Julia Alexa - crushed",
+        "FORMAT": "mp3",
+        "NUMBER": 1054,
+        "PUBLISHED_AT": "2021-11-06T23:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Julia Alexa - crushed"
+    },
+    "7ezCUPGlyjQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1084 - the bootleg boy - Belfa & Julia Alexa - mess",
+        "FORMAT": "mp3",
+        "NUMBER": 1084,
+        "PUBLISHED_AT": "2022-01-12T23:00:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Belfa & Julia Alexa - mess"
+    },
     "7gDkE8SVxv4": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "351 - the bootleg boy - plxntkid - nothing makes me happy (ft. Ouse)",
@@ -1455,6 +1615,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Pebelone - can you? ft. Oshua"
+    },
+    "89JjTEVryBw": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1100 - the bootleg boy - fawlin - another hand to hold (feat. itssvd)",
+        "FORMAT": "mp3",
+        "NUMBER": 1100,
+        "PUBLISHED_AT": "2022-02-12T23:00:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "fawlin - another hand to hold (feat. itssvd)"
     },
     "8Au6oL0VtGI": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -1890,6 +2060,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "SEA - when you kiss my lips (ft. BLCK FLWR)"
     },
+    "B7rUIw7iBOs": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1094 - the bootleg boy - guardin - ditch",
+        "FORMAT": "mp3",
+        "NUMBER": 1094,
+        "PUBLISHED_AT": "2022-01-29T23:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "guardin - ditch"
+    },
     "B9LgR2Gaxys": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "678 - the bootleg boy - the bootleg boy & Rxseboy - the day i died (ft. Powfu)",
@@ -1936,6 +2116,16 @@
         "PUBLISHED_AT": "2019-01-20T23:00:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "i'm lost without you."
+    },
+    "BhMOxu6J0Ps": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1016 - the bootleg boy - im.fine - new boy",
+        "FORMAT": "mp3",
+        "NUMBER": 1016,
+        "PUBLISHED_AT": "2021-08-24T22:00:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "im.fine - new boy"
     },
     "Bhbt39StqHU": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -2303,6 +2493,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "i made this tape for you last night"
     },
+    "DeQy77ULFTs": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1085 - the bootleg boy - no.cape - a soldier in the flames",
+        "FORMAT": "mp3",
+        "NUMBER": 1085,
+        "PUBLISHED_AT": "2022-01-14T23:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "no.cape - a soldier in the flames"
+    },
     "DfpRNJpai2g": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "25 - the bootleg boy - elijah who - sweatpants",
@@ -2348,6 +2548,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "g0thd0g - Not Enough"
     },
+    "DtgoTX4BWyo": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1076 - the bootleg boy - wasted",
+        "FORMAT": "mp3",
+        "NUMBER": 1076,
+        "PUBLISHED_AT": "2021-12-24T23:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "wasted"
+    },
     "Dvu7g0Cg5fQ": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "325 - the bootleg boy - SoLonely - Let Me In",
@@ -2375,6 +2585,16 @@
         "PUBLISHED_AT": "2018-01-28T23:00:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "\uff33\uff21\uff24 \uff06 \uff2c\uff2f\uff2e\uff25\uff2c\uff39"
+    },
+    "E5zeSFVWUSI": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1073 - the bootleg boy - i'm so broken",
+        "FORMAT": "mp3",
+        "NUMBER": 1073,
+        "PUBLISHED_AT": "2021-12-18T23:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "i'm so broken"
     },
     "E86jc-2Zyog": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -2434,6 +2654,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "\uff2c\uff21\uff34\uff25 \uff2e\uff29\uff27\uff28\uff34\uff33"
     },
+    "EUnsSfmO6M0": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1048 - the bootleg boy - should i ghost you...",
+        "FORMAT": "mp3",
+        "NUMBER": 1048,
+        "PUBLISHED_AT": "2021-10-26T22:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "should i ghost you..."
+    },
+    "Eb3UORqg4_Q": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1037 - the bootleg boy - Belfa & Julia Alexa - better off alone",
+        "FORMAT": "mp3",
+        "NUMBER": 1037,
+        "PUBLISHED_AT": "2021-10-05T22:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Belfa & Julia Alexa - better off alone"
+    },
     "Ej44LsW8gZo": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "291 - the bootleg boy - Hammy - Inner Peace (Prod. Xtravulous)",
@@ -2461,6 +2701,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Broken pupil & fat emo girl - fall in luv"
+    },
+    "EuEH2owofZU": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1013 - the bootleg boy - sftspkn - Shangri-La",
+        "FORMAT": "mp3",
+        "NUMBER": 1013,
+        "PUBLISHED_AT": "2021-08-20T22:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "sftspkn - Shangri-La"
     },
     "Ew3eAI3x_Bo": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -2572,6 +2822,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "\uff2c\uff2f\uff36\uff25\uff33\uff29\uff23\uff2b"
     },
+    "FoGaQrBvWQc": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1055 - the bootleg boy - Ondi Vil - Take My Thoughts Away (ft. luciiniite)",
+        "FORMAT": "mp3",
+        "NUMBER": 1055,
+        "PUBLISHED_AT": "2021-11-09T23:00:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ondi Vil - Take My Thoughts Away (ft. luciiniite)"
+    },
     "FoTWy126Zqo": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "492 - the bootleg boy - Madson. - Do You Wanna Go Back_",
@@ -2674,6 +2934,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "BVG - i'm still in love with you (ft. Joshua Grey)"
+    },
+    "GbKyn1pQT9A": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1065 - the bootleg boy - Rnla & Julia Alexa - bad4me",
+        "FORMAT": "mp3",
+        "NUMBER": 1065,
+        "PUBLISHED_AT": "2021-11-30T23:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rnla & Julia Alexa - bad4me"
     },
     "Gc03KA8w4dk": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -2791,6 +3061,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Rnla & clide - where have i gone"
     },
+    "GzEUW-Hd3EM": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1078 - the bootleg boy - i hope you find somebody that loves you",
+        "FORMAT": "mp3",
+        "NUMBER": 1078,
+        "PUBLISHED_AT": "2022-01-02T23:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "i hope you find somebody that loves you"
+    },
     "H0qAVArLKFw": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "132 - the bootleg boy - Peep.",
@@ -2857,6 +3137,16 @@
         "PUBLISHED_AT": "2018-12-02T23:00:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "i love you but i can't love myself"
+    },
+    "HQlpji-N8KY": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1021 - the bootleg boy - boone - goodnight & sweet dreams",
+        "FORMAT": "mp3",
+        "NUMBER": 1021,
+        "PUBLISHED_AT": "2021-08-31T22:00:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "boone - goodnight & sweet dreams"
     },
     "HVdOfBy2Hnc": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -2954,6 +3244,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Resident - Coffee"
+    },
+    "I2ARO9MLcyk": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1060 - the bootleg boy - back when gravity was everywhere",
+        "FORMAT": "mp3",
+        "NUMBER": 1060,
+        "PUBLISHED_AT": "2021-11-17T23:00:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "back when gravity was everywhere"
     },
     "I2Oq3N5XyQo": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -3241,6 +3541,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Sasori \u880d - it's not enough to say sorry (ft. importmedia)"
     },
+    "KFng5R3ZWyA": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1064 - the bootleg boy - lofi hip hop for slow days",
+        "FORMAT": "mp3",
+        "NUMBER": 1064,
+        "PUBLISHED_AT": "2021-11-28T23:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "lofi hip hop for slow days"
+    },
     "KGTPJxkqLRM": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "876 - the bootleg boy - Resident, Laevi & Static - The World Will Wait For Us",
@@ -3334,6 +3644,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "M.E - falling in love with you (ft. Vict Molina & Laeland)"
     },
+    "KlDl5e8R-_c": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1096 - the bootleg boy - lio kalebic - last year",
+        "FORMAT": "mp3",
+        "NUMBER": 1096,
+        "PUBLISHED_AT": "2022-02-01T23:00:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "lio kalebic - last year"
+    },
     "Kp6Btk7DTOo": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "232 - the bootleg boy - fudasca - you know where to find me (ft. joshmalilay)",
@@ -3387,6 +3707,16 @@
         "PUBLISHED_AT": "2018-08-26T22:00:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "\uff27\uff2f\uff2e\uff25"
+    },
+    "LTYGB-HkXFY": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1047 - the bootleg boy - sad lofi for haunted souls",
+        "FORMAT": "mp3",
+        "NUMBER": 1047,
+        "PUBLISHED_AT": "2021-10-24T22:00:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "sad lofi for haunted souls"
     },
     "LYYB2us2lJ8": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -3469,6 +3799,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "E\u2020 - Never Answered Message"
     },
+    "Ljmn7BOvbYQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1057 - the bootleg boy - and that was it...",
+        "FORMAT": "mp3",
+        "NUMBER": 1057,
+        "PUBLISHED_AT": "2021-11-13T23:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "and that was it..."
+    },
     "Ll4XmFq_36I": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "142 - the bootleg boy - ondi vil - so unfair (ft. shiloh)",
@@ -3514,6 +3854,26 @@
         "PUBLISHED_AT": "2019-03-30T23:00:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dyslm - i never did (ft. DNAKM)"
+    },
+    "M0RH-mOWMeE": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1061 - the bootleg boy - sxdtune & Re_ - Narcissist",
+        "FORMAT": "mp3",
+        "NUMBER": 1061,
+        "PUBLISHED_AT": "2021-11-20T23:00:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "sxdtune & Re: - Narcissist"
+    },
+    "M4OnOHhT3c4": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1066 - the bootleg boy - NINETEEN95 - i'm sorry i'm tired",
+        "FORMAT": "mp3",
+        "NUMBER": 1066,
+        "PUBLISHED_AT": "2021-12-03T23:00:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NINETEEN95 - i'm sorry i'm tired"
     },
     "M4QTtIpWh8A": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -3601,6 +3961,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Iam6teen - eyes blue like the atlantic (ft. Subvrbs)"
     },
+    "Mhh4hFz1Aiw": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1036 - the bootleg boy - lofi songs for nostalgic days",
+        "FORMAT": "mp3",
+        "NUMBER": 1036,
+        "PUBLISHED_AT": "2021-10-03T22:00:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "lofi songs for nostalgic days"
+    },
     "Ml3vdLdmGr4": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "508 - the bootleg boy - Madson. - I Hate The One That I Was Before",
@@ -3629,6 +3999,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Nuxe - s t a r s"
     },
+    "N4W_BcsNDPw": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1110 - the bootleg boy - i didn't want you to leave",
+        "FORMAT": "mp3",
+        "NUMBER": 1110,
+        "PUBLISHED_AT": "2022-03-14T23:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "i didn't want you to leave"
+    },
     "N5w9CP3sn3c": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "1 - the bootleg boy - Sad Sleep Mix _ (Lo-fi_Chill) 2017",
@@ -3646,6 +4026,16 @@
         "PUBLISHED_AT": "2018-12-08T23:00:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "you belong here"
+    },
+    "N7YVkRbnSlM": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1059 - the bootleg boy - 96 Zeus - bad sex and cigarettes (ft. Iben)",
+        "FORMAT": "mp3",
+        "NUMBER": 1059,
+        "PUBLISHED_AT": "2021-11-16T23:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "96 Zeus - bad sex and cigarettes (ft. Iben)"
     },
     "NC9cz4_ubmk": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -3693,6 +4083,16 @@
         "PUBLISHED_AT": "2018-04-21T22:00:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "fudasca & mishaal - disguise (ft. josh malilay)"
+    },
+    "NZrk-BQbcIY": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1018 - the bootleg boy - teqkoi - thankyou for ruining my life",
+        "FORMAT": "mp3",
+        "NUMBER": 1018,
+        "PUBLISHED_AT": "2021-08-27T22:00:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "teqkoi - thankyou for ruining my life"
     },
     "Nblgp3Vqgqc": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -3758,6 +4158,16 @@
         "PUBLISHED_AT": "2018-06-16T22:00:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Imfinenow - Idk"
+    },
+    "O655Np0MaFc": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1046 - the bootleg boy - Addict. & Rewind - have you ever been in love_",
+        "FORMAT": "mp3",
+        "NUMBER": 1046,
+        "PUBLISHED_AT": "2021-10-20T22:00:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Addict. & Rewind - have you ever been in love?"
     },
     "O8rbzCtcSSI": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -3902,6 +4312,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Nuxe - something worth saving"
     },
+    "PETzBNnS-dQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1108 - the bootleg boy - otterboy - fall",
+        "FORMAT": "mp3",
+        "NUMBER": 1108,
+        "PUBLISHED_AT": "2022-03-01T23:00:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "otterboy - fall"
+    },
     "PHg6PQ3Tpo4": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "884 - the bootleg boy - Kayou. & Kaxi - Last Dance",
@@ -3911,6 +4331,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Kayou. & Kaxi - Last Dance"
+    },
+    "PTN_aV4kNKM": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1113 - the bootleg boy - RAINING IN \uff39\uff2f\uff2b\uff2f\uff28\uff21\uff2d\uff21 (Lofi HipHop)",
+        "FORMAT": "mp3",
+        "NUMBER": 1113,
+        "PUBLISHED_AT": "2022-03-20T23:00:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "RAINING IN \uff39\uff2f\uff2b\uff2f\uff28\uff21\uff2d\uff21 (Lofi HipHop)"
     },
     "PW-e_QzKDFQ": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -4001,6 +4431,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Sn\u00f8w & Skinny Atlas - Evil Queen"
     },
+    "Q02AjSqO0cQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1022 - the bootleg boy - Laeland & SEA - you couldn't love me back",
+        "FORMAT": "mp3",
+        "NUMBER": 1022,
+        "PUBLISHED_AT": "2021-09-03T22:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Laeland & SEA - you couldn't love me back"
+    },
     "Q8wXoXXkVck": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "86 - the bootleg boy - misc.inc - Invective.",
@@ -4057,6 +4497,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Kayou. & w00ds & Gabou - Settle"
     },
+    "QNDF6YrapeU": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1034 - the bootleg boy - hinshi - harmless (ft. no.cape)",
+        "FORMAT": "mp3",
+        "NUMBER": 1034,
+        "PUBLISHED_AT": "2021-10-01T22:00:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "hinshi - harmless (ft. no.cape)"
+    },
+    "QUlLQQNhgGQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1056 - the bootleg boy - leftquiet - bones in my closet (ft. ghosthands)",
+        "FORMAT": "mp3",
+        "NUMBER": 1056,
+        "PUBLISHED_AT": "2021-11-10T23:00:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "leftquiet - bones in my closet (ft. ghosthands)"
+    },
     "QXtyX6w0UH4": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "315 - the bootleg boy - Sarcastic Sounds & Many Rooms - They Don't Need Me",
@@ -4074,6 +4534,26 @@
         "PUBLISHED_AT": "2018-07-17T22:00:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Sn\u00f8w - Sunset/Sunrise (Prod. Kendo)"
+    },
+    "Qab_NcUF8zA": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1107 - the bootleg boy - sleepwater - nervous",
+        "FORMAT": "mp3",
+        "NUMBER": 1107,
+        "PUBLISHED_AT": "2022-02-26T23:00:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "sleepwater - nervous"
+    },
+    "QabaLQHoHoo": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1031 - the bootleg boy - Valera - before i knew your name",
+        "FORMAT": "mp3",
+        "NUMBER": 1031,
+        "PUBLISHED_AT": "2021-09-24T22:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Valera - before i knew your name"
     },
     "QfN7An1D-qc": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -4093,6 +4573,16 @@
         "PUBLISHED_AT": "2018-09-11T22:00:05.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "beowulf - it's not too late for me"
+    },
+    "QnnNzbyc9o8": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1050 - the bootleg boy - scapegoat & powfu - when u wore my coat (Lyrics)",
+        "FORMAT": "mp3",
+        "NUMBER": 1050,
+        "PUBLISHED_AT": "2021-10-30T22:00:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "scapegoat & powfu - when u wore my coat (Lyrics)"
     },
     "Qrt18AtgQrY": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -4227,6 +4717,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "w00ds & adam youngman - tell me"
+    },
+    "Rr7S9ivHlqM": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1023 - the bootleg boy - you're not in love with me",
+        "FORMAT": "mp3",
+        "NUMBER": 1023,
+        "PUBLISHED_AT": "2021-09-04T22:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "you're not in love with me"
     },
     "RupPHDf7QuA": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -4379,6 +4879,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "lofi songs for cute days"
     },
+    "TDnwpGC_F6w": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1012 - the bootleg boy - cavasoul & vedh - love, joshua",
+        "FORMAT": "mp3",
+        "NUMBER": 1012,
+        "PUBLISHED_AT": "2021-08-18T22:00:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "cavasoul & vedh - love, joshua"
+    },
     "TFCKYls1mhM": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "602 - the bootleg boy - sad lofi for ghosts & ghouls",
@@ -4427,6 +4937,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "listening to lofi on your own at a party"
     },
+    "TVZi4dfA-gQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1077 - the bootleg boy - selfish",
+        "FORMAT": "mp3",
+        "NUMBER": 1077,
+        "PUBLISHED_AT": "2021-12-29T23:00:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "selfish"
+    },
     "TVq0mwPWLC4": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "632 - the bootleg boy - David Alexander - Angels Song",
@@ -4436,6 +4956,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "David Alexander - Angels Song"
+    },
+    "Ter40ZRoVqo": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1102 - the bootleg boy - sadeyes - i got yr message",
+        "FORMAT": "mp3",
+        "NUMBER": 1102,
+        "PUBLISHED_AT": "2022-02-16T23:00:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "sadeyes - i got yr message"
     },
     "TfBo_Mny6w4": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -4510,6 +5040,16 @@
         "PUBLISHED_AT": "2018-12-09T23:00:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "i know what it feels like to be alone"
+    },
+    "TvnqFq-7Ld0": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1074 - the bootleg boy - nobody's coming to save us",
+        "FORMAT": "mp3",
+        "NUMBER": 1074,
+        "PUBLISHED_AT": "2021-12-21T23:00:29Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "nobody's coming to save us"
     },
     "TxQhi0WiZ4o": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -4606,6 +5146,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "C H O I S I E S - gone"
     },
+    "UchJU5oAA1A": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1079 - the bootleg boy - mrmcchickino - everything",
+        "FORMAT": "mp3",
+        "NUMBER": 1079,
+        "PUBLISHED_AT": "2022-01-04T23:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "mrmcchickino - everything"
+    },
+    "UgSABciZ6hc": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1044 - the bootleg boy - Heroe & the bootleg boy - my heart is bleeding",
+        "FORMAT": "mp3",
+        "NUMBER": 1044,
+        "PUBLISHED_AT": "2021-10-16T22:00:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Heroe & the bootleg boy - my heart is bleeding"
+    },
     "Uko12KFv4GQ": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "543 - the bootleg boy - Shae Delea - A Lost Promise",
@@ -4614,6 +5174,16 @@
         "PUBLISHED_AT": "2019-07-23T22:00:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Shae Delea - A Lost Promise"
+    },
+    "Uo2FqOLvRlM": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1111 - the bootleg boy - Oliver Lucas - WHITE LIES",
+        "FORMAT": "mp3",
+        "NUMBER": 1111,
+        "PUBLISHED_AT": "2022-03-16T23:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Oliver Lucas - WHITE LIES"
     },
     "UtlnYlUSmSw": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -4652,6 +5222,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Faye & Sofflee - Screams and Dreams"
     },
+    "VC318Gigis8": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1080 - the bootleg boy - you don't love me anymore",
+        "FORMAT": "mp3",
+        "NUMBER": 1080,
+        "PUBLISHED_AT": "2022-01-05T23:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "you don't love me anymore"
+    },
     "VPc4UQwoLBU": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "188 - the bootleg boy - Rick Archie - Flowers",
@@ -4660,6 +5240,26 @@
         "PUBLISHED_AT": "2018-01-31T23:00:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Rick Archie - Flowers"
+    },
+    "VSBUJcjzN3E": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1082 - the bootleg boy - Valera & Resident - Six Feet Under",
+        "FORMAT": "mp3",
+        "NUMBER": 1082,
+        "PUBLISHED_AT": "2022-01-08T23:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Valera & Resident - Six Feet Under"
+    },
+    "VTOgUcOx1sE": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1070 - the bootleg boy - RAINING IN \uff34\uff2f\uff32\uff2f\uff2e\uff34\uff2f (Lofi HipHop)",
+        "FORMAT": "mp3",
+        "NUMBER": 1070,
+        "PUBLISHED_AT": "2021-12-12T23:00:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "RAINING IN \uff34\uff2f\uff32\uff2f\uff2e\uff34\uff2f (Lofi HipHop)"
     },
     "VTUL09ocAo4": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -4824,6 +5424,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "fairway - hide (ft. Julia Alexa)"
     },
+    "WiyZHAf8iaw": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1052 - the bootleg boy - hateful - how i feel (ft. MOONSIGHT)",
+        "FORMAT": "mp3",
+        "NUMBER": 1052,
+        "PUBLISHED_AT": "2021-11-02T23:00:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "hateful - how i feel (ft. MOONSIGHT)"
+    },
     "WlvEmbT4PNU": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "767 - the bootleg boy - swablu & Artemis Orion - phantom feelings",
@@ -4871,6 +5481,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Deyaz & Rnla - So Tired"
+    },
+    "XE2IvHxdkDM": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1095 - the bootleg boy - Peaceful Wind \ud83c\udf43 Chill Lofi Beats",
+        "FORMAT": "mp3",
+        "NUMBER": 1095,
+        "PUBLISHED_AT": "2022-01-30T23:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Peaceful Wind \ud83c\udf43 Chill Lofi Beats"
     },
     "XFMo2YAtjT8": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -5490,6 +6110,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "BVG & Tedy - tell me why you left"
     },
+    "_Y8pydlspP4": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1028 - the bootleg boy - the person i am",
+        "FORMAT": "mp3",
+        "NUMBER": 1028,
+        "PUBLISHED_AT": "2021-09-18T22:00:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "the person i am"
+    },
     "_ZunUTkzv4s": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "773 - the bootleg boy - Rewind & S\u00f8lace - Pieces",
@@ -5651,6 +6281,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "SEA - tell me it's okay (feat. christian alexander)"
     },
+    "aXlTgsLpEv4": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1081 - the bootleg boy - yaeow - i don\u2019t wanna let u go",
+        "FORMAT": "mp3",
+        "NUMBER": 1081,
+        "PUBLISHED_AT": "2022-01-07T23:00:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "yaeow - i don\u2019t wanna let u go"
+    },
     "a__vWAq7V_E": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "375 - the bootleg boy - i'll be okay.",
@@ -5724,6 +6364,16 @@
         "PUBLISHED_AT": "2019-07-21T22:00:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "you don't love me anymore"
+    },
+    "algjtQqhDIQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1115 - the bootleg boy - where it all started",
+        "FORMAT": "mp3",
+        "NUMBER": 1115,
+        "PUBLISHED_AT": "2022-03-25T23:00:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "where it all started"
     },
     "asE3qWgSsd4": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -5812,6 +6462,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "yaeow - don't give up"
     },
+    "bXOuoG3A-jY": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1032 - the bootleg boy - Rnla & Julia Alexa - feel again (Lyrics)",
+        "FORMAT": "mp3",
+        "NUMBER": 1032,
+        "PUBLISHED_AT": "2021-09-28T22:00:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rnla & Julia Alexa - feel again (Lyrics)"
+    },
     "bZl3v5Id5pk": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "519 - the bootleg boy - Sn\u00f8w & Monty Datta - Say Goodbye",
@@ -5849,6 +6509,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Zaini - Acacia"
+    },
+    "boBpeaKLl-8": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1086 - the bootleg boy - I will wait for you until the very end (pt. 7)",
+        "FORMAT": "mp3",
+        "NUMBER": 1086,
+        "PUBLISHED_AT": "2022-01-16T23:00:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "I will wait for you until the very end (pt. 7)"
     },
     "bp43UxaCBf0": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -5895,6 +6565,16 @@
         "PUBLISHED_AT": "2019-09-24T22:00:03.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dyslm - i will wait for you to come home (ft. Samer Bakri)"
+    },
+    "c9xaEu9aZBk": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1114 - the bootleg boy - Ollie - Perfect (ft. Annamarie Rosanio)",
+        "FORMAT": "mp3",
+        "NUMBER": 1114,
+        "PUBLISHED_AT": "2022-03-22T23:00:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ollie - Perfect (ft. Annamarie Rosanio)"
     },
     "cMGMpTTwdCo": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -6155,6 +6835,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "I will wait for you until the very end (pt. 6)"
+    },
+    "duPYH6ZjAyQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1099 - the bootleg boy - Teqkoi, Belfa & Kenz - I Don't Feel Okay",
+        "FORMAT": "mp3",
+        "NUMBER": 1099,
+        "PUBLISHED_AT": "2022-02-11T23:00:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Teqkoi, Belfa & Kenz - I Don't Feel Okay"
     },
     "dwwluMJeFbY": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -6446,6 +7136,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Kayou. - i don't wanna be"
     },
+    "g-L155I34Pg": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1093 - the bootleg boy - Iam6teen - hold me in your arms",
+        "FORMAT": "mp3",
+        "NUMBER": 1093,
+        "PUBLISHED_AT": "2022-01-28T23:00:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Iam6teen - hold me in your arms"
+    },
     "g1g1zUSbjhA": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "162 - the bootleg boy - _NOBODY_",
@@ -6541,6 +7241,16 @@
         "PUBLISHED_AT": "2017-08-24T22:00:03.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "heizzah - friends"
+    },
+    "gvfQxsOQFFo": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1026 - the bootleg boy - lofi songs for chill days",
+        "FORMAT": "mp3",
+        "NUMBER": 1026,
+        "PUBLISHED_AT": "2021-09-12T22:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "lofi songs for chill days"
     },
     "gxU7c5EgQug": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -6664,6 +7374,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Imfinenow & Roaiel - Brown Eyes"
     },
+    "htd4_qlQfN8": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1030 - the bootleg boy - Deyaz - Time (Lyrics) [Demo]",
+        "FORMAT": "mp3",
+        "NUMBER": 1030,
+        "PUBLISHED_AT": "2021-09-22T22:00:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Deyaz - Time (Lyrics) [Demo]"
+    },
     "hvcQtltc5HU": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "158 - the bootleg boy - BAD LOVE",
@@ -6672,6 +7392,16 @@
         "PUBLISHED_AT": "2017-12-21T23:00:04.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "\uff22\uff21\uff24 \uff2c\uff2f\uff36\uff25"
+    },
+    "hxdJZX5xUKM": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1091 - the bootleg boy - residential. & skele - numb4",
+        "FORMAT": "mp3",
+        "NUMBER": 1091,
+        "PUBLISHED_AT": "2022-01-25T23:00:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "residential. & skele - numb4"
     },
     "i53PPeiD4vE": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -6691,6 +7421,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "thinking about her"
     },
+    "iABvbgMwfek": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1051 - the bootleg boy - sad songs for lonely souls",
+        "FORMAT": "mp3",
+        "NUMBER": 1051,
+        "PUBLISHED_AT": "2021-10-31T23:00:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "sad songs for lonely souls"
+    },
     "iAl7VlI7mzE": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "53 - the bootleg boy - GROWING UP",
@@ -6699,6 +7439,26 @@
         "PUBLISHED_AT": "2017-07-29T22:00:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "\uff27\uff32\uff2f\uff37\uff29\uff2e\uff27 \uff35\uff30"
+    },
+    "iD-NDdlLujc": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1097 - the bootleg boy - Resident - Shooting Stars",
+        "FORMAT": "mp3",
+        "NUMBER": 1097,
+        "PUBLISHED_AT": "2022-02-05T23:00:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Resident - Shooting Stars"
+    },
+    "iFAtxgzcedk": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1025 - the bootleg boy - Hinshi - losing you (Lyrics)",
+        "FORMAT": "mp3",
+        "NUMBER": 1025,
+        "PUBLISHED_AT": "2021-09-11T22:00:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hinshi - losing you (Lyrics)"
     },
     "iFOAynK8LKs": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -6951,6 +7711,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Samurai \u262f Japanese Lofi HipHop Mix"
     },
+    "jtJH0kGnmNE": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1092 - the bootleg boy - Teqkoi & Kenz - watch me as I bleed",
+        "FORMAT": "mp3",
+        "NUMBER": 1092,
+        "PUBLISHED_AT": "2022-01-27T23:00:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Teqkoi & Kenz - watch me as I bleed"
+    },
     "jw5B1KT3604": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "211 - the bootleg boy - c\u00f8zyb\u00f8y - what did y\u00f8u think i meant when i said i l\u00f8ve y\u00f8u",
@@ -7080,6 +7850,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "fudasca - I'M A FOOL (ft. Thomas Reid)"
     },
+    "kFTK9-KTInI": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1098 - the bootleg boy - i still think of you",
+        "FORMAT": "mp3",
+        "NUMBER": 1098,
+        "PUBLISHED_AT": "2022-02-08T23:00:29Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "i still think of you"
+    },
     "kGgbGx6kGqI": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "988 - the bootleg boy - Sn\u00f8w, Criggoh, Julia Alexa, Josiah - If I Die",
@@ -7100,6 +7880,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Presence - Divine Nature"
     },
+    "kKnpZrHSOqc": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1043 - the bootleg boy - yaeow - jeju island",
+        "FORMAT": "mp3",
+        "NUMBER": 1043,
+        "PUBLISHED_AT": "2021-10-15T22:00:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "yaeow - jeju island"
+    },
     "kLhMAyRWu3o": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "580 - the bootleg boy - Laeland & Vict Molina & Nuxe - Too Late",
@@ -7108,6 +7898,16 @@
         "PUBLISHED_AT": "2019-09-20T22:00:10.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Laeland & Vict Molina & Nuxe - Too Late"
+    },
+    "kRb3aZfOokk": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1083 - the bootleg boy - NVR_MND & Syn Beats - You're Holy",
+        "FORMAT": "mp3",
+        "NUMBER": 1083,
+        "PUBLISHED_AT": "2022-01-11T23:00:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NVR/MND & Syn Beats - You're Holy"
     },
     "kTL_hGa64Zo": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -7127,6 +7927,16 @@
         "PUBLISHED_AT": "2018-03-03T23:00:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "beowulf - fall"
+    },
+    "ka6PdNrljdA": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1029 - the bootleg boy - yaeow - oh i try (Lyrics)",
+        "FORMAT": "mp3",
+        "NUMBER": 1029,
+        "PUBLISHED_AT": "2021-09-21T22:00:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "yaeow - oh i try (Lyrics)"
     },
     "kblbDDh1rmA": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -7175,6 +7985,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "aidan - see your face, in the darkest places"
     },
+    "kmNTMQXx6zM": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1075 - the bootleg boy - Teqkoi & thislandis - Too Late",
+        "FORMAT": "mp3",
+        "NUMBER": 1075,
+        "PUBLISHED_AT": "2021-12-22T23:00:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Teqkoi & thislandis - Too Late"
+    },
     "kmvDIBeW4VM": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "475 - the bootleg boy - Sn\u00f8w & Laeland - All Without You",
@@ -7193,6 +8013,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ondi Vil - I'm happier here (ft. Roiael)"
+    },
+    "kwpCo74RfYc": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1090 - the bootleg boy - i loved you ~ sad lofi mix",
+        "FORMAT": "mp3",
+        "NUMBER": 1090,
+        "PUBLISHED_AT": "2022-01-23T23:00:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "i loved you ~ sad lofi mix"
     },
     "kxMj0sTgSoA": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -7229,6 +8059,16 @@
         "PUBLISHED_AT": "2018-03-04T23:00:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "playing video games on a rainy day"
+    },
+    "l4_TRbsMyFU": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1035 - the bootleg boy - the bootleg boy & carl storm - imagination (Lyrics)",
+        "FORMAT": "mp3",
+        "NUMBER": 1035,
+        "PUBLISHED_AT": "2021-10-02T22:00:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "the bootleg boy & carl storm - imagination (Lyrics)"
     },
     "l5m4pUJ9_qc": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -7267,6 +8107,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "w00ds & Roiael - Cry Me A River"
     },
+    "lH2PFesc37Y": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1019 - the bootleg boy - Inflake & Haidi - if you were mine",
+        "FORMAT": "mp3",
+        "NUMBER": 1019,
+        "PUBLISHED_AT": "2021-08-28T22:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Inflake & Haidi - if you were mine"
+    },
     "lH3T6hrTKZE": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "346 - the bootleg boy - Kelvyn Colt - Not A Thug (prod. Truva)",
@@ -7284,6 +8134,16 @@
         "PUBLISHED_AT": "2019-08-07T22:00:07.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dyslm - Saints and Ghosts Pt. 1 (ft. Overslept)"
+    },
+    "lKxXNSVygdY": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1072 - the bootleg boy - vict molina & Skinny Atlas - do you like me when you're high",
+        "FORMAT": "mp3",
+        "NUMBER": 1072,
+        "PUBLISHED_AT": "2021-12-17T23:00:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "vict molina & Skinny Atlas - do you like me when you're high"
     },
     "lQDZHytrruw": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -7451,6 +8311,16 @@
         "PUBLISHED_AT": "2018-12-19T23:00:06.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "XAM - FADE AWAY (Prod. CXLD BLXXD)"
+    },
+    "mc2g7K9rHLo": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1103 - the bootleg boy - Madson. - When I Was Young (ft. Maberry)",
+        "FORMAT": "mp3",
+        "NUMBER": 1103,
+        "PUBLISHED_AT": "2022-02-18T23:00:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Madson. - When I Was Young (ft. Maberry)"
     },
     "mdzdh83Do88": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -7949,6 +8819,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "ren\u00e9 - january"
     },
+    "pkwxGZlQF0w": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1105 - the bootleg boy - lofi songs for cozy days",
+        "FORMAT": "mp3",
+        "NUMBER": 1105,
+        "PUBLISHED_AT": "2022-02-20T23:00:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "lofi songs for cozy days"
+    },
     "pmBxspBYgXY": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "864 - the bootleg boy - zebatin - tell me if you love me",
@@ -8099,6 +8979,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "chillintrash - cold."
     },
+    "qi4S-O18CeQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1015 - the bootleg boy - JOURNEY TO \uff2f\uff33\uff21\uff2b\uff21 \u262f (Asian Lofi HipHop)",
+        "FORMAT": "mp3",
+        "NUMBER": 1015,
+        "PUBLISHED_AT": "2021-08-22T22:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "JOURNEY TO \uff2f\uff33\uff21\uff2b\uff21 \u262f (Asian Lofi HipHop)"
+    },
     "qkAk6pkZZT8": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "397 - the bootleg boy - Ngahere Wafer - Sand Outro (Official Music Video)",
@@ -8163,6 +9053,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Kina & Essence - Are You Still With Him (ft. Madson Project.)"
     },
+    "rCyE9K8LCAc": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1038 - the bootleg boy - N\u00dc & Kayli Marie - afraid of change (Lyrics)",
+        "FORMAT": "mp3",
+        "NUMBER": 1038,
+        "PUBLISHED_AT": "2021-10-06T22:00:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "N\u00dc & Kayli Marie - afraid of change (Lyrics)"
+    },
     "rDOIYiAvAXE": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "448 - the bootleg boy - i always let you down",
@@ -8172,6 +9072,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "i always let you down"
     },
+    "rDPs-RPWGm4": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1014 - the bootleg boy - yaeow - does it really matter_",
+        "FORMAT": "mp3",
+        "NUMBER": 1014,
+        "PUBLISHED_AT": "2021-08-21T22:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "yaeow - does it really matter?"
+    },
+    "rDY1E_4HsBI": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1089 - the bootleg boy - no one cares anymore",
+        "FORMAT": "mp3",
+        "NUMBER": 1089,
+        "PUBLISHED_AT": "2022-01-21T23:00:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "no one cares anymore"
+    },
     "rEHO8ck2T78": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "3 - the bootleg boy - suicide",
@@ -8180,6 +9100,16 @@
         "PUBLISHED_AT": "2017-04-16T13:31:43.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "\uff53\uff55\uff49\uff43\uff49\uff44\uff45"
+    },
+    "rG9mxGyiIMI": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1104 - the bootleg boy - Julia Alexa - please hold me",
+        "FORMAT": "mp3",
+        "NUMBER": 1104,
+        "PUBLISHED_AT": "2022-02-19T23:00:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Julia Alexa - please hold me"
     },
     "rJS4YuS22Og": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -8217,6 +9147,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Rnla & N\u00dc - forever (ft. Vict Molina)"
+    },
+    "rUKHAQUngiA": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1049 - the bootleg boy - adi. - for her (feat. Elli)",
+        "FORMAT": "mp3",
+        "NUMBER": 1049,
+        "PUBLISHED_AT": "2021-10-27T22:00:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "adi. - for her (feat. Elli)"
     },
     "rUgj9qYFOtw": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -8367,6 +9307,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Sarcastic Sounds - Thief"
     },
+    "sjwKoeCM3kU": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1071 - the bootleg boy - Sleep.ing & Powfu - Alienated",
+        "FORMAT": "mp3",
+        "NUMBER": 1071,
+        "PUBLISHED_AT": "2021-12-15T23:00:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sleep.ing & Powfu - Alienated"
+    },
     "sldoWvPbLWg": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "888 - the bootleg boy - yaeow & Rnla - Take Me Higher",
@@ -8434,6 +9384,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Madson Project. - What Else To Say"
     },
+    "t6Gf8e-OEQE": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1101 - the bootleg boy - i know it hurts sometimes, but dont let it go",
+        "FORMAT": "mp3",
+        "NUMBER": 1101,
+        "PUBLISHED_AT": "2022-02-15T23:00:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "i know it hurts sometimes, but dont let it go"
+    },
     "tDM-QpO4XaQ": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "576 - the bootleg boy - Teqkoi - could you hold me close (ft. DNAKM)",
@@ -8462,6 +9422,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Rxseboy - i'm a ghost but it hurts (prod. ocean)"
+    },
+    "tVyelKEphkQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1040 - the bootleg boy - Skinny Atlas & Zaini - Your Voice (feat. dhan)",
+        "FORMAT": "mp3",
+        "NUMBER": 1040,
+        "PUBLISHED_AT": "2021-10-09T22:00:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Skinny Atlas & Zaini - Your Voice (feat. dhan)"
     },
     "t_nlNyhJDrU": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -8762,6 +9732,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Visio - happy end"
     },
+    "usz9JT9PA94": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1063 - the bootleg boy - endly & Achex - Wandering",
+        "FORMAT": "mp3",
+        "NUMBER": 1063,
+        "PUBLISHED_AT": "2021-11-27T23:00:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "endly & Achex - Wandering"
+    },
     "uxuIQYUmJn0": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "929 - the bootleg boy - Rnla & Julia Alexa - i still miss u",
@@ -8771,6 +9751,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "Rnla & Julia Alexa - i still miss u"
+    },
+    "uzP7EHVSNsQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1058 - the bootleg boy - lofi songs for relaxing days",
+        "FORMAT": "mp3",
+        "NUMBER": 1058,
+        "PUBLISHED_AT": "2021-11-14T23:00:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "lofi songs for relaxing days"
     },
     "v-aHP_tZiDU": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -8789,6 +9779,16 @@
         "PUBLISHED_AT": "2017-11-12T23:00:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Thinking about her"
+    },
+    "v8vrWSRgm4A": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1069 - the bootleg boy - with you",
+        "FORMAT": "mp3",
+        "NUMBER": 1069,
+        "PUBLISHED_AT": "2021-12-10T23:00:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "with you"
     },
     "vCN7cbsets8": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -8873,6 +9873,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
         "STATUS": "DOWNLOADED",
         "TITLE": "SEA - you and the moon (ft. mia smith )"
+    },
+    "vbDwopq931A": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1024 - the bootleg boy - Kayou. & fawlin - all i'm asking for",
+        "FORMAT": "mp3",
+        "NUMBER": 1024,
+        "PUBLISHED_AT": "2021-09-10T22:00:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kayou. & fawlin - all i'm asking for"
     },
     "vjY06lqR9YA": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -9056,6 +10066,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "domas - searching for love"
     },
+    "wuSvaVzwI-w": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1112 - the bootleg boy - Secret Summit - anchor",
+        "FORMAT": "mp3",
+        "NUMBER": 1112,
+        "PUBLISHED_AT": "2022-03-19T23:00:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Secret Summit - anchor"
+    },
     "wxVc3-yYQ1Y": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "80 - the bootleg boy - Kina - Nobody Cares (ft. Shiloh)",
@@ -9158,6 +10178,16 @@
         "PUBLISHED_AT": "2019-06-16T22:00:04.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "I will wait for you until the very end (pt. 4)"
+    },
+    "xZfYaVIdyxQ": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1045 - the bootleg boy - Rxseboy - Bus Ride (Lyrics) ft. chloe moriondo",
+        "FORMAT": "mp3",
+        "NUMBER": 1045,
+        "PUBLISHED_AT": "2021-10-19T22:00:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rxseboy - Bus Ride (Lyrics) ft. chloe moriondo"
     },
     "xaVe1qo2Yao": {
         "CHANNEL_NAME": "the bootleg boy",
@@ -9470,6 +10500,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "David Sanya - Tension (ft. Mas Charade)"
     },
+    "zTkxl4_DQew": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1068 - the bootleg boy - jomie - plastered (prod. skinny atlas)",
+        "FORMAT": "mp3",
+        "NUMBER": 1068,
+        "PUBLISHED_AT": "2021-12-07T23:00:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "jomie - plastered (prod. skinny atlas)"
+    },
     "zTmArB3e7k0": {
         "CHANNEL_NAME": "the bootleg boy",
         "FILE_NAME": "337 - the bootleg boy - Study & Chill _ Lofi Hiphop",
@@ -9487,6 +10527,16 @@
         "PUBLISHED_AT": "2018-06-12T22:00:06.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "timmies - without u (ft. nineteen95)"
+    },
+    "zoxmDfe2xZc": {
+        "CHANNEL_NAME": "the bootleg boy",
+        "FILE_NAME": "1087 - the bootleg boy - Hinshi - i just wanna run away",
+        "FORMAT": "mp3",
+        "NUMBER": 1087,
+        "PUBLISHED_AT": "2022-01-18T23:00:25Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\BootlegBoy",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hinshi - i just wanna run away"
     },
     "zx0iSR9n-rA": {
         "CHANNEL_NAME": "the bootleg boy",

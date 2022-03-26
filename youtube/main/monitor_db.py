@@ -144,7 +144,9 @@ def sync_pos_files_lib_with_db(monitor_name, lib_path, extension):
 
 
 def download_db_missing():
-    monitors_db = paths.SIDE_MONITORS_PATH
+    monitors_db = paths.MAIN_MONITORS_PATH
+    # monitors_db = paths.SIDE_MONITORS_PATH
+    # monitors_db = paths.SECONDARY_MONITORS_PATH
     dk_file = paths.API_RESERVE_KEY_PATH
 
     worker = YoutubeWorker(dk_file)

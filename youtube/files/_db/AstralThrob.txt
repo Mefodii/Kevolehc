@@ -57,6 +57,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "PULSE - A Chill Synthwave Mix For Chill Millennials"
     },
+    "0XqSPdJ-hr4": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "162 - Astral Throb - CONTINUUM - A Synthwave Chillwave Mix for You in Squid Game",
+        "FORMAT": "mp3",
+        "NUMBER": 162,
+        "PUBLISHED_AT": "2021-10-02T03:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "CONTINUUM - A Synthwave Chillwave Mix for You in Squid Game"
+    },
     "0lsBF1Mhi_k": {
         "CHANNEL_NAME": "Astral Throb",
         "FILE_NAME": "73 - Astral Throb - CHARGE - A Pure Darksynth Synthwave Cyberpunk Special Mix",
@@ -85,6 +95,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
         "STATUS": "DOWNLOADED",
         "TITLE": "UMBRA - A Chill Synthwave Mix Special For Acquired Ears"
+    },
+    "1TK0sKqvKZo": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "161 - Astral Throb - VULKARI64 - Starset _ EXCLUSIVE ALBUM PREMIERE",
+        "FORMAT": "mp3",
+        "NUMBER": 161,
+        "PUBLISHED_AT": "2021-09-22T01:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "VULKARI64 - Starset | EXCLUSIVE ALBUM PREMIERE"
     },
     "1eFxAT_EPOQ": {
         "CHANNEL_NAME": "Astral Throb",
@@ -124,6 +144,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "REVOLT - A Dark Synthwave Cyberpunk Compilation"
     },
+    "3H-8MWDtZgo": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "169 - Astral Throb - ILLUSION - A Chillwave Mix for The Cryophilic",
+        "FORMAT": "mp3",
+        "NUMBER": 169,
+        "PUBLISHED_AT": "2021-12-11T04:00:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ILLUSION - A Chillwave Mix for The Cryophilic"
+    },
     "3OXc6dbaL08": {
         "CHANNEL_NAME": "Astral Throb",
         "FILE_NAME": "108 - Astral Throb - ALIVE - A Synthwave Outrun Mix Special Compilation",
@@ -152,6 +182,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
         "STATUS": "DOWNLOADED",
         "TITLE": "CIPHER - A Chill Synthwave Cyberpunk Unique Mix Special Microwave"
+    },
+    "5BX1YbRq2Co": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "170 - Astral Throb - BURN - Darksynth Mix for Your Nightmare",
+        "FORMAT": "mp3",
+        "NUMBER": 170,
+        "PUBLISHED_AT": "2021-12-18T05:30:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BURN - Darksynth Mix for Your Nightmare"
+    },
+    "5jK0Qzei5XY": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "177 - Astral Throb - RUMBLING - A Darksynth Mix for Eldians",
+        "FORMAT": "mp3",
+        "NUMBER": 177,
+        "PUBLISHED_AT": "2022-03-06T04:00:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "RUMBLING - A Darksynth Mix for Eldians"
     },
     "6DaQbh45OxI": {
         "CHANNEL_NAME": "Astral Throb",
@@ -220,6 +270,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "OFFWORLD - A Chill Synthwave Special"
     },
+    "8HcWSYv6Dhc": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "166 - Astral Throb - BREATHE - A Chillwave Synthwave Mix for The All Nighter",
+        "FORMAT": "mp3",
+        "NUMBER": 166,
+        "PUBLISHED_AT": "2021-11-12T16:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BREATHE - A Chillwave Synthwave Mix for The All Nighter"
+    },
+    "8iXU956MGN8": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "159 - Astral Throb - TRANSCEND - A Synthwave Chillwave Mix For Night Owls",
+        "FORMAT": "mp3",
+        "NUMBER": 159,
+        "PUBLISHED_AT": "2021-09-11T03:43:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TRANSCEND - A Synthwave Chillwave Mix For Night Owls"
+    },
     "9UDCG6vdFuw": {
         "CHANNEL_NAME": "Astral Throb",
         "FILE_NAME": "59 - Astral Throb - PHASES - A Chillwave Synthwave Mix Special",
@@ -238,6 +308,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
         "STATUS": "DOWNLOADED",
         "TITLE": "MILCHOMALEFIC - Synaptic Dance | Exclusive Astral Throb Premiere"
+    },
+    "A5HavvQyU8E": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "164 - Astral Throb - DUNE - A Synthwave Chillwave Mix For Paul Atreides",
+        "FORMAT": "mp3",
+        "NUMBER": 164,
+        "PUBLISHED_AT": "2021-10-23T03:00:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DUNE - A Synthwave Chillwave Mix For Paul Atreides"
     },
     "BM4nhvIF9UE": {
         "CHANNEL_NAME": "Astral Throb",
@@ -457,6 +537,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "CHRIS KEYA - The Call | Exclusive Astral Throb Premiere"
     },
+    "Ikqn_mj_gSQ": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "173 - Astral Throb - GAIA - A Chillwave Synthwave Mix by Daddy Synthwave",
+        "FORMAT": "mp3",
+        "NUMBER": 173,
+        "PUBLISHED_AT": "2022-01-23T04:00:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "GAIA - A Chillwave Synthwave Mix by Daddy Synthwave"
+    },
     "JrBtP4NfztM": {
         "CHANNEL_NAME": "Astral Throb",
         "FILE_NAME": "104 - Astral Throb - AFTERMATH - A Darksynth Synthwave Cyberpunk Mix for Mercenary Outlaws",
@@ -496,6 +586,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "COAST - A Synthwave Chillwave Mix For Internet Escapists"
     },
+    "LBuMDWyzD2Y": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "165 - Astral Throb - NIGHTMARE - A Darksynth Mix For The Halloween",
+        "FORMAT": "mp3",
+        "NUMBER": 165,
+        "PUBLISHED_AT": "2021-10-30T03:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NIGHTMARE - A Darksynth Mix For The Halloween"
+    },
     "La6ano-LqgY": {
         "CHANNEL_NAME": "Astral Throb",
         "FILE_NAME": "82 - Astral Throb - VERTIGO - A Synthwave Chillwave Nostalgia-inducing Mix Special",
@@ -516,6 +616,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "ULTRALIGHT - A Synthwave Chillwave Cyber Mix Special"
     },
+    "M4VlflZUBT8": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "174 - Astral Throb - SYNTHELSE - Paradise Nostalgia _ EXCLUSIVE EP PREMIERE",
+        "FORMAT": "mp3",
+        "NUMBER": 174,
+        "PUBLISHED_AT": "2022-01-29T03:00:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SYNTHELSE - Paradise Nostalgia | EXCLUSIVE EP PREMIERE"
+    },
     "MYr_WcSDBkU": {
         "CHANNEL_NAME": "Astral Throb",
         "FILE_NAME": "12 - Astral Throb - STARMADE - A Synthwave Mix",
@@ -533,6 +643,16 @@
         "PUBLISHED_AT": "2019-05-10T02:25:45.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "HUNTER - A Cyberpunk Synthwave Special Mix"
+    },
+    "MzSH9FddXyk": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "172 - Astral Throb - BLACKOUT - A Darksynth Mix for New Year",
+        "FORMAT": "mp3",
+        "NUMBER": 172,
+        "PUBLISHED_AT": "2022-01-16T06:00:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BLACKOUT - A Darksynth Mix for New Year"
     },
     "N-aFiqG14Fs": {
         "CHANNEL_NAME": "Astral Throb",
@@ -552,6 +672,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
         "STATUS": "DOWNLOADED",
         "TITLE": "SPECTRUM - A Chillwave Synthwave Mix for Summer Nights"
+    },
+    "NXgQHFWTqSo": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "175 - Astral Throb - ENERGY - A Synthwave Mix for When You Slay Marleyans",
+        "FORMAT": "mp3",
+        "NUMBER": 175,
+        "PUBLISHED_AT": "2022-02-12T05:06:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ENERGY - A Synthwave Mix for When You Slay Marleyans"
     },
     "NuvlDpFEcdY": {
         "CHANNEL_NAME": "Astral Throb",
@@ -715,6 +845,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "WANDER - A Chillwave Synthwave Mix For Hodophiles"
     },
+    "W1m7RTDlI58": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "163 - Astral Throb - EXIT REALITY - A Chillwave Synthwave Mix For Chionophile",
+        "FORMAT": "mp3",
+        "NUMBER": 163,
+        "PUBLISHED_AT": "2021-10-16T03:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "EXIT REALITY - A Chillwave Synthwave Mix For Chionophile"
+    },
     "WBD6KyyVHMM": {
         "CHANNEL_NAME": "Astral Throb",
         "FILE_NAME": "85 - Astral Throb - CLOSE - A Chill Outrun Synthwave Mix Special",
@@ -724,6 +864,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
         "STATUS": "DOWNLOADED",
         "TITLE": "CLOSE - A Chill Outrun Synthwave Mix Special"
+    },
+    "WCaJeG8CPFc": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "178 - Astral Throb - FORTRESS - A Chillwave Synthwave Mix for The Spring",
+        "FORMAT": "mp3",
+        "NUMBER": 178,
+        "PUBLISHED_AT": "2022-03-19T13:18:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FORTRESS - A Chillwave Synthwave Mix for The Spring"
     },
     "WTwxZ-pF_C0": {
         "CHANNEL_NAME": "Astral Throb",
@@ -803,6 +953,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "OMEN - A Cold Darksynth Cyberpunk Mix for Aggressive Robots"
     },
+    "_P_t-1Ynq_c": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "179 - Astral Throb - Fizzy Mitz - Neon City _ Exclusive Astral Throb Premiere",
+        "FORMAT": "mp3",
+        "NUMBER": 179,
+        "PUBLISHED_AT": "2022-03-23T04:00:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fizzy Mitz - Neon City | Exclusive Astral Throb Premiere"
+    },
     "_g7vpvKIi9A": {
         "CHANNEL_NAME": "Astral Throb",
         "FILE_NAME": "56 - Astral Throb - OMEGA - A Chillwave Retrowave Synthwave Special Mix",
@@ -831,6 +991,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
         "STATUS": "DOWNLOADED",
         "TITLE": "FOUND - A True Chillwave Synthwave Unique Mix"
+    },
+    "bJO8XGc573Y": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "156 - Astral Throb - NEW ERA - A Synthwave Chillwave Mix For When Covid Is Gone",
+        "FORMAT": "mp3",
+        "NUMBER": 156,
+        "PUBLISHED_AT": "2021-08-21T04:08:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NEW ERA - A Synthwave Chillwave Mix For When Covid Is Gone"
+    },
+    "bxEGyzSqoe0": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "167 - Astral Throb - DREAM - A Synthwave Chillwave Mix for The Metaverse",
+        "FORMAT": "mp3",
+        "NUMBER": 167,
+        "PUBLISHED_AT": "2021-11-20T04:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DREAM - A Synthwave Chillwave Mix for The Metaverse"
     },
     "cGnJ613oWeE": {
         "CHANNEL_NAME": "Astral Throb",
@@ -870,6 +1050,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
         "STATUS": "DOWNLOADED",
         "TITLE": "SHIFT - A Synthwave Chillwave Mix for Paradis Island"
+    },
+    "dN4CBhpjQGY": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "157 - Astral Throb - TITAN - A Darksynth Synthwave Mix for Paradis Island",
+        "FORMAT": "mp3",
+        "NUMBER": 157,
+        "PUBLISHED_AT": "2021-08-28T04:03:44Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TITAN - A Darksynth Synthwave Mix for Paradis Island"
     },
     "dPVzhMa0T0Y": {
         "CHANNEL_NAME": "Astral Throb",
@@ -964,6 +1154,16 @@
         "PUBLISHED_AT": "2019-03-11T01:24:42.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "NEON LAGOON - A Chill Synthwave Mix"
+    },
+    "h7JpgbRb3P8": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "176 - Astral Throb - WONDER - A Chillwave Synthwave Mix of Perfection",
+        "FORMAT": "mp3",
+        "NUMBER": 176,
+        "PUBLISHED_AT": "2022-02-26T04:00:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "WONDER - A Chillwave Synthwave Mix of Perfection"
     },
     "h7nFfwQYwRU": {
         "CHANNEL_NAME": "Astral Throb",
@@ -1174,6 +1374,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "STEREO - Dost (FULL EP STREAM) - Exclusive Astral Throb Premiere"
     },
+    "mDeVQv4a69Q": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "168 - Astral Throb - TRANQUIL - A Synthwave Chillwave Mix for The Cryophilic",
+        "FORMAT": "mp3",
+        "NUMBER": 168,
+        "PUBLISHED_AT": "2021-12-05T04:58:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TRANQUIL - A Synthwave Chillwave Mix for The Cryophilic"
+    },
     "nM5_37r7TLs": {
         "CHANNEL_NAME": "Astral Throb",
         "FILE_NAME": "43 - Astral Throb - CULT - A Darksynth Synthwave Mix",
@@ -1321,6 +1531,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "AXIOM - A Darksynth Synthwave Mix for the Undead"
     },
+    "sYsz8WSj774": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "171 - Astral Throb - THE MATRIX -  A Synthwave Mix for Neo & Trinity",
+        "FORMAT": "mp3",
+        "NUMBER": 171,
+        "PUBLISHED_AT": "2022-01-08T05:00:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "THE MATRIX -  A Synthwave Mix for Neo & Trinity"
+    },
     "tdN6KqTTm18": {
         "CHANNEL_NAME": "Astral Throb",
         "FILE_NAME": "127 - Astral Throb - RENEW - A Synthwave Chillwave Mix for a Good Year",
@@ -1348,6 +1568,16 @@
         "PUBLISHED_AT": "2019-06-10T09:13:43.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "DIMENSION - A Synthwave Cyberpunk Special Mix"
+    },
+    "u2spj_sPPcE": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "160 - Astral Throb - ON CALL - A Chillwave Synthwave Mix For The End Of Summer",
+        "FORMAT": "mp3",
+        "NUMBER": 160,
+        "PUBLISHED_AT": "2021-09-18T03:17:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ON CALL - A Chillwave Synthwave Mix For The End Of Summer"
     },
     "u7TQdpaFjeQ": {
         "CHANNEL_NAME": "Astral Throb",
@@ -1473,6 +1703,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
         "STATUS": "DOWNLOADED",
         "TITLE": "SOLSTICE - A Chillwave Mix to Escape the Summer Heat"
+    },
+    "zVdBHE4dS8U": {
+        "CHANNEL_NAME": "Astral Throb",
+        "FILE_NAME": "158 - Astral Throb - WinstonW - ELECTRO CIRCUIT _ Exclusive Astral Throb Premiere",
+        "FORMAT": "mp3",
+        "NUMBER": 158,
+        "PUBLISHED_AT": "2021-09-04T03:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AstralThrob",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "WinstonW - ELECTRO CIRCUIT | Exclusive Astral Throb Premiere"
     },
     "zeYFfzr_3Kw": {
         "CHANNEL_NAME": "Astral Throb",

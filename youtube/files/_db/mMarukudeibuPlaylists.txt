@@ -19,6 +19,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "chill japanese songs when staring at nothing"
     },
+    "3RecJwsPcVU": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "68 - mMarukudeibu Playlists - japanese songs that speaks to my soul [j-pop, j-alt rock, j-rock]",
+        "FORMAT": "mp3",
+        "NUMBER": 68,
+        "PUBLISHED_AT": "2021-12-01T14:40:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese songs that speaks to my soul [j-pop, j-alt rock, j-rock]"
+    },
     "3ri0onpYNIk": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",
         "FILE_NAME": "44 - mMarukudeibu Playlists - chill tokyo vibes \ud83c\udf38 - [pop, r&b, rap, indie, soul]",
@@ -28,6 +38,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
         "STATUS": "DOWNLOADED",
         "TITLE": "chill tokyo vibes \ud83c\udf38 - [pop, r&b, rap, indie, soul]"
+    },
+    "6VCk9Qmmt0s": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "66 - mMarukudeibu Playlists - filipino_OPM for emotional rollercoaster _ bittersweet playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 66,
+        "PUBLISHED_AT": "2021-10-28T13:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "filipino/OPM for emotional rollercoaster | bittersweet playlist"
     },
     "6Vairl_WFAI": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",
@@ -58,6 +78,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
         "STATUS": "DOWNLOADED",
         "TITLE": "don't mind me, just vibing to japanese songs"
+    },
+    "AInd0I6oUyA": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "64 - mMarukudeibu Playlists - farewell, see you soon [japanese playlist]",
+        "FORMAT": "mp3",
+        "NUMBER": 64,
+        "PUBLISHED_AT": "2021-08-26T13:30:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "farewell, see you soon [japanese playlist]"
     },
     "CWHV3Kas8qo": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",
@@ -118,6 +148,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
         "STATUS": "DOWNLOADED",
         "TITLE": "a playlist if you were an anime villain"
+    },
+    "GwCtepYNsho": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "65 - mMarukudeibu Playlists - my last two brain cells listening to japanese songs to stay alive",
+        "FORMAT": "mp3",
+        "NUMBER": 65,
+        "PUBLISHED_AT": "2021-10-13T15:11:45Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "my last two brain cells listening to japanese songs to stay alive"
     },
     "HdaXVcnntSk": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",
@@ -189,6 +229,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "take some rest, here's a chill japanese playlist"
     },
+    "MhpttNiVYWQ": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "70 - mMarukudeibu Playlists - running away alone to go on a spontaneous trip to japan",
+        "FORMAT": "mp3",
+        "NUMBER": 70,
+        "PUBLISHED_AT": "2022-01-02T12:57:39Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "running away alone to go on a spontaneous trip to japan"
+    },
     "N0lwQ3NjcKQ": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",
         "FILE_NAME": "11 - mMarukudeibu Playlists - japanese pop_rock songs to cheer you up during quarantine _ playlist",
@@ -229,6 +279,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "japanese & korean songs to listen to start your day off right | playlist"
     },
+    "OIhuprnHyfI": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "71 - mMarukudeibu Playlists - pleasant japanese songs to start your day",
+        "FORMAT": "mp3",
+        "NUMBER": 71,
+        "PUBLISHED_AT": "2022-01-20T04:45:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "pleasant japanese songs to start your day"
+    },
     "OTtYCHsP6Ps": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",
         "FILE_NAME": "13 - mMarukudeibu Playlists - japanese indie songs to make your day better _ playlist",
@@ -268,6 +328,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
         "STATUS": "DOWNLOADED",
         "TITLE": "Joji - Sanctuary (Anime Visualizer)"
+    },
+    "T6fHFwNRdpQ": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "74 - mMarukudeibu Playlists - (#2) my last two brain cells listening cute japanese songs [pop, kawaii edm_future bass]",
+        "FORMAT": "mp3",
+        "NUMBER": 74,
+        "PUBLISHED_AT": "2022-03-14T03:00:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "(#2) my last two brain cells listening cute japanese songs [pop, kawaii edm/future bass]"
     },
     "U2GkGmnSyPc": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",
@@ -328,6 +398,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
         "STATUS": "DOWNLOADED",
         "TITLE": "japanese rap songs i don't understand but i'm lowkey vibing to it | playlist"
+    },
+    "_HQVtBxiMt4": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "72 - mMarukudeibu Playlists - japanese songs you play on a car stereo",
+        "FORMAT": "mp3",
+        "NUMBER": 72,
+        "PUBLISHED_AT": "2022-02-16T14:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese songs you play on a car stereo"
     },
     "_M-g7_LzJ1I": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",
@@ -499,6 +579,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "japanese indie spotlight: FOMARE & THE BOYS&GIRLS"
     },
+    "mqpRSfAjuU0": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "73 - mMarukudeibu Playlists - japanese songs to play on a car stereo _ playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 73,
+        "PUBLISHED_AT": "2022-02-22T13:29:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "japanese songs to play on a car stereo | playlist"
+    },
     "nCyK6fJCnB0": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",
         "FILE_NAME": "59 - mMarukudeibu Playlists - i just want to forget all my problems and runaway from everything _ japanese playlist",
@@ -518,6 +608,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
         "STATUS": "DOWNLOADED",
         "TITLE": "Anime BLAST! available on Spotify | Top Anime Songs"
+    },
+    "ob3p1E0-_zY": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "75 - mMarukudeibu Playlists - (#2) my last two brain cells listening cute japanese songs [pop, kawaii edm_future bass]",
+        "FORMAT": "mp3",
+        "NUMBER": 75,
+        "PUBLISHED_AT": "2022-03-20T05:39:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "(#2) my last two brain cells listening cute japanese songs [pop, kawaii edm/future bass]"
+    },
+    "pJGQdeP3jrI": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "67 - mMarukudeibu Playlists - deadlines due but i'm listening to japanese songs [j-pop, alt-rock, alt-idol]",
+        "FORMAT": "mp3",
+        "NUMBER": 67,
+        "PUBLISHED_AT": "2021-11-07T08:00:42Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "deadlines due but i'm listening to japanese songs [j-pop, alt-rock, alt-idol]"
     },
     "pbWnM8KHHf4": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",
@@ -578,6 +688,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
         "STATUS": "DOWNLOADED",
         "TITLE": "a playlist to feel the tokyo groove"
+    },
+    "vlraSF6PrcQ": {
+        "CHANNEL_NAME": "mMarukudeibu Playlists",
+        "FILE_NAME": "69 - mMarukudeibu Playlists - i just want peace for 30 minutes - a kensuke ushio playlist",
+        "FORMAT": "mp3",
+        "NUMBER": 69,
+        "PUBLISHED_AT": "2021-12-16T13:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\mMarukudeibuPlaylists",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "i just want peace for 30 minutes - a kensuke ushio playlist"
     },
     "wWGosqYEiNo": {
         "CHANNEL_NAME": "mMarukudeibu Playlists",

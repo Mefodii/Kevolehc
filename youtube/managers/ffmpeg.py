@@ -5,6 +5,8 @@ from utils import File
 from ..utils.constants import MERGED_FORMAT
 
 METADATA_HEADER = ";FFMETADATA1"
+
+
 class Ffmpeg:
     @staticmethod
     def merge_audio_and_video(files_path, audio, video, merged):
@@ -35,7 +37,16 @@ class Ffmpeg:
         tags = []
         for key, value in tags_dict.items():
             tag_value = value.replace("\"", "\\\"").replace("\'", "\"'\"")
-            # tag_value = tag_value.replace("&", "^&")
+
+            # The titles with symbol "&" and between quotes will be replaced with "^&"
+            # In that way ffmpeg command will be generated correctly
+            if "&" in file_abs_path and "\"" in tag_value:
+                splitted = tag_value.split("\"")
+                for i in range(1, len(splitted), 2):
+                    if i != len(splitted):
+                        splitted[i] = splitted[i].replace("&", "^&")
+                tag_value = "\"".join(splitted)
+
             tag_str = "-metadata " + key + "=\"" + tag_value + "\""
             tags.append(tag_str)
 

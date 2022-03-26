@@ -11,6 +11,7 @@ from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager, Yo
 from youtube.model.yt_queue import YoutubeQueue
 from youtube.model.yt_monitors import YoutubeMonitor
 from youtube.model.yt_video import YoutubeVideo
+from youtube.utils.file_names import replace_unicode_chars
 from youtube.yt_api.requests import YoutubeWorker
 from youtube_dl.utils import DownloadError
 from youtube.utils.yt_datetime import yt_to_py
@@ -42,18 +43,17 @@ def test_yt_to_py():
 
 def test_tags():
     file_abs_path = "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\" \
-                    "files\\monitors\\ExtraCreditz" \
-                    "\\3.mp4"
+                    "files\\monitors\\GameChops" \
+                    "\\605 - GameChops - Undertale Remix - Arcien - Heartache (from _Hopes & Dreams_) - GameChops.mp3"
                     # "\\1053 - Extra Credits - ♫ Policing London - _Alleyways & Truncheons_ - Extra History Music.mp4"
                     # "\\677 - ThePrimeThanatos - 'Back To The 80's' _ Best of Synthwave And Retro Electro Music Mix _ Vol. 21.mp3"
 
     if file_abs_path.endswith(constants.MP3):
         tags = {
-            "genre": "ThePrimeThanatos",
-            "title": "'Back To The 80's | Best of Synthwave And Retro Electro Music Mix | Vol. 21",
-            "track": "677",
-            "copyright": "ThePrimeThanatos",
-            "disc": "1Ny7vnWdoLc",
+            "genre": "GameChops",
+            # "title": "'Back To The 80's | Best of Synthwave And Retro Electro Music Mix | Vol. 21",
+            "title": "Undertale & Remix - Arcien - & Heartache (from \"Hopes & ss & Dreams\")  & \" - GameChops \" zz \" &",
+            "track": "605",
             "comment": "by Mefodii"
         }
     else:
@@ -85,32 +85,6 @@ def test_compose_unicode(data):
 
     print(composed)
     write_lines_to_file_utf8("C:\\Users\\Mefodii\\Downloads\\nfc.txt", result)
-
-
-def test_file():
-    append_to_file("D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\DLoaw\\DLoaw.txt",
-                   [])
-
-
-def get_input_data():
-    data = []
-
-    for line in stdin:
-        if "eoffff" in line:  # If empty string is read then stop the loop
-            break
-        data.append(line)
-
-    return data
-
-
-def test_http_ident(data):
-    i = 1
-    for line in data:
-        if "[" in line[1:2]:
-            substring = line[115:119]
-            if "http" not in substring:
-                print(i, line[:-1])
-        i += 1
 
 
 def test_json(data):
@@ -293,6 +267,7 @@ def datetime_tests():
     print(yt_to_py(tt))
 
 
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
@@ -312,6 +287,7 @@ def __main__():
     # -------===========------
     # test_tags()
     # -------===========------
+
 
 #######################################################################################################################
 # Process

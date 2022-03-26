@@ -4553,6 +4553,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "PEWPEWMEOW - Sunset Drive"
     },
+    "YdiIFWh3Wc0": {
+        "CHANNEL_NAME": "ThePrimeThanatos",
+        "FILE_NAME": "923 - ThePrimeThanatos - FM Attack - Starlight",
+        "FORMAT": "mp3",
+        "NUMBER": 923,
+        "PUBLISHED_AT": "2022-01-01T05:00:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ThePrimeThanatos",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FM Attack - Starlight"
+    },
     "YpwzENIeZO8": {
         "CHANNEL_NAME": "ThePrimeThanatos",
         "FILE_NAME": "288 - ThePrimeThanatos - Straplocked - Make Room",
@@ -5159,6 +5169,16 @@
         "PUBLISHED_AT": "2019-08-14T11:00:07.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Megahit - Guns, Bikes, And Neon Lights"
+    },
+    "cd5_mkQ06_U": {
+        "CHANNEL_NAME": "ThePrimeThanatos",
+        "FILE_NAME": "925 - ThePrimeThanatos - Chill Synthwave Mix _ Night Club By Darek From Poland",
+        "FORMAT": "mp3",
+        "NUMBER": 925,
+        "PUBLISHED_AT": "2022-03-25T18:16:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ThePrimeThanatos",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chill Synthwave Mix | Night Club By Darek From Poland"
     },
     "cuIISAbqVRs": {
         "CHANNEL_NAME": "ThePrimeThanatos",
@@ -7835,6 +7855,16 @@
         "NUMBER": 480,
         "STATUS": "DOWNLOADED",
         "TITLE": "Chris Keya - Lost Boys"
+    },
+    "wgw7uImdPjw": {
+        "CHANNEL_NAME": "ThePrimeThanatos",
+        "FILE_NAME": "924 - ThePrimeThanatos - Best of Retrowave Touch 2021",
+        "FORMAT": "mp3",
+        "NUMBER": 924,
+        "PUBLISHED_AT": "2022-01-06T12:00:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ThePrimeThanatos",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Best of Retrowave Touch 2021"
     },
     "wkRE_KfpHvk": {
         "CHANNEL_NAME": "ThePrimeThanatos",

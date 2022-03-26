@@ -29,6 +29,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Reflection - Sovietwave Mix"
     },
+    "M-vGUWt9BLI": {
+        "CHANNEL_NAME": "NewSovietWave",
+        "FILE_NAME": "14 - NewSovietWave - Dreams - Sovietwave Mix (Reupload)",
+        "FORMAT": "mp3",
+        "NUMBER": 14,
+        "PUBLISHED_AT": "2022-02-19T16:30:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewSovietWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dreams - Sovietwave Mix (Reupload)"
+    },
     "Mo41PanwSB0": {
         "CHANNEL_NAME": "NewSovietWave",
         "FILE_NAME": "10 - NewSovietWave - Ambition - Sovietwave Mix",

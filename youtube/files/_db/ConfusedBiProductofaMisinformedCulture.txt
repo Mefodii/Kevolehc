@@ -239,6 +239,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Records From the Vault: All Vinyl Classic DnB Mix"
     },
+    "2HZtxopmNH0": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "422 - Confused Bi-Product of a Misinformed Culture - Creep - A Deep Dubstep mix",
+        "FORMAT": "mp3",
+        "NUMBER": 422,
+        "PUBLISHED_AT": "2021-10-09T23:18:51Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Creep - A Deep Dubstep mix"
+    },
     "2Mkziuup4Ug": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
         "FILE_NAME": "416 - Confused Bi-Product of a Misinformed Culture - Live Mix Series Pt. 3 - Drum and Bass _ Neurofunk",
@@ -1039,6 +1049,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Root Chakra - Deep Dubstep Mix"
     },
+    "EjSFqb4tMF8": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "419 - Confused Bi-Product of a Misinformed Culture - Northern Lights - A Neurofunk Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 419,
+        "PUBLISHED_AT": "2021-09-23T18:21:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Northern Lights - A Neurofunk Mix"
+    },
     "ElZy7xNl9pE": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
         "FILE_NAME": "410 - Confused Bi-Product of a Misinformed Culture - Disassociate - An Acid Techno Mix",
@@ -1679,6 +1699,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "An Uncertain Romance: A Deep House Mix"
     },
+    "MUDRqEqARjI": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "427 - Confused Bi-Product of a Misinformed Culture - It Came From The 80's... Vol. 8 - A Retro Darkwave Horrorsynth Special",
+        "FORMAT": "mp3",
+        "NUMBER": 427,
+        "PUBLISHED_AT": "2021-10-31T04:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "It Came From The 80's... Vol. 8 - A Retro Darkwave Horrorsynth Special"
+    },
     "MeDKK3WCVvU": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
         "FILE_NAME": "72 - Confused Bi-Product of a Misinformed Culture - Change in Season Pt.1- A 2015 Trip Hop Series",
@@ -1849,6 +1879,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "New Years 2016 Trip Hop Mix"
     },
+    "ORiDqe2KOX8": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "421 - Confused Bi-Product of a Misinformed Culture - Intelligent Life  - A Progressive House Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 421,
+        "PUBLISHED_AT": "2021-10-07T22:44:52Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Intelligent Life  - A Progressive House Mix"
+    },
     "OuVQfZ4eo9I": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
         "FILE_NAME": "183 - Confused Bi-Product of a Misinformed Culture - Timeless - A Deep, Feel Good House Mix",
@@ -1898,6 +1938,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
         "STATUS": "DOWNLOADED",
         "TITLE": "Facades: A Psychedelic Trance Mix"
+    },
+    "PcPEySn-NiE": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "426 - Confused Bi-Product of a Misinformed Culture - Legion - An Acid Techno Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 426,
+        "PUBLISHED_AT": "2021-10-25T09:09:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Legion - An Acid Techno Mix"
     },
     "Pwd-5MjBTyI": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
@@ -2369,6 +2419,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Downloads!!! A Public Service Announcement"
     },
+    "YMxAPKhPX5Q": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "430 - Confused Bi-Product of a Misinformed Culture - Indivisible - A Trip Hop Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 430,
+        "PUBLISHED_AT": "2022-03-07T23:34:46Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Indivisible - A Trip Hop Mix"
+    },
     "YOrdXN54ulc": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
         "FILE_NAME": "101 - Confused Bi-Product of a Misinformed Culture - Mostly Benign_ A Dubstep Mix",
@@ -2409,6 +2469,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Tomorrow is a Dream: A Synthwave Mix"
     },
+    "Yyye2XhXMEc": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "429 - Confused Bi-Product of a Misinformed Culture - Shadow of a Doubt - A Trip Hop Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 429,
+        "PUBLISHED_AT": "2022-01-15T03:51:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Shadow of a Doubt - A Trip Hop Mix"
+    },
     "ZFwUnwkWLmE": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
         "FILE_NAME": "155 - Confused Bi-Product of a Misinformed Culture - Beat Therapy Part 11_ A Trip Hop Mix",
@@ -2418,6 +2488,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
         "STATUS": "DOWNLOADED",
         "TITLE": "Beat Therapy Part 11: A Trip Hop Mix"
+    },
+    "ZJwyvaNQCUA": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "428 - Confused Bi-Product of a Misinformed Culture - Wind - A Tribal Bass Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 428,
+        "PUBLISHED_AT": "2021-12-01T00:39:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Wind - A Tribal Bass Mix"
     },
     "ZTkvP-Gn1oY": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
@@ -3869,6 +3949,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Paralysis - A Drum and Bass Mix"
     },
+    "uHCbyzYHRFI": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "423 - Confused Bi-Product of a Misinformed Culture - Beat Therapy 33 - Funk, Breakbeats & Trip Hop",
+        "FORMAT": "mp3",
+        "NUMBER": 423,
+        "PUBLISHED_AT": "2021-10-16T23:22:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Beat Therapy 33 - Funk, Breakbeats & Trip Hop"
+    },
     "uIkxLUPrRSc": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
         "FILE_NAME": "341 - Confused Bi-Product of a Misinformed Culture - Body Electric - A Drum and Bass Mix",
@@ -3888,6 +3978,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
         "STATUS": "DOWNLOADED",
         "TITLE": "Just an Illusion - A Deep Progressive Tribal Fusion Mix"
+    },
+    "ul0w5O7oEl4": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "420 - Confused Bi-Product of a Misinformed Culture - Origin Unknown - A Darkstep_Neurofunk Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 420,
+        "PUBLISHED_AT": "2021-09-24T02:07:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Origin Unknown - A Darkstep/Neurofunk Mix"
     },
     "up2y0R-DN3c": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
@@ -4049,6 +4149,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "The i-Junglist Mix Show - Vol.1"
     },
+    "y4MOnAKwAbI": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "424 - Confused Bi-Product of a Misinformed Culture - Northern Lights - A Drum and Bass Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 424,
+        "PUBLISHED_AT": "2021-10-25T08:51:57Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Northern Lights - A Drum and Bass Mix"
+    },
     "y96c8rnqB5Q": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
         "FILE_NAME": "313 - Confused Bi-Product of a Misinformed Culture - Beat Therapy 26 - A Trip Hop Mix",
@@ -4078,6 +4188,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
         "STATUS": "DOWNLOADED",
         "TITLE": "Rebirth - A Deep Dubstep Mix"
+    },
+    "yXESRledqKU": {
+        "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",
+        "FILE_NAME": "425 - Confused Bi-Product of a Misinformed Culture - Renaissance - A Bass Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 425,
+        "PUBLISHED_AT": "2021-10-25T09:01:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\ConfusedBiProductofaMisinformedCulture",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Renaissance - A Bass Mix"
     },
     "ycA9zUqD5mg": {
         "CHANNEL_NAME": "Confused Bi-Product of a Misinformed Culture",

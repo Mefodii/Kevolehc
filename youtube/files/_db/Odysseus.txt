@@ -239,6 +239,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Oblivion - A Darksynth Mix"
     },
+    "HJcpcb1wnDE": {
+        "CHANNEL_NAME": "Odysseus",
+        "FILE_NAME": "98 - Odysseus - Labyrinth - A Chillwave Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 98,
+        "PUBLISHED_AT": "2021-11-27T00:00:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Odysseus",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Labyrinth - A Chillwave Mix"
+    },
     "IRGCwuYugy0": {
         "CHANNEL_NAME": "Odysseus",
         "FILE_NAME": "4 - Odysseus - Titan \u2014 A Synthwave Mix",
@@ -248,6 +258,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Odysseus",
         "STATUS": "DOWNLOADED",
         "TITLE": "Titan \u2014 A Synthwave Mix"
+    },
+    "J52wBDMupKU": {
+        "CHANNEL_NAME": "Odysseus",
+        "FILE_NAME": "100 - Odysseus - Tokyo Arcade - A Chillwave Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 100,
+        "PUBLISHED_AT": "2022-03-10T00:00:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Odysseus",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tokyo Arcade - A Chillwave Mix"
     },
     "J6G7uaNHH54": {
         "CHANNEL_NAME": "Odysseus",
@@ -279,6 +299,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Monolith - A Darksynth Mix"
     },
+    "KUFGeEo0nOg": {
+        "CHANNEL_NAME": "Odysseus",
+        "FILE_NAME": "97 - Odysseus - Wavesurfer - A Chillwave Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 97,
+        "PUBLISHED_AT": "2021-10-08T18:30:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Odysseus",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Wavesurfer - A Chillwave Mix"
+    },
     "LZZDZBhNyhc": {
         "CHANNEL_NAME": "Odysseus",
         "FILE_NAME": "19 - Odysseus - Tokyo Nights - A Synthwave Mix",
@@ -298,6 +328,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Odysseus",
         "STATUS": "DOWNLOADED",
         "TITLE": "Retrolad - A Synthwave Mix"
+    },
+    "NYmPZb7GS1M": {
+        "CHANNEL_NAME": "Odysseus",
+        "FILE_NAME": "99 - Odysseus - Chillwave Mix - Discovery 4",
+        "FORMAT": "mp3",
+        "NUMBER": 99,
+        "PUBLISHED_AT": "2021-12-23T23:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Odysseus",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Chillwave Mix - Discovery 4"
     },
     "NbBcBJHiBgY": {
         "CHANNEL_NAME": "Odysseus",
@@ -458,6 +498,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Odysseus",
         "STATUS": "DOWNLOADED",
         "TITLE": "Immortal - A Synthwave Mix"
+    },
+    "WFt81ucB59Y": {
+        "CHANNEL_NAME": "Odysseus",
+        "FILE_NAME": "96 - Odysseus - Sahara - A Chillwave Mix",
+        "FORMAT": "mp3",
+        "NUMBER": 96,
+        "PUBLISHED_AT": "2021-08-23T21:16:46Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\Odysseus",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sahara - A Chillwave Mix"
     },
     "Xg_k7GX2iFQ": {
         "CHANNEL_NAME": "Odysseus",

@@ -405,6 +405,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Nienvox - My Hand Makes Circle In The Sunset Air"
     },
+    "1NMdEyfSJr4": {
+        "CHANNEL_NAME": "MineurDuSon",
+        "FILE_NAME": "1061 - MineurDuSon - Enfant Sauvage - Solitude",
+        "FORMAT": "mp3",
+        "NUMBER": 1061,
+        "PUBLISHED_AT": "2022-01-02T11:40:36Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\MineurDuSon",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Enfant Sauvage - Solitude"
+    },
     "1eN8qOR8d9Q": {
         "CHANNEL_NAME": "MineurDuSon",
         "FILE_NAME": "81 - MineurDuSon - Superpoze - Snowpixel",
@@ -3166,6 +3176,16 @@
         "PUBLISHED_AT": "2010-02-10T18:34:41.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Klitbeats - Stay"
+    },
+    "JJ0jAR1BugM": {
+        "CHANNEL_NAME": "MineurDuSon",
+        "FILE_NAME": "1062 - MineurDuSon - Gidge - The Cascades",
+        "FORMAT": "mp3",
+        "NUMBER": 1062,
+        "PUBLISHED_AT": "2022-03-13T10:34:51Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\MineurDuSon",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gidge - The Cascades"
     },
     "JMjgcRksIJg": {
         "CHANNEL_NAME": "MineurDuSon",
@@ -6504,6 +6524,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Arms & Sleepers - Reprise"
     },
+    "fUO6a1N1cFQ": {
+        "CHANNEL_NAME": "MineurDuSon",
+        "FILE_NAME": "1059 - MineurDuSon - Enfant Sauvage - A Misty Day",
+        "FORMAT": "mp3",
+        "NUMBER": 1059,
+        "PUBLISHED_AT": "2022-01-02T11:21:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\MineurDuSon",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Enfant Sauvage - A Misty Day"
+    },
     "fVU9-UGBggA": {
         "CHANNEL_NAME": "MineurDuSon",
         "FILE_NAME": "95 - MineurDuSon - Kenshirosahn - Werasmyki in New York",
@@ -8757,6 +8787,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Pilotpriest - Lipstick"
     },
+    "vDZeVwsM6RQ": {
+        "CHANNEL_NAME": "MineurDuSon",
+        "FILE_NAME": "1060 - MineurDuSon - Enfant Sauvage - Tale's Complete",
+        "FORMAT": "mp3",
+        "NUMBER": 1060,
+        "PUBLISHED_AT": "2022-01-02T11:27:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\MineurDuSon",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Enfant Sauvage - Tale's Complete"
+    },
     "vP7BGF66Y-0": {
         "CHANNEL_NAME": "MineurDuSon",
         "FILE_NAME": "715 - MineurDuSon - Kyson - We've Been Inside For Too Long",
@@ -9460,6 +9500,16 @@
         "PUBLISHED_AT": "2010-07-03T08:34:43.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ugress - Reason to believe"
+    },
+    "zGkcVRqnbZQ": {
+        "CHANNEL_NAME": "MineurDuSon",
+        "FILE_NAME": "1063 - MineurDuSon - Gidge - Over",
+        "FORMAT": "mp3",
+        "NUMBER": 1063,
+        "PUBLISHED_AT": "2022-03-13T10:41:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\MineurDuSon",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gidge - Over"
     },
     "zR4NOaS4lr0": {
         "CHANNEL_NAME": "MineurDuSon",

@@ -319,6 +319,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "NORDEIN\u2014 LYD [Official Audio]"
     },
+    "B6sqxh3FoK4": {
+        "CHANNEL_NAME": "Years Of Silence",
+        "FILE_NAME": "169 - Years Of Silence - OSI AND THE JUPITER \u2014 Stave [Full Album]",
+        "FORMAT": "mp3",
+        "NUMBER": 169,
+        "PUBLISHED_AT": "2021-08-24T17:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "OSI AND THE JUPITER \u2014 Stave [Full Album]"
+    },
     "BzPmmH4sgGc": {
         "CHANNEL_NAME": "Years Of Silence",
         "FILE_NAME": "133 - Years Of Silence - Watered \u2014 Some Are Born Into The Endless Night [Full Album]",
@@ -649,6 +659,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Luca D'Alberto \u2014 Exile [Full Album]"
     },
+    "LtwigsPew0c": {
+        "CHANNEL_NAME": "Years Of Silence",
+        "FILE_NAME": "174 - Years Of Silence - Cinder Well \u2014 No Summer [Full Album]",
+        "FORMAT": "mp3",
+        "NUMBER": 174,
+        "PUBLISHED_AT": "2021-09-21T18:09:28Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Cinder Well \u2014 No Summer [Full Album]"
+    },
     "MGBOy6IjoEE": {
         "CHANNEL_NAME": "Years Of Silence",
         "FILE_NAME": "156 - Years Of Silence - October Falls \u2014 Syys [Full Album]",
@@ -698,6 +718,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
         "STATUS": "DOWNLOADED",
         "TITLE": "Sophie Hutchings \u2014 Wide Asleep [Full Album]"
+    },
+    "NQIr4Dy4pOU": {
+        "CHANNEL_NAME": "Years Of Silence",
+        "FILE_NAME": "170 - Years Of Silence - BRUIT \u2264 \u2014 The Machine is burning and now everyone knows it ... [Full Album]",
+        "FORMAT": "mp3",
+        "NUMBER": 170,
+        "PUBLISHED_AT": "2021-09-05T11:11:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BRUIT \u2264 \u2014 The Machine is burning and now everyone knows it ... [Full Album]"
     },
     "Nwm-J7-N-V8": {
         "CHANNEL_NAME": "Years Of Silence",
@@ -779,6 +809,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "ROSK \u2014 remnants [Full Album]"
     },
+    "POON41GpIv4": {
+        "CHANNEL_NAME": "Years Of Silence",
+        "FILE_NAME": "176 - Years Of Silence - Ruumisto \u2014 N\u00e4lk\u00e4j\u00e4rvi [Full Album]",
+        "FORMAT": "mp3",
+        "NUMBER": 176,
+        "PUBLISHED_AT": "2021-10-04T10:00:44Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ruumisto \u2014 N\u00e4lk\u00e4j\u00e4rvi [Full Album]"
+    },
     "PhJ9O008pWk": {
         "CHANNEL_NAME": "Years Of Silence",
         "FILE_NAME": "81 - Years Of Silence - Sagor Som Leder Mot Slutet \u2014 II [Full Album]",
@@ -818,6 +858,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
         "STATUS": "DOWNLOADED",
         "TITLE": "Misha Mishenko \u2014 Decadance"
+    },
+    "RDjKNy4kyX8": {
+        "CHANNEL_NAME": "Years Of Silence",
+        "FILE_NAME": "175 - Years Of Silence - Transmission Zero \u2014 Bridges [Full Album]",
+        "FORMAT": "mp3",
+        "NUMBER": 175,
+        "PUBLISHED_AT": "2021-09-25T08:58:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Transmission Zero \u2014 Bridges [Full Album]"
     },
     "Ru004sZMqjc": {
         "CHANNEL_NAME": "Years Of Silence",
@@ -1139,6 +1189,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Musk Ox \u2014 Inheritance [Full Album]"
     },
+    "c1yiKtWMQtY": {
+        "CHANNEL_NAME": "Years Of Silence",
+        "FILE_NAME": "177 - Years Of Silence - Anton Belov \u2014 Piano Works II [Full Album]",
+        "FORMAT": "mp3",
+        "NUMBER": 177,
+        "PUBLISHED_AT": "2021-10-25T06:11:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Anton Belov \u2014 Piano Works II [Full Album]"
+    },
     "cDgJA4D1yNM": {
         "CHANNEL_NAME": "Years Of Silence",
         "FILE_NAME": "7 - Years Of Silence - Avalon \u2014 VOYAGE TO AVALON by Kenji Kawai (performed by El\u017cbieta Towarnicka)",
@@ -1218,6 +1278,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
         "STATUS": "DOWNLOADED",
         "TITLE": "Lindy-Fay Hella \u2014 Seafarer [Official Video]"
+    },
+    "faTp7XvzuSE": {
+        "CHANNEL_NAME": "Years Of Silence",
+        "FILE_NAME": "178 - Years Of Silence - KAUAN \u2014 Sorni Nai Live [Full Album]",
+        "FORMAT": "mp3",
+        "NUMBER": 178,
+        "PUBLISHED_AT": "2021-11-05T09:20:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "KAUAN \u2014 Sorni Nai Live [Full Album]"
     },
     "fcUo7Apm4v0": {
         "CHANNEL_NAME": "Years Of Silence",
@@ -1409,6 +1479,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Luca Longobardi \u2014 Plume [Full EP]"
     },
+    "mNvOhmHPcsU": {
+        "CHANNEL_NAME": "Years Of Silence",
+        "FILE_NAME": "173 - Years Of Silence - Hekla \u2014 Sprungur [Full EP]",
+        "FORMAT": "mp3",
+        "NUMBER": 173,
+        "PUBLISHED_AT": "2021-09-20T18:25:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hekla \u2014 Sprungur [Full EP]"
+    },
     "n3EYW7KeaG4": {
         "CHANNEL_NAME": "Years Of Silence",
         "FILE_NAME": "61 - Years Of Silence - Abby Gundersen \u2014 Light in Between [EP]",
@@ -1588,6 +1668,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
         "STATUS": "DOWNLOADED",
         "TITLE": "Rota Fortunae \u2014 Solstice [Full EP]"
+    },
+    "tm6pU22HqRM": {
+        "CHANNEL_NAME": "Years Of Silence",
+        "FILE_NAME": "172 - Years Of Silence - Anoice\u2014 The Hidden Forest [Full Album]",
+        "FORMAT": "mp3",
+        "NUMBER": 172,
+        "PUBLISHED_AT": "2021-09-14T11:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\YearsOfSilence",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Anoice\u2014 The Hidden Forest [Full Album]"
     },
     "vWNbzAyd7Dg": {
         "CHANNEL_NAME": "Years Of Silence",

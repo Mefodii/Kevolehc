@@ -8,9 +8,11 @@ from ..model.yt_queue import YoutubeQueue
 from ..model.downloader import YoutubeDownloader
 from ..utils import yt_datetime, constants
 from .. import paths
-from youtube_dl.utils import DownloadError
+from yt_dlp.utils import DownloadError
 
 from .ffmpeg import Ffmpeg
+
+FFMPEG_PATH = paths.RESOURCES_PATH
 
 
 class MonitorManager:
@@ -155,6 +157,7 @@ class YoutubeQueueManager:
     def __init__(self, log_file):
         self.queue_list = []
         self.log_file = log_file
+        self.downloader = YoutubeDownloader(FFMPEG_PATH)
 
     def log(self, message):
         File.append_to_file(self.log_file, message)
@@ -192,6 +195,6 @@ class YoutubeQueueManager:
             else:
                 self.log("Process queue: " + q_progress + " - " + result_file)
                 try:
-                    YoutubeDownloader.download(queue)
+                    self.downloader.download(queue)
                 except DownloadError:
                     self.log("Unable to download - " + queue.link)

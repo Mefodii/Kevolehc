@@ -121,6 +121,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Funk Horse - Biscuit (Original Mix)"
     },
+    "Bns3EqloofM": {
+        "CHANNEL_NAME": "June 87 Recordings",
+        "FILE_NAME": "59 - June 87 Recordings - Gianmarco Fabbretti - Show Me How feat. Sunesis & Paride Cannone",
+        "FORMAT": "mp3",
+        "NUMBER": 59,
+        "PUBLISHED_AT": "2021-12-28T09:57:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\June87Recordings",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gianmarco Fabbretti - Show Me How feat. Sunesis & Paride Cannone"
+    },
     "Fh8vtiQa1H4": {
         "CHANNEL_NAME": "June 87 Recordings",
         "FILE_NAME": "41 - June 87 Recordings - Michael Elliot - Never Give Up (Original Mix)",
@@ -229,6 +239,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Michael Elliot - Undercover (Original Mix)"
     },
+    "Re-dx_Be6dA": {
+        "CHANNEL_NAME": "June 87 Recordings",
+        "FILE_NAME": "58 - June 87 Recordings - Gianmarco Fabbretti - Show me How feat. Sunesis (Michael Elliot's Club Tropicana Remix)",
+        "FORMAT": "mp3",
+        "NUMBER": 58,
+        "PUBLISHED_AT": "2021-12-28T00:17:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\June87Recordings",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gianmarco Fabbretti - Show me How feat. Sunesis (Michael Elliot's Club Tropicana Remix)"
+    },
     "UC-bGvpobF4": {
         "CHANNEL_NAME": "June 87 Recordings",
         "FILE_NAME": "19 - June 87 Recordings - Funk Horse - Die Robin Die (Original Mix)",
@@ -237,6 +257,16 @@
         "PUBLISHED_AT": "2018-02-13T21:26:03.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Funk Horse - Die Robin Die (Original Mix)"
+    },
+    "VoVpwfWlDtY": {
+        "CHANNEL_NAME": "June 87 Recordings",
+        "FILE_NAME": "60 - June 87 Recordings - Michael Elliot & Kraver - Gabriel",
+        "FORMAT": "mp3",
+        "NUMBER": 60,
+        "PUBLISHED_AT": "2022-03-25T09:00:25Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\June87Recordings",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Michael Elliot & Kraver - Gabriel"
     },
     "XJDyXa3Axag": {
         "CHANNEL_NAME": "June 87 Recordings",

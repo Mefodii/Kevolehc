@@ -4,6 +4,12 @@ import codecs
 import os
 import glob
 import json
+import time
+
+from stat import S_ISREG, ST_CTIME, ST_MODE
+
+PATH = "path"
+FILENAME = "filename"
 
 
 # Read file
@@ -78,12 +84,31 @@ def exists(file_path):
 #       "filename": filename.extension
 #   }
 def list_files(path):
-    return [{'path': path, 'filename': f} for f in listdir(path) if isfile(join(path, f))]
+    return [{PATH: path, FILENAME: f} for f in listdir(path) if isfile(join(path, f))]
 
 
 # Return a list of folders from specified path (folders inside folders of this path are not checked)
 def list_dirs(path):
     return [join(path, f) for f in listdir(path) if isdir(join(path, f))]
+
+
+# Append file creation time for each received file
+# Format:
+#   {
+#       ...
+#       "created": file_creation_time
+#   }
+def append_creation_time(files: list):
+    for file in files:
+        for key in [PATH, FILENAME]:
+            if key not in file:
+                raise ValueError(f'Key: {key}. Missing from dict definition')
+
+        abs_path = join(file[PATH], file[FILENAME])
+        stats = os.stat(abs_path)
+        creation_time = time.ctime(os.path.getctime(abs_path))
+        print(creation_time, abs_path)
+    return []
 
 
 # Return a list of files from specified path. Files in subdirectories as well.

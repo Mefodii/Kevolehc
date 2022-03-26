@@ -209,6 +209,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Exist Strategy - Nessa's Lament"
     },
+    "-eZ7qNtRTz4": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2562 - Ambient - Daniele Carmosino feat. Mark Aanderud - Simple Ways [uplifting classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2562,
+        "PUBLISHED_AT": "2021-10-03T18:13:25Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Daniele Carmosino feat. Mark Aanderud - Simple Ways [uplifting classical ambient]"
+    },
     "-fFbeSykaJk": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "685 - Ambient - We Are All Astronauts - Ether",
@@ -259,6 +269,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Ellie Goulding - Wish I Stayed (Resotone Remix)"
     },
+    "-pn_q1P0VeI": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2711 - Ambient - Jens Montana - Sheltered [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2711,
+        "PUBLISHED_AT": "2022-03-19T16:30:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jens Montana - Sheltered [relaxing piano ambient]"
+    },
     "-qRRI0WDd5g": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2357 - Ambient - Michael FK - Lagom [cinematic inspiring background]",
@@ -308,6 +328,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Rinnovare - Quilted Multiverse (Music Video)"
+    },
+    "-u95MrLUXTo": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2573 - Ambient - LeVirya & The Hidden - By the Ocean (feat. Natasha Ghosh, Phlocalyst) [chill ambient beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 2573,
+        "PUBLISHED_AT": "2021-10-14T17:42:36Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "LeVirya & The Hidden - By the Ocean (feat. Natasha Ghosh, Phlocalyst) [chill ambient beats]"
+    },
+    "-umXI_I8HIw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2621 - Ambient - Haquin & Zaid Al-Nayazi - Introspection [cinematic piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2621,
+        "PUBLISHED_AT": "2021-12-03T19:18:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Haquin & Zaid Al-Nayazi - Introspection [cinematic piano ambient]"
     },
     "-wV_C40FWKs": {
         "CHANNEL_NAME": "Ambient",
@@ -509,6 +549,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Exist Strategy - Another World"
     },
+    "0QhINxYbt-Q": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2716 - Ambient - Haav & Inge Weatherhead Breistein - Bl\u00e5ne II [soundscape instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2716,
+        "PUBLISHED_AT": "2022-03-24T17:01:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Haav & Inge Weatherhead Breistein - Bl\u00e5ne II [soundscape instrumental ambient]"
+    },
     "0S_jHE8_goA": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "130 - Ambient - Good Weather For An Airstrike - Rescue",
@@ -579,6 +629,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Aeuria - I Hope You're Not Sleeping As Tightly As You Used To Be"
     },
+    "0aS3PFYz_gY": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2528 - Ambient - A Cerulean State - Homesick Lullaby [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2528,
+        "PUBLISHED_AT": "2021-08-29T17:28:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "A Cerulean State - Homesick Lullaby [relaxing instrumental ambient]"
+    },
     "0ekbDYnNiZE": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2487 - Ambient - The Goodnight Project - All Things, In Time [sleeping relaxing ambient]",
@@ -648,6 +708,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "A Cerulean State - Eyes More Brilliant Than The Midsummer Sun"
+    },
+    "0nU2s9iKg8g": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2714 - Ambient - Retland - Drifting [meditation ambient soundscape]",
+        "FORMAT": "mp3",
+        "NUMBER": 2714,
+        "PUBLISHED_AT": "2022-03-22T17:19:29Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Retland - Drifting [meditation ambient soundscape]"
     },
     "0nnoZsF6Io4": {
         "CHANNEL_NAME": "Ambient",
@@ -748,6 +818,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "AK - Wanderlust"
+    },
+    "10huB7HNQSQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2561 - Ambient - Haquin - Floating (feat. American Teleport) [relaxing lofi ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2561,
+        "PUBLISHED_AT": "2021-10-02T18:23:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Haquin - Floating (feat. American Teleport) [relaxing lofi ambient]"
     },
     "11Hcby66OyQ": {
         "CHANNEL_NAME": "Ambient",
@@ -908,6 +988,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Cyber Posix - Detroit ft. Luna Harley"
+    },
+    "1XeCzwdL8Rk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2654 - Ambient - lost.empathy - The Depth of Frozen Lake [atmospheric futuregarage ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2654,
+        "PUBLISHED_AT": "2022-01-13T18:40:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "lost.empathy - The Depth of Frozen Lake [atmospheric futuregarage ambient]"
     },
     "1aDUUy28d9w": {
         "CHANNEL_NAME": "Ambient",
@@ -1199,6 +1289,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Matteo De Grandis - Blue Deer (Music Video)"
     },
+    "2DYHj9msrvQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2706 - Ambient - Tom Ashbrook - Klass (Robot Koch Rework) [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2706,
+        "PUBLISHED_AT": "2022-03-14T17:41:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tom Ashbrook - Klass (Robot Koch Rework) [relaxing instrumental ambient]"
+    },
     "2EfLc_jP2g8": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1232 - Ambient - Josh Leake - Dusk To Dawn",
@@ -1359,6 +1459,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Himalia - Growing Upwards"
     },
+    "2kOPGEkMl10": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2685 - Ambient - Samuel - Revelation 22_20 [cinematic epic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2685,
+        "PUBLISHED_AT": "2022-02-19T17:35:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Samuel - Revelation 22:20 [cinematic epic ambient]"
+    },
     "2nFYPLKDsgk": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1650 - Ambient - Colin McAllister - 37th St",
@@ -1438,6 +1548,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Tom Hartney & Pensive - Blossom"
+    },
+    "38kocyKzzVo": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2608 - Ambient - Anaamaly - What Falls in the Forest [ambient electronic drone]",
+        "FORMAT": "mp3",
+        "NUMBER": 2608,
+        "PUBLISHED_AT": "2021-11-20T17:44:39Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Anaamaly - What Falls in the Forest [ambient electronic drone]"
     },
     "39abOLh78lc": {
         "CHANNEL_NAME": "Ambient",
@@ -1599,6 +1719,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Kisnou - In The Origin, We Breathe (Acoustic)"
     },
+    "3V517EmBuLY": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2611 - Ambient - We Are All Astronauts - Arc In The Sky [epic instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2611,
+        "PUBLISHED_AT": "2021-11-23T18:41:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "We Are All Astronauts - Arc In The Sky [epic instrumental ambient]"
+    },
     "3ZdHn9QtepA": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2116 - Ambient - 'Memories' Chill Mix (Chill & Ambient Instrumental Beats)",
@@ -1629,6 +1759,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Roald Velden - Dreams"
     },
+    "3eCUebK65a4": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2704 - Ambient - Fade - Home at Last [chillout inspiring ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2704,
+        "PUBLISHED_AT": "2022-03-12T17:07:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fade - Home at Last [chillout inspiring ambient]"
+    },
     "3hyKNdy6EXU": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "407 - Ambient - Izzard - Carelessness (ft. Oneira)",
@@ -1638,6 +1778,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Izzard - Carelessness (ft. Oneira)"
+    },
+    "3ifRtcBs6hQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2698 - Ambient - Andy Leech - Thinking Of You (Unreleased Version) [atmospheric futuregarage ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2698,
+        "PUBLISHED_AT": "2022-03-04T18:30:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Andy Leech - Thinking Of You (Unreleased Version) [atmospheric futuregarage ambient]"
     },
     "3kjOd_5A-qU": {
         "CHANNEL_NAME": "Ambient",
@@ -1749,6 +1899,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Enkidu - Falling (Lambert Rework)"
     },
+    "40Rlxz3LbmE": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2564 - Ambient - Raphah - Hidden Valley [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2564,
+        "PUBLISHED_AT": "2021-10-05T18:43:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Raphah - Hidden Valley [relaxing piano ambient]"
+    },
     "410peh4EsZc": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "605 - Ambient - Creepa & Subsets - Together",
@@ -1758,6 +1918,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Creepa & Subsets - Together"
+    },
+    "41RdFfWxLQQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2712 - Ambient - Josh Warren - 007 [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2712,
+        "PUBLISHED_AT": "2022-03-20T18:16:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Josh Warren - 007 [relaxing piano ambient]"
     },
     "42XEfJ9yH4Y": {
         "CHANNEL_NAME": "Ambient",
@@ -1878,6 +2048,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Antarctic Wastelands - Forgotten Pathways"
+    },
+    "4I6iMnVX_54": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2567 - Ambient - Edapollo - Ivy [chill guitar ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2567,
+        "PUBLISHED_AT": "2021-10-08T17:08:46Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Edapollo - Ivy [chill guitar ambient]"
     },
     "4IWs_QAbbPQ": {
         "CHANNEL_NAME": "Ambient",
@@ -2019,6 +2199,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Andy Leech - Black Orchid"
     },
+    "4l-UvDUH8EU": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2653 - Ambient - Eleftherios - I Can Touch the Sun [cinematic vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2653,
+        "PUBLISHED_AT": "2022-01-12T17:10:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Eleftherios - I Can Touch the Sun [cinematic vocal ambient]"
+    },
     "4mEXaqHxZYk": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1627 - Ambient - 4th Front - Worlds Apart",
@@ -2139,6 +2329,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Other Species - Only Light"
     },
+    "55s5TWpZhd8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2597 - Ambient - Gelka - Alone in Budapest [classical piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2597,
+        "PUBLISHED_AT": "2021-11-09T18:43:54Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gelka - Alone in Budapest [classical piano ambient]"
+    },
     "55sY0MdnJ0w": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "754 - Ambient - Clemens Ruh - Preen Your Own Wings",
@@ -2248,6 +2448,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Capa Nau - Moment (Music Video)"
+    },
+    "5MV7NYbcB8M": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2695 - Ambient - Alberto Marson - RADICI [cinematic instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2695,
+        "PUBLISHED_AT": "2022-03-01T18:50:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Alberto Marson - RADICI [cinematic instrumental ambient]"
     },
     "5MeH5gPGNDI": {
         "CHANNEL_NAME": "Ambient",
@@ -2359,6 +2569,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Rowan While ft. Ama - Shadow Steps"
     },
+    "5aLKXmNE64E": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2688 - Ambient - From Somewhere Quiet - It'll Be Alright [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2688,
+        "PUBLISHED_AT": "2022-02-22T18:19:47Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "From Somewhere Quiet - It'll Be Alright [relaxing piano ambient]"
+    },
     "5b69GfOWnJU": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1719 - Ambient - Spheria - Senti\u00e1 (with Narrow Skies)",
@@ -2459,6 +2679,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Homeomorphic - Inflection"
     },
+    "5rUFtzu3HxM": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2674 - Ambient - Simon James French - Komorebi [relaxing cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2674,
+        "PUBLISHED_AT": "2022-02-08T16:55:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Simon James French - Komorebi [relaxing cinematic ambient]"
+    },
     "5ro3zU5IIHQ": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "455 - Ambient - Canoo - Ethos",
@@ -2488,6 +2718,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Canoo - Corvus"
+    },
+    "5ylegjReApk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2709 - Ambient - Wizard Death & Virtual Boy - levitation [lofi chill ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2709,
+        "PUBLISHED_AT": "2022-03-17T18:04:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Wizard Death & Virtual Boy - levitation [lofi chill ambient]"
+    },
+    "602W4sy4P1o": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2702 - Ambient - Alyas - By the River [meditation soundscape ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2702,
+        "PUBLISHED_AT": "2022-03-10T17:50:55Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Alyas - By the River [meditation soundscape ambient]"
     },
     "60aF1l-wfvQ": {
         "CHANNEL_NAME": "Ambient",
@@ -2578,6 +2828,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Tom Day & Laura Lethlean - Fit"
+    },
+    "6ICX_mvxbLk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2679 - Ambient - Antarctic Wastelands - Together We Shelter [meditation drone ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2679,
+        "PUBLISHED_AT": "2022-02-13T17:37:44Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Antarctic Wastelands - Together We Shelter [meditation drone ambient]"
     },
     "6LBD7dIAwfA": {
         "CHANNEL_NAME": "Ambient",
@@ -2769,6 +3029,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Capeface - Hope He Stays"
     },
+    "6ykiYtQy-Xw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2563 - Ambient - We Dream of Eden - Approaching Distance [relaxing cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2563,
+        "PUBLISHED_AT": "2021-10-04T18:33:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "We Dream of Eden - Approaching Distance [relaxing cinematic ambient]"
+    },
     "6z9MWoFwtTU": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1159 - Ambient - Promethex - The Beacon",
@@ -2788,6 +3058,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Max Volant - Memories"
+    },
+    "70qia6Fhl50": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2583 - Ambient - Stef.N & Little Symphony - Cascades [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2583,
+        "PUBLISHED_AT": "2021-10-25T17:05:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stef.N & Little Symphony - Cascades [relaxing piano ambient]"
     },
     "72ik0BkzyWU": {
         "CHANNEL_NAME": "Ambient",
@@ -2919,6 +3199,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Blake Ewing - Lost Moment"
     },
+    "7LzsnrJlfrs": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2545 - Ambient - Arrowsmith - Sweet Lady [inspiring vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2545,
+        "PUBLISHED_AT": "2021-09-16T17:35:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Arrowsmith - Sweet Lady [inspiring vocal ambient]"
+    },
     "7N4cLJOeFpU": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2472 - Ambient - Re\u0438ovatio - Alone [ambient downtempo futuregarage]",
@@ -2948,6 +3238,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Aude - Morrow"
+    },
+    "7ShO0Yiuawk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2606 - Ambient - AnantaSound - Pacific [relaxing ambient electronic]",
+        "FORMAT": "mp3",
+        "NUMBER": 2606,
+        "PUBLISHED_AT": "2021-11-18T17:38:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "AnantaSound - Pacific [relaxing ambient electronic]"
     },
     "7SvqL-gkIQ4": {
         "CHANNEL_NAME": "Ambient",
@@ -3069,6 +3369,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "JV. - Departure [cinematic instrumental ambient]"
     },
+    "7pabw7NELVA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2518 - Ambient - Salt Of The Sound & Simon Wester - Sanctuary [inspiring vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2518,
+        "PUBLISHED_AT": "2021-08-18T17:44:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Salt Of The Sound & Simon Wester - Sanctuary [inspiring vocal ambient]"
+    },
     "7sCz9AAQjAs": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1529 - Ambient - The Green Kingdom - Kodama",
@@ -3078,6 +3388,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "The Green Kingdom - Kodama"
+    },
+    "7t3DaAOCbsQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2541 - Ambient - Dissolution - Last Star Shining [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2541,
+        "PUBLISHED_AT": "2021-09-12T18:24:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dissolution - Last Star Shining [relaxing piano ambient]"
     },
     "7tJlmj2lmEE": {
         "CHANNEL_NAME": "Ambient",
@@ -3319,6 +3639,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Soular Order - New Beginnings"
     },
+    "8Mn0QlOLrrg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2622 - Ambient - Anna B May - Into The Woods [atmospheric downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2622,
+        "PUBLISHED_AT": "2021-12-04T18:17:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Anna B May - Into The Woods [atmospheric downtempo ambient]"
+    },
     "8Pj3bHHlQgc": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2308 - Ambient - Rinnovare - Breed (Music Video)",
@@ -3338,6 +3668,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Grandyzer - Hunter In The Snow"
+    },
+    "8S1sx4FxZXk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2525 - Ambient - Ambyion & Shockline & Vidoux - Wonders [ambient chillout downtempo]",
+        "FORMAT": "mp3",
+        "NUMBER": 2525,
+        "PUBLISHED_AT": "2021-08-26T16:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ambyion & Shockline & Vidoux - Wonders [ambient chillout downtempo]"
+    },
+    "8TbNdGS_bjI": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2680 - Ambient - Koshun Nakao - at that time... [cinematic piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2680,
+        "PUBLISHED_AT": "2022-02-14T18:33:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Koshun Nakao - at that time... [cinematic piano ambient]"
     },
     "8Y0kvkB4PRM": {
         "CHANNEL_NAME": "Ambient",
@@ -3469,6 +3819,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "A Cerulean State - It remains too far away for us to reach [relaxing piano ambient]"
     },
+    "8o26342asiA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2640 - Ambient - Little Symphony - Tofino [relaxing guitar ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2640,
+        "PUBLISHED_AT": "2021-12-24T18:11:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Little Symphony - Tofino [relaxing guitar ambient]"
+    },
     "8qkCEEcOpP8": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "122 - Ambient - Manners - Fond of You",
@@ -3569,6 +3929,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Der Waldl\u00e4ufer - Daolai (Music Video)"
     },
+    "956uhaDcYFA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2644 - Ambient - olis - Murmuration [ambient lofi beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 2644,
+        "PUBLISHED_AT": "2021-12-28T18:26:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "olis - Murmuration [ambient lofi beats]"
+    },
     "95fCM8yfOBQ": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1711 - Ambient - Smokefishe - Sunshine (ft. M.E.R.)",
@@ -3589,6 +3959,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Auranyx - Journey"
     },
+    "96eUsI6bHyI": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2618 - Ambient - Raphah - Fading Mist [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2618,
+        "PUBLISHED_AT": "2021-11-30T17:28:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Raphah - Fading Mist [relaxing piano ambient]"
+    },
     "98zekzkJOzk": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "812 - Ambient - Azaleh & Eikona - In Aeternum",
@@ -3608,6 +3988,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "'Skywalker' Ambient Mix"
+    },
+    "997eE3onxs8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2662 - Ambient - BYTHEWVVE - Moments [chill downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2662,
+        "PUBLISHED_AT": "2022-01-21T17:32:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BYTHEWVVE - Moments [chill downtempo ambient]"
     },
     "99HQONRVuLY": {
         "CHANNEL_NAME": "Ambient",
@@ -3659,6 +4049,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "RIT - The Pain Withheld (LuQuS Remix)"
     },
+    "9EX4KOG0w80": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2641 - Ambient - Foam & Sand - Circle 26 (Tom Ashbrook Rework) [inspiring cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2641,
+        "PUBLISHED_AT": "2021-12-25T18:37:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Foam & Sand - Circle 26 (Tom Ashbrook Rework) [inspiring cinematic ambient]"
+    },
     "9H30o25KIuY": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "705 - Ambient - Kova - Luminiscent",
@@ -3668,6 +4068,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Kova - Luminiscent"
+    },
+    "9HDlWKMiCrY": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2697 - Ambient - Thomas Lemmer - Arise [downtempo instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2697,
+        "PUBLISHED_AT": "2022-03-03T17:53:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Thomas Lemmer - Arise [downtempo instrumental ambient]"
     },
     "9JFjdLJq7Ac": {
         "CHANNEL_NAME": "Ambient",
@@ -3949,6 +4359,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Hanan - Moadon (Music Video)"
     },
+    "9uSk03KB2S0": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2580 - Ambient - 24th and Haven - End Light [cinematic piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2580,
+        "PUBLISHED_AT": "2021-10-22T18:35:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "24th and Haven - End Light [cinematic piano ambient]"
+    },
     "9vKaOtmriF4": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "96 - Ambient - Sun Glitters - Insane (Need a Name Remix)",
@@ -4058,6 +4478,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Charles Murdoch - Eciov"
+    },
+    "ADQKrITK-BE": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2526 - Ambient - Alyas - Morning Stroll [ambient cinematic piano]",
+        "FORMAT": "mp3",
+        "NUMBER": 2526,
+        "PUBLISHED_AT": "2021-08-27T18:35:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Alyas - Morning Stroll [ambient cinematic piano]"
     },
     "ADu58DCaXqE": {
         "CHANNEL_NAME": "Ambient",
@@ -4269,6 +4699,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Kennedy One - Gravity (Music Video)"
     },
+    "AYdzdbw_i28": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2623 - Ambient - We Dream of Eden & Christopher Galovan - All Around You [relaxing guitar ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2623,
+        "PUBLISHED_AT": "2021-12-05T19:16:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "We Dream of Eden & Christopher Galovan - All Around You [relaxing guitar ambient]"
+    },
     "A_H6TuLNSmg": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "882 - Ambient - Corridors - April Flows (ft.Nisa)",
@@ -4389,6 +4829,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "The Ambientalist - Cast A Spell"
     },
+    "B-liZSIVMCw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2590 - Ambient - Daum - Hue [meditation drone ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2590,
+        "PUBLISHED_AT": "2021-11-01T17:39:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Daum - Hue [meditation drone ambient]"
+    },
     "B0Ve-iv0ht0": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "700 - Ambient - Poolz - She Said It's Ok",
@@ -4448,6 +4898,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Poolz - Volatile"
+    },
+    "BFgeEGh3nn0": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2626 - Ambient - Galaxy Miles - The Traveller [inspiring epic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2626,
+        "PUBLISHED_AT": "2021-12-08T16:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Galaxy Miles - The Traveller [inspiring epic ambient]"
     },
     "BKSxKd6fRG0": {
         "CHANNEL_NAME": "Ambient",
@@ -4879,6 +5339,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Poolz - The Friendly Falling Rain"
     },
+    "CGcs27T9NmA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2705 - Ambient - Hriday Talur - Fragments [epic cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2705,
+        "PUBLISHED_AT": "2022-03-13T18:08:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hriday Talur - Fragments [epic cinematic ambient]"
+    },
     "CKCCW9RLyJA": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "922 - Ambient - Air Shaper - Exit Strategy",
@@ -4949,6 +5419,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "SORA - Drowning Dreams (Hajimari Remix)"
     },
+    "Cc4CkKtRB8w": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2691 - Ambient - Tom Ashbrook & Greta Svabo Bech - tu_orbit [vocal electronic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2691,
+        "PUBLISHED_AT": "2022-02-25T18:37:58Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tom Ashbrook & Greta Svabo Bech - tu:orbit [vocal electronic ambient]"
+    },
     "Cd4UMCyEa4o": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1420 - Ambient - Mint Julep - Longshore Drift",
@@ -4998,6 +5478,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Cyprinid - Floating"
+    },
+    "Cm1HqELdy2g": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2586 - Ambient - Midtro - Presence, Pt. 7 [meditation classical piano]",
+        "FORMAT": "mp3",
+        "NUMBER": 2586,
+        "PUBLISHED_AT": "2021-10-28T17:35:42Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Midtro - Presence, Pt. 7 [meditation classical piano]"
     },
     "Cnssbvfv2Io": {
         "CHANNEL_NAME": "Ambient",
@@ -5349,6 +5839,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Caduceus - Fragile"
     },
+    "D_zGI1Ed8HA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2645 - Ambient - Clay House - Clarity [chill piano beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 2645,
+        "PUBLISHED_AT": "2021-12-29T17:51:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Clay House - Clarity [chill piano beats]"
+    },
     "Dc4N4M5Bna4": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1616 - Ambient - Oliver Tank - Circles",
@@ -5358,6 +5858,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Oliver Tank - Circles"
+    },
+    "DdVhTlRl_ww": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2631 - Ambient - Jon Prezant - London [piano classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2631,
+        "PUBLISHED_AT": "2021-12-14T16:44:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jon Prezant - London [piano classical ambient]"
     },
     "Dds8sdmSOY4": {
         "CHANNEL_NAME": "Ambient",
@@ -5479,6 +5989,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Lumious - As I Stand Here"
     },
+    "DpKulf3xBWQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2572 - Ambient - Jeroen Dirrix - Under [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2572,
+        "PUBLISHED_AT": "2021-10-13T19:27:39Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jeroen Dirrix - Under [relaxing piano ambient]"
+    },
     "DpaFzR56D9U": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1401 - Ambient - Victoriya x Andy Leech - Night Garden",
@@ -5548,6 +6068,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Be Still The Earth - In Front of Your Eyes [relaxing meditation ambient]"
+    },
+    "DwHMFyhpMHw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2614 - Ambient - Michael FK - Rebound [chillout downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2614,
+        "PUBLISHED_AT": "2021-11-26T18:37:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Michael FK - Rebound [chillout downtempo ambient]"
     },
     "Dwb-XBTYZ9s": {
         "CHANNEL_NAME": "Ambient",
@@ -5819,6 +6349,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Elskavon - Imagination"
     },
+    "EVk-cZHmJng": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2708 - Ambient - 24th and Haven - Norwood [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2708,
+        "PUBLISHED_AT": "2022-03-16T17:49:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "24th and Haven - Norwood [relaxing piano ambient]"
+    },
     "EW69PjggSrc": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1621 - Ambient - Delayde - North Fell",
@@ -5848,6 +6388,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Edapollo - By The River"
+    },
+    "EZ-LlrnZxLg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2609 - Ambient - Walca - Azul [meditation guitar ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2609,
+        "PUBLISHED_AT": "2021-11-21T18:24:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Walca - Azul [meditation guitar ambient]"
     },
     "EZStLlhcY_4": {
         "CHANNEL_NAME": "Ambient",
@@ -6088,6 +6638,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Electus - Sorrow"
+    },
+    "F2e64D1ZDi4": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2655 - Ambient - Anna B May - Reflections [cinematic piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2655,
+        "PUBLISHED_AT": "2022-01-14T18:50:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Anna B May - Reflections [cinematic piano ambient]"
     },
     "F37BOI8WV-s": {
         "CHANNEL_NAME": "Ambient",
@@ -6339,6 +6899,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Follow The Compass - Return"
     },
+    "FUAh6bK1BEo": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2681 - Ambient - ghostmolly - Great Delta [atmospheric futuregarage ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2681,
+        "PUBLISHED_AT": "2022-02-15T18:07:48Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ghostmolly - Great Delta [atmospheric futuregarage ambient]"
+    },
     "FUIYrwMDzW4": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1958 - Ambient - KIDS\u00d8 - Father",
@@ -6348,6 +6918,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "KIDS\u00d8 - Father"
+    },
+    "FU_rClojBRg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2689 - Ambient - Gang Violins - Greater Forces [atmospheric drone ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2689,
+        "PUBLISHED_AT": "2022-02-23T17:29:48Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gang Violins - Greater Forces [atmospheric drone ambient]"
     },
     "FUm5QrRD56I": {
         "CHANNEL_NAME": "Ambient",
@@ -6829,6 +7409,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Delectatio - Timeless"
     },
+    "GMb4dvDtczA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2555 - Ambient - Salt Of The Sound - When I Rest Here [inspiring vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2555,
+        "PUBLISHED_AT": "2021-09-26T19:15:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Salt Of The Sound - When I Rest Here [inspiring vocal ambient]"
+    },
     "GNikLg0V8Ks": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "792 - Ambient - Barulhista - Enquanto a Ouvia",
@@ -6868,6 +7458,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dear Gravity - Voyager (Salt Of The Sound Remix)"
+    },
+    "GSH0-zoLUhk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2683 - Ambient - Hats\u00fc - Spores [meditation drone ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2683,
+        "PUBLISHED_AT": "2022-02-17T18:27:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hats\u00fc - Spores [meditation drone ambient]"
     },
     "GSpQU_SMKoE": {
         "CHANNEL_NAME": "Ambient",
@@ -6949,6 +7549,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Jellis - Find A Way"
     },
+    "Gd8Nj_3Nl-g": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2603 - Ambient - Tom Ashbrook - 30Five [epic instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2603,
+        "PUBLISHED_AT": "2021-11-15T18:53:28Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tom Ashbrook - 30Five [epic instrumental ambient]"
+    },
     "GefQLCe9Xp0": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2038 - Ambient - BLOMMA - August",
@@ -6958,6 +7568,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "BLOMMA - August"
+    },
+    "GeqKoNYHcf8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2632 - Ambient - Matt Tondut & Dear Gravity - Cycles [meditation relaxing ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2632,
+        "PUBLISHED_AT": "2021-12-15T18:02:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Matt Tondut & Dear Gravity - Cycles [meditation relaxing ambient]"
     },
     "Get5WB9joiA": {
         "CHANNEL_NAME": "Ambient",
@@ -6988,6 +7608,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "4lienetic & Solace - Eloigne (ft. Cash)"
+    },
+    "GihWAcXO3PM": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2656 - Ambient - OSTEL - Silent Night (Reimagined) [melancholic drone ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2656,
+        "PUBLISHED_AT": "2022-01-15T17:44:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "OSTEL - Silent Night (Reimagined) [melancholic drone ambient]"
     },
     "GqRZ12zi-d4": {
         "CHANNEL_NAME": "Ambient",
@@ -7389,6 +8019,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Kristofferson - Vetur"
     },
+    "HllyJxHTBz4": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2548 - Ambient - The Stolen Orchestra - Requiem For An Empty Ballroom [meditation cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2548,
+        "PUBLISHED_AT": "2021-09-19T18:01:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Stolen Orchestra - Requiem For An Empty Ballroom [meditation cinematic ambient]"
+    },
     "HogZB4cPmK4": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1537 - Ambient - Claudie Mackula - Time, Stars, Universe",
@@ -7549,6 +8189,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Noctilucent - In Love"
     },
+    "ICqwTFoN1jw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2693 - Ambient - Ext Sleep - Eris [atmospheric downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2693,
+        "PUBLISHED_AT": "2022-02-27T18:48:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ext Sleep - Eris [atmospheric downtempo ambient]"
+    },
     "IDSyHleSmA8": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1327 - Ambient - Sibewest - Redline",
@@ -7658,6 +8308,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "We Are All Astronauts - They Came Back"
+    },
+    "IUy4KniebXw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2710 - Ambient - Ambient Sky - Places [relaxing vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2710,
+        "PUBLISHED_AT": "2022-03-18T17:46:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ambient Sky - Places [relaxing vocal ambient]"
+    },
+    "IVwY7IPLGEE": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2591 - Ambient - Francesca Guccione & River Camille & Soundscape Architects - The Next Millennia of Sa Tanca Manna",
+        "FORMAT": "mp3",
+        "NUMBER": 2591,
+        "PUBLISHED_AT": "2021-11-02T17:35:59Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Francesca Guccione & River Camille & Soundscape Architects - The Next Millennia of Sa Tanca Manna"
     },
     "IWFzxE5ngRk": {
         "CHANNEL_NAME": "Ambient",
@@ -7799,6 +8469,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Tontario - Northern Confessions (ft. Sarah De Warren)"
     },
+    "Ix_BP3k9DhY": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2577 - Ambient - ARDENT LIGHTS - Let Me Lie In Peace [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2577,
+        "PUBLISHED_AT": "2021-10-19T17:44:29Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ARDENT LIGHTS - Let Me Lie In Peace [relaxing instrumental ambient]"
+    },
     "Iz8ZHNxgveM": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "78 - Ambient - Burial - In Mcdonalds (Starlit Everglades Remix)",
@@ -7829,6 +8509,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Krapenitskiy - Photos in the Wind [experimental electronic drone]"
     },
+    "J-cxJAxtHEk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2684 - Ambient - Masaya Kato & Valotihkuu - Azurite [meditation instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2684,
+        "PUBLISHED_AT": "2022-02-18T17:59:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Masaya Kato & Valotihkuu - Azurite [meditation instrumental ambient]"
+    },
     "J2QsL1FeRiY": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "889 - Ambient - Jellis - Far Away",
@@ -7848,6 +8538,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Kisnou - She Hides Beneath The Forests"
+    },
+    "J5hy4wmc0A0": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2558 - Ambient - Jay Cliffen - Slack Tide [atmospheric ambient piano]",
+        "FORMAT": "mp3",
+        "NUMBER": 2558,
+        "PUBLISHED_AT": "2021-09-29T17:23:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jay Cliffen - Slack Tide [atmospheric ambient piano]"
     },
     "JC3qu6FlTeA": {
         "CHANNEL_NAME": "Ambient",
@@ -7959,6 +8659,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Andy Leech - Somewhere Near The Edge of The Universe With You"
     },
+    "JMPHZs0oqnU": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2675 - Ambient - Salt Of The Sound & Be Still The Earth - Stay [relaxing atmospheric ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2675,
+        "PUBLISHED_AT": "2022-02-09T17:30:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Salt Of The Sound & Be Still The Earth - Stay [relaxing atmospheric ambient]"
+    },
     "JMjjs0j2maM": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "964 - Ambient - Garrett Bevins - Inside Out",
@@ -7978,6 +8688,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dpat - Bloom"
+    },
+    "JR5XQt1n210": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2661 - Ambient - American Teleport - Evergreen [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2661,
+        "PUBLISHED_AT": "2022-01-20T17:19:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "American Teleport - Evergreen [relaxing piano ambient]"
     },
     "JT5lDBMITLw": {
         "CHANNEL_NAME": "Ambient",
@@ -8129,6 +8849,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Andreas Lie - Prelude (Music Video)"
     },
+    "JjNDNU2k2WE": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2527 - Ambient - Samplehound - Evening Star [ambient piano violin]",
+        "FORMAT": "mp3",
+        "NUMBER": 2527,
+        "PUBLISHED_AT": "2021-08-28T18:52:47Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Samplehound - Evening Star [ambient piano violin]"
+    },
     "JkW-m6Gzw8k": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1995 - Ambient - Alyas - Daydream",
@@ -8199,6 +8929,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Adustio - Crickets"
     },
+    "Jzi3iwUk8no": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2605 - Ambient - Andre Corea & AAESPO - Muir [relaxing soundscape ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2605,
+        "PUBLISHED_AT": "2021-11-17T18:04:25Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Andre Corea & AAESPO - Muir [relaxing soundscape ambient]"
+    },
     "K-CYJ--yvY0": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1619 - Ambient - Khaligo - Thus Far",
@@ -8208,6 +8948,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Khaligo - Thus Far"
+    },
+    "K-zIdQFNkI4": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2637 - Ambient - Der Waldl\u00e4ufer - Shimmer [meditation space ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2637,
+        "PUBLISHED_AT": "2021-12-21T18:30:25Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Der Waldl\u00e4ufer - Shimmer [meditation space ambient]"
     },
     "K0uVlBVwYSE": {
         "CHANNEL_NAME": "Ambient",
@@ -8389,6 +9139,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "I AM CAM - Paper Planes"
     },
+    "KV7RlnTHePo": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2536 - Ambient - Small Sounds - Lay Your Burdens on Me [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2536,
+        "PUBLISHED_AT": "2021-09-07T17:43:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Small Sounds - Lay Your Burdens on Me [relaxing instrumental ambient]"
+    },
     "KVS0FUqjJ_M": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1871 - Ambient - Elysian - For All I Know",
@@ -8428,6 +9188,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "DuNock - Equilibrium"
+    },
+    "Kj6ghJ4b0Jg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2647 - Ambient - brillion. & Sleepy Fish - It's All Ok [ambient lofi beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 2647,
+        "PUBLISHED_AT": "2021-12-31T14:24:37Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "brillion. & Sleepy Fish - It's All Ok [ambient lofi beats]"
     },
     "Kmk3uOp2Kcc": {
         "CHANNEL_NAME": "Ambient",
@@ -8518,6 +9288,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "ENiGMA Dubz - Stay Together"
+    },
+    "KvCqcorebcQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2552 - Ambient - Ersin - Waves [ambient chillout cinematic]",
+        "FORMAT": "mp3",
+        "NUMBER": 2552,
+        "PUBLISHED_AT": "2021-09-23T17:40:52Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ersin - Waves [ambient chillout cinematic]"
+    },
+    "KyY298xozyk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2550 - Ambient - Stelliform - Lonely Generation [meditation piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2550,
+        "PUBLISHED_AT": "2021-09-21T17:15:55Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stelliform - Lonely Generation [meditation piano ambient]"
     },
     "Kz1IPnclgB8": {
         "CHANNEL_NAME": "Ambient",
@@ -8779,6 +9569,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "KVMTZ - Nature Walk (Music Video)"
     },
+    "LTiKdJ6uzvs": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2673 - Ambient - Cameron Anderson - Montmorency [cinematic instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2673,
+        "PUBLISHED_AT": "2022-02-06T15:00:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Cameron Anderson - Montmorency [cinematic instrumental ambient]"
+    },
     "LVfboxIGu4w": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2094 - Ambient - Vincent DiFrancesco - Flight",
@@ -8908,6 +9708,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Koshun Nakao - (About Loneliness) #1 [meditation drone ambient]"
+    },
+    "LocSAtyUEgk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2648 - Ambient - Plasma R\u00fcby & Ext Sleep - Ky\u00f6 [inspiring downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2648,
+        "PUBLISHED_AT": "2022-01-04T16:55:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Plasma R\u00fcby & Ext Sleep - Ky\u00f6 [inspiring downtempo ambient]"
     },
     "Lq3IO0PLAr4": {
         "CHANNEL_NAME": "Ambient",
@@ -9199,6 +10009,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Oscuro - How's It Going To End"
     },
+    "MOcpWmjL89k": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2516 - Ambient - Hollie Kenniff - Sunset Chant [relaxing vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2516,
+        "PUBLISHED_AT": "2021-08-16T16:43:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hollie Kenniff - Sunset Chant [relaxing vocal ambient]"
+    },
     "MOd56i-tQz8": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "694 - Ambient - Kaj. - To The End",
@@ -9259,6 +10079,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Cobalt Rabbit - We are Still Dreaming"
     },
+    "MURlJwiVVqg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2571 - Ambient - Andy Leech - Submerged [atmospheric downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2571,
+        "PUBLISHED_AT": "2021-10-12T17:32:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Andy Leech - Submerged [atmospheric downtempo ambient]"
+    },
     "MUjas4a69j8": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "744 - Ambient - Senbeii - White Lips...",
@@ -9288,6 +10118,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Gold Falls & Skywide - Oasis"
+    },
+    "MX6Ouk00lj8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2584 - Ambient - Peter Belec & Soundscape Architects - Nurture [cinematic instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2584,
+        "PUBLISHED_AT": "2021-10-26T18:33:36Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Peter Belec & Soundscape Architects - Nurture [cinematic instrumental ambient]"
     },
     "MZo8ts1_JHM": {
         "CHANNEL_NAME": "Ambient",
@@ -9328,6 +10168,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "'Afterglow' Ambient Mix"
+    },
+    "MgILp_KyD74": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2619 - Ambient - Scott Twynholm - Jump Cut On South Street [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2619,
+        "PUBLISHED_AT": "2021-12-01T18:15:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Scott Twynholm - Jump Cut On South Street [relaxing piano ambient]"
     },
     "MhOJhp8vGbE": {
         "CHANNEL_NAME": "Ambient",
@@ -9448,6 +10298,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dan Farley - Karst"
+    },
+    "N8wyaTCvpBA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2670 - Ambient - The Monk by the Sea - You Could Feel the Sky [instrumental ambient drone]",
+        "FORMAT": "mp3",
+        "NUMBER": 2670,
+        "PUBLISHED_AT": "2022-01-29T15:08:51Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Monk by the Sea - You Could Feel the Sky [instrumental ambient drone]"
+    },
+    "NAFsOckNFOc": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2589 - Ambient - Ambient Endeavors & We Dream of Eden - Context [inspiring cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2589,
+        "PUBLISHED_AT": "2021-10-31T17:10:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ambient Endeavors & We Dream of Eden - Context [inspiring cinematic ambient]"
     },
     "NBdOn5sYodo": {
         "CHANNEL_NAME": "Ambient",
@@ -9648,6 +10518,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Lit by Fire - Daybreak"
+    },
+    "Nm2jhD6H4yw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2598 - Ambient - Eric Heitmann & Patrick Zelinski - Skies of Elysium [ambient epic cinematic]",
+        "FORMAT": "mp3",
+        "NUMBER": 2598,
+        "PUBLISHED_AT": "2021-11-10T18:30:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Eric Heitmann & Patrick Zelinski - Skies of Elysium [ambient epic cinematic]"
     },
     "NpIvFXt4pTA": {
         "CHANNEL_NAME": "Ambient",
@@ -10169,6 +11049,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Evocativ - The Lovers, Pt. 3"
     },
+    "Oqj6NFKe9O8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2676 - Ambient - Oleg Fedak - Sunrise [ambient chill beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 2676,
+        "PUBLISHED_AT": "2022-02-10T17:14:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Oleg Fedak - Sunrise [ambient chill beats]"
+    },
     "OrAANg6kIk8": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "861 - Ambient - 100 Day Delay - Maybe Next Tuesday",
@@ -10468,6 +11358,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "moshimoss - Calling"
+    },
+    "PMKt585NtSE": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2672 - Ambient - Raphah & Soular Child - Familiar Forest [relaxing ambient soundscape]",
+        "FORMAT": "mp3",
+        "NUMBER": 2672,
+        "PUBLISHED_AT": "2022-02-04T15:00:39Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Raphah & Soular Child - Familiar Forest [relaxing ambient soundscape]"
     },
     "PP8N_2lCt-w": {
         "CHANNEL_NAME": "Ambient",
@@ -10919,6 +11819,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "From Somewhere Quiet - Shattered [classical ambient guitar]"
     },
+    "Q_2ZsvbESdo": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2533 - Ambient - Quelche - Venice [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2533,
+        "PUBLISHED_AT": "2021-09-03T17:23:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Quelche - Venice [relaxing instrumental ambient]"
+    },
     "Q_6YA79lZv8": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1997 - Ambient - The Ambientalist - Over The Edge",
@@ -10928,6 +11838,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "The Ambientalist - Over The Edge"
+    },
+    "QakTOb-lPDQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2529 - Ambient - Ada Moreau - Other Eden [ambient instrumental vocal]",
+        "FORMAT": "mp3",
+        "NUMBER": 2529,
+        "PUBLISHED_AT": "2021-08-30T17:54:36Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ada Moreau - Other Eden [ambient instrumental vocal]"
     },
     "Qb41wzbMuN0": {
         "CHANNEL_NAME": "Ambient",
@@ -10979,6 +11899,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Owsey - Dancing By The Dreamless Wave"
     },
+    "Qn46_3OZxS0": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2565 - Ambient - ARDENT LIGHTS - Dear Life [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2565,
+        "PUBLISHED_AT": "2021-10-06T18:22:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ARDENT LIGHTS - Dear Life [relaxing instrumental ambient]"
+    },
     "QpTPahIsdJ4": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2356 - Ambient - Rizik - Safe & Sound [relaxing classical piano]",
@@ -11018,6 +11948,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Cold Friction - Mist Glider's (CF NU Film Edit)"
+    },
+    "QsZmW20lMpc": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2666 - Ambient - Raphah - Wildflower [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2666,
+        "PUBLISHED_AT": "2022-01-25T18:06:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Raphah - Wildflower [relaxing piano ambient]"
     },
     "Qsjr2EqPCWI": {
         "CHANNEL_NAME": "Ambient",
@@ -11239,6 +12179,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Omar Raafat - Hourglass"
     },
+    "RgkJiy6DreA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2686 - Ambient - Gloam - Brief Encounter [cinematic inspiring ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2686,
+        "PUBLISHED_AT": "2022-02-20T17:40:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gloam - Brief Encounter [cinematic inspiring ambient]"
+    },
     "RhSM3xOOv-0": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2420 - Ambient - Methyl Lily & Stereo League - Smoke [classical postrock ambient]",
@@ -11278,6 +12228,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "'Essential' Ambient Mix"
+    },
+    "RlWutEhnMxg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2579 - Ambient - Tauon - Travel [atmospheric vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2579,
+        "PUBLISHED_AT": "2021-10-21T18:22:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tauon - Travel [atmospheric vocal ambient]"
     },
     "RplvOWlQ92s": {
         "CHANNEL_NAME": "Ambient",
@@ -11489,6 +12449,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Liam MacLean - A Journey Through Dreams [relaxing piano ambient]"
     },
+    "SPjczqo4wm0": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2615 - Ambient - Sleep Surgeon - Transient [chill ambient downtempo]",
+        "FORMAT": "mp3",
+        "NUMBER": 2615,
+        "PUBLISHED_AT": "2021-11-27T15:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sleep Surgeon - Transient [chill ambient downtempo]"
+    },
     "SR4tdql2LXQ": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "216 - Ambient - Manners - We Fade Like Dreams",
@@ -11518,6 +12488,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Allez Allez - Defeatist (Somfay 'Doubled Up Foldable Iona Rarity' Remix)"
+    },
+    "SYrasVFVQao": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2664 - Ambient - D & The Compass - La luna (Flica's Moonlight Remix) [relaxing classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2664,
+        "PUBLISHED_AT": "2022-01-23T16:39:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "D & The Compass - La luna (Flica's Moonlight Remix) [relaxing classical ambient]"
     },
     "SZq2RPgSMtg": {
         "CHANNEL_NAME": "Ambient",
@@ -11689,6 +12669,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "SVVN - In Waves (Music Video)"
     },
+    "SxtwvVVn_h0": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2520 - Ambient - A Cerulean State - Can we stay here_ [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2520,
+        "PUBLISHED_AT": "2021-08-20T17:22:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "A Cerulean State - Can we stay here? [relaxing piano ambient]"
+    },
     "Sxuh2jWtvzc": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1255 - Ambient - Illusory Scapes - Whispering from Every Leaf",
@@ -11758,6 +12748,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "4th Front - Vinatieri"
+    },
+    "T5annHsl0rI": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2581 - Ambient - Simon Wester - The Narrow Path [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2581,
+        "PUBLISHED_AT": "2021-10-23T18:26:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Simon Wester - The Narrow Path [relaxing piano ambient]"
     },
     "T5l9g3Tr4UE": {
         "CHANNEL_NAME": "Ambient",
@@ -11939,6 +12939,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Voyager - Acceptance"
     },
+    "TTucMhB_Bfc": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2553 - Ambient - Andreas Lie - Reminiscence [chill downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2553,
+        "PUBLISHED_AT": "2021-09-24T18:17:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Andreas Lie - Reminiscence [chill downtempo ambient]"
+    },
     "TUEFYyn9Fms": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1602 - Ambient - Atis Freivalds - Solitude",
@@ -12059,6 +13069,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "A Cerulean State - The Day I Decided We'd Begin"
     },
+    "TidxPeZlONs": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2534 - Ambient - River Camille & Soundscape Architects - Other Worlds [classical instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2534,
+        "PUBLISHED_AT": "2021-09-05T17:56:55Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "River Camille & Soundscape Architects - Other Worlds [classical instrumental ambient]"
+    },
     "Tl5ZLDVY2Bc": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1494 - Ambient - A Cerulean State - Threads",
@@ -12129,6 +13149,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Need a Name - Today, I'll Talk to You This Way"
     },
+    "TuZRz3tTCPA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2701 - Ambient - Liam MacLean - Ripple Effect [classical piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2701,
+        "PUBLISHED_AT": "2022-03-09T17:08:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Liam MacLean - Ripple Effect [classical piano ambient]"
+    },
     "Tzhk_InOLdI": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "447 - Ambient - Keaton Henson - Elevator Song (Ulrich Schnauss Remix)",
@@ -12148,6 +13178,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Thomas James White - In Flight"
+    },
+    "U0mppPh1H7w": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2517 - Ambient - Olexandr Ignatov - Affinity [meditation piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2517,
+        "PUBLISHED_AT": "2021-08-17T18:16:28Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Olexandr Ignatov - Affinity [meditation piano ambient]"
     },
     "U1VYczh5I0M": {
         "CHANNEL_NAME": "Ambient",
@@ -12649,6 +13689,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Astrolemo - Zero Gravity"
     },
+    "V4IHlDKyk0g": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2717 - Ambient - Salt of the Sound & Anita Tatlow - Grounded [relaxing vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2717,
+        "PUBLISHED_AT": "2022-03-25T16:59:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Salt of the Sound & Anita Tatlow - Grounded [relaxing vocal ambient]"
+    },
     "V4KxnlN6y20": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2344 - Ambient - Giuliano Poles - The Wood (Music Video)",
@@ -12829,6 +13879,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Michael FK - Forgotten at Sea (Music Video)"
     },
+    "VTLQhrj2s3E": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2617 - Ambient - Dear Gravity - Quiesce [meditation relaxing ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2617,
+        "PUBLISHED_AT": "2021-11-29T18:14:37Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dear Gravity - Quiesce [meditation relaxing ambient]"
+    },
     "VU6Si4d_8OE": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "175 - Ambient - Ficci Ft. Snowflake - It's Your Turn",
@@ -12959,6 +14019,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Perry Frank - Sunlight (Music Video)"
     },
+    "VklCndKPfyI": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2604 - Ambient - We Dream of Eden & Christopher Galovan - Now I See [relaxing guitar ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2604,
+        "PUBLISHED_AT": "2021-11-16T19:02:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "We Dream of Eden & Christopher Galovan - Now I See [relaxing guitar ambient]"
+    },
     "VnfICb__3Uw": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1427 - Ambient - Kisnou - Unbound",
@@ -12978,6 +14048,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "A Cerulean State - Perhaps Things Had Finally Begun To Move"
+    },
+    "VoL7Y3Tiwh8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2551 - Ambient - Arros & Zyphyr - The Universe Within You [chillout instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2551,
+        "PUBLISHED_AT": "2021-09-22T19:02:28Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Arros & Zyphyr - The Universe Within You [chillout instrumental ambient]"
     },
     "VrRIsulVPxg": {
         "CHANNEL_NAME": "Ambient",
@@ -13159,6 +14239,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Nomad - Weep"
     },
+    "WI35HyMDmp8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2651 - Ambient - Arden Records & Clay House - Christmas Eve [relaxing lofi beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 2651,
+        "PUBLISHED_AT": "2022-01-10T18:43:42Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Arden Records & Clay House - Christmas Eve [relaxing lofi beats]"
+    },
     "WI3uVnXKcpw": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "500 - Ambient - Glimpse - Mekoa",
@@ -13299,6 +14389,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Narrow Skies - I Want The Wind To Carry Me"
     },
+    "Wad6i4bp9cc": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2542 - Ambient - Infralyd - Gleam [relaxing classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2542,
+        "PUBLISHED_AT": "2021-09-13T17:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Infralyd - Gleam [relaxing classical ambient]"
+    },
     "WdB4Co9jeUQ": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1429 - Ambient - Yoann Garel - Fuite No.2",
@@ -13428,6 +14528,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "In Inertia - Scarlet Fragments (Music Video)"
+    },
+    "Ww0a7cCpZTo": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2628 - Ambient - Poolz - Relieve [relaxing sleeping ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2628,
+        "PUBLISHED_AT": "2021-12-11T17:17:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Poolz - Relieve [relaxing sleeping ambient]"
     },
     "WwLzr_69QTA": {
         "CHANNEL_NAME": "Ambient",
@@ -13609,6 +14719,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Nadav Cohen - All These Colours"
     },
+    "XP2VQwh_tRI": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2599 - Ambient - Oliver Franken - Shoulda Known Better [chillout downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2599,
+        "PUBLISHED_AT": "2021-11-11T18:42:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Oliver Franken - Shoulda Known Better [chillout downtempo ambient]"
+    },
     "XPN32Ou7xGI": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2123 - Ambient - Wizard Death - Pink Light _ Chaotic Reflections",
@@ -13618,6 +14738,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Wizard Death - Pink Light / Chaotic Reflections"
+    },
+    "XPp-ARnoX7Y": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2554 - Ambient - The Goodnight Project - The Hope For Belonging (Version 3) [ambient drone atmospheric]",
+        "FORMAT": "mp3",
+        "NUMBER": 2554,
+        "PUBLISHED_AT": "2021-09-25T18:15:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Goodnight Project - The Hope For Belonging (Version 3) [ambient drone atmospheric]"
     },
     "XPwBXqchKwo": {
         "CHANNEL_NAME": "Ambient",
@@ -13678,6 +14808,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Matt Lange feat. Jeza - I Can't Forgive (Eric Rigo Remix)"
+    },
+    "XVHyNvXqUoE": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2524 - Ambient - Der Waldl\u00e4ufer - Great Plains (Revisited) [cinematic ambient instrumental]",
+        "FORMAT": "mp3",
+        "NUMBER": 2524,
+        "PUBLISHED_AT": "2021-08-25T18:09:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Der Waldl\u00e4ufer - Great Plains (Revisited) [cinematic ambient instrumental]"
     },
     "XVflh3ad14A": {
         "CHANNEL_NAME": "Ambient",
@@ -13758,6 +14898,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "LUUUL - The Morning After (feat. Anna Paul)"
+    },
+    "XeqkOFRsW48": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2568 - Ambient - Dear Gravity & Be Still The Earth - From Ash [cinematic vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2568,
+        "PUBLISHED_AT": "2021-10-09T18:12:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dear Gravity & Be Still The Earth - From Ash [cinematic vocal ambient]"
     },
     "Xexdzl9bRI8": {
         "CHANNEL_NAME": "Ambient",
@@ -13908,6 +15058,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Azaleh - Astral (feat. Axel Grassi-Havnen)"
+    },
+    "Y0-8SdMkjSc": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2652 - Ambient - Eric Heitmann - Fade [cinematic classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2652,
+        "PUBLISHED_AT": "2022-01-11T17:19:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Eric Heitmann - Fade [cinematic classical ambient]"
     },
     "Y0AJkc6HkQQ": {
         "CHANNEL_NAME": "Ambient",
@@ -14359,6 +15519,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Daniel Monk x Kameryn Ogden - Kite View"
     },
+    "ZBxk6zwR4es": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2547 - Ambient - Kendl - Near \u2013 Far [downtempo instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2547,
+        "PUBLISHED_AT": "2021-09-18T18:15:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kendl - Near \u2013 Far [downtempo instrumental ambient]"
+    },
     "ZK4xqbcT8n4": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "254 - Ambient - Jan Amit - Around",
@@ -14428,6 +15598,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Empticity - Miniature"
+    },
+    "ZSgXZLtW1JU": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2570 - Ambient - Good Weather for an Airstrike - Still (feat. Jamie Brett) [relaxing vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2570,
+        "PUBLISHED_AT": "2021-10-11T18:45:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Good Weather for an Airstrike - Still (feat. Jamie Brett) [relaxing vocal ambient]"
     },
     "ZUIdWmXyAMs": {
         "CHANNEL_NAME": "Ambient",
@@ -14749,6 +15929,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Subtle - Lush"
     },
+    "_7gssmRxIyQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2594 - Ambient - QUELCHE - Drops [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2594,
+        "PUBLISHED_AT": "2021-11-06T16:16:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "QUELCHE - Drops [relaxing instrumental ambient]"
+    },
     "_7wnBmGejsA": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "213 - Ambient - Koda & CoMa - In the Deserts of La Femme Period Chaser",
@@ -14899,6 +16089,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Moonkay - One For U"
     },
+    "_TD-vxY5FRE": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2633 - Ambient - William Philipson - Sparrow [piano instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2633,
+        "PUBLISHED_AT": "2021-12-16T17:03:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "William Philipson - Sparrow [piano instrumental ambient]"
+    },
     "_TPV9hnXWwU": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "183 - Ambient - Spazzkid - Forgiveness (Moonkay Remix)",
@@ -14918,6 +16118,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Rhian Sheehan - Somnus (Hummel Remix)"
+    },
+    "_VxFMdSecgw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2700 - Ambient - Fallen Whispers - Stars Are Thoughts [cinematic instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2700,
+        "PUBLISHED_AT": "2022-03-08T17:52:52Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fallen Whispers - Stars Are Thoughts [cinematic instrumental ambient]"
+    },
+    "_WKiZwZ0hB8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2677 - Ambient - Andrew & Jared DePolo - Seasons_ Peace [relaxing classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2677,
+        "PUBLISHED_AT": "2022-02-11T17:42:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Andrew & Jared DePolo - Seasons: Peace [relaxing classical ambient]"
     },
     "_WxFMw0xMh0": {
         "CHANNEL_NAME": "Ambient",
@@ -15009,6 +16229,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Delectatio - Epiphany"
     },
+    "_oLDsrED_Xg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2707 - Ambient - Eric Heitmann & Patrick Zelinski - The 7 [epic cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2707,
+        "PUBLISHED_AT": "2022-03-15T18:18:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Eric Heitmann & Patrick Zelinski - The 7 [epic cinematic ambient]"
+    },
     "_pSihDdnP0Y": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1999 - Ambient - Opera23 - Blob-Tragedy",
@@ -15058,6 +16288,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Sensitize - Reflections"
+    },
+    "_z5eJH-9YwE": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2713 - Ambient - OKO & Sam Cisco - Find [chill beats ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2713,
+        "PUBLISHED_AT": "2022-03-21T17:18:58Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "OKO & Sam Cisco - Find [chill beats ambient]"
+    },
+    "a-Wp3U63ObY": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2582 - Ambient - Philip Danso - Bloom [relaxing cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2582,
+        "PUBLISHED_AT": "2021-10-24T17:04:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Philip Danso - Bloom [relaxing cinematic ambient]"
     },
     "a00wHjZ_x_A": {
         "CHANNEL_NAME": "Ambient",
@@ -15158,6 +16408,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Cobalt Rabbit - Boyfriend (Music Video)"
+    },
+    "aBtPidiJLFo": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2592 - Ambient - Der Waldl\u00e4ufer - Stella Solaris [instrumental atmospheric ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2592,
+        "PUBLISHED_AT": "2021-11-03T18:46:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Der Waldl\u00e4ufer - Stella Solaris [instrumental atmospheric ambient]"
     },
     "aC1CiSqrSrg": {
         "CHANNEL_NAME": "Ambient",
@@ -15299,6 +16559,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "4lienetic - Missing You"
     },
+    "aRtyZ8d9Pn4": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2612 - Ambient - Itona - Stay [chill lofi downtempo]",
+        "FORMAT": "mp3",
+        "NUMBER": 2612,
+        "PUBLISHED_AT": "2021-11-24T16:16:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Itona - Stay [chill lofi downtempo]"
+    },
     "aTuDszMetkc": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1479 - Ambient - Kazukii - Milo",
@@ -15318,6 +16588,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Relatvty - Until Then"
+    },
+    "aV-za3E26Ho": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2627 - Ambient - Ben Potter - Heart to Heart, Hand in Hand [classical instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2627,
+        "PUBLISHED_AT": "2021-12-09T17:24:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ben Potter - Heart to Heart, Hand in Hand [classical instrumental ambient]"
     },
     "aVfK2_I7Plo": {
         "CHANNEL_NAME": "Ambient",
@@ -15388,6 +16668,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Aether - Should Have Known"
+    },
+    "aiPQmf_B7Co": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2646 - Ambient - Thomas James White - Hiraeth [classical piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2646,
+        "PUBLISHED_AT": "2021-12-30T19:30:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Thomas James White - Hiraeth [classical piano ambient]"
     },
     "aii5fFJXk8o": {
         "CHANNEL_NAME": "Ambient",
@@ -16019,6 +17309,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Giuliano Poles - The Space (Music Video)"
     },
+    "c9PR7nJhGbQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2531 - Ambient - Thomas James White - Adenydd [ambient chillout downtempo]",
+        "FORMAT": "mp3",
+        "NUMBER": 2531,
+        "PUBLISHED_AT": "2021-09-01T18:25:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Thomas James White - Adenydd [ambient chillout downtempo]"
+    },
     "c9stBEAGF4I": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "902 - Ambient - Exist Strategy - Reverence",
@@ -16219,6 +17519,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Himalia - Flourish"
     },
+    "cS1gm1nFrAA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2538 - Ambient - Edapollo - View From The Aeroplane Window [chill downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2538,
+        "PUBLISHED_AT": "2021-09-09T18:42:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Edapollo - View From The Aeroplane Window [chill downtempo ambient]"
+    },
     "cSZYvwUZuhI": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1445 - Ambient - A Cerulean State - Unchanged Forever",
@@ -16268,6 +17578,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Drops - Together"
+    },
+    "cZZAEs_29Wg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2521 - Ambient - IKSRE - As Good As It Gets [cinematic ambient vocal]",
+        "FORMAT": "mp3",
+        "NUMBER": 2521,
+        "PUBLISHED_AT": "2021-08-22T18:31:45Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "IKSRE - As Good As It Gets [cinematic ambient vocal]"
     },
     "cZh0UULSEKs": {
         "CHANNEL_NAME": "Ambient",
@@ -16398,6 +17718,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ether - Into The Void"
+    },
+    "cs3vs7VWORY": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2715 - Ambient - inamomentimalive - Hurts More To Forget [relaxing meditation ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2715,
+        "PUBLISHED_AT": "2022-03-23T18:09:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "inamomentimalive - Hurts More To Forget [relaxing meditation ambient]"
     },
     "ctQXeYcLm08": {
         "CHANNEL_NAME": "Ambient",
@@ -16858,6 +18188,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Nils Frahm - Me (Mombi Vocal Rework)"
+    },
+    "dvqglz3SXRs": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2600 - Ambient - Dusty Bear - Disco In A Time Of War [epic ambient cinematic]",
+        "FORMAT": "mp3",
+        "NUMBER": 2600,
+        "PUBLISHED_AT": "2021-11-12T16:33:59Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dusty Bear - Disco In A Time Of War [epic ambient cinematic]"
     },
     "dyAANWy4oJE": {
         "CHANNEL_NAME": "Ambient",
@@ -17479,6 +18819,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Need a Name - Shoreline"
     },
+    "fdbIuBW9HjE": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2663 - Ambient - Sleep Surgeon - Midnight [chill beats ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2663,
+        "PUBLISHED_AT": "2022-01-22T18:23:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sleep Surgeon - Midnight [chill beats ambient]"
+    },
     "fde57K-5ZO4": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "492 - Ambient - Izzard - July (ft. Oneira)",
@@ -17528,6 +18878,26 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dear Gravity - Departure Pt. I (Canvas)"
+    },
+    "flsdCoXKjCM": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2593 - Ambient - The Field Tapes & Light of Woods - Woods (Sun Rain Remix) [chill downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2593,
+        "PUBLISHED_AT": "2021-11-04T18:39:44Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Field Tapes & Light of Woods - Woods (Sun Rain Remix) [chill downtempo ambient]"
+    },
+    "fmWSy1hab20": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2630 - Ambient - Foam and Sand - Circle 23 (Slow Meadow Rework) [inspiring classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2630,
+        "PUBLISHED_AT": "2021-12-13T18:04:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Foam and Sand - Circle 23 (Slow Meadow Rework) [inspiring classical ambient]"
     },
     "foB-dh47G6U": {
         "CHANNEL_NAME": "Ambient",
@@ -17588,6 +18958,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Subsets - Lifeless"
+    },
+    "fz7Hvml7Zck": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2515 - Ambient - Zac Tiessen - Peace Like A River [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2515,
+        "PUBLISHED_AT": "2021-08-15T17:14:58Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Zac Tiessen - Peace Like A River [relaxing instrumental ambient]"
     },
     "fzcZaVd1UjY": {
         "CHANNEL_NAME": "Ambient",
@@ -17818,6 +19198,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Cabin - Refractions"
+    },
+    "gL2SLzN2pJU": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2659 - Ambient - FoxGarden - Surface [atmospheric futuregarage ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2659,
+        "PUBLISHED_AT": "2022-01-18T18:09:59Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FoxGarden - Surface [atmospheric futuregarage ambient]"
     },
     "gLG7r7hbnKE": {
         "CHANNEL_NAME": "Ambient",
@@ -18119,6 +19509,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "G\u00f6rkem Han Jr. - Ocean (Mindthings Remix)"
     },
+    "h1MD24LF7Sw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2595 - Ambient - The Monk by the Sea - Orange Clouds [lofi instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2595,
+        "PUBLISHED_AT": "2021-11-07T17:18:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Monk by the Sea - Orange Clouds [lofi instrumental ambient]"
+    },
     "h1t17GVs1YY": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "632 - Ambient - Ambient Mixtape Vol. 13",
@@ -18128,6 +19528,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ambient Mixtape Vol. 13"
+    },
+    "h2Og9L5NfM0": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2574 - Ambient - We Dream of Eden & Antarctic Wastelands - Counting the Seconds [atmospheric soundscape ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2574,
+        "PUBLISHED_AT": "2021-10-15T18:27:45Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "We Dream of Eden & Antarctic Wastelands - Counting the Seconds [atmospheric soundscape ambient]"
     },
     "h3U_w9XNNek": {
         "CHANNEL_NAME": "Ambient",
@@ -18189,6 +19599,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "William French - Blue Heron"
     },
+    "hC94q4kd75s": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2530 - Ambient - Antoine Cara - Unfolding Memories [relaxing ambient drone]",
+        "FORMAT": "mp3",
+        "NUMBER": 2530,
+        "PUBLISHED_AT": "2021-08-31T17:23:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Antoine Cara - Unfolding Memories [relaxing ambient drone]"
+    },
     "hCMRo1NEios": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "616 - Ambient - Kasseo - Intro",
@@ -18249,6 +19669,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Chasing Dreams - Miles Away From Any Warm Feeling"
     },
+    "hQgBtI_zz4Q": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2616 - Ambient - Mvnners - Body [lofi downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2616,
+        "PUBLISHED_AT": "2021-11-28T16:16:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Mvnners - Body [lofi downtempo ambient]"
+    },
     "hSIlyycIT3s": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1921 - Ambient - Paddy Mulcahy - Sunset Connoisseur",
@@ -18258,6 +19688,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Paddy Mulcahy - Sunset Connoisseur"
+    },
+    "hTNOjeYaakc": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2601 - Ambient - Etsu - Fond Memories [ambient futuregarage downtempo]",
+        "FORMAT": "mp3",
+        "NUMBER": 2601,
+        "PUBLISHED_AT": "2021-11-13T19:17:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Etsu - Fond Memories [ambient futuregarage downtempo]"
     },
     "hV__ZGLGDHY": {
         "CHANNEL_NAME": "Ambient",
@@ -18308,6 +19748,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Jason Barty - Simple Day"
+    },
+    "hYZLuCUx1jQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2610 - Ambient - 'Journey' Ambient Mix \ud83c\udf04 [meditation inspiring study]",
+        "FORMAT": "mp3",
+        "NUMBER": 2610,
+        "PUBLISHED_AT": "2021-11-22T13:53:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "'Journey' Ambient Mix \ud83c\udf04 [meditation inspiring study]"
     },
     "hYdjT_9q8HE": {
         "CHANNEL_NAME": "Ambient",
@@ -18468,6 +19918,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Buddygirrl - Skywards (feat. CoMa)"
+    },
+    "hvb_lJHjewk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2657 - Ambient - QUELCHE - Sound Garden [inspiring cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2657,
+        "PUBLISHED_AT": "2022-01-16T17:53:46Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "QUELCHE - Sound Garden [inspiring cinematic ambient]"
     },
     "hwZD0zUk5MI": {
         "CHANNEL_NAME": "Ambient",
@@ -18749,6 +20209,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Michael FK - Faith"
     },
+    "ihv9-HvO8eI": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2519 - Ambient - Michael FK - Awake [inspiring chillout ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2519,
+        "PUBLISHED_AT": "2021-08-19T18:31:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Michael FK - Awake [inspiring chillout ambient]"
+    },
     "iiX0dYfcaGs": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1130 - Ambient - Sensorica - Wind And Keys",
@@ -18758,6 +20228,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Sensorica - Wind And Keys"
+    },
+    "ik2kb1G3-zM": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2678 - Ambient - Seth Austin - Skies [inspiring downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2678,
+        "PUBLISHED_AT": "2022-02-12T17:46:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Seth Austin - Skies [inspiring downtempo ambient]"
     },
     "im81ZKEJaw4": {
         "CHANNEL_NAME": "Ambient",
@@ -19559,6 +21039,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Resotone - From Me, To You"
     },
+    "ktHNWaJeFxg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2694 - Ambient - Christopher Galovan - Immersed [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2694,
+        "PUBLISHED_AT": "2022-02-28T18:11:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Christopher Galovan - Immersed [relaxing piano ambient]"
+    },
     "ktdpgh-YCSA": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2509 - Ambient - Mazoulew - Tourist [ambient piano classical]",
@@ -19598,6 +21088,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Sensitize - Lost Souls"
+    },
+    "l9h29AbwR0w": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2578 - Ambient - Be Still The Earth - Nocturna [relaxing meditation ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2578,
+        "PUBLISHED_AT": "2021-10-20T17:39:47Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Be Still The Earth - Nocturna [relaxing meditation ambient]"
     },
     "lCNqJIFoHb0": {
         "CHANNEL_NAME": "Ambient",
@@ -19668,6 +21168,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Elysian - Fall To The Sky"
+    },
+    "lMyWrhjfECs": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2671 - Ambient - Faux Papillons - When We Return [meditation instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2671,
+        "PUBLISHED_AT": "2022-02-02T15:00:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Faux Papillons - When We Return [meditation instrumental ambient]"
     },
     "lPoAlPsiF4I": {
         "CHANNEL_NAME": "Ambient",
@@ -19768,6 +21278,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Alwayslovedafilm - LightHouse"
+    },
+    "lX0T1Ukv7ec": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2703 - Ambient - v e n n - Melted Minutes (Lauge Rework) [atmospheric drone ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2703,
+        "PUBLISHED_AT": "2022-03-11T18:05:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "v e n n - Melted Minutes (Lauge Rework) [atmospheric drone ambient]"
     },
     "lX2bZKbSVQw": {
         "CHANNEL_NAME": "Ambient",
@@ -19969,6 +21489,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Salt Of The Sound - Beyond Here (Reprise)"
     },
+    "m79qQDpEEHM": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2650 - Ambient - Within Your Ocean - Trust Me, Let Go [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2650,
+        "PUBLISHED_AT": "2022-01-07T18:50:42Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Within Your Ocean - Trust Me, Let Go [relaxing instrumental ambient]"
+    },
     "mAg1OzccmQg": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1593 - Ambient - Atis Freivalds - The Eternal Fall",
@@ -20008,6 +21538,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Luis Paul - Transience [epic orchestral classical]"
+    },
+    "mG7iCEDR4yY": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2602 - Ambient - The Hidden & LeVirya & Natasha Ghosh - Frogs at Night [relaxing chill ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2602,
+        "PUBLISHED_AT": "2021-11-14T18:13:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Hidden & LeVirya & Natasha Ghosh - Frogs at Night [relaxing chill ambient]"
     },
     "mLDIQ-oNtUk": {
         "CHANNEL_NAME": "Ambient",
@@ -20099,6 +21639,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Shak - Only Now"
     },
+    "mZioDvz4C7g": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2634 - Ambient - JT Roach - your best is different every day [relaxing vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2634,
+        "PUBLISHED_AT": "2021-12-18T19:36:52Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "JT Roach - your best is different every day [relaxing vocal ambient]"
+    },
     "maPA5wN82KA": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2388 - Ambient - Antarctic Wastelands & Norvik - All Along the Harbour [inspiring piano background]",
@@ -20189,6 +21739,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Steven Faile - The Endless Shore"
     },
+    "mqPtIAZBAXM": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2624 - Ambient - Liam MacLean - Winter Skies [classical piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2624,
+        "PUBLISHED_AT": "2021-12-06T17:02:33Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Liam MacLean - Winter Skies [classical piano ambient]"
+    },
     "mqSpSiBrvAM": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1069 - Ambient - Faodail - Patchwork",
@@ -20218,6 +21778,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Haring - Canop\u00e9e (Earthquake Island Remix)"
+    },
+    "ms6hmRzIBM8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2660 - Ambient - Jim Perkins - Cloud Memory [meditation classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2660,
+        "PUBLISHED_AT": "2022-01-19T18:10:48Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jim Perkins - Cloud Memory [meditation classical ambient]"
     },
     "mzyI0I9Ff_0": {
         "CHANNEL_NAME": "Ambient",
@@ -20258,6 +21828,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Alaskan Tapes - Real People In Real Places (Music Video)"
+    },
+    "n7tuS4Fm1tU": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2556 - Ambient - Tauon - Hopeful [atmospheric cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2556,
+        "PUBLISHED_AT": "2021-09-27T18:25:49Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tauon - Hopeful [atmospheric cinematic ambient]"
     },
     "n9KjScKRBGU": {
         "CHANNEL_NAME": "Ambient",
@@ -20348,6 +21928,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "The Ambientalist - There's Always A Way"
+    },
+    "nLhtlEl2an4": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2522 - Ambient - Narrow Skies & Lauge - The Night Breathes [atmospheric drone ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2522,
+        "PUBLISHED_AT": "2021-08-23T16:00:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Narrow Skies & Lauge - The Night Breathes [atmospheric drone ambient]"
     },
     "nN9jAM9GGNs": {
         "CHANNEL_NAME": "Ambient",
@@ -20509,6 +22099,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Eclise - If You Need Me"
     },
+    "nhZina8a3lQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2596 - Ambient - heldclose - Hideaways [lofi chill ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2596,
+        "PUBLISHED_AT": "2021-11-08T17:43:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "heldclose - Hideaways [lofi chill ambient]"
+    },
     "njBQadzIDeE": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1055 - Ambient - Grandyzer - Touch",
@@ -20528,6 +22128,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "HzTone - Reverie (Music Video)"
+    },
+    "nlnMyAaP1NU": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2575 - Ambient - Sleep Surgeon - Breeze [chill ambient beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 2575,
+        "PUBLISHED_AT": "2021-10-16T18:28:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sleep Surgeon - Breeze [chill ambient beats]"
     },
     "nr6DVvb99Qk": {
         "CHANNEL_NAME": "Ambient",
@@ -20648,6 +22258,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "HIN - Home"
+    },
+    "nwtCmvZ0tcA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2665 - Ambient - Kazukii - Save Me (feat. Dianna) [chill vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2665,
+        "PUBLISHED_AT": "2022-01-24T17:36:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Kazukii - Save Me (feat. Dianna) [chill vocal ambient]"
     },
     "nzzpnE62TRs": {
         "CHANNEL_NAME": "Ambient",
@@ -20859,6 +22479,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Delectatio - Enchanted"
     },
+    "oYNrkDH7btI": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2629 - Ambient - Project AER - Feeling_ Upside Down [relaxing nature ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2629,
+        "PUBLISHED_AT": "2021-12-12T18:55:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Project AER - Feeling: Upside Down [relaxing nature ambient]"
+    },
     "oaX7wbdh76Y": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2500 - Ambient - Sleep Surgeon - Never Fade [ambient chill beats]",
@@ -20948,6 +22578,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Blure - Los Cometas Del Tiempo"
+    },
+    "oqBvaLqF9SQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2638 - Ambient - Dominik Giesriegl - Nebula [epic cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2638,
+        "PUBLISHED_AT": "2021-12-22T17:50:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dominik Giesriegl - Nebula [epic cinematic ambient]"
     },
     "oqWAmSaWax8": {
         "CHANNEL_NAME": "Ambient",
@@ -21089,6 +22729,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Crazy About You - Shallow (ft. Celery)"
     },
+    "pD5ntdLgJhc": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2560 - Ambient - Quelche - Uncene [relaxing guitar ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2560,
+        "PUBLISHED_AT": "2021-10-01T16:52:48Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Quelche - Uncene [relaxing guitar ambient]"
+    },
     "pDiA4ReSlEs": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2041 - Ambient - Alaskan Tapes - Views From Sixteen Stories (Remix by Sun Rain)",
@@ -21229,6 +22879,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Oliver Tank - Last Night I Heard Everything in Slow Motion"
     },
+    "pPTb5ODK-b8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2549 - Ambient - 24th and Haven - Beginning Light [cinematic relaxing ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2549,
+        "PUBLISHED_AT": "2021-09-20T16:46:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "24th and Haven - Beginning Light [cinematic relaxing ambient]"
+    },
     "pR4ojVmyzGM": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "933 - Ambient - Chandeliers - When I Met You, My Eyes Turned Blue",
@@ -21339,6 +22999,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Mattia Vlad Morleo - Like A Dream"
     },
+    "pka6gmwrPWk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2699 - Ambient - Salt of the Sound - For This Moment [meditation relaxing ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2699,
+        "PUBLISHED_AT": "2022-03-06T18:25:25Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Salt of the Sound - For This Moment [meditation relaxing ambient]"
+    },
     "plWObpS78Xc": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1107 - Ambient - Kazukii - Time We Lost",
@@ -21378,6 +23048,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ryan Lovell - Immemorial (Music Video)"
+    },
+    "poyLD8mqcYo": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2620 - Ambient - Away From The Earth - God's Own Wind [inspiring ambient postrock]",
+        "FORMAT": "mp3",
+        "NUMBER": 2620,
+        "PUBLISHED_AT": "2021-12-02T18:48:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Away From The Earth - God's Own Wind [inspiring ambient postrock]"
     },
     "pqfLzZuwt08": {
         "CHANNEL_NAME": "Ambient",
@@ -21519,6 +23199,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Woulds - Even the Trees Will Sing [cinematic relaxing ambient]"
     },
+    "q6KkG2t2S3s": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2658 - Ambient - Wings for Louise - Pluviam [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2658,
+        "PUBLISHED_AT": "2022-01-17T17:25:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Wings for Louise - Pluviam [relaxing instrumental ambient]"
+    },
     "q88wIA0pByY": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "886 - Ambient - Joachim Heinrich - Water",
@@ -21588,6 +23278,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "KISNOU - Our Endless Dreams"
+    },
+    "qEVJjvF3CP0": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2636 - Ambient - Inum - Town Of Love [inspiring downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2636,
+        "PUBLISHED_AT": "2021-12-20T17:50:51Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Inum - Town Of Love [inspiring downtempo ambient]"
     },
     "qEfOzfJbsWk": {
         "CHANNEL_NAME": "Ambient",
@@ -21969,6 +23669,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Koshun Nakao - Breathing [relaxing piano ambient]"
     },
+    "rMXVNeG2ipU": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2523 - Ambient - Clovis Schneider - Feel [instrumental ambient drone]",
+        "FORMAT": "mp3",
+        "NUMBER": 2523,
+        "PUBLISHED_AT": "2021-08-24T17:31:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Clovis Schneider - Feel [instrumental ambient drone]"
+    },
     "rNadG1UDULs": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2433 - Ambient - Dear Gravity - A Pursuit of Initial and Infallible Design [cinematic ambient drone]",
@@ -22159,6 +23869,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Vaudlow - Blue Desolate (Immerse)"
     },
+    "rjseH_yj_q4": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2635 - Ambient - The Hidden x LeVirya x rocomoco - Breakfast & Coffee [chill beats lofi]",
+        "FORMAT": "mp3",
+        "NUMBER": 2635,
+        "PUBLISHED_AT": "2021-12-19T18:08:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Hidden x LeVirya x rocomoco - Breakfast & Coffee [chill beats lofi]"
+    },
     "roZgu5M5PMQ": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2068 - Ambient - Poolz - Revolve (Video)",
@@ -22309,6 +24029,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Narrow Skies - Winters Past"
     },
+    "s95kn7untpo": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2543 - Ambient - Keep Breathing, My Angel - Forever, If You Can Imagine [relaxing classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2543,
+        "PUBLISHED_AT": "2021-09-14T17:43:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Keep Breathing, My Angel - Forever, If You Can Imagine [relaxing classical ambient]"
+    },
     "sBrdlqx0k5o": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2108 - Ambient - Lodor\u00e9 - Back Then",
@@ -22348,6 +24078,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Hiatus - Defeat"
+    },
+    "sERnoI440F4": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2588 - Ambient - Dear Gravity & Be Still The Earth - Apotheosis [relaxing atmospheric ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2588,
+        "PUBLISHED_AT": "2021-10-30T16:16:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dear Gravity & Be Still The Earth - Apotheosis [relaxing atmospheric ambient]"
     },
     "sFjY8paC4z0": {
         "CHANNEL_NAME": "Ambient",
@@ -22559,6 +24299,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Kooma - Ripple"
     },
+    "siZtw7Y2_0M": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2613 - Ambient - The Goodnight Project & Kilometre Club - After All, It Is Well [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2613,
+        "PUBLISHED_AT": "2021-11-25T18:16:29Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Goodnight Project & Kilometre Club - After All, It Is Well [relaxing piano ambient]"
+    },
     "sjUkwWdZuzY": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "323 - Ambient - Subsets ft. CoMa - Maybe I Need You",
@@ -22619,6 +24369,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Kosh Anade - Debrah"
     },
+    "sqgMvYp7Ml0": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2566 - Ambient - \u00dcUCE & Arttu Silvast - sea _ boat _ water [cinematic piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2566,
+        "PUBLISHED_AT": "2021-10-07T19:20:48Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "\u00dcUCE & Arttu Silvast - sea / boat / water [cinematic piano ambient]"
+    },
     "sqtoQe_1ccg": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "348 - Ambient - Tenru - The Way She Moves",
@@ -22648,6 +24408,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "glo - \u00c4lskad"
+    },
+    "sxgUy72p8Jg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2682 - Ambient - Alyas - Morning Light [meditation piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2682,
+        "PUBLISHED_AT": "2022-02-16T17:07:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Alyas - Morning Light [meditation piano ambient]"
     },
     "sxhwf89i-i0": {
         "CHANNEL_NAME": "Ambient",
@@ -22729,6 +24499,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Newlands - At The Wooden Park"
     },
+    "tBScmvLu5VU": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2559 - Ambient - Fog Chaser - Flight [relaxing instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2559,
+        "PUBLISHED_AT": "2021-09-30T17:22:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fog Chaser - Flight [relaxing instrumental ambient]"
+    },
     "tDet7QQHBpU": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1417 - Ambient - Heede - To The Heaven",
@@ -22789,6 +24569,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Kaisaku - Starlight"
     },
+    "tQKYHCEufiE": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2669 - Ambient - Dear Gravity & We Dream of Eden - Generations [cinematic piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2669,
+        "PUBLISHED_AT": "2022-01-28T18:36:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dear Gravity & We Dream of Eden - Generations [cinematic piano ambient]"
+    },
     "tQnFqCVxi3M": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2141 - Ambient - Vincent DiFrancesco - Borne",
@@ -22798,6 +24588,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Vincent DiFrancesco - Borne"
+    },
+    "tR4D-qcirNQ": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2587 - Ambient - Sleep Surgeon - Meant to Be [chill ambient beats]",
+        "FORMAT": "mp3",
+        "NUMBER": 2587,
+        "PUBLISHED_AT": "2021-10-29T16:51:24Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sleep Surgeon - Meant to Be [chill ambient beats]"
     },
     "tSSfLQiUA6o": {
         "CHANNEL_NAME": "Ambient",
@@ -22829,6 +24629,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Blure & Moshimoss - Reminiscences"
     },
+    "tVAW95un2P0": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2690 - Ambient - Astropilot & Spacecraft - Weightless [atmospheric meditation ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2690,
+        "PUBLISHED_AT": "2022-02-24T19:48:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Astropilot & Spacecraft - Weightless [atmospheric meditation ambient]"
+    },
     "tWCrkFJKwko": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1853 - Ambient - A Cerulean State - Pulled Towards",
@@ -22849,6 +24659,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "A Cerulean State - In The Reflection Of Your Eyes"
     },
+    "tYTAqOLbg3Q": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2569 - Ambient - Rohne - Dawn Aura [downtempo electronica ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2569,
+        "PUBLISHED_AT": "2021-10-10T18:16:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Rohne - Dawn Aura [downtempo electronica ambient]"
+    },
     "tZfhTya1D3g": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "237 - Ambient - Ghosts Of Paraguay - Part 2 (feat. CoMa)",
@@ -22858,6 +24678,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ghosts Of Paraguay - Part 2 (feat. CoMa)"
+    },
+    "tcLMLMY4Jek": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2625 - Ambient - Birds of Passage - It's Too Late Now [meditation vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2625,
+        "PUBLISHED_AT": "2021-12-07T18:33:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Birds of Passage - It's Too Late Now [meditation vocal ambient]"
     },
     "tcR6PHG5q1I": {
         "CHANNEL_NAME": "Ambient",
@@ -23469,6 +25299,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Colin McAllister - Care Like I Care"
     },
+    "v1vIvCXuCTU": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2546 - Ambient - Giuliano Poles - Once Upon a Time [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2546,
+        "PUBLISHED_AT": "2021-09-17T17:44:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Giuliano Poles - Once Upon a Time [relaxing piano ambient]"
+    },
     "v3CT6ask1ro": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "626 - Ambient - Kasseo - In Your Eyes (ft. Cordelia O'Driscoll)",
@@ -23498,6 +25338,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Bedroom - The Inner Pattern"
+    },
+    "vAI1c9kTcoc": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2544 - Ambient - Narrow Skies & Simon Wester - A World of Wonder [meditation classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2544,
+        "PUBLISHED_AT": "2021-09-15T17:13:58Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Narrow Skies & Simon Wester - A World of Wonder [meditation classical ambient]"
     },
     "vBolJzE7c_0": {
         "CHANNEL_NAME": "Ambient",
@@ -23589,6 +25439,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Hazy - Eclipse"
     },
+    "vT7Fs0zm4Gg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2642 - Ambient - nExow - Nebula [atmospheric futuregarage ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2642,
+        "PUBLISHED_AT": "2021-12-26T16:25:43Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "nExow - Nebula [atmospheric futuregarage ambient]"
+    },
     "vW7NfoySFro": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1438 - Ambient - Salt Of The Sound - Embers (feat. Narrow Skies)",
@@ -23678,6 +25538,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dominik A. Hecker - Rising Tides"
+    },
+    "vqW5wHQdueA": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2585 - Ambient - Hats\u00fc - Sunrise [relaxing chill ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2585,
+        "PUBLISHED_AT": "2021-10-27T17:45:20Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Hats\u00fc - Sunrise [relaxing chill ambient]"
     },
     "vuUcRN7eWD8": {
         "CHANNEL_NAME": "Ambient",
@@ -23859,6 +25729,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Michael FK & A Cerulean State - Origami"
     },
+    "wcr4k9IrLcg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2696 - Ambient - Felix R\u00e4uber & Anna-Marlene Bicking - Interlude 1 [cinematic instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2696,
+        "PUBLISHED_AT": "2022-03-02T18:23:42Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Felix R\u00e4uber & Anna-Marlene Bicking - Interlude 1 [cinematic instrumental ambient]"
+    },
     "wd4LjB8Yg-4": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1684 - Ambient - Pawel Ikgy - At 230, 000 Miles to Happiness",
@@ -23988,6 +25868,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Bedroom - From A Distant Home"
+    },
+    "wwRQmgB8ZU8": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2540 - Ambient - Andy Leech - Kato [ambient downtempo futuregarage]",
+        "FORMAT": "mp3",
+        "NUMBER": 2540,
+        "PUBLISHED_AT": "2021-09-11T18:03:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Andy Leech - Kato [ambient downtempo futuregarage]"
     },
     "wxJpS3pm5Lc": {
         "CHANNEL_NAME": "Ambient",
@@ -24169,6 +26059,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Antarctic Wastelands & Manuel Zito - The First Glimpse of Dawn (Music Video)"
     },
+    "xVVB9EBezQM": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2607 - Ambient - Nili Fossae - All The Light They Cannot See [cinematic piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2607,
+        "PUBLISHED_AT": "2021-11-19T17:36:25Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nili Fossae - All The Light They Cannot See [cinematic piano ambient]"
+    },
     "xVpN-9iYJO0": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "990 - Ambient - Jason Barty - Montana",
@@ -24189,6 +26089,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Axel Grassi-Havnen - Castle In The Sky"
     },
+    "xXdRitctUPI": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2649 - Ambient - Jack5on - The Singularity [epic cinematic ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2649,
+        "PUBLISHED_AT": "2022-01-06T17:13:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jack5on - The Singularity [epic cinematic ambient]"
+    },
     "xXntZ0fIa-U": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "2029 - Ambient - Wide Waters - Tides",
@@ -24198,6 +26108,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Wide Waters - Tides"
+    },
+    "xZUfdkNA1zg": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2557 - Ambient - Thomas James White - Lleoedd [inspiring classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2557,
+        "PUBLISHED_AT": "2021-09-28T17:20:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Thomas James White - Lleoedd [inspiring classical ambient]"
     },
     "xZlZPpur_tc": {
         "CHANNEL_NAME": "Ambient",
@@ -24228,6 +26148,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Tony Ling - Polar Insight Into Laniakea"
+    },
+    "xeXpTjRuT0Y": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2537 - Ambient - IONA & TYMELAPSE - Down For An Hour Or Two [meditation atmospheric ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2537,
+        "PUBLISHED_AT": "2021-09-08T18:16:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "IONA & TYMELAPSE - Down For An Hour Or Two [meditation atmospheric ambient]"
     },
     "xfQAv5keGE4": {
         "CHANNEL_NAME": "Ambient",
@@ -24659,6 +26589,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "The Monk by the Sea - A Place Called Earth"
     },
+    "y_gQHNGDR5M": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2692 - Ambient - Fade - No Sorrowland [inspiring downtempo ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2692,
+        "PUBLISHED_AT": "2022-02-26T17:58:36Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fade - No Sorrowland [inspiring downtempo ambient]"
+    },
+    "ycHZDo-DssM": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2643 - Ambient - Infinity Inside - Aurora [cinematic vocal ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2643,
+        "PUBLISHED_AT": "2021-12-27T17:26:28Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Infinity Inside - Aurora [cinematic vocal ambient]"
+    },
     "ycJXbb-t3L8": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "201 - Ambient - Owsey - In A Decade Full Of Dreams",
@@ -24789,6 +26739,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Liam Thomas - Moment"
     },
+    "z6fRpBoT-Lo": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2667 - Ambient - OSTEL - The Universe is Always Right [relaxing piano ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2667,
+        "PUBLISHED_AT": "2022-01-26T17:32:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "OSTEL - The Universe is Always Right [relaxing piano ambient]"
+    },
     "z73XHEdxkTQ": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1000 - Ambient - G. Strizzolo - Broken Feelings",
@@ -24798,6 +26758,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "G. Strizzolo - Broken Feelings"
+    },
+    "zA2yvJkGUdw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2532 - Ambient - Narrow Skies & We Dream of Eden - Will My Heart Sing Again [meditation ambient vocal]",
+        "FORMAT": "mp3",
+        "NUMBER": 2532,
+        "PUBLISHED_AT": "2021-09-02T18:37:43Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Narrow Skies & We Dream of Eden - Will My Heart Sing Again [meditation ambient vocal]"
     },
     "zArqj5y26xg": {
         "CHANNEL_NAME": "Ambient",
@@ -24919,6 +26889,36 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Extitude - This"
     },
+    "zPz7hlsESyc": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2535 - Ambient - Inum - Always There [ambient vocal downtempo]",
+        "FORMAT": "mp3",
+        "NUMBER": 2535,
+        "PUBLISHED_AT": "2021-09-06T16:28:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Inum - Always There [ambient vocal downtempo]"
+    },
+    "zS4h5-Iu_qI": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2576 - Ambient - Mazoulew - Overture [cinematic classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2576,
+        "PUBLISHED_AT": "2021-10-18T17:05:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Mazoulew - Overture [cinematic classical ambient]"
+    },
+    "zUkMn78DDrk": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2539 - Ambient - Roseblue & From Somewhere Quiet - Numinous Beauty [relaxing classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2539,
+        "PUBLISHED_AT": "2021-09-10T18:29:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Roseblue & From Somewhere Quiet - Numinous Beauty [relaxing classical ambient]"
+    },
     "zV_bjAiDieA": {
         "CHANNEL_NAME": "Ambient",
         "FILE_NAME": "1839 - Ambient - A Cerulean State - The Light Dances Around Our Feet",
@@ -24958,6 +26958,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Andy Leech - Thinking Of You"
+    },
+    "z_H4UNVClXw": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2668 - Ambient - Arden Records & Pecna - Snow Angels [chill beats ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2668,
+        "PUBLISHED_AT": "2022-01-27T18:11:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Arden Records & Pecna - Snow Angels [chill beats ambient]"
     },
     "z_JXaaISeGc": {
         "CHANNEL_NAME": "Ambient",
@@ -25008,6 +27018,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "American Teleport - Weeping Willow [chill instrumental beats]"
+    },
+    "zicuZ9a19UM": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2639 - Ambient - AUEL & Oliver Franken - Blur [chillout instrumental ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2639,
+        "PUBLISHED_AT": "2021-12-23T18:23:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "AUEL & Oliver Franken - Blur [chillout instrumental ambient]"
     },
     "zk-y2y58Q6Q": {
         "CHANNEL_NAME": "Ambient",
@@ -25088,6 +27108,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
         "STATUS": "DOWNLOADED",
         "TITLE": "Uncertain Voices - When I Was Little"
+    },
+    "ztCClaRoig4": {
+        "CHANNEL_NAME": "Ambient",
+        "FILE_NAME": "2687 - Ambient - Arrowsmith - Fly [relaxing classical ambient]",
+        "FORMAT": "mp3",
+        "NUMBER": 2687,
+        "PUBLISHED_AT": "2022-02-21T17:56:43Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\AmbientMusicalGenre",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Arrowsmith - Fly [relaxing classical ambient]"
     },
     "zuSJiT1X7Wo": {
         "CHANNEL_NAME": "Ambient",

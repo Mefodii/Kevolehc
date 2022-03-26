@@ -72,6 +72,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "McRocklin & Hutch - One of Them"
     },
+    "-G0oIF6uCV0": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2540 - NewRetroWave - ORAX - The City of Tomorrow",
+        "FORMAT": "mp3",
+        "NUMBER": 2540,
+        "PUBLISHED_AT": "2021-08-20T14:00:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ORAX - The City of Tomorrow"
+    },
     "-G4PvSfZQH0": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1478 - NewRetroWave - Hyboid - High Voltage Therapy",
@@ -118,6 +128,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "DEADLIFE - Young Fury, Endure"
+    },
+    "-KARbmswn0k": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2620 - NewRetroWave - Ollie Wride - A Matter of Time",
+        "FORMAT": "mp3",
+        "NUMBER": 2620,
+        "PUBLISHED_AT": "2021-11-29T15:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ollie Wride - A Matter of Time"
     },
     "-R6An9YEHAc": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -552,6 +572,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Rohdin - Void"
     },
+    "0P5HUJIux7w": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2606 - NewRetroWave - STRNGR & Destryur - Strangulator",
+        "FORMAT": "mp3",
+        "NUMBER": 2606,
+        "PUBLISHED_AT": "2021-11-11T16:14:59Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "STRNGR & Destryur - Strangulator"
+    },
     "0R07NTDfBHk": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1564 - NewRetroWave - New Arcades - Inhale (feat. Lula)",
@@ -569,6 +599,16 @@
         "PUBLISHED_AT": "2017-07-12T13:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "ALEX - Dread"
+    },
+    "0ZQoqvRtiaM": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2582 - NewRetroWave - _  O U T L A W  _ - A NewRetroWave Mix _ 1 Hour _ Retrowave_ Synthwave_ Outrun _",
+        "FORMAT": "mp3",
+        "NUMBER": 2582,
+        "PUBLISHED_AT": "2021-10-15T20:14:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "|  O U T L A W  | - A NewRetroWave Mix | 1 Hour | Retrowave/ Synthwave/ Outrun |"
     },
     "0cIuWu4Eww4": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -614,6 +654,16 @@
         "PUBLISHED_AT": "2018-03-01T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Gianmarco Fabbretti - Mr Daddy (Original Mix)"
+    },
+    "0nTpQ-WQvJA": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2622 - NewRetroWave - NINA - I'll Wait",
+        "FORMAT": "mp3",
+        "NUMBER": 2622,
+        "PUBLISHED_AT": "2021-12-01T15:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NINA - I'll Wait"
     },
     "0p88QvVv_08": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -808,6 +858,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "CONFRONTATIONAL - Done With You"
     },
+    "1VHRu1-nHU8": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2598 - NewRetroWave - STRNGR & Destryur - Lurker (feat. Tonebox)",
+        "FORMAT": "mp3",
+        "NUMBER": 2598,
+        "PUBLISHED_AT": "2021-11-02T14:30:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "STRNGR & Destryur - Lurker (feat. Tonebox)"
+    },
     "1VpfOJ-YUkM": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1494 - NewRetroWave - Zyodara - Ebony Lover",
@@ -817,6 +877,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Zyodara - Ebony Lover"
     },
+    "1W276SjhVE8": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2619 - NewRetroWave - NewRetroWave Presents_ Essential Midnight Danger _ 1 Hour _ Retrowave, Synthwave, Darksynth _",
+        "FORMAT": "mp3",
+        "NUMBER": 2619,
+        "PUBLISHED_AT": "2021-11-26T18:44:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NewRetroWave Presents: Essential Midnight Danger | 1 Hour | Retrowave, Synthwave, Darksynth |"
+    },
     "1XFToZc6R1w": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1415 - NewRetroWave - ALEX - Magic Word",
@@ -825,6 +895,26 @@
         "PUBLISHED_AT": "2017-10-04T13:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "ALEX - Magic Word"
+    },
+    "1Y1wn7pYWWk": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2548 - NewRetroWave - Turboslash - Legend",
+        "FORMAT": "mp3",
+        "NUMBER": 2548,
+        "PUBLISHED_AT": "2021-09-03T14:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Turboslash - Legend"
+    },
+    "1Z-arYUj3ho": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2587 - NewRetroWave - Yota - Paris",
+        "FORMAT": "mp3",
+        "NUMBER": 2587,
+        "PUBLISHED_AT": "2021-10-22T14:00:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Yota - Paris"
     },
     "1ZQNS_isZjo": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -863,6 +953,16 @@
         "PUBLISHED_AT": "2017-01-10T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Fl\u00e1vio La Barre - Tiger Toad"
+    },
+    "1eFPFLFzFJc": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2667 - NewRetroWave - Earmake - Rescue Me From Darkness",
+        "FORMAT": "mp3",
+        "NUMBER": 2667,
+        "PUBLISHED_AT": "2022-02-24T15:30:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Earmake - Rescue Me From Darkness"
     },
     "1g3fxAssE9M": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -1048,6 +1148,16 @@
         "PUBLISHED_AT": "2015-12-04T16:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Coca Boa - Shout Out To Vegas (feat. CHARZARD)"
+    },
+    "21RVpTRDPuY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2576 - NewRetroWave - Shortwire - Slipstream",
+        "FORMAT": "mp3",
+        "NUMBER": 2576,
+        "PUBLISHED_AT": "2021-10-11T15:00:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Shortwire - Slipstream"
     },
     "23_Dkp35Znc": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -1252,6 +1362,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Ultraboss - Enter The Synth (feat. Vincenzo Salvia)"
     },
+    "2p6OQhyrStk": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2549 - NewRetroWave - ORAX - I Want to Believe",
+        "FORMAT": "mp3",
+        "NUMBER": 2549,
+        "PUBLISHED_AT": "2021-09-06T14:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ORAX - I Want to Believe"
+    },
     "2pTSH8Jtwu0": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2135 - NewRetroWave - Essenger - Blood Moon",
@@ -1261,6 +1381,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Essenger - Blood Moon"
+    },
+    "2qBg9-KiptY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2630 - NewRetroWave - THOLOS - Imperial Valley",
+        "FORMAT": "mp3",
+        "NUMBER": 2630,
+        "PUBLISHED_AT": "2022-01-05T15:30:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "THOLOS - Imperial Valley"
     },
     "2qqC6-LWUlU": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -1547,6 +1677,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "ALEX & TOKYO ROSE - Unleashed | AKUMA 2 is OUT NOW |"
     },
+    "3YUVl1J1XdE": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2589 - NewRetroWave - The Tilt - Holy Ground",
+        "FORMAT": "mp3",
+        "NUMBER": 2589,
+        "PUBLISHED_AT": "2021-10-25T14:50:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Tilt - Holy Ground"
+    },
     "3_svbJyErA8": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "898 - NewRetroWave - Red MarKer - Lonely Path",
@@ -1573,6 +1713,16 @@
         "PUBLISHED_AT": "2016-08-26T15:00:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "JK47 & Animal Firepower - Molly"
+    },
+    "3diTXJX6RvE": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2537 - NewRetroWave - The Outrider - Redux",
+        "FORMAT": "mp3",
+        "NUMBER": 2537,
+        "PUBLISHED_AT": "2021-08-18T14:00:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Outrider - Redux"
     },
     "3ey-Bp9JyKM": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -1785,6 +1935,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Robert Parker - Seasons of Lust (feat. Bachelor of Hearts)"
     },
+    "449OUKZEi3g": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2617 - NewRetroWave - STRNGR & Destryur - The Somnambulist",
+        "FORMAT": "mp3",
+        "NUMBER": 2617,
+        "PUBLISHED_AT": "2021-11-25T15:00:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "STRNGR & Destryur - The Somnambulist"
+    },
     "44OZPeIhyUM": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1439 - NewRetroWave - The Horrortape Vol. 1_ NRW Halloween Mixtape _ 1 Hour _ Retrowave_ Darkwave_ Electro _",
@@ -1924,6 +2084,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "| POWERDRIVE | - A NewRetroWave Mix | 1 Hour | Retrowave/ Dreamwave/ Outrun |"
+    },
+    "4_jIdecgok8": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2599 - NewRetroWave - Jake Kesey - Breath of the Wraith",
+        "FORMAT": "mp3",
+        "NUMBER": 2599,
+        "PUBLISHED_AT": "2021-11-03T15:31:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jake Kesey - Breath of the Wraith"
     },
     "4ccLURBOjmM": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -2110,6 +2280,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Highway Superstar - Prism Break"
     },
+    "5EM1R7IKwGw": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2569 - NewRetroWave - Yota - Runaway",
+        "FORMAT": "mp3",
+        "NUMBER": 2569,
+        "PUBLISHED_AT": "2021-10-01T14:30:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Yota - Runaway"
+    },
     "5ENBakdPdKU": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1836 - NewRetroWave - SYML - Clean Eyes (The Midnight Remix)",
@@ -2239,6 +2419,16 @@
         "PUBLISHED_AT": "2017-11-13T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "The G - Shadows in the Neon Rain"
+    },
+    "5dXjX0K0J9g": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2678 - NewRetroWave - FAVORIT89 - DESIRE (Extended Mix)",
+        "FORMAT": "mp3",
+        "NUMBER": 2678,
+        "PUBLISHED_AT": "2022-03-08T15:30:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "FAVORIT89 - DESIRE (Extended Mix)"
     },
     "5d_YfHcTnao": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -2380,6 +2570,16 @@
         "PUBLISHED_AT": "2013-10-31T00:23:30.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ex-Machina - Night Of The Rottweiler IV Main Theme"
+    },
+    "5uqu9cmEpG4": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2685 - NewRetroWave - ALEX & Mono Memory - SOCIAL MEDIOCRITY",
+        "FORMAT": "mp3",
+        "NUMBER": 2685,
+        "PUBLISHED_AT": "2022-03-17T14:30:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ALEX & Mono Memory - SOCIAL MEDIOCRITY"
     },
     "5uwYQNq8zkQ": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -2546,6 +2746,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Tommy '86 - Logged Into The Future"
     },
+    "6Ra9NjW2XkE": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2595 - NewRetroWave - Raydar - Skulls and Keys",
+        "FORMAT": "mp3",
+        "NUMBER": 2595,
+        "PUBLISHED_AT": "2021-10-31T04:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Raydar - Skulls and Keys"
+    },
     "6Rrnn07ufRs": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "685 - NewRetroWave - Starbound - Virtual Sunset",
@@ -2563,6 +2773,16 @@
         "PUBLISHED_AT": "2018-01-12T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Kiile - Into Your Eyes 1985"
+    },
+    "6YnDfDaRuP8": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2652 - NewRetroWave - Midnight Danger - Maniac (feat. Martin Sweet)",
+        "FORMAT": "mp3",
+        "NUMBER": 2652,
+        "PUBLISHED_AT": "2022-02-03T15:30:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Midnight Danger - Maniac (feat. Martin Sweet)"
     },
     "6aN45xx0WRQ": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -2654,6 +2874,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Paradise Walk - Rogue"
     },
+    "6sp-SP1yvO0": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2542 - NewRetroWave - New Arcades - Carry On (Music Video)",
+        "FORMAT": "mp3",
+        "NUMBER": 2542,
+        "PUBLISHED_AT": "2021-08-23T14:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Arcades - Carry On (Music Video)"
+    },
     "6tHrhzCIyHs": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1562 - NewRetroWave - Turbo Knight - Rasengan",
@@ -2672,6 +2902,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "DEADLIFE - Nothing Left But Pills (Official Video)"
+    },
+    "70ct2IIt6FQ": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2546 - NewRetroWave - ORAX - Lost Tribe",
+        "FORMAT": "mp3",
+        "NUMBER": 2546,
+        "PUBLISHED_AT": "2021-08-26T14:00:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ORAX - Lost Tribe"
     },
     "73aNO5D_Yr8": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -2717,6 +2957,16 @@
         "PUBLISHED_AT": "2019-02-04T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Neuromancer - Cybercop"
+    },
+    "76zNrbtde-s": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2658 - NewRetroWave - Stilz & Castroe - Weapons Ready",
+        "FORMAT": "mp3",
+        "NUMBER": 2658,
+        "PUBLISHED_AT": "2022-02-11T15:00:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stilz & Castroe - Weapons Ready"
     },
     "77XihExLHOs": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -3124,6 +3374,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Mega Drive - Acid Spit"
     },
+    "7yJIEpeb_AU": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2615 - NewRetroWave - Diskotimantti - Porin Road Warrior",
+        "FORMAT": "mp3",
+        "NUMBER": 2615,
+        "PUBLISHED_AT": "2021-11-23T15:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Diskotimantti - Porin Road Warrior"
+    },
     "7zAbATPaYR0": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "144 - NewRetroWave - Rain Sword - Shadow in the Dark",
@@ -3506,6 +3766,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Sebastian Gampl - Without You (feat. Tommy Reeve)"
     },
+    "91ovP3V6CiQ": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2682 - NewRetroWave - Icarus & Quelle T - Machine Heart Pt. II (Official Music Video)",
+        "FORMAT": "mp3",
+        "NUMBER": 2682,
+        "PUBLISHED_AT": "2022-03-14T14:30:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Icarus & Quelle T - Machine Heart Pt. II (Official Music Video)"
+    },
     "92fBkhURuSY": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1503 - NewRetroWave - Kiile - Constellation",
@@ -3570,6 +3840,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "BEATBOX MACHINERY - Mylene"
     },
+    "9B9b1VnNcX4": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2544 - NewRetroWave - Fabrice Ruscher - VHS Survivor",
+        "FORMAT": "mp3",
+        "NUMBER": 2544,
+        "PUBLISHED_AT": "2021-08-25T14:00:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fabrice Ruscher - VHS Survivor"
+    },
     "9IKYJKy2iGs": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "195 - NewRetroWave - Let Em Riot - Don't Stop Running",
@@ -3597,6 +3877,16 @@
         "PUBLISHED_AT": "2012-06-04T10:46:07.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "MpmSoundtracks - Daydreamer"
+    },
+    "9KY96C-bTM8": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2608 - NewRetroWave - NewRetroWave Presents_ Essential EARMAKE _ 1 Hour _ Retrowave, Synthwave, Spacewave _",
+        "FORMAT": "mp3",
+        "NUMBER": 2608,
+        "PUBLISHED_AT": "2021-11-12T18:18:45Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NewRetroWave Presents: Essential EARMAKE | 1 Hour | Retrowave, Synthwave, Spacewave |"
     },
     "9Lif98t4zTo": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -3737,6 +4027,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "BAD CHARACTER - NINMAH"
     },
+    "9ke2eyr4fiM": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2575 - NewRetroWave - NewRetroWave Presents_ Essential Michael Oakley _ 1 Hour _ Retrowave, Synthwave, Dreampop _",
+        "FORMAT": "mp3",
+        "NUMBER": 2575,
+        "PUBLISHED_AT": "2021-10-08T17:40:55Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NewRetroWave Presents: Essential Michael Oakley | 1 Hour | Retrowave, Synthwave, Dreampop |"
+    },
     "9l2U0beim78": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "358 - NewRetroWave - Highway Superstar - Halogen City",
@@ -3792,6 +4092,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "DRYVE - Rain on Me (Feat. FATHERDUDE)"
+    },
+    "9twcK6B6mIc": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2691 - NewRetroWave - DEADLIFE - Zealous Veins (Visualizer)",
+        "FORMAT": "mp3",
+        "NUMBER": 2691,
+        "PUBLISHED_AT": "2022-03-25T15:05:25Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DEADLIFE - Zealous Veins (Visualizer)"
     },
     "9uhG4m6Ao6k": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -3874,6 +4184,16 @@
         "PUBLISHED_AT": "2017-10-17T13:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Sunset Neon - Tonight"
+    },
+    "A4ar7yw0N80": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2625 - NewRetroWave - New Arcades - Point Me at the Moon (feat. Aviel)",
+        "FORMAT": "mp3",
+        "NUMBER": 2625,
+        "PUBLISHED_AT": "2021-12-04T16:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Arcades - Point Me at the Moon (feat. Aviel)"
     },
     "A6TsQU0ZjSw": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -3965,6 +4285,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "ALEX & Megan McDuffee - Avenger"
     },
+    "AOvjM80AxFk": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2660 - NewRetroWave - Waveshaper - Gigabot",
+        "FORMAT": "mp3",
+        "NUMBER": 2660,
+        "PUBLISHED_AT": "2022-02-15T15:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Waveshaper - Gigabot"
+    },
     "ARN-hgsXS_k": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1206 - NewRetroWave - Freeweights - Close Call",
@@ -4001,6 +4331,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Octal Drive - Meridiem"
+    },
+    "ATGvD2DYy0Q": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2635 - NewRetroWave - Midnight Danger - Into an Abyss of Fear (feat. Sonia Anubis)",
+        "FORMAT": "mp3",
+        "NUMBER": 2635,
+        "PUBLISHED_AT": "2022-01-11T15:30:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Midnight Danger - Into an Abyss of Fear (feat. Sonia Anubis)"
     },
     "AW2dxRr05gk": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -4076,6 +4416,26 @@
         "PUBLISHED_AT": "2018-11-09T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Violette Wautier - Drive (Wayfloe Remix)"
+    },
+    "AgX-yrfdSpk": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2604 - NewRetroWave - New Arcades - Early Hours",
+        "FORMAT": "mp3",
+        "NUMBER": 2604,
+        "PUBLISHED_AT": "2021-11-09T16:09:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Arcades - Early Hours"
+    },
+    "AhbYvaxd138": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2626 - NewRetroWave - Michael Oakley - Babylon",
+        "FORMAT": "mp3",
+        "NUMBER": 2626,
+        "PUBLISHED_AT": "2021-12-06T15:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Michael Oakley - Babylon"
     },
     "AjtxV6_ru0A": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -4414,6 +4774,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "LukHash - Abort the Mission"
     },
+    "BUzPKufcDD4": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2552 - NewRetroWave - Shortwire & Techlash - Prosthetics",
+        "FORMAT": "mp3",
+        "NUMBER": 2552,
+        "PUBLISHED_AT": "2021-09-09T14:30:37Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Shortwire & Techlash - Prosthetics"
+    },
     "BWcjiL3RvJw": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1006 - NewRetroWave - admo - On The Nightway",
@@ -4506,6 +4876,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Futurecop! - Far Away"
     },
+    "BgrPcWfGMK0": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2590 - NewRetroWave - Yota - Blame Me",
+        "FORMAT": "mp3",
+        "NUMBER": 2590,
+        "PUBLISHED_AT": "2021-10-26T16:49:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Yota - Blame Me"
+    },
     "Bhkd0877xFo": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "729 - NewRetroWave - Timecop1983 - Bright Lights_ Desires",
@@ -4561,6 +4941,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Lukhash - The Game is On"
+    },
+    "BtcvKlGoprY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2611 - NewRetroWave - Yota - Lucid Dreams",
+        "FORMAT": "mp3",
+        "NUMBER": 2611,
+        "PUBLISHED_AT": "2021-11-17T15:15:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Yota - Lucid Dreams"
     },
     "C0I6muYX-R0": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -4774,6 +5164,16 @@
         "PUBLISHED_AT": "2015-06-23T00:30:44.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Red MarKer - DMC 12 Gauge"
+    },
+    "CgNp_x7K6iE": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2669 - NewRetroWave - Michael Oakley _ Behind the Music of _Odyssey_",
+        "FORMAT": "mp3",
+        "NUMBER": 2669,
+        "PUBLISHED_AT": "2022-02-26T16:30:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Michael Oakley | Behind the Music of \"Odyssey\""
     },
     "Ck8gngjeFtI": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -5157,6 +5557,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "DEADLIFE - An Unbreakable Bond"
     },
+    "DkYyof6QGyM": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2643 - NewRetroWave - STRNGR & Destryur - Strangulator (Gost Remix)",
+        "FORMAT": "mp3",
+        "NUMBER": 2643,
+        "PUBLISHED_AT": "2022-01-21T15:30:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "STRNGR & Destryur - Strangulator (Gost Remix)"
+    },
     "DmFjZQZMIVs": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1556 - NewRetroWave - Aerds - Deadline",
@@ -5349,6 +5759,16 @@
         "PUBLISHED_AT": "2011-11-26T22:14:31.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "MPMsoundtracks - High School"
+    },
+    "EF61pmthCX4": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2646 - NewRetroWave - System Glow - Urban Escape",
+        "FORMAT": "mp3",
+        "NUMBER": 2646,
+        "PUBLISHED_AT": "2022-01-26T15:30:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "System Glow - Urban Escape"
     },
     "EG2HcR8g4A4": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -5799,6 +6219,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Weekend Getaway \ud83c\udf1e\ud83c\udf3f\ud83c\udf35 | NewRetroWave Mixtape | 1 Hour | Retrowave/ Outrun/ Dreamwave |"
     },
+    "FACgxx96rWA": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2645 - NewRetroWave - d.notive - Retribution",
+        "FORMAT": "mp3",
+        "NUMBER": 2645,
+        "PUBLISHED_AT": "2022-01-25T15:30:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "d.notive - Retribution"
+    },
     "FBv6rm1lY0w": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1300 - NewRetroWave - Bachelor of Hearts - Aurora Borealis",
@@ -5844,6 +6274,16 @@
         "PUBLISHED_AT": "2013-09-08T21:29:45.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Compilerbau - Talking Machines"
+    },
+    "FQvVD01AokY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2639 - NewRetroWave - Michael Oakley - Babylon (Official Video)",
+        "FORMAT": "mp3",
+        "NUMBER": 2639,
+        "PUBLISHED_AT": "2022-01-17T15:30:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Michael Oakley - Babylon (Official Video)"
     },
     "FRuDPQ_s3t8": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -5900,6 +6340,16 @@
         "PUBLISHED_AT": "2018-02-20T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Mecha Maiko - Mad But Soft"
+    },
+    "FWBXb0_8YRo": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2633 - NewRetroWave - _  R E B I R T H   _ - A NewRetroWave End of Year 2021 Mix _ 1 Hour _ Retrowave_ Synthwave_ Outrun",
+        "FORMAT": "mp3",
+        "NUMBER": 2633,
+        "PUBLISHED_AT": "2022-01-08T16:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "|  R E B I R T H   | - A NewRetroWave End of Year 2021 Mix | 1 Hour | Retrowave/ Synthwave/ Outrun"
     },
     "FWH7SkWEV9Y": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -6029,6 +6479,16 @@
         "PUBLISHED_AT": "2018-07-06T13:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Mega Drive - Flawless"
+    },
+    "FpbPfFeiFxQ": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2684 - NewRetroWave - Brandon - Physical (Remix With Indiana)",
+        "FORMAT": "mp3",
+        "NUMBER": 2684,
+        "PUBLISHED_AT": "2022-03-16T14:30:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Brandon - Physical (Remix With Indiana)"
     },
     "FptokW4IUQo": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -6251,6 +6711,16 @@
         "PUBLISHED_AT": "2019-09-09T13:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Isidor - Aurora Virus"
+    },
+    "GOd_xQBuoA8": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2663 - NewRetroWave - Stilz & Castroe - Decloak",
+        "FORMAT": "mp3",
+        "NUMBER": 2663,
+        "PUBLISHED_AT": "2022-02-18T15:30:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stilz & Castroe - Decloak"
     },
     "GPfilC9BnuU": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -6507,6 +6977,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Bino Biscotti - Solero (feat. Shenwalker)"
     },
+    "Gt8U9QuEv_M": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2586 - NewRetroWave - jacket. - Lose You (feat. Oceanside85 & Diamond Ace)",
+        "FORMAT": "mp3",
+        "NUMBER": 2586,
+        "PUBLISHED_AT": "2021-10-21T16:36:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "jacket. - Lose You (feat. Oceanside85 & Diamond Ace)"
+    },
     "GtxnvmgcXi0": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "940 - NewRetroWave - the Undead Audio - Steps and Strides",
@@ -6552,6 +7032,16 @@
         "PUBLISHED_AT": "2013-10-20T18:54:26.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Monomer - Fight of Flight"
+    },
+    "H0j76b_oINY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2551 - NewRetroWave - Waveshaper - Lost in the Cloud",
+        "FORMAT": "mp3",
+        "NUMBER": 2551,
+        "PUBLISHED_AT": "2021-09-08T14:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Waveshaper - Lost in the Cloud"
     },
     "H3tlwQ3F5Rk": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -6859,6 +7349,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "ORAX - Girls"
     },
+    "Him_g6l3da0": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2547 - NewRetroWave - W O L F C L U B - Meet Me in the Bathroom (Official Video)",
+        "FORMAT": "mp3",
+        "NUMBER": 2547,
+        "PUBLISHED_AT": "2021-08-27T14:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "W O L F C L U B - Meet Me in the Bathroom (Official Video)"
+    },
     "Hm2XGhpKT7w": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "773 - NewRetroWave - Stellar Dreams - Valkyrie",
@@ -6939,6 +7439,16 @@
         "PUBLISHED_AT": "2018-02-08T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Absolute Valentine - Flesh of Fallen Angels"
+    },
+    "I0qm_oc2wPo": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2536 - NewRetroWave - At 1980 - We Were on Fire",
+        "FORMAT": "mp3",
+        "NUMBER": 2536,
+        "PUBLISHED_AT": "2021-08-17T14:48:58Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "At 1980 - We Were on Fire"
     },
     "I2F8f5RD60k": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -7126,6 +7636,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Tonebox - Glide Pathway (Visualizer) from the Game \"Wave Break\""
+    },
+    "Ic4SuRDSP5M": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2690 - NewRetroWave - Ultraboss - Prisoner of the Night",
+        "FORMAT": "mp3",
+        "NUMBER": 2690,
+        "PUBLISHED_AT": "2022-03-24T14:00:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ultraboss - Prisoner of the Night"
     },
     "Ida5wWAzauo": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -7375,6 +7895,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Zonic Zynth - Synth Lover"
     },
+    "JHTaXV7KmcI": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2607 - NewRetroWave - Earmake - Eternal Star",
+        "FORMAT": "mp3",
+        "NUMBER": 2607,
+        "PUBLISHED_AT": "2021-11-12T15:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Earmake - Eternal Star"
+    },
     "JIq_vv4XeVE": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1847 - NewRetroWave - Kalax - Let Go (feat. Anton Vic)",
@@ -7503,6 +8033,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Denovomutans - Mothernight (feat. CountessM)"
     },
+    "Jb8JTOYiRsQ": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2570 - NewRetroWave - Deltalphaxray - Neon Perfection",
+        "FORMAT": "mp3",
+        "NUMBER": 2570,
+        "PUBLISHED_AT": "2021-10-04T14:29:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Deltalphaxray - Neon Perfection"
+    },
     "JbVbunjdA9E": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2294 - NewRetroWave - Mskra - Voyager",
@@ -7549,6 +8089,16 @@
         "PUBLISHED_AT": "2019-06-24T13:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Stilz - Approaching the Unknown (feat. Caspro)"
+    },
+    "JkoQiAQp_7M": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2613 - NewRetroWave - Highway Superstar - Feel It Right Now (ft. Doubleboy)",
+        "FORMAT": "mp3",
+        "NUMBER": 2613,
+        "PUBLISHED_AT": "2021-11-19T15:00:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Highway Superstar - Feel It Right Now (ft. Doubleboy)"
     },
     "JlWoGD2uHP4": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -7650,6 +8200,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Bart Graft - Faces (Full Eclipse Remix)"
     },
+    "JyHWFfC13-s": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2688 - NewRetroWave - Sierra - Control",
+        "FORMAT": "mp3",
+        "NUMBER": 2688,
+        "PUBLISHED_AT": "2022-03-22T14:30:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sierra - Control"
+    },
     "JyJCd-y_BP8": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2098 - NewRetroWave - Robert Parker - Rock N Roll",
@@ -7687,6 +8247,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Power Glove - Streets of 2043"
     },
+    "K6HEDtdeC4A": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2686 - NewRetroWave - DEADLIFE - Emotional Barrier (Visualizer)",
+        "FORMAT": "mp3",
+        "NUMBER": 2686,
+        "PUBLISHED_AT": "2022-03-18T14:30:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DEADLIFE - Emotional Barrier (Visualizer)"
+    },
     "K6UwWK38Uf0": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "772 - NewRetroWave - LGHTNNG - Loneliness",
@@ -7713,6 +8283,26 @@
         "PUBLISHED_AT": "2017-11-18T14:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "\"The 80's Dream\" | Best of NewRetroWave | October 2017 | Retrowave/ 80's Revival Mixtape"
+    },
+    "K9povF3xzEM": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2601 - NewRetroWave - STRNGR x Destryur - Night at the Grindhouse_ Part II (Nightwav Album Release Show)",
+        "FORMAT": "mp3",
+        "NUMBER": 2601,
+        "PUBLISHED_AT": "2021-11-04T17:03:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "STRNGR x Destryur - Night at the Grindhouse: Part II (Nightwav Album Release Show)"
+    },
+    "KB8vC5pF8UA": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2665 - NewRetroWave - Midnight Danger - A Storm Out There",
+        "FORMAT": "mp3",
+        "NUMBER": 2665,
+        "PUBLISHED_AT": "2022-02-22T15:30:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Midnight Danger - A Storm Out There"
     },
     "KGuRka8Cwl8": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -7815,6 +8405,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Robert Parker - Aiming High (Visualizer) from the Game \"Wave Break\""
     },
+    "KXN-ehXeqTI": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2634 - NewRetroWave - Earmake - Space Disco (Visualization)",
+        "FORMAT": "mp3",
+        "NUMBER": 2634,
+        "PUBLISHED_AT": "2022-01-10T15:15:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Earmake - Space Disco (Visualization)"
+    },
     "KZafzPdS3H8": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2473 - NewRetroWave - Mega Drive - Informant",
@@ -7869,6 +8469,16 @@
         "PUBLISHED_AT": "2017-03-16T13:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Isidor - Solaris Rising"
+    },
+    "Kkzij1vFZgg": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2666 - NewRetroWave - LAU - What To Do",
+        "FORMAT": "mp3",
+        "NUMBER": 2666,
+        "PUBLISHED_AT": "2022-02-23T15:15:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "LAU - What To Do"
     },
     "Kmm2BEj0XlA": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -8448,6 +9058,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "TOKYO ROSE - Blood Oath (feat. WVLFPAKT)"
     },
+    "MMRZfHHlgtg": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2602 - NewRetroWave - Jay Diggs - SLASHER",
+        "FORMAT": "mp3",
+        "NUMBER": 2602,
+        "PUBLISHED_AT": "2021-11-05T14:00:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jay Diggs - SLASHER"
+    },
     "MPYYWGBJMc8": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "31 - NewRetroWave - Camille R - Rio89",
@@ -8660,6 +9280,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Undervatten - Truewave"
     },
+    "N0RexNLzIgI": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2578 - NewRetroWave - Jessie Frye - Ice Cold",
+        "FORMAT": "mp3",
+        "NUMBER": 2578,
+        "PUBLISHED_AT": "2021-10-12T14:49:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Jessie Frye - Ice Cold"
+    },
     "N2dy1lZQNVE": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1674 - NewRetroWave - Robert Parker - Satin Cigarette",
@@ -8677,6 +9307,16 @@
         "PUBLISHED_AT": "2018-12-19T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Dream Shore - Prevail"
+    },
+    "N8lhSyHguG0": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2594 - NewRetroWave - STRNGR & Destryur - 10-30_ Back to the Grind",
+        "FORMAT": "mp3",
+        "NUMBER": 2594,
+        "PUBLISHED_AT": "2021-10-29T14:00:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "STRNGR & Destryur - 10-30/ Back to the Grind"
     },
     "ND2ptoqoCWU": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -8952,6 +9592,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Straplocked - You Should Be"
     },
+    "NsgL16wauUg": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2653 - NewRetroWave - LAZERPUNK - Heavy Weapon",
+        "FORMAT": "mp3",
+        "NUMBER": 2653,
+        "PUBLISHED_AT": "2022-02-04T15:30:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "LAZERPUNK - Heavy Weapon"
+    },
     "NuuLpjuLPKI": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1474 - NewRetroWave - Satellite Young - Modern Romance (brinq-Neo Tokyo Remix)",
@@ -9015,6 +9665,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Mulperi - Maximum Velocity"
     },
+    "O2wCC4K6VJc": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2591 - NewRetroWave - Caspro - Spiritbox",
+        "FORMAT": "mp3",
+        "NUMBER": 2591,
+        "PUBLISHED_AT": "2021-10-27T14:00:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Caspro - Spiritbox"
+    },
     "O3E4bmIRxGE": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1849 - NewRetroWave - The Phantom Operator - Life Before My Eyes",
@@ -9023,6 +9683,16 @@
         "PUBLISHED_AT": "2019-02-26T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "The Phantom Operator - Life Before My Eyes"
+    },
+    "O4-ksQKMR_U": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2553 - NewRetroWave - Turboslash - Neurohack",
+        "FORMAT": "mp3",
+        "NUMBER": 2553,
+        "PUBLISHED_AT": "2021-09-10T14:10:59Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Turboslash - Neurohack"
     },
     "O4lmc6E-9dQ": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -9223,6 +9893,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Isidor - Touch The Sky"
     },
+    "O_tPTou6DaI": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2662 - NewRetroWave - M.K. Khan - Through The Canyon",
+        "FORMAT": "mp3",
+        "NUMBER": 2662,
+        "PUBLISHED_AT": "2022-02-17T15:43:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "M.K. Khan - Through The Canyon"
+    },
     "Oa717MgElVs": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2331 - NewRetroWave - DESTRYUR - Devil Doctor",
@@ -9358,6 +10038,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Lucy In Disguise - Dusk (The New Division Remix)"
     },
+    "OwWpbY4YuRo": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2545 - NewRetroWave - _ R E T R O  N I G H T S  _ - A NewRetroWave Mix _ 1 Hour _ Synthwave_ Retrowave_ Dreamwave _",
+        "FORMAT": "mp3",
+        "NUMBER": 2545,
+        "PUBLISHED_AT": "2021-08-25T19:57:41Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "| R E T R O  N I G H T S  | - A NewRetroWave Mix | 1 Hour | Synthwave/ Retrowave/ Dreamwave |"
+    },
     "Oy0a7FJK0-s": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1217 - NewRetroWave - Shyguys - Pursuit",
@@ -9448,6 +10138,16 @@
         "PUBLISHED_AT": "2013-10-06T17:33:14.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Rain Sword - T-800"
+    },
+    "P7Po9d3apMw": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2564 - NewRetroWave - New Arcades - Reseda Boulevard",
+        "FORMAT": "mp3",
+        "NUMBER": 2564,
+        "PUBLISHED_AT": "2021-09-24T14:30:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Arcades - Reseda Boulevard"
     },
     "P7f2fEoM6Kw": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -9612,6 +10312,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Turbo Knight - Mirrorverse"
     },
+    "PSUkKzA3YYA": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2543 - NewRetroWave - Dream Shore - Conflict (feat. Neontenic)",
+        "FORMAT": "mp3",
+        "NUMBER": 2543,
+        "PUBLISHED_AT": "2021-08-24T14:00:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dream Shore - Conflict (feat. Neontenic)"
+    },
     "PSV2hbwNHsM": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1957 - NewRetroWave - Stilz - Anomaly",
@@ -9742,6 +10452,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "ALEX & TOKYO ROSE - Rivals (feat. Power Glove) | AKUMA 2 is OUT NOW |"
     },
+    "PgRVVRKQoyw": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2585 - NewRetroWave - New Arcades - Your Silhouette",
+        "FORMAT": "mp3",
+        "NUMBER": 2585,
+        "PUBLISHED_AT": "2021-10-20T15:00:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Arcades - Your Silhouette"
+    },
     "Pi8ccp5VI3Q": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1871 - NewRetroWave - Futurecop! - Star (feat. Computer Magic)",
@@ -9768,6 +10488,26 @@
         "PUBLISHED_AT": "2018-12-12T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Sebastian Gampl - Winner (Get It On) [feat. Tommy Reeve]"
+    },
+    "Po8VBNUCC6w": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2596 - NewRetroWave - The Horrortape Vol. 10 _ NRW Halloween Mix _ 1 Hour _ Retrowave_ Darkwave_ Electro _",
+        "FORMAT": "mp3",
+        "NUMBER": 2596,
+        "PUBLISHED_AT": "2021-10-31T16:00:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Horrortape Vol. 10 | NRW Halloween Mix | 1 Hour | Retrowave/ Darkwave/ Electro |"
+    },
+    "PrSJ8EI5jXo": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2648 - NewRetroWave - TLF & Chris Huelsbeck - The Air We Breathe",
+        "FORMAT": "mp3",
+        "NUMBER": 2648,
+        "PUBLISHED_AT": "2022-01-28T15:30:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TLF & Chris Huelsbeck - The Air We Breathe"
     },
     "PtI5iV-r5FI": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -9834,6 +10574,16 @@
         "PUBLISHED_AT": "2019-04-03T13:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Futurecop! - Fade Away (feat. NINA)"
+    },
+    "Q5g51p-PRgY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2689 - NewRetroWave - NRW Motors S2_EP1 - Nissan 300zx",
+        "FORMAT": "mp3",
+        "NUMBER": 2689,
+        "PUBLISHED_AT": "2022-03-23T14:30:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NRW Motors S2:EP1 - Nissan 300zx"
     },
     "Q6hKy6HGSeM": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -10124,6 +10874,16 @@
         "STATUS": "UNABLE",
         "TITLE": "The New Division - Precision (Full EP)"
     },
+    "QpySUC_FGEw": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2558 - NewRetroWave - New Arcades - Fractured",
+        "FORMAT": "mp3",
+        "NUMBER": 2558,
+        "PUBLISHED_AT": "2021-09-17T14:00:12Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Arcades - Fractured"
+    },
     "QqChubkbB7E": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2220 - NewRetroWave - Back to 84 - Drive All Night",
@@ -10206,6 +10966,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Judge Bitch - Eternal Champion"
+    },
+    "R5Dm5-4nwiE": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2661 - NewRetroWave - Sleepless Nights - Fixation",
+        "FORMAT": "mp3",
+        "NUMBER": 2661,
+        "PUBLISHED_AT": "2022-02-16T15:57:47Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Sleepless Nights - Fixation"
     },
     "R5JrkI56T8Y": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -10878,6 +11648,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Shiro Schwarz - Electrify"
     },
+    "Sn9Nf-Vlr70": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2628 - NewRetroWave - Ultraboss - When It's Love",
+        "FORMAT": "mp3",
+        "NUMBER": 2628,
+        "PUBLISHED_AT": "2022-01-03T15:23:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ultraboss - When It's Love"
+    },
     "SqS8UG7uxYk": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2164 - NewRetroWave - H U N T E R S - A NewRetroWave Mix _ 1 Hour _ Retrowave_ Dreamwave_ Outrun _",
@@ -11547,6 +12327,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Purple Blue - Night Cruise"
     },
+    "USPIMB3xfVk": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2618 - NewRetroWave - Midnight Danger - Out in the City Lights (feat. Danny Rexon and Kane Roberts) Lyric Video",
+        "FORMAT": "mp3",
+        "NUMBER": 2618,
+        "PUBLISHED_AT": "2021-11-26T15:00:15Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Midnight Danger - Out in the City Lights (feat. Danny Rexon and Kane Roberts) Lyric Video"
+    },
     "UTXLObf5KY0": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1888 - NewRetroWave - Baldocaster - Solar Power",
@@ -11618,6 +12408,26 @@
         "PUBLISHED_AT": "2018-01-10T15:00:03.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Volkor X - Godwave Rises (Magnatron 2.0)"
+    },
+    "UcrXizD391E": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2612 - NewRetroWave - Glowline - Gear Eleven (Official Video)",
+        "FORMAT": "mp3",
+        "NUMBER": 2612,
+        "PUBLISHED_AT": "2021-11-18T15:30:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Glowline - Gear Eleven (Official Video)"
+    },
+    "Uczh-imyxwc": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2676 - NewRetroWave - LAZERPUNK x Extra Terra - Synthetic Soul",
+        "FORMAT": "mp3",
+        "NUMBER": 2676,
+        "PUBLISHED_AT": "2022-03-04T15:30:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "LAZERPUNK x Extra Terra - Synthetic Soul"
     },
     "UdoQrda8eOo": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -11720,6 +12530,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "FM-84 - Mainframe"
     },
+    "UqnssDbyApI": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2568 - NewRetroWave - New Arcades - Before I'm Too Late (feat. NINA)",
+        "FORMAT": "mp3",
+        "NUMBER": 2568,
+        "PUBLISHED_AT": "2021-09-30T15:54:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Arcades - Before I'm Too Late (feat. NINA)"
+    },
     "UrEStKZeVGU": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1007 - NewRetroWave - Megahit - High School Boys and Disco Queens",
@@ -11766,6 +12586,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Teenage Criminal - Hero (LazerHawk Remix)"
     },
+    "UxyQtkuw1Gk": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2641 - NewRetroWave - KR1ZZ - Kyokushin",
+        "FORMAT": "mp3",
+        "NUMBER": 2641,
+        "PUBLISHED_AT": "2022-01-19T15:30:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "KR1ZZ - Kyokushin"
+    },
     "UzZxpkGSpsQ": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1353 - NewRetroWave - TV Players - Add Fuel To The Fire",
@@ -11792,6 +12622,16 @@
         "PUBLISHED_AT": "2016-01-06T16:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Vectorwolf - Street Justice"
+    },
+    "V3O_ny9sKuo": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2650 - NewRetroWave - Caspro - Comfort Club (feat. Zane Alexander)",
+        "FORMAT": "mp3",
+        "NUMBER": 2650,
+        "PUBLISHED_AT": "2022-02-01T15:30:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Caspro - Comfort Club (feat. Zane Alexander)"
     },
     "V5w0FxbLlKw": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -11921,6 +12761,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Turbo Knight & K.A.R.R - Quantum Shift"
     },
+    "VVzKFXUAAi8": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2668 - NewRetroWave - Dreamhour - Own Tonight (feat. Dokodoko)",
+        "FORMAT": "mp3",
+        "NUMBER": 2668,
+        "PUBLISHED_AT": "2022-02-25T15:30:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Dreamhour - Own Tonight (feat. Dokodoko)"
+    },
     "VWDTuEDrPvM": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2316 - NewRetroWave - Earmake - Endless Love",
@@ -12041,6 +12891,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "DANGERDISKO - Snake Eyes (Stellar Dreams Remix)"
     },
+    "VismmTjujvA": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2673 - NewRetroWave - Magnavolt - Warzone (Destryur Remix)",
+        "FORMAT": "mp3",
+        "NUMBER": 2673,
+        "PUBLISHED_AT": "2022-03-01T15:30:03Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Magnavolt - Warzone (Destryur Remix)"
+    },
     "Vm9rkormCNQ": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "462 - NewRetroWave - TOKYO ROSE - Zender Overdrive",
@@ -12131,6 +12991,16 @@
         "PUBLISHED_AT": "2017-03-18T13:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Tapehead - The Girl That Came From the Future"
+    },
+    "W5TSPlIld9s": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2550 - NewRetroWave - BT-84 - So Far Away",
+        "FORMAT": "mp3",
+        "NUMBER": 2550,
+        "PUBLISHED_AT": "2021-09-07T14:00:26Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BT-84 - So Far Away"
     },
     "WAtKMoJKRhI": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -12418,6 +13288,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Sunset Cruising  - A NewRetroWave Mixtape | 1 Hour | Retrowave/ Dreamwave/ Chillwave |"
     },
+    "WqRUGDTaseU": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2623 - NewRetroWave - Midnight Danger - Terror by Night (feat. Rafael Bittencourt) Official Video",
+        "FORMAT": "mp3",
+        "NUMBER": 2623,
+        "PUBLISHED_AT": "2021-12-02T15:05:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Midnight Danger - Terror by Night (feat. Rafael Bittencourt) Official Video"
+    },
     "Wr70mWusOgA": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1092 - NewRetroWave - Denoctra - City Lights",
@@ -12592,6 +13472,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Siamese Youth - Making Me High"
     },
+    "XKLkNnE3iXA": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2579 - NewRetroWave - ElectroJudge 87 - The Shadow",
+        "FORMAT": "mp3",
+        "NUMBER": 2579,
+        "PUBLISHED_AT": "2021-10-13T14:47:55Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "ElectroJudge 87 - The Shadow"
+    },
     "XLRNGwXf9mg": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "175 - NewRetroWave - Spacelime - Wake up in New York (Cover)",
@@ -12748,6 +13638,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Electric Youth - The Best Thing"
     },
+    "XgCRWpsjj6E": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2681 - NewRetroWave - DEADLIFE - Afterlight Special (Visualizer)",
+        "FORMAT": "mp3",
+        "NUMBER": 2681,
+        "PUBLISHED_AT": "2022-03-11T15:40:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "DEADLIFE - Afterlight Special (Visualizer)"
+    },
     "XiJMvDLypR4": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1570 - NewRetroWave - DJ Ten - Glow (feat. LeBrock & Ultraboss)",
@@ -12868,6 +13768,16 @@
         "PUBLISHED_AT": "2013-11-12T02:08:29.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Solaris Sound System - Eternity"
+    },
+    "Y-X6m3Erqx0": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2563 - NewRetroWave - NINA - Gold Heart",
+        "FORMAT": "mp3",
+        "NUMBER": 2563,
+        "PUBLISHED_AT": "2021-09-23T14:34:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NINA - Gold Heart"
     },
     "Y0wwDEQDsUM": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -13111,6 +14021,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Robert Parker - A Light in the Dark (feat. DoubleBoy)"
+    },
+    "YdD3m0HznsY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2603 - NewRetroWave - Shades of Thunder - Wayfaring",
+        "FORMAT": "mp3",
+        "NUMBER": 2603,
+        "PUBLISHED_AT": "2021-11-08T15:03:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Shades of Thunder - Wayfaring"
     },
     "YdI-pPNSndI": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -13361,6 +14281,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Reptrik - Nightline"
     },
+    "ZKRmhp1TSsE": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2632 - NewRetroWave - TLF & LukHash - Acid For the Children",
+        "FORMAT": "mp3",
+        "NUMBER": 2632,
+        "PUBLISHED_AT": "2022-01-07T15:00:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TLF & LukHash - Acid For the Children"
+    },
     "ZLjX1HmccvU": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1213 - NewRetroWave - Flux Gemini - Andromeda",
@@ -13452,6 +14382,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "In Search of Darkness (Original Documentary Soundtrack) [Full]"
     },
+    "ZZLf6wdtqVo": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2562 - NewRetroWave - IVERSEN - La Favi\u00e8re",
+        "FORMAT": "mp3",
+        "NUMBER": 2562,
+        "PUBLISHED_AT": "2021-09-22T14:30:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "IVERSEN - La Favi\u00e8re"
+    },
     "ZZc0Y9Eqkyo": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1937 - NewRetroWave - Lost Years - Shotgun",
@@ -13516,6 +14456,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Superflight - Tie Break"
     },
+    "Zn4KUBocejI": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2671 - NewRetroWave - Stilz and Castroe - Core Memories",
+        "FORMAT": "mp3",
+        "NUMBER": 2671,
+        "PUBLISHED_AT": "2022-02-28T15:15:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stilz and Castroe - Core Memories"
+    },
     "ZqmLC6EOo3s": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1182 - NewRetroWave - Powder Slut - Waves",
@@ -13524,6 +14474,16 @@
         "PUBLISHED_AT": "2017-01-24T14:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Powder Slut - Waves"
+    },
+    "ZuPUrviPTSM": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2672 - NewRetroWave - In Search of Tomorrow (Trailer #2)",
+        "FORMAT": "mp3",
+        "NUMBER": 2672,
+        "PUBLISHED_AT": "2022-02-28T17:39:54Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "In Search of Tomorrow (Trailer #2)"
     },
     "Zw-uGY1WayE": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -13587,6 +14547,16 @@
         "PUBLISHED_AT": "2019-10-07T13:38:37.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "CONFRONTATIONAL - ANIMAL MACHINE (feat. Adrien Grousset)"
+    },
+    "_0nefx7QNGs": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2559 - NewRetroWave - NewRetroWave Presents_ Essential New Arcades _ 1 Hour _ Retrowave, Synthwave, Dreampop _",
+        "FORMAT": "mp3",
+        "NUMBER": 2559,
+        "PUBLISHED_AT": "2021-09-17T17:34:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NewRetroWave Presents: Essential New Arcades | 1 Hour | Retrowave, Synthwave, Dreampop |"
     },
     "_2BuzT5IMAo": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -13883,6 +14853,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Babes - Beats"
     },
+    "_pKI6ZTBjkk": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2631 - NewRetroWave - Blue Nagoon - The Pull of the Stars",
+        "FORMAT": "mp3",
+        "NUMBER": 2631,
+        "PUBLISHED_AT": "2022-01-06T17:14:07Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Blue Nagoon - The Pull of the Stars"
+    },
     "_pUL7u-mYqA": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1044 - NewRetroWave - The Midnight - Endless Summer [Full Album]",
@@ -13919,6 +14899,16 @@
         "PUBLISHED_AT": "2017-11-17T14:30:34.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "TOKYO ROSE - Sacrifice (Daniel Deluxe Remix)"
+    },
+    "_tTA1HpmySQ": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2638 - NewRetroWave - TLF - The Freaks Project",
+        "FORMAT": "mp3",
+        "NUMBER": 2638,
+        "PUBLISHED_AT": "2022-01-14T15:30:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TLF - The Freaks Project"
     },
     "_vT-6_-e6so": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -14075,6 +15065,16 @@
         "PUBLISHED_AT": "2018-02-13T23:09:21.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Daniel Deluxe - Almaz [Official Video]"
+    },
+    "aGYcYR28Dg0": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2627 - NewRetroWave - The Secret Chord & Oscillian - Another Christmas",
+        "FORMAT": "mp3",
+        "NUMBER": 2627,
+        "PUBLISHED_AT": "2021-12-07T15:00:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Secret Chord & Oscillian - Another Christmas"
     },
     "aHDauJbkWVs": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -14241,6 +15241,26 @@
         "PUBLISHED_AT": "2013-05-19T20:11:57.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Chaconne - Dreamers"
+    },
+    "ahz-SH_XFrg": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2664 - NewRetroWave - Andrew Benon - Space Station Sheila",
+        "FORMAT": "mp3",
+        "NUMBER": 2664,
+        "PUBLISHED_AT": "2022-02-21T15:15:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Andrew Benon - Space Station Sheila"
+    },
+    "ai5KJjQvbwQ": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2616 - NewRetroWave - Bino Biscotti - Disco Beat (feat. James Knights)",
+        "FORMAT": "mp3",
+        "NUMBER": 2616,
+        "PUBLISHED_AT": "2021-11-24T15:00:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Bino Biscotti - Disco Beat (feat. James Knights)"
     },
     "ajAiwn8y6CA": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -14677,6 +15697,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "WOLFCLUB - Freefall (feat. Jaki Nelson) | Official Video | Widescreen |"
     },
+    "bbdyryNm3HU": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2535 - NewRetroWave - Enter Data - Midnight Blue",
+        "FORMAT": "mp3",
+        "NUMBER": 2535,
+        "PUBLISHED_AT": "2021-08-16T14:30:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Enter Data - Midnight Blue"
+    },
     "bfdLttIqV_U": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "394 - NewRetroWave - Solaris Sound System - Everlasting Glory",
@@ -14844,6 +15874,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Misanthropix - Boostergangs"
     },
+    "cE8XaomSXW4": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2610 - NewRetroWave - Earmake & Drew Eon - Paradigma",
+        "FORMAT": "mp3",
+        "NUMBER": 2610,
+        "PUBLISHED_AT": "2021-11-16T15:15:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Earmake & Drew Eon - Paradigma"
+    },
     "cEGVwUXt3T8": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1486 - NewRetroWave - TOKYO ROSE - Yakuza (feat. ALEX & Ultraboss)",
@@ -14852,6 +15892,16 @@
         "PUBLISHED_AT": "2017-12-19T15:00:03.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "TOKYO ROSE - Yakuza (feat. ALEX & Ultraboss)"
+    },
+    "cG9yM4OhKhc": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2584 - NewRetroWave - Absolute Valentine & Powernerd - Cyber Ravage",
+        "FORMAT": "mp3",
+        "NUMBER": 2584,
+        "PUBLISHED_AT": "2021-10-19T15:58:05Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Absolute Valentine & Powernerd - Cyber Ravage"
     },
     "cGYtl4L6ajY": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -15149,6 +16199,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "\"The 80's Dream\" | Best of NewRetroWave | March 2017 | Retrowave/ 80's Revival Mixtape"
     },
+    "csSHpoGPtKs": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2655 - NewRetroWave - Tychi - Nightcrawler",
+        "FORMAT": "mp3",
+        "NUMBER": 2655,
+        "PUBLISHED_AT": "2022-02-08T15:00:21Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Tychi - Nightcrawler"
+    },
     "cwu_7VWkFYY": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "119 - NewRetroWave - Garth Knight -  Juggernaught",
@@ -15344,6 +16404,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Ollie Wride - Juliette"
+    },
+    "dRlngBDoVYs": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2692 - NewRetroWave - NewRetroWave Presents_ Essential DEADLIFE _ 1 Hour _ Retrowave, Synthwave, Darksynth _",
+        "FORMAT": "mp3",
+        "NUMBER": 2692,
+        "PUBLISHED_AT": "2022-03-25T18:21:53Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NewRetroWave Presents: Essential DEADLIFE | 1 Hour | Retrowave, Synthwave, Darksynth |"
     },
     "dU-8LJEvDfM": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -15702,6 +16772,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Speed Machine - Mechanized Dystopia"
     },
+    "eSt-TVxeKWc": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2566 - NewRetroWave - At 1980 - Caroline (Live at Brighton Electric Studios)",
+        "FORMAT": "mp3",
+        "NUMBER": 2566,
+        "PUBLISHED_AT": "2021-09-28T14:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "At 1980 - Caroline (Live at Brighton Electric Studios)"
+    },
     "eTI8FThNZLI": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1410 - NewRetroWave - Red MarKer - Shadow Sweeper",
@@ -15710,6 +16790,16 @@
         "PUBLISHED_AT": "2017-09-29T13:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Red MarKer - Shadow Sweeper"
+    },
+    "eThx3HkUOdg": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2554 - NewRetroWave - Arwelone - Into the Night (feat. Camille Glemet)",
+        "FORMAT": "mp3",
+        "NUMBER": 2554,
+        "PUBLISHED_AT": "2021-09-13T14:00:30Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Arwelone - Into the Night (feat. Camille Glemet)"
     },
     "eVpCvVV9iuw": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -15783,6 +16873,16 @@
         "PUBLISHED_AT": "2016-03-19T15:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Absinth3 - Trust Is A Curious Word (feat. Chelsea Owen)"
+    },
+    "efkjKl2wN6Q": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2649 - NewRetroWave - Let Em Riot - Move & Turn",
+        "FORMAT": "mp3",
+        "NUMBER": 2649,
+        "PUBLISHED_AT": "2022-01-31T15:30:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Let Em Riot - Move & Turn"
     },
     "egAB2qtVWFQ": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -15923,6 +17023,16 @@
         "PUBLISHED_AT": "2019-06-01T13:30:04.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Yota - Mirror"
+    },
+    "exqi4WUfrto": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2600 - NewRetroWave - SIERRA x MATTEO TURA - Inner Speech",
+        "FORMAT": "mp3",
+        "NUMBER": 2600,
+        "PUBLISHED_AT": "2021-11-04T14:30:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "SIERRA x MATTEO TURA - Inner Speech"
     },
     "eyGyckTKx7c": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -16217,6 +17327,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "YORU \u591c - Transmission"
     },
+    "feS_ltPVLwY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2605 - NewRetroWave - Cyberoptics - Excalibur",
+        "FORMAT": "mp3",
+        "NUMBER": 2605,
+        "PUBLISHED_AT": "2021-11-10T15:41:01Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Cyberoptics - Excalibur"
+    },
     "feVyp0mxgBI": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "959 - NewRetroWave - Time Travel - Space Party",
@@ -16500,6 +17620,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Stellar Dreams - Infinity"
     },
+    "gRmy0ZdwAQE": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2572 - NewRetroWave - Michael Oakley - Turn Back Time (Live) _ Exclusive Online Performance Teaser THIS SATURDAY!",
+        "FORMAT": "mp3",
+        "NUMBER": 2572,
+        "PUBLISHED_AT": "2021-10-06T14:00:16Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Michael Oakley - Turn Back Time (Live) | Exclusive Online Performance Teaser THIS SATURDAY!"
+    },
     "gVBItxe_7QE": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1829 - NewRetroWave - Earthshifter - Restless Nights",
@@ -16554,6 +17684,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Yota - Matters of the Heart"
+    },
+    "gkMKZrIvB-g": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2581 - NewRetroWave - Power Glove & TOKYO ROSE - Blood Sport",
+        "FORMAT": "mp3",
+        "NUMBER": 2581,
+        "PUBLISHED_AT": "2021-10-15T14:40:51Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Power Glove & TOKYO ROSE - Blood Sport"
     },
     "glu6J0yArqs": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -16618,6 +17758,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Apollo Zapp - I Hate Discohos"
     },
+    "gv3xbPRAzrM": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2683 - NewRetroWave - Neontenic - Dark Drive",
+        "FORMAT": "mp3",
+        "NUMBER": 2683,
+        "PUBLISHED_AT": "2022-03-15T14:30:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Neontenic - Dark Drive"
+    },
     "gvsUDhmOTZA": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2527 - NewRetroWave - Veeshy - Mulholland Drive",
@@ -16627,6 +17777,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Veeshy - Mulholland Drive"
+    },
+    "gwZ7ffG-0KM": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2541 - NewRetroWave - NewRetroWave Presents_ Essential ORAX _ 1 Hour _ Retrowave, Synthwave, Darksynth _",
+        "FORMAT": "mp3",
+        "NUMBER": 2541,
+        "PUBLISHED_AT": "2021-08-20T16:55:35Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NewRetroWave Presents: Essential ORAX | 1 Hour | Retrowave, Synthwave, Darksynth |"
     },
     "gxaxV4pmbgo": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -16692,6 +17852,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Betamaxx - Lost in a Dreamworld"
+    },
+    "h8BU5oHPWOE": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2555 - NewRetroWave - 808weeds - Morning Star",
+        "FORMAT": "mp3",
+        "NUMBER": 2555,
+        "PUBLISHED_AT": "2021-09-14T14:52:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "808weeds - Morning Star"
     },
     "hC7gvDhu3Cs": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -16931,6 +18101,16 @@
         "PUBLISHED_AT": "2017-02-13T14:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Toxxify - Eternal Sacrifice"
+    },
+    "hr4n-Y2tpjc": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2640 - NewRetroWave - BT-84 - Shot In The Dark",
+        "FORMAT": "mp3",
+        "NUMBER": 2640,
+        "PUBLISHED_AT": "2022-01-18T15:30:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BT-84 - Shot In The Dark"
     },
     "hshLD6ka380": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -17558,6 +18738,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "George Ergemlidze - In My Sleep"
     },
+    "jDt_qVhr6_w": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2629 - NewRetroWave - BARx - R\u00e9volution Fran\u00e7aise",
+        "FORMAT": "mp3",
+        "NUMBER": 2629,
+        "PUBLISHED_AT": "2022-01-04T16:20:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "BARx - R\u00e9volution Fran\u00e7aise"
+    },
     "jECMuzD9BzQ": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "597 - NewRetroWave - OGRE - 195 [Full Album]",
@@ -17614,6 +18804,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "The Racers - Final Lap"
     },
+    "jTGCOKm5tTA": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2621 - NewRetroWave - Midnight Danger - Fatal Attraction (feat. Max Cruise) Official Video [Alternate Mix]",
+        "FORMAT": "mp3",
+        "NUMBER": 2621,
+        "PUBLISHED_AT": "2021-11-30T15:00:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Midnight Danger - Fatal Attraction (feat. Max Cruise) Official Video [Alternate Mix]"
+    },
     "jTg-u5-7v60": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "168 - NewRetroWave - The Search Party - 6 Minutes",
@@ -17631,6 +18831,16 @@
         "PUBLISHED_AT": "2015-11-23T16:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Raydar - Trick R Treat"
+    },
+    "jZqDqHPCMSk": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2593 - NewRetroWave - Waveshaper - The Phantom Machine",
+        "FORMAT": "mp3",
+        "NUMBER": 2593,
+        "PUBLISHED_AT": "2021-10-28T14:00:31Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Waveshaper - The Phantom Machine"
     },
     "jaknl1jjGgg": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -17758,6 +18968,16 @@
         "PUBLISHED_AT": "2019-04-08T13:30:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Waveshaper - 100MHz"
+    },
+    "jqdHtoUhltw": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2644 - NewRetroWave - LukHash x Kimera Morrell - Find Me",
+        "FORMAT": "mp3",
+        "NUMBER": 2644,
+        "PUBLISHED_AT": "2022-01-24T15:30:18Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "LukHash x Kimera Morrell - Find Me"
     },
     "jsE7RFs7bHk": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -18370,6 +19590,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "LukHash - We Are Stardust (Official Video)"
     },
+    "lCkM-6OCiJM": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2670 - NewRetroWave - NewRetroWave TV w Electrish (PILOT) - (Michael Oakley & Midnight Danger)",
+        "FORMAT": "mp3",
+        "NUMBER": 2670,
+        "PUBLISHED_AT": "2022-02-28T14:22:57Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NewRetroWave TV w Electrish (PILOT) - (Michael Oakley & Midnight Danger)"
+    },
     "lFenVTX1iVI": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2203 - NewRetroWave - Astral Tales - Keep Safe",
@@ -18398,6 +19628,16 @@
         "PUBLISHED_AT": "2014-11-23T19:01:37.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Android Automatic - Camaro Dreams"
+    },
+    "lM-jqqKhFWU": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2588 - NewRetroWave - NewRetroWave Presents_ Essential Yota _ 1 Hour _ Retrowave, Synthwave, Retro Electro _",
+        "FORMAT": "mp3",
+        "NUMBER": 2588,
+        "PUBLISHED_AT": "2021-10-22T17:40:34Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NewRetroWave Presents: Essential Yota | 1 Hour | Retrowave, Synthwave, Retro Electro |"
     },
     "lN3p2EJNZJI": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -18499,6 +19739,16 @@
         "PUBLISHED_AT": "2018-02-02T14:30:03.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Kiile - Out Here Alone"
+    },
+    "lYHN37s-rZk": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2656 - NewRetroWave - Ultraboss - Nightcry",
+        "FORMAT": "mp3",
+        "NUMBER": 2656,
+        "PUBLISHED_AT": "2022-02-09T15:15:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Ultraboss - Nightcry"
     },
     "lYwsiGoLEYE": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -18758,6 +20008,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Swimware - Confessions in the Dark"
     },
+    "mMKa4d5V26Q": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2679 - NewRetroWave - Yota - Tangled Love",
+        "FORMAT": "mp3",
+        "NUMBER": 2679,
+        "PUBLISHED_AT": "2022-03-09T16:02:56Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Yota - Tangled Love"
+    },
     "mPDoj0thvJU": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2028 - NewRetroWave - Marsilius Kreutz - She's No Longer Human",
@@ -18775,6 +20035,16 @@
         "PUBLISHED_AT": "2016-03-17T15:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "XYLE - Stargazer/ Escape Pod"
+    },
+    "mSYrk9a2D4g": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2583 - NewRetroWave - F.O.O.L - VIOLENCE",
+        "FORMAT": "mp3",
+        "NUMBER": 2583,
+        "PUBLISHED_AT": "2021-10-18T16:04:00Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "F.O.O.L - VIOLENCE"
     },
     "mTWWI5LWZ8k": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -19229,6 +20499,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Mega Drive - Electric Getaway"
     },
+    "nbFpYfxELJE": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2565 - NewRetroWave - Galaxy Racer - In Chase Of Time",
+        "FORMAT": "mp3",
+        "NUMBER": 2565,
+        "PUBLISHED_AT": "2021-09-27T14:00:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Galaxy Racer - In Chase Of Time"
+    },
     "nhsOAij-hNc": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "314 - NewRetroWave - Cougar Synth - Wild Inside",
@@ -19321,6 +20601,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Sam Beckett - Stars Falling Into Your Hands"
     },
+    "nvqe2WO7GKw": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2659 - NewRetroWave - Yota - Runaway (Night Drive Remix)",
+        "FORMAT": "mp3",
+        "NUMBER": 2659,
+        "PUBLISHED_AT": "2022-02-14T15:59:40Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Yota - Runaway (Night Drive Remix)"
+    },
     "nx9Pj6g716Q": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "817 - NewRetroWave - FOR\u00caT DE VIN - Carol",
@@ -19412,6 +20702,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Dead Astronauts - Invisible Creatures (Official Music Video)"
     },
+    "o7MpzYP7yQY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2571 - NewRetroWave - Fl\u00e1vio La Barre & Introspektro - Magic Kite",
+        "FORMAT": "mp3",
+        "NUMBER": 2571,
+        "PUBLISHED_AT": "2021-10-05T14:00:22Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Fl\u00e1vio La Barre & Introspektro - Magic Kite"
+    },
     "oARVSg1E0Qg": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1938 - NewRetroWave - Tommy Von Voigt - All I Can Do",
@@ -19429,6 +20729,16 @@
         "PUBLISHED_AT": "2012-03-11T05:59:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Action Jackson - Testarossa"
+    },
+    "oBxW6rrzcN8": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2577 - NewRetroWave - In Search of Darkness - Part III (Trailer)",
+        "FORMAT": "mp3",
+        "NUMBER": 2577,
+        "PUBLISHED_AT": "2021-10-11T20:00:10Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "In Search of Darkness - Part III (Trailer)"
     },
     "oCeP0TbcJlg": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -19749,6 +21059,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Kick Puncher - Fury"
     },
+    "oydn7uDt3R4": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2624 - NewRetroWave - TLF - Honey H.I.V.E",
+        "FORMAT": "mp3",
+        "NUMBER": 2624,
+        "PUBLISHED_AT": "2021-12-03T15:00:23Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "TLF - Honey H.I.V.E"
+    },
     "oz_zQRHtSoM": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1648 - NewRetroWave - Daniel Deluxe - Territory",
@@ -19795,6 +21115,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "DEADLIFE - The Order of Chaos (Full Album)"
     },
+    "p4jj2whGPvo": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2642 - NewRetroWave - Karl Vincent - Main Street",
+        "FORMAT": "mp3",
+        "NUMBER": 2642,
+        "PUBLISHED_AT": "2022-01-20T15:30:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Karl Vincent - Main Street"
+    },
     "p5ieFlLBmKU": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1188 - NewRetroWave - Lucy In Disguise - Silver Lights",
@@ -19812,6 +21142,16 @@
         "PUBLISHED_AT": "2016-02-02T16:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "New Arcades - Mistaking Paradise"
+    },
+    "p7ReqB7KULs": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2609 - NewRetroWave - Gibarian - Yearning",
+        "FORMAT": "mp3",
+        "NUMBER": 2609,
+        "PUBLISHED_AT": "2021-11-15T16:02:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Gibarian - Yearning"
     },
     "p7U1AwGwMXg": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -19975,6 +21315,16 @@
         "PUBLISHED_AT": "2015-03-01T15:13:07.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "TOKYO ROSE - Tokyo Burnout"
+    },
+    "pUHMu5Ai34w": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2573 - NewRetroWave - Catherine Moan - Wasted",
+        "FORMAT": "mp3",
+        "NUMBER": 2573,
+        "PUBLISHED_AT": "2021-10-07T14:00:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Catherine Moan - Wasted"
     },
     "pZB27eWhX1w": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -20261,6 +21611,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Michael Oakley - Is There Anybody Out There (Jon Campbell Radio Edit) [Official Video]"
     },
+    "qR_B5cT75rQ": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2560 - NewRetroWave - Syst3m Glitch - Raining in Tokyo  (feat. Dimi Kaye)",
+        "FORMAT": "mp3",
+        "NUMBER": 2560,
+        "PUBLISHED_AT": "2021-09-20T14:00:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Syst3m Glitch - Raining in Tokyo  (feat. Dimi Kaye)"
+    },
     "qSfVp3NydbE": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "612 - NewRetroWave - RAGE - Official Movie Sountrack - [Full Album]",
@@ -20335,6 +21695,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Lazerhawk - Skull and Shark"
     },
+    "qizdsujxJ6g": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2637 - NewRetroWave - The Motion Epic - Teenage Fever (The G Remix)",
+        "FORMAT": "mp3",
+        "NUMBER": 2637,
+        "PUBLISHED_AT": "2022-01-13T15:30:06Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Motion Epic - Teenage Fever (The G Remix)"
+    },
     "qmbHRiXyOk8": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1855 - NewRetroWave - JEREMIAH KANE - 2500 RACING",
@@ -20408,6 +21778,16 @@
         "PUBLISHED_AT": "2019-04-22T13:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Wice - District 9"
+    },
+    "r-VrvG8doJY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2675 - NewRetroWave - Simon Gabriel - Somewhere Over The Moon",
+        "FORMAT": "mp3",
+        "NUMBER": 2675,
+        "PUBLISHED_AT": "2022-03-03T16:03:58Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Simon Gabriel - Somewhere Over The Moon"
     },
     "r2BW26QcHng": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -20518,6 +21898,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Wolf and Raven - Enforcer 88"
     },
+    "rKO_AZp3eyY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2561 - NewRetroWave - Turboslash - IONS",
+        "FORMAT": "mp3",
+        "NUMBER": 2561,
+        "PUBLISHED_AT": "2021-09-21T14:28:52Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Turboslash - IONS"
+    },
     "rKfDf3KZn3M": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1983 - NewRetroWave - Lueur Verte - Trinity",
@@ -20626,6 +22016,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Le Cassette - This Is All We Know"
     },
+    "rWmoYrwVFrw": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2677 - NewRetroWave - Stilz & Castroe - Radio Waves (feat. Laura Dre)",
+        "FORMAT": "mp3",
+        "NUMBER": 2677,
+        "PUBLISHED_AT": "2022-03-07T15:50:13Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Stilz & Castroe - Radio Waves (feat. Laura Dre)"
+    },
     "rXOuEu4AzYE": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1473 - NewRetroWave - Kick Puncher - Sunset Romance",
@@ -20634,6 +22034,16 @@
         "PUBLISHED_AT": "2017-12-04T14:30:01.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Kick Puncher - Sunset Romance"
+    },
+    "rYr_EVC75CY": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2647 - NewRetroWave - Lueur Verte - Tempesta (feat. Miami Nights 1984)",
+        "FORMAT": "mp3",
+        "NUMBER": 2647,
+        "PUBLISHED_AT": "2022-01-27T15:45:02Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Lueur Verte - Tempesta (feat. Miami Nights 1984)"
     },
     "r_-Kh-i2a_M": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -20836,6 +22246,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Powder Slut - Shadow Agents"
     },
+    "s84brDSE38s": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2592 - NewRetroWave - Nightcrawler - A Corpse in the Trunk",
+        "FORMAT": "mp3",
+        "NUMBER": 2592,
+        "PUBLISHED_AT": "2021-10-27T17:30:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Nightcrawler - A Corpse in the Trunk"
+    },
+    "s9CJGe5WLIo": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2651 - NewRetroWave - New Arcades - Listening to You",
+        "FORMAT": "mp3",
+        "NUMBER": 2651,
+        "PUBLISHED_AT": "2022-02-02T15:30:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Arcades - Listening to You"
+    },
     "sATE3D0MLZY": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "878 - NewRetroWave - Bellemaison - Wind of Electron",
@@ -20954,6 +22384,16 @@
         "PUBLISHED_AT": "2018-05-18T13:30:00.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Lifelike - Miami Nice (Part II) [ALEX Remix]"
+    },
+    "sUlGpCVin74": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2680 - NewRetroWave - The Racers - Tunnel Vision",
+        "FORMAT": "mp3",
+        "NUMBER": 2680,
+        "PUBLISHED_AT": "2022-03-10T16:50:46Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "The Racers - Tunnel Vision"
     },
     "sVHFfl1MJzg": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -21274,6 +22714,16 @@
         "PUBLISHED_AT": "2019-02-05T14:30:04.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Cezary Graf & Gianmarco Fabbretti - Binance Malta Trip"
+    },
+    "tQ7llkSUs38": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2687 - NewRetroWave - Earmake & Stilz - Artifact Hunt",
+        "FORMAT": "mp3",
+        "NUMBER": 2687,
+        "PUBLISHED_AT": "2022-03-21T15:09:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Earmake & Stilz - Artifact Hunt"
     },
     "tQXd9zlDf2A": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -21699,6 +23149,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Robert Parker - Final Moment"
     },
+    "ufBCJiuO5mI": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2557 - NewRetroWave - Earmake - Santa Monica Pier (feat. Waves on Waves)",
+        "FORMAT": "mp3",
+        "NUMBER": 2557,
+        "PUBLISHED_AT": "2021-09-16T14:15:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Earmake - Santa Monica Pier (feat. Waves on Waves)"
+    },
     "uggynjJRnNk": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "775 - NewRetroWave - Megahammer - Catch Me",
@@ -21855,6 +23315,26 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "R3set - Runaway"
     },
+    "v8shh5uiRIQ": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2597 - NewRetroWave - 808weeds - 1985 is Coming",
+        "FORMAT": "mp3",
+        "NUMBER": 2597,
+        "PUBLISHED_AT": "2021-11-01T17:23:17Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "808weeds - 1985 is Coming"
+    },
+    "vCVB467EwhM": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2614 - NewRetroWave - Earmake & Lost Engineer - Secrets Inside of Me",
+        "FORMAT": "mp3",
+        "NUMBER": 2614,
+        "PUBLISHED_AT": "2021-11-22T16:21:51Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Earmake & Lost Engineer - Secrets Inside of Me"
+    },
     "vDsaVa7AxX0": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1714 - NewRetroWave - Wice - Start The War",
@@ -21926,6 +23406,16 @@
         "PUBLISHED_AT": "2013-11-03T20:50:05.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Highway Superstar - The Road to Alpha Centauri"
+    },
+    "vL_nCYZ60M0": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2574 - NewRetroWave - LAU - Undecided",
+        "FORMAT": "mp3",
+        "NUMBER": 2574,
+        "PUBLISHED_AT": "2021-10-08T14:00:32Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "LAU - Undecided"
     },
     "vOxvU1jmH9Q": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -22090,6 +23580,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "SaiR - Over"
     },
+    "vt80qMJ8EHc": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2556 - NewRetroWave - Michael Kross - Beachlife 1985",
+        "FORMAT": "mp3",
+        "NUMBER": 2556,
+        "PUBLISHED_AT": "2021-09-15T14:45:38Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Michael Kross - Beachlife 1985"
+    },
     "vtADENNGKoQ": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "1037 - NewRetroWave - Futurecop! - Maladaptive Daydreaming",
@@ -22107,6 +23607,26 @@
         "PUBLISHED_AT": "2012-09-17T23:32:32.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Le Cassette - Arms of Mine"
+    },
+    "w0Kv2dAT7AU": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2538 - NewRetroWave - W O L F C L U B  - Altitude",
+        "FORMAT": "mp3",
+        "NUMBER": 2538,
+        "PUBLISHED_AT": "2021-08-19T04:00:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "W O L F C L U B  - Altitude"
+    },
+    "w1--wRg7cmk": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2654 - NewRetroWave - Baldocaster - War Rig (feat. Caspro)",
+        "FORMAT": "mp3",
+        "NUMBER": 2654,
+        "PUBLISHED_AT": "2022-02-07T15:30:08Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Baldocaster - War Rig (feat. Caspro)"
     },
     "w2D4iCzRW7E": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -22181,6 +23701,16 @@
         "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
         "STATUS": "DOWNLOADED",
         "TITLE": "Slvmber - Reality Bytes"
+    },
+    "wHPJqQLWn9k": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2674 - NewRetroWave - New Arcades - Moods",
+        "FORMAT": "mp3",
+        "NUMBER": 2674,
+        "PUBLISHED_AT": "2022-03-02T15:30:11Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "New Arcades - Moods"
     },
     "wKsXrp-7NAk": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -22293,6 +23823,16 @@
         "PUBLISHED_AT": "2016-11-11T14:30:04.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Scandroid - Eden (Waveshaper Remix)"
+    },
+    "wdKupxC0nJc": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2580 - NewRetroWave - Starfarer - Earthrise",
+        "FORMAT": "mp3",
+        "NUMBER": 2580,
+        "PUBLISHED_AT": "2021-10-14T15:50:14Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Starfarer - Earthrise"
     },
     "wfeKcWXEk1M": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -22653,6 +24193,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Gidon Schocken - Show Me The Way (Droid Bishop Remix)"
     },
+    "xafJ_wtSEYU": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2636 - NewRetroWave - Starcadian - Satellites (Official Music Video)",
+        "FORMAT": "mp3",
+        "NUMBER": 2636,
+        "PUBLISHED_AT": "2022-01-12T15:30:09Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Starcadian - Satellites (Official Music Video)"
+    },
     "xbWV5zOJVaU": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "2243 - NewRetroWave - Michael Oakley & Ollie Wride - Wake Up! (Visualizer) from the Game _Wave Break_",
@@ -22700,6 +24250,16 @@
         "PUBLISHED_AT": "2017-01-30T14:30:02.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Temporal Distortion - Laser Beams"
+    },
+    "xqGvH5RD8-c": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2657 - NewRetroWave - Timedriver - Heading For The Sun",
+        "FORMAT": "mp3",
+        "NUMBER": 2657,
+        "PUBLISHED_AT": "2022-02-10T15:30:19Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Timedriver - Heading For The Sun"
     },
     "xtwvwiAGuMo": {
         "CHANNEL_NAME": "NewRetroWave",
@@ -22997,6 +24557,16 @@
         "STATUS": "DOWNLOADED",
         "TITLE": "Red Soda - On Tape Romance"
     },
+    "ynMcai-VAnM": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2567 - NewRetroWave - Aftermour - Vanishing Control",
+        "FORMAT": "mp3",
+        "NUMBER": 2567,
+        "PUBLISHED_AT": "2021-09-29T14:54:27Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "Aftermour - Vanishing Control"
+    },
     "ypNtmwBxMFU": {
         "CHANNEL_NAME": "NewRetroWave",
         "FILE_NAME": "974 - NewRetroWave - Ace Buchannon - Buns of Steel",
@@ -23151,6 +24721,16 @@
         "PUBLISHED_AT": "2019-08-26T13:30:03.000Z",
         "STATUS": "DOWNLOADED",
         "TITLE": "Brandon - She's on Fire (feat. SJBRAVO)"
+    },
+    "zFo96EmKr5g": {
+        "CHANNEL_NAME": "NewRetroWave",
+        "FILE_NAME": "2539 - NewRetroWave - NewRetroWave TV - (Synthwave _ Retrowave) - Session 1",
+        "FORMAT": "mp3",
+        "NUMBER": 2539,
+        "PUBLISHED_AT": "2021-08-19T16:35:04Z",
+        "SAVE_LOCATION": "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\monitors\\NewRetroWave",
+        "STATUS": "DOWNLOADED",
+        "TITLE": "NewRetroWave TV - (Synthwave / Retrowave) - Session 1"
     },
     "zHVnJytg1Z4": {
         "CHANNEL_NAME": "NewRetroWave",
