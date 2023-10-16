@@ -28,7 +28,7 @@ class YoutubeVideoItem:
         self.item_type = item_type
 
     @staticmethod
-    def from_array(data_list: list[dict], item_type: YoutubeVideoItemType):
+    def from_list(data_list: list[dict], item_type: YoutubeVideoItemType):
         return [YoutubeVideoItem(data, item_type) for data in data_list]
 
     def get_item_publish_date(self) -> str:
@@ -116,7 +116,7 @@ class YoutubeWorker:
                 id=comma_chunk
             )
             response = request.execute()
-            items += [response.get('items')]
+            items += response.get('items')
 
         if len(id_list) != len(items):
             print("Warning: not all videos extracted!")
