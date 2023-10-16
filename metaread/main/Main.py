@@ -82,7 +82,7 @@ def list_titles(artist, path):
 #######################################################################################################################
 def __main__():
     artist = "Fluidage"
-    current_directory = "D:/My Music/To Be Listened/" + artist
+    current_directory = "H:/My Music/To Be Listened/" + artist
     list_titles(artist, current_directory)
 
 

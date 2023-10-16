@@ -1,5 +1,6 @@
 import os
 import re
+from typing import Tuple
 
 from utils import File
 from ..utils.constants import MERGED_FORMAT
@@ -101,3 +102,49 @@ class Ffmpeg:
         json_metadata[attr_name] = attr_value
 
         return json_metadata
+
+    @staticmethod
+    def get_video_resolution(video_abs_path) -> Tuple[int, int]:
+        output = os.popen(f"ffprobe -v error -select_streams v:0 "
+                          f"-show_entries stream=width,height -of csv=s=x:p=0 \"{video_abs_path}\"").read()
+        width, height = output.split("x")
+        return int(width), int(height)
+
+    @staticmethod
+    def get_video_bitrate(video_abs_path):
+        pass # https://superuser.com/questions/1106343/determine-video-bitrate-using-ffmpeg
+
+    @staticmethod
+    def resize(file_abs_path, height: int = None, width: int = None, bitrate: str = None):
+        if not height and not width:
+            raise Exception("Both height and width are not specified. At least one should have a value")
+
+        original_width, original_height = Ffmpeg.get_video_resolution(file_abs_path)
+        if (width and int(original_width) <= width) or (height and int(original_height) <= height):
+            print("File original size is already equal or less than resize value. Resize cancelled.\n"
+                  f"Original resolution {original_width}x{original_height}. Resize: {width}x{height}")
+            return
+
+        h = height if height else -1
+        w = width if width else -1
+
+        file_format = file_abs_path.split(".")[-1]
+        file_path = "\\".join(file_abs_path.split("\\")[:-1])
+        temp_resize_file = file_path + "\\temp_resized." + file_format
+
+        command = f"ffmpeg -hwaccel cuda -i \"{file_abs_path}\" -vf scale={str(w)}:{str(h)} -c:v h264_nvenc "
+        if bitrate:
+            command += f"-b:v {bitrate} "
+        command += f"{temp_resize_file}"
+        os.system(command)
+
+        # Delete resized file if it is still larger or equal to original file
+        original_size = os.path.getsize(file_abs_path)
+        resized_size = os.path.getsize(temp_resize_file)
+
+        if resized_size >= original_size:
+            os.remove(temp_resize_file)
+            print(f"Resized file ({resized_size}) is not smaller than original file ({original_size}). Resize cancelled")
+        else:
+            os.remove(file_abs_path)
+            os.rename(temp_resize_file, file_abs_path)

@@ -13,3 +13,4 @@ M4A = "m4a"
 MERGED_FORMAT = MKV
 
 DEFAULT_YOUTUBE_WATCH = "https://www.youtube.com/watch?v="
+ALLOWED_VIDEO_QUALITY = [720, 1080]

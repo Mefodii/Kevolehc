@@ -14,6 +14,7 @@ from utils import File
 
 DEFAULT_SETTINGS = "settings.json"
 FORMATTED_OUTPUT = "<!>"
+COMMENT_LINE = "#"
 SEPARATOR = ";"
 
 DEFAULT_TITLE = '%(title)s'
@@ -31,22 +32,6 @@ def process_my_location():
 
 
 MY_LOCATION = process_my_location()
-
-
-class MyLogger(object):
-    def debug(self, msg):
-        pass
-
-    def warning(self, msg):
-        print(msg)
-
-    def error(self, msg):
-        print(msg)
-
-
-def my_hook(d):
-    if d['status'] == 'finished':
-        print('Done downloading, now converting ...')
 
 
 def print_traceback():
@@ -67,19 +52,25 @@ def print_traceback():
 def parse_input_line(line):
     title = DEFAULT_TITLE
     extension = DEFAULT_EXTENSION
+    quality = None
     url = line
 
     if line.startswith(FORMATTED_OUTPUT):
-        _, title, extension, url = line.split(SEPARATOR)
+        # "<!>;Title;mp3;quality;url
+        _, title, extension, quality, url = line.split(SEPARATOR)
         if len(title) == 0:
             title = DEFAULT_TITLE
         if len(extension) == 0:
             extension = DEFAULT_EXTENSION
+        if len(quality) == 0:
+            quality = None
+        else:
+            quality = int(quality)
 
     if len(url) == 0:
         raise Exception("Url should not be empty")
 
-    return title, extension, url
+    return title, extension, quality, url
 
 
 #######################################################################################################################
@@ -88,6 +79,7 @@ def parse_input_line(line):
 def __main__(settings_file):
     os.chdir(MY_LOCATION)
     print("Started at: " + MY_LOCATION)
+    print("Settings: " + str(settings_file))
     if settings_file:
         settings = YTDownloadSettings(settings_file)
 
@@ -102,16 +94,14 @@ def __main__(settings_file):
     downloader = YoutubeDownloader(resources_path)
 
     input_lines = File.get_file_lines(input_file, "8")
-    i = 1
+    input_lines = list(filter(lambda line: not line.startswith(COMMENT_LINE), input_lines))
     total_to_download = len(input_lines)
-    for input_line in input_lines:
-        print("".join(["Downloading ", str(i), "/", str(total_to_download)]))
+    for i, input_line in enumerate(input_lines):
+        print("".join(["Downloading ", str(i + 1), "/", str(total_to_download)]))
 
-        title, extension, url = parse_input_line(input_line)
-        queue = YoutubeQueue("", title, output_directory, extension, link=url)
+        title, extension, quality, url = parse_input_line(input_line)
+        queue = YoutubeQueue("", title, output_directory, extension, video_quality=quality, link=url)
         downloader.download(queue)
-
-        i += 1
 
 
 #######################################################################################################################
@@ -131,7 +121,7 @@ if __name__ == "__main__":
             else:
                 print("Argument not valid")
         else:
-            __main__(DEFAULT_SETTINGS)
+            __main__(None)
     except:
         print_traceback()
         input("Press enter to end")

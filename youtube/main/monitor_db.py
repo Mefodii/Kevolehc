@@ -5,6 +5,7 @@ import time
 from utils import File
 from youtube import paths
 from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager, YoutubeVideo, YoutubeQueue
+from youtube.model.yt_monitors import YoutubeMonitor
 from youtube.paths import MONITORS_FILES_PATH
 from youtube.utils.yt_datetime import compare_yt_dates
 from youtube.yt_api.requests import YoutubeWorker
@@ -13,7 +14,7 @@ from youtube.managers.ffmpeg import Ffmpeg
 from youtube.utils import constants
 
 
-def prepare_videos(manager, monitor, reference_date):
+def prepare_videos(manager, monitor: YoutubeMonitor, reference_date):
     response = manager.api.get_channel_uploads_from_date(monitor.id, reference_date)
 
     # Search results also contains playlist and channel.
@@ -30,7 +31,7 @@ def prepare_videos(manager, monitor, reference_date):
         file_name = " - ".join([str(yt_video.number), str(yt_video.channel_name), str(yt_video.title)])
         save_location = paths.MONITORS_FILES_PATH + "\\" + monitor.name
 
-        queue = YoutubeQueue(yt_video.id, file_name, save_location, monitor.format)
+        queue = YoutubeQueue(yt_video.id, file_name, save_location, monitor.format, monitor.video_quality)
 
         yt_video.file_name = queue.file_name
         yt_video.save_location = queue.save_location
@@ -41,8 +42,8 @@ def prepare_videos(manager, monitor, reference_date):
 # Add missing videos with "MISSING" status and Number = 0.
 def check_db_integrity():
     monitors_db = paths.MAIN_MONITORS_PATH
-    # monitors_db = paths.PGM_MONITORS_PATH
-    # monitors_db = paths.SECONDARY_MONITORS_PATH
+    monitors_db = paths.PGM_MONITORS_PATH
+    monitors_db = paths.SECONDARY_MONITORS_PATH
     dk_file = paths.API_KEY_PATH
 
     worker = YoutubeWorker(dk_file)
@@ -98,7 +99,7 @@ def shift_db_at_position(monitor_name, position, step):
 
 
 def shift_playlist_at_position(monitor_name, position, step):
-    playlist_location = "F:\\Google Drive\\Mu\\plist\\"
+    playlist_location = "E:\\Google Drive\\Mu\\plist\\"
     playlist_file = '\\'.join([playlist_location, monitor_name + ".txt"])
     data = File.get_file_lines(playlist_file, "8")
 
@@ -147,7 +148,7 @@ def download_db_missing():
     monitors_db = paths.MAIN_MONITORS_PATH
     # monitors_db = paths.SIDE_MONITORS_PATH
     # monitors_db = paths.SECONDARY_MONITORS_PATH
-    dk_file = paths.API_RESERVE_KEY_PATH
+    dk_file = paths.API_KEY_PATH
 
     worker = YoutubeWorker(dk_file)
     manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
@@ -179,19 +180,19 @@ def __main__():
     # check_db_integrity()
     # -------===========------
     # POSITION NUMBER IS INCLUSIVE!
-    position_number = 590
-    monitor_name = "Chillhopdotcom"
+    position_number = 1272
+    monitor_name = "GameChops"
     # shift_db_at_position(monitor_name, position_number, -1)
     # -------===========------
     # shift_playlist_at_position(monitor_name, position_number, -1)
     # -------===========------
     # Gets track number from the DB file
-    # lib_path = "E:\\Music\\YT_Monitors\\" + monitor_name
+    lib_path = "G:\\Music\\YT_Monitors\\" + monitor_name
     # sync_pos_files_lib_with_db(monitor_name, lib_path, constants.MP3)
-    # dl_lib_path = MONITORS_FILES_PATH + "\\" + monitor_name
+    dl_lib_path = MONITORS_FILES_PATH + "\\" + monitor_name
     # sync_pos_files_lib_with_db(monitor_name, dl_lib_path, constants.MP3)
     # -------===========------
-    # download_db_missing()
+    download_db_missing()
     # -------===========------
 
 

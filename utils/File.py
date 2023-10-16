@@ -10,6 +10,9 @@ from stat import S_ISREG, ST_CTIME, ST_MODE
 
 PATH = "path"
 FILENAME = "filename"
+EXTENSION = "extension"
+CR_TIME = "cr_time"
+CR_TIME_READABLE = "cr_time_r"
 
 
 # Read file
@@ -77,14 +80,22 @@ def exists(file_path):
     return False
 
 
+# Delete file
+def delete(file_path):
+    os.remove(file_path)
+
+
 # Return a list of files from specified path (files inside folders of this path are not checked)
 # Format:
 #   {
 #       "path": path,
 #       "filename": filename.extension
 #   }
-def list_files(path):
-    return [{PATH: path, FILENAME: f} for f in listdir(path) if isfile(join(path, f))]
+def list_files(path, with_creation_time=False):
+    files = [{PATH: path, FILENAME: f, EXTENSION: f.split(".")[-1]} for f in listdir(path) if isfile(join(path, f))]
+    if with_creation_time:
+        append_creation_time(files)
+    return files
 
 
 # Return a list of folders from specified path (folders inside folders of this path are not checked)
@@ -105,9 +116,9 @@ def append_creation_time(files: list):
                 raise ValueError(f'Key: {key}. Missing from dict definition')
 
         abs_path = join(file[PATH], file[FILENAME])
-        stats = os.stat(abs_path)
-        creation_time = time.ctime(os.path.getctime(abs_path))
-        print(creation_time, abs_path)
+        creation_time = os.path.getctime(abs_path)
+        file[CR_TIME] = creation_time
+        file[CR_TIME_READABLE] = time.ctime(creation_time)
     return []
 
 

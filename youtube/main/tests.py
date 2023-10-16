@@ -2,10 +2,15 @@ from __future__ import unicode_literals
 import os
 import time
 import json
+
+import googleapiclient
+from icecream import ic
+
 from utils import File
 from youtube.utils import constants
 from youtube.managers.ffmpeg import Ffmpeg
-from utils.File import get_file_name_with_extension, write_lines_to_file_utf8, get_json_data, list_files_sub, append_to_file
+from utils.File import get_file_name_with_extension, write_lines_to_file_utf8, get_json_data, list_files_sub, \
+    append_to_file
 from youtube import paths
 from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager, YoutubeDownloader
 from youtube.model.yt_queue import YoutubeQueue
@@ -17,6 +22,7 @@ from youtube_dl.utils import DownloadError
 from youtube.utils.yt_datetime import yt_to_py
 from unicodedata import normalize
 from sys import stdin
+
 
 def download():
     queue = YoutubeQueue("Sh0djQG5eEI", "test", paths.YOUTUBE_RESULT_PATH, "mp3")
@@ -42,11 +48,11 @@ def test_yt_to_py():
 
 
 def test_tags():
-    file_abs_path = "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\" \
+    file_abs_path = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\" \
                     "files\\monitors\\GameChops" \
                     "\\605 - GameChops - Undertale Remix - Arcien - Heartache (from _Hopes & Dreams_) - GameChops.mp3"
-                    # "\\1053 - Extra Credits - ♫ Policing London - _Alleyways & Truncheons_ - Extra History Music.mp4"
-                    # "\\677 - ThePrimeThanatos - 'Back To The 80's' _ Best of Synthwave And Retro Electro Music Mix _ Vol. 21.mp3"
+    # "\\1053 - Extra Credits - ♫ Policing London - _Alleyways & Truncheons_ - Extra History Music.mp4"
+    # "\\677 - ThePrimeThanatos - 'Back To The 80's' _ Best of Synthwave And Retro Electro Music Mix _ Vol. 21.mp3"
 
     if file_abs_path.endswith(constants.MP3):
         tags = {
@@ -101,7 +107,7 @@ def add_to_db():
     name = "ThePrimeThanatos"
     check_path = "G:\\Music\\" + name
     extension = constants.MP3
-    result_path = "D:\\Automatica\\Python\\PyCharmProjects\\Kevolehc\\Kevolehc\\youtube\\files\\_db"
+    result_path = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\_db"
     dbfile = result_path + "\\" + name + ".txt"
     files_list = list_files_sub(check_path)
 
@@ -191,7 +197,7 @@ def add_track_number_to_txt_list(data, db_json):
 def test_download_videos(links_json):
     video_list = []
     q_list = []
-    name = "CriticalRole"
+    name = "CriticalRole" # https://criticalrole.fandom.com/wiki/List_of_episodes
     format = constants.MKV
     output_directory = paths.YOUTUBE_RESULT_PATH
 
@@ -227,6 +233,7 @@ def test_download_videos(links_json):
 
     q_len = str(len(q_list))
     i = 0
+    downloader = YoutubeDownloader(paths.RESOURCES_PATH)
     for queue in q_list:
         i += 1
         q_progress = str(i) + "/" + q_len
@@ -237,7 +244,7 @@ def test_download_videos(links_json):
         else:
             print("Process queue: " + q_progress + " - " + result_file)
             try:
-                YoutubeDownloader.download(queue)
+                downloader.download(queue)
             except DownloadError:
                 print("Unable to download - " + queue.link)
 
@@ -262,10 +269,41 @@ def test_download_videos(links_json):
 
 def datetime_tests():
     tt = "2020-04-08T20:20:20Z"
-    if not "." in tt:
+    if "." not in tt:
         tt = tt[:-1] + ".0Z"
     print(yt_to_py(tt))
 
+
+def get_file_size():
+    # Compare size of two files
+
+    size = os.path.getsize("E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\mp3\\2022 Rewind - Animated 3D Porn Hentai Compilation, Part 11 Of 12 - 30+ Hourss.mkv")
+    size2 = os.path.getsize("E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\mp3\\2022 Rewind - Animated 3D Porn Hentai Compilation, Part 12 Of 12 - 30+ Hourss.mkv")
+    print(size)
+    print(size2)
+    print(size < size2)
+
+
+def get_yt_id_from_video():
+    video_id = "fpk6itC2Pq0"
+
+    dk_file = paths.API_KEY_PATH
+    worker = YoutubeWorker(dk_file)
+    worker.get_channel_id_from_video(video_id)
+
+    ic(worker.get_playlist_items("UUSHsSsgPaZ2GSmO6il8Cb5iGA", ""))
+
+
+def test_if_yt_short():
+    video_id = "Tyzk9JzQXgQ"
+
+    dk_file = paths.API_KEY_PATH
+    worker = YoutubeWorker(dk_file)
+    worker.get_channel_id_from_video(video_id)
+
+
+def check_yt_videos_order():
+    pass
 
 
 #######################################################################################################################
@@ -287,6 +325,8 @@ def __main__():
     # -------===========------
     # test_tags()
     # -------===========------
+    get_yt_id_from_video()
+
 
 
 #######################################################################################################################

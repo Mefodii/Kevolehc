@@ -9,10 +9,10 @@ from youtube.yt_api.requests import YoutubeWorker
 # Main function
 #######################################################################################################################
 def __main__():
-    monitors_db = paths.MAIN_MONITORS_PATH
-    # monitors_db = paths.SIDE_MONITORS_PATH
-    # monitors_db = paths.PGM_MONITORS_PATH
-    monitors_db = paths.SECONDARY_MONITORS_PATH
+    monitors_db = paths.MAIN_MONITORS_PATH  # monitors.json
+    # monitors_db = paths.SIDE_MONITORS_PATH  # monitors2.json
+    # monitors_db = paths.PGM_MONITORS_PATH  # monitors_pgm.json
+    # monitors_db = paths.SECONDARY_MONITORS_PATH  # monitors_sleep.json
     dk_file = paths.API_KEY_PATH
 
     worker = YoutubeWorker(dk_file)

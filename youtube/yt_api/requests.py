@@ -1,4 +1,8 @@
 import os
+from typing import Tuple
+from icecream import ic
+from enum import Enum
+
 import googleapiclient.discovery
 
 from utils import File
@@ -7,99 +11,138 @@ from ..utils.yt_datetime import compare_yt_dates
 # Disable OAuthlib's HTTPS verification when running locally.
 # *DO NOT* leave this option enabled in production.
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
-api_service_name = "youtube"
-api_version = "v3"
+API_SERVICE_NAME = "youtube"
+API_VERSION = "v3"
 
 MAX_RESULTS = 50
 
 
+class YoutubeVideoItemType(Enum):
+    PLAYLIST_ITEM = "PLAYLIST_ITEM"
+    VIDEO_ITEM = "VIDEO_ITEM"
+
+
+class YoutubeVideoItem:
+    def __init__(self, data: dict, item_type: YoutubeVideoItemType):
+        self.data = data
+        self.item_type = item_type
+
+    @staticmethod
+    def from_array(data_list: list[dict], item_type: YoutubeVideoItemType):
+        return [YoutubeVideoItem(data, item_type) for data in data_list]
+
+    def get_item_publish_date(self) -> str:
+        if self.item_type == YoutubeVideoItemType.PLAYLIST_ITEM:
+            return self.data.get("contentDetails").get("videoPublishedAt")
+
+        if self.item_type == YoutubeVideoItemType.VIDEO_ITEM:
+            return self.data.get("snippet").get("publishedAt")
+
+        raise Exception("Unsupported YoutubeVideoItemType")
+
+    def is_livestream(self) -> bool:
+        if self.item_type == YoutubeVideoItemType.VIDEO_ITEM:
+            return self.data["snippet"]["liveBroadcastContent"] != "none"
+
+        raise Exception("Unsupported YoutubeVideoItemType")
+
+
 class YoutubeWorker:
-    def __init__(self, dk_file):
+
+    def __init__(self, dk_file: str):
 
         self.dk = File.get_file_lines(dk_file)[0]
         self.youtube = googleapiclient.discovery.build(
-            api_service_name, api_version, developerKey=self.dk)
+            API_SERVICE_NAME, API_VERSION, developerKey=self.dk)
 
-    def get_channel_id_from_name(self, yt_name):
-        request = self.youtube.channels().list(
-            part="id, contentDetails",
-            forUsername=yt_name
-        )
-        return request.execute()
-
-    def get_channel_uploads_playlist_id(self, yt_id):
+    def get_channel_uploads_playlist_id(self, yt_id: str) -> str:
         request = self.youtube.channels().list(
             part="contentDetails",
             id=yt_id
         )
-        return request.execute()
+        response = request.execute()
+        uploads_id = response.get("items")[0].get("contentDetails").get("relatedPlaylists").get("uploads")
 
-    def get_channel_uploads_from_date2(self, yt_id, yt_date):
-        items = []
-        next_page = True
+        return uploads_id
+
+    def get_channel_uploads_from_date(self, yt_id: str, yt_date: str) -> list[dict]:
+        uploads_playlist_id = self.get_channel_uploads_playlist_id(yt_id)
+
+        uploads = []
+        has_next_page = True
         token = ""
-        while next_page:
-            request = self.youtube.search().list(
-                part="snippet,id",
-                channelId=yt_id,
-                maxResults=MAX_RESULTS,
-                order="date",
-                publishedAfter=yt_date,
-                pageToken=token
-            )
-            response = request.execute()
+        while has_next_page:
+            items, token, has_next_page = self.get_playlist_items(uploads_playlist_id, token)
 
-            File.append_to_file("debug.txt", response.get('items'))
-            File.append_to_file("debug.txt", "")
-
-            items += response.get('items')
-            token = response.get('nextPageToken')
-            if not response.get('items') or not token:
-                next_page = False
-
-        return items
-
-    def get_channel_uploads_from_date(self, yt_id, yt_date):
-        uploads_response = self.get_channel_uploads_playlist_id(yt_id)
-        uploads_id = uploads_response.get("items")[0].get("contentDetails").get("relatedPlaylists").get("uploads")
-
-        items = []
-        next_page = True
-        token = ""
-        while next_page:
-            request = self.youtube.playlistItems().list(
-                part="snippet,contentDetails",
-                playlistId=uploads_id,
-                maxResults=MAX_RESULTS,
-                pageToken=token
-            )
-            response = request.execute()
-
-            for item in response.get('items'):
+            for item in items:
                 published_at = item.get("contentDetails").get("videoPublishedAt")
                 if published_at is not None:
                     if compare_yt_dates(published_at, yt_date) == 1:
-                        items += [item]
+                        uploads += [item]
+                else:
+                    print(f'Warning: ignored video with no publish date \
+                            {item.get("snippet").get("resourceId").get("videoId")}')
 
-            token = response.get('nextPageToken')
-            if not response.get('items') or not token:
-                next_page = False
+        uploads = self.remove_livestreams(uploads)
+        return uploads
 
-        return items
+    def remove_livestreams(self, items: list[dict]) -> list[dict]:
+        result = []
 
-    def get_videos(self, id_list):
+        ids = [item['contentDetails']['videoId'] for item in items]
+        for checked_item, original_item in zip(self.get_videos(ids), items):
+            if YoutubeWorker.is_livestream(checked_item):
+                print("Livestream to be ignored: " + str(checked_item))
+            else:
+                result += [original_item]
+
+        if len(result) != len(items):
+            print("Some items were ignored. Be cautious")
+        return result
+
+    @staticmethod
+    def is_livestream(yt_item: dict) -> bool:
+        return yt_item["snippet"]["liveBroadcastContent"] != "none"
+
+    def get_videos(self, id_list: list[str]) -> list[dict]:
         items = []
 
-        chunks = [id_list[x:x + MAX_RESULTS] for x in range(0, len(id_list), MAX_RESULTS)]
+        # Break id_list in arrays of the length of MAX_RESULTS
+        chunks = [id_list[i:i + MAX_RESULTS] for i in range(0, len(id_list), MAX_RESULTS)]
         for chunk in chunks:
             comma_chunk = ",".join(chunk)
             request = self.youtube.videos().list(
-                part="snippet",
+                part="snippet,liveStreamingDetails,contentDetails",
                 id=comma_chunk
             )
             response = request.execute()
+            items += [response.get('items')]
 
-            for item in response.get('items'):
-                items += [item]
+        if len(id_list) != len(items):
+            print("Warning: not all videos extracted!")
 
         return items
+
+    def get_playlist_items(self, playlist_id: str, page_token: str) -> Tuple[dict, str | None, bool]:
+        request = self.youtube.playlistItems().list(
+            part="snippet,contentDetails",
+            playlistId=playlist_id,
+            maxResults=MAX_RESULTS,
+            pageToken=page_token
+        )
+        response = request.execute()
+
+        token = response.get('nextPageToken')
+        has_next_page = True
+        if not response.get('items') or not token:
+            has_next_page = False
+
+        return response.get('items'), token, has_next_page
+
+    def get_channel_id_from_video(self, video_id: str) -> str:
+        item = self.get_videos([video_id])[0]
+        ic(item)
+
+        return ""
+
+

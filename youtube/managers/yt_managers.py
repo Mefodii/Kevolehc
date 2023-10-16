@@ -11,31 +11,23 @@ from .. import paths
 from yt_dlp.utils import DownloadError
 
 from .ffmpeg import Ffmpeg
+from ..yt_api.requests import YoutubeWorker
 
 FFMPEG_PATH = paths.RESOURCES_PATH
 
 
 class MonitorManager:
-    def __init__(self, monitors_file, api_worker, log_file):
+    def __init__(self, monitors_file, api_worker: YoutubeWorker, log_file):
         self.log_file = log_file
         self.api = api_worker
         self.db = monitors_file
         data = File.get_json_data(self.db)
 
-        self.monitors = []
+        self.monitors: list[YoutubeMonitor] = []
         for monitor_json in data:
             YoutubeMonitor.validate_json(monitor_json)
             monitor = YoutubeMonitor(monitor_json)
-            monitor = self.validate_id(monitor)
             self.monitors.append(monitor)
-
-    # If monitor has no id: obtain id using monitor's name
-    def validate_id(self, monitor):
-        if not monitor.id:
-            response = self.api.get_channel_id_from_name(monitor.name)
-            monitor.id = response.get('items')[0].get('id')
-
-        return monitor
 
     # Add message to the log file
     def log(self, message):
@@ -44,6 +36,7 @@ class MonitorManager:
     def check_for_updates(self):
         self.log(str(yt_datetime.get_current_ytdate()) + " - starting update process for monitors")
         for monitor in self.monitors:
+            self.log(f'Checking: {monitor.id} - {monitor.name}')
             monitor.check_date = yt_datetime.get_current_ytdate()
             response = self.api.get_channel_uploads_from_date(monitor.id, monitor.reference_date)
 
@@ -120,7 +113,8 @@ class MonitorManager:
                         track_mark = " [ ] " + video.title
                     else:
                         track_mark = " [@] " + video.title
-                    track_list.append(track_mark.ljust(115) + DEFAULT_YOUTUBE_WATCH + video.id.ljust(20) + str(video.number))
+                    track_list.append(
+                        track_mark.ljust(115) + DEFAULT_YOUTUBE_WATCH + video.id.ljust(20) + str(video.number))
 
                 if len(track_list) > 0:
                     File.append_to_file(track_list_log_file, track_list)
@@ -171,7 +165,7 @@ class YoutubeQueueManager:
             file_name = " - ".join([str(video.number), str(video.channel_name), str(video.title)])
             save_location = paths.MONITORS_FILES_PATH + "\\" + monitor.name
 
-            queue = YoutubeQueue(video.id, file_name, save_location, monitor.format)
+            queue = YoutubeQueue(video.id, file_name, save_location, monitor.format, monitor.video_quality)
             print(repr(queue))
 
             video.file_name = queue.file_name

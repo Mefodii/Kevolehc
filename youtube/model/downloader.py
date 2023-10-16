@@ -1,11 +1,14 @@
 import copy
+# import youtube_dl  # <-- Use this to downlaod from bandcamp (2022.08.13 - It still worked)
 import yt_dlp as youtube_dl
+# For VK downloads use yt-dlp==2021.11.10
 
 from utils import File
 
 from .yt_queue import YoutubeQueue
 from ..utils import constants
 from ..managers.ffmpeg import Ffmpeg
+from ..utils.constants import ALLOWED_VIDEO_QUALITY
 
 DL_EXTENSION = "ext"
 DL_TITLE = "title"
@@ -52,6 +55,14 @@ class YoutubeDownloader:
             queue.audio_dl_stats = copy.deepcopy(self.download_stats)
 
     def download_video(self, queue: YoutubeQueue):
+        # TODO: delete audio/video parts if exists
+        # Validate video_quality value
+        video_quality = queue.video_quality
+        if video_quality and video_quality not in ALLOWED_VIDEO_QUALITY:
+            raise Exception(
+                f"Video quality option not found in allowed values. Received value: {video_quality}\n"
+                f"Allowed values: {ALLOWED_VIDEO_QUALITY}")
+
         # Download audio part
         default_audio_name = "audio"
         audio_file = queue.save_location + "\\" + default_audio_name
@@ -59,7 +70,7 @@ class YoutubeDownloader:
         ydl_opts = self.build_audio_fragment_download_options(output_file_path)
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download([queue.link])
-            result = ydl.extract_info("{}".format(queue.link))
+            result = ydl.extract_info("{}".format(queue.link), download=False)
             queue.audio_dl_stats = copy.deepcopy(self.download_stats)
 
         # Download video part (has no sound)
@@ -69,7 +80,7 @@ class YoutubeDownloader:
         ydl_opts = self.build_video_fragment_download_options(output_file_path)
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download([queue.link])
-            result = ydl.extract_info("{}".format(queue.link))
+            result = ydl.extract_info("{}".format(queue.link), download=False)
             queue.video_dl_stats = copy.deepcopy(self.download_stats)
 
         # Replace tags from file_name by its values from queue.video_dl_stats
@@ -83,21 +94,25 @@ class YoutubeDownloader:
         merged_file = queue.file_name + "." + queue.save_format
         Ffmpeg.merge_audio_and_video(queue.save_location, audio_file, video_file, merged_file)
 
+        if video_quality:
+            print(f"Resizing video file to: {video_quality}")
+            Ffmpeg.resize(f"{queue.save_location}\\{merged_file}", height=video_quality)
+
     def build_common_download_options(self, output_file_path):
         return {
-                'ffmpeg_location': self.ffmpeg_location,
-                'outtmpl': output_file_path,
-                'logger': YoutubeDownloaderLogger(),
-                'progress_hooks': [self.my_hook]
-                }
+            'ffmpeg_location': self.ffmpeg_location,
+            'outtmpl': output_file_path,
+            'logger': YoutubeDownloaderLogger(),
+            'progress_hooks': [self.my_hook]
+        }
 
     def build_audio_download_options(self, output_file_path):
         options = self.build_common_download_options(output_file_path)
         options['format'] = 'bestaudio/best'
         options['cachedir'] = False
         options['postprocessors'] = [{'key': 'FFmpegExtractAudio',
-                                             'preferredcodec': 'mp3',
-                                             'preferredquality': '192'}]
+                                      'preferredcodec': 'mp3',
+                                      'preferredquality': '192'}]
         return options
 
     def build_audio_fragment_download_options(self, output_file_path):
