@@ -6,3 +6,5 @@
 /build/*
 /dist/*
 yt_download.spec
+/comics_namer/files/_db/db.json
+/youtube/main/google_api_test.py
