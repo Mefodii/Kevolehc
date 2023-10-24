@@ -1,12 +1,7 @@
-/youtube/files/input/dk.txt
 /metaread/files/titles/*
 .idea/*
 /build/*
 /dist/*
 yt_download.spec
 /comics_namer/files/_db/db.json
-/youtube/files/_db/
-/youtube/files/logs/
-/youtube/files/watchers/
-/youtube/files/mp3/
-/youtube/files/tests/
+/youtube/files/
