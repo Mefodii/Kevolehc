@@ -4,8 +4,8 @@ import time
 import sys
 import traceback
 
-from youtube.model.downloader import YoutubeDownloader
-from youtube.model.yt_queue import YoutubeQueue
+from youtube.utils.downloader import YoutubeDownloader
+from youtube.watchers.youtube.queue import YoutubeQueue
 
 from youtube import paths
 from youtube.settings.settings import YTDownloadSettings
@@ -93,7 +93,7 @@ def __main__(settings_file):
 
     downloader = YoutubeDownloader(resources_path)
 
-    input_lines = File.get_file_lines(input_file, "8")
+    input_lines = File.read(input_file, File.ENCODING_UTF8)
     input_lines = list(filter(lambda line: not line.startswith(COMMENT_LINE), input_lines))
     total_to_download = len(input_lines)
     for i, input_line in enumerate(input_lines):

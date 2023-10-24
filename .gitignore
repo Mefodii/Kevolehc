@@ -1,15 +1,12 @@
-/youtube/files/monitors/*
 /youtube/files/input/dk.txt
-/youtube/files/input/dk_reserve.txt
 /metaread/files/titles/*
 .idea/*
 /build/*
 /dist/*
 yt_download.spec
 /comics_namer/files/_db/db.json
-/youtube/main/google_api_test.py
 /youtube/files/_db/
 /youtube/files/logs/
-/youtube/files/monitors/
+/youtube/files/watchers/
 /youtube/files/mp3/
 /youtube/files/tests/

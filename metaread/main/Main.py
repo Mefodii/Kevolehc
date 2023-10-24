@@ -67,7 +67,7 @@ def print_titles(output_filename, data):
         lines.append(element["title"][0])
 
     lines = sorted(set(lines), key=lambda s: s.lower())
-    File.write_lines_to_file_utf8(path, lines)
+    File.write(path, lines, File.ENCODING_UTF8)
 
 
 def list_titles(artist, path):

@@ -1,35 +1,19 @@
 from __future__ import unicode_literals
-import os
 import time
-import json
 
-import googleapiclient
 from icecream import ic
 
 from utils import File
 from youtube.utils import constants
-from youtube.managers.ffmpeg import Ffmpeg
-from utils.File import get_file_name_with_extension, write_lines_to_file_utf8, get_json_data, list_files_sub, \
-    append_to_file
+from youtube.utils.ffmpeg import Ffmpeg
 from youtube import paths
-from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager, YoutubeDownloader
-from youtube.model.yt_queue import YoutubeQueue
-from youtube.model.yt_monitors import YoutubeMonitor
-from youtube.model.yt_video import YoutubeVideo
-from youtube.utils.file_names import replace_unicode_chars
-from youtube.yt_api.requests import YoutubeWorker
+from youtube.utils.downloader import YoutubeDownloader
+from youtube.watchers.youtube.media import YoutubeVideo
+from youtube.watchers.youtube.queue import YoutubeQueue
+from youtube.watchers.youtube.api import YoutubeWorker
 from youtube_dl.utils import DownloadError
-from youtube.utils.yt_datetime import yt_to_py
+from youtube.utils.yt_datetime import yt_to_py, compare_yt_dates
 from unicodedata import normalize
-from sys import stdin
-
-
-def download():
-    queue = YoutubeQueue("Sh0djQG5eEI", "test", paths.YOUTUBE_RESULT_PATH, "mp3")
-    try:
-        YoutubeDownloader.download(queue)
-    except DownloadError:
-        print("meh")
 
 
 def test_yt_to_py():
@@ -37,7 +21,6 @@ def test_yt_to_py():
     b = yt_to_py("2019-06-04T06:16:06.816Z")
     c = yt_to_py("2019-06-04T06:16:06.817Z")
     d = yt_to_py("2019-06-04T06:16:06.815Z")
-    e = yt_to_py("2019-06-04T06:16:05.816Z")
     f = yt_to_py("2019-06-04T06:15:06.816Z")
 
     print(a == b)
@@ -45,38 +28,6 @@ def test_yt_to_py():
     print(a == d)
     print(a < b)
     print(a > f)
-
-
-def test_tags():
-    file_abs_path = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\" \
-                    "files\\monitors\\GameChops" \
-                    "\\605 - GameChops - Undertale Remix - Arcien - Heartache (from _Hopes & Dreams_) - GameChops.mp3"
-    # "\\1053 - Extra Credits - ♫ Policing London - _Alleyways & Truncheons_ - Extra History Music.mp4"
-    # "\\677 - ThePrimeThanatos - 'Back To The 80's' _ Best of Synthwave And Retro Electro Music Mix _ Vol. 21.mp3"
-
-    if file_abs_path.endswith(constants.MP3):
-        tags = {
-            "genre": "GameChops",
-            # "title": "'Back To The 80's | Best of Synthwave And Retro Electro Music Mix | Vol. 21",
-            "title": "Undertale & Remix - Arcien - & Heartache (from \"Hopes & ss & Dreams\")  & \" - GameChops \" zz \" &",
-            "track": "605",
-            "comment": "by Mefodii"
-        }
-    else:
-        tags = {
-            "author": "ExtraCreditz",
-            "title": "♫ Policing London - \"Alleyways & Truncheons\" - Extra History Music",
-            "track": str(1053),
-            "copyright": "ExtraCreditz",
-            "episode_id": "EO_16t_Fe5s",
-            "comment": "by Mefodii"
-        }
-
-    print(file_abs_path)
-    print(tags)
-    print(File.exists(file_abs_path))
-
-    Ffmpeg.add_tags(file_abs_path, tags)
 
 
 def test_compose_unicode(data):
@@ -90,16 +41,7 @@ def test_compose_unicode(data):
             composed = True
 
     print(composed)
-    write_lines_to_file_utf8("C:\\Users\\Mefodii\\Downloads\\nfc.txt", result)
-
-
-def test_json(data):
-    monitors = []
-    for monitor in data:
-        YoutubeMonitor.validate_json(monitor)
-        monitors.append(YoutubeMonitor(monitor))
-
-    return ["[", ",\n".join([monitor.to_json() for monitor in monitors]), "]"]
+    File.write("C:\\Users\\Mefodii\\Downloads\\nfc.txt", result, File.ENCODING_UTF8)
 
 
 # Create the DB file from already downloaded files
@@ -109,7 +51,7 @@ def add_to_db():
     extension = constants.MP3
     result_path = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\_db"
     dbfile = result_path + "\\" + name + ".txt"
-    files_list = list_files_sub(check_path)
+    files_list = File.list_files_sub(check_path)
 
     result = {}
     for element in files_list:
@@ -134,40 +76,10 @@ def add_to_db():
                     result[episode_id] = {"TITLE": title, "STATUS": "DOWNLOADED", "NUMBER": track,
                                           "CHANNEL_NAME": name, "FILE_NAME": element["filename"], "FORMAT": extension}
 
-    File.write_json_data(dbfile, result)
+    File.write_json(dbfile, result)
 
 
-# Special case: Update ExtraCreditz files metadata from db file
-#   Files with track number and without EPISODE_ID will be checked in DB with STATUS=UNABLE
-def update_extra_credits():
-    db_file = '\\'.join([paths.DB_LOG_PATH, "ExtraCreditz.txt"])
-    db_json = File.get_json_data(db_file)
-    check_path = "G:\\Filme\\ExtraCreditz"
-    files_list = list_files_sub(check_path)
-
-    for element in files_list:
-        abs_path = element["path"] + "\\" + element["filename"]
-        if abs_path.endswith(constants.MP4):
-            metadata = Ffmpeg.metadata_to_json(Ffmpeg.get_metadata(abs_path))
-            print(metadata)
-            track = int(metadata.get("TRACK", -1))
-            episode_id = metadata.get("EPISODE_ID", None)
-            if (track > 0) and (episode_id is None):
-                for key, value in db_json.items():
-                    if value["NUMBER"] == track and value["STATUS"] == "UNABLE":
-                        print(key, track)
-                        tags = {
-                            "episode_id": key
-                        }
-                        if File.exists(abs_path):
-                            Ffmpeg.add_tags(abs_path, tags)
-
-                        value["STATUS"] = "DOWNLOADED"
-
-    File.write_json_data(db_file, db_json)
-
-
-#  Add to position 168 track number if does not exist
+#  Add to position 168 track number if it does not exist
 def add_track_number_to_txt_list(data, db_json):
     output_line = ""
     for line2 in data:
@@ -195,10 +107,9 @@ def add_track_number_to_txt_list(data, db_json):
 
 
 def test_download_videos(links_json):
-    video_list = []
-    q_list = []
-    name = "CriticalRole" # https://criticalrole.fandom.com/wiki/List_of_episodes
-    format = constants.MKV
+    # TODO - check to combine with simple_download.py
+    name = "CriticalRole"  # https://criticalrole.fandom.com/wiki/List_of_episodes
+    file_format = constants.MKV
     output_directory = paths.YOUTUBE_RESULT_PATH
 
     data = {}
@@ -211,30 +122,20 @@ def test_download_videos(links_json):
     worker = YoutubeWorker(dk_file)
     videos = worker.get_videos(list(data.keys()))
 
+    video_list = []
     for item in videos:
         print(item)
-        yt_video_params = YoutubeVideo.parse_json_yt_response(item)
-        yt_video = YoutubeVideo(yt_video_params[YoutubeVideo.ID], yt_video_params[YoutubeVideo.TITLE],
-                                yt_video_params[YoutubeVideo.PUBLISHED_AT],
-                                yt_video_params[YoutubeVideo.CHANNEL_NAME], data.get(yt_video_params[YoutubeVideo.ID]))
+        yt_video = YoutubeVideo(item.get_id(), item.get_title(), item.get_channel_name(),
+                                item.get_publish_date(), data.get(item.get_id()), output_directory,
+                                file_format, file_name=None, video_quality=None)
         video_list.append(yt_video)
 
-    for video in video_list:
-        file_name = " - ".join([str(video.number), name, str(video.title)])
-        save_location = output_directory
-
-        queue = YoutubeQueue(video.id, file_name, save_location, format)
-        print(repr(queue))
-
-        video.file_name = queue.file_name
-        video.save_location = queue.save_location
-
-        q_list.append(queue)
-
+    q_list = [YoutubeQueue.from_youtubevideo(video) for video in video_list]
     q_len = str(len(q_list))
     i = 0
     downloader = YoutubeDownloader(paths.RESOURCES_PATH)
     for queue in q_list:
+        print(repr(queue))
         i += 1
         q_progress = str(i) + "/" + q_len
 
@@ -249,7 +150,7 @@ def test_download_videos(links_json):
                 print("Unable to download - " + queue.link)
 
     for video in video_list:
-        file_extension = format
+        file_extension = file_format
         file_abs_path = "\\".join([video.save_location, video.file_name]) + "." + file_extension
 
         tags = {
@@ -257,7 +158,7 @@ def test_download_videos(links_json):
             "title": video.title,
             "track": str(video.number),
             "copyright": name,
-            "episode_id": video.id,
+            "episode_id": video.video_id,
             "comment": "by Mefodii"
         }
 
@@ -274,36 +175,57 @@ def datetime_tests():
     print(yt_to_py(tt))
 
 
-def get_file_size():
-    # Compare size of two files
-
-    size = os.path.getsize("E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\mp3\\2022 Rewind - Animated 3D Porn Hentai Compilation, Part 11 Of 12 - 30+ Hourss.mkv")
-    size2 = os.path.getsize("E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\mp3\\2022 Rewind - Animated 3D Porn Hentai Compilation, Part 12 Of 12 - 30+ Hourss.mkv")
-    print(size)
-    print(size2)
-    print(size < size2)
-
-
-def get_yt_id_from_video():
-    video_id = "fpk6itC2Pq0"
-
+def test_video_sort_order():
     dk_file = paths.API_KEY_PATH
     worker = YoutubeWorker(dk_file)
-    worker.get_channel_id_from_video(video_id)
+    items = worker.get_channel_uploads_from_date("UCaNd66xUJjX8VZT6AByVpiw", "2010-10-10T06:20:16.813Z")
+    for i in range(0, len(items) - 1):
+        date_compare = compare_yt_dates(items[i].get_publish_date(), items[i+1].get_publish_date())
 
-    ic(worker.get_playlist_items("UUSHsSsgPaZ2GSmO6il8Cb5iGA", ""))
+        if date_compare == -1:
+            ic(items[i], items[i+1])
+
+    for item in items:
+        publish_fields_equals = item.get_publish_date() == item.data.get("snippet").get("publishedAt")
+        if not publish_fields_equals:
+            ic(item.data)
 
 
-def test_if_yt_short():
-    video_id = "Tyzk9JzQXgQ"
-
+def test_video_duration():
     dk_file = paths.API_KEY_PATH
     worker = YoutubeWorker(dk_file)
-    worker.get_channel_id_from_video(video_id)
+    items = worker.get_channel_uploads_from_date("UCmYTgpKxd-QOJCPDrmaXuqQ", "2023-10-14T06:20:50.193Z")
+    ids = ([item.get_id() for item in items] +
+           ["9t4P_i0OvZk", "q6dbhgandUw", "pKij-ygut5E", "AgpWX18dby4", "9HNJkfoXb8o"])
+    videos = worker.get_videos(ids)
+    for video in videos:
+        if not video.has_valid_duration():
+            ic(video.get_title())
 
 
-def check_yt_videos_order():
-    pass
+def add_tags_to_db():
+    files = File.list_files(paths.DB_LOG_PATH)
+    for file in files:
+        db_file = f"{file[File.PATH]}\\{file[File.FILENAME]}"
+        ic(db_file)
+
+        data = File.read_json(db_file)
+
+        for video_id, item in data.items():
+            item[YoutubeVideo.VIDEO_ID] = video_id
+
+        File.write_json(db_file, data)
+
+
+def test():
+    db_file = f"{paths.DB_LOG_PATH}\\Bob42jh.txt"
+    data = File.read_json(db_file)
+    test_data = {}
+    for video_dict in data.values():
+        video = YoutubeVideo.from_dict(video_dict)
+        test_data[video.video_id] = video.to_dict()
+
+    File.write_json(db_file, test_data)
 
 
 #######################################################################################################################
@@ -325,8 +247,7 @@ def __main__():
     # -------===========------
     # test_tags()
     # -------===========------
-    get_yt_id_from_video()
-
+    test()
 
 
 #######################################################################################################################

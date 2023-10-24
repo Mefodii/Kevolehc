@@ -1,32 +1,22 @@
 from __future__ import unicode_literals
 import time
 from youtube import paths
-from youtube.managers.yt_managers import MonitorManager, YoutubeQueueManager
-from youtube.yt_api.requests import YoutubeWorker
+from youtube.watchers.youtube.manager import YoutubeWatchersManager
+from youtube.watchers.youtube.api import YoutubeWorker
 
 
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
-    monitors_db = paths.MAIN_MONITORS_PATH  # monitors.json
-    # monitors_db = paths.SIDE_MONITORS_PATH  # monitors2.json
-    # monitors_db = paths.PGM_MONITORS_PATH  # monitors_pgm.json
-    # monitors_db = paths.SECONDARY_MONITORS_PATH  # monitors_sleep.json
+    watchers_file = paths.YOUTUBE_WATCHERS_PATH
+    # watchers_file = paths.YOUTUBE_WATCHERS2_PATH
+    # watchers_file = paths.YOUTUBE_WATCHERS_PGM_PATH
     dk_file = paths.API_KEY_PATH
 
     worker = YoutubeWorker(dk_file)
-    manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
-    manager.check_for_updates()
-
-    queue_manager = YoutubeQueueManager(paths.YOUTUBE_API_LOG)
-    queue_manager.process_monitor_manager(manager)
-
-    manager.append_tags()
-    manager.update_track_list_log()
-    manager.update_db_log()
-
-    manager.finish()
+    manager = YoutubeWatchersManager(watchers_file, worker, paths.YOUTUBE_API_LOG)
+    manager.run_full()
 
 
 #######################################################################################################################

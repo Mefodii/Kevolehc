@@ -4,11 +4,10 @@ import yt_dlp as youtube_dl
 # For VK downloads use yt-dlp==2021.11.10
 
 from utils import File
-
-from .yt_queue import YoutubeQueue
-from ..utils import constants
-from ..managers.ffmpeg import Ffmpeg
-from ..utils.constants import ALLOWED_VIDEO_QUALITY
+from youtube.utils.ffmpeg import Ffmpeg
+from youtube.utils import constants
+from youtube.utils.constants import ALLOWED_VIDEO_QUALITY
+from youtube.watchers.youtube.queue import YoutubeQueue
 
 DL_EXTENSION = "ext"
 DL_TITLE = "title"
@@ -88,7 +87,7 @@ class YoutubeDownloader:
 
         # Merge audio and video parts to single file
         audio_file = default_audio_name + "." + constants.M4A
-        video_file_extension = File.get_file_name_with_extension(queue.save_location, default_video_name).split(".")[-1]
+        video_file_extension = File.get_file_extension(queue.save_location, default_video_name)
         video_file = default_video_name + "." + video_file_extension
 
         merged_file = queue.file_name + "." + queue.save_format

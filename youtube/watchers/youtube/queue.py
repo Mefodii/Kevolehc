@@ -1,5 +1,7 @@
-from ..utils.constants import DEFAULT_YOUTUBE_WATCH
-from ..utils.file_names import replace_restricted_file_chars, replace_unicode_chars
+
+from youtube.utils.constants import DEFAULT_YOUTUBE_WATCH
+from youtube.utils.file_names import normalize_file_name
+from youtube.watchers.youtube.media import YoutubeVideo
 
 INFO_DICT = "info_dict"
 
@@ -19,8 +21,14 @@ class YoutubeQueue:
         self.audio_dl_stats = None
         self.video_dl_stats = None
 
-    def __repr__(self):
-        return ";".join([self.video_id, self.link, self.file_name, self.save_location, self.save_format])
+    @classmethod
+    def from_youtubevideo(cls, video: YoutubeVideo):
+        obj = cls(video.video_id, video.file_name, video.save_location, video.file_extension,
+                  video.video_quality)
+        return obj
+
+    def get_file_abs_path(self):
+        return f"{self.save_location}\\{self.file_name}.{self.save_format}"
 
     def replace_file_name_tags(self):
         file_name = self.file_name
@@ -31,6 +39,6 @@ class YoutubeQueue:
         if file_name != self.file_name:
             self.file_name = normalize_file_name(file_name)
 
-
-def normalize_file_name(video_title):
-    return replace_restricted_file_chars(video_title)
+    def __repr__(self):
+        return ";".join([self.video_id, self.link, self.file_name, self.save_location, self.save_format,
+                         str(self.video_quality)])

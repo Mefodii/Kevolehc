@@ -13,3 +13,7 @@ def replace_unicode_chars(video_title):
 def replace_restricted_file_chars(video_title):
     return re.sub('[' + re.escape(''.join(RESTRICTED_CHARS)) + ']',
                   DEFAULT_REPLACE_CHAR, video_title)
+
+
+def normalize_file_name(video_title):
+    return replace_restricted_file_chars(video_title)

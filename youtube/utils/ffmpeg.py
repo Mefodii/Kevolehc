@@ -3,7 +3,7 @@ import re
 from typing import Tuple
 
 from utils import File
-from ..utils.constants import MERGED_FORMAT
+from youtube.utils.constants import MERGED_FORMAT
 
 METADATA_HEADER = ";FFMETADATA1"
 
@@ -75,7 +75,7 @@ class Ffmpeg:
         os.system(read_metadata_command)
         os.rename(temp_abs_path, file_abs_path)
 
-        metadata = File.get_file_lines(temp_metadata_file, "8")
+        metadata = File.read(temp_metadata_file, File.ENCODING_UTF8)
         os.remove(temp_metadata_file)
         return metadata
 

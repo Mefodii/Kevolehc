@@ -32,7 +32,7 @@ def get_current_date():
 def add_new_comic(comic_path, comic_name):
     db_json = {}
     if File.exists(DB_FILE):
-        db_json = File.get_json_data(DB_FILE)
+        db_json = File.read_json(DB_FILE)
 
     if db_json.get(comic_name, None):
         raise Exception(f"Comic with name: {comic_name} already exists. Unable to insert")
@@ -45,14 +45,14 @@ def add_new_comic(comic_path, comic_name):
         COMIC_MOD_DATE: get_current_date(),
     }
 
-    File.write_json_data(DB_FILE, db_json)
+    File.write_json(DB_FILE, db_json)
 
 
 def sync_pages_name(comic_name, keep_old_name=True):
     if not File.exists(DB_FILE):
         raise Exception(f"DB_FILE does not exist: {DB_FILE}")
 
-    db_json = File.get_json_data(DB_FILE)
+    db_json = File.read_json(DB_FILE)
     if not db_json.get(comic_name, None):
         raise Exception(f"Comic with name: {comic_name} does not exist.")
 
@@ -71,7 +71,7 @@ def sync_pages_name(comic_name, keep_old_name=True):
     comic[COMIC_PAGES_NR] = pages_nr
     comic[COMIC_MOD_DATE] = get_current_date()
 
-    File.write_json_data(DB_FILE, db_json)
+    File.write_json(DB_FILE, db_json)
 
 
 def rename_temp_files(comic_name, initial_page_number=1, keep_old_name=True):
