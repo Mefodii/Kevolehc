@@ -4,6 +4,7 @@ import time
 from icecream import ic
 
 from utils import File
+from youtube.model.file_extension import FileExtension
 from youtube.utils import constants
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube import paths
@@ -48,7 +49,7 @@ def test_compose_unicode(data):
 def add_to_db():
     name = "ThePrimeThanatos"
     check_path = "G:\\Music\\" + name
-    extension = constants.MP3
+    extension = FileExtension.MP3
     result_path = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\_db"
     dbfile = result_path + "\\" + name + ".txt"
     files_list = File.list_files_sub(check_path)
@@ -56,25 +57,25 @@ def add_to_db():
     result = {}
     for element in files_list:
         abs_path = element["path"] + "\\" + element["filename"]
-        if extension == constants.MP4 or extension == constants.MKV:
-            if abs_path.endswith(extension):
+        if extension.is_video():
+            if abs_path.endswith(extension.value):
                 metadata = Ffmpeg.metadata_to_json(Ffmpeg.get_metadata(abs_path))
                 episode_id = metadata.get("EPISODE_ID", None)
                 if episode_id:
                     title = metadata.get("TITLE")
                     track = metadata.get("TRACK")
-                    result[episode_id] = {"TITLE": title, "STATUS": "DOWNLOADED", "NUMBER": track,
-                                          "CHANNEL_NAME": name, "FILE_NAME": element["filename"], "FORMAT": extension}
+                    result[episode_id] = {"TITLE": title, "STATUS": "DOWNLOADED", "NUMBER": track, "CHANNEL_NAME": name,
+                                          "FILE_NAME": element["filename"], "FORMAT": extension.value}
 
-        if extension == constants.MP3:
+        if extension.is_audio():
             if abs_path.endswith(extension):
                 metadata = Ffmpeg.metadata_to_json(Ffmpeg.get_metadata(abs_path))
                 episode_id = metadata.get("DISC", None)
                 if episode_id:
                     title = metadata.get("TITLE")
                     track = metadata.get("TRACK")
-                    result[episode_id] = {"TITLE": title, "STATUS": "DOWNLOADED", "NUMBER": track,
-                                          "CHANNEL_NAME": name, "FILE_NAME": element["filename"], "FORMAT": extension}
+                    result[episode_id] = {"TITLE": title, "STATUS": "DOWNLOADED", "NUMBER": track, "CHANNEL_NAME": name,
+                                          "FILE_NAME": element["filename"], "FORMAT": extension.value}
 
     File.write_json(dbfile, result)
 
@@ -109,7 +110,7 @@ def add_track_number_to_txt_list(data, db_json):
 def test_download_videos(links_json):
     # TODO - check to combine with simple_download.py
     name = "CriticalRole"  # https://criticalrole.fandom.com/wiki/List_of_episodes
-    file_format = constants.MKV
+    file_format = FileExtension.MKV
     output_directory = paths.YOUTUBE_RESULT_PATH
 
     data = {}
@@ -139,7 +140,7 @@ def test_download_videos(links_json):
         i += 1
         q_progress = str(i) + "/" + q_len
 
-        result_file = queue.save_location + "\\" + queue.file_name + "." + queue.save_format
+        result_file = queue.save_location + "\\" + queue.file_name + "." + queue.file_extension.value
         if File.exists(result_file):
             print("Queue ignored, file exist: " + q_progress)
         else:
@@ -204,21 +205,22 @@ def test_video_duration():
 
 
 def add_tags_to_db():
-    files = File.list_files(paths.DB_LOG_PATH)
+    files = File.list_files(paths.DB_PATH)
     for file in files:
         db_file = f"{file[File.PATH]}\\{file[File.FILENAME]}"
         ic(db_file)
 
         data = File.read_json(db_file)
 
-        for video_id, item in data.items():
-            item[YoutubeVideo.VIDEO_ID] = video_id
+        for video_dict in data.values():
+            video = YoutubeVideo.from_dict(video_dict)
+            data[video.video_id] = video.to_dict()
 
         File.write_json(db_file, data)
 
 
 def test():
-    db_file = f"{paths.DB_LOG_PATH}\\Bob42jh.txt"
+    db_file = f"{paths.DB_PATH}\\Bob42jh.txt"
     data = File.read_json(db_file)
     test_data = {}
     for video_dict in data.values():
@@ -247,7 +249,7 @@ def __main__():
     # -------===========------
     # test_tags()
     # -------===========------
-    test()
+    add_tags_to_db()
 
 
 #######################################################################################################################

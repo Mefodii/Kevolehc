@@ -76,7 +76,7 @@ from youtube.utils.ffmpeg import Ffmpeg
 
 
 def shift_db_at_position(monitor_name, position, step):
-    db_file = '\\'.join([paths.DB_LOG_PATH, monitor_name + ".txt"])
+    db_file = '\\'.join([paths.DB_PATH, monitor_name + ".txt"])
     db_json = File.read_json(db_file)
 
     for key, value in db_json.items():
@@ -106,7 +106,7 @@ def shift_playlist_at_position(monitor_name, position, step):
 
 
 def sync_pos_files_lib_with_db(monitor_name, lib_path, extension):
-    db_file = '\\'.join([paths.DB_LOG_PATH, monitor_name + ".txt"])
+    db_file = '\\'.join([paths.DB_PATH, monitor_name + ".txt"])
     db_json = File.read_json(db_file)
 
     # Get all files in the directory

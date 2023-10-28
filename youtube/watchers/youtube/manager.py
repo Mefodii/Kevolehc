@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 from yt_dlp import DownloadError
 
 from utils import File
+from youtube.model.file_extension import FileExtension
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube.utils.downloader import YoutubeDownloader
 from youtube.paths import RESOURCES_PATH as FFMPEG_PATH
@@ -21,13 +22,9 @@ class YoutubeWatchersManager:
         self.log_file = log_file
         self.api = api_worker
         self.watchers_file = watchers_file
-        self.watchers: list[YoutubeWatcher] = []
 
         data = File.read_json(self.watchers_file)
-        for watcher_dict in data:
-            YoutubeWatcher.validate_json(watcher_dict)
-            watcher = YoutubeWatcher(watcher_dict)
-            self.watchers.append(watcher)
+        self.watchers = [YoutubeWatcher.from_dict(watcher_dict) for watcher_dict in data]
 
         self.queue_list: list[YoutubeQueue] = []
         self.processed_queue_list: list[YoutubeQueue] = []
@@ -52,7 +49,7 @@ class YoutubeWatchersManager:
         # TODO - functionality to tested yet
         self.log(str(yt_datetime.get_current_ytdate()) + " - starting db integrity process", True)
         for watcher in self.watchers:
-            self.log(f'Checking: {watcher.id} - {watcher.name}', True)
+            self.log(f'Checking: {watcher.channel_id} - {watcher.name}', True)
             watcher_db_file = watcher.db_file
             db_data = File.read_json(watcher.db_file)
 
@@ -108,7 +105,7 @@ class YoutubeWatchersManager:
 
     def obtain_all_videos(self, watcher: YoutubeWatcher):
         watcher.videos = []
-        videos = self.api.get_channel_uploads_from_date(watcher.id, yt_datetime.get_default_ytdate())
+        videos = self.api.get_channel_uploads_from_date(watcher.channel_id, yt_datetime.get_default_ytdate())
         for item in videos:
             yt_video = YoutubeVideo.from_youtube_api_video_and_watcher(item, watcher)
             yt_video.number = 0
@@ -117,16 +114,15 @@ class YoutubeWatchersManager:
     def check_for_updates(self) -> None:
         self.log(str(yt_datetime.get_current_ytdate()) + " - starting update process for watchers")
         for watcher in self.watchers:
-            self.log(f'Checking: {watcher.id} - {watcher.name}')
-            watcher.check_date = yt_datetime.get_current_ytdate()
-            videos = self.api.get_channel_uploads_from_date(watcher.id, watcher.reference_date)
+            self.log(f'Checking: {watcher.channel_id} - {watcher.name}')
+            watcher.new_check_date = yt_datetime.get_current_ytdate()
+            videos = self.api.get_channel_uploads_from_date(watcher.channel_id, watcher.check_date)
 
             self.log(f"{watcher.name.ljust(30)} || New uploads - {len(videos)}")
             for item in videos:
                 self.log("\t" + str(item.data))
+                watcher.video_count += 1
                 yt_video = YoutubeVideo.from_youtube_api_video_and_watcher(item, watcher)
-
-                watcher.video_number += 1
                 watcher.append_video(yt_video)
 
     def generate_queue(self) -> None:
@@ -163,10 +159,9 @@ class YoutubeWatchersManager:
         # TODO - create a class for tags (or metadata? to decide which term to use)
         for watcher in self.watchers:
             for video in watcher.videos:
-                file_extension = watcher.format
                 file_abs_path = video.get_file_abs_path()
 
-                if file_extension == constants.MP3:
+                if watcher.file_extension == FileExtension.MP3:
                     tags = {
                         "genre": video.channel_name,
                         "title": video.title,
@@ -191,7 +186,7 @@ class YoutubeWatchersManager:
     def update_track_list_log(self) -> None:
         # TODO - create a class for track file
         for watcher in self.watchers:
-            if watcher.format == constants.MP3:
+            if watcher.file_extension.is_audio():
                 track_list_log_file = watcher.track_log_file
                 if track_list_log_file is None:
                     track_list_log_file = watcher.generate_default_track_log_file_name()
@@ -230,7 +225,7 @@ class YoutubeWatchersManager:
 
     def finish(self) -> None:
         for watcher in self.watchers:
-            watcher.reference_date = watcher.check_date
+            watcher.check_date = watcher.new_check_date
 
         watchers_json = ["[", ",\n".join([watcher.to_json() for watcher in self.watchers]), "]"]
         File.write(self.watchers_file, watchers_json, File.ENCODING_UTF8)

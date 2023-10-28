@@ -4,6 +4,7 @@ import yt_dlp as youtube_dl
 # For VK downloads use yt-dlp==2021.11.10
 
 from utils import File
+from youtube.model.file_extension import FileExtension
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube.utils import constants
 from youtube.utils.constants import ALLOWED_VIDEO_QUALITY
@@ -36,12 +37,12 @@ class YoutubeDownloader:
             self.download_stats = d
 
     def download(self, queue: YoutubeQueue):
-        if queue.save_format == constants.MP3:
+        if queue.file_extension.is_audio():
             self.download_audio(queue)
-        elif queue.save_format == constants.MKV or queue.save_format == constants.MP4:
+        elif queue.file_extension.is_video():
             self.download_video(queue)
         else:
-            print("Handling not supported for extension " + queue.save_format)
+            print("Handling not supported for extension " + queue.file_extension.value)
 
     def download_audio(self, queue: YoutubeQueue):
         output_file_path = queue.save_location + '\\' + queue.file_name + '.%(ext)s'
@@ -86,11 +87,11 @@ class YoutubeDownloader:
         queue.replace_file_name_tags()
 
         # Merge audio and video parts to single file
-        audio_file = default_audio_name + "." + constants.M4A
+        audio_file = default_audio_name + "." + FileExtension.M4A.value
         video_file_extension = File.get_file_extension(queue.save_location, default_video_name)
         video_file = default_video_name + "." + video_file_extension
 
-        merged_file = queue.file_name + "." + queue.save_format
+        merged_file = queue.file_name + "." + queue.file_extension.value
         Ffmpeg.merge_audio_and_video(queue.save_location, audio_file, video_file, merged_file)
 
         if video_quality:

@@ -4,12 +4,12 @@ import time
 import sys
 import traceback
 
+from youtube.model.file_extension import FileExtension
 from youtube.utils.downloader import YoutubeDownloader
 from youtube.watchers.youtube.queue import YoutubeQueue
 
 from youtube import paths
 from youtube.settings.settings import YTDownloadSettings
-from youtube.utils import constants
 from utils import File
 
 DEFAULT_SETTINGS = "settings.json"
@@ -18,7 +18,7 @@ COMMENT_LINE = "#"
 SEPARATOR = ";"
 
 DEFAULT_TITLE = '%(title)s'
-DEFAULT_EXTENSION = constants.MP3
+DEFAULT_EXTENSION = FileExtension.MP3
 
 
 def process_my_location():
@@ -62,6 +62,8 @@ def parse_input_line(line):
             title = DEFAULT_TITLE
         if len(extension) == 0:
             extension = DEFAULT_EXTENSION
+        else:
+            extension = FileExtension.from_str(extension)
         if len(quality) == 0:
             quality = None
         else:

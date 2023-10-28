@@ -3,7 +3,7 @@ import re
 from typing import Tuple
 
 from utils import File
-from youtube.utils.constants import MERGED_FORMAT
+from youtube.model.file_extension import FileExtension
 
 METADATA_HEADER = ";FFMETADATA1"
 
@@ -14,7 +14,7 @@ class Ffmpeg:
         audio_abs_path = files_path + "\\" + video
         video_abs_path = files_path + "\\" + audio
         merged_abs_path = files_path + "\\" + merged
-        temp_merged_file = files_path + "\\merged." + MERGED_FORMAT
+        temp_merged_file = files_path + "\\merged." + FileExtension.MKV.value
 
         merge_command = "ffmpeg" \
                         " -i " + video_abs_path + \
