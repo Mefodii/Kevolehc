@@ -6,12 +6,10 @@ import yt_dlp as youtube_dl
 from utils import File
 from youtube.model.file_extension import FileExtension
 from youtube.utils.ffmpeg import Ffmpeg
-from youtube.utils import constants
 from youtube.utils.constants import ALLOWED_VIDEO_QUALITY
 from youtube.watchers.youtube.queue import YoutubeQueue
 
-DL_EXTENSION = "ext"
-DL_TITLE = "title"
+EXT_TAG = ".%(ext)s"
 
 
 class YoutubeDownloaderLogger(object):
@@ -45,7 +43,7 @@ class YoutubeDownloader:
             print("Handling not supported for extension " + queue.file_extension.value)
 
     def download_audio(self, queue: YoutubeQueue):
-        output_file_path = queue.save_location + '\\' + queue.file_name + '.%(ext)s'
+        output_file_path = queue.save_location + '\\' + queue.file_name + EXT_TAG
         ydl_opts = self.build_audio_download_options(output_file_path)
 
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
@@ -56,6 +54,7 @@ class YoutubeDownloader:
 
     def download_video(self, queue: YoutubeQueue):
         # TODO: delete audio/video parts if exists
+
         # Validate video_quality value
         video_quality = queue.video_quality
         if video_quality and video_quality not in ALLOWED_VIDEO_QUALITY:
@@ -66,7 +65,7 @@ class YoutubeDownloader:
         # Download audio part
         default_audio_name = "audio"
         audio_file = queue.save_location + "\\" + default_audio_name
-        output_file_path = audio_file + '.%(ext)s'
+        output_file_path = audio_file + EXT_TAG
         ydl_opts = self.build_audio_fragment_download_options(output_file_path)
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download([queue.link])
@@ -76,7 +75,7 @@ class YoutubeDownloader:
         # Download video part (has no sound)
         default_video_name = "video"
         video_file = queue.save_location + "\\" + default_video_name
-        output_file_path = video_file + '.%(ext)s'
+        output_file_path = video_file + EXT_TAG
         ydl_opts = self.build_video_fragment_download_options(output_file_path)
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download([queue.link])
@@ -96,7 +95,7 @@ class YoutubeDownloader:
 
         if video_quality:
             print(f"Resizing video file to: {video_quality}")
-            Ffmpeg.resize(f"{queue.save_location}\\{merged_file}", height=video_quality)
+            Ffmpeg.resize(f"{queue.save_location}\\{merged_file}", height=video_quality, scale_bitrate=True)
 
     def build_common_download_options(self, output_file_path):
         return {
