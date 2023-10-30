@@ -42,6 +42,12 @@ class YoutubeWatcher:
         self.videos: list[YoutubeVideo] = []
         self.new_check_date = None
 
+    @classmethod
+    def dummy(cls, ):
+        obj = YoutubeWatcher("dummy", "dummy", "", 0, FileExtension.MP3,
+                             None, None)
+        return obj
+
     @staticmethod
     def validate_data(data: dict):
         for field in MANDATORY_FIELDS:

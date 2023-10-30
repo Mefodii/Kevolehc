@@ -5,14 +5,10 @@ from icecream import ic
 
 from utils import File
 from youtube.model.file_extension import FileExtension
-from youtube.utils import constants
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube import paths
-from youtube.utils.downloader import YoutubeDownloader
 from youtube.watchers.youtube.media import YoutubeVideo
-from youtube.watchers.youtube.queue import YoutubeQueue
 from youtube.watchers.youtube.api import YoutubeWorker
-from youtube_dl.utils import DownloadError
 from youtube.utils.yt_datetime import yt_to_py, compare_yt_dates
 from unicodedata import normalize
 
@@ -51,8 +47,8 @@ def add_to_db():
     check_path = "G:\\Music\\" + name
     extension = FileExtension.MP3
     result_path = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\_db"
-    dbfile = result_path + "\\" + name + ".txt"
-    files_list = File.list_files_sub(check_path)
+    db_file = result_path + "\\" + name + ".txt"
+    files_list = File.list_files(check_path)
 
     result = {}
     for element in files_list:
@@ -77,7 +73,7 @@ def add_to_db():
                     result[episode_id] = {"TITLE": title, "STATUS": "DOWNLOADED", "NUMBER": track, "CHANNEL_NAME": name,
                                           "FILE_NAME": element["filename"], "FORMAT": extension.value}
 
-    File.write_json(dbfile, result)
+    File.write_json(db_file, result)
 
 
 #  Add to position 168 track number if it does not exist
@@ -105,68 +101,6 @@ def add_track_number_to_txt_list(data, db_json):
             output_line = line
 
         print(output_line)
-
-
-def test_download_videos(links_json):
-    # TODO - check to combine with simple_download.py
-    name = "CriticalRole"  # https://criticalrole.fandom.com/wiki/List_of_episodes
-    file_format = FileExtension.MKV
-    output_directory = paths.YOUTUBE_RESULT_PATH
-
-    data = {}
-    for item in links_json:
-        item_id = item["LINK"][32:]
-        item_nr = item["TRACK"]
-        data[item_id] = item_nr
-
-    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE])
-    worker = YoutubeWorker(dk_file)
-    videos = worker.get_videos(list(data.keys()))
-
-    video_list = []
-    for item in videos:
-        print(item)
-        yt_video = YoutubeVideo(item.get_id(), item.get_title(), item.get_channel_name(),
-                                item.get_publish_date(), data.get(item.get_id()), output_directory,
-                                file_format, file_name=None, video_quality=None)
-        video_list.append(yt_video)
-
-    q_list = [YoutubeQueue.from_youtubevideo(video) for video in video_list]
-    q_len = str(len(q_list))
-    i = 0
-    downloader = YoutubeDownloader(paths.RESOURCES_PATH)
-    for queue in q_list:
-        print(repr(queue))
-        i += 1
-        q_progress = str(i) + "/" + q_len
-
-        result_file = queue.save_location + "\\" + queue.file_name + "." + queue.file_extension.value
-        if File.exists(result_file):
-            print("Queue ignored, file exist: " + q_progress)
-        else:
-            print("Process queue: " + q_progress + " - " + result_file)
-            try:
-                downloader.download(queue)
-            except DownloadError:
-                print("Unable to download - " + queue.link)
-
-    for video in video_list:
-        file_extension = file_format
-        file_abs_path = "\\".join([video.save_location, video.file_name]) + "." + file_extension
-
-        tags = {
-            "author": name,
-            "title": video.title,
-            "track": str(video.number),
-            "copyright": name,
-            "episode_id": video.video_id,
-            "comment": "by Mefodii"
-        }
-
-        if File.exists(file_abs_path):
-            Ffmpeg.add_tags(file_abs_path, tags)
-        else:
-            print("Not found: " + file_abs_path)
 
 
 def datetime_tests():
@@ -230,6 +164,14 @@ def test():
     File.write_json(db_file, test_data)
 
 
+def test_scaling():
+    bitrate_name = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\bitrate.mkv"
+    resize_name = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\resize.mkv"
+    randbit_name = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\randbit2.mkv"
+    bandre_name = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\bandre.mkv"
+    Ffmpeg.resize(randbit_name, height=720, scale_bitrate=True)
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
@@ -249,7 +191,7 @@ def __main__():
     # -------===========------
     # test_tags()
     # -------===========------
-    add_tags_to_db()
+    test_scaling()
 
 
 #######################################################################################################################

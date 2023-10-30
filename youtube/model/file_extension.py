@@ -9,7 +9,7 @@ class FileExtension(Enum):
 
     @classmethod
     def from_str(cls, value: str):
-        return FileExtension[value.upper()]
+        return FileExtension(value.lower())
 
     def is_audio(self):
         return self in AUDIO_EXTENSIONS

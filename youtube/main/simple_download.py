@@ -4,8 +4,11 @@ import time
 import sys
 import traceback
 
-from youtube.model.file_extension import FileExtension
+from youtube.model.input_queue import InputQueue, InputQueueType, COMMENT_FLAG
 from youtube.utils.downloader import YoutubeDownloader
+from youtube.watchers.youtube.api import YoutubeWorker
+from youtube.watchers.youtube.manager import YoutubeWatchersManager
+from youtube.watchers.youtube.media import YoutubeVideo
 from youtube.watchers.youtube.queue import YoutubeQueue
 
 from youtube import paths
@@ -13,12 +16,6 @@ from youtube.settings.settings import YTDownloadSettings
 from utils import File
 
 DEFAULT_SETTINGS = "settings.json"
-FORMATTED_OUTPUT = "<!>"
-COMMENT_LINE = "#"
-SEPARATOR = ";"
-
-DEFAULT_TITLE = '%(title)s'
-DEFAULT_EXTENSION = FileExtension.MP3
 
 
 def process_my_location():
@@ -49,30 +46,26 @@ def print_traceback():
     print(repr(traceback.format_tb(exc_traceback)))
 
 
-def parse_input_line(line):
-    title = DEFAULT_TITLE
-    extension = DEFAULT_EXTENSION
-    quality = None
-    url = line
+def download_watcher_like(input_queue: list[InputQueue], save_location: str):
+    # name = "CriticalRole" https://criticalrole.fandom.com/wiki/List_of_episodes
+    data = {item.get_video_id(): item for item in input_queue}
 
-    if line.startswith(FORMATTED_OUTPUT):
-        # "<!>;Title;mp3;quality;url
-        _, title, extension, quality, url = line.split(SEPARATOR)
-        if len(title) == 0:
-            title = DEFAULT_TITLE
-        if len(extension) == 0:
-            extension = DEFAULT_EXTENSION
-        else:
-            extension = FileExtension.from_str(extension)
-        if len(quality) == 0:
-            quality = None
-        else:
-            quality = int(quality)
+    dk_file = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_DK_FILE])
+    api_worker = YoutubeWorker(dk_file)
+    api_videos = api_worker.get_videos(list(data.keys()))
 
-    if len(url) == 0:
-        raise Exception("Url should not be empty")
+    videos = []
+    for api_video in api_videos:
+        video_id = api_video.get_id()
+        input_queue_item: InputQueue = data.get(video_id)
+        video = YoutubeVideo(video_id, api_video.get_title(), input_queue_item.channel_name,
+                             api_video.get_publish_date(), input_queue_item.track_nr, save_location,
+                             input_queue_item.file_extension, file_name=None,
+                             video_quality=input_queue_item.video_quality)
+        videos.append(video)
 
-    return title, extension, quality, url
+    manager = YoutubeWatchersManager(api_worker)
+    manager.simple_download(videos)
 
 
 #######################################################################################################################
@@ -96,14 +89,24 @@ def __main__(settings_file):
     downloader = YoutubeDownloader(resources_path)
 
     input_lines = File.read(input_file, File.ENCODING_UTF8)
-    input_lines = list(filter(lambda line: not line.startswith(COMMENT_LINE), input_lines))
-    total_to_download = len(input_lines)
-    for i, input_line in enumerate(input_lines):
+    input_lines = list(filter(lambda line: not line.startswith(COMMENT_FLAG), input_lines))
+    input_queue = [InputQueue.from_str(line) for line in input_lines]
+    simple_queue: list[InputQueue] = list(filter(lambda item: item.queue_type == InputQueueType.ARGUMENTS, input_queue))
+    simple_queue += list(filter(lambda item: item.queue_type == InputQueueType.DEFAULT, input_queue))
+    watcher_type_queue: list[InputQueue] = list(filter(lambda item: item.queue_type == InputQueueType.WATCHER_LIKE,
+                                                       input_queue))
+
+    # TODO - test new implementation
+    total_to_download = len(simple_queue)
+    for i, queue_item in enumerate(simple_queue):
         print("".join(["Downloading ", str(i + 1), "/", str(total_to_download)]))
 
-        title, extension, quality, url = parse_input_line(input_line)
-        queue = YoutubeQueue("", title, output_directory, extension, video_quality=quality, link=url)
+        queue = YoutubeQueue("", queue_item.title, output_directory, queue_item.file_extension,
+                             video_quality=queue_item.video_quality, link=queue_item.url)
         downloader.download(queue)
+
+    if len(watcher_type_queue) > 0:
+        download_watcher_like(watcher_type_queue, output_directory)
 
 
 #######################################################################################################################

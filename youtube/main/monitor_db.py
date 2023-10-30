@@ -3,6 +3,8 @@ import os
 import time
 from utils import File
 from youtube import paths
+from youtube.model.file_extension import FileExtension
+from youtube.model.file_tags import FileTags
 from youtube.watchers.youtube.media import YoutubeVideo
 from youtube.paths import WATCHERS_DOWNLOAD_PATH
 from youtube.utils.ffmpeg import Ffmpeg
@@ -105,34 +107,37 @@ def shift_playlist_at_position(monitor_name, position, step):
     File.write(playlist_file, data, File.ENCODING_UTF8)
 
 
-def sync_pos_files_lib_with_db(monitor_name, lib_path, extension):
+def sync_pos_files_lib_with_db(monitor_name: str, lib_path: str, extension: FileExtension):
     db_file = '\\'.join([paths.DB_PATH, monitor_name + ".txt"])
-    db_json = File.read_json(db_file)
+    db_data = File.read_json(db_file)
 
     # Get all files in the directory
-    files_list = File.list_files_sub(lib_path)
+    files_list = File.list_files(lib_path)
 
     for element in files_list:
-        if element["filename"].endswith(extension):
-            abs_path = element["path"] + "\\" + element["filename"]
-            metadata = Ffmpeg.metadata_to_json(Ffmpeg.get_metadata(abs_path))
-            file_id = metadata.get("DISC", None)
+        filename = element[File.FILENAME]
+        file_path = element[File.PATH]
+        if filename.endswith(extension.value):
+            file_abs_path = file_path + "\\" + filename
+            tags = Ffmpeg.metadata_to_json(Ffmpeg.get_metadata(file_abs_path))
+            file_id = tags.get(FileTags.DISC)
             if file_id is None:
-                raise ValueError("File has no ID: " + abs_path)
+                raise ValueError(f"File has no ID: {file_abs_path}")
 
-            json_info = db_json.get(file_id, None)
-            position = json_info[YoutubeVideo.NUMBER]
-            if int(metadata.get("TRACK")) != position:
-                if json_info is None:
-                    raise ValueError("File has no JSON: " + abs_path)
+            db_item_data = db_data.get(file_id)
+            db_item_position = db_item_data[YoutubeVideo.NUMBER]
+            file_position = int(tags.get(FileTags.TRACK))
+            if file_position != db_item_position:
+                if db_item_data is None:
+                    raise ValueError(f"File not found in DB: {file_abs_path}")
 
                 tags = {
-                    "track": str(position)
+                    FileTags.TRACK: str(db_item_position)
                 }
-                Ffmpeg.add_tags(abs_path, tags)
+                Ffmpeg.add_tags(file_abs_path, tags)
 
-                new_name = element["path"] + "\\" + json_info[YoutubeVideo.FILE_NAME] + "." + extension
-                os.rename(abs_path, new_name)
+                new_file_name = file_path + "\\" + db_item_data[YoutubeVideo.FILE_NAME] + "." + extension.value
+                os.rename(file_abs_path, new_file_name)
 
 
 # def download_db_missing():

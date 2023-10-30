@@ -1,4 +1,5 @@
 from youtube.model.file_extension import FileExtension
+from youtube.model.input_queue import InputQueue
 from youtube.utils.constants import DEFAULT_YOUTUBE_WATCH
 from youtube.utils.file_names import normalize_file_name
 from youtube.watchers.youtube.media import YoutubeVideo

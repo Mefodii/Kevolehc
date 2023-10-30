@@ -4,6 +4,7 @@ from yt_dlp import DownloadError
 
 from utils import File
 from youtube.model.file_extension import FileExtension
+from youtube.model.file_tags import FileTags
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube.utils.downloader import YoutubeDownloader
 from youtube.paths import RESOURCES_PATH as FFMPEG_PATH
@@ -18,13 +19,15 @@ from youtube.watchers.youtube.api import YoutubeWorker
 
 
 class YoutubeWatchersManager:
-    def __init__(self, watchers_file: str, api_worker: YoutubeWorker, log_file: str):
+    def __init__(self, api_worker: YoutubeWorker, watchers_file: str = None, log_file: str = None):
         self.log_file = log_file
         self.api = api_worker
         self.watchers_file = watchers_file
+        self.watchers: list[YoutubeWatcher] = []
 
-        data = File.read_json(self.watchers_file)
-        self.watchers = [YoutubeWatcher.from_dict(watcher_dict) for watcher_dict in data]
+        if watchers_file:
+            data = File.read_json(self.watchers_file)
+            self.watchers = [YoutubeWatcher.from_dict(watcher_dict) for watcher_dict in data]
 
         self.queue_list: list[YoutubeQueue] = []
         self.processed_queue_list: list[YoutubeQueue] = []
@@ -32,9 +35,12 @@ class YoutubeWatchersManager:
 
     # Add message to the log file
     def log(self, message, console_print: bool = False) -> None:
-        File.append(self.log_file, message)
-        if console_print:
+        if self.log_file is None:
             print(message)
+        else:
+            File.append(self.log_file, message)
+            if console_print:
+                print(message)
 
     def run_full(self) -> None:
         self.check_for_updates()
@@ -44,6 +50,15 @@ class YoutubeWatchersManager:
         self.update_track_list_log()
         self.update_db_log()
         self.finish()
+
+    def simple_download(self, videos: list[YoutubeVideo]):
+        dummy_watcher = YoutubeWatcher.dummy()
+        dummy_watcher.videos = videos
+        self.watchers.append(dummy_watcher)
+
+        self.generate_queue()
+        self.download_queue()
+        self.append_tags()
 
     def check_db_integrity(self):
         # TODO - functionality to tested yet
@@ -156,30 +171,11 @@ class YoutubeWatchersManager:
         self.queue_list = []
 
     def append_tags(self) -> None:
-        # TODO - create a class for tags (or metadata? to decide which term to use)
         for watcher in self.watchers:
             for video in watcher.videos:
+                tags = FileTags.extract_from_youtubevideo(video)
+
                 file_abs_path = video.get_file_abs_path()
-
-                if watcher.file_extension == FileExtension.MP3:
-                    tags = {
-                        "genre": video.channel_name,
-                        "title": video.title,
-                        "track": str(video.number),
-                        "copyright": video.channel_name,
-                        "disc": video.video_id,
-                        "comment": "by Mefodii"
-                    }
-                else:
-                    tags = {
-                        "author": video.channel_name,
-                        "title": video.title,
-                        "track": str(video.number),
-                        "copyright": video.channel_name,
-                        "episode_id": video.video_id,
-                        "comment": "by Mefodii"
-                    }
-
                 if File.exists(file_abs_path):
                     Ffmpeg.add_tags(file_abs_path, tags)
 

@@ -15,7 +15,7 @@ def __main__():
     dk_file = paths.API_KEY_PATH
 
     worker = YoutubeWorker(dk_file)
-    manager = YoutubeWatchersManager(watchers_file, worker, paths.YOUTUBE_API_LOG)
+    manager = YoutubeWatchersManager(worker, watchers_file, paths.YOUTUBE_API_LOG)
     manager.run_full()
 
 

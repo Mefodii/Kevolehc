@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 from utils import File
-from utils.File import list_files, append_creation_time, CR_TIME, FILENAME, PATH, EXTENSION
+from utils.File import list_files, CR_TIME, FILENAME, PATH, EXTENSION
 from constants.paths import DB_FILE
 
 DATE_FORMAT = '%Y-%m-%dT%H:%M:%S.%f'
@@ -60,10 +60,9 @@ def sync_pages_name(comic_name, keep_old_name=True):
     comic_path = comic.get(COMIC_PATH)
     pages_nr = comic.get(COMIC_PAGES_NR)
 
-    files = list_files(comic_path)
+    files = list_files(comic_path, with_creation_time=True)
     # To change creation date in powershell use command:
     #   (Get-Item "C:\Users\mefod\Downloads\p3-2.jpg").CreationTime=("21 April 2022 07:00:02")
-    append_creation_time(files)
     files = sorted(files, key=lambda d: d[CR_TIME])
 
     rename_files(files[pages_nr:], comic_name, pages_nr + 1, keep_old_name)

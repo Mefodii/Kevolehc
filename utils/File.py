@@ -137,22 +137,29 @@ def delete(file_path: str):
     os.remove(file_path)
 
 
-def list_files(path: str, with_creation_time: bool = False) -> list[dict]:
+def list_files(path: str, recursive: bool = False, with_creation_time: bool = False, depth: int = 0) -> list[dict]:
     """
     Return a list of files from specified path.
-
-    Not recursive
 
     example: [{ PATH: path, FILENAME: filename, CR_TIME: file_creation_datetime,
     CR_TIME_READABLE: file_creation_datetime_human_readable}]
 
     :param path:
+    :param recursive:
+    :param depth: keeping track of recursion level
     :param with_creation_time: True -> append CR_TIME and CR_TIME_READABLE to return elements
     :return:
     """
     files = [{PATH: path, FILENAME: f, EXTENSION: f.split(".")[-1]} for f in listdir(path) if isfile(join(path, f))]
-    if with_creation_time:
+
+    if recursive:
+        for directory in list_dirs(path):
+            files += list_files(directory, recursive=True, with_creation_time=with_creation_time, depth=depth + 1)
+
+    # Append creation when out of all recursion levels
+    if with_creation_time and depth == 0:
         append_creation_time(files)
+
     return files
 
 
@@ -168,7 +175,7 @@ def list_dirs(path: str) -> list[str]:
     return [join(path, f) for f in listdir(path) if isdir(join(path, f))]
 
 
-def append_creation_time(files: list) -> list:
+def append_creation_time(files: list) -> None:
     """
     Append file creation time for each received file. Mutated.
 
@@ -185,22 +192,3 @@ def append_creation_time(files: list) -> list:
         creation_time = os.path.getctime(abs_path)
         file[CR_TIME] = creation_time
         file[CR_TIME_READABLE] = time.ctime(creation_time)
-    return []
-
-
-def list_files_sub(path: str) -> list[dict]:
-    """
-    Return a list of files from specified path. Recursive.
-
-    example: [{ PATH: path, FILENAME: filename}]
-    :param path:
-    :return:
-    """
-
-    # TODO - probably can be merged with list_files function and to have a argument "recursive=T/F"
-    data = list_files(path)
-
-    for directory in list_dirs(path):
-        data += list_files_sub(directory)
-
-    return data
