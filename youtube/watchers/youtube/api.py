@@ -41,7 +41,7 @@ class YoutubeAPIVideo:
         if self.item_type == YoutubeAPIVideoType.PLAYLIST_ITEM:
             return self.data.get("snippet").get("resourceId").get("videoId")
         if self.item_type == YoutubeAPIVideoType.VIDEO_ITEM:
-            return self.data.get("contentDetails").get("videoId")
+            return self.data["id"]
 
         raise Exception(f"Unsupported YoutubeVideoItemType: {self.item_type}")
 
