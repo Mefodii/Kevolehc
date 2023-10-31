@@ -8,26 +8,6 @@ from youtube.model.file_tags import FileTags
 from youtube.watchers.youtube.media import YoutubeVideo
 from youtube.paths import WATCHERS_DOWNLOAD_PATH
 from youtube.utils.ffmpeg import Ffmpeg
-
-
-# def prepare_videos(manager, monitor: YoutubeMonitor, reference_date):
-#     videos = manager.api.get_channel_uploads_from_date(monitor.id, reference_date)
-#
-#     for item in videos:
-#         data = item.data
-#         yt_video_params = YoutubeVideo.parse_json_yt_response(data)
-#         yt_video = YoutubeVideo(yt_video_params[YoutubeVideo.ID], yt_video_params[YoutubeVideo.TITLE],
-#                                 yt_video_params[YoutubeVideo.PUBLISHED_AT],
-#                                 yt_video_params[YoutubeVideo.CHANNEL_NAME], 0)
-#
-#         file_name = " - ".join([str(yt_video.number), str(yt_video.channel_name), str(yt_video.title)])
-#         save_location = paths.WATCHERS_DOWNLOAD_PATH + "\\" + monitor.name
-#
-#         queue = YoutubeQueue(yt_video.id, file_name, save_location, monitor.format, monitor.video_quality)
-#
-#         yt_video.file_name = queue.file_name
-#         yt_video.save_location = queue.save_location
-#         monitor.append_video(yt_video)
 #
 #
 # # Read all monitors and cross-check with db files.
@@ -77,22 +57,9 @@ from youtube.utils.ffmpeg import Ffmpeg
 #         File.write_json_data(db_file, db_json)
 
 
-def shift_db_at_position(monitor_name, position, step):
-    db_file = '\\'.join([paths.DB_PATH, monitor_name + ".txt"])
-    db_json = File.read_json(db_file)
-
-    for key, value in db_json.items():
-        if value["NUMBER"] >= position:
-            number = value["NUMBER"]
-            next_number = number + step
-            value["FILE_NAME"] = value["FILE_NAME"].replace(str(number) + " - ", str(next_number) + " - ")
-            value["NUMBER"] = next_number
-
-    File.write_json(db_file, db_json)
-
-
 def shift_playlist_at_position(monitor_name, position, step):
-    playlist_location = "E:\\Google Drive\\Mu\\plist\\"
+    # TODO - YOUTUBE_PLAYLIST_PATH should not be used. Delete after making class for playlist
+    playlist_location = paths.YOUTUBE_PLAYLIST_PATH
     playlist_file = '\\'.join([playlist_location, monitor_name + ".txt"])
     data = File.read(playlist_file, File.ENCODING_UTF8)
 
@@ -138,35 +105,6 @@ def sync_pos_files_lib_with_db(monitor_name: str, lib_path: str, extension: File
 
                 new_file_name = file_path + "\\" + db_item_data[YoutubeVideo.FILE_NAME] + "." + extension.value
                 os.rename(file_abs_path, new_file_name)
-
-
-# def download_db_missing():
-#     monitors_db = paths.YOUTUBE_WATCHERS_PATH
-#     # monitors_db = paths.SIDE_MONITORS_PATH
-#     # monitors_db = paths.SECONDARY_MONITORS_PATH
-#     dk_file = paths.API_KEY_PATH
-#
-#     worker = YoutubeWorker(dk_file)
-#     manager = MonitorManager(monitors_db, worker, paths.YOUTUBE_API_LOG)
-#     for monitor in manager.monitors:
-#         db_file = '\\'.join([paths.DB_LOG_PATH, monitor.name + ".txt"])
-#         db_json = File.get_json_data(db_file)
-#
-#         for key, value in db_json.items():
-#             if value["STATUS"] == "MISSING":
-#             # if value["STATUS"] == "UNABLE":
-#                 yt_video = YoutubeVideo(key, value[YoutubeVideo.TITLE], value[YoutubeVideo.PUBLISHED_AT],
-#                                         value[YoutubeVideo.CHANNEL_NAME], value[YoutubeVideo.NUMBER])
-#                 monitor.append_video(yt_video)
-#
-#     manager.generate_queue()
-#     queue_manager = YoutubeQueueManager(paths.YOUTUBE_API_LOG)
-#     queue_manager.queue_list = manager.queue_list
-#     queue_manager.process_queue_list()
-#
-#     manager.append_tags()
-#     manager.update_track_list_log()
-#     manager.update_db_log()
 
 
 #######################################################################################################################

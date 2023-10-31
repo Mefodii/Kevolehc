@@ -3,13 +3,14 @@ from __future__ import unicode_literals
 from yt_dlp import DownloadError
 
 from utils import File
+from youtube import paths
 from youtube.model.file_extension import FileExtension
 from youtube.model.file_tags import FileTags
 from youtube.model.playlist_item import PlaylistItem
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube.utils.downloader import YoutubeDownloader
 from youtube.paths import RESOURCES_PATH as FFMPEG_PATH
-from youtube.utils import yt_datetime, constants
+from youtube.utils import yt_datetime, constants, db_utils
 from youtube.utils.constants import DEFAULT_YOUTUBE_WATCH
 
 from youtube.watchers.youtube.media import YoutubeVideo
@@ -195,21 +196,7 @@ class YoutubeWatchersManager:
                     File.append(track_list_log_file, track_list)
 
     def update_db_log(self) -> None:
-        for watcher in self.watchers:
-            db_file = watcher.db_file
-            db_data = {}
-            if File.exists(db_file):
-                db_data = File.read_json(db_file)
-
-            for video in watcher.videos:
-                file_abs_path = video.get_file_abs_path()
-                video.status = YoutubeVideo.STATUS_UNABLE
-                if File.exists(file_abs_path):
-                    video.status = YoutubeVideo.STATUS_DOWNLOADED
-
-                db_data[video.video_id] = video.to_dict()
-
-            File.write_json(db_file, db_data)
+        [db_utils.update_db_log(watcher) for watcher in self.watchers]
 
     def finish(self) -> None:
         for watcher in self.watchers:

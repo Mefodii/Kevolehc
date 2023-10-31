@@ -5,12 +5,16 @@ from icecream import ic
 
 from utils import File
 from youtube.model.file_extension import FileExtension
+from youtube.model.playlist_item import PlaylistItem
+from youtube.utils import db_utils
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube import paths
 from youtube.watchers.youtube.media import YoutubeVideo
 from youtube.watchers.youtube.api import YoutubeWorker
 from youtube.utils.yt_datetime import yt_to_py, compare_yt_dates
 from unicodedata import normalize
+
+from youtube.watchers.youtube.watcher import YoutubeWatcher
 
 
 def test_yt_to_py():
@@ -153,23 +157,33 @@ def add_tags_to_db():
         File.write_json(db_file, data)
 
 
-def test():
-    db_file = f"{paths.DB_PATH}\\Bob42jh.txt"
-    data = File.read_json(db_file)
-    test_data = {}
-    for video_dict in data.values():
-        video = YoutubeVideo.from_dict(video_dict)
-        test_data[video.video_id] = video.to_dict()
+def test_playlist_item_class():
+    dk_file = paths.API_KEY_PATH
+    worker = YoutubeWorker(dk_file)
+    dummy_watcher = YoutubeWatcher.dummy()
+    dummy_watcher.video_count = 3230
+    items = worker.get_channel_uploads_from_date("UCm3-xqAh3Z-CwBniG1u_1vw", "2023-10-14T06:20:50.193Z")
+    for item in items:
+        dummy_watcher.video_count += 1
+        yt_video = YoutubeVideo.from_youtube_api_video_and_watcher(item, dummy_watcher)
+        dummy_watcher.append_video(yt_video)
 
-    File.write_json(db_file, test_data)
+    output = []
+    for video in dummy_watcher.videos:
+        item = PlaylistItem.from_youtubevideo(video)
+        output.append(str(item))
+
+    File.write("E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\res.txt", output)
 
 
-def test_scaling():
-    bitrate_name = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\bitrate.mkv"
-    resize_name = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\resize.mkv"
-    randbit_name = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\randbit2.mkv"
-    bandre_name = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\bandre.mkv"
-    Ffmpeg.resize(randbit_name, height=720, scale_bitrate=True)
+def test_db_utils():
+    dummy_watcher = YoutubeWatcher.dummy()
+    dummy_watcher.db_file = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\shift.txt"
+    # db_utils.shift_number(dummy_watcher, 4, -2)
+    dummy_watcher.db_file = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\move.txt"
+    # db_utils.move_video_number(dummy_watcher, "CbfZUCjwWrA", 6)
+    dummy_watcher.db_file = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\delete.txt"
+    # db_utils.delete_video(dummy_watcher, "j3JbdzMzh2E")
 
 
 #######################################################################################################################
@@ -189,9 +203,7 @@ def __main__():
     # -------===========------
     # test_compose_unicode(get_input_data())
     # -------===========------
-    # test_tags()
-    # -------===========------
-    test_scaling()
+    test_db_utils()
 
 
 #######################################################################################################################
