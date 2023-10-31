@@ -2,13 +2,13 @@ from utils import File
 from youtube.utils.constants import DEFAULT_YOUTUBE_WATCH
 from youtube.watchers.youtube.media import YoutubeVideo
 
-START_POS_ITEM_FLAG = 2
-START_POS_TITLE = 6
-START_POS_URL = 116
-START_POS_TRACK_NR = 168
+START_POS_ITEM_FLAG = 0
+START_POS_TITLE = 5
+START_POS_URL = 115
+START_POS_TRACK_NR = 167
 
-ITEM_FLAG_DEFAULT = "[ ]"
-ITEM_FLAG_MISSING = "[@]"
+ITEM_FLAG_DEFAULT = " [ ]"
+ITEM_FLAG_MISSING = " [@]"
 
 
 class PlaylistItem:
@@ -30,16 +30,24 @@ class PlaylistItem:
 
     @classmethod
     def from_str(cls, line: str):
-        # TODO - create from string
-        obj = PlaylistItem("", 0, "")
+        item_flag = line[START_POS_ITEM_FLAG:START_POS_TITLE].rstrip()
+        title = line[START_POS_TITLE:START_POS_URL].rstrip()
+        url = line[START_POS_URL:START_POS_TRACK_NR].rstrip()
+        track_nr = int(line[START_POS_TRACK_NR:].rstrip())
+        obj = PlaylistItem(title, track_nr, url, item_flag)
         return obj
+
+    @staticmethod
+    def is_playlist_str(line: str) -> bool:
+        # Keeping it simple atm
+        return line[1:2] in "[{"
 
     def append_child(self, child: str):
         self.children.append(child)
 
     def __str__(self):
-        s = "".ljust(START_POS_ITEM_FLAG - 1) + self.item_flag
-        s = s.ljust(START_POS_TITLE - 1) + self.title
-        s = s.ljust(START_POS_URL - 1) + self.url
-        s = s.ljust(START_POS_TRACK_NR - 1) + str(self.track_nr)
+        s = "".ljust(START_POS_ITEM_FLAG) + self.item_flag
+        s = s.ljust(START_POS_TITLE) + self.title
+        s = s.ljust(START_POS_URL) + self.url
+        s = s.ljust(START_POS_TRACK_NR) + str(self.track_nr)
         return s

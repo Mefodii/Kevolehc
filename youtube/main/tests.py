@@ -186,6 +186,26 @@ def test_db_utils():
     # db_utils.delete_video(dummy_watcher, "j3JbdzMzh2E")
 
 
+def test_playlist_from_str():
+    data = File.read("E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\res.txt",
+                     File.ENCODING_UTF8)
+    items = []
+    item = None
+    for line in data:
+        if PlaylistItem.is_playlist_str(line):
+            item = PlaylistItem.from_str(line)
+            items.append(item)
+        else:
+            item.append_child(line)
+
+    res = []
+    for item in items:
+        res.append(str(item))
+        [res.append(child) for child in item.children]
+    File.write("E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\res2.txt", res,
+               File.ENCODING_UTF8)
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
@@ -203,7 +223,7 @@ def __main__():
     # -------===========------
     # test_compose_unicode(get_input_data())
     # -------===========------
-    test_playlist_item_class()
+    test_playlist_from_str()
 
 
 #######################################################################################################################
