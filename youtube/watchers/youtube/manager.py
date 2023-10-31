@@ -5,6 +5,7 @@ from yt_dlp import DownloadError
 from utils import File
 from youtube.model.file_extension import FileExtension
 from youtube.model.file_tags import FileTags
+from youtube.model.playlist_item import PlaylistItem
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube.utils.downloader import YoutubeDownloader
 from youtube.paths import RESOURCES_PATH as FFMPEG_PATH
@@ -180,7 +181,6 @@ class YoutubeWatchersManager:
                     Ffmpeg.add_tags(file_abs_path, tags)
 
     def update_track_list_log(self) -> None:
-        # TODO - create a class for track file
         for watcher in self.watchers:
             if watcher.file_extension.is_audio():
                 track_list_log_file = watcher.track_log_file
@@ -189,16 +189,8 @@ class YoutubeWatchersManager:
                     self.log(f"WARNING! Watcher has no track log file. "
                              f"Log is saved to default location: {track_list_log_file}", True)
 
-                track_list = []
-                for video in watcher.videos:
-                    file_abs_path = video.get_file_abs_path()
-                    if File.exists(file_abs_path):
-                        track_mark = " [ ] " + video.title
-                    else:
-                        track_mark = " [@] " + video.title
-                    track_list.append(
-                        track_mark.ljust(115) + DEFAULT_YOUTUBE_WATCH + video.video_id.ljust(20) + str(video.number))
-
+                # TODO - check if works properly
+                track_list = [str(PlaylistItem.from_youtubevideo(video)) for video in watcher.videos]
                 if len(track_list) > 0:
                     File.append(track_list_log_file, track_list)
 

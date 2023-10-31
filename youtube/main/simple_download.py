@@ -96,7 +96,6 @@ def __main__(settings_file):
     watcher_type_queue: list[InputQueue] = list(filter(lambda item: item.queue_type == InputQueueType.WATCHER_LIKE,
                                                        input_queue))
 
-    # TODO - test new implementation
     total_to_download = len(simple_queue)
     for i, queue_item in enumerate(simple_queue):
         print("".join(["Downloading ", str(i + 1), "/", str(total_to_download)]))
