@@ -3,7 +3,7 @@ from youtube.watchers.youtube.media import YoutubeVideo
 from youtube.watchers.youtube.watcher import YoutubeWatcher
 
 
-def update_log(watcher: YoutubeWatcher) -> None:
+def add_videos(watcher: YoutubeWatcher) -> None:
     """
     Transform all watcher's videos to dict and append to watcher's db file.
     :param watcher:

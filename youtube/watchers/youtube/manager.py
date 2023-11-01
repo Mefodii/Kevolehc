@@ -196,7 +196,7 @@ class YoutubeWatchersManager:
                     File.append(track_list_log_file, track_list)
 
     def update_db_log(self) -> None:
-        [db_utils.update_db_log(watcher) for watcher in self.watchers]
+        [db_utils.add_videos(watcher) for watcher in self.watchers]
 
     def finish(self) -> None:
         for watcher in self.watchers:
