@@ -25,17 +25,16 @@ def add_videos(watcher: YoutubeWatcher) -> None:
     File.write_json(db_file, db_data)
 
 
-def shift_number(watcher: YoutubeWatcher, number: int, step: int = 1):
+def shift_number(db_file: str, number: int, step: int = 1):
     """
     All videos with number greater or equal of given number will have its number changed by step.
 
     Update video file_name with new number
-    :param watcher:
+    :param db_file:
     :param number:
     :param step: how many position to shift. Negative as well
     :return:
     """
-    db_file = watcher.db_file
     db_data = File.read_json(db_file)
 
     shift_items(db_data, position_start=number, position_end=None, step=step)
@@ -43,18 +42,17 @@ def shift_number(watcher: YoutubeWatcher, number: int, step: int = 1):
     File.write_json(db_file, db_data)
 
 
-def move_video_number(watcher: YoutubeWatcher, video_id: str, new_number: int):
+def move_video_number(db_file: str, video_id: str, new_number: int):
     """
     Shift down by 1 all videos with number larger than video_id.number until reaching new_number.
     And set video_id.number to new_number
 
     If video_id.number = 0, then shift by 1 all videos with number >= new_number
-    :param watcher:
+    :param db_file:
     :param video_id:
     :param new_number:
     :return:
     """
-    db_file = watcher.db_file
     db_data = File.read_json(db_file)
 
     video = YoutubeVideo.from_dict(db_data[video_id])
@@ -74,14 +72,13 @@ def move_video_number(watcher: YoutubeWatcher, video_id: str, new_number: int):
     File.write_json(db_file, db_data)
 
 
-def delete_video(watcher: YoutubeWatcher, video_id: str):
+def delete_video(db_file: str, video_id: str):
     """
     Find video with given id and delete it from db. All other videos number is shifted by -1.
-    :param watcher:
+    :param db_file:
     :param video_id:
     :return:
     """
-    db_file = watcher.db_file
     db_data = File.read_json(db_file)
 
     position = YoutubeVideo.from_dict(db_data[video_id]).number
