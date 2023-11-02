@@ -57,23 +57,6 @@ from youtube.utils.ffmpeg import Ffmpeg
 #         File.write_json_data(db_file, db_json)
 
 
-def shift_playlist_at_position(monitor_name, position, step):
-    # TODO - YOUTUBE_PLAYLIST_PATH should not be used. Delete after making class for playlist
-    playlist_location = paths.YOUTUBE_PLAYLIST_PATH
-    playlist_file = '\\'.join([playlist_location, monitor_name + ".txt"])
-    data = File.read(playlist_file, File.ENCODING_UTF8)
-
-    for i in range(len(data)):
-        line = data[i]
-        if "[" in line[1:2]:
-            track_nr = int(line[167:])
-            if track_nr >= position:
-                next_track_nr = track_nr + step
-                data[i] = line[:167] + str(next_track_nr)
-
-    File.write(playlist_file, data, File.ENCODING_UTF8)
-
-
 def sync_pos_files_lib_with_db(monitor_name: str, lib_path: str, extension: FileExtension):
     db_file = '\\'.join([paths.DB_PATH, monitor_name + ".txt"])
     db_data = File.read_json(db_file)
