@@ -12,11 +12,11 @@ ITEM_FLAG_MISSING = " [@]"
 
 
 class PlaylistItem:
-    def __init__(self, title: str, track_nr: int, url: str, item_flag: str):
+    def __init__(self, title: str, url: str, item_flag: str, track_nr: int = None):
         self.title = title
-        self.track_nr = track_nr
         self.url = url
         self.item_flag = item_flag
+        self.track_nr = track_nr
         # Note: currently no special handling for children.
         # Every line which is under this item and until next PlaylistItem is considered as child.
         self.children: list[str] = []
@@ -25,7 +25,7 @@ class PlaylistItem:
     def from_youtubevideo(cls, item: YoutubeVideo):
         item_flag = ITEM_FLAG_DEFAULT if File.exists(item.get_file_abs_path()) else ITEM_FLAG_MISSING
         url = DEFAULT_YOUTUBE_WATCH + item.video_id
-        obj = PlaylistItem(item.title, item.number, url, item_flag)
+        obj = PlaylistItem(item.title, url, item_flag, item.number)
         return obj
 
     @classmethod
@@ -33,8 +33,8 @@ class PlaylistItem:
         item_flag = line[START_POS_ITEM_FLAG:START_POS_TITLE].rstrip()
         title = line[START_POS_TITLE:START_POS_URL].rstrip()
         url = line[START_POS_URL:START_POS_TRACK_NR].rstrip()
-        track_nr = int(line[START_POS_TRACK_NR:].rstrip())
-        obj = PlaylistItem(title, track_nr, url, item_flag)
+        track_nr = int(line[START_POS_TRACK_NR:].rstrip()) if len(line) > START_POS_TRACK_NR else None
+        obj = PlaylistItem(title, url, item_flag, track_nr)
         return obj
 
     @staticmethod
@@ -49,5 +49,7 @@ class PlaylistItem:
         s = "".ljust(START_POS_ITEM_FLAG) + self.item_flag
         s = s.ljust(START_POS_TITLE) + self.title
         s = s.ljust(START_POS_URL) + self.url
-        s = s.ljust(START_POS_TRACK_NR) + str(self.track_nr)
+
+        if self.track_nr is not None:
+            s = s.ljust(START_POS_TRACK_NR) + str(self.track_nr)
         return s
