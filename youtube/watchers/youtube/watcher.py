@@ -17,6 +17,8 @@ FILE_EXTENSION = "file_extension"
 VIDEO_QUALITY = "video_quality"
 TRACK_LOG_FILE = "track_log_file"
 
+DUMMY_NAME = "dummy_name"
+
 MANDATORY_FIELDS = [
     WATCHER_NAME,
     CHANNEL_ID,
@@ -28,12 +30,20 @@ class YoutubeWatcher:
     def __init__(self, name: str, channel_id: str, check_date: str, video_count: int, file_extension: FileExtension,
                  track_log_file: str = None, video_quality: int = None):
         # TODO - need parameter to only track the uploads, without download
+        self.is_dummy = name == DUMMY_NAME
         self.name = name
         self.channel_id = channel_id
         self.check_date = check_date
         self.video_count = video_count
         self.file_extension = file_extension
-        self.track_log_file = track_log_file
+
+        # TODO - rename track_log_file to playlist_file
+        if self.file_extension.is_audio() and track_log_file is None and not self.is_dummy:
+            self.track_log_file = self.generate_default_track_log_file_name()
+            print(f"WARNING! Audio Watcher has no track log file. Associated default log: {self.track_log_file}")
+        else:
+            self.track_log_file = track_log_file
+
         self.video_quality = video_quality
 
         self.save_location = "\\".join([paths.WATCHERS_DOWNLOAD_PATH, self.name])
@@ -42,9 +52,10 @@ class YoutubeWatcher:
         self.videos: list[YoutubeVideo] = []
         self.new_check_date = None
 
+
     @classmethod
     def dummy(cls, ):
-        obj = YoutubeWatcher("dummy", "dummy", "", 0, FileExtension.MP3,
+        obj = YoutubeWatcher(DUMMY_NAME, "dummy", "", 0, FileExtension.MP3,
                              None, None)
         return obj
 
