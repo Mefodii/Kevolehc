@@ -49,7 +49,7 @@ class YoutubeWatchersManager:
         self.generate_queue()
         self.download_queue()
         self.append_tags()
-        self.update_track_list_log()
+        self.update_playlist_log()
         self.update_db_log()
         self.finish()
 
@@ -117,7 +117,7 @@ class YoutubeWatchersManager:
         self.generate_queue()
         self.download_queue()
         self.append_tags()
-        self.update_track_list_log()
+        self.update_playlist_log()
         self.update_db_log()
 
     def obtain_all_videos(self, watcher: YoutubeWatcher):
@@ -181,19 +181,13 @@ class YoutubeWatchersManager:
                 if File.exists(file_abs_path):
                     Ffmpeg.add_tags(file_abs_path, tags)
 
-    def update_track_list_log(self) -> None:
+    def update_playlist_log(self) -> None:
         for watcher in self.watchers:
-            if watcher.file_extension.is_audio():
-                track_list_log_file = watcher.track_log_file
-                if track_list_log_file is None:
-                    track_list_log_file = watcher.generate_default_track_log_file_name()
-                    self.log(f"WARNING! Watcher has no track log file. "
-                             f"Log is saved to default location: {track_list_log_file}", True)
-
-                # TODO - check if works properly
+            playlist_file = watcher.track_log_file
+            if playlist_file:
                 track_list = [str(PlaylistItem.from_youtubevideo(video)) for video in watcher.videos]
                 if len(track_list) > 0:
-                    File.append(track_list_log_file, track_list)
+                    File.append(playlist_file, track_list)
 
     def update_db_log(self) -> None:
         [db_utils.add_videos(watcher) for watcher in self.watchers]
