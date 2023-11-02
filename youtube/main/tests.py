@@ -6,43 +6,13 @@ from icecream import ic
 from utils import File
 from youtube.model.file_extension import FileExtension
 from youtube.model.playlist_item import PlaylistItem
-from youtube.utils import db_utils
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube import paths
 from youtube.watchers.youtube.media import YoutubeVideo
 from youtube.watchers.youtube.api import YoutubeWorker
 from youtube.utils.yt_datetime import yt_to_py, compare_yt_dates
-from unicodedata import normalize
 
 from youtube.watchers.youtube.watcher import YoutubeWatcher
-
-
-def test_yt_to_py():
-    a = yt_to_py("2019-06-04T06:16:06.816Z")
-    b = yt_to_py("2019-06-04T06:16:06.816Z")
-    c = yt_to_py("2019-06-04T06:16:06.817Z")
-    d = yt_to_py("2019-06-04T06:16:06.815Z")
-    f = yt_to_py("2019-06-04T06:15:06.816Z")
-
-    print(a == b)
-    print(a == c)
-    print(a == d)
-    print(a < b)
-    print(a > f)
-
-
-def test_compose_unicode(data):
-    result = []
-
-    composed = False
-    for line in data:
-        normalized = normalize('NFC', line)
-        result.append(normalized[:-1])
-        if not normalized == line:
-            composed = True
-
-    print(composed)
-    File.write("C:\\Users\\Mefodii\\Downloads\\nfc.txt", result, File.ENCODING_UTF8)
 
 
 # Create the DB file from already downloaded files
@@ -176,16 +146,6 @@ def test_playlist_item_class():
     File.write("E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\res.txt", output)
 
 
-def test_db_utils():
-    dummy_watcher = YoutubeWatcher.dummy()
-    dummy_watcher.db_file = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\shift.txt"
-    # db_utils.shift_number(dummy_watcher, 4, -2)
-    dummy_watcher.db_file = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\move.txt"
-    # db_utils.move_video_number(dummy_watcher, "CbfZUCjwWrA", 6)
-    dummy_watcher.db_file = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\delete.txt"
-    # db_utils.delete_video(dummy_watcher, "j3JbdzMzh2E")
-
-
 def test_playlist_from_str():
     data = File.read("E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\tests\\res.txt",
                      File.ENCODING_UTF8)
@@ -211,18 +171,6 @@ def test_playlist_from_str():
 #######################################################################################################################
 def __main__():
     pass
-    # -------===========------
-    # db_file = '\\'.join([paths.DB_LOG_PATH, "ThePrimeCronus.txt"])
-    # db_json = File.get_json_data(db_file)
-    # -------===========------
-    # test_http_ident(get_input_data())
-    # -------===========------
-    # yt_input = '/'.join([paths.INPUT_FILES_PATH, paths.YOUTUBE_JSON_FILE])
-    # to_download = File.get_json_data(yt_input)
-    # test_download_videos(to_download)
-    # -------===========------
-    # test_compose_unicode(get_input_data())
-    # -------===========------
     test_playlist_from_str()
 
 
