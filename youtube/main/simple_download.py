@@ -13,7 +13,7 @@ from youtube.watchers.youtube.queue import YoutubeQueue
 
 from youtube import paths
 from youtube.settings.settings import YTDownloadSettings
-from utils import File
+from utils import file
 
 DEFAULT_SETTINGS = "settings.json"
 
@@ -88,7 +88,7 @@ def __main__(settings_file):
 
     downloader = YoutubeDownloader(resources_path)
 
-    input_lines = File.read(input_file, File.ENCODING_UTF8)
+    input_lines = file.read(input_file, file.ENCODING_UTF8)
     input_lines = list(filter(lambda line: not line.startswith(COMMENT_FLAG), input_lines))
     input_queue = [InputQueue.from_str(line) for line in input_lines]
     simple_queue: list[InputQueue] = list(filter(lambda item: item.queue_type == InputQueueType.ARGUMENTS, input_queue))

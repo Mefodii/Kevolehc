@@ -1,7 +1,7 @@
 from os import listdir
 from os.path import isfile, join, isdir
 import time
-from utils import File
+from utils import file
 import ast
 
 from mutagen.easyid3 import EasyID3
@@ -67,7 +67,7 @@ def print_titles(output_filename, data):
         lines.append(element["title"][0])
 
     lines = sorted(set(lines), key=lambda s: s.lower())
-    File.write(path, lines, File.ENCODING_UTF8)
+    file.write(path, lines, file.ENCODING_UTF8)
 
 
 def list_titles(artist, path):

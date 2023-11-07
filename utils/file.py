@@ -18,6 +18,44 @@ CR_TIME_READABLE = "cr_time_r"
 ENCODING_UTF8 = "utf-8"
 
 
+# TODO - class File.
+
+class File:
+    def __init__(self, name, path):
+        self.name = name
+        self.path = path
+        self.extension = name.split(".")[-1]
+        self.cr_time = None
+        self.cr_time_r = None
+
+    def get_abs_path(self):
+        return os.path.join(self.path, self.name)
+
+    @classmethod
+    def from_abs_path(cls, abs_path: str):
+        # TODO
+        obj = cls("", "")
+        return obj
+
+    def read(self, encoding: str = None) -> list[str]:
+        return read(self.get_abs_path(), encoding)
+
+    def write(self, data: list[Any], encoding: str = None):
+        return write(self.get_abs_path(), data, encoding)
+
+    def delete(self):
+        return delete(self.get_abs_path())
+
+    def obtain_creation_time(self):
+        """
+        Append file creation time for each received file. Mutated.
+        :return:
+        """
+        creation_time = os.path.getctime(self.get_abs_path())
+        self.cr_time = creation_time
+        self.cr_time_r = time.ctime(creation_time)
+
+
 def read(file_name: str, encoding: str = None) -> list[str]:
     """
     Fully read file as list of string
@@ -25,6 +63,7 @@ def read(file_name: str, encoding: str = None) -> list[str]:
     :param encoding:
     :return:
     """
+    # TODO - use "with" statement
     if encoding:
         input_file = codecs.open(file_name, 'r', encoding)
     else:
@@ -73,6 +112,7 @@ def write(output_path: str, data: list[Any], encoding: str = None) -> None:
     :param encoding:
     :return:
     """
+    # TODO - use "with" statement
     if encoding:
         result_file = codecs.open(output_path, 'w', encoding)
     else:
@@ -95,6 +135,7 @@ def append(output_path: str, data: list[Any] | Any):
     :param data:
     :return:
     """
+    # TODO - use "with" statement
     result_file = codecs.open(output_path, 'a+', ENCODING_UTF8)
     if isinstance(data, list):
         for result_line in data:
@@ -137,20 +178,17 @@ def delete(file_path: str):
     os.remove(file_path)
 
 
-def list_files(path: str, recursive: bool = False, with_creation_time: bool = False, depth: int = 0) -> list[dict]:
+def list_files(path: str, recursive: bool = False, with_creation_time: bool = False, depth: int = 0) -> list[File]:
     """
     Return a list of files from specified path.
-
-    example: [{ PATH: path, FILENAME: filename, CR_TIME: file_creation_datetime,
-    CR_TIME_READABLE: file_creation_datetime_human_readable}]
 
     :param path:
     :param recursive:
     :param depth: keeping track of recursion level
-    :param with_creation_time: True -> append CR_TIME and CR_TIME_READABLE to return elements
+    :param with_creation_time: True -> extract creation time of the file
     :return:
     """
-    files = [{PATH: path, FILENAME: f, EXTENSION: f.split(".")[-1]} for f in listdir(path) if isfile(join(path, f))]
+    files = [File(f, path) for f in listdir(path) if isfile(join(path, f))]
 
     if recursive:
         for directory in list_dirs(path):
@@ -158,7 +196,7 @@ def list_files(path: str, recursive: bool = False, with_creation_time: bool = Fa
 
     # Append creation when out of all recursion levels
     if with_creation_time and depth == 0:
-        append_creation_time(files)
+        [f.obtain_creation_time() for f in files]
 
     return files
 
@@ -173,22 +211,3 @@ def list_dirs(path: str) -> list[str]:
     :return:
     """
     return [join(path, f) for f in listdir(path) if isdir(join(path, f))]
-
-
-def append_creation_time(files: list) -> None:
-    """
-    Append file creation time for each received file. Mutated.
-
-    example: [{ ..., CR_TIME: x, CR_TIME_READABLE: y }]
-    :param files:
-    :return:
-    """
-    for file in files:
-        for key in [PATH, FILENAME]:
-            if key not in file:
-                raise ValueError(f'Key: {key}. Missing from dict definition')
-
-        abs_path = join(file[PATH], file[FILENAME])
-        creation_time = os.path.getctime(abs_path)
-        file[CR_TIME] = creation_time
-        file[CR_TIME_READABLE] = time.ctime(creation_time)

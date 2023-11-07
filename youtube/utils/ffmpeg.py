@@ -3,7 +3,7 @@ import os
 import re
 from typing import Tuple
 
-from utils import File
+from utils import file
 from youtube.model.file_extension import FileExtension
 
 METADATA_HEADER = ";FFMETADATA1"
@@ -61,7 +61,7 @@ class Ffmpeg:
         os.remove(temp_abs_path)
 
     @staticmethod
-    def get_metadata(file_abs_path: str):
+    def read_metadata(file_abs_path: str) -> list[str]:
         file_format = file_abs_path.split(".")[-1]
         file_path = "\\".join(file_abs_path.split("\\")[:-1])
 
@@ -77,13 +77,14 @@ class Ffmpeg:
         os.system(read_metadata_command)
         os.rename(temp_abs_path, file_abs_path)
 
-        metadata = File.read(temp_metadata_file, File.ENCODING_UTF8)
+        metadata = file.read(temp_metadata_file, file.ENCODING_UTF8)
         os.remove(temp_metadata_file)
         return metadata
 
     @staticmethod
-    def metadata_to_json(raw_metadata: list[str]):
-        json_metadata = {}
+    def read_metadata_json(file_abs_path: str) -> dict:
+        raw_metadata = Ffmpeg.read_metadata(file_abs_path)
+        metadata = {}
         attr_match = "\\S*="
         attr_name = None
         attr_value = None
@@ -95,15 +96,15 @@ class Ffmpeg:
             else:
                 if parsed_line and len(parsed_line.group()) > 1:
                     if attr_name:
-                        json_metadata[attr_name] = attr_value
+                        metadata[attr_name] = attr_value
 
                     attr_name = parsed_line.group().replace("=", "").upper()
                     attr_value = "=".join(line.split("=")[1:])
                 else:
                     attr_value += "\n" + line
-        json_metadata[attr_name] = attr_value
+        metadata[attr_name] = attr_value
 
-        return json_metadata
+        return metadata
 
     @staticmethod
     def get_video_resolution(video_abs_path: str) -> Tuple[int, int]:
@@ -233,4 +234,3 @@ class Ffmpeg:
             print(f"Resized from: ({original_size}) to ({resized_size}).")
             os.remove(file_abs_path)
             os.rename(temp_resize_file, file_abs_path)
-

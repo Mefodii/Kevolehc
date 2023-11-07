@@ -1,13 +1,6 @@
 from __future__ import unicode_literals
-import os
 import time
-from utils import File
-from youtube import paths
-from youtube.model.file_extension import FileExtension
-from youtube.model.file_tags import FileTags
-from youtube.watchers.youtube.media import YoutubeVideo
 from youtube.paths import WATCHERS_DOWNLOAD_PATH
-from youtube.utils.ffmpeg import Ffmpeg
 #
 #
 # # Read all monitors and cross-check with db files.
@@ -57,62 +50,11 @@ from youtube.utils.ffmpeg import Ffmpeg
 #         File.write_json_data(db_file, db_json)
 
 
-def sync_pos_files_lib_with_db(monitor_name: str, lib_path: str, extension: FileExtension):
-    db_file = '\\'.join([paths.DB_PATH, monitor_name + ".txt"])
-    db_data = File.read_json(db_file)
-
-    # Get all files in the directory
-    files_list = File.list_files(lib_path)
-
-    for element in files_list:
-        filename = element[File.FILENAME]
-        file_path = element[File.PATH]
-        if filename.endswith(extension.value):
-            file_abs_path = file_path + "\\" + filename
-            tags = Ffmpeg.metadata_to_json(Ffmpeg.get_metadata(file_abs_path))
-            file_id = tags.get(FileTags.DISC)
-            if file_id is None:
-                raise ValueError(f"File has no ID: {file_abs_path}")
-
-            db_item_data = db_data.get(file_id)
-            db_item_position = db_item_data[YoutubeVideo.NUMBER]
-            file_position = int(tags.get(FileTags.TRACK))
-            if file_position != db_item_position:
-                if db_item_data is None:
-                    raise ValueError(f"File not found in DB: {file_abs_path}")
-
-                tags = {
-                    FileTags.TRACK: str(db_item_position)
-                }
-                Ffmpeg.add_tags(file_abs_path, tags)
-
-                new_file_name = file_path + "\\" + db_item_data[YoutubeVideo.FILE_NAME] + "." + extension.value
-                os.rename(file_abs_path, new_file_name)
-
-
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
     pass
-    # -------===========------
-    # check_db_integrity()
-    # -------===========------
-    # POSITION NUMBER IS INCLUSIVE!
-    position_number = 1272
-    monitor_name = "GameChops"
-    # shift_db_at_position(monitor_name, position_number, -1)
-    # -------===========------
-    # shift_playlist_at_position(monitor_name, position_number, -1)
-    # -------===========------
-    # Gets track number from the DB file
-    lib_path = "G:\\Music\\YT_Monitors\\" + monitor_name
-    # sync_pos_files_lib_with_db(monitor_name, lib_path, constants.MP3)
-    dl_lib_path = WATCHERS_DOWNLOAD_PATH + "\\" + monitor_name
-    # sync_pos_files_lib_with_db(monitor_name, dl_lib_path, constants.MP3)
-    # -------===========------
-    # download_db_missing()
-    # -------===========------
 
 
 #######################################################################################################################

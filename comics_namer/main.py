@@ -2,8 +2,8 @@ import time
 import os
 from datetime import datetime
 
-from utils import File
-from utils.File import list_files, CR_TIME, FILENAME, PATH, EXTENSION
+from utils import file
+from utils.file import list_files, CR_TIME, FILENAME, PATH, EXTENSION
 from constants.paths import DB_FILE
 
 DATE_FORMAT = '%Y-%m-%dT%H:%M:%S.%f'
@@ -31,8 +31,8 @@ def get_current_date():
 
 def add_new_comic(comic_path, comic_name):
     db_json = {}
-    if File.exists(DB_FILE):
-        db_json = File.read_json(DB_FILE)
+    if file.exists(DB_FILE):
+        db_json = file.read_json(DB_FILE)
 
     if db_json.get(comic_name, None):
         raise Exception(f"Comic with name: {comic_name} already exists. Unable to insert")
@@ -45,14 +45,14 @@ def add_new_comic(comic_path, comic_name):
         COMIC_MOD_DATE: get_current_date(),
     }
 
-    File.write_json(DB_FILE, db_json)
+    file.write_json(DB_FILE, db_json)
 
 
 def sync_pages_name(comic_name, keep_old_name=True):
-    if not File.exists(DB_FILE):
+    if not file.exists(DB_FILE):
         raise Exception(f"DB_FILE does not exist: {DB_FILE}")
 
-    db_json = File.read_json(DB_FILE)
+    db_json = file.read_json(DB_FILE)
     if not db_json.get(comic_name, None):
         raise Exception(f"Comic with name: {comic_name} does not exist.")
 
@@ -63,34 +63,34 @@ def sync_pages_name(comic_name, keep_old_name=True):
     files = list_files(comic_path, with_creation_time=True)
     # To change creation date in powershell use command:
     #   (Get-Item "C:\Users\mefod\Downloads\p3-2.jpg").CreationTime=("21 April 2022 07:00:02")
-    files = sorted(files, key=lambda d: d[CR_TIME])
+    files = sorted(files, key=lambda f: f.cr_time)
 
     rename_files(files[pages_nr:], comic_name, pages_nr + 1, keep_old_name)
 
     comic[COMIC_PAGES_NR] = pages_nr
     comic[COMIC_MOD_DATE] = get_current_date()
 
-    File.write_json(DB_FILE, db_json)
+    file.write_json(DB_FILE, db_json)
 
 
 def rename_temp_files(comic_name, initial_page_number=1, keep_old_name=True):
     files = list_files(TEMP_PATH, with_creation_time=True)
     # To change creation date in powershell use command:
     #   (Get-Item "C:\Users\mefod\Downloads\p3-2.jpg").CreationTime=("21 April 2022 07:00:02")
-    files = sorted(files, key=lambda d: d[CR_TIME])
+    files = sorted(files, key=lambda f: f.cr_time)
     rename_files(files, comic_name, initial_page_number, keep_old_name)
 
 
 def rename_files(files, comic_name, initial_page_number, keep_old_name=True):
     pages_nr = initial_page_number
-    for file in files:
-        path = file[PATH]
-        old_name = file[FILENAME]
+    for item in files:
+        path = item[PATH]
+        old_name = item[FILENAME]
         new_name = f"{comic_name} - {pages_nr:04d}"
         if keep_old_name:
             new_name = f"{new_name} - {old_name}"
         else:
-            new_name += f".{file[EXTENSION]}"
+            new_name += f".{item[EXTENSION]}"
 
         old_abs_name = "\\".join([path, old_name])
         new_abs_name = "\\".join([path, new_name])

@@ -6,7 +6,7 @@ from enum import Enum
 
 import googleapiclient.discovery
 
-from utils import File
+from utils import file
 from youtube.utils.yt_datetime import compare_yt_dates
 
 # Disable OAuthlib's HTTPS verification when running locally.
@@ -16,7 +16,7 @@ API_SERVICE_NAME = "youtube"
 API_VERSION = "v3"
 
 MAX_RESULTS = 50
-MAX_DURATION = 21600  # 6 hours
+MAX_DURATION = 32400  # 9 hours
 
 
 class YoutubeAPIVideoType(Enum):
@@ -123,7 +123,7 @@ class YoutubeWorker:
 
     def __init__(self, dk_file: str):
 
-        self.dk = File.read(dk_file)[0]
+        self.dk = file.read(dk_file)[0]
         self.youtube = googleapiclient.discovery.build(
             API_SERVICE_NAME, API_VERSION, developerKey=self.dk)
 

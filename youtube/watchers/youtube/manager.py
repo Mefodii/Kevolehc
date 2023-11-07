@@ -2,16 +2,13 @@ from __future__ import unicode_literals
 
 from yt_dlp import DownloadError
 
-from utils import File
-from youtube import paths
-from youtube.model.file_extension import FileExtension
+from utils import file
 from youtube.model.file_tags import FileTags
 from youtube.model.playlist_item import PlaylistItem
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube.utils.downloader import YoutubeDownloader
 from youtube.paths import RESOURCES_PATH as FFMPEG_PATH
-from youtube.utils import yt_datetime, constants, db_utils
-from youtube.utils.constants import DEFAULT_YOUTUBE_WATCH
+from youtube.utils import yt_datetime, db_utils
 
 from youtube.watchers.youtube.media import YoutubeVideo
 from youtube.watchers.youtube.queue import YoutubeQueue
@@ -28,7 +25,7 @@ class YoutubeWatchersManager:
         self.watchers: list[YoutubeWatcher] = []
 
         if watchers_file:
-            data = File.read_json(self.watchers_file)
+            data = file.read_json(self.watchers_file)
             self.watchers = [YoutubeWatcher.from_dict(watcher_dict) for watcher_dict in data]
 
         self.queue_list: list[YoutubeQueue] = []
@@ -40,7 +37,7 @@ class YoutubeWatchersManager:
         if self.log_file is None:
             print(message)
         else:
-            File.append(self.log_file, message)
+            file.append(self.log_file, message)
             if console_print:
                 print(message)
 
@@ -68,7 +65,7 @@ class YoutubeWatchersManager:
         for watcher in self.watchers:
             self.log(f'Checking: {watcher.channel_id} - {watcher.name}', True)
             watcher_db_file = watcher.db_file
-            db_data = File.read_json(watcher.db_file)
+            db_data = file.read_json(watcher.db_file)
 
             self.obtain_all_videos(watcher)
             for video in watcher.videos:
@@ -101,12 +98,12 @@ class YoutubeWatchersManager:
 
                     db_data[video.video_id] = db_video.to_dict()
 
-            File.write_json(watcher_db_file, db_data)
+            file.write_json(watcher_db_file, db_data)
 
     def download_db_missing(self):
         # TODO - functionality to tested yet
         for watcher in self.watchers:
-            db_data = File.read_json(watcher.db_file)
+            db_data = file.read_json(watcher.db_file)
 
             for video_id, db_video_dict in db_data.items():
                 if db_video_dict[YoutubeVideo.STATUS] == YoutubeVideo.STATUS_MISSING:
@@ -119,6 +116,16 @@ class YoutubeWatchersManager:
         self.append_tags()
         self.update_playlist_log()
         self.update_db_log()
+
+    def validate_files_integrity(self):
+        """
+        Check that all items in db have the same number in playlist file.
+
+        Check that all items in db with status "DOWNLOADED" have a file
+        :return:
+        """
+        # TODO - impl
+        pass
 
     def obtain_all_videos(self, watcher: YoutubeWatcher):
         watcher.videos = []
@@ -160,7 +167,7 @@ class YoutubeWatchersManager:
             q_progress = f"{i}/{q_len}"
 
             result_file = queue.get_file_abs_path()
-            if File.exists(result_file):
+            if file.exists(result_file):
                 self.log(f"Queue ignored, file exist: {q_progress}", True)
             else:
                 self.log(f"Process queue: {q_progress} - {result_file}", True)
@@ -178,7 +185,7 @@ class YoutubeWatchersManager:
                 tags = FileTags.extract_from_youtubevideo(video)
 
                 file_abs_path = video.get_file_abs_path()
-                if File.exists(file_abs_path):
+                if file.exists(file_abs_path):
                     Ffmpeg.add_tags(file_abs_path, tags)
 
     def update_playlist_log(self) -> None:
@@ -187,7 +194,7 @@ class YoutubeWatchersManager:
             if playlist_file:
                 track_list = [str(PlaylistItem.from_youtubevideo(video)) for video in watcher.videos]
                 if len(track_list) > 0:
-                    File.append(playlist_file, track_list)
+                    file.append(playlist_file, track_list)
 
     def update_db_log(self) -> None:
         [db_utils.add_videos(watcher) for watcher in self.watchers]
@@ -197,4 +204,4 @@ class YoutubeWatchersManager:
             watcher.check_date = watcher.new_check_date
 
         watchers_json = ["[", ",\n".join([watcher.to_json() for watcher in self.watchers]), "]"]
-        File.write(self.watchers_file, watchers_json, File.ENCODING_UTF8)
+        file.write(self.watchers_file, watchers_json, file.ENCODING_UTF8)

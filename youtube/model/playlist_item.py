@@ -1,4 +1,4 @@
-from utils import File
+from utils import file
 from youtube.utils.constants import DEFAULT_YOUTUBE_WATCH
 from youtube.watchers.youtube.media import YoutubeVideo
 
@@ -23,7 +23,7 @@ class PlaylistItem:
 
     @classmethod
     def from_youtubevideo(cls, item: YoutubeVideo):
-        item_flag = ITEM_FLAG_DEFAULT if File.exists(item.get_file_abs_path()) else ITEM_FLAG_MISSING
+        item_flag = ITEM_FLAG_DEFAULT if file.exists(item.get_file_abs_path()) else ITEM_FLAG_MISSING
         url = DEFAULT_YOUTUBE_WATCH + item.video_id
         obj = PlaylistItem(item.title, url, item_flag, item.number)
         return obj

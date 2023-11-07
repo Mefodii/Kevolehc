@@ -1,4 +1,4 @@
-from utils import File
+from utils import file
 from youtube.model.playlist_item import PlaylistItem
 from youtube.utils import constants
 from youtube.watchers.youtube.media import YoutubeVideo
@@ -103,7 +103,7 @@ def read_playlist(playlist_file: str) -> list[PlaylistItem]:
     :param playlist_file:
     :return:
     """
-    playlist_data = File.read(playlist_file, File.ENCODING_UTF8)
+    playlist_data = file.read(playlist_file, file.ENCODING_UTF8)
 
     items = []
     item = None
@@ -128,11 +128,11 @@ def write_playlist(playlist_file: str, items: list[PlaylistItem]):
     for item in items:
         res.append(str(item))
         [res.append(child) for child in item.children]
-    File.write(playlist_file, res, File.ENCODING_UTF8)
+    file.write(playlist_file, res, file.ENCODING_UTF8)
 
 
 def add_missing_track_number(playlist_file: str, db_file: str):
-    db_data = File.read_json(db_file)
+    db_data = file.read_json(db_file)
     playlist_items = read_playlist(playlist_file)
 
     for item in playlist_items:

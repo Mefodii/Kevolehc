@@ -52,7 +52,6 @@ class YoutubeWatcher:
         self.videos: list[YoutubeVideo] = []
         self.new_check_date = None
 
-
     @classmethod
     def dummy(cls, ):
         obj = YoutubeWatcher(DUMMY_NAME, "dummy", "", 0, FileExtension.MP3,
@@ -95,7 +94,7 @@ class YoutubeWatcher:
         json_data += f"\"{VIDEO_COUNT}\": {self.video_count}, "
         json_data += f"\"{FILE_EXTENSION}\": \"{self.file_extension.value}\""
         if self.video_quality:
-            json_data += f", \"{VIDEO_QUALITY}\": \"{self.video_quality}\""
+            json_data += f", \"{VIDEO_QUALITY}\": {self.video_quality}"
         if self.track_log_file:
             json_data += f", \"{TRACK_LOG_FILE}\": \"{self.track_log_file}\""
         json_data += f" }}"

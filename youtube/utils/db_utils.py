@@ -1,4 +1,4 @@
-from utils import File
+from utils import file
 from youtube.watchers.youtube.media import YoutubeVideo
 from youtube.watchers.youtube.watcher import YoutubeWatcher
 
@@ -11,18 +11,18 @@ def add_videos(watcher: YoutubeWatcher) -> None:
     """
     db_file = watcher.db_file
     db_data = {}
-    if File.exists(db_file):
-        db_data = File.read_json(db_file)
+    if file.exists(db_file):
+        db_data = file.read_json(db_file)
 
     for video in watcher.videos:
         file_abs_path = video.get_file_abs_path()
         video.status = YoutubeVideo.STATUS_UNABLE
-        if File.exists(file_abs_path):
+        if file.exists(file_abs_path):
             video.status = YoutubeVideo.STATUS_DOWNLOADED
 
         db_data[video.video_id] = video.to_dict()
 
-    File.write_json(db_file, db_data)
+    file.write_json(db_file, db_data)
 
 
 def shift_number(db_file: str, number: int, step: int = 1):
@@ -35,11 +35,11 @@ def shift_number(db_file: str, number: int, step: int = 1):
     :param step: how many position to shift. Negative as well
     :return:
     """
-    db_data = File.read_json(db_file)
+    db_data = file.read_json(db_file)
 
     shift_items(db_data, position_start=number, position_end=None, step=step)
 
-    File.write_json(db_file, db_data)
+    file.write_json(db_file, db_data)
 
 
 def move_video_number(db_file: str, video_id: str, new_number: int):
@@ -53,7 +53,7 @@ def move_video_number(db_file: str, video_id: str, new_number: int):
     :param new_number:
     :return:
     """
-    db_data = File.read_json(db_file)
+    db_data = file.read_json(db_file)
 
     video = YoutubeVideo.from_dict(db_data[video_id])
     if video.number == 0:
@@ -69,7 +69,7 @@ def move_video_number(db_file: str, video_id: str, new_number: int):
     video.init_file_name()
     db_data[video.video_id] = video.to_dict()
 
-    File.write_json(db_file, db_data)
+    file.write_json(db_file, db_data)
 
 
 def delete_video(db_file: str, video_id: str):
@@ -79,14 +79,14 @@ def delete_video(db_file: str, video_id: str):
     :param video_id:
     :return:
     """
-    db_data = File.read_json(db_file)
+    db_data = file.read_json(db_file)
 
     position = YoutubeVideo.from_dict(db_data[video_id]).number
     del db_data[video_id]
 
     shift_items(db_data, position_start=position, position_end=None, step=-1)
 
-    File.write_json(db_file, db_data)
+    file.write_json(db_file, db_data)
 
 
 def shift_items(items: dict, position_start: int, position_end: int = None, step: int = 1):
