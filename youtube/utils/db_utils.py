@@ -66,7 +66,7 @@ def move_video_number(db_file: str, video_id: str, new_number: int):
             shift_items(db_data, position_start=video.number, position_end=new_number, step=-1)
 
     video.number = new_number
-    video.init_file_name()
+    video.file_name = video.init_file_name()
     db_data[video.video_id] = video.to_dict()
 
     file.write_json(db_file, db_data)
@@ -106,5 +106,5 @@ def shift_items(items: dict, position_start: int, position_end: int = None, step
             video.number += step
             if video.number <= 0:
                 raise Exception(f"Number <= 0 not allowed. Video ID: {video.video_id}")
-            video.init_file_name()
+            video.file_name = video.generate_file_name()
             items[video.video_id] = video.to_dict()
