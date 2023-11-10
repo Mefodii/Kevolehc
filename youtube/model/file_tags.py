@@ -3,14 +3,14 @@ from youtube.watchers.youtube.media import YoutubeVideo
 
 
 class FileTags:
-    AUTHOR = "author"
-    COPYRIGHT = "copyright"
-    COMMENT = "comment"
-    DISC = "disc"
-    EPISODE_ID = "episode_id"
-    GENRE = "genre"
-    TITLE = "title"
-    TRACK = "track"
+    AUTHOR = "AUTHOR"
+    COPYRIGHT = "COPYRIGHT"
+    COMMENT = "COMMENT"
+    DISC = "DISC"
+    EPISODE_ID = "EPISODE_ID"
+    GENRE = "GENRE"
+    TITLE = "TITLE"
+    TRACK = "TRACK"
 
     @staticmethod
     def extract_from_youtubevideo(item: YoutubeVideo) -> dict:
