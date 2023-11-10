@@ -5,10 +5,15 @@ import time
 
 from icecream import ic
 
-from utils import File
+from utils import file
+from utils.file import File
+from youtube import paths
+from youtube.model.file_extension import FileExtension
 from youtube.paths import TESTS_PATH
-from youtube.utils import playlist_utils, db_utils
-from youtube.utils.yt_datetime import yt_to_py
+from youtube.utils import playlist_utils, db_utils, media_utils
+from youtube.utils.ffmpeg import Ffmpeg
+from youtube.utils.yt_datetime import yt_to_py, compare_yt_dates
+from youtube.watchers.youtube.api import YoutubeWorker
 from youtube.watchers.youtube.media import YoutubeVideo
 
 TEST_READ_WRITE_PLAYLIST = "\\".join([TESTS_PATH, "test_read_write_playlist.txt"])
@@ -24,6 +29,11 @@ TEST_DB_SHIFT = "\\".join([TESTS_PATH, "test_db_shift.txt"])
 TEST_DB_DEL = "\\".join([TESTS_PATH, "test_db_del.txt"])
 TEST_DB_MOVE = "\\".join([TESTS_PATH, "test_db_move.txt"])
 
+TEST_SYNC_DB_PATH = "\\".join([TESTS_PATH, "test_sync_media"])
+TEST_SYNC_DB_FILE = "\\".join([TEST_SYNC_DB_PATH, "db.txt"])
+TEST_SYNC_DB_PATH_BEFORE = "\\".join([TEST_SYNC_DB_PATH, "before"])
+TEST_SYNC_DB_PATH_AFTER = "\\".join([TEST_SYNC_DB_PATH, "after"])
+
 
 def files_content_equal(f1, f2) -> bool:
     """
@@ -32,8 +42,8 @@ def files_content_equal(f1, f2) -> bool:
     :param f2:
     :return:
     """
-    f1_data = File.read(f1, encoding=File.ENCODING_UTF8)
-    f2_data = File.read(f2, encoding=File.ENCODING_UTF8)
+    f1_data = file.read(f1, encoding=file.ENCODING_UTF8)
+    f2_data = file.read(f2, encoding=file.ENCODING_UTF8)
 
     if len(f1_data) != len(f2_data):
         ic(f"Files length not equal. F1: {f1}. F2: {f2}")
@@ -64,43 +74,61 @@ def test_yt_to_py():
         ic(f"Expected a > f. a: {a}. f: {f}")
 
 
+def test_video_sort_order():
+    dk_file = paths.API_KEY_PATH
+    worker = YoutubeWorker(dk_file)
+    items = worker.get_channel_uploads_from_date("UCaNd66xUJjX8VZT6AByVpiw", "2016-10-10T06:20:16.813Z")
+    for i in range(0, len(items) - 1):
+        date_compare = compare_yt_dates(items[i].get_publish_date(), items[i+1].get_publish_date())
+
+        if date_compare == 1:
+            ic(f"Video: {items[i].get_id()} and {items[i+1].get_id()}. "
+               f"Has publish dates: {items[i].get_publish_date()} and {items[i+1].get_publish_date()}")
+
+    for item in items:
+        publish_fields_equals = item.get_publish_date() == item.data.get("snippet").get("publishedAt")
+        if not publish_fields_equals:
+            ic(f"Video: {item.get_id()}. "
+               f"Has publish dates: {item.get_publish_date()} and {item.data.get('snippet').get('publishedAt')}")
+
+
 def test_read_write_db_file():
     """
     Test that db utils is correctly read to object then converted back to json with no anomalies.
     :return:
     """
-    db_data = File.read_json(TEST_READ_WRITE_DB)
+    db_data = file.read_json(TEST_READ_WRITE_DB)
 
     videos = [YoutubeVideo.from_dict(video_dict) for video_dict in db_data.values()]
     output_items = {video.video_id: video.to_dict() for video in videos}
 
     output_file = TESTS_PATH + "\\" + test_read_write_playlist_file.__name__ + "temp.txt"
-    File.write_json(output_file, output_items)
+    file.write_json(output_file, output_items)
 
     if files_content_equal(TEST_READ_WRITE_DB, output_file):
         os.remove(output_file)
 
 
 def test_db_utils():
-    db_data = File.read_json(TEST_READ_WRITE_DB)
+    db_data = file.read_json(TEST_READ_WRITE_DB)
     output_file = TESTS_PATH + "\\" + test_db_utils.__name__ + "temp.txt"
 
-    File.write_json(output_file, db_data)
+    file.write_json(output_file, db_data)
     db_utils.shift_number(output_file, 7, 3)
     if not files_content_equal(TEST_DB_SHIFT, output_file):
         return
 
-    File.write_json(output_file, db_data)
+    file.write_json(output_file, db_data)
     db_utils.move_video_number(output_file, "M-vGUWt9BLI", 3)
     if not files_content_equal(TEST_DB_MOVE, output_file):
         return
 
-    File.write_json(output_file, db_data)
+    file.write_json(output_file, db_data)
     db_utils.delete_video(output_file, "NvRHXnb039Q")
     if not files_content_equal(TEST_DB_DEL, output_file):
         return
 
-    os.remove(output_file)
+    # os.remove(output_file)
 
 
 def test_read_write_playlist_file():
@@ -144,6 +172,40 @@ def test_playlist_utils():
     os.remove(output_file)
 
 
+def test_sync_media():
+    db_file = TEST_SYNC_DB_FILE
+    before_files = file.list_files(TEST_SYNC_DB_PATH_BEFORE)
+    after_files = file.list_files(TEST_SYNC_DB_PATH_AFTER)
+
+    temp_folder = "\\".join([TEST_SYNC_DB_PATH, "temp"])
+    os.mkdir(temp_folder)
+    [f.copy(temp_folder) for f in before_files]
+
+    media_utils.sync_media_filenames_with_db(db_file, temp_folder, FileExtension.MP3)
+
+    temp_files = file.list_files(temp_folder)
+    if len(temp_files) != len(after_files):
+        ic(f"Files len not matching. Expected: {len(after_files)}. Actual: {len(temp_files)}")
+        return
+
+    for f1, f2 in zip(temp_files, after_files):
+        temp_file: File = f1
+        expected_file: File = f2
+
+        if f1.name != f2.name:
+            ic(f"Files not equal. Expected: {expected_file.name}. Actual: {temp_file.name}")
+            return
+
+        temp_tags = Ffmpeg.read_metadata(temp_file.get_abs_path())
+        expected_tags = Ffmpeg.read_metadata(expected_file.get_abs_path())
+
+        if str(temp_tags) != str(expected_tags):
+            ic(f"Tags not equal. Expected: {str(expected_tags)}. Actual: {str(temp_tags)}")
+
+    [f.delete() for f in temp_files]
+    os.rmdir(temp_folder)
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
@@ -153,6 +215,8 @@ def __main__():
     test_read_write_db_file()
     test_read_write_playlist_file()
     test_playlist_utils()
+    test_video_sort_order()
+    test_sync_media()
 
 
 #######################################################################################################################
