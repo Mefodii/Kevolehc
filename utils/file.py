@@ -1,3 +1,4 @@
+import shutil
 from os import listdir
 from os.path import isfile, join, isdir
 import codecs
@@ -43,6 +44,9 @@ class File:
     def write(self, data: list[Any], encoding: str = None):
         return write(self.get_abs_path(), data, encoding)
 
+    def copy(self, dest: str):
+        return copy(self.get_abs_path(), dest)
+
     def delete(self):
         return delete(self.get_abs_path())
 
@@ -54,6 +58,9 @@ class File:
         creation_time = os.path.getctime(self.get_abs_path())
         self.cr_time = creation_time
         self.cr_time_r = time.ctime(creation_time)
+
+    def __repr__(self):
+        return f"{self.get_abs_path()}"
 
 
 def read(file_name: str, encoding: str = None) -> list[str]:
@@ -176,6 +183,17 @@ def delete(file_path: str):
     :return:
     """
     os.remove(file_path)
+
+
+def copy(src: str, dest: str):
+    """
+    Copy a file from source to destination, using shutil library
+    If dest is a folder, then a file with same name as in src will be created
+    :param src: absolute path (including filename)
+    :param dest: absolute path (including filename)
+    :return:
+    """
+    return shutil.copy2(src, dest)
 
 
 def list_files(path: str, recursive: bool = False, with_creation_time: bool = False, depth: int = 0) -> list[File]:
