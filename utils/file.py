@@ -19,8 +19,6 @@ CR_TIME_READABLE = "cr_time_r"
 ENCODING_UTF8 = "utf-8"
 
 
-# TODO - class File.
-
 class File:
     def __init__(self, name, path):
         self.name = name
@@ -34,8 +32,8 @@ class File:
 
     @classmethod
     def from_abs_path(cls, abs_path: str):
-        # TODO
-        obj = cls("", "")
+        args = os.path.split(abs_path)
+        obj = cls(args[1], args[0])
         return obj
 
     def read(self, encoding: str = None) -> list[str]:
