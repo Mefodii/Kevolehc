@@ -66,7 +66,7 @@ def move_video_number(db_file: str, video_id: str, new_number: int):
             shift_items(db_data, position_start=video.number, position_end=new_number, step=-1)
 
     video.number = new_number
-    video.file_name = video.init_file_name()
+    video.file_name = video.generate_file_name()
     db_data[video.video_id] = video.to_dict()
 
     file.write_json(db_file, db_data)
