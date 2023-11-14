@@ -97,7 +97,8 @@ def __main__(settings_file):
                                                        input_queue))
 
     total_to_download = len(simple_queue)
-    for i, queue_item in enumerate(simple_queue):
+    for i, j in enumerate(simple_queue):
+        queue_item: InputQueue = j
         print("".join(["Downloading ", str(i + 1), "/", str(total_to_download)]))
 
         queue = YoutubeQueue("", queue_item.title, output_directory, queue_item.file_extension,

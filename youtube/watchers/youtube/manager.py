@@ -65,7 +65,7 @@ class YoutubeWatchersManager:
         for watcher in self.watchers:
             self.log(f'Checking: {watcher.channel_id} - {watcher.name}', True)
             watcher_db_file = watcher.db_file
-            db_data = file.read_json(watcher.db_file)
+            db_data = file.read_json(watcher_db_file)
 
             self.obtain_all_videos(watcher)
             for video in watcher.videos:
@@ -116,16 +116,6 @@ class YoutubeWatchersManager:
         self.append_tags()
         self.update_playlist_log()
         self.update_db_log()
-
-    def validate_files_integrity(self):
-        """
-        Check that all items in db have the same number in playlist file.
-
-        Check that all items in db with status "DOWNLOADED" have a file
-        :return:
-        """
-        # TODO - impl
-        pass
 
     def obtain_all_videos(self, watcher: YoutubeWatcher):
         watcher.videos = []
@@ -186,7 +176,7 @@ class YoutubeWatchersManager:
 
                 file_abs_path = video.get_file_abs_path()
                 if file.exists(file_abs_path):
-                    Ffmpeg.add_tags(file_abs_path, tags)
+                    Ffmpeg.add_tags(file_abs_path, tags, loglevel="error")
 
     def update_playlist_log(self) -> None:
         for watcher in self.watchers:
