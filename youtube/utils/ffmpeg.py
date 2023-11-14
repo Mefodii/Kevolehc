@@ -28,7 +28,7 @@ class Ffmpeg:
         os.rename(temp_merged_file, merged_abs_path)
 
     @staticmethod
-    def add_tags(file_abs_path: str, tags_dict: dict):
+    def add_tags(file_abs_path: str, tags_dict: dict, loglevel: str = None):
         file_format = file_abs_path.split(".")[-1]
 
         file_path = "\\".join(file_abs_path.split("\\")[:-1])
@@ -54,14 +54,16 @@ class Ffmpeg:
             tags.append(tag_str)
 
         tags_command = " ".join(tags)
-        command = "ffmpeg -i " + temp_abs_path + " -c copy  " + tags_command + " " + tag_abs_path
+        command = f"ffmpeg -i {temp_abs_path} -c copy {tags_command} {tag_abs_path}"
+        if loglevel:
+            command += f" -hide_banner -loglevel {loglevel}"
         os.system(command)
 
         os.rename(tag_abs_path, file_abs_path)
         os.remove(temp_abs_path)
 
     @staticmethod
-    def read_metadata(file_abs_path: str) -> list[str]:
+    def read_metadata(file_abs_path: str, loglevel: str = None) -> list[str]:
         file_format = file_abs_path.split(".")[-1]
         file_path = "\\".join(file_abs_path.split("\\")[:-1])
 
@@ -70,9 +72,9 @@ class Ffmpeg:
 
         os.rename(file_abs_path, temp_abs_path)
 
-        read_metadata_command = "ffmpeg" \
-                                " -i " + temp_abs_path + \
-                                " -f ffmetadata " + temp_metadata_file
+        read_metadata_command = f"ffmpeg -i {temp_abs_path} -f ffmetadata {temp_metadata_file}"
+        if loglevel:
+            read_metadata_command += f" -hide_banner -loglevel {loglevel}"
 
         os.system(read_metadata_command)
         os.rename(temp_abs_path, file_abs_path)
@@ -82,8 +84,8 @@ class Ffmpeg:
         return metadata
 
     @staticmethod
-    def read_metadata_json(file_abs_path: str) -> dict:
-        raw_metadata = Ffmpeg.read_metadata(file_abs_path)
+    def read_metadata_json(file_abs_path: str, loglevel: str = None) -> dict:
+        raw_metadata = Ffmpeg.read_metadata(file_abs_path, loglevel)
         metadata = {}
         attr_match = "\\S*="
         attr_name = None
