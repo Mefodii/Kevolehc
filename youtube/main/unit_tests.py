@@ -57,42 +57,54 @@ def files_content_equal(f1, f2) -> bool:
     return True
 
 
-def test_yt_to_py():
+def test_yt_to_py() -> bool:
     a = yt_to_py("2019-06-04T06:16:06.816Z")
     b = yt_to_py("2019-06-04T06:16:06.816Z")
     c = yt_to_py("2019-06-04T06:16:06.817Z")
     d = yt_to_py("2019-06-04T06:16:06.815Z")
     f = yt_to_py("2019-06-04T06:15:06.816Z")
 
+    ok = True
     if not a == b:
         ic(f"Expected a == b. a: {a}. b: {b}")
+        ok = False
     if not a < c:
         ic(f"Expected a < b. a: {a}. c: {b}")
+        ok = False
     if not a > d:
         ic(f"Expected a > d. a: {a}. d: {b}")
+        ok = False
     if not a > f:
         ic(f"Expected a > f. a: {a}. f: {f}")
+        ok = False
+
+    return ok
 
 
-def test_video_sort_order():
+def test_video_sort_order() -> bool:
     dk_file = paths.API_KEY_PATH
     worker = YoutubeWorker(dk_file)
     items = worker.get_channel_uploads_from_date("UCaNd66xUJjX8VZT6AByVpiw", "2016-10-10T06:20:16.813Z")
+    ok = True
     for i in range(0, len(items) - 1):
         date_compare = compare_yt_dates(items[i].get_publish_date(), items[i+1].get_publish_date())
 
         if date_compare == 1:
+            ok = False
             ic(f"Video: {items[i].get_id()} and {items[i+1].get_id()}. "
                f"Has publish dates: {items[i].get_publish_date()} and {items[i+1].get_publish_date()}")
 
     for item in items:
         publish_fields_equals = item.get_publish_date() == item.data.get("snippet").get("publishedAt")
         if not publish_fields_equals:
+            ok = False
             ic(f"Video: {item.get_id()}. "
                f"Has publish dates: {item.get_publish_date()} and {item.data.get('snippet').get('publishedAt')}")
 
+    return ok
 
-def test_read_write_db_file():
+
+def test_read_write_db_file() -> bool:
     """
     Test that db utils is correctly read to object then converted back to json with no anomalies.
     :return:
@@ -105,33 +117,37 @@ def test_read_write_db_file():
     output_file = TESTS_PATH + "\\" + test_read_write_playlist_file.__name__ + "temp.txt"
     file.write_json(output_file, output_items)
 
-    if files_content_equal(TEST_READ_WRITE_DB, output_file):
-        os.remove(output_file)
+    if not files_content_equal(TEST_READ_WRITE_DB, output_file):
+        return False
+
+    os.remove(output_file)
+    return True
 
 
-def test_db_utils():
+def test_db_utils() -> bool:
     db_data = file.read_json(TEST_READ_WRITE_DB)
     output_file = TESTS_PATH + "\\" + test_db_utils.__name__ + "temp.txt"
 
     file.write_json(output_file, db_data)
     db_utils.shift_number(output_file, 7, 3)
     if not files_content_equal(TEST_DB_SHIFT, output_file):
-        return
+        return False
 
     file.write_json(output_file, db_data)
     db_utils.move_video_number(output_file, "M-vGUWt9BLI", 3)
     if not files_content_equal(TEST_DB_MOVE, output_file):
-        return
+        return False
 
     file.write_json(output_file, db_data)
     db_utils.delete_video(output_file, "NvRHXnb039Q")
     if not files_content_equal(TEST_DB_DEL, output_file):
-        return
+        return False
 
-    # os.remove(output_file)
+    os.remove(output_file)
+    return True
 
 
-def test_read_write_playlist_file():
+def test_read_write_playlist_file() -> bool:
     """
     Test that playlist utils is correctly read to object then converted back to string with no anomalies.
     :return:
@@ -140,11 +156,14 @@ def test_read_write_playlist_file():
     output_file = TESTS_PATH + "\\" + test_read_write_playlist_file.__name__ + "temp.txt"
     playlist_utils.write_playlist(output_file, playlist_items)
 
-    if files_content_equal(TEST_READ_WRITE_PLAYLIST, output_file):
-        os.remove(output_file)
+    if not files_content_equal(TEST_READ_WRITE_PLAYLIST, output_file):
+        return False
+
+    os.remove(output_file)
+    return True
 
 
-def test_playlist_utils():
+def test_playlist_utils() -> bool:
     playlist_items = playlist_utils.read_playlist(TEST_READ_WRITE_PLAYLIST)
     output_file = TESTS_PATH + "\\" + test_playlist_utils.__name__ + "temp.txt"
     playlist_utils.write_playlist(output_file, playlist_items)
@@ -152,27 +171,28 @@ def test_playlist_utils():
     playlist_utils.add_missing_track_number(output_file, TEST_ADD_PLAYLIST_TRACKS_DB)
 
     if not files_content_equal(TEST_ADD_PLAYLIST_TRACKS_RES, output_file):
-        return
+        return False
 
     playlist_items = playlist_utils.read_playlist(output_file)
     playlist_utils.shift_number(output_file, 500, 3)
     if not files_content_equal(TEST_PLAYLIST_SHIFT, output_file):
-        return
+        return False
 
     playlist_utils.write_playlist(output_file, playlist_items)
     playlist_utils.move_video_number(output_file, "https://www.youtube.com/watch?v=y0Lm-4O4Fr4", 500)
     if not files_content_equal(TEST_PLAYLIST_MOVE, output_file):
-        return
+        return False
 
     playlist_utils.write_playlist(output_file, playlist_items)
     playlist_utils.delete_video(output_file, "https://www.youtube.com/watch?v=y0Lm-4O4Fr4")
     if not files_content_equal(TEST_PLAYLIST_DEL, output_file):
-        return
+        return False
 
     os.remove(output_file)
+    return True
 
 
-def test_sync_media():
+def test_sync_media() -> bool:
     db_file = TEST_SYNC_DB_FILE
     before_files = file.list_files(TEST_SYNC_DB_PATH_BEFORE)
     after_files = file.list_files(TEST_SYNC_DB_PATH_AFTER)
@@ -181,12 +201,12 @@ def test_sync_media():
     os.mkdir(temp_folder)
     [f.copy(temp_folder) for f in before_files]
 
-    media_utils.sync_media_filenames_with_db(db_file, temp_folder, FileExtension.MP3)
+    media_utils.sync_media_filenames_with_db(db_file, [temp_folder], FileExtension.MP3)
 
     temp_files = file.list_files(temp_folder)
     if len(temp_files) != len(after_files):
         ic(f"Files len not matching. Expected: {len(after_files)}. Actual: {len(temp_files)}")
-        return
+        return False
 
     for f1, f2 in zip(temp_files, after_files):
         temp_file: File = f1
@@ -194,29 +214,36 @@ def test_sync_media():
 
         if f1.name != f2.name:
             ic(f"Files not equal. Expected: {expected_file.name}. Actual: {temp_file.name}")
-            return
+            return False
 
-        temp_tags = Ffmpeg.read_metadata(temp_file.get_abs_path())
-        expected_tags = Ffmpeg.read_metadata(expected_file.get_abs_path())
+        temp_tags = Ffmpeg.read_metadata_json(temp_file.get_abs_path(), loglevel="error")
+        expected_tags = Ffmpeg.read_metadata_json(expected_file.get_abs_path(), loglevel="error")
 
         if str(temp_tags) != str(expected_tags):
             ic(f"Tags not equal. Expected: {str(expected_tags)}. Actual: {str(temp_tags)}")
 
     [f.delete() for f in temp_files]
     os.rmdir(temp_folder)
+    return True
 
 
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
-    test_yt_to_py()
-    test_db_utils()
-    test_read_write_db_file()
-    test_read_write_playlist_file()
-    test_playlist_utils()
-    test_video_sort_order()
-    test_sync_media()
+    tests = [
+        test_yt_to_py,
+        test_db_utils,
+        test_read_write_db_file,
+        test_read_write_playlist_file,
+        test_playlist_utils,
+        test_video_sort_order,
+        test_sync_media,
+    ]
+
+    for test in tests:
+        ok = test()
+        print(f"{test.__name__}: {'OK' if ok else 'NOT_OK'}")
 
 
 #######################################################################################################################
