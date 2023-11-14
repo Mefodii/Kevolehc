@@ -1,6 +1,22 @@
 from __future__ import unicode_literals
 import time
+
+from icecream import ic
+
+from utils import file
+from utils.file import File
+from youtube import paths
+from youtube.model.file_extension import FileExtension
 from youtube.paths import WATCHERS_DOWNLOAD_PATH
+from youtube.utils import media_utils, playlist_utils
+
+FILES_MAIN_PATH = paths.WATCHERS_DOWNLOAD_PATH
+FILES_VIDEO_ARCHIVE_PATH = "G:\\Filme"
+FILES_AUDIO_ARCHIVE_PATH = "G:\\Music\\yt_watchers"
+
+DB_TO_IGNORE = [
+    "TheNetNinja.txt"
+]
 #
 #
 # # Read all monitors and cross-check with db files.
@@ -50,10 +66,30 @@ from youtube.paths import WATCHERS_DOWNLOAD_PATH
 #         File.write_json_data(db_file, db_json)
 
 
+def validate_files_integrity():
+    db_files = file.list_files(paths.DB_PATH)
+    db_files: list[File] = list(filter(lambda f: f.name not in DB_TO_IGNORE, db_files))
+
+    for db_file in db_files:
+        file_name_no_ext = db_file.get_plain_name()
+        media_paths = [
+            FILES_MAIN_PATH + "\\" + file_name_no_ext,
+            FILES_AUDIO_ARCHIVE_PATH + "\\" + file_name_no_ext,
+            FILES_VIDEO_ARCHIVE_PATH + "\\" + file_name_no_ext
+        ]
+
+        media_paths = list(filter(lambda p: file.dir_exists(p), media_paths))
+        media_utils.validate_files_integrity(db_file.get_abs_path(), media_paths)
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
+    validate_files_integrity()
+    # db = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\_db\\nyknullad.txt"
+    # p = ["G:\\Music\\yt_watchers\\temp"]
+    # media_utils.sync_media_filenames_with_db(db, p, FileExtension.MP3)
     pass
 
 
