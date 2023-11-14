@@ -30,6 +30,13 @@ class File:
     def get_abs_path(self):
         return os.path.join(self.path, self.name)
 
+    def get_plain_name(self) -> str:
+        """
+        :return: file name without extension
+        """
+        name = ".".join(self.name.split(".")[0:-1])
+        return name
+
     @classmethod
     def from_abs_path(cls, abs_path: str):
         args = os.path.split(abs_path)
@@ -68,15 +75,10 @@ def read(file_name: str, encoding: str = None) -> list[str]:
     :param encoding:
     :return:
     """
-    # TODO - use "with" statement
-    if encoding:
-        input_file = codecs.open(file_name, 'r', encoding)
-    else:
-        input_file = open(file_name, 'r')
-
     data = []
-    for input_line in input_file:
-        data.append(input_line.replace("\n", ""))
+    with codecs.open(file_name, 'r', encoding) as input_file:
+        for input_line in input_file:
+            data.append(input_line.replace("\n", ""))
     return data
 
 
@@ -117,14 +119,9 @@ def write(output_path: str, data: list[Any], encoding: str = None) -> None:
     :param encoding:
     :return:
     """
-    # TODO - use "with" statement
-    if encoding:
-        result_file = codecs.open(output_path, 'w', encoding)
-    else:
-        result_file = open(output_path, 'w')
-    for result_line in data:
-        result_file.write(str(result_line) + "\n")
-    result_file.close()
+    with codecs.open(output_path, 'w', encoding) as result_file:
+        for result_line in data:
+            result_file.write(str(result_line) + "\n")
 
 
 def append(output_path: str, data: list[Any] | Any):
@@ -140,14 +137,12 @@ def append(output_path: str, data: list[Any] | Any):
     :param data:
     :return:
     """
-    # TODO - use "with" statement
-    result_file = codecs.open(output_path, 'a+', ENCODING_UTF8)
-    if isinstance(data, list):
-        for result_line in data:
-            result_file.write(str(result_line) + "\n")
-    else:
-        result_file.write(str(data) + "\n")
-    result_file.close()
+    with codecs.open(output_path, 'a+', ENCODING_UTF8) as result_file:
+        if isinstance(data, list):
+            for result_line in data:
+                result_file.write(str(result_line) + "\n")
+        else:
+            result_file.write(str(data) + "\n")
 
 
 def get_file_extension(path: str, name: str) -> str:
@@ -172,6 +167,14 @@ def exists(file_path: str) -> bool:
     :return: true if file exists
     """
     return os.path.isfile(file_path)
+
+
+def dir_exists(dir_path: str) -> bool:
+    """
+    :param dir_path:
+    :return: true if dir exists
+    """
+    return os.path.isdir(dir_path)
 
 
 def delete(file_path: str):
