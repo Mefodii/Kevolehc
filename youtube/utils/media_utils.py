@@ -42,9 +42,10 @@ def sync_media_filenames_with_db(db_file: str, media_paths: list[str], extension
             }
             Ffmpeg.add_tags(file_abs_path, tags, loglevel="error")
 
-            new_file_name = element.path + "\\" + video.file_name + "." + extension.value
-            os.rename(file_abs_path, new_file_name)
-        # TODO - use file.plain_name
+            new_name = f"{video.file_name}.{extension.value}"
+            new_abs_path = f"{element.path}\\{new_name}"
+            print(f"Renaming: {element.get_plain_name()}. New name: {video.file_name}")
+            os.rename(file_abs_path, new_abs_path)
         elif video.file_name != element.get_plain_name():
             print(f"Warning! Metadata equals but filenames not. DB: {video.file_name}. Media: {element.name}")
 
