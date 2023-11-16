@@ -55,7 +55,7 @@ def move_video_number(db_file: str, video_id: str, new_number: int):
     """
     db_data = file.read_json(db_file)
 
-    video = YoutubeVideo.from_dict(db_data[video_id])
+    video: YoutubeVideo = YoutubeVideo.from_dict(db_data[video_id])
     if video.number == 0:
         shift_items(db_data, position_start=new_number, position_end=None, step=1)
     else:
@@ -100,11 +100,40 @@ def shift_items(items: dict, position_start: int, position_end: int = None, step
     :param step: how many position to shift. Negative as well
     :return:
     """
-    for video_id, video_dict in items.items():
-        video = YoutubeVideo.from_dict(video_dict)
+    for video_dict in items.values():
+        video: YoutubeVideo = YoutubeVideo.from_dict(video_dict)
         if video.number >= position_start and (position_end is None or (position_end and video.number <= position_end)):
             video.number += step
             if video.number <= 0:
                 raise Exception(f"Number <= 0 not allowed. Video ID: {video.video_id}")
             video.file_name = video.generate_file_name()
             items[video.video_id] = video.to_dict()
+
+
+def check_numbers_integrity(db_file: str) -> bool:
+    """
+    Check that each number from db_file is repeated exactly once
+    :param db_file:
+    :return:
+    """
+    db_data = file.read_json(db_file)
+
+    numbers: dict[int, YoutubeVideo] = {}
+    valid = True
+    for video_dict in db_data.values():
+        video: YoutubeVideo = YoutubeVideo.from_dict(video_dict)
+        if found_item := numbers.get(video.number):
+            valid = False
+            print(f"An video with number <{video.number}> already exists. "
+                  f"Ids: [{found_item.video_id}, {video.video_id}]")
+        else:
+            numbers[video.number] = video
+
+    if valid:
+        max_number = max(numbers.keys())
+        for i in range(max_number+1):
+            if numbers.get(i) is None:
+                valid = False
+                print(f"DB File missing number: {i}")
+
+    return valid
