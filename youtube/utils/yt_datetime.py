@@ -8,6 +8,12 @@ def yt_to_py(yt_datetime):
 
 
 def compare_yt_dates(d1, d2):
+    """
+
+    :param d1:
+    :param d2:
+    :return: 1 if 1st > 2nd, -1 if 1st < 2nd, 0 if 1st == 2nd
+    """
     py_d1 = yt_to_py(d1)
     py_d2 = yt_to_py(d2)
 

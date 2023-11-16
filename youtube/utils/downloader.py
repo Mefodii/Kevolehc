@@ -53,7 +53,7 @@ class YoutubeDownloader:
             queue.audio_dl_stats = copy.deepcopy(self.download_stats)
 
     def download_video(self, queue: YoutubeQueue):
-        # TODO: delete audio/video parts if exists
+        # Note: audio/video file parts may remain if script ends with error here
 
         # Validate video_quality value
         video_quality = queue.video_quality
