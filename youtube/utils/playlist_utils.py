@@ -167,11 +167,16 @@ def is_sorted(items: list[PlaylistItem]) -> bool:
     :return: True if all items in list are sorted ascending by track_nr, no duplicates
     """
     for i in range(len(items) - 1):
-        this_track_nr = items[i].track_nr
-        next_track_nr = items[i+1].track_nr
+        this_item = items[i]
+        next_item = items[i+1]
+        this_track_nr = this_item.track_nr
+        next_track_nr = next_item.track_nr
         if this_track_nr is None or next_track_nr is None:
+            item = this_item if this_track_nr is None else next_item
+            print(f"Item has no track nr: {item}")
             return False
         if this_track_nr >= next_track_nr > 0:
+            print(f"Item has unsorted track nr: {this_track_nr}")
             return False
 
     return True
