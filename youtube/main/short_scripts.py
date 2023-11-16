@@ -5,6 +5,13 @@ from icecream import ic
 
 from utils import file
 from youtube import paths
+from youtube.model.file_extension import FileExtension
+from youtube.paths import WATCHERS_DOWNLOAD_PATH
+from youtube.utils import db_utils, playlist_utils, media_utils
+
+
+FILES_VIDEO_ARCHIVE_PATH = "G:\\Filme"
+FILES_AUDIO_ARCHIVE_PATH = "G:\\Music\\yt_watchers"
 
 
 def alter_db_kv():
@@ -18,6 +25,24 @@ def alter_db_kv():
         # change DB keys and values
 
         file.write_json(db_file, data)
+
+
+def insert_to_db():
+    db_file = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\_db\\AmbientMusicalGenre.txt"
+    video_id = "cMHO685u1tA"
+    new_number = 2027
+    db_utils.move_video_number(db_file, video_id, new_number)
+
+
+def shift_playlist():
+    playlist_file = "E:\\Google Drive\\Mu\\plist\\AmbientMusicalGenre.txt"
+    playlist_utils.shift_number(playlist_file, 2027, 1)
+
+
+def sync_media():
+    db_file = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\_db\\AmbientMusicalGenre.txt"
+    media_paths = [f"{WATCHERS_DOWNLOAD_PATH}\\AmbientMusicalGenre", f"{FILES_AUDIO_ARCHIVE_PATH}\\AmbientMusicalGenre"]
+    media_utils.sync_media_filenames_with_db(db_file, media_paths, FileExtension.MP3)
 
 
 #######################################################################################################################

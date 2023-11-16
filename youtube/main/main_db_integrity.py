@@ -70,6 +70,10 @@ def validate_files_integrity():
     db_files = file.list_files(paths.DB_PATH)
     db_files: list[File] = list(filter(lambda f: f.name not in DB_TO_IGNORE, db_files))
 
+    # TODO - check_numbers_integrity
+    # TODO - check playlist files to have same numbers
+    # TODO - check playlist to be sorted
+
     for db_file in db_files:
         file_name_no_ext = db_file.get_plain_name()
         media_paths = [
@@ -87,9 +91,6 @@ def validate_files_integrity():
 #######################################################################################################################
 def __main__():
     validate_files_integrity()
-    # db = "E:\\Coding\\Projects\\Kevolehc\\Kevolehc\\youtube\\files\\_db\\nyknullad.txt"
-    # p = ["G:\\Music\\yt_watchers\\temp"]
-    # media_utils.sync_media_filenames_with_db(db, p, FileExtension.MP3)
     pass
 
 
