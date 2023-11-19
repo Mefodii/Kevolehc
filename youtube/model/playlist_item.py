@@ -10,6 +10,8 @@ START_POS_TRACK_NR = 167
 ITEM_FLAG_DEFAULT = " [ ]"
 ITEM_FLAG_MISSING = " [@]"
 
+DUMMY = "!DUMMY!"
+
 
 class PlaylistItem:
     def __init__(self, title: str, url: str, item_flag: str, track_nr: int = None):
@@ -20,6 +22,7 @@ class PlaylistItem:
         # Note: currently no special handling for children.
         # Every line which is under this item and until next PlaylistItem is considered as child.
         self.children: list[str] = []
+        self.is_dummy = True if title == DUMMY else False
 
     @classmethod
     def from_youtubevideo(cls, item: YoutubeVideo):
@@ -37,6 +40,10 @@ class PlaylistItem:
         obj = PlaylistItem(title, url, item_flag, track_nr)
         return obj
 
+    @classmethod
+    def dummy(cls):
+        return PlaylistItem(DUMMY, "", "")
+
     @staticmethod
     def is_playlist_str(line: str) -> bool:
         # Keeping it simple atm
@@ -46,6 +53,9 @@ class PlaylistItem:
         self.children.append(child)
 
     def __str__(self):
+        if self.is_dummy:
+            return DUMMY
+
         s = "".ljust(START_POS_ITEM_FLAG) + self.item_flag
         s = s.ljust(START_POS_TITLE) + self.title
         s = s.ljust(START_POS_URL) + self.url

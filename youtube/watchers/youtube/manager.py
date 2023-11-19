@@ -22,12 +22,7 @@ class YoutubeWatchersManager:
         self.log_file = log_file
         self.api = api_worker
         self.watchers_file = watchers_file
-        self.watchers: list[YoutubeWatcher] = []
-
-        if watchers_file:
-            data = file.read_json(self.watchers_file)
-            self.watchers = [YoutubeWatcher.from_dict(watcher_dict) for watcher_dict in data]
-
+        self.watchers: list[YoutubeWatcher] = YoutubeWatcher.from_file(watchers_file) if watchers_file else []
         self.queue_list: list[YoutubeQueue] = []
         self.processed_queue_list: list[YoutubeQueue] = []
         self.downloader = YoutubeDownloader(FFMPEG_PATH)
@@ -64,22 +59,18 @@ class YoutubeWatchersManager:
         self.log(str(yt_datetime.get_current_ytdate()) + " - starting db integrity process", True)
         for watcher in self.watchers:
             self.log(f'Checking: {watcher.channel_id} - {watcher.name}', True)
-            watcher_db_file = watcher.db_file
-            db_data = file.read_json(watcher_db_file)
+            db_file = watcher.db_file
+            db_videos = YoutubeVideo.from_db_file(db_file)
 
             self.obtain_all_videos(watcher)
             for video in watcher.videos:
-                db_video_dict = db_data.get(video.video_id, None)
+                db_video = db_videos.get(video.video_id, None)
                 # Check if video exists in db
-                if db_video_dict is None:
+                if db_video is None:
                     video.status = YoutubeVideo.STATUS_MISSING
-
-                    video_dict = video.to_dict()
-                    db_data[video.video_id] = video_dict
-                    self.log(f"Video missing: {video_dict}", True)
+                    db_videos[video.video_id] = video
+                    self.log(f"Video missing: {video.to_dict()}", True)
                 else:
-                    db_video = YoutubeVideo.from_dict(db_video_dict)
-
                     # Add timestamp if missing
                     if db_video.published_at is None:
                         db_video.published_at = video.published_at
@@ -96,20 +87,19 @@ class YoutubeWatchersManager:
                         self.log(message, True)
                         db_video.title = video.title
 
-                    db_data[video.video_id] = db_video.to_dict()
+                    db_videos[video.video_id] = db_video
 
-            file.write_json(watcher_db_file, db_data)
+            YoutubeVideo.write(db_file, db_videos)
 
     def download_db_missing(self):
         # TODO - functionality to tested yet
         for watcher in self.watchers:
-            db_data = file.read_json(watcher.db_file)
+            db_videos = YoutubeVideo.from_db_file(watcher.db_file)
 
-            for video_id, db_video_dict in db_data.items():
-                if db_video_dict[YoutubeVideo.STATUS] == YoutubeVideo.STATUS_MISSING:
-                    # if db_video_dict[DBItem.STATUS] == YoutubeVideo.STATUS_UNABLE:
-                    video = YoutubeVideo.from_dict(db_video_dict)
-                    watcher.append_video(video)
+            for db_video in db_videos.values():
+                if db_video.status == YoutubeVideo.STATUS_MISSING:
+                    # if db_video.status == YoutubeVideo.STATUS_UNABLE:
+                    watcher.append_video(db_video)
 
         self.generate_queue()
         self.download_queue()
@@ -154,6 +144,7 @@ class YoutubeWatchersManager:
 
         self.processed_queue_list = []
         for i, queue in enumerate(self.queue_list, start=1):
+            queue: YoutubeQueue
             q_progress = f"{i}/{q_len}"
 
             result_file = queue.get_file_abs_path()

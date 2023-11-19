@@ -20,7 +20,7 @@ class FileTags:
             FileTags.COPYRIGHT: item.channel_name,
             FileTags.COMMENT: "by Mefodii"
         }
-        if item.file_extension == FileExtension.MP3:
+        if item.file_extension.is_audio():
             tags[FileTags.GENRE] = item.channel_name
             tags[FileTags.DISC] = item.video_id
         else:

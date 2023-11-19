@@ -1,4 +1,5 @@
 import os
+from builtins import any
 
 from icecream import ic
 
@@ -20,7 +21,7 @@ def sync_media_filenames_with_db(db_file: str, media_paths: list[str], extension
     :param extension:
     :return:
     """
-    db_data = file.read_json(db_file)
+    db_videos = YoutubeVideo.from_db_file(db_file)
 
     files = [f for path in media_paths for f in file.list_files(path)]
     media_files = filter_media_files(files, extension)
@@ -28,29 +29,42 @@ def sync_media_filenames_with_db(db_file: str, media_paths: list[str], extension
     for element in media_files:
         file_abs_path = element.get_abs_path()
         tags = Ffmpeg.read_metadata_json(file_abs_path, loglevel="error")
-        file_id = tags.get(FileTags.DISC)
+        file_id = tags.get(FileTags.DISC) if extension.is_audio() else tags.get(FileTags.EPISODE_ID)
         if file_id is None:
             raise ValueError(f"File has no ID: {file_abs_path}")
-        if db_data.get(file_id) is None:
+        if db_videos.get(file_id) is None:
             raise ValueError(f"File not found in DB: {file_abs_path}")
 
-        video = YoutubeVideo.from_dict(db_data.get(file_id))
-        media_number = int(tags.get(FileTags.TRACK))
-        if media_number != video.number:
-            tags = {
-                FileTags.TRACK: str(video.number)
-            }
-            Ffmpeg.add_tags(file_abs_path, tags, loglevel="error")
+        video = db_videos.get(file_id)
+        expected_tags = FileTags.extract_from_youtubevideo(video)
+        diff = []
+        for k, expected_value in expected_tags.items():
+            media_value = tags.get(k, None)
+            if tags.get(k) is None:
+                diff.append(f"Missing tag: {k}")
 
+            if media_value != expected_value:
+                diff.append(f"Tag mismatch value. Tag: {k}. Expected: {expected_value}. Actual: {media_value}")
+
+        changed = False
+        if len(diff) > 0:
+            print(f"Mismatch of tags for video: {video}")
+            [print(d) for d in diff]
+            print(f"Setting new tags: {expected_tags}")
+            Ffmpeg.add_tags(file_abs_path, expected_tags, loglevel="error")
+            changed = True
+
+        if video.file_name != element.get_plain_name():
             new_name = f"{video.file_name}.{extension.value}"
-            new_abs_path = f"{element.path}\\{new_name}"
             print(f"Renaming: {element.get_plain_name()}. New name: {video.file_name}")
-            os.rename(file_abs_path, new_abs_path)
-        elif video.file_name != element.get_plain_name():
-            print(f"Warning! Metadata equals but filenames not. DB: {video.file_name}. Media: {element.name}")
+            element.rename(new_name)
+            changed = True
+
+        if changed:
+            print("----")
 
 
-def validate_files_integrity(db_file: str, media_paths: list[str]):
+def check_validity(db_file: str, media_paths: list[str]) -> bool:
     """
     Check that all items in db have the same number in playlist file.
 
@@ -59,22 +73,23 @@ def validate_files_integrity(db_file: str, media_paths: list[str]):
     :param media_paths:
     :return:
     """
-    db_data = file.read_json(db_file)
+    def exists(path: str, v: YoutubeVideo) -> bool:
+        abs_file_name = f"{path}\\{v.file_name}.{v.file_extension.value}"
+        return file.exists(abs_file_name)
 
-    for video_dict in db_data.values():
-        video: YoutubeVideo = YoutubeVideo.from_dict(video_dict)
+    db_videos = YoutubeVideo.from_db_file(db_file)
+
+    valid = True
+    for video in db_videos.values():
         if video.status != YoutubeVideo.STATUS_DOWNLOADED:
             continue
 
-        found = False
-        for madia_path in media_paths:
-            abs_file_name = f"{madia_path}\\{video.file_name}.{video.file_extension.value}"
-            if file.exists(abs_file_name):
-                found = True
-                break
-
+        found = any(exists(madia_path, video) for madia_path in media_paths)
         if not found:
+            valid = False
             print(f"File not found: {video.file_name}. Video ID: {video.video_id}")
+
+    return valid
 
 
 def filter_media_files(files: list[File], extension: FileExtension) -> list[File]:

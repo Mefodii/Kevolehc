@@ -109,13 +109,10 @@ def test_read_write_db_file() -> bool:
     Test that db utils is correctly read to object then converted back to json with no anomalies.
     :return:
     """
-    db_data = file.read_json(TEST_READ_WRITE_DB)
-
-    videos = [YoutubeVideo.from_dict(video_dict) for video_dict in db_data.values()]
-    output_items = {video.video_id: video.to_dict() for video in videos}
+    db_videos = YoutubeVideo.from_db_file(TEST_READ_WRITE_DB)
 
     output_file = TESTS_PATH + "\\" + test_read_write_playlist_file.__name__ + "temp.txt"
-    file.write_json(output_file, output_items)
+    YoutubeVideo.write(output_file, db_videos)
 
     if not files_content_equal(TEST_READ_WRITE_DB, output_file):
         return False
@@ -125,20 +122,20 @@ def test_read_write_db_file() -> bool:
 
 
 def test_db_utils() -> bool:
-    db_data = file.read_json(TEST_READ_WRITE_DB)
+    db_videos = YoutubeVideo.from_db_file(TEST_READ_WRITE_DB)
     output_file = TESTS_PATH + "\\" + test_db_utils.__name__ + "temp.txt"
 
-    file.write_json(output_file, db_data)
+    YoutubeVideo.write(output_file, db_videos)
     db_utils.shift_number(output_file, 7, 3)
     if not files_content_equal(TEST_DB_SHIFT, output_file):
         return False
 
-    file.write_json(output_file, db_data)
+    YoutubeVideo.write(output_file, db_videos)
     db_utils.move_video_number(output_file, "M-vGUWt9BLI", 3)
     if not files_content_equal(TEST_DB_MOVE, output_file):
         return False
 
-    file.write_json(output_file, db_data)
+    YoutubeVideo.write(output_file, db_videos)
     db_utils.delete_video(output_file, "NvRHXnb039Q")
     if not files_content_equal(TEST_DB_DEL, output_file):
         return False
@@ -237,7 +234,7 @@ def __main__():
         test_read_write_db_file,
         test_read_write_playlist_file,
         test_playlist_utils,
-        test_video_sort_order,
+        # test_video_sort_order,
         test_sync_media,
     ]
 

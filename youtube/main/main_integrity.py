@@ -8,11 +8,13 @@ from utils.file import File
 from youtube import paths
 from youtube.model.file_extension import FileExtension
 from youtube.paths import WATCHERS_DOWNLOAD_PATH
-from youtube.utils import media_utils, playlist_utils
+from youtube.utils import media_utils, playlist_utils, db_utils
 
-FILES_MAIN_PATH = paths.WATCHERS_DOWNLOAD_PATH
-FILES_VIDEO_ARCHIVE_PATH = "G:\\Filme"
-FILES_AUDIO_ARCHIVE_PATH = "G:\\Music\\yt_watchers"
+MEDIA_FILES_MAIN_PATH = paths.WATCHERS_DOWNLOAD_PATH
+MEDIA_FILES_VIDEO_ARCHIVE_PATH = "G:\\Filme"
+MEDIA_FILES_AUDIO_ARCHIVE_PATH = "G:\\Music\\yt_watchers"
+PLAYLIST_FILES_PATH = "E:\\Google Drive\\Mu\\plist"
+
 
 DB_TO_IGNORE = [
     "TheNetNinja.txt"
@@ -66,31 +68,46 @@ DB_TO_IGNORE = [
 #         File.write_json_data(db_file, db_json)
 
 
-def validate_files_integrity():
-    db_files = file.list_files(paths.DB_PATH)
-    db_files: list[File] = list(filter(lambda f: f.name not in DB_TO_IGNORE, db_files))
+def check_db_playlist_media_validity():
+    def need_process(f: File) -> bool:
+        return f.name not in DB_TO_IGNORE
 
-    # TODO - check_numbers_integrity
-    # TODO - check playlist files to have same numbers
-    # TODO - check playlist to be sorted
+    db_files = file.list_files(paths.DB_PATH)
 
     for db_file in db_files:
-        file_name_no_ext = db_file.get_plain_name()
-        media_paths = [
-            FILES_MAIN_PATH + "\\" + file_name_no_ext,
-            FILES_AUDIO_ARCHIVE_PATH + "\\" + file_name_no_ext,
-            FILES_VIDEO_ARCHIVE_PATH + "\\" + file_name_no_ext
-        ]
+        db_file_path = db_file.get_abs_path()
+        print(f"Checking: {db_file.name}")
+        valid = db_utils.check_validity(db_file_path)
+        print(f"DB Validity: {valid}")
+        if not valid:
+            continue
 
-        media_paths = list(filter(lambda p: file.dir_exists(p), media_paths))
-        media_utils.validate_files_integrity(db_file.get_abs_path(), media_paths)
+        to_process = need_process(db_file)
+        playlist_file = f"{PLAYLIST_FILES_PATH}\\{db_file.name}"
+        if file.exists(playlist_file) and to_process:
+            valid = playlist_utils.check_validity(playlist_file, db_file_path)
+            print(f"Playlist Validity: {valid}")
+            if not valid:
+                continue
+
+        if to_process:
+            file_name_no_ext = db_file.get_plain_name()
+            media_paths = [
+                MEDIA_FILES_MAIN_PATH + "\\" + file_name_no_ext,
+                MEDIA_FILES_AUDIO_ARCHIVE_PATH + "\\" + file_name_no_ext,
+                MEDIA_FILES_VIDEO_ARCHIVE_PATH + "\\" + file_name_no_ext
+            ]
+
+            media_paths = list(filter(lambda p: file.dir_exists(p), media_paths))
+            valid = media_utils.check_validity(db_file_path, media_paths)
+            print(f"Media Validity: {valid}")
 
 
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
-    validate_files_integrity()
+    check_db_playlist_media_validity()
     pass
 
 

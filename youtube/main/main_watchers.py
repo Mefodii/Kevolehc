@@ -9,13 +9,13 @@ from youtube.watchers.youtube.api import YoutubeWorker
 # Main function
 #######################################################################################################################
 def __main__():
-    watchers_file = paths.YOUTUBE_WATCHERS_PATH
-    # watchers_file = paths.YOUTUBE_WATCHERS2_PATH
-    # watchers_file = paths.YOUTUBE_WATCHERS_PGM_PATH
+    youtube_watchers = paths.YOUTUBE_WATCHERS_PATH
+    # youtube_watchers = paths.YOUTUBE_WATCHERS2_PATH
+    # youtube_watchers = paths.YOUTUBE_WATCHERS_PGM_PATH
     dk_file = paths.API_KEY_PATH
 
     worker = YoutubeWorker(dk_file)
-    manager = YoutubeWatchersManager(worker, watchers_file, paths.YOUTUBE_API_LOG)
+    manager = YoutubeWatchersManager(worker, youtube_watchers, paths.YOUTUBE_API_LOG)
     manager.run_full()
 
 
@@ -24,6 +24,9 @@ def __main__():
 #######################################################################################################################
 if __name__ == "__main__":
     # TODO - update dependencies (after all others todo's are done)
+    # TODO - fix dynamic calls
+    # TODO - remove unused imports
+    # TODO - comment methods
     # Start time of the program
     start = time.time()
 
