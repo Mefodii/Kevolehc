@@ -1,7 +1,6 @@
 import os
 import re
 from typing import Tuple
-from icecream import ic
 from enum import Enum
 
 import googleapiclient.discovery
@@ -175,7 +174,7 @@ class YoutubeWorker:
         sorted_uploads = YoutubeAPIVideo.sort_by_publish_date(uploads)
         for i1, i2 in zip(sorted_uploads, result):
             if i1 != i2:
-                ic(i1, i2)
+                print("Warning! sort problem", i1, i2)
 
         return result
 
@@ -183,7 +182,15 @@ class YoutubeWorker:
         result = []
 
         ids = [item.get_id() for item in items]
-        for checked_item, original_item in zip(self.get_videos(ids), items):
+        for a, b in zip(self.get_videos(ids), items):
+            checked_item: YoutubeAPIVideo = a
+            original_item: YoutubeAPIVideo = b
+
+            if checked_item.get_publish_date() != original_item.get_publish_date():
+                print(f"Warning, something wrong. Same video has different publish date.")
+                print(original_item.data)
+                print(checked_item.data)
+
             if checked_item.is_livestream():
                 print(f"Livestream to be ignored: {checked_item}")
             elif not checked_item.has_valid_duration():
