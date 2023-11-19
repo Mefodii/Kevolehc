@@ -49,6 +49,17 @@ class File:
     def write(self, data: list[Any], encoding: str = None):
         return write(self.get_abs_path(), data, encoding)
 
+    def rename(self, new_name: str):
+        """
+        Change the name of file and rename it on OS.
+        The path remains same.
+        :param new_name:
+        :return:
+        """
+        new_abs_path = f"{self.path}\\{new_name}"
+        os.rename(self.get_abs_path(), new_abs_path)
+        self.name = new_name
+
     def copy(self, dest: str):
         return copy(self.get_abs_path(), dest)
 
@@ -92,7 +103,7 @@ def read_json(file_path: str) -> dict:
         return json.load(json_file)
 
 
-def write_json(output_path: str, data: dict) -> None:
+def write_json(output_path: str, data: dict | list) -> None:
     """
     Dumbs data to the output file in a json format.
 
