@@ -1,6 +1,7 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Self
 
+from utils import file
 from youtube.model.file_extension import FileExtension
 
 if TYPE_CHECKING:
@@ -31,6 +32,10 @@ class YoutubeWatcher:
                  track_log_file: str = None, video_quality: int = None):
         # TODO - need parameter to only track the uploads, without download
         self.is_dummy = name == DUMMY_NAME
+
+        if " " in name:
+            raise ValueError(f"Space not allowed in name. Name: {name}")
+
         self.name = name
         self.channel_id = channel_id
         self.check_date = check_date
@@ -53,7 +58,7 @@ class YoutubeWatcher:
         self.new_check_date = None
 
     @classmethod
-    def dummy(cls, ):
+    def dummy(cls) -> Self:
         obj = YoutubeWatcher(DUMMY_NAME, "dummy", "", 0, FileExtension.MP3,
                              None, None)
         return obj
@@ -71,7 +76,7 @@ class YoutubeWatcher:
         return "\\".join([paths.WATCHERS_DOWNLOAD_PATH, self.name, self.name + ".txt"])
 
     @classmethod
-    def from_dict(cls, data: dict):
+    def from_dict(cls, data: dict) -> Self:
         YoutubeWatcher.validate_data(data)
 
         name = data.get(WATCHER_NAME)
@@ -84,6 +89,12 @@ class YoutubeWatcher:
 
         obj = YoutubeWatcher(name, channel_id, check_date, video_count, file_extension, track_log_file, video_quality)
         return obj
+
+    @classmethod
+    def from_file(cls, file_path: str) -> list[Self]:
+        data = file.read_json(file_path)
+        watchers = [YoutubeWatcher.from_dict(watcher_dict) for watcher_dict in data]
+        return watchers
 
     def to_json(self) -> str:
         json_data = ""
