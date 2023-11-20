@@ -21,12 +21,17 @@ class YoutubeVideo:
     STATUS = "STATUS"
     FILE_EXTENSION = "FILE_EXTENSION"
     VIDEO_QUALITY = "VIDEO_QUALITY"
+    VIDEO_TYPE = "VIDEO_TYPE"
 
     STATUS_NO_STATUS = "NO_STATUS"
     STATUS_UNABLE = "UNABLE"
     STATUS_DOWNLOADED = "DOWNLOADED"
     STATUS_MISSING = "MISSING"
     STATUS_SKIP = "SKIP"
+
+    TYPE_REGULAR = "TYPE_REGULAR"
+    TYPE_SHORT = "TYPE_SHORT"
+    TYPE_LIVESTREAM = "TYPE_LIVESTREAM"
 
     def __init__(self, video_id: str, title: str, channel_name: str, published_at: str, number: int,
                  save_location: str = None, file_extension: FileExtension = None, file_name: str = None,
@@ -42,10 +47,10 @@ class YoutubeVideo:
         self.init_file_name()
         self.file_extension = file_extension
         self.video_quality = video_quality
+        # TODO - extract type from api
+        self.video_type = self.TYPE_REGULAR
 
-        self.status = YoutubeVideo.STATUS_NO_STATUS
-        if status:
-            self.status = status
+        self.status = status if status else YoutubeVideo.STATUS_NO_STATUS
 
     @classmethod
     def from_youtube_api_video_and_watcher(cls, item: YoutubeAPIVideo, watcher: YoutubeWatcher) -> Self:

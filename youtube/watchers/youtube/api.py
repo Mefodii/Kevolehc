@@ -25,6 +25,7 @@ class YoutubeAPIVideoType(Enum):
 
 class YoutubeAPIVideo:
     def __init__(self, data: dict, item_type: YoutubeAPIVideoType):
+        # TODO - redesign. self.vido_data / self.playlist_data
         self.data = data
         self.item_type = item_type
 
@@ -72,6 +73,10 @@ class YoutubeAPIVideo:
             return self.data["snippet"]["liveBroadcastContent"] != "none"
 
         raise Exception(f"Unsupported YoutubeVideoItemType: {self.item_type}")
+
+    def is_short(self) -> bool:
+        # TODO - make a http request to check if it's a short (dunno if it will work, requests timeout possible)
+        pass
 
     def has_valid_duration(self) -> bool:
         return 0 < self.get_duration_seconds() <= MAX_DURATION
