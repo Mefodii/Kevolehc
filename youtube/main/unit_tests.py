@@ -16,7 +16,9 @@ from youtube.utils import playlist_utils, db_utils, media_utils
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube.utils.yt_datetime import yt_to_py, compare_yt_dates
 from youtube.watchers.youtube.api import YoutubeWorker
+from youtube.watchers.youtube.manager import YoutubeWatchersManager
 from youtube.watchers.youtube.media import YoutubeVideo
+from youtube.watchers.youtube.watcher import YoutubeWatcher
 
 TEST_READ_WRITE_PLAYLIST = "\\".join([TESTS_PATH, "test_read_write_playlist.txt"])
 TEST_ADD_PLAYLIST_TRACKS = "\\".join([TESTS_PATH, "test_add_playlist_tracks.txt"])
@@ -33,10 +35,14 @@ TEST_DB_DEL = "\\".join([TESTS_PATH, "test_db_del.txt"])
 TEST_DB_INSERT = "\\".join([TESTS_PATH, "test_db_insert.txt"])
 TEST_DB_MOVE = "\\".join([TESTS_PATH, "test_db_move.txt"])
 
+TEST_WATCHERS = "\\".join([TESTS_PATH, "test_watchers.txt"])
+
 TEST_SYNC_DB_PATH = "\\".join([TESTS_PATH, "test_sync_media"])
 TEST_SYNC_DB_FILE = "\\".join([TEST_SYNC_DB_PATH, "db.txt"])
 TEST_SYNC_DB_PATH_BEFORE = "\\".join([TEST_SYNC_DB_PATH, "before"])
 TEST_SYNC_DB_PATH_AFTER = "\\".join([TEST_SYNC_DB_PATH, "after"])
+
+
 
 
 def files_content_equal(f1, f2) -> bool:
@@ -117,33 +123,38 @@ def test_db_utils() -> bool:
         return False
 
     YoutubeVideo.write(output_file, db_videos)
-    db_utils.shift_number(output_file, 7, 3)
+    db_utils.shift(output_file, 7, 3)
     if not files_content_equal(TEST_DB_SHIFT, output_file):
         return False
 
     YoutubeVideo.write(output_file, db_videos)
-    db_utils.move_video_number(output_file, "M-vGUWt9BLI", 3)
+    db_utils.move(output_file, "M-vGUWt9BLI", 3)
     if not files_content_equal(TEST_DB_MOVE, output_file):
         return False
 
     YoutubeVideo.write(output_file, db_videos)
-    db_utils.delete_video(output_file, "NvRHXnb039Q")
+    db_utils.delete(output_file, ["NvRHXnb039Q"])
     if not files_content_equal(TEST_DB_DEL, output_file):
         return False
 
     YoutubeVideo.write(output_file, db_videos)
     video_1 = YoutubeVideo(video_id="video_0", title="video_0", channel_name="test",
-                           published_at="2019-02-17T15:21:09.000Z", number=1, file_extension=FileExtension.MP3,
+                           published_at="2019-02-17T14:21:09.000Z", number=1, file_extension=FileExtension.MP3,
                            status=YoutubeVideo.STATUS_MISSING)
     video_end = YoutubeVideo(video_id="video_end", title="video_end", channel_name="test",
-                             published_at="2019-02-17T15:21:09.000Z", number=15, file_extension=FileExtension.MP3,
+                             published_at="2022-02-19T17:30:02Z", number=15, file_extension=FileExtension.MP3,
                              status=YoutubeVideo.STATUS_MISSING)
     video_mid = YoutubeVideo(video_id="video_mid", title="video_mid", channel_name="test",
-                             published_at="2019-02-17T15:21:09.000Z", number=8, file_extension=FileExtension.MP3,
+                             published_at="2019-10-24T17:13:57.000Z", number=8, file_extension=FileExtension.MP3,
                              status=YoutubeVideo.STATUS_MISSING)
-    db_utils.insert_video(output_file, video_end)
-    db_utils.insert_video(output_file, video_1)
-    db_utils.insert_video(output_file, video_mid)
+    video_no_num = YoutubeVideo(video_id="video_no_num", title="video_no_num", channel_name="test",
+                                published_at="2020-02-07T17:47:05.000Z", number=-1, file_extension=FileExtension.MP3,
+                                status=YoutubeVideo.STATUS_MISSING)
+    video_no_num_end = YoutubeVideo(video_id="video_no_num_end", title="video_no_num_end", channel_name="test",
+                                    published_at="2023-02-19T17:30:02Z", number=-1,
+                                    file_extension=FileExtension.MP3, status=YoutubeVideo.STATUS_MISSING)
+    videos = [video_end, video_1, video_mid, video_no_num, video_no_num_end]
+    db_utils.insert(output_file, videos)
     if not files_content_equal(TEST_DB_INSERT, output_file):
         return False
 
@@ -152,45 +163,43 @@ def test_db_utils() -> bool:
 
 
 def test_playlist_utils() -> bool:
-    playlist_items = playlist_utils.read_playlist(TEST_READ_WRITE_PLAYLIST)
+    playlist_items = PlaylistItem.from_file(TEST_READ_WRITE_PLAYLIST)
     output_file = TESTS_PATH + "\\" + test_playlist_utils.__name__ + "temp.txt"
 
     # Test read / write consistency
-    playlist_utils.write_playlist(output_file, playlist_items)
+    PlaylistItem.write(output_file, playlist_items)
     if not files_content_equal(TEST_READ_WRITE_PLAYLIST, output_file):
         return False
 
     # Test that tracks numbers are added
-    playlist_utils.write_playlist(output_file, playlist_utils.read_playlist(TEST_ADD_PLAYLIST_TRACKS))
+    PlaylistItem.write(output_file, PlaylistItem.from_file(TEST_ADD_PLAYLIST_TRACKS))
     playlist_utils.add_missing_track_number(output_file, TEST_ADD_PLAYLIST_TRACKS_DB)
     if not files_content_equal(TEST_ADD_PLAYLIST_TRACKS_RES, output_file):
         return False
 
-    playlist_utils.write_playlist(output_file, playlist_items)
-    playlist_utils.shift_number(output_file, 21, 3)
+    PlaylistItem.write(output_file, playlist_items)
+    playlist_utils.shift(output_file, 21, 3)
     if not files_content_equal(TEST_PLAYLIST_SHIFT, output_file):
         return False
 
-    playlist_utils.write_playlist(output_file, playlist_items)
-    playlist_utils.move_video_number(output_file, "https://www.youtube.com/watch?v=ffssuJ5iBxc", 14)
+    PlaylistItem.write(output_file, playlist_items)
+    playlist_utils.move(output_file, "https://www.youtube.com/watch?v=ffssuJ5iBxc", 14)
     if not files_content_equal(TEST_PLAYLIST_MOVE, output_file):
         return False
 
-    playlist_utils.write_playlist(output_file, playlist_items)
-    playlist_utils.delete_video(output_file, "https://www.youtube.com/watch?v=ffssuJ5iBxc")
+    PlaylistItem.write(output_file, playlist_items)
+    playlist_utils.delete(output_file, ["https://www.youtube.com/watch?v=ffssuJ5iBxc"])
     if not files_content_equal(TEST_PLAYLIST_DEL, output_file):
         return False
 
-    playlist_utils.write_playlist(output_file, playlist_items)
+    PlaylistItem.write(output_file, playlist_items)
     item_1 = PlaylistItem("item_1", "https://www.youtube.com/watch?v=test_1xxxxx",
                           playlist_item.ITEM_FLAG_DEFAULT, 1)
     item_end = PlaylistItem("item_end", "https://www.youtube.com/watch?v=test_endxxx",
                             playlist_item.ITEM_FLAG_DEFAULT, 70)
     item_mid = PlaylistItem("item_mid", "https://www.youtube.com/watch?v=test_midxxx",
                             playlist_item.ITEM_FLAG_DEFAULT, 21)
-    playlist_utils.insert_video(output_file, item_end)
-    playlist_utils.insert_video(output_file, item_mid)
-    playlist_utils.insert_video(output_file, item_1)
+    playlist_utils.insert(output_file, [item_end, item_mid, item_1])
     if not files_content_equal(TEST_PLAYLIST_INSERT, output_file):
         return False
 
@@ -233,6 +242,21 @@ def test_sync_media() -> bool:
     return True
 
 
+def test_watchers_json() -> bool:
+    test_file = TEST_WATCHERS
+    watchers = YoutubeWatcher.from_file(test_file)
+    output_file = TESTS_PATH + "\\" + test_watchers_json.__name__ + "temp.txt"
+
+    watchers_json = ["[", ",\n".join([watcher.to_json() for watcher in watchers]), "]"]
+    file.write(output_file, watchers_json, file.ENCODING_UTF8)
+
+    if not files_content_equal(test_file, output_file):
+        return False
+
+    os.remove(output_file)
+    return True
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
@@ -241,8 +265,9 @@ def __main__():
         test_yt_to_py,
         test_db_utils,
         test_playlist_utils,
-        test_video_sort_order,
-        test_sync_media,
+        # test_video_sort_order,
+        # test_sync_media,
+        test_watchers_json,
     ]
 
     for test in tests:

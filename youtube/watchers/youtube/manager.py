@@ -54,9 +54,9 @@ class YoutubeWatchersManager:
         self.download_queue()
         self.append_tags()
 
-    def check_db_integrity(self):
-        # TODO - functionality to tested yet
-        self.log(str(yt_datetime.get_current_ytdate()) + " - starting db integrity process", True)
+    def check_for_missing(self, download=False):
+        # TODO - functionality to be tested yet
+        self.log(str(yt_datetime.get_current_ytdate()) + " - starting to check for missing videos", True)
         for watcher in self.watchers:
             self.log(f'Checking: {watcher.channel_id} - {watcher.name}', True)
             db_file = watcher.db_file
@@ -157,6 +157,8 @@ class YoutubeWatchersManager:
                 except DownloadError:
                     self.log(f"Unable to download - {queue.link}", True)
 
+            video = queue.source
+            video.status = YoutubeVideo.STATUS_DOWNLOADED if file.exists(result_file) else YoutubeVideo.STATUS_UNABLE
             self.processed_queue_list.append(queue)
         self.queue_list = []
 
@@ -171,14 +173,15 @@ class YoutubeWatchersManager:
 
     def update_playlist_log(self) -> None:
         for watcher in self.watchers:
-            playlist_file = watcher.track_log_file
+            playlist_file = watcher.playlist_file
             if playlist_file:
                 track_list = [str(PlaylistItem.from_youtubevideo(video)) for video in watcher.videos]
                 if len(track_list) > 0:
                     file.append(playlist_file, track_list)
 
     def update_db_log(self) -> None:
-        [db_utils.add_videos(watcher) for watcher in self.watchers]
+        for watcher in self.watchers:
+            db_utils.append(watcher.db_file, watcher.videos, create_file_if_not_found=True)
 
     def finish(self) -> None:
         for watcher in self.watchers:

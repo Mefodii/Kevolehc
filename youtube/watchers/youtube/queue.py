@@ -8,13 +8,14 @@ INFO_DICT = "info_dict"
 
 class YoutubeQueue:
     def __init__(self, video_id: str, file_name: str, save_location: str, file_extension: FileExtension,
-                 video_quality: int = None, link: str = None):
+                 video_quality: int = None, link: str = None, source: YoutubeVideo = None):
         self.video_id = video_id
         self.file_name = normalize_file_name(file_name)
         self.save_location = save_location
         self.file_extension = file_extension
         self.link = link
         self.video_quality = video_quality
+        self.source = source
 
         if not link:
             self.link = DEFAULT_YOUTUBE_WATCH + self.video_id
@@ -25,7 +26,7 @@ class YoutubeQueue:
     @classmethod
     def from_youtubevideo(cls, video: YoutubeVideo):
         obj = cls(video.video_id, video.file_name, video.save_location, video.file_extension,
-                  video.video_quality)
+                  video.video_quality, source=video)
         return obj
 
     def get_file_abs_path(self):

@@ -67,15 +67,15 @@ def shift_db():
     video_id = "ulARBhWUpA8"
     # db_utils.move_video_number(db_file, video_id, 1496)
     # db_utils.shift_number(db_file, 174, -1)
-    db_utils.delete_video(db_file, video_id)
+    db_utils.delete(db_file, [video_id])
 
 
 def shift_playlist():
-    playlist_file = "E:\\Google Drive\\Mu\\plist\\ThePrimeThanatos.txt"
+    playlist_file = "E:\\Google Drive\\Mu\\plist\\GameChops.txt"
     video_url = constants.DEFAULT_YOUTUBE_WATCH + "ulARBhWUpA8"
     # playlist_utils.move_video_number(playlist_file, video_url, 367)
-    # playlist_utils.shift_number(playlist_file, 174, -1)
-    playlist_utils.delete_video(playlist_file, video_url)
+    playlist_utils.shift(playlist_file, 1289, -1)
+    # playlist_utils.delete(playlist_file, [video_url])
 
 
 def sync_media():
@@ -108,8 +108,8 @@ def db_to_list():
 #######################################################################################################################
 def __main__():
     # shift_db()
-    # shift_playlist()
-    sync_media()
+    shift_playlist()
+    # sync_media()
     pass
 
 

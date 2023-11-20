@@ -1,3 +1,5 @@
+from typing import Self
+
 from utils import file
 from youtube.utils.constants import DEFAULT_YOUTUBE_WATCH
 from youtube.watchers.youtube.media import YoutubeVideo
@@ -43,6 +45,41 @@ class PlaylistItem:
     @classmethod
     def dummy(cls):
         return PlaylistItem(DUMMY, "", "")
+
+    @classmethod
+    def from_file(cls, playlist_file: str) -> list[Self]:
+        playlist_data = file.read(playlist_file, file.ENCODING_UTF8)
+
+        items = []
+        item = None
+        for line in playlist_data:
+            if PlaylistItem.is_playlist_str(line):
+                item = PlaylistItem.from_str(line)
+                items.append(item)
+            else:
+                if not item:
+                    item = PlaylistItem.dummy()
+                    items.append(item)
+
+                item.append_child(line)
+
+        return items
+
+    @classmethod
+    def write(cls, playlist_file: str, items: list[Self]):
+        """
+        Write to playlist_file string representation of all items
+        :param playlist_file:
+        :param items:
+        :return:
+        """
+        res = []
+        for item in items:
+            if not item.is_dummy:
+                res.append(str(item))
+
+            [res.append(child) for child in item.children]
+        file.write(playlist_file, res, file.ENCODING_UTF8)
 
     @staticmethod
     def is_playlist_str(line: str) -> bool:

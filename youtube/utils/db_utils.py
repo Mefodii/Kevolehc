@@ -1,34 +1,25 @@
 from utils import file
 from youtube.utils import yt_datetime
 from youtube.watchers.youtube.media import YoutubeVideo
-from youtube.watchers.youtube.watcher import YoutubeWatcher
 
 
-def add_videos(watcher: YoutubeWatcher) -> None:
-    """
-    Transform all watcher's videos to dict and append to watcher's db file.
-    :param watcher:
-    :return:
-    """
-    db_file = watcher.db_file
+def append(db_file: str, videos: list[YoutubeVideo], create_file_if_not_found: bool = False):
+    if not create_file_if_not_found and not file.exists(db_file):
+        raise Exception(f"DB file not found: {db_file}")
+
     db_videos = YoutubeVideo.from_db_file(db_file) if file.exists(db_file) else {}
 
-    for video in watcher.videos:
-        video_abs_path = video.get_file_abs_path()
-        video.status = YoutubeVideo.STATUS_UNABLE
-        if file.exists(video_abs_path):
-            video.status = YoutubeVideo.STATUS_DOWNLOADED
-
+    for video in videos:
         if v := db_videos.get(video.video_id):
             print(f"Warning!! Video with this ID already exists. Id: {v.video_id}. Number: {v.number}")
-            print(f"Old publish date: {v.published_at}. New publish date: {video.published_at}")
+            print(f"Overwritting!! Old video: {v}. New video: {video}")
 
         db_videos[video.video_id] = video
 
     YoutubeVideo.write(db_file, db_videos)
 
 
-def shift_number(db_file: str, number: int, step: int = 1):
+def shift(db_file: str, number: int, step: int = 1):
     """
     All videos with number greater or equal of given number will have its number changed by step.
 
@@ -40,17 +31,14 @@ def shift_number(db_file: str, number: int, step: int = 1):
     """
     db_videos = YoutubeVideo.from_db_file(db_file)
 
-    shift_items(db_videos, position_start=number, position_end=None, step=step)
+    shift_videos(db_videos, position_start=number, position_end=None, step=step)
 
     YoutubeVideo.write(db_file, db_videos)
 
 
-def move_video_number(db_file: str, video_id: str, new_number: int):
+def move(db_file: str, video_id: str, new_number: int):
     """
-    Shift down by 1 all videos with number larger than video_id.number until reaching new_number.
-    And set video_id.number to new_number
-
-    If video_id.number = 0, then shift by 1 all videos with number >= new_number
+    Find and delete video with current number. Then insert it with new_number
     :param db_file:
     :param video_id:
     :param new_number:
@@ -58,79 +46,114 @@ def move_video_number(db_file: str, video_id: str, new_number: int):
     """
     db_videos = YoutubeVideo.from_db_file(db_file)
 
-    video: YoutubeVideo = db_videos[video_id]
-    if video.number == 0:
-        shift_items(db_videos, position_start=new_number, position_end=None, step=1)
-    elif video.number == new_number:
-        print(f"Video already has this number. Video ID: {video_id}. Number: {new_number}")
+    video = delete_video(db_videos, video_id)
+    if video.number == new_number:
+        print(f"Video already has this number. Move canceleld. Video id: {video.video_id}. Number: {new_number}")
         return
-    else:
-        del db_videos[video_id]
-        if video.number > new_number:
-            shift_items(db_videos, position_start=new_number, position_end=video.number, step=1)
-        else:
-            shift_items(db_videos, position_start=video.number, position_end=new_number, step=-1)
 
     video.number = new_number
     video.file_name = video.generate_file_name()
-    db_videos[video.video_id] = video
+    insert_video(db_videos, video)
 
     YoutubeVideo.write(db_file, db_videos)
 
 
-def insert_video(db_file: str, video: YoutubeVideo):
+def insert(db_file: str, videos: list[YoutubeVideo]):
     """
-    Insert video to the video.number position and shift all other videos down.
+    Insert video to the video number position and shift all other videos down.
     :param db_file:
-    :param video:
+    :param videos:
     :return:
     """
     db_videos = YoutubeVideo.from_db_file(db_file)
 
-    if db_videos.get(video.video_id):
-        raise Exception(f"Video with this ID already exists in DB. ID: {video.video_id}")
-
-    shift_items(db_videos, position_start=video.number, position_end=None, step=1)
-    db_videos[video.video_id] = video
+    for video in videos:
+        insert_video(db_videos, video)
 
     YoutubeVideo.write(db_file, db_videos)
 
 
-def delete_video(db_file: str, video_id: str):
+def delete(db_file: str, videos_id: list[str]):
     """
     Find video with given id and delete it from db. All other videos number is shifted by -1.
     :param db_file:
-    :param video_id:
+    :param videos_id:
     :return:
     """
     db_videos = YoutubeVideo.from_db_file(db_file)
-
-    position = db_videos[video_id].number
-    del db_videos[video_id]
-
-    shift_items(db_videos, position_start=position, position_end=None, step=-1)
-
+    for video_id in videos_id:
+        delete_video(db_videos, video_id)
     YoutubeVideo.write(db_file, db_videos)
 
 
-def shift_items(items: dict[str, YoutubeVideo], position_start: int, position_end: int = None, step: int = 1):
+def shift_videos(videos: dict[str, YoutubeVideo], position_start: int, position_end: int = None, step: int = 1):
     """
     All items within range position_start <= item.number <= position_end will have its number changed by given step.
 
     Items are mutated with new position number and file_name
-    :param items:
+    :param videos:
     :param position_start: video number start position; inclusive
     :param position_end: video number end position; inclusive
     :param step: how many position to shift. Negative as well
     :return:
     """
-    for video in items.values():
+    for video in videos.values():
         if video.number >= position_start and (position_end is None or (position_end and video.number <= position_end)):
             video.number += step
             if video.number <= 0:
                 raise Exception(f"Number <= 0 not allowed. Video ID: {video.video_id}")
             video.file_name = video.generate_file_name()
-            items[video.video_id] = video
+            videos[video.video_id] = video
+
+
+def delete_video(videos: dict[str, YoutubeVideo], video_id: str) -> YoutubeVideo:
+    """
+    Find and remove video with given id.
+
+    All items after removed item are shifted down by 1.
+    :param videos:
+    :param video_id:
+    :return:
+    """
+    video = videos.get(video_id)
+    if video is None:
+        raise Exception(f"Video not found in DB. ID: {video_id}")
+
+    del videos[video_id]
+    shift_videos(videos, position_start=video.number, position_end=None, step=-1)
+    return video
+
+
+def insert_video(videos: dict[str, YoutubeVideo], video: YoutubeVideo):
+    """
+    Shift up by 1 all videos, then insert given item
+    :param videos:
+    :param video:
+    :return:
+    """
+    if videos.get(video.video_id):
+        raise Exception(f"Video already exists in DB. ID: {video.video_id}")
+    if video.number == -1:
+        video.number = calculate_insert_number(videos, video.published_at)
+        video.file_name = video.generate_file_name()
+
+    shift_videos(videos, position_start=video.number, position_end=None, step=1)
+    videos[video.video_id] = video
+
+
+def calculate_insert_number(videos: dict[str, YoutubeVideo], published_at: str) -> int:
+    """
+    Calculate video number based on published_at value
+    :param videos:
+    :param published_at:
+    :return:
+    """
+    videos_list: list[YoutubeVideo] = list(sorted(videos.values(), key=lambda v: v.number))
+    for video in videos_list:
+        if yt_datetime.compare_yt_dates(video.published_at, published_at) == 1:
+            return video.number
+
+    return videos_list[-1].number + 1
 
 
 def check_validity(db_file: str) -> bool:
@@ -160,7 +183,7 @@ def check_validity(db_file: str) -> bool:
             valid = False
             print(f"Warning: db has a video with number 0. Video: {item.video_id}")
 
-        for i in range(1, max_number+1):
+        for i in range(1, max_number + 1):
             if numbers.get(i) is None:
                 valid = False
                 print(f"DB File missing number: {i}")
@@ -169,7 +192,7 @@ def check_validity(db_file: str) -> bool:
         videos = [YoutubeVideo.from_dict(v) for v in db_data]
         for i in range(len(videos) - 1):
             this_video = videos[i]
-            next_video = videos[i+1]
+            next_video = videos[i + 1]
             if this_video.number > next_video.number:
                 valid = False
                 print(f"Videos not sorted by number. IDs: {this_video.video_id}, {next_video.video_id}")

@@ -16,21 +16,24 @@ CHECK_DATE = "check_date"
 VIDEO_COUNT = "video_count"
 FILE_EXTENSION = "file_extension"
 VIDEO_QUALITY = "video_quality"
-TRACK_LOG_FILE = "track_log_file"
+PLAYLIST_FILE = "playlist_file"
+DOWNLOAD = "download"
 
 DUMMY_NAME = "dummy_name"
 
 MANDATORY_FIELDS = [
     WATCHER_NAME,
     CHANNEL_ID,
-    FILE_EXTENSION
+    FILE_EXTENSION,
+    CHECK_DATE,
+    VIDEO_COUNT,
+    DOWNLOAD,
 ]
 
 
 class YoutubeWatcher:
     def __init__(self, name: str, channel_id: str, check_date: str, video_count: int, file_extension: FileExtension,
-                 track_log_file: str = None, video_quality: int = None):
-        # TODO - need parameter to only track the uploads, without download
+                 download: bool, playlist_file: str = None, video_quality: int = None):
         self.is_dummy = name == DUMMY_NAME
 
         if " " in name:
@@ -41,14 +44,12 @@ class YoutubeWatcher:
         self.check_date = check_date
         self.video_count = video_count
         self.file_extension = file_extension
+        self.download = download
 
-        # TODO - rename track_log_file to playlist_file
-        if self.file_extension.is_audio() and track_log_file is None and not self.is_dummy:
-            self.track_log_file = self.generate_default_track_log_file_name()
-            print(f"WARNING! Audio Watcher has no track log file. Associated default log: {self.track_log_file}")
-        else:
-            self.track_log_file = track_log_file
+        if self.file_extension.is_audio() and playlist_file is None and not self.is_dummy:
+            raise Exception(f"Playlist file expected for watcher: {self.name}")
 
+        self.playlist_file = playlist_file
         self.video_quality = video_quality
 
         self.save_location = "\\".join([paths.WATCHERS_DOWNLOAD_PATH, self.name])
@@ -60,7 +61,7 @@ class YoutubeWatcher:
     @classmethod
     def dummy(cls) -> Self:
         obj = YoutubeWatcher(DUMMY_NAME, "dummy", "", 0, FileExtension.MP3,
-                             None, None)
+                             True, None, None)
         return obj
 
     @staticmethod
@@ -72,9 +73,6 @@ class YoutubeWatcher:
     def append_video(self, yt_video: YoutubeVideo) -> None:
         self.videos.append(yt_video)
 
-    def generate_default_track_log_file_name(self):
-        return "\\".join([paths.WATCHERS_DOWNLOAD_PATH, self.name, self.name + ".txt"])
-
     @classmethod
     def from_dict(cls, data: dict) -> Self:
         YoutubeWatcher.validate_data(data)
@@ -84,10 +82,12 @@ class YoutubeWatcher:
         check_date = data.get(CHECK_DATE, yt_datetime.get_default_ytdate())
         video_count = data.get(VIDEO_COUNT, 0)
         file_extension: FileExtension = FileExtension.from_str(data.get(FILE_EXTENSION))
-        track_log_file = data.get(TRACK_LOG_FILE)
+        playlist_file = data.get(PLAYLIST_FILE)
+        download = data.get(DOWNLOAD)
         video_quality = data.get(VIDEO_QUALITY, None)
 
-        obj = YoutubeWatcher(name, channel_id, check_date, video_count, file_extension, track_log_file, video_quality)
+        obj = YoutubeWatcher(name, channel_id, check_date, video_count, file_extension,
+                             download, playlist_file, video_quality)
         return obj
 
     @classmethod
@@ -103,11 +103,12 @@ class YoutubeWatcher:
         json_data += f"\"{CHANNEL_ID}\": \"{self.channel_id}\", "
         json_data += f"\"{CHECK_DATE}\": \"{self.check_date}\", "
         json_data += f"\"{VIDEO_COUNT}\": {self.video_count}, "
-        json_data += f"\"{FILE_EXTENSION}\": \"{self.file_extension.value}\""
+        json_data += f"\"{FILE_EXTENSION}\": \"{self.file_extension.value}\", "
+        json_data += f"\"{DOWNLOAD}\": {str(self.download).lower()}"
         if self.video_quality:
             json_data += f", \"{VIDEO_QUALITY}\": {self.video_quality}"
-        if self.track_log_file:
-            json_data += f", \"{TRACK_LOG_FILE}\": \"{self.track_log_file}\""
+        if self.playlist_file:
+            json_data += f", \"{PLAYLIST_FILE}\": \"{self.playlist_file}\""
         json_data += f" }}"
 
         return json_data
