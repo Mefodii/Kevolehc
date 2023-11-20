@@ -67,9 +67,33 @@ def move_video_number(playlist_file: str, video_url: str, new_number: int):
     write_playlist(playlist_file, playlist_items)
 
 
-def insert(playlist_file: str, item: PlaylistItem):
-    # TODO
-    pass
+def insert_video(playlist_file: str, item: PlaylistItem):
+    """
+    Insert item to the item.track_nr position and shift all other items down
+    :param playlist_file:
+    :param item:
+    :return:
+    """
+    playlist_items = read_playlist(playlist_file)
+    if find_item(playlist_items, item.url):
+        raise Exception(f"Item with this ID already exists in playlist. ID: {item.url}")
+
+    shift_items(playlist_items, position_start=item.track_nr, position_end=None, step=1)
+
+    inserted = False
+    for i in range(len(playlist_items)):
+        if playlist_items[i].is_dummy:
+            continue
+
+        if playlist_items[i].track_nr > item.track_nr:
+            playlist_items.insert(i, item)
+            inserted = True
+            break
+
+    if not inserted:
+        playlist_items.append(item)
+
+    write_playlist(playlist_file, playlist_items)
 
 
 def delete_video(playlist_file: str, video_url: str):
@@ -92,7 +116,7 @@ def shift_items(items: list[PlaylistItem], position_start: int, position_end: in
     """
     All items within range position_start <= item.track_nr <= position_end will have its number changed by given step.
 
-    Items are mutated with new position number and file_name
+    Items are mutated with new position number
     :param items:
     :param position_start: video number start position; inclusive
     :param position_end: video number end position; inclusive

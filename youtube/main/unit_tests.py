@@ -8,7 +8,9 @@ from icecream import ic
 from utils import file
 from utils.file import File
 from youtube import paths
+from youtube.model import playlist_item
 from youtube.model.file_extension import FileExtension
+from youtube.model.playlist_item import PlaylistItem
 from youtube.paths import TESTS_PATH
 from youtube.utils import playlist_utils, db_utils, media_utils
 from youtube.utils.ffmpeg import Ffmpeg
@@ -22,11 +24,13 @@ TEST_ADD_PLAYLIST_TRACKS_DB = "\\".join([TESTS_PATH, "test_add_playlist_tracks_d
 TEST_ADD_PLAYLIST_TRACKS_RES = "\\".join([TESTS_PATH, "test_add_playlist_tracks_res.txt"])
 TEST_PLAYLIST_SHIFT = "\\".join([TESTS_PATH, "test_playlist_shift.txt"])
 TEST_PLAYLIST_DEL = "\\".join([TESTS_PATH, "test_playlist_del.txt"])
+TEST_PLAYLIST_INSERT = "\\".join([TESTS_PATH, "test_playlist_insert.txt"])
 TEST_PLAYLIST_MOVE = "\\".join([TESTS_PATH, "test_playlist_move.txt"])
 
 TEST_READ_WRITE_DB = "\\".join([TESTS_PATH, "test_read_write_db.txt"])
 TEST_DB_SHIFT = "\\".join([TESTS_PATH, "test_db_shift.txt"])
 TEST_DB_DEL = "\\".join([TESTS_PATH, "test_db_del.txt"])
+TEST_DB_INSERT = "\\".join([TESTS_PATH, "test_db_insert.txt"])
 TEST_DB_MOVE = "\\".join([TESTS_PATH, "test_db_move.txt"])
 
 TEST_SYNC_DB_PATH = "\\".join([TESTS_PATH, "test_sync_media"])
@@ -104,26 +108,13 @@ def test_video_sort_order() -> bool:
     return ok
 
 
-def test_read_write_db_file() -> bool:
-    """
-    Test that db utils is correctly read to object then converted back to json with no anomalies.
-    :return:
-    """
-    db_videos = YoutubeVideo.from_db_file(TEST_READ_WRITE_DB)
-
-    output_file = TESTS_PATH + "\\" + test_read_write_playlist_file.__name__ + "temp.txt"
-    YoutubeVideo.write(output_file, db_videos)
-
-    if not files_content_equal(TEST_READ_WRITE_DB, output_file):
-        return False
-
-    os.remove(output_file)
-    return True
-
-
 def test_db_utils() -> bool:
     db_videos = YoutubeVideo.from_db_file(TEST_READ_WRITE_DB)
     output_file = TESTS_PATH + "\\" + test_db_utils.__name__ + "temp.txt"
+
+    YoutubeVideo.write(output_file, db_videos)
+    if not files_content_equal(TEST_READ_WRITE_DB, output_file):
+        return False
 
     YoutubeVideo.write(output_file, db_videos)
     db_utils.shift_number(output_file, 7, 3)
@@ -140,20 +131,20 @@ def test_db_utils() -> bool:
     if not files_content_equal(TEST_DB_DEL, output_file):
         return False
 
-    os.remove(output_file)
-    return True
-
-
-def test_read_write_playlist_file() -> bool:
-    """
-    Test that playlist utils is correctly read to object then converted back to string with no anomalies.
-    :return:
-    """
-    playlist_items = playlist_utils.read_playlist(TEST_READ_WRITE_PLAYLIST)
-    output_file = TESTS_PATH + "\\" + test_read_write_playlist_file.__name__ + "temp.txt"
-    playlist_utils.write_playlist(output_file, playlist_items)
-
-    if not files_content_equal(TEST_READ_WRITE_PLAYLIST, output_file):
+    YoutubeVideo.write(output_file, db_videos)
+    video_1 = YoutubeVideo(video_id="video_0", title="video_0", channel_name="test",
+                           published_at="2019-02-17T15:21:09.000Z", number=1, file_extension=FileExtension.MP3,
+                           status=YoutubeVideo.STATUS_MISSING)
+    video_end = YoutubeVideo(video_id="video_end", title="video_end", channel_name="test",
+                             published_at="2019-02-17T15:21:09.000Z", number=15, file_extension=FileExtension.MP3,
+                             status=YoutubeVideo.STATUS_MISSING)
+    video_mid = YoutubeVideo(video_id="video_mid", title="video_mid", channel_name="test",
+                             published_at="2019-02-17T15:21:09.000Z", number=8, file_extension=FileExtension.MP3,
+                             status=YoutubeVideo.STATUS_MISSING)
+    db_utils.insert_video(output_file, video_end)
+    db_utils.insert_video(output_file, video_1)
+    db_utils.insert_video(output_file, video_mid)
+    if not files_content_equal(TEST_DB_INSERT, output_file):
         return False
 
     os.remove(output_file)
@@ -163,26 +154,44 @@ def test_read_write_playlist_file() -> bool:
 def test_playlist_utils() -> bool:
     playlist_items = playlist_utils.read_playlist(TEST_READ_WRITE_PLAYLIST)
     output_file = TESTS_PATH + "\\" + test_playlist_utils.__name__ + "temp.txt"
+
+    # Test read / write consistency
     playlist_utils.write_playlist(output_file, playlist_items)
+    if not files_content_equal(TEST_READ_WRITE_PLAYLIST, output_file):
+        return False
 
+    # Test that tracks numbers are added
+    playlist_utils.write_playlist(output_file, playlist_utils.read_playlist(TEST_ADD_PLAYLIST_TRACKS))
     playlist_utils.add_missing_track_number(output_file, TEST_ADD_PLAYLIST_TRACKS_DB)
-
     if not files_content_equal(TEST_ADD_PLAYLIST_TRACKS_RES, output_file):
         return False
 
-    playlist_items = playlist_utils.read_playlist(output_file)
-    playlist_utils.shift_number(output_file, 500, 3)
+    playlist_utils.write_playlist(output_file, playlist_items)
+    playlist_utils.shift_number(output_file, 21, 3)
     if not files_content_equal(TEST_PLAYLIST_SHIFT, output_file):
         return False
 
     playlist_utils.write_playlist(output_file, playlist_items)
-    playlist_utils.move_video_number(output_file, "https://www.youtube.com/watch?v=y0Lm-4O4Fr4", 500)
+    playlist_utils.move_video_number(output_file, "https://www.youtube.com/watch?v=ffssuJ5iBxc", 14)
     if not files_content_equal(TEST_PLAYLIST_MOVE, output_file):
         return False
 
     playlist_utils.write_playlist(output_file, playlist_items)
-    playlist_utils.delete_video(output_file, "https://www.youtube.com/watch?v=y0Lm-4O4Fr4")
+    playlist_utils.delete_video(output_file, "https://www.youtube.com/watch?v=ffssuJ5iBxc")
     if not files_content_equal(TEST_PLAYLIST_DEL, output_file):
+        return False
+
+    playlist_utils.write_playlist(output_file, playlist_items)
+    item_1 = PlaylistItem("item_1", "https://www.youtube.com/watch?v=test_1xxxxx",
+                          playlist_item.ITEM_FLAG_DEFAULT, 1)
+    item_end = PlaylistItem("item_end", "https://www.youtube.com/watch?v=test_endxxx",
+                            playlist_item.ITEM_FLAG_DEFAULT, 70)
+    item_mid = PlaylistItem("item_mid", "https://www.youtube.com/watch?v=test_midxxx",
+                            playlist_item.ITEM_FLAG_DEFAULT, 21)
+    playlist_utils.insert_video(output_file, item_end)
+    playlist_utils.insert_video(output_file, item_mid)
+    playlist_utils.insert_video(output_file, item_1)
+    if not files_content_equal(TEST_PLAYLIST_INSERT, output_file):
         return False
 
     os.remove(output_file)
@@ -231,10 +240,8 @@ def __main__():
     tests = [
         test_yt_to_py,
         test_db_utils,
-        test_read_write_db_file,
-        test_read_write_playlist_file,
         test_playlist_utils,
-        # test_video_sort_order,
+        test_video_sort_order,
         test_sync_media,
     ]
 

@@ -78,6 +78,24 @@ def move_video_number(db_file: str, video_id: str, new_number: int):
     YoutubeVideo.write(db_file, db_videos)
 
 
+def insert_video(db_file: str, video: YoutubeVideo):
+    """
+    Insert video to the video.number position and shift all other videos down.
+    :param db_file:
+    :param video:
+    :return:
+    """
+    db_videos = YoutubeVideo.from_db_file(db_file)
+
+    if db_videos.get(video.video_id):
+        raise Exception(f"Video with this ID already exists in DB. ID: {video.video_id}")
+
+    shift_items(db_videos, position_start=video.number, position_end=None, step=1)
+    db_videos[video.video_id] = video
+
+    YoutubeVideo.write(db_file, db_videos)
+
+
 def delete_video(db_file: str, video_id: str):
     """
     Find video with given id and delete it from db. All other videos number is shifted by -1.
