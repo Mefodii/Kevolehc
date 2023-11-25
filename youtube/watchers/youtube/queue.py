@@ -17,6 +17,7 @@ class YoutubeQueue:
         self.video_quality = video_quality
         self.source = source
 
+        # TODO - rename to url
         if not link:
             self.link = DEFAULT_YOUTUBE_WATCH + self.video_id
 
@@ -26,7 +27,7 @@ class YoutubeQueue:
     @classmethod
     def from_youtubevideo(cls, video: YoutubeVideo):
         obj = cls(video.video_id, video.file_name, video.save_location, video.file_extension,
-                  video.video_quality, source=video)
+                  video.video_quality, video.get_url(), source=video)
         return obj
 
     def get_file_abs_path(self):
