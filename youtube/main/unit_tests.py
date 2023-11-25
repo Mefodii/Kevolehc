@@ -10,7 +10,7 @@ from utils.file import File
 from youtube import paths
 from youtube.model import playlist_item
 from youtube.model.file_extension import FileExtension
-from youtube.model.playlist_item import PlaylistItem
+from youtube.model.playlist_item import PlaylistItem, PlaylistItemList
 from youtube.paths import TESTS_PATH
 from youtube.utils import playlist_utils, db_utils, media_utils
 from youtube.utils.ffmpeg import Ffmpeg
@@ -162,36 +162,36 @@ def test_db_utils() -> bool:
 
 
 def test_playlist_utils() -> bool:
-    playlist_items = PlaylistItem.from_file(TEST_READ_WRITE_PLAYLIST)
+    playlist_list = PlaylistItemList.from_file(TEST_READ_WRITE_PLAYLIST)
     output_file = TESTS_PATH + "\\" + test_playlist_utils.__name__ + "temp.txt"
 
     # Test read / write consistency
-    PlaylistItem.write(output_file, playlist_items)
+    playlist_list.write(output_file)
     if not files_content_equal(TEST_READ_WRITE_PLAYLIST, output_file):
         return False
 
     # Test that tracks numbers are added
-    PlaylistItem.write(output_file, PlaylistItem.from_file(TEST_ADD_PLAYLIST_TRACKS))
+    PlaylistItemList.from_file(TEST_ADD_PLAYLIST_TRACKS).write(output_file)
     playlist_utils.add_missing_track_number(output_file, TEST_ADD_PLAYLIST_TRACKS_DB)
     if not files_content_equal(TEST_ADD_PLAYLIST_TRACKS_RES, output_file):
         return False
 
-    PlaylistItem.write(output_file, playlist_items)
+    playlist_list.write(output_file)
     playlist_utils.shift(output_file, 21, 3)
     if not files_content_equal(TEST_PLAYLIST_SHIFT, output_file):
         return False
 
-    PlaylistItem.write(output_file, playlist_items)
+    playlist_list.write(output_file)
     playlist_utils.move(output_file, "https://www.youtube.com/watch?v=ffssuJ5iBxc", 14)
     if not files_content_equal(TEST_PLAYLIST_MOVE, output_file):
         return False
 
-    PlaylistItem.write(output_file, playlist_items)
+    playlist_list.write(output_file)
     playlist_utils.delete(output_file, ["https://www.youtube.com/watch?v=ffssuJ5iBxc"])
     if not files_content_equal(TEST_PLAYLIST_DEL, output_file):
         return False
 
-    PlaylistItem.write(output_file, playlist_items)
+    playlist_list.write(output_file)
     item_1 = PlaylistItem("item_1", "https://www.youtube.com/watch?v=test_1xxxxx",
                           playlist_item.ITEM_FLAG_DEFAULT, 1)
     item_end = PlaylistItem("item_end", "https://www.youtube.com/watch?v=test_endxxx",
@@ -266,7 +266,7 @@ def __main__():
         test_playlist_utils,
         # test_video_sort_order,
         # test_sync_media,
-        # test_watchers_json,
+        test_watchers_json,
     ]
 
     for test in tests:

@@ -1,4 +1,4 @@
-from youtube.model.playlist_item import PlaylistItem
+from youtube.model.playlist_item import PlaylistItem, PlaylistItemList
 from youtube.utils import constants
 from youtube.watchers.youtube.media import YoutubeVideoList
 
@@ -13,9 +13,9 @@ def shift(playlist_file: str, number: int, step: int = 1):
     :param step: how many position to shift. Negative as well
     :return:
     """
-    playlist_items = PlaylistItem.from_file(playlist_file)
-    shift_items(playlist_items, position_start=number, position_end=None, step=step)
-    PlaylistItem.write(playlist_file, playlist_items)
+    playlist_list = PlaylistItemList.from_file(playlist_file)
+    playlist_list.shift_number(position_start=number, position_end=None, step=step)
+    playlist_list.write(playlist_file)
 
 
 def move(playlist_file: str, video_url: str, new_number: int):
@@ -28,14 +28,14 @@ def move(playlist_file: str, video_url: str, new_number: int):
     :param new_number:
     :return:
     """
-    playlist_items = PlaylistItem.from_file(playlist_file)
+    playlist_list = PlaylistItemList.from_file(playlist_file)
 
-    item = find_item(playlist_items, video_url)
+    item = playlist_list.get_by_url(video_url)
     if item is None:
         raise Exception(f"Item not found in playlist. ID: {video_url}")
-    move_item(playlist_items, item, new_number)
+    playlist_list.move(item, new_number)
 
-    PlaylistItem.write(playlist_file, playlist_items)
+    playlist_list.write(playlist_file)
 
 
 def insert(playlist_file: str, items: list[PlaylistItem]):
@@ -45,12 +45,12 @@ def insert(playlist_file: str, items: list[PlaylistItem]):
     :param items:
     :return:
     """
-    playlist_items = PlaylistItem.from_file(playlist_file)
+    playlist_list = PlaylistItemList.from_file(playlist_file)
 
     for i in items:
-        insert_item(playlist_items, i)
+        playlist_list.insert(i)
 
-    PlaylistItem.write(playlist_file, playlist_items)
+    playlist_list.write(playlist_file)
 
 
 def delete(playlist_file: str, videos_url: list[str]):
@@ -60,38 +60,16 @@ def delete(playlist_file: str, videos_url: list[str]):
     :param videos_url: list with full url, with http and stuff
     :return:
     """
-    playlist_items = PlaylistItem.from_file(playlist_file)
+    playlist_list = PlaylistItemList.from_file(playlist_file)
 
     for url in videos_url:
-        item = find_item(playlist_items, url)
+        item = playlist_list.get_by_url(url)
         if item is None:
             raise Exception(f"Item not found in playlist. ID: {url}")
 
-        delete_item(playlist_items, item)
+        playlist_list.delete(item)
 
-    PlaylistItem.write(playlist_file, playlist_items)
-
-
-def shift_items(items: list[PlaylistItem], position_start: int, position_end: int = None, step: int = 1):
-    """
-    All items within range position_start <= item.track_nr <= position_end will have its number changed by given step.
-
-    Items are mutated with new position number
-    :param items:
-    :param position_start: video number start position; inclusive
-    :param position_end: video number end position; inclusive
-    :param step: how many position to shift. Negative as well
-    :return:
-    """
-    for playlist_item in items:
-        if playlist_item.is_dummy:
-            continue
-
-        if (playlist_item.track_nr >= position_start and
-                (position_end is None or (position_end and playlist_item.track_nr <= position_end))):
-            playlist_item.track_nr += step
-            if playlist_item.track_nr <= 0:
-                raise Exception(f"Number <= 0 not allowed. Video ID: {playlist_item.url}")
+    playlist_list.write(playlist_file)
 
 
 def add_missing_track_number(playlist_file: str, db_file: str):
@@ -102,105 +80,24 @@ def add_missing_track_number(playlist_file: str, db_file: str):
     :return:
     """
     videos_list = YoutubeVideoList.from_file(db_file)
-    playlist_items = PlaylistItem.from_file(playlist_file)
+    playlist_list = PlaylistItemList.from_file(playlist_file)
 
     changed = False
-    for item in playlist_items:
+    for item in playlist_list.items:
         if item.is_dummy:
             continue
 
-        if item.track_nr is None:
+        if item.number is None:
             video_id = item.url.replace(constants.DEFAULT_YOUTUBE_WATCH, "")
             db_video = videos_list.get_by_id(video_id)
             if db_video is None:
                 raise Exception(f"Video not found in DB. Video ID: {video_id}")
 
-            item.track_nr = db_video.number
+            item.number = db_video.number
             changed = True
 
     if changed:
-        PlaylistItem.write(playlist_file, playlist_items)
-
-
-def move_item(items: list[PlaylistItem], item: PlaylistItem, new_number: int):
-    if item.track_nr == new_number:
-        print(f"Video already has this number. Move canceleld. Video url: {item.url}. Number: {new_number}")
-        return
-
-    delete_item(items, item)
-    item.track_nr = new_number
-    insert_item(items, item)
-
-
-def delete_item(items: list[PlaylistItem], item: PlaylistItem):
-    """
-    Remove item, then all items after removed item are shifted down by 1.
-    :param items:
-    :param item:
-    :return:
-    """
-    if item not in items:
-        raise Exception(f"Item not found in playlist. ID: {item.url}")
-
-    items.remove(item)
-    shift_items(items, position_start=item.track_nr, position_end=None, step=-1)
-
-
-def insert_item(items: list[PlaylistItem], item: PlaylistItem):
-    """
-    Shift up by 1 all items, then insert given item
-    :param items:
-    :param item:
-    :return:
-    """
-    if find_item(items, item.url):
-        raise Exception(f"Item already exists in playlist. ID: {item.url}")
-
-    shift_items(items, position_start=item.track_nr, position_end=None, step=1)
-
-    inserted = False
-    for i in range(len(items)):
-        if items[i].is_dummy:
-            continue
-
-        if items[i].track_nr > item.track_nr:
-            items.insert(i, item)
-            inserted = True
-            break
-
-    if not inserted:
-        items.append(item)
-
-
-def find_item(items: list[PlaylistItem], url: str) -> PlaylistItem | None:
-    """
-    :param items:
-    :param url:
-    :return: First PlaylistItem with given url. None if not found.
-    """
-    for i in range(len(items)):
-        if items[i].url == url:
-            return items[i]
-
-    return None
-
-
-def is_sorted(items: list[PlaylistItem]) -> bool:
-    """
-    :param items:
-    :return: True if all items in list are sorted ascending by track_nr, no duplicates
-    """
-    expected_nr = 1
-    for item in items:
-        if item.is_dummy:
-            continue
-
-        if item.track_nr != expected_nr:
-            print(f"Item has unsorted track nr: {item.track_nr}. Item: {item}. Expected track nr: {expected_nr}")
-            return False
-        expected_nr += 1
-
-    return True
+        playlist_list.write(playlist_file)
 
 
 def check_validity(playlist_file: str, db_file: str) -> bool:
@@ -213,13 +110,13 @@ def check_validity(playlist_file: str, db_file: str) -> bool:
     :return:
     """
     videos = YoutubeVideoList.from_file(db_file).videos
-    playlist_items = PlaylistItem.from_file(playlist_file)
+    playlist_list = PlaylistItemList.from_file(playlist_file)
 
-    if not is_sorted(playlist_items):
+    if not playlist_list.is_sorted():
         return False
 
     items_dict: dict[str, PlaylistItem] = {item.url.replace(constants.DEFAULT_YOUTUBE_WATCH, ""): item
-                                           for item in playlist_items}
+                                           for item in playlist_list.items}
     valid = True
     for db_video in videos:
         item = items_dict.pop(db_video.video_id, None)
@@ -227,9 +124,9 @@ def check_validity(playlist_file: str, db_file: str) -> bool:
             valid = False
             print(f"Video not found in playlist. Video: {db_video}")
 
-        if item.track_nr != db_video.number:
+        if item.number != db_video.number:
             valid = False
-            print(f"Mismatch number. ID: {db_video.video_id}. DB_NR: {db_video.number}. PL_NR: {item.track_nr}")
+            print(f"Mismatch number. ID: {db_video.video_id}. DB_NR: {db_video.number}. PL_NR: {item.number}")
 
     for item in items_dict.values():
         if not item.is_dummy:

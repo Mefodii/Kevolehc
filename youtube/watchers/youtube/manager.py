@@ -4,7 +4,7 @@ from yt_dlp import DownloadError
 
 from utils import file
 from youtube.model.file_tags import FileTags
-from youtube.model.playlist_item import PlaylistItem
+from youtube.model.playlist_item import PlaylistItem, PlaylistItemList
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube.utils.downloader import YoutubeDownloader
 from youtube.paths import RESOURCES_PATH as FFMPEG_PATH
@@ -171,9 +171,7 @@ class YoutubeWatchersManager:
         for watcher in self.watchers:
             playlist_file = watcher.playlist_file
             if playlist_file:
-                track_list = [str(PlaylistItem.from_youtubevideo(video)) for video in watcher.videos]
-                if len(track_list) > 0:
-                    file.append(playlist_file, track_list)
+                PlaylistItemList.append_videos(playlist_file, watcher.videos)
 
     def update_db(self) -> None:
         for watcher in self.watchers:
