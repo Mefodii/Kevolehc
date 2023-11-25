@@ -164,6 +164,11 @@ class YoutubeVideoList:
         self.insert(video)
 
     def insert(self, video: YoutubeVideo) -> None:
+        """
+        Shift up by 1 all videos with number higher than current video, then insert given video
+        :param video:
+        :return:
+        """
         if self.get_by_id(video.video_id):
             raise Exception(f"Video already exists. ID: {video.video_id}")
         expected_number = self.calculate_insert_number(video.published_at)
@@ -176,6 +181,11 @@ class YoutubeVideoList:
         self.videos.insert(expected_number, video)
 
     def delete(self, video: YoutubeVideo):
+        """
+        Remove video, then all videos after removed item are shifted down by 1.
+        :param video:
+        :return:
+        """
         if video not in self.videos:
             raise Exception(f"Video not found. ID: {video.video_id}")
 
@@ -184,7 +194,7 @@ class YoutubeVideoList:
 
     def shift_number(self, position_start: int, position_end: int = None, step: int = 1):
         """
-        All items within range position_start <= item.number <= position_end will have its number changed by given step.
+        All items within range position_start <= item.number <= position_end will have its number changed by step.
 
         Items are mutated with new position number and file_name
         :param position_start:
