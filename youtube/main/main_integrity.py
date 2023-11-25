@@ -4,8 +4,7 @@ import time
 from utils import file
 from utils.file import File
 from youtube import paths
-from youtube.utils import media_utils, playlist_utils
-from youtube.watchers.youtube.media import YoutubeVideoList
+from youtube.utils import media_utils, playlist_utils, db_utils
 
 MEDIA_FILES_MAIN_PATH = paths.WATCHERS_DOWNLOAD_PATH
 MEDIA_FILES_VIDEO_ARCHIVE_PATH = "G:\\Filme"
@@ -74,7 +73,7 @@ def check_db_playlist_media_validity():
     for db_file in db_files:
         db_file_path = db_file.get_abs_path()
         print(f"Checking: {db_file.name}")
-        valid = YoutubeVideoList.check_validity(db_file_path)
+        valid = db_utils.check_validity(db_file_path)
         print(f"DB Validity: {valid}")
         if not valid:
             continue
