@@ -8,18 +8,14 @@ INFO_DICT = "info_dict"
 
 class YoutubeQueue:
     def __init__(self, video_id: str, file_name: str, save_location: str, file_extension: FileExtension,
-                 video_quality: int = None, link: str = None, source: YoutubeVideo = None):
+                 video_quality: int = None, url: str = None, source: YoutubeVideo = None):
         self.video_id = video_id
         self.file_name = normalize_file_name(file_name)
         self.save_location = save_location
         self.file_extension = file_extension
-        self.link = link
+        self.url = url
         self.video_quality = video_quality
         self.source = source
-
-        # TODO - rename to url
-        if not link:
-            self.link = DEFAULT_YOUTUBE_WATCH + self.video_id
 
         self.audio_dl_stats = None
         self.video_dl_stats = None
@@ -43,5 +39,5 @@ class YoutubeQueue:
             self.file_name = normalize_file_name(file_name)
 
     def __repr__(self):
-        return ";".join([self.video_id, self.link, self.file_name, self.save_location, self.file_extension.value,
+        return ";".join([self.video_id, self.url, self.file_name, self.save_location, self.file_extension.value,
                          str(self.video_quality)])

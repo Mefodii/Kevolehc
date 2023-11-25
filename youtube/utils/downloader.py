@@ -47,9 +47,9 @@ class YoutubeDownloader:
         ydl_opts = self.build_audio_download_options(output_file_path)
 
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([queue.link])
+            ydl.download([queue.url])
 
-            result = ydl.extract_info("{}".format(queue.link))
+            result = ydl.extract_info("{}".format(queue.url))
             queue.audio_dl_stats = copy.deepcopy(self.download_stats)
 
     def download_video(self, queue: YoutubeQueue):
@@ -68,8 +68,8 @@ class YoutubeDownloader:
         output_file_path = audio_file + EXT_TAG
         ydl_opts = self.build_audio_fragment_download_options(output_file_path)
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([queue.link])
-            result = ydl.extract_info("{}".format(queue.link), download=False)
+            ydl.download([queue.url])
+            result = ydl.extract_info("{}".format(queue.url), download=False)
             queue.audio_dl_stats = copy.deepcopy(self.download_stats)
 
         # Download video part (has no sound)
@@ -78,8 +78,8 @@ class YoutubeDownloader:
         output_file_path = video_file + EXT_TAG
         ydl_opts = self.build_video_fragment_download_options(output_file_path)
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([queue.link])
-            result = ydl.extract_info("{}".format(queue.link), download=False)
+            ydl.download([queue.url])
+            result = ydl.extract_info("{}".format(queue.url), download=False)
             queue.video_dl_stats = copy.deepcopy(self.download_stats)
 
         # Replace tags from file_name by its values from queue.video_dl_stats

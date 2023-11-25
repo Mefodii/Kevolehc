@@ -102,7 +102,7 @@ def __main__(settings_file):
         print("".join(["Downloading ", str(i + 1), "/", str(total_to_download)]))
 
         queue = YoutubeQueue("", queue_item.title, output_directory, queue_item.file_extension,
-                             video_quality=queue_item.video_quality, link=queue_item.url)
+                             video_quality=queue_item.video_quality, url=queue_item.url)
         downloader.download(queue)
 
     if len(watcher_type_queue) > 0:

@@ -151,7 +151,7 @@ class YoutubeWatchersManager:
                 try:
                     self.downloader.download(queue)
                 except DownloadError:
-                    self.log(f"Unable to download - {queue.link}", True)
+                    self.log(f"Unable to download - {queue.url}", True)
 
             video = queue.source
             video.status = YoutubeVideo.STATUS_DOWNLOADED if file.exists(result_file) else YoutubeVideo.STATUS_UNABLE
