@@ -29,7 +29,7 @@ class PlaylistItem:
     @classmethod
     def from_youtubevideo(cls, item: YoutubeVideo):
         item_flag = ITEM_FLAG_DEFAULT if file.exists(item.get_file_abs_path()) else ITEM_FLAG_MISSING
-        url = DEFAULT_YOUTUBE_WATCH + item.video_id
+        url = item.get_url()
         obj = PlaylistItem(item.title, url, item_flag, item.number)
         return obj
 

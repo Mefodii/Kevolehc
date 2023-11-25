@@ -1,11 +1,10 @@
 from __future__ import annotations
-from typing import TYPE_CHECKING, Self
+from typing import Self
 
 from utils import file
 from youtube.model.file_extension import FileExtension
-
-if TYPE_CHECKING:
-    from youtube.watchers.youtube.media import YoutubeVideo
+from youtube.watchers.youtube.api import YoutubeAPIVideo
+from youtube.watchers.youtube.media import YoutubeVideo, YoutubeVideoList
 
 from youtube import paths
 from youtube.utils import yt_datetime
@@ -56,6 +55,10 @@ class YoutubeWatcher:
         self.db_file = "\\".join([paths.DB_PATH, self.name + ".txt"])
 
         self.videos: list[YoutubeVideo] = []
+        self.missing_videos: list[YoutubeVideo] = []
+        self.changed_videos: list[tuple[YoutubeVideo, YoutubeVideo]] = []
+        self.api_videos: list[YoutubeAPIVideo] = []
+        self.db_videos = YoutubeVideoList.from_file(self.db_file, empty_if_not_found=True)
         self.new_check_date = None
 
     @classmethod
@@ -68,10 +71,20 @@ class YoutubeWatcher:
     def validate_data(data: dict):
         for field in MANDATORY_FIELDS:
             if data.get(field) is None:
-                raise ValueError(field + " not found")
+                raise ValueError(f"{field} not found")
 
     def append_video(self, yt_video: YoutubeVideo) -> None:
         self.videos.append(yt_video)
+
+    def init_video(self, api_video: YoutubeAPIVideo) -> YoutubeVideo:
+        video_id = api_video.get_id()
+        title = api_video.get_title()
+        channel_name = self.name
+        published_at = api_video.get_publish_date()
+
+        video = YoutubeVideo(video_id, title, channel_name, published_at, self.video_count, self.save_location,
+                             file_extension=self.file_extension, file_name=None, video_quality=self.video_quality)
+        return video
 
     @classmethod
     def from_dict(cls, data: dict) -> Self:
@@ -95,6 +108,32 @@ class YoutubeWatcher:
         data = file.read_json(file_path)
         watchers = [YoutubeWatcher.from_dict(watcher_dict) for watcher_dict in data]
         return watchers
+
+    def update_db(self):
+        self.db_videos.add(self.videos)
+        self.db_videos.write(self.db_file)
+
+    def extract_missing(self) -> list[YoutubeVideo]:
+        missing_videos = []
+        for api_video in self.api_videos:
+            if self.db_videos.get_by_id(api_video.get_id()) is None:
+                video = self.init_video(api_video)
+                missing_videos.append(video)
+
+        self.missing_videos = missing_videos
+        return self.missing_videos
+
+    def extract_changed(self) -> list[tuple[YoutubeVideo, YoutubeVideo]]:
+        changed_videos = []
+        for api_video in self.api_videos:
+            db_video = self.db_videos.get_by_id(api_video.get_id())
+            if db_video:
+                video = self.init_video(api_video)
+                if db_video.has_changed(video):
+                    changed_videos.append((db_video, video))
+
+        self.changed_videos = changed_videos
+        return self.changed_videos
 
     def to_json(self) -> str:
         json_data = ""

@@ -8,7 +8,7 @@ from utils.file import File
 from youtube.model.file_extension import FileExtension
 from youtube.model.file_tags import FileTags
 from youtube.utils.ffmpeg import Ffmpeg
-from youtube.watchers.youtube.media import YoutubeVideo
+from youtube.watchers.youtube.media import YoutubeVideo, YoutubeVideoList
 
 
 def sync_media_filenames_with_db(db_file: str, media_paths: list[str], extension: FileExtension):
@@ -21,7 +21,7 @@ def sync_media_filenames_with_db(db_file: str, media_paths: list[str], extension
     :param extension:
     :return:
     """
-    db_videos = YoutubeVideo.from_db_file(db_file)
+    videos_list = YoutubeVideoList.from_file(db_file)
 
     files = [f for path in media_paths for f in file.list_files(path)]
     media_files = filter_media_files(files, extension)
@@ -32,10 +32,11 @@ def sync_media_filenames_with_db(db_file: str, media_paths: list[str], extension
         file_id = tags.get(FileTags.DISC) if extension.is_audio() else tags.get(FileTags.EPISODE_ID)
         if file_id is None:
             raise ValueError(f"File has no ID: {file_abs_path}")
-        if db_videos.get(file_id) is None:
+
+        video = videos_list.get_by_id(file_id)
+        if video is None:
             raise ValueError(f"File not found in DB: {file_abs_path}")
 
-        video = db_videos.get(file_id)
         expected_tags = FileTags.extract_from_youtubevideo(video)
         diff = []
         for k, expected_value in expected_tags.items():
@@ -77,10 +78,10 @@ def check_validity(db_file: str, media_paths: list[str]) -> bool:
         abs_file_name = f"{path}\\{v.file_name}.{v.file_extension.value}"
         return file.exists(abs_file_name)
 
-    db_videos = YoutubeVideo.from_db_file(db_file)
+    videos = YoutubeVideoList.from_file(db_file).videos
 
     valid = True
-    for video in db_videos.values():
+    for video in videos:
         if video.status != YoutubeVideo.STATUS_DOWNLOADED:
             continue
 

@@ -8,9 +8,9 @@ from youtube.model.playlist_item import PlaylistItem
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube.utils.downloader import YoutubeDownloader
 from youtube.paths import RESOURCES_PATH as FFMPEG_PATH
-from youtube.utils import yt_datetime, db_utils
+from youtube.utils import yt_datetime
 
-from youtube.watchers.youtube.media import YoutubeVideo
+from youtube.watchers.youtube.media import YoutubeVideo, YoutubeVideoList
 from youtube.watchers.youtube.queue import YoutubeQueue
 from youtube.watchers.youtube.watcher import YoutubeWatcher
 
@@ -41,9 +41,14 @@ class YoutubeWatchersManager:
         self.generate_queue()
         self.download_queue()
         self.append_tags()
-        self.update_playlist_log()
-        self.update_db_log()
+        self.update_playlist()
+        self.update_db()
         self.finish()
+
+    def run_integrity(self):
+        # TODO - functionality to be tested yet
+        self.log(str(yt_datetime.get_current_ytdate()) + " - starting to check for missing videos", True)
+        self.check_api_videos()
 
     def simple_download(self, videos: list[YoutubeVideo]):
         dummy_watcher = YoutubeWatcher.dummy()
@@ -54,49 +59,48 @@ class YoutubeWatchersManager:
         self.download_queue()
         self.append_tags()
 
-    def check_for_missing(self, download=False):
-        # TODO - functionality to be tested yet
-        self.log(str(yt_datetime.get_current_ytdate()) + " - starting to check for missing videos", True)
+    def check_api_videos(self):
         for watcher in self.watchers:
             self.log(f'Checking: {watcher.channel_id} - {watcher.name}', True)
-            db_file = watcher.db_file
-            db_videos = YoutubeVideo.from_db_file(db_file)
 
-            self.obtain_all_videos(watcher)
-            for video in watcher.videos:
-                db_video = db_videos.get(video.video_id, None)
-                # Check if video exists in db
-                if db_video is None:
-                    video.status = YoutubeVideo.STATUS_MISSING
-                    db_videos[video.video_id] = video
-                    self.log(f"Video missing: {video.to_dict()}", True)
-                else:
-                    # Add timestamp if missing
-                    if db_video.published_at is None:
-                        db_video.published_at = video.published_at
+            api_videos = self.api.get_uploads(watcher.channel_id, yt_datetime.get_default_ytdate(), watcher.check_date)
+            watcher.api_videos = api_videos
 
-                    # Compare timestamp
-                    if yt_datetime.compare_yt_dates(db_video.published_at, video.published_at) != 0:
-                        message = f"{db_video.number} | API: {video.published_at} | DB: {db_video.published_at}"
-                        self.log(message, True)
-                        db_video.published_at = video.published_at
+            watcher.extract_missing()
+            for video in watcher.missing_videos:
+                self.log(f"Video missing: {video.to_dict()}", True)
+                video.status = YoutubeVideo.STATUS_MISSING
+                video.number = -1
 
-                    # Check and update video title in db if changed
-                    if not db_video.title == video.title:
-                        message = f"{db_video.number} | API: {video.title} | DB: {db_video.title}"
-                        self.log(message, True)
-                        db_video.title = video.title
+            #     TODO - to be inserted in db_videos
 
-                    db_videos[video.video_id] = db_video
-
-            YoutubeVideo.write(db_file, db_videos)
+            watcher.extract_changed()
+            # for db_video, new_video in watcher.changed_videos:
+            #     # Compare timestamp and move if changed
+            #     if db_video.published_at != new_video.published_at:
+            #         message = (f"Changed publish date: {db_video.video_id} | API: {new_video.published_at} | "
+            #                    f"DB: {db_video.published_at}")
+            #         self.log(message, True)
+            #         db_video.published_at = new_video.published_at
+            #
+            #         new_number = watcher.calculate_number(db_video)
+            #         if new_number != db_video.number:
+            #             self.log(f"Moving from: {db_video.number} to: {new_number}", True)
+            #             watcher.move_video(db_video, new_number)
+            #
+            #     # Check and update video title in db if changed
+            #     if db_video.title != new_video.title:
+            #         message = f"Changed title: {db_video.video_id} | API: {new_video.title} | DB: {db_video.title}"
+            #         self.log(message, True)
+            #         db_video.title = new_video.title
+            #         db_video.file_name = db_video.generate_file_name()
 
     def download_db_missing(self):
         # TODO - functionality to tested yet
         for watcher in self.watchers:
-            db_videos = YoutubeVideo.from_db_file(watcher.db_file)
+            videos_list = YoutubeVideoList.from_file(watcher.db_file)
 
-            for db_video in db_videos.values():
+            for db_video in videos_list.videos:
                 if db_video.status == YoutubeVideo.STATUS_MISSING:
                     # if db_video.status == YoutubeVideo.STATUS_UNABLE:
                     watcher.append_video(db_video)
@@ -104,29 +108,21 @@ class YoutubeWatchersManager:
         self.generate_queue()
         self.download_queue()
         self.append_tags()
-        self.update_playlist_log()
-        self.update_db_log()
-
-    def obtain_all_videos(self, watcher: YoutubeWatcher):
-        watcher.videos = []
-        videos = self.api.get_channel_uploads_from_date(watcher.channel_id, yt_datetime.get_default_ytdate())
-        for item in videos:
-            yt_video = YoutubeVideo.from_youtube_api_video_and_watcher(item, watcher)
-            yt_video.number = 0
-            watcher.append_video(yt_video)
+        self.update_playlist()
+        self.update_db()
 
     def check_for_updates(self) -> None:
         self.log(str(yt_datetime.get_current_ytdate()) + " - starting update process for watchers")
         for watcher in self.watchers:
             self.log(f'Checking: {watcher.channel_id} - {watcher.name}')
             watcher.new_check_date = yt_datetime.get_current_ytdate()
-            videos = self.api.get_channel_uploads_from_date(watcher.channel_id, watcher.check_date)
+            videos = self.api.get_uploads(watcher.channel_id, watcher.check_date)
 
             self.log(f"{watcher.name.ljust(30)} || New uploads - {len(videos)}")
             for item in videos:
                 self.log("\t" + str(item.data))
                 watcher.video_count += 1
-                yt_video = YoutubeVideo.from_youtube_api_video_and_watcher(item, watcher)
+                yt_video = watcher.init_video(item)
                 watcher.append_video(yt_video)
 
     def generate_queue(self) -> None:
@@ -171,7 +167,7 @@ class YoutubeWatchersManager:
                 if file.exists(file_abs_path):
                     Ffmpeg.add_tags(file_abs_path, tags, loglevel="error")
 
-    def update_playlist_log(self) -> None:
+    def update_playlist(self) -> None:
         for watcher in self.watchers:
             playlist_file = watcher.playlist_file
             if playlist_file:
@@ -179,9 +175,9 @@ class YoutubeWatchersManager:
                 if len(track_list) > 0:
                     file.append(playlist_file, track_list)
 
-    def update_db_log(self) -> None:
+    def update_db(self) -> None:
         for watcher in self.watchers:
-            db_utils.append(watcher.db_file, watcher.videos, create_file_if_not_found=True)
+            watcher.update_db()
 
     def finish(self) -> None:
         for watcher in self.watchers:

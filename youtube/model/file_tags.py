@@ -1,4 +1,3 @@
-from youtube.model.file_extension import FileExtension
 from youtube.watchers.youtube.media import YoutubeVideo
 
 

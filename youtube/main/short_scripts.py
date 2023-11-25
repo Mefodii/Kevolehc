@@ -6,12 +6,10 @@ from icecream import ic
 from utils import file
 from youtube import paths
 from youtube.model.file_extension import FileExtension
-from youtube.model.file_tags import FileTags
 from youtube.paths import WATCHERS_DOWNLOAD_PATH
 from youtube.utils import db_utils, playlist_utils, media_utils, constants
-from youtube.utils.ffmpeg import Ffmpeg
 from youtube.watchers.youtube.api import YoutubeWorker
-from youtube.watchers.youtube.media import YoutubeVideo
+from youtube.watchers.youtube.media import YoutubeVideo, YoutubeVideoList
 
 FILES_VIDEO_ARCHIVE_PATH = "G:\\Filme"
 FILES_AUDIO_ARCHIVE_PATH = "G:\\Music\\yt_watchers"
@@ -24,9 +22,9 @@ def alter_db_kv():
         db_file = item.get_abs_path()
         ic(db_file)
 
-        db_videos = YoutubeVideo.from_db_file(db_file)
+        videos_list = YoutubeVideoList.from_file(db_file)
 
-        for video in db_videos.values():
+        for video in videos_list.videos:
             video.file_name = video.generate_file_name()
 
         # change DB keys and values
@@ -46,13 +44,13 @@ def update_channel_kv():
         if old_name != new_name:
             print(f"To rename: {old_name} to {new_name}")
 
-        db_videos = YoutubeVideo.from_db_file(old_db_file)
+        videos_list = YoutubeVideoList.from_file(old_db_file)
 
-        for video in db_videos.values():
+        for video in videos_list.videos:
             video.channel_name = new_name
             video.file_name = video.generate_file_name()
 
-        YoutubeVideo.write(new_db_file, db_videos)
+        videos_list.write(new_db_file)
 
 
 def get_yt_video_info():

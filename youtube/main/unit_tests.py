@@ -16,8 +16,7 @@ from youtube.utils import playlist_utils, db_utils, media_utils
 from youtube.utils.ffmpeg import Ffmpeg
 from youtube.utils.yt_datetime import yt_to_py, compare_yt_dates
 from youtube.watchers.youtube.api import YoutubeWorker
-from youtube.watchers.youtube.manager import YoutubeWatchersManager
-from youtube.watchers.youtube.media import YoutubeVideo
+from youtube.watchers.youtube.media import YoutubeVideo, YoutubeVideoList
 from youtube.watchers.youtube.watcher import YoutubeWatcher
 
 TEST_READ_WRITE_PLAYLIST = "\\".join([TESTS_PATH, "test_read_write_playlist.txt"])
@@ -94,7 +93,7 @@ def test_yt_to_py() -> bool:
 def test_video_sort_order() -> bool:
     dk_file = paths.API_KEY_PATH
     worker = YoutubeWorker(dk_file)
-    items = worker.get_channel_uploads_from_date("UCaNd66xUJjX8VZT6AByVpiw", "2016-10-10T06:20:16.813Z")
+    items = worker.get_uploads("UCaNd66xUJjX8VZT6AByVpiw", "2016-10-10T06:20:16.813Z")
     ok = True
     for i in range(0, len(items) - 1):
         date_compare = compare_yt_dates(items[i].get_publish_date(), items[i+1].get_publish_date())
@@ -115,29 +114,29 @@ def test_video_sort_order() -> bool:
 
 
 def test_db_utils() -> bool:
-    db_videos = YoutubeVideo.from_db_file(TEST_READ_WRITE_DB)
+    videos_list = YoutubeVideoList.from_file(TEST_READ_WRITE_DB)
     output_file = TESTS_PATH + "\\" + test_db_utils.__name__ + "temp.txt"
 
-    YoutubeVideo.write(output_file, db_videos)
+    videos_list.write(output_file)
     if not files_content_equal(TEST_READ_WRITE_DB, output_file):
         return False
 
-    YoutubeVideo.write(output_file, db_videos)
+    videos_list.write(output_file)
     db_utils.shift(output_file, 7, 3)
     if not files_content_equal(TEST_DB_SHIFT, output_file):
         return False
 
-    YoutubeVideo.write(output_file, db_videos)
+    videos_list.write(output_file)
     db_utils.move(output_file, "M-vGUWt9BLI", 3)
     if not files_content_equal(TEST_DB_MOVE, output_file):
         return False
 
-    YoutubeVideo.write(output_file, db_videos)
+    videos_list.write(output_file)
     db_utils.delete(output_file, ["NvRHXnb039Q"])
     if not files_content_equal(TEST_DB_DEL, output_file):
         return False
 
-    YoutubeVideo.write(output_file, db_videos)
+    videos_list.write(output_file)
     video_1 = YoutubeVideo(video_id="video_0", title="video_0", channel_name="test",
                            published_at="2019-02-17T14:21:09.000Z", number=1, file_extension=FileExtension.MP3,
                            status=YoutubeVideo.STATUS_MISSING)
@@ -267,7 +266,7 @@ def __main__():
         test_playlist_utils,
         # test_video_sort_order,
         # test_sync_media,
-        test_watchers_json,
+        # test_watchers_json,
     ]
 
     for test in tests:

@@ -131,28 +131,29 @@ class YoutubeWorker:
         self.youtube = googleapiclient.discovery.build(
             API_SERVICE_NAME, API_VERSION, developerKey=self.dk)
 
-    def get_channel_uploads_playlist_id(self, yt_id: str) -> str:
+    def get_uploads_playlist_id(self, channel_id: str) -> str:
         """
         Each YouTube channel has a default "uploads" playlist which contains all the videos
-        :param yt_id: IF of the YouTube channel
+        :param channel_id: IF of the YouTube channel
         :return: ID of the playlist named "uploads"
         """
         request = self.youtube.channels().list(
             part="contentDetails",
-            id=yt_id
+            id=channel_id
         )
         response = request.execute()
         uploads_id = response.get("items")[0].get("contentDetails").get("relatedPlaylists").get("uploads")
 
         return uploads_id
 
-    def get_channel_uploads_from_date(self, yt_id: str, yt_date: str) -> list[YoutubeAPIVideo]:
+    def get_uploads(self, channel_id: str, min_date: str, max_date: str = None) -> list[YoutubeAPIVideo]:
         """
-        :param yt_id:
-        :param yt_date:
-        :return: uploads for given YouTube id in ascending order strictly later than yt_date
+        :param channel_id:
+        :param min_date:
+        :param max_date:
+        :return: uploads for given YouTube id in range min_date < yt_date <= max_date (ignore max_date if None)
         """
-        uploads_playlist_id = self.get_channel_uploads_playlist_id(yt_id)
+        uploads_playlist_id = self.get_uploads_playlist_id(channel_id)
 
         uploads: list[YoutubeAPIVideo] = []
         has_next_page = True
@@ -163,13 +164,18 @@ class YoutubeWorker:
 
             for item in items:
                 published_at = item.get_publish_date()
-                if published_at is not None:
-                    if compare_yt_dates(published_at, yt_date) == 1:
-                        uploads += [item]
-                    else:
-                        reached_yt_date = True
-                else:
+                if published_at is None:
                     print(f'Warning: ignored video with no publish date {item.get_id()}')
+                    continue
+
+                good_min_date = compare_yt_dates(published_at, min_date) == 1
+                good_max_date = True if not max_date else compare_yt_dates(published_at, max_date) <= 0
+                if good_min_date and good_max_date:
+                    uploads.append(item)
+                elif good_min_date and not good_max_date:
+                    continue
+                else:
+                    reached_yt_date = True
 
         uploads = self.remove_livestreams(uploads)
         result = uploads[::-1]

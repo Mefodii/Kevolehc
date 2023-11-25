@@ -1,14 +1,11 @@
 from __future__ import unicode_literals
 import time
 
-from icecream import ic
-
 from utils import file
 from utils.file import File
 from youtube import paths
-from youtube.model.file_extension import FileExtension
-from youtube.paths import WATCHERS_DOWNLOAD_PATH
-from youtube.utils import media_utils, playlist_utils, db_utils
+from youtube.utils import media_utils, playlist_utils
+from youtube.watchers.youtube.media import YoutubeVideoList
 
 MEDIA_FILES_MAIN_PATH = paths.WATCHERS_DOWNLOAD_PATH
 MEDIA_FILES_VIDEO_ARCHIVE_PATH = "G:\\Filme"
@@ -77,7 +74,7 @@ def check_db_playlist_media_validity():
     for db_file in db_files:
         db_file_path = db_file.get_abs_path()
         print(f"Checking: {db_file.name}")
-        valid = db_utils.check_validity(db_file_path)
+        valid = YoutubeVideoList.check_validity(db_file_path)
         print(f"DB Validity: {valid}")
         if not valid:
             continue
