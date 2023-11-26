@@ -7,6 +7,7 @@ from youtube.model.file_extension import FileExtension
 from youtube.utils import yt_datetime
 from youtube.utils.constants import DEFAULT_YOUTUBE_WATCH
 from youtube.utils.file_names import replace_unicode_chars, normalize_file_name
+from youtube.utils.yt_datetime import compare_yt_dates
 
 
 class YoutubeVideo:
@@ -90,7 +91,7 @@ class YoutubeVideo:
             raise Exception(f"Unable to check changes on videos with different id. "
                             f"This ID: {self.video_id}. Other: {other_video.video_id}")
 
-        return self.published_at == other_video.published_at and self.title == other_video.title
+        return compare_yt_dates(self.published_at, other_video.published_at) != 0 or self.title != other_video.title
 
     def to_dict(self):
         data = {
@@ -178,7 +179,7 @@ class YoutubeVideoList:
             video.file_name = video.generate_file_name()
 
         self.shift_number(position_start=video.number, position_end=None, step=1)
-        self.videos.insert(expected_number, video)
+        self.videos.insert(video.number - 1, video)
 
     def delete(self, video: YoutubeVideo):
         """
