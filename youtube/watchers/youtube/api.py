@@ -239,7 +239,9 @@ class YoutubeWorker:
         #  chronological order and API is working as usual
         sorted_uploads = YoutubeAPIItem.sort_by_publish_date(uploads)
         for i1, i2 in zip(sorted_uploads, result):
-            if i1 != i2:
+            i1: YoutubeAPIItem
+            i2: YoutubeAPIItem
+            if i1 != i2 and i1.get_publish_date() != i2.get_publish_date():
                 print("Warning! sort problem", i1, i2)
 
         return result
