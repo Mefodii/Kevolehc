@@ -10,13 +10,12 @@ from youtube.watchers.youtube.api import YoutubeWorker
 #######################################################################################################################
 def __main__():
     youtube_watchers = paths.YOUTUBE_WATCHERS_PATH
-    # youtube_watchers = paths.YOUTUBE_WATCHERS2_PATH
     # youtube_watchers = paths.YOUTUBE_WATCHERS_PGM_PATH
     dk_file = paths.API_KEY_PATH
 
     worker = YoutubeWorker(dk_file)
     manager = YoutubeWatchersManager(worker, youtube_watchers, paths.YOUTUBE_API_LOG)
-    manager.run_full()
+    manager.run_updates()
 
 
 #######################################################################################################################

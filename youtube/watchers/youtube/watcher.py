@@ -3,6 +3,7 @@ from typing import Self
 
 from utils import file
 from youtube.model.file_extension import FileExtension
+from youtube.model.playlist_item import PlaylistItemList
 from youtube.watchers.youtube.api import YoutubeAPIItem
 from youtube.watchers.youtube.media import YoutubeVideo, YoutubeVideoList
 
@@ -46,6 +47,9 @@ class YoutubeWatcher:
         self.download = download
 
         self.playlist_file = playlist_file
+        self.playlist_items: PlaylistItemList = PlaylistItemList([])
+        if playlist_file:
+            self.playlist_items: PlaylistItemList = PlaylistItemList.from_file(playlist_file, empty_if_not_found=True)
         self.video_quality = video_quality
 
         self.save_location = "\\".join([paths.WATCHERS_DOWNLOAD_PATH, self.name])
@@ -55,7 +59,7 @@ class YoutubeWatcher:
         self.missing_videos: list[YoutubeVideo] = []
         self.changed_videos: list[tuple[YoutubeVideo, YoutubeVideo]] = []
         self.api_videos: list[YoutubeAPIItem] = []
-        self.db_videos = YoutubeVideoList.from_file(self.db_file, empty_if_not_found=True)
+        self.db_videos: YoutubeVideoList = YoutubeVideoList.from_file(self.db_file, empty_if_not_found=True)
         self.new_check_date = None
 
     @classmethod
@@ -125,6 +129,10 @@ class YoutubeWatcher:
         for api_video in self.api_videos:
             if self.db_videos.get_by_id(api_video.get_id()) is None:
                 video = self.init_video(api_video)
+                video.number = self.db_videos.calculate_insert_number(video.published_at)
+                video.file_name = video.generate_file_name()
+                self.video_count += 1
+                self.db_videos.insert(video)
                 missing_videos.append(video)
 
         self.missing_videos = missing_videos

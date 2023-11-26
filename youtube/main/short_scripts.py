@@ -6,13 +6,10 @@ from icecream import ic
 from utils import file
 from youtube import paths
 from youtube.model.file_extension import FileExtension
-from youtube.paths import WATCHERS_DOWNLOAD_PATH
+from youtube.paths import WATCHERS_DOWNLOAD_PATH, FILES_VIDEO_ARCHIVE_PATH, FILES_AUDIO_ARCHIVE_PATH
 from youtube.utils import db_utils, playlist_utils, media_utils, constants
 from youtube.watchers.youtube.api import YoutubeWorker
 from youtube.watchers.youtube.media import YoutubeVideo, YoutubeVideoList
-
-FILES_VIDEO_ARCHIVE_PATH = "G:\\Filme"
-FILES_AUDIO_ARCHIVE_PATH = "G:\\Music\\yt_watchers"
 
 
 def alter_db_kv():

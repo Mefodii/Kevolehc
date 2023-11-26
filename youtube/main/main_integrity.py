@@ -4,13 +4,11 @@ import time
 from utils import file
 from utils.file import File
 from youtube import paths
+from youtube.paths import (WATCHERS_DOWNLOAD_PATH, FILES_AUDIO_ARCHIVE_PATH, FILES_VIDEO_ARCHIVE_PATH,
+                           PLAYLIST_FILES_PATH)
 from youtube.utils import media_utils, playlist_utils, db_utils
-
-MEDIA_FILES_MAIN_PATH = paths.WATCHERS_DOWNLOAD_PATH
-MEDIA_FILES_VIDEO_ARCHIVE_PATH = "G:\\Filme"
-MEDIA_FILES_AUDIO_ARCHIVE_PATH = "G:\\Music\\yt_watchers"
-PLAYLIST_FILES_PATH = "E:\\Google Drive\\Mu\\plist"
-
+from youtube.watchers.youtube.api import YoutubeWorker
+from youtube.watchers.youtube.manager import YoutubeWatchersManager
 
 DB_TO_IGNORE = [
     "TheNetNinja.txt"
@@ -89,9 +87,9 @@ def check_db_playlist_media_validity():
         if to_process:
             file_name_no_ext = db_file.get_plain_name()
             media_paths = [
-                MEDIA_FILES_MAIN_PATH + "\\" + file_name_no_ext,
-                MEDIA_FILES_AUDIO_ARCHIVE_PATH + "\\" + file_name_no_ext,
-                MEDIA_FILES_VIDEO_ARCHIVE_PATH + "\\" + file_name_no_ext
+                WATCHERS_DOWNLOAD_PATH + "\\" + file_name_no_ext,
+                FILES_AUDIO_ARCHIVE_PATH + "\\" + file_name_no_ext,
+                FILES_VIDEO_ARCHIVE_PATH + "\\" + file_name_no_ext
             ]
 
             media_paths = list(filter(lambda p: file.dir_exists(p), media_paths))
@@ -99,11 +97,22 @@ def check_db_playlist_media_validity():
             print(f"Media Validity: {valid}")
 
 
+def run_watchers_integrity():
+    youtube_watchers = paths.YOUTUBE_WATCHERS_PATH
+    # youtube_watchers = paths.YOUTUBE_WATCHERS_PGM_PATH
+    dk_file = paths.API_KEY_PATH
+
+    worker = YoutubeWorker(dk_file)
+    manager = YoutubeWatchersManager(worker, youtube_watchers, paths.YOUTUBE_API_LOG)
+    manager.run_integrity()
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
-    check_db_playlist_media_validity()
+    # check_db_playlist_media_validity()
+    run_watchers_integrity()
     pass
 
 
