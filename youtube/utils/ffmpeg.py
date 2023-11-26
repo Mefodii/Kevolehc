@@ -109,6 +109,21 @@ class Ffmpeg:
         return metadata
 
     @staticmethod
+    def tags_equal(t1: dict, t2: dict) -> bool:
+        if len(t1) != len(t2):
+            return False
+
+        for k, v in t1.items():
+            v2 = t2.get(k)
+            if v2 is None:
+                return False
+
+            if str(v) != str(v2):
+                return False
+
+        return True
+
+    @staticmethod
     def get_video_resolution(video_abs_path: str) -> Tuple[int, int]:
         output = os.popen(f"ffprobe -v error -select_streams v:0 "
                           f"-show_entries stream=width,height -of csv=s=x:p=0 \"{video_abs_path}\"").read()

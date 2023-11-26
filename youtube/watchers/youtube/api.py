@@ -23,56 +23,93 @@ class YoutubeAPIVideoType(Enum):
     VIDEO_ITEM = "VIDEO_ITEM"
 
 
-class YoutubeAPIVideo:
-    def __init__(self, data: dict, item_type: YoutubeAPIVideoType):
-        # TODO - redesign. self.vido_data / self.playlist_data
+class YoutubeAPIPlaylistItem:
+    def __init__(self, data: dict):
         self.data = data
-        self.item_type = item_type
 
-    @staticmethod
-    def from_list(data_list: list[dict], item_type: YoutubeAPIVideoType):
-        return [YoutubeAPIVideo(data, item_type) for data in data_list]
+    def get_id(self): return self.data.get("snippet").get("resourceId").get("videoId")
+
+    def get_channel_name(self): return self.data.get("snippet").get("channelTitle")
+
+    def get_title(self): return self.data.get("snippet").get("title")
+
+    def get_publish_date(self) -> str: return self.data.get("contentDetails").get("videoPublishedAt")
+
+    def is_video_kind(self): return self.data.get("snippet").get("resourceId").get("kind") == "youtube#video"
+
+    def __repr__(self): return f"{self.data.__repr__()}"
+
+
+class YoutubeAPIVideoItem:
+    def __init__(self, data: dict):
+        self.data = data
+
+    def get_id(self): return self.data["id"]
+
+    def get_title(self): return self.data.get("snippet").get("title")
+
+    def get_publish_date(self) -> str: return self.data.get("snippet").get("publishedAt")
+
+    def is_livestream(self) -> bool: return self.data["snippet"]["liveBroadcastContent"] != "none"
+
+    def get_channel_id(self) -> str: return self.data["snippet"]["channelId"]
+
+    def get_duration(self) -> str: return self.data["contentDetails"]["duration"]
+
+    def __repr__(self): return f"{self.data.__repr__()}"
+
+
+class YoutubeAPIItem:
+    def __init__(self, playlist_item: YoutubeAPIPlaylistItem = None, video_item: YoutubeAPIVideoItem = None):
+        self.playlist_item = playlist_item
+        self.video_item = video_item
 
     @staticmethod
     def sort_by_publish_date(items):
         return sorted(items, key=lambda k: k.get_publish_date())
 
     def get_id(self):
-        if self.item_type == YoutubeAPIVideoType.PLAYLIST_ITEM:
-            return self.data.get("snippet").get("resourceId").get("videoId")
-        if self.item_type == YoutubeAPIVideoType.VIDEO_ITEM:
-            return self.data["id"]
+        if self.playlist_item:
+            return self.playlist_item.get_id()
 
-        raise Exception(f"Unsupported YoutubeVideoItemType: {self.item_type}")
+        if self.video_item:
+            return self.video_item.get_id()
+
+        raise Exception(f"No data")
 
     def get_channel_name(self):
-        if self.item_type == YoutubeAPIVideoType.PLAYLIST_ITEM:
-            return self.data.get("snippet").get("channelTitle")
+        if self.playlist_item:
+            return self.playlist_item.get_channel_name()
 
-        raise Exception(f"Unsupported YoutubeVideoItemType: {self.item_type}")
+        raise Exception(f"No data")
 
     def get_title(self):
-        if self.item_type == YoutubeAPIVideoType.PLAYLIST_ITEM:
-            return self.data.get("snippet").get("title")
-        if self.item_type == YoutubeAPIVideoType.VIDEO_ITEM:
-            return self.data.get("snippet").get("title")
+        if self.playlist_item:
+            return self.playlist_item.get_title()
+        if self.video_item:
+            return self.video_item.get_title()
 
-        raise Exception(f"Unsupported YoutubeVideoItemType: {self.item_type}")
+        raise Exception(f"No data")
 
     def get_publish_date(self) -> str:
-        if self.item_type == YoutubeAPIVideoType.PLAYLIST_ITEM:
-            return self.data.get("contentDetails").get("videoPublishedAt")
+        if self.playlist_item and self.video_item:
+            if self.playlist_item.get_publish_date() != self.video_item.get_publish_date():
+                print(f"Warning, something wrong. Same video has different publish date.")
+                print(repr(self))
 
-        if self.item_type == YoutubeAPIVideoType.VIDEO_ITEM:
-            return self.data.get("snippet").get("publishedAt")
+        if self.playlist_item:
+            return self.playlist_item.get_publish_date()
 
-        raise Exception(f"Unsupported YoutubeVideoItemType: {self.item_type}")
+        if self.video_item:
+            return self.video_item.get_publish_date()
+
+        raise Exception(f"No data")
 
     def is_livestream(self) -> bool:
-        if self.item_type == YoutubeAPIVideoType.VIDEO_ITEM:
-            return self.data["snippet"]["liveBroadcastContent"] != "none"
+        if self.video_item:
+            return self.video_item.is_livestream()
 
-        raise Exception(f"Unsupported YoutubeVideoItemType: {self.item_type}")
+        raise Exception(f"No data")
 
     def is_short(self) -> bool:
         # TODO - make a http request to check if it's a short (dunno if it will work, requests timeout possible)
@@ -82,22 +119,22 @@ class YoutubeAPIVideo:
         return 0 < self.get_duration_seconds() <= MAX_DURATION
 
     def is_video_kind(self):
-        if self.item_type == YoutubeAPIVideoType.PLAYLIST_ITEM:
-            return self.data.get("snippet").get("resourceId").get("kind") == "youtube#video"
+        if self.playlist_item:
+            return self.playlist_item.is_video_kind()
 
-        raise Exception(f"Unsupported YoutubeVideoItemType: {self.item_type}")
+        raise Exception(f"No data")
 
     def get_channel_id(self) -> str:
-        if self.item_type == YoutubeAPIVideoType.VIDEO_ITEM:
-            return self.data["snippet"]["channelId"]
+        if self.video_item:
+            return self.video_item.get_channel_id()
 
-        raise Exception(f"Unsupported YoutubeVideoItemType: {self.item_type}")
+        raise Exception(f"No data")
 
     def get_duration(self) -> str:
-        if self.item_type == YoutubeAPIVideoType.VIDEO_ITEM:
-            return self.data["contentDetails"]["duration"]
+        if self.video_item:
+            return self.video_item.get_duration()
 
-        raise Exception(f"Unsupported YoutubeVideoItemType: {self.item_type}")
+        raise Exception(f"No data")
 
     def get_duration_seconds(self) -> int:
         duration_str = self.get_duration()
@@ -120,7 +157,22 @@ class YoutubeAPIVideo:
         return total_seconds
 
     def __repr__(self):
-        return f"{self.item_type.__repr__()}, {self.data.__repr__()}"
+        return f"Playlist data: {self.playlist_item.__repr__()}.\nVideo data: {self.video_item.__repr__()}"
+
+
+def merge_items(playlist_items: list[YoutubeAPIPlaylistItem],
+                video_items: list[YoutubeAPIVideoItem]) -> list[YoutubeAPIItem]:
+    result: dict[str, YoutubeAPIItem] = {item.get_id(): YoutubeAPIItem(playlist_item=item)
+                                         for item in playlist_items}
+
+    for item in video_items:
+        result[item.get_id()].video_item = item
+
+    for item in result.values():
+        if item.video_item is None:
+            raise Exception(f"API item has no video_item data: {repr(item)}")
+
+    return list(result.values())
 
 
 class YoutubeWorker:
@@ -146,7 +198,7 @@ class YoutubeWorker:
 
         return uploads_id
 
-    def get_uploads(self, channel_id: str, min_date: str, max_date: str = None) -> list[YoutubeAPIVideo]:
+    def get_uploads(self, channel_id: str, min_date: str, max_date: str = None) -> list[YoutubeAPIItem]:
         """
         :param channel_id:
         :param min_date:
@@ -155,7 +207,7 @@ class YoutubeWorker:
         """
         uploads_playlist_id = self.get_uploads_playlist_id(channel_id)
 
-        uploads: list[YoutubeAPIVideo] = []
+        playlist_items: list[YoutubeAPIPlaylistItem] = []
         has_next_page = True
         token = ""
         reached_yt_date = False
@@ -171,51 +223,29 @@ class YoutubeWorker:
                 good_min_date = compare_yt_dates(published_at, min_date) == 1
                 good_max_date = True if not max_date else compare_yt_dates(published_at, max_date) <= 0
                 if good_min_date and good_max_date:
-                    uploads.append(item)
+                    playlist_items.append(item)
                 elif good_min_date and not good_max_date:
                     continue
                 else:
                     reached_yt_date = True
 
-        uploads = self.remove_livestreams(uploads)
+        video_items = self.get_videos([item.get_id() for item in playlist_items])
+        uploads = merge_items(playlist_items, video_items)
+
+        # Reverse uploads so it will be ascendent by published_at
         result = uploads[::-1]
 
         # Note 2023.10.17: a check to be sure that results is still received in
         #  chronological order and API is working as usual
-        sorted_uploads = YoutubeAPIVideo.sort_by_publish_date(uploads)
+        sorted_uploads = YoutubeAPIItem.sort_by_publish_date(uploads)
         for i1, i2 in zip(sorted_uploads, result):
             if i1 != i2:
                 print("Warning! sort problem", i1, i2)
 
         return result
 
-    def remove_livestreams(self, items: list[YoutubeAPIVideo]) -> list[YoutubeAPIVideo]:
-        result = []
-
-        ids = [item.get_id() for item in items]
-        for a, b in zip(self.get_videos(ids), items):
-            checked_item: YoutubeAPIVideo = a
-            original_item: YoutubeAPIVideo = b
-
-            if checked_item.get_publish_date() != original_item.get_publish_date():
-                print(f"Warning, something wrong. Same video has different publish date.")
-                print(original_item.data)
-                print(checked_item.data)
-
-            if checked_item.is_livestream():
-                print(f"Livestream to be ignored: {checked_item}")
-            elif not checked_item.has_valid_duration():
-                print(f"Item has no valid duration: {checked_item.get_duration()}. Item: {checked_item}")
-            else:
-                result += [original_item]
-
-        if len(result) != len(items):
-            print("Some items were ignored. Be cautious")
-
-        return result
-
-    def get_videos(self, id_list: list[str]) -> list[YoutubeAPIVideo]:
-        items: list[YoutubeAPIVideo] = []
+    def get_videos(self, id_list: list[str]) -> list[YoutubeAPIVideoItem]:
+        items: list[YoutubeAPIVideoItem] = []
 
         # Breaks id_list in arrays of the length of MAX_RESULTS
         chunks = [id_list[i:i + MAX_RESULTS] for i in range(0, len(id_list), MAX_RESULTS)]
@@ -226,14 +256,15 @@ class YoutubeWorker:
                 id=comma_chunk
             )
             response = request.execute()
-            items += YoutubeAPIVideo.from_list(response.get('items'), YoutubeAPIVideoType.VIDEO_ITEM)
+            items += [YoutubeAPIVideoItem(item) for item in response.get('items')]
 
         if len(id_list) != len(items):
             print("Warning: not all videos extracted!")
 
         return items
 
-    def get_playlist_items(self, playlist_id: str, page_token: str) -> Tuple[list[YoutubeAPIVideo], str | None, bool]:
+    def get_playlist_items(self, playlist_id: str, page_token: str) \
+            -> Tuple[list[YoutubeAPIPlaylistItem], str | None, bool]:
         # Note 2023.10.17: It seems that results are sorted by publish date
 
         request = self.youtube.playlistItems().list(
@@ -245,7 +276,7 @@ class YoutubeWorker:
         response = request.execute()
         token = response.get('nextPageToken')
         has_next_page = True
-        items = YoutubeAPIVideo.from_list(response.get('items'), YoutubeAPIVideoType.PLAYLIST_ITEM)
+        items = [YoutubeAPIPlaylistItem(item) for item in response.get('items')]
 
         if not items or not token:
             has_next_page = False
@@ -255,5 +286,3 @@ class YoutubeWorker:
     def get_channel_id_from_video(self, video_id: str) -> str:
         item = self.get_videos([video_id])[0]
         return item.get_channel_id()
-
-

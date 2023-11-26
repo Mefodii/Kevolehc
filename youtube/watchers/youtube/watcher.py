@@ -3,7 +3,7 @@ from typing import Self
 
 from utils import file
 from youtube.model.file_extension import FileExtension
-from youtube.watchers.youtube.api import YoutubeAPIVideo
+from youtube.watchers.youtube.api import YoutubeAPIItem
 from youtube.watchers.youtube.media import YoutubeVideo, YoutubeVideoList
 
 from youtube import paths
@@ -45,9 +45,6 @@ class YoutubeWatcher:
         self.file_extension = file_extension
         self.download = download
 
-        if self.file_extension.is_audio() and playlist_file is None and not self.is_dummy:
-            raise Exception(f"Playlist file expected for watcher: {self.name}")
-
         self.playlist_file = playlist_file
         self.video_quality = video_quality
 
@@ -57,7 +54,7 @@ class YoutubeWatcher:
         self.videos: list[YoutubeVideo] = []
         self.missing_videos: list[YoutubeVideo] = []
         self.changed_videos: list[tuple[YoutubeVideo, YoutubeVideo]] = []
-        self.api_videos: list[YoutubeAPIVideo] = []
+        self.api_videos: list[YoutubeAPIItem] = []
         self.db_videos = YoutubeVideoList.from_file(self.db_file, empty_if_not_found=True)
         self.new_check_date = None
 
@@ -76,14 +73,24 @@ class YoutubeWatcher:
     def append_video(self, yt_video: YoutubeVideo) -> None:
         self.videos.append(yt_video)
 
-    def init_video(self, api_video: YoutubeAPIVideo) -> YoutubeVideo:
+    def init_video(self, api_video: YoutubeAPIItem) -> YoutubeVideo:
         video_id = api_video.get_id()
         title = api_video.get_title()
         channel_name = self.name
         published_at = api_video.get_publish_date()
+        status = YoutubeVideo.STATUS_NO_STATUS
+        video_type = YoutubeVideo.TYPE_REGULAR
+        if api_video.is_livestream():
+            status = YoutubeVideo.STATUS_SKIP
+            video_type = YoutubeVideo.TYPE_LIVESTREAM
+
+        if not api_video.has_valid_duration():
+            status = YoutubeVideo.STATUS_SKIP
+            video_type = YoutubeVideo.TYPE_LONG
 
         video = YoutubeVideo(video_id, title, channel_name, published_at, self.video_count, self.save_location,
-                             file_extension=self.file_extension, file_name=None, video_quality=self.video_quality)
+                             file_extension=self.file_extension, file_name=None, video_quality=self.video_quality,
+                             video_type=video_type, status=status)
         return video
 
     @classmethod

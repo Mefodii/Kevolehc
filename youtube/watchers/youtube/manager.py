@@ -120,9 +120,14 @@ class YoutubeWatchersManager:
 
             self.log(f"{watcher.name.ljust(30)} || New uploads - {len(videos)}")
             for item in videos:
-                self.log("\t" + str(item.data))
+                self.log("\t" + repr(item))
                 watcher.video_count += 1
                 yt_video = watcher.init_video(item)
+                if yt_video.status == YoutubeVideo.STATUS_SKIP:
+                    if yt_video.video_type == YoutubeVideo.TYPE_LIVESTREAM:
+                        print(f"Livestream to be ignored: {item}")
+                    if yt_video.video_type == YoutubeVideo.TYPE_LONG:
+                        print(f"Item has no valid duration: {item.get_duration()}. Item: {item}")
                 watcher.append_video(yt_video)
 
     def generate_queue(self) -> None:
@@ -131,6 +136,9 @@ class YoutubeWatchersManager:
         self.queue_list = []
         for watcher in self.watchers:
             for video in watcher.videos:
+                if video.status != YoutubeVideo.STATUS_NO_STATUS:
+                    continue
+
                 queue = YoutubeQueue.from_youtubevideo(video)
                 self.queue_list.append(queue)
                 print(repr(queue))

@@ -32,10 +32,11 @@ class YoutubeVideo:
     TYPE_REGULAR = "TYPE_REGULAR"
     TYPE_SHORT = "TYPE_SHORT"
     TYPE_LIVESTREAM = "TYPE_LIVESTREAM"
+    TYPE_LONG = "TYPE_LONG"
 
     def __init__(self, video_id: str, title: str, channel_name: str, published_at: str, number: int,
                  save_location: str = None, file_extension: FileExtension = None, file_name: str = None,
-                 video_quality: int = None, status: str = None):
+                 video_quality: int = None, video_type: str = None, status: str = None):
         self.video_id = video_id
         self.title = replace_unicode_chars(normalize('NFC', title))
         self.channel_name = channel_name
@@ -47,9 +48,8 @@ class YoutubeVideo:
         self.init_file_name()
         self.file_extension = file_extension
         self.video_quality = video_quality
-        # TODO - extract type from api
-        self.video_type = self.TYPE_REGULAR
 
+        self.video_type = video_type if video_type else self.TYPE_REGULAR
         self.status = status if status else YoutubeVideo.STATUS_NO_STATUS
 
     @classmethod

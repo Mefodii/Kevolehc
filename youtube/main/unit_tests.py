@@ -42,8 +42,6 @@ TEST_SYNC_DB_PATH_BEFORE = "\\".join([TEST_SYNC_DB_PATH, "before"])
 TEST_SYNC_DB_PATH_AFTER = "\\".join([TEST_SYNC_DB_PATH, "after"])
 
 
-
-
 def files_content_equal(f1, f2) -> bool:
     """
     read and compare the content of 2 files
@@ -104,11 +102,11 @@ def test_video_sort_order() -> bool:
                f"Has publish dates: {items[i].get_publish_date()} and {items[i+1].get_publish_date()}")
 
     for item in items:
-        publish_fields_equals = item.get_publish_date() == item.data.get("snippet").get("publishedAt")
+        publish_fields_equals = item.playlist_item.get_publish_date() == item.video_item.get_publish_date()
         if not publish_fields_equals:
             ok = False
             ic(f"Video: {item.get_id()}. "
-               f"Has publish dates: {item.get_publish_date()} and {item.data.get('snippet').get('publishedAt')}")
+               f"Has publish dates: {item.playlist_item.get_publish_date()} and {item.video_item.get_publish_date()}")
 
     return ok
 
@@ -219,7 +217,7 @@ def test_sync_media() -> bool:
 
     temp_files = file.list_files(temp_folder)
     if len(temp_files) != len(after_files):
-        ic(f"Files len not matching. Expected: {len(after_files)}. Actual: {len(temp_files)}")
+        print(f"Files len not matching. Expected: {len(after_files)}. Actual: {len(temp_files)}")
         return False
 
     for f1, f2 in zip(temp_files, after_files):
@@ -227,14 +225,17 @@ def test_sync_media() -> bool:
         expected_file: File = f2
 
         if f1.name != f2.name:
-            ic(f"Files not equal. Expected: {expected_file.name}. Actual: {temp_file.name}")
+            print(f"Files not equal. Expected: {expected_file.name}. Actual: {temp_file.name}")
             return False
 
         temp_tags = Ffmpeg.read_metadata_json(temp_file.get_abs_path(), loglevel="error")
         expected_tags = Ffmpeg.read_metadata_json(expected_file.get_abs_path(), loglevel="error")
 
-        if str(temp_tags) != str(expected_tags):
-            ic(f"Tags not equal. Expected: {str(expected_tags)}. Actual: {str(temp_tags)}")
+        if not Ffmpeg.tags_equal(expected_tags, temp_tags):
+            print(f"Tags not equal")
+            print(f"Expected: {str(expected_tags)}.")
+            print(f"Actual: {str(temp_tags)}")
+            return False
 
     [f.delete() for f in temp_files]
     os.rmdir(temp_folder)
@@ -265,7 +266,7 @@ def __main__():
         test_db_utils,
         test_playlist_utils,
         # test_video_sort_order,
-        # test_sync_media,
+        test_sync_media,
         test_watchers_json,
     ]
 
