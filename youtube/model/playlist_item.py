@@ -10,6 +10,7 @@ START_POS_NUMBER = 167
 
 ITEM_FLAG_DEFAULT = " [ ]"
 ITEM_FLAG_MISSING = " [@]"
+ITEM_FLAG_SKIP = " [N]"
 
 DUMMY = "!DUMMY!"
 
@@ -26,9 +27,14 @@ class PlaylistItem:
         self.is_dummy = True if title == DUMMY else False
 
     @classmethod
-    def from_youtubevideo(cls, item: YoutubeVideo):
-        item_flag = ITEM_FLAG_DEFAULT if file.exists(item.get_file_abs_path()) else ITEM_FLAG_MISSING
-        obj = PlaylistItem(item.title, item.get_url(), item_flag, item.number)
+    def from_youtubevideo(cls, video: YoutubeVideo):
+        item_flag = ITEM_FLAG_DEFAULT
+        if video.status in (YoutubeVideo.STATUS_MISSING, YoutubeVideo.STATUS_UNABLE):
+            item_flag = ITEM_FLAG_MISSING
+        if video.status == YoutubeVideo.STATUS_SKIP:
+            item_flag = ITEM_FLAG_SKIP
+
+        obj = PlaylistItem(video.title, video.get_url(), item_flag, video.number)
         return obj
 
     @classmethod
