@@ -191,11 +191,11 @@ def test_playlist_utils() -> bool:
 
     playlist_list.write(output_file)
     item_1 = PlaylistItem("item_1", "https://www.youtube.com/watch?v=test_1xxxxx",
-                          playlist_item.ITEM_FLAG_DEFAULT, 1)
+                          PlaylistItem.ITEM_FLAG_DEFAULT, 1)
     item_end = PlaylistItem("item_end", "https://www.youtube.com/watch?v=test_endxxx",
-                            playlist_item.ITEM_FLAG_DEFAULT, 70)
+                            PlaylistItem.ITEM_FLAG_DEFAULT, 70)
     item_mid = PlaylistItem("item_mid", "https://www.youtube.com/watch?v=test_midxxx",
-                            playlist_item.ITEM_FLAG_DEFAULT, 21)
+                            PlaylistItem.ITEM_FLAG_DEFAULT, 21)
     playlist_utils.insert(output_file, [item_end, item_mid, item_1])
     if not files_content_equal(TEST_PLAYLIST_INSERT, output_file):
         return False

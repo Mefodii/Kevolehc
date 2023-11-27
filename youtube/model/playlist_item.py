@@ -3,19 +3,19 @@ from typing import Self
 from utils import file
 from youtube.watchers.youtube.media import YoutubeVideo
 
-START_POS_ITEM_FLAG = 0
-START_POS_TITLE = 5
-START_POS_URL = 115
-START_POS_NUMBER = 167
-
-ITEM_FLAG_DEFAULT = " [ ]"
-ITEM_FLAG_MISSING = " [@]"
-ITEM_FLAG_SKIP = " [N]"
-
-DUMMY = "!DUMMY!"
-
 
 class PlaylistItem:
+    START_POS_ITEM_FLAG = 0
+    START_POS_TITLE = 5
+    START_POS_URL = 115
+    START_POS_NUMBER = 167
+
+    ITEM_FLAG_DEFAULT = " [ ]"
+    ITEM_FLAG_MISSING = " [@]"
+    ITEM_FLAG_SKIP = " [N]"
+
+    DUMMY = "!DUMMY!"
+
     def __init__(self, title: str, url: str, item_flag: str, number: int = None):
         self.title = title
         self.url = url
@@ -24,31 +24,31 @@ class PlaylistItem:
         # Note: currently no special handling for children.
         # Every line which is under this item and until next PlaylistItem is considered as child.
         self.children: list[str] = []
-        self.is_dummy = True if title == DUMMY else False
+        self.is_dummy = True if title == PlaylistItem.DUMMY else False
 
     @classmethod
     def from_youtubevideo(cls, video: YoutubeVideo):
-        item_flag = ITEM_FLAG_DEFAULT
+        item_flag = PlaylistItem.ITEM_FLAG_DEFAULT
         if video.status in (YoutubeVideo.STATUS_MISSING, YoutubeVideo.STATUS_UNABLE):
-            item_flag = ITEM_FLAG_MISSING
+            item_flag = PlaylistItem.ITEM_FLAG_MISSING
         if video.status == YoutubeVideo.STATUS_SKIP:
-            item_flag = ITEM_FLAG_SKIP
+            item_flag = PlaylistItem.ITEM_FLAG_SKIP
 
         obj = PlaylistItem(video.title, video.get_url(), item_flag, video.number)
         return obj
 
     @classmethod
     def from_str(cls, line: str):
-        item_flag = line[START_POS_ITEM_FLAG:START_POS_TITLE].rstrip()
-        title = line[START_POS_TITLE:START_POS_URL].rstrip()
-        url = line[START_POS_URL:START_POS_NUMBER].rstrip()
-        number = int(line[START_POS_NUMBER:].rstrip()) if len(line) > START_POS_NUMBER else None
+        item_flag = line[PlaylistItem.START_POS_ITEM_FLAG:PlaylistItem.START_POS_TITLE].rstrip()
+        title = line[PlaylistItem.START_POS_TITLE:PlaylistItem.START_POS_URL].rstrip()
+        url = line[PlaylistItem.START_POS_URL:PlaylistItem.START_POS_NUMBER].rstrip()
+        number = int(line[PlaylistItem.START_POS_NUMBER:].rstrip())
         obj = PlaylistItem(title, url, item_flag, number)
         return obj
 
     @classmethod
     def dummy(cls):
-        return PlaylistItem(DUMMY, "", "")
+        return PlaylistItem(PlaylistItem.DUMMY, "", "")
 
     @staticmethod
     def is_playlist_str(line: str) -> bool:
@@ -60,14 +60,12 @@ class PlaylistItem:
 
     def __str__(self):
         if self.is_dummy:
-            return DUMMY
+            return PlaylistItem.DUMMY
 
-        s = "".ljust(START_POS_ITEM_FLAG) + self.item_flag
-        s = s.ljust(START_POS_TITLE) + self.title
-        s = s.ljust(START_POS_URL) + self.url
-
-        if self.number is not None:
-            s = s.ljust(START_POS_NUMBER) + str(self.number)
+        s = "".ljust(PlaylistItem.START_POS_ITEM_FLAG) + self.item_flag
+        s = s.ljust(PlaylistItem.START_POS_TITLE) + self.title
+        s = s.ljust(PlaylistItem.START_POS_URL) + self.url
+        s = s.ljust(PlaylistItem.START_POS_NUMBER) + str(self.number)
         return s
 
 
