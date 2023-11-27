@@ -112,6 +112,9 @@ class YoutubeWatchersManager:
 
         self.queue_list = []
         for watcher in self.watchers:
+            if not watcher.download:
+                continue
+
             for video in watcher.videos + watcher.missing_videos:
                 if video.status != YoutubeVideo.STATUS_NO_STATUS:
                     continue
@@ -145,6 +148,9 @@ class YoutubeWatchersManager:
 
     def append_tags(self) -> None:
         for watcher in self.watchers:
+            if not watcher.download:
+                continue
+
             for video in watcher.videos + watcher.missing_videos:
                 tags = FileTags.extract_from_youtubevideo(video)
 
@@ -221,6 +227,9 @@ class YoutubeWatchersManager:
 
     def update_media_files(self):
         for watcher in self.watchers:
+            if not watcher.download:
+                continue
+
             if not watcher.missing_videos and not watcher.changed_videos:
                 continue
 

@@ -95,12 +95,19 @@ def db_to_list():
         file.write_json(db_file_path, db_data)
 
 
+def get_channel_id():
+    dk_file = paths.API_KEY_PATH
+    worker = YoutubeWorker(dk_file)
+    video_id = "jjy0bIO-YNI"
+    print(worker.get_channel_id_from_video(video_id))
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
     # shift_db()
-    get_yt_video_info()
+    get_channel_id()
     # sync_media()
     pass
 
