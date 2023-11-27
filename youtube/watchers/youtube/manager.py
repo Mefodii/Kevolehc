@@ -196,7 +196,8 @@ class YoutubeWatchersManager:
 
                 # Check and update video title in db if changed
                 if db_video.title != new_video.title:
-                    message = f"Changed title: {db_video.video_id} | API: {new_video.title} | DB: {db_video.title}"
+                    message = (f"Changed title. Id: {db_video.video_id} | Nr: {db_video.number} | "
+                               f"API: {new_video.title} | DB: {db_video.title}")
                     self.log(message, True)
                     db_video.title = new_video.title
                     db_video.file_name = db_video.generate_file_name()
