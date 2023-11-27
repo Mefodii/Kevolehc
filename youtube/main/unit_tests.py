@@ -8,7 +8,6 @@ from icecream import ic
 from utils import file
 from utils.file import File
 from youtube import paths
-from youtube.model import playlist_item
 from youtube.model.file_extension import FileExtension
 from youtube.model.playlist_item import PlaylistItem, PlaylistItemList
 from youtube.paths import TESTS_PATH
@@ -265,7 +264,7 @@ def __main__():
         test_yt_to_py,
         test_db_utils,
         test_playlist_utils,
-        # test_video_sort_order,
+        test_video_sort_order,
         test_sync_media,
         test_watchers_json,
     ]

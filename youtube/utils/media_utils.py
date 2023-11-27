@@ -1,8 +1,6 @@
 import os
 from builtins import any
 
-from icecream import ic
-
 from utils import file
 from utils.file import File
 from youtube.model.file_extension import FileExtension

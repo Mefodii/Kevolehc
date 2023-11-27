@@ -12,7 +12,7 @@ from youtube.paths import RESOURCES_PATH as FFMPEG_PATH, WATCHERS_DOWNLOAD_PATH,
 from youtube.utils import yt_datetime, media_utils
 from youtube.utils.yt_datetime import compare_yt_dates
 
-from youtube.watchers.youtube.media import YoutubeVideo, YoutubeVideoList
+from youtube.watchers.youtube.media import YoutubeVideo
 from youtube.watchers.youtube.queue import YoutubeQueue
 from youtube.watchers.youtube.watcher import YoutubeWatcher
 
