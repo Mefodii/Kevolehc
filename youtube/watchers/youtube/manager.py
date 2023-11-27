@@ -86,19 +86,18 @@ class YoutubeWatchersManager:
         for watcher in self.watchers:
             self.log(f'Checking: {watcher.channel_id} - {watcher.name}')
             watcher.new_check_date = yt_datetime.get_current_ytdate()
-            videos = self.api.get_uploads(watcher.channel_id, watcher.check_date)
+            api_videos = self.api.get_uploads(watcher.channel_id, watcher.check_date)
 
-            self.log(f"{watcher.name.ljust(30)} || New uploads - {len(videos)}")
-            for item in videos:
-                self.log("\t" + repr(item))
+            self.log(f"{watcher.name.ljust(30)} || New uploads - {len(api_videos)}")
+            for api_video in api_videos:
+                self.log("\t" + repr(api_video))
                 watcher.video_count += 1
-                yt_video = watcher.init_video(item)
-                if yt_video.status == YoutubeVideo.STATUS_SKIP:
-                    if yt_video.video_type == YoutubeVideo.TYPE_LIVESTREAM:
-                        print(f"Livestream to be ignored: {item}")
-                    if yt_video.video_type == YoutubeVideo.TYPE_LONG:
-                        print(f"Item has no valid duration: {item.get_duration()}. Item: {item}")
-                watcher.append_video(yt_video)
+                video = watcher.init_video(api_video)
+                if video.status == YoutubeVideo.STATUS_SKIP:
+                    print("Video skipped")
+                    print(f"Video data: {video}")
+                    print(f"Api data: {api_video}")
+                watcher.append_video(video)
 
     def extract_all_api_videos(self):
         for watcher in self.watchers:

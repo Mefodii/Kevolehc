@@ -84,9 +84,6 @@ class YoutubeWatcher:
         published_at = api_video.get_publish_date()
         status = YoutubeVideo.STATUS_NO_STATUS
         video_type = YoutubeVideo.TYPE_REGULAR
-        if api_video.is_livestream():
-            status = YoutubeVideo.STATUS_SKIP
-            video_type = YoutubeVideo.TYPE_LIVESTREAM
 
         if not api_video.has_valid_duration():
             status = YoutubeVideo.STATUS_SKIP

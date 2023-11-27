@@ -50,7 +50,9 @@ class YoutubeAPIVideoItem:
 
     def get_publish_date(self) -> str: return self.data.get("snippet").get("publishedAt")
 
-    def is_livestream(self) -> bool: return self.data["snippet"]["liveBroadcastContent"] != "none"
+    def is_livestream(self) -> bool: return self.data["snippet"]["liveBroadcastContent"] == "live"
+
+    def is_upcoming(self) -> bool: return self.data["snippet"]["liveBroadcastContent"] == "upcoming"
 
     def get_channel_id(self) -> str: return self.data["snippet"]["channelId"]
 
@@ -108,6 +110,12 @@ class YoutubeAPIItem:
     def is_livestream(self) -> bool:
         if self.video_item:
             return self.video_item.is_livestream()
+
+        raise Exception(f"No data")
+
+    def is_upcoming(self) -> bool:
+        if self.video_item:
+            return self.video_item.is_upcoming()
 
         raise Exception(f"No data")
 
@@ -175,6 +183,17 @@ def merge_items(playlist_items: list[YoutubeAPIPlaylistItem],
     return list(result.values())
 
 
+def filter_items(uploads: list[YoutubeAPIItem]) -> list[YoutubeAPIItem]:
+    filtered: list[YoutubeAPIItem] = []
+    for item in uploads:
+        if item.is_upcoming() or item.is_livestream():
+            print(f"Api video filtered out: {item}")
+            continue
+
+        filtered.append(item)
+    return filtered
+
+
 class YoutubeWorker:
 
     def __init__(self, dk_file: str):
@@ -231,6 +250,7 @@ class YoutubeWorker:
 
         video_items = self.get_videos([item.get_id() for item in playlist_items])
         uploads = merge_items(playlist_items, video_items)
+        uploads = filter_items(uploads)
 
         # Reverse uploads so it will be ascendent by published_at
         result = uploads[::-1]

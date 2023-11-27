@@ -50,8 +50,8 @@ def update_channel_kv():
 def get_yt_video_info():
     dk_file = paths.API_KEY_PATH
     worker = YoutubeWorker(dk_file)
-    video_ids = ["vod6bKSBBh8"]
-    ic(worker.get_videos(video_ids))
+    video_ids = ["66iWj5CdsO8"]
+    print(worker.get_videos(video_ids))
 
 
 def shift_db():
@@ -100,7 +100,7 @@ def db_to_list():
 #######################################################################################################################
 def __main__():
     # shift_db()
-    alter_db_kv()
+    get_yt_video_info()
     # sync_media()
     pass
 
