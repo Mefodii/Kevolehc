@@ -57,7 +57,6 @@ class YoutubeWatchersManager:
         self.finish()
 
     def retry_unables(self):
-        # TODO - functionality to tested yet
         for watcher in self.watchers:
             videos_list = watcher.db_videos
 
