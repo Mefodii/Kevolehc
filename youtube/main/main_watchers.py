@@ -22,10 +22,6 @@ def __main__():
 # Process
 #######################################################################################################################
 if __name__ == "__main__":
-    # TODO - update dependencies (after all others todo's are done)
-    # TODO - fix dynamic calls
-    # TODO - remove unused imports
-    # TODO - comment methods
     # Start time of the program
     start = time.time()
 
