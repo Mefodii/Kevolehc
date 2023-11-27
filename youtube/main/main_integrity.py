@@ -107,12 +107,23 @@ def run_watchers_integrity():
     manager.run_integrity()
 
 
+def run_watchers_unables():
+    youtube_watchers = paths.YOUTUBE_WATCHERS_PATH
+    # youtube_watchers = paths.YOUTUBE_WATCHERS_PGM_PATH
+    dk_file = paths.API_KEY_PATH
+
+    worker = YoutubeWorker(dk_file)
+    manager = YoutubeWatchersManager(worker, youtube_watchers, paths.YOUTUBE_API_LOG)
+    manager.retry_unables()
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
     # check_db_playlist_media_validity()
-    run_watchers_integrity()
+    # run_watchers_integrity()
+    run_watchers_unables()
     pass
 
 

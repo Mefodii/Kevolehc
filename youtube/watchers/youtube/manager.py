@@ -59,10 +59,13 @@ class YoutubeWatchersManager:
     def retry_unables(self):
         # TODO - functionality to tested yet
         for watcher in self.watchers:
-            videos_list = YoutubeVideoList.from_file(watcher.db_file)
+            videos_list = watcher.db_videos
 
             for db_video in videos_list.videos:
                 if db_video.status == YoutubeVideo.STATUS_UNABLE:
+                    db_video.status = YoutubeVideo.STATUS_NO_STATUS
+                    db_video.save_location = watcher.save_location
+                    db_video.video_quality = watcher.video_quality
                     watcher.append_video(db_video)
 
         self.generate_queue()
@@ -201,7 +204,18 @@ class YoutubeWatchersManager:
 
     def update_files_unables(self):
         for watcher in self.watchers:
-            updated = any([video.status == YoutubeVideo.STATUS_DOWNLOADED for video in watcher.videos])
+            playlist_file = watcher.playlist_file
+            playlist_items = watcher.playlist_items
+
+            updated = False
+            for video in watcher.videos:
+                if video.status == YoutubeVideo.STATUS_DOWNLOADED:
+                    updated = True
+                    if playlist_file:
+                        item = playlist_items.get_by_url(video.get_url())
+                        if item.item_flag == PlaylistItem.ITEM_FLAG_MISSING:
+                            item.item_flag = PlaylistItem.ITEM_FLAG_DEFAULT
+
             if updated:
                 watcher.db_videos.write(watcher.db_file)
                 if watcher.playlist_file:
