@@ -64,9 +64,11 @@ class YoutubeVideo:
         file_name = data[YoutubeVideo.FILE_NAME]
         video_quality = data.get(YoutubeVideo.VIDEO_QUALITY, None)
         status = data[YoutubeVideo.STATUS]
+        video_type = data[YoutubeVideo.VIDEO_TYPE]
 
         obj = cls(video_id, title, channel_name, published_at, number, save_location=None,
-                  file_extension=file_extension, file_name=file_name, video_quality=video_quality, status=status)
+                  file_extension=file_extension, file_name=file_name, video_quality=video_quality,
+                  status=status, video_type=video_type)
         return obj
 
     def init_file_name(self) -> None:
@@ -104,6 +106,7 @@ class YoutubeVideo:
             YoutubeVideo.FILE_NAME: self.file_name,
             YoutubeVideo.VIDEO_QUALITY: self.video_quality,
             YoutubeVideo.STATUS: self.status,
+            YoutubeVideo.VIDEO_TYPE: self.video_type,
         }
 
         # Remove all keys with value None

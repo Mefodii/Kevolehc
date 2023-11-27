@@ -21,12 +21,9 @@ def alter_db_kv():
 
         videos_list = YoutubeVideoList.from_file(db_file)
 
-        for video in videos_list.videos:
-            video.file_name = video.generate_file_name()
-
         # change DB keys and values
 
-        # YoutubeVideo.write(db_file, db_videos)
+        # videos_list.write(db_file)
 
 
 def update_channel_kv():
@@ -103,7 +100,7 @@ def db_to_list():
 #######################################################################################################################
 def __main__():
     # shift_db()
-    shift_playlist()
+    alter_db_kv()
     # sync_media()
     pass
 
