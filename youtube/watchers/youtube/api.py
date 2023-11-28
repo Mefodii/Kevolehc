@@ -1,11 +1,11 @@
 import os
 import re
 from typing import Tuple
-from enum import Enum
 
 import googleapiclient.discovery
 
 from utils import file
+from youtube.utils.file_names import replace_chars_variations
 from youtube.utils.yt_datetime import compare_yt_dates
 
 # Disable OAuthlib's HTTPS verification when running locally.
@@ -18,20 +18,20 @@ MAX_RESULTS = 50
 MAX_DURATION = 32400  # 9 hours
 
 
-class YoutubeAPIVideoType(Enum):
-    PLAYLIST_ITEM = "PLAYLIST_ITEM"
-    VIDEO_ITEM = "VIDEO_ITEM"
-
-
 class YoutubeAPIPlaylistItem:
     def __init__(self, data: dict):
         self.data = data
+        self.replace_title()
 
     def get_id(self): return self.data.get("snippet").get("resourceId").get("videoId")
 
     def get_channel_name(self): return self.data.get("snippet").get("channelTitle")
 
     def get_title(self): return self.data.get("snippet").get("title")
+
+    def set_title(self, new_title: str): self.data["snippet"]["title"] = new_title
+
+    def replace_title(self): self.set_title(replace_chars_variations(self.get_title()))
 
     def get_publish_date(self) -> str: return self.data.get("contentDetails").get("videoPublishedAt")
 
@@ -43,10 +43,14 @@ class YoutubeAPIPlaylistItem:
 class YoutubeAPIVideoItem:
     def __init__(self, data: dict):
         self.data = data
+        self.replace_title()
 
     def get_id(self): return self.data["id"]
-
     def get_title(self): return self.data.get("snippet").get("title")
+
+    def set_title(self, new_title: str): self.data["snippet"]["title"] = new_title
+
+    def replace_title(self): self.set_title(replace_chars_variations(self.get_title()))
 
     def get_publish_date(self) -> str: return self.data.get("snippet").get("publishedAt")
 

@@ -8,6 +8,7 @@ from youtube import paths
 from youtube.model.file_extension import FileExtension
 from youtube.paths import WATCHERS_DOWNLOAD_PATH, FILES_VIDEO_ARCHIVE_PATH, FILES_AUDIO_ARCHIVE_PATH
 from youtube.utils import db_utils, playlist_utils, media_utils, constants
+from youtube.utils.file_names import replace_chars_variations
 from youtube.watchers.youtube.api import YoutubeWorker
 from youtube.watchers.youtube.media import YoutubeVideo, YoutubeVideoList
 
@@ -102,12 +103,27 @@ def get_channel_id():
     print(worker.get_channel_id_from_video(video_id))
 
 
+def test_replace():
+    texts = [
+        "Voda-i-Ryba - Don`t Hesitate Don`t Panic",
+        "A''laskan Tapes - No```w We’re Awake (And Everything Is Okay)",
+        "BØJET - feelin’ high",
+        "Nob–u Loops ‒ takara silva 88’",
+        "Nobu Loops — takara silva 88````''",
+        "Nobu Loops – takara silva 88’",
+    ]
+
+    for text in texts:
+        after = replace_chars_variations(text)
+        print(text == after, text, after)
+
+
 #######################################################################################################################
 # Main function
 #######################################################################################################################
 def __main__():
     # shift_db()
-    get_channel_id()
+    test_replace()
     # sync_media()
     pass
 
