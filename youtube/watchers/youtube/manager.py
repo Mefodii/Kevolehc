@@ -84,17 +84,17 @@ class YoutubeWatchersManager:
     def check_for_updates(self) -> None:
         self.log(str(yt_datetime.get_current_ytdate()) + " - starting update process for watchers")
         for watcher in self.watchers:
-            self.log(f'Checking: {watcher.channel_id} - {watcher.name}')
+            self.log(f'Checking: {watcher.channel_id} - {watcher.name}', True)
             watcher.new_check_date = yt_datetime.get_current_ytdate()
             api_videos = self.api.get_uploads(watcher.channel_id, watcher.check_date)
 
-            self.log(f"{watcher.name.ljust(30)} || New uploads - {len(api_videos)}")
+            self.log(f"{watcher.name.ljust(30)} || New uploads - {len(api_videos)}", True)
             for api_video in api_videos:
-                self.log("\t" + repr(api_video))
+                self.log("\t" + repr(api_video), True)
                 watcher.video_count += 1
                 video = watcher.init_video(api_video)
                 if video.status == YoutubeVideo.STATUS_SKIP:
-                    print("Video skipped")
+                    self.log(f"Video skipped: {api_video.get_id()}", True)
                     print(f"Video data: {video}")
                     print(f"Api data: {api_video}")
                 watcher.append_video(video)
