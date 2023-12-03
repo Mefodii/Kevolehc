@@ -99,7 +99,7 @@ def db_to_list():
 def get_channel_id():
     dk_file = paths.API_KEY_PATH
     worker = YoutubeWorker(dk_file)
-    video_id = "jjy0bIO-YNI"
+    video_id = "AA37PC9fUmk"
     print(worker.get_channel_id_from_video(video_id))
 
 
@@ -123,7 +123,7 @@ def test_replace():
 #######################################################################################################################
 def __main__():
     # shift_db()
-    test_replace()
+    get_channel_id()
     # sync_media()
     pass
 

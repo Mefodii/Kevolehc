@@ -90,7 +90,8 @@ class YoutubeWatchersManager:
 
             self.log(f"{watcher.name.ljust(30)} || New uploads - {len(api_videos)}", True)
             for api_video in api_videos:
-                self.log("\t" + repr(api_video), True)
+                self.log("\t" + repr(api_video))
+                print(f"{api_video.get_publish_date()} | {api_video.get_id()} | {api_video.get_title()}")
                 watcher.video_count += 1
                 video = watcher.init_video(api_video)
                 if video.status == YoutubeVideo.STATUS_SKIP:
